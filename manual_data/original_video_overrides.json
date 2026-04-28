@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "updatedAt": "2026-04-23T00:00:00+08:00",
+    "notes": "用于覆写已存在于 playlist 中的视频字段，例如 performers。"
+  },
+  "videos": {
+    "03IyS_9Dt0g": {
+      "performers": [
+        "初音ミク"
+      ]
+    }
+  }
+}

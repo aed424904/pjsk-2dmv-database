@@ -1,0 +1,22 @@
+[
+  {
+    "key": "official_2dmv",
+    "name": "官方 2DMV Playlist",
+    "kind": "playlist",
+    "enabled": true,
+    "url": "https://www.youtube.com/playlist?list=PLiFNg5fXiX32G3fNBC7U02t19zVkHAmdD",
+    "videoType": "official_2dmv",
+    "versionBase": "sekai",
+    "extractors": ["staff"]
+  },
+  {
+    "key": "commissioned_original_mv",
+    "name": "书下曲本家 MV Playlist",
+    "kind": "playlist",
+    "enabled": true,
+    "url": "https://www.youtube.com/playlist?list=PLiFNg5fXiX32p4RMMDCUpjVEwXOnqyTj_",
+    "videoType": "original_mv",
+    "versionBase": "original",
+    "extractors": ["performers", "staff"]
+  }
+]

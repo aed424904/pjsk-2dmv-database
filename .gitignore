@@ -1,0 +1,43 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local logs and temporary files
+*.log
+tmp*/
+temp/
+.tmp/
+
+# Codex/Claude local workspace state
+.claude/
+
+# Generated caches
+fetch_original_videos/output/cache/
+fetch_original_videos/logs/
+fetch_original_videos/output/progress.json
+fetch_original_videos/output/failed_videos.json
+
+# Manual backups and duplicate snapshots
+backup/
+*_backup/
+
+# Local SQLite scratch files
+Database/temp.db
+*.db-journal
+*.db-wal
+*.db-shm

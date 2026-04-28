@@ -1,0 +1,16 @@
+{
+  "titleCorrections": {
+    "星空のメロディー (game ver.)": "星空のメロディー",
+    "モザイクロール (Reloaded)": "モザイクロール",
+    "ロキ (Reloaded)": "ロキ",
+    "ヴァンパイア (game ver.)": "ヴァンパイア"
+  },
+  "creatorCorrections": {
+    "幸福刑": {
+      "illustrator": "火種",
+      "videoEditor": "Riesz",
+      "lyricDesigner": "Heetami"
+    }
+  },
+  "notes": "这个文件用于修正视频标题中的不一致性和补充创作者信息"
+}
