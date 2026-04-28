@@ -432,6 +432,15 @@ class DatabaseBuilder:
         except (TypeError, ValueError):
             position = 0
 
+        try:
+            view_count = int(video.get('viewCount', 0))
+        except (TypeError, ValueError):
+            view_count = 0
+        try:
+            like_count = int(video.get('likeCount', 0))
+        except (TypeError, ValueError):
+            like_count = 0
+
         normalized = {
             'videoId': video_id,
             'url': url,
@@ -443,6 +452,8 @@ class DatabaseBuilder:
             'publishedAt': str(video.get('publishedAt') or ''),
             'thumbnails': thumbnails,
             'position': position,
+            'viewCount': view_count,
+            'likeCount': like_count,
             'source': str(video.get('source') or f"playlist:{source['key']}"),
             'sourceKey': str(video.get('sourceKey') or payload_metadata.get('sourceKey') or source['key']),
             'sourceName': str(video.get('sourceName') or payload_metadata.get('sourceName') or source['name']),
@@ -1078,6 +1089,8 @@ class DatabaseBuilder:
                 'uploadDate': resolved_video['publishedAt'],
                 'thumbnails': resolved_video['thumbnails'],
                 'playlistPosition': resolved_video['position'],
+                'viewCount': resolved_video.get('viewCount', 0),
+                'likeCount': resolved_video.get('likeCount', 0),
                 'sourceKey': resolved_video.get('sourceKey'),
                 'sourceName': resolved_video.get('sourceName'),
                 'sourceKind': resolved_video.get('sourceKind'),

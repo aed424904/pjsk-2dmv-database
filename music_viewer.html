@@ -111,11 +111,62 @@
       line-height: 1.5;
     }
 
+    .header-nav {
+      margin-left: auto;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .nav-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 16px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      font-size: 13px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+
+    .nav-link:hover {
+      border-color: var(--accent-blue);
+      color: var(--accent-blue);
+      background: #f8fbff;
+    }
+
+    .nav-link.active {
+      background: rgba(22, 104, 220, 0.06);
+      border-color: rgba(22, 104, 220, 0.28);
+      color: var(--accent-blue);
+      font-weight: 600;
+    }
+
     .header .stats-bar {
       display: flex;
       gap: 10px;
-      margin-left: auto;
       color: var(--text-muted);
+    }
+
+    .header-notice {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-size: 11px;
+      color: #8b6914;
+      margin-top: 2px;
+    }
+
+    .header-notice-date {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      color: #9b7a1c;
+      white-space: nowrap;
     }
 
     .stats-bar .stat {
@@ -547,6 +598,16 @@
       color: var(--text-main);
     }
 
+    .version-badge-link {
+      text-decoration: none;
+      display: inline-flex;
+      max-width: 100%;
+    }
+
+    .version-badge-link:hover .version-preview-badge {
+      filter: brightness(0.92);
+    }
+
     .staff-preview-item {
       display: inline-flex;
       align-items: center;
@@ -746,6 +807,114 @@
       gap: 6px;
     }
 
+    /* Difficulty badges */
+    .difficulty-badges {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .diff-badge {
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 600;
+      background: #eef3f8;
+      color: var(--text-secondary);
+      font-family: 'IBM Plex Mono', monospace;
+    }
+
+    .diff-badge.diff-easy { background: #e3f5e8; color: #1e7e44; }
+    .diff-badge.diff-normal { background: #e3f0fb; color: #1668dc; }
+    .diff-badge.diff-hard { background: #fef0d5; color: #b8731c; }
+    .diff-badge.diff-expert { background: #fde5ec; color: #c4385f; }
+    .diff-badge.diff-master { background: #ede3f5; color: #6e3da6; }
+
+    /* Video list items */
+    .db-video-item {
+      padding: 10px 14px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      font-size: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .db-video-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .db-video-type-badge {
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      white-space: nowrap;
+    }
+
+    .vt-official { background: rgba(22, 104, 220, 0.15); color: var(--accent-blue); }
+    .vt-original { background: rgba(199, 122, 28, 0.15); color: var(--accent-orange); }
+
+    .db-video-version {
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 10px;
+      background: #f0f2f5;
+      color: var(--text-muted);
+    }
+
+    .db-video-title {
+      font-weight: 600;
+      color: var(--text-primary);
+      line-height: 1.4;
+    }
+
+    .db-video-meta {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .db-video-meta span {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+    }
+
+    .db-video-staff {
+      font-size: 11px;
+      color: var(--text-secondary);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 12px;
+    }
+
+    .db-video-staff .staff-tag {
+      padding: 1px 6px;
+      border-radius: 3px;
+      background: rgba(155, 109, 255, 0.08);
+      color: #9b6dff;
+      font-size: 10px;
+    }
+
+    .db-video-link {
+      font-size: 11px;
+      color: var(--accent-cyan);
+      text-decoration: none;
+    }
+
+    .db-video-link:hover {
+      text-decoration: underline;
+    }
+
     /* Vocal list */
     .vocal-list {
       display: flex;
@@ -765,6 +934,14 @@
       font-size: 12px;
     }
 
+    .vocal-num {
+      font-size: 11px;
+      color: var(--text-muted);
+      font-family: 'IBM Plex Mono', monospace;
+      margin-left: auto;
+      flex-shrink: 0;
+    }
+
     .vocal-type-badge {
       padding: 2px 8px;
       border-radius: 4px;
@@ -772,6 +949,8 @@
       font-weight: 600;
       white-space: nowrap;
       flex-shrink: 0;
+      min-width: 100px;
+      text-align: center;
     }
 
     .vt-original_song {
@@ -1006,7 +1185,15 @@
       <div class="header-brand">
         <div class="header-kicker">Operations Dashboard</div>
         <h1>Project Sekai 2DMV Database</h1>
-        <div class="header-subtitle">面向运营筛选、Staff 归档与曲目巡检的统一视图</div>
+        <div class="header-subtitle">浏览歌曲、Staff 信息与版本详情</div>
+        <div class="header-notice">
+          <span>⚠️ 数据整理中，可能有错漏，仅供参考</span>
+          <span class="header-notice-date" id="notice-date">最后更新：-</span>
+        </div>
+      </div>
+      <div class="header-nav">
+        <a class="nav-link active" href="index.html">🎵 歌曲列表</a>
+        <a class="nav-link" href="video_viewer.html">📺 视频列表</a>
       </div>
       <div class="stats-bar">
         <div class="stat">歌曲 <span class="stat-num" id="stat-total">-</span></div>
@@ -1014,6 +1201,7 @@
       </div>
     </div>
   </header>
+
 
   <div class="app">
     <aside class="sidebar" id="sidebar">
@@ -1129,6 +1317,18 @@
       const d = new Date(ts);
       return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
     }
+    function formatNumber(num) {
+      if (num == null || isNaN(num)) return '-';
+      if (num >= 100000000) return (num / 100000000).toFixed(1) + '亿';
+      if (num >= 10000) return (num / 10000).toFixed(1) + '万';
+      return num.toLocaleString('zh-CN');
+    }
+    function formatDuration(seconds) {
+      if (!seconds || seconds <= 0) return '-';
+      const m = Math.floor(seconds / 60);
+      const s = Math.floor(seconds % 60);
+      return `${m}:${String(s).padStart(2, '0')}`;
+    }
     function getDisplayTags(tags) { return (tags || []).filter(t => t !== 'all'); }
     function esc(str) { const d = document.createElement('div'); d.textContent = str; return d.innerHTML; }
     function createEmptyStaffSummary() {
@@ -1227,8 +1427,22 @@
       summary.special.forEach(special => labels.add(getVersionLabel(`special:${special}`, special)));
       return Array.from(labels);
     }
+    function getVideoUrlMap(song) {
+      const videos = song.dbVideos || [];
+      const map = {};
+      videos.forEach(v => {
+        const base = v.version?.base;
+        if (base) { const key = `base:${base}`; if (!map[key]) map[key] = v.url; }
+        (v.version?.special || []).forEach(s => {
+          const key = `special:${s}`; if (!map[key]) map[key] = v.url;
+        });
+        if (v.version?.label) { if (!map[v.version.label]) map[v.version.label] = v.url; }
+      });
+      return map;
+    }
     function buildVersionBadgeItems(song) {
       const summary = getSongVersionSummary(song);
+      const urlMap = getVideoUrlMap(song);
       const badges = [];
       const seen = new Set();
 
@@ -1236,7 +1450,9 @@
         summary.labels.forEach(label => {
           if (!label || seen.has(label)) return;
           seen.add(label);
-          badges.push(`<span class="version-preview-badge label-custom">${esc(label)}</span>`);
+          const url = urlMap[label];
+          const inner = `<span class="version-preview-badge label-custom">${esc(label)}</span>`;
+          badges.push(url ? `<a class="version-badge-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer" title="${esc(label)}">${inner}</a>` : inner);
         });
         return badges;
       }
@@ -1245,14 +1461,18 @@
         const key = `base:${base}`;
         if (seen.has(key)) return;
         seen.add(key);
-        badges.push(`<span class="version-preview-badge base-${base}">${esc(getVersionLabel(key, base))}</span>`);
+        const url = urlMap[key];
+        const inner = `<span class="version-preview-badge base-${base}">${esc(getVersionLabel(key, base))}</span>`;
+        badges.push(url ? `<a class="version-badge-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer" title="${esc(getVersionLabel(key, base))}">${inner}</a>` : inner);
       });
 
       summary.special.forEach(special => {
         const key = `special:${special}`;
         if (seen.has(key)) return;
         seen.add(key);
-        badges.push(`<span class="version-preview-badge special-${special}">${esc(getVersionLabel(key, special))}</span>`);
+        const url = urlMap[key];
+        const inner = `<span class="version-preview-badge special-${special}">${esc(getVersionLabel(key, special))}</span>`;
+        badges.push(url ? `<a class="version-badge-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer" title="${esc(getVersionLabel(key, special))}">${inner}</a>` : inner);
       });
 
       return badges;
@@ -1317,18 +1537,60 @@
       }, 1200);
       return true;
     }
-    function buildStaffDetailSection(song) {
-      const staffItems = STAFF_ROLE_ORDER.map(roleKey => {
-        const values = getStaffValues(song, roleKey);
-        if (!values.length) return '';
-        return `<div class="detail-item"><span class="label">${STAFF_ROLE_CONFIG[roleKey].label}</span> <span class="value">${esc(values.join(' / '))}</span></div>`;
-      }).filter(Boolean).join('');
-
-      if (!staffItems) return '';
+    function buildStaffDetailSection(staff, label) {
+      if (!staff) return '';
+      const staffItems = [];
+      const addRole = (roleKey, values) => {
+        if (values && values.length) {
+          staffItems.push(`<div class="detail-item"><span class="label">${STAFF_ROLE_CONFIG[roleKey].label}</span> <span class="value">${esc(values.join(' / '))}</span></div>`);
+        }
+      };
+      addRole('illustrator', staff.illustrators);
+      addRole('pvCreator', staff.pvCreators);
+      if (staff.otherRoles) {
+        STAFF_ROLE_ORDER.filter(k => k !== 'illustrator' && k !== 'pvCreator').forEach(roleKey => {
+          addRole(roleKey, staff.otherRoles[roleKey]);
+        });
+      }
+      if (!staffItems.length) return '';
       return `<div class="detail-section">
-            <div class="detail-label">Staff 摘要</div>
-            <div class="detail-grid">${staffItems}</div>
+            <div class="detail-label">Staff${label ? ' · ' + esc(label) : ''}</div>
+            <div class="detail-grid">${staffItems.join('')}</div>
           </div>`;
+    }
+
+    function buildPerVersionStaffSections(song) {
+      const videos = song.dbVideos || [];
+      const sections = [];
+      const seenStaff = new Set();
+
+      videos.forEach(v => {
+        const staff = v.staff || {};
+        const vTypeLabel = v.type === 'original_mv' ? '本家MV' : '官方2DMV';
+        const vVerLabel = v.version?.label || getVersionLabel(`base:${v.version?.base}`) || '';
+        const headerLabel = [vTypeLabel, vVerLabel].filter(Boolean).join(' · ');
+
+        const hasStaff = !!(staff.illustrators?.length || staff.pvCreators?.length ||
+          Object.values(staff.otherRoles || {}).some(arr => arr?.length));
+
+        if (!hasStaff) return;
+
+        const fingerprint = JSON.stringify({ i: staff.illustrators, p: staff.pvCreators, o: staff.otherRoles });
+        if (seenStaff.has(fingerprint)) return;
+        seenStaff.add(fingerprint);
+
+        const html = buildStaffDetailSection(staff, headerLabel);
+        if (html) sections.push(html);
+      });
+
+      if (!sections.length) {
+        const summary = getStaffSummary(song);
+        const fakeStaff = { illustrators: summary.illustrators, pvCreators: summary.pvCreators, otherRoles: summary.otherRoles };
+        const html = buildStaffDetailSection(fakeStaff, '');
+        if (html) sections.push(html);
+      }
+
+      return sections.join('');
     }
     function formatStaffPreviewValue(values) {
       if (!values.length) return '';
@@ -1415,13 +1677,30 @@
         supplementalMap.set(song.title, {
           staffSummary: song.staffSummary || createEmptyStaffSummary(),
           videoVersionSummary: song.videoVersionSummary || createEmptyVideoVersionSummary(),
+          classification: song.classification || null,
+          dates: song.dates || null,
+          gameData: song.gameData || null,
+          performerSummary: song.performerSummary || null,
+          videos: song.videos || [],
+          creators: song.creators || null,
+          sekaiMusicId: song.sekaiMusicId || null,
         });
       });
-      return baseSongs.map(song => ({
-        ...song,
-        staffSummary: supplementalMap.get(song.title)?.staffSummary || createEmptyStaffSummary(),
-        videoVersionSummary: supplementalMap.get(song.title)?.videoVersionSummary || createEmptyVideoVersionSummary(),
-      }));
+      return baseSongs.map(song => {
+        const extra = supplementalMap.get(song.title) || {};
+        return {
+          ...song,
+          staffSummary: extra.staffSummary || createEmptyStaffSummary(),
+          videoVersionSummary: extra.videoVersionSummary || createEmptyVideoVersionSummary(),
+          classification: extra.classification || null,
+          dates: extra.dates || null,
+          gameData: extra.gameData || null,
+          performerSummary: extra.performerSummary || null,
+          dbVideos: extra.videos || [],
+          dbCreators: extra.creators || null,
+          sekaiMusicId: extra.sekaiMusicId || null,
+        };
+      });
     }
 
     function renderFilters() {
@@ -1477,49 +1756,149 @@
     let songMap = {};
 
     function buildDetailHtml(s) {
-      return `<div class="song-detail show" id="detail-${s.id}">
-          <div class="detail-section">
-            <div class="detail-label">创作者信息</div>
-            <div class="detail-grid">
-              <div class="detail-item"><span class="label">作词</span> <span class="value">${esc(s.creators?.lyricist || '-')}</span></div>
-              <div class="detail-item"><span class="label">作曲</span> <span class="value">${esc(s.creators?.composer || '-')}</span></div>
-              <div class="detail-item"><span class="label">编曲</span> <span class="value">${esc(s.creators?.arranger || '-')}</span></div>
-              <div class="detail-item"><span class="label">艺术家</span> <span class="value">${esc(s.creators?.creatorArtistName || '-')}</span></div>
-            </div>
-          </div>
-          <div class="detail-section">
-            <div class="detail-label">时间</div>
-            <div class="detail-grid">
-              <div class="detail-item"><span class="label">实装时间</span> <span class="value">${formatDate(s.publishedAt)}</span></div>
-              <div class="detail-item"><span class="label">原曲发布</span> <span class="value">${formatDate(s.releasedAt)}</span></div>
-            </div>
-          </div>
-          ${s.originalVideoLink ? `<div class="detail-section">
-            <div class="detail-label">原曲链接</div>
-            <div class="detail-item">
-              <a class="detail-link" href="${esc(s.originalVideoLink)}" target="_blank" rel="noopener noreferrer">${esc(s.originalVideoLink)}</a>
-            </div>
-          </div>` : ''}
-          ${(aliasMap[s.id] && aliasMap[s.id].length > 0) ? `<div class="detail-section">
-            <div class="detail-label">别称</div>
-            <div style="display:flex;flex-wrap:wrap;gap:4px">${aliasMap[s.id].map(a =>
-              `<span style="padding:2px 8px;border-radius:10px;font-size:11px;background:rgba(155,109,255,0.15);color:#9b6dff">${esc(a)}</span>`
-            ).join('')}</div>
-          </div>` : ''}
-          ${buildVersionDetailSection(s)}
-          ${buildStaffDetailSection(s)}
-          <div class="detail-section">
-            <div class="detail-label">歌声版本 (${(s.vocals || []).length})</div>
-            <div class="vocal-list">${(s.vocals || []).map(v => {
-        const chars = formatVocalCharacterNames(v);
-        return `<div class="vocal-item">
-                <span class="vocal-type-badge vt-${v.musicVocalType}">${VOCAL_LABELS[v.musicVocalType] || v.musicVocalType}</span>
-                <span class="vocal-caption">${esc(v.caption)}</span>
-                <span class="vocal-chars">${chars || '(无角色)'}</span>
-              </div>`;
-      }).join('')}</div>
-          </div>
+      const c = s.dbCreators || s.creators || {};
+      const cls = s.classification || {};
+      const game = s.gameData || {};
+      const dates = s.dates || {};
+      const performers = s.performerSummary?.performers || [];
+      const videos = s.dbVideos || [];
+
+      // --- 创作者信息 ---
+      const creatorRows = [];
+      if (c.lyricist) creatorRows.push(`<div class="detail-item"><span class="label">作词</span> <span class="value">${esc(c.lyricist)}</span></div>`);
+      if (c.composer) creatorRows.push(`<div class="detail-item"><span class="label">作曲</span> <span class="value">${esc(c.composer)}</span></div>`);
+      if (c.arranger) creatorRows.push(`<div class="detail-item"><span class="label">编曲</span> <span class="value">${esc(c.arranger)}</span></div>`);
+      if (c.creatorArtistName) creatorRows.push(`<div class="detail-item"><span class="label">艺术家</span> <span class="value">${esc(c.creatorArtistName)}</span></div>`);
+
+      // --- 时间 ---
+      const timeRows = [];
+      timeRows.push(`<div class="detail-item"><span class="label">实装时间</span> <span class="value">${formatDate(s.publishedAt)}</span></div>`);
+      if (dates.sekaiReleaseDate) timeRows.push(`<div class="detail-item"><span class="label">SEKAI 发布</span> <span class="value">${esc(dates.sekaiReleaseDate)}</span></div>`);
+      if (dates.youtubeUploadDate) timeRows.push(`<div class="detail-item"><span class="label">YouTube 上传</span> <span class="value">${esc(dates.youtubeUploadDate)}</span></div>`);
+      if (s.releasedAt) timeRows.push(`<div class="detail-item"><span class="label">原曲发布</span> <span class="value">${formatDate(s.releasedAt)}</span></div>`);
+
+      // --- 游戏信息 ---
+      const gameRows = [];
+      if (game.bpm) gameRows.push(`<div class="detail-item"><span class="label">BPM</span> <span class="value">${esc(String(game.bpm))}</span></div>`);
+      if (game.duration) gameRows.push(`<div class="detail-item"><span class="label">时长</span> <span class="value">${formatDuration(game.duration)}</span></div>`);
+      if (s.sekaiMusicId) gameRows.push(`<div class="detail-item"><span class="label">游戏ID</span> <span class="value">#${esc(String(s.sekaiMusicId))}</span></div>`);
+      if (game.publishedAt) gameRows.push(`<div class="detail-item"><span class="label">游戏收录</span> <span class="value">${esc(String(game.publishedAt))}</span></div>`);
+
+      // 难度
+      const diff = game.difficulty || {};
+      const diffLabels = { easy: 'EASY', normal: 'NORMAL', hard: 'HARD', expert: 'EXPERT', master: 'MASTER' };
+      const diffBadges = Object.entries(diffLabels).filter(([k]) => diff[k] != null).map(([k, label]) =>
+        `<span class="diff-badge diff-${k}">${label} ${diff[k]}</span>`
+      ).join('');
+
+      // --- 分类 ---
+      const clsRows = [];
+      if (cls.units && cls.units.length) clsRows.push(`<div class="detail-item"><span class="label">组合</span> <span class="value">${esc(cls.units.join(' / '))}</span></div>`);
+      if (cls.virtualSingers && cls.virtualSingers.length) clsRows.push(`<div class="detail-item"><span class="label">虚拟歌手</span> <span class="value">${esc(cls.virtualSingers.join(' / '))}</span></div>`);
+      if (cls.mvType) clsRows.push(`<div class="detail-item"><span class="label">MV 类型</span> <span class="value">${esc(cls.mvType)}</span></div>`);
+      if (cls.category) clsRows.push(`<div class="detail-item"><span class="label">分类</span> <span class="value">${esc(cls.category)}</span></div>`);
+
+      // --- 视频列表 ---
+      function buildVideoItems(vids) {
+        if (!vids.length) return '';
+        return `<div class="detail-section">
+          <div class="detail-label">收录视频 (${vids.length})</div>
+          <div style="display:flex;flex-direction:column;gap:8px">${vids.map(v => {
+            const vTypeLabel = v.type === 'original_mv' ? '本家MV' : '官方2DMV';
+            const vTypeClass = v.type === 'original_mv' ? 'vt-original' : 'vt-official';
+            const vVerLabel = v.version?.label || '';
+            const vStaff = v.staff || {};
+            const vContributors = vStaff.allContributors || [];
+            const vStaffSummary = vContributors.slice(0, 4).map(c =>
+              `<span class="staff-tag">${esc(c.roleRaw || c.role)}: ${esc(c.name)}</span>`
+            ).join('');
+            return `<div class="db-video-item">
+              <div class="db-video-header">
+                <span class="db-video-type-badge ${vTypeClass}">${vTypeLabel}</span>
+                ${vVerLabel ? `<span class="db-video-version">${esc(vVerLabel)}</span>` : ''}
+                <a class="db-video-link" href="${esc(v.url)}" target="_blank" rel="noopener noreferrer">
+                  <span class="db-video-title">${esc(v.title)}</span>
+                </a>
+              </div>
+              <div class="db-video-meta">
+                <span>📺 ${esc(v.channelTitle || '-')}</span>
+                <span>👁 ${formatNumber(v.viewCount)}</span>
+                <span>👍 ${formatNumber(v.likeCount)}</span>
+                <span>📅 ${esc((v.uploadDate || '').slice(0, 10))}</span>
+              </div>
+              ${vStaffSummary ? `<div class="db-video-staff">${vStaffSummary}</div>` : ''}
+            </div>`;
+          }).join('')}</div>
         </div>`;
+      }
+
+      // --- 组装 ---
+      const sections = [];
+
+      if (creatorRows.length) {
+        sections.push(`<div class="detail-section"><div class="detail-label">创作者信息</div><div class="detail-grid">${creatorRows.join('')}</div></div>`);
+      }
+
+      if (gameRows.length || diffBadges) {
+        sections.push(`<div class="detail-section"><div class="detail-label">游戏信息</div><div class="detail-grid">${gameRows.join('')}</div>${diffBadges ? `<div class="difficulty-badges" style="margin-top:8px">${diffBadges}</div>` : ''}</div>`);
+      }
+
+      if (clsRows.length) {
+        sections.push(`<div class="detail-section"><div class="detail-label">分类信息</div><div class="detail-grid">${clsRows.join('')}</div></div>`);
+      }
+
+      if (performers.length) {
+        sections.push(`<div class="detail-section"><div class="detail-label">演出者</div><div class="detail-item"><span class="value">${esc(performers.join(' / '))}</span></div></div>`);
+      }
+
+      sections.push(`<div class="detail-section"><div class="detail-label">时间</div><div class="detail-grid">${timeRows.join('')}</div></div>`);
+
+      // --- 视频链接 ---
+      const allVideoLinks = [];
+      const linkedUrls = new Set();
+      if (s.originalVideoLink) {
+        allVideoLinks.push({ type: 'original', label: '原曲链接', title: s.title, url: s.originalVideoLink });
+        linkedUrls.add(s.originalVideoLink);
+      }
+      videos.forEach(v => {
+        const vTypeLabel = v.type === 'original_mv' ? '本家MV' : '官方2DMV';
+        const vVerLabel = v.version?.label || getVersionLabel(`base:${v.version?.base}`) || '';
+        const label = [vTypeLabel, vVerLabel].filter(Boolean).join(' · ');
+        if (!linkedUrls.has(v.url)) {
+          allVideoLinks.push({ type: v.type, label, title: v.title, url: v.url });
+          linkedUrls.add(v.url);
+        }
+      });
+      if (allVideoLinks.length) {
+        sections.push(`<div class="detail-section">
+          <div class="detail-label">视频链接 (${allVideoLinks.length})</div>
+          <div style="display:flex;flex-direction:column;gap:6px">${allVideoLinks.map(vl => {
+            const typeClass = vl.type === 'original_mv' ? 'vt-original' : vl.type === 'original' ? 'vt-original' : 'vt-official';
+            return `<div class="db-video-item" style="padding:8px 14px">
+              <div class="db-video-header">
+                <span class="db-video-type-badge ${typeClass}">${esc(vl.label)}</span>
+                <a class="detail-link" href="${esc(vl.url)}" target="_blank" rel="noopener noreferrer">${esc(vl.title)}</a>
+              </div>
+            </div>`;
+          }).join('')}</div>
+        </div>`);
+      }
+
+      if (aliasMap[s.id] && aliasMap[s.id].length > 0) {
+        sections.push(`<div class="detail-section"><div class="detail-label">别称</div><div style="display:flex;flex-wrap:wrap;gap:4px">${aliasMap[s.id].map(a => `<span style="padding:2px 8px;border-radius:10px;font-size:11px;background:rgba(155,109,255,0.15);color:#9b6dff">${esc(a)}</span>`).join('')}</div></div>`);
+      }
+
+      sections.push(buildVersionDetailSection(s));
+      sections.push(buildPerVersionStaffSections(s));
+
+      sections.push(`<div class="detail-section"><div class="detail-label">歌声版本 (${(s.vocals || []).length})</div><div class="vocal-list">${(s.vocals || []).map(v => {
+        const chars = formatVocalCharacterNames(v);
+        return `<div class="vocal-item"><span class="vocal-type-badge vt-${v.musicVocalType}">${VOCAL_LABELS[v.musicVocalType] || v.musicVocalType}</span><span class="vocal-caption">${esc(v.caption)}</span><span class="vocal-chars">${chars || '(无角色)'}</span><span class="vocal-num">#${v.id}</span></div>`;
+      }).join('')}</div></div>`);
+
+      sections.push(buildVideoItems(videos));
+
+      return `<div class="song-detail show" id="detail-${s.id}">${sections.filter(Boolean).join('')}</div>`;
     }
 
     function buildRowHtml(s) {
@@ -1682,6 +2061,10 @@
         }
         characterNameMap = buildCharacterNameLookup(gameCharacters, outsideCharacters);
         allSongs = mergeSupplementalSongData(baseSongs, databaseV2);
+        const lastMod = databaseResp?.headers?.get('Last-Modified') || resp.headers.get('Last-Modified');
+        const updateDate = lastMod ? new Date(lastMod) : new Date();
+        document.getElementById('notice-date').textContent =
+          `最后更新：${updateDate.getFullYear()}-${String(updateDate.getMonth() + 1).padStart(2, '0')}-${String(updateDate.getDate()).padStart(2, '0')}`;
       } catch (e) {
         renderLoadingNotice(`加载失败：${e.message}<br>请确保 output 目录中的 JSON 文件存在，并通过 HTTP 服务器访问当前页面。`);
         return;

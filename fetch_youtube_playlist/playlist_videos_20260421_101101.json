@@ -3,7 +3,7 @@
     "fetchedAt": "2026-04-21T10:11:01.816431",
     "totalVideos": 253,
     "fetchMethod": "API",
-    "channelEnrichedAt": "2026-04-24T15:56:59.484275",
+    "channelEnrichedAt": "2026-04-27T15:49:38.756451",
     "channelEnrichment": {
       "source": "youtube.videos.list",
       "updatedVideos": 253
@@ -25,7 +25,9 @@
         "standard": "https://i.ytimg.com/vi/9xRxkaRKsgE/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/9xRxkaRKsgE/maxresdefault.jpg"
       },
-      "position": 0
+      "position": 0,
+      "viewCount": 826781,
+      "likeCount": 37059
     },
     {
       "videoId": "ZjHCnQvz7GI",
@@ -42,7 +44,9 @@
         "standard": "https://i.ytimg.com/vi/ZjHCnQvz7GI/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/ZjHCnQvz7GI/maxresdefault.jpg"
       },
-      "position": 1
+      "position": 1,
+      "viewCount": 740361,
+      "likeCount": 32810
     },
     {
       "videoId": "seI5iSl0aFA",
@@ -59,7 +63,9 @@
         "standard": "https://i.ytimg.com/vi/seI5iSl0aFA/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/seI5iSl0aFA/maxresdefault.jpg"
       },
-      "position": 2
+      "position": 2,
+      "viewCount": 2004381,
+      "likeCount": 59709
     },
     {
       "videoId": "os_Mx0vCvbY",
@@ -76,7 +82,9 @@
         "standard": "https://i.ytimg.com/vi/os_Mx0vCvbY/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/os_Mx0vCvbY/maxresdefault.jpg"
       },
-      "position": 3
+      "position": 3,
+      "viewCount": 472220,
+      "likeCount": 19222
     },
     {
       "videoId": "rp87DCF-l6o",
@@ -93,7 +101,9 @@
         "standard": "https://i.ytimg.com/vi/rp87DCF-l6o/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/rp87DCF-l6o/maxresdefault.jpg"
       },
-      "position": 4
+      "position": 4,
+      "viewCount": 327561,
+      "likeCount": 15141
     },
     {
       "videoId": "UIWUx4qG0cE",
@@ -110,7 +120,9 @@
         "standard": "https://i.ytimg.com/vi/UIWUx4qG0cE/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/UIWUx4qG0cE/maxresdefault.jpg"
       },
-      "position": 5
+      "position": 5,
+      "viewCount": 2403377,
+      "likeCount": 76497
     },
     {
       "videoId": "YDcuLrkIsOA",
@@ -127,7 +139,9 @@
         "standard": "https://i.ytimg.com/vi/YDcuLrkIsOA/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/YDcuLrkIsOA/maxresdefault.jpg"
       },
-      "position": 6
+      "position": 6,
+      "viewCount": 702361,
+      "likeCount": 26822
     },
     {
       "videoId": "Ixhe_D7mIIg",
@@ -144,7 +158,9 @@
         "standard": "https://i.ytimg.com/vi/Ixhe_D7mIIg/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/Ixhe_D7mIIg/maxresdefault.jpg"
       },
-      "position": 7
+      "position": 7,
+      "viewCount": 301389,
+      "likeCount": 17240
     },
     {
       "videoId": "yyA_PdAytBI",
@@ -161,7 +177,9 @@
         "standard": "https://i.ytimg.com/vi/yyA_PdAytBI/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/yyA_PdAytBI/maxresdefault.jpg"
       },
-      "position": 8
+      "position": 8,
+      "viewCount": 564846,
+      "likeCount": 21124
     },
     {
       "videoId": "1V9iqdt0CsY",
@@ -178,7 +196,9 @@
         "standard": "https://i.ytimg.com/vi/1V9iqdt0CsY/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/1V9iqdt0CsY/maxresdefault.jpg"
       },
-      "position": 9
+      "position": 9,
+      "viewCount": 432706,
+      "likeCount": 14680
     },
     {
       "videoId": "ToqKNyZi2NQ",
@@ -195,7 +215,9 @@
         "standard": "https://i.ytimg.com/vi/ToqKNyZi2NQ/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/ToqKNyZi2NQ/maxresdefault.jpg"
       },
-      "position": 10
+      "position": 10,
+      "viewCount": 1478375,
+      "likeCount": 72264
     },
     {
       "videoId": "K558E_JmZ6g",
@@ -212,7 +234,9 @@
         "standard": "https://i.ytimg.com/vi/K558E_JmZ6g/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/K558E_JmZ6g/maxresdefault.jpg"
       },
-      "position": 11
+      "position": 11,
+      "viewCount": 222577,
+      "likeCount": 11992
     },
     {
       "videoId": "I9ruCukmnO4",
@@ -229,7 +253,9 @@
         "standard": "https://i.ytimg.com/vi/I9ruCukmnO4/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/I9ruCukmnO4/maxresdefault.jpg"
       },
-      "position": 12
+      "position": 12,
+      "viewCount": 368365,
+      "likeCount": 16793
     },
     {
       "videoId": "pWc8oCbtGKc",
@@ -246,7 +272,9 @@
         "standard": "https://i.ytimg.com/vi/pWc8oCbtGKc/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/pWc8oCbtGKc/maxresdefault.jpg"
       },
-      "position": 13
+      "position": 13,
+      "viewCount": 4253155,
+      "likeCount": 70030
     },
     {
       "videoId": "4GJhcEVGfd8",
@@ -263,7 +291,9 @@
         "standard": "https://i.ytimg.com/vi/4GJhcEVGfd8/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/4GJhcEVGfd8/maxresdefault.jpg"
       },
-      "position": 14
+      "position": 14,
+      "viewCount": 276621,
+      "likeCount": 15935
     },
     {
       "videoId": "w0RQgG-Uiyc",
@@ -280,7 +310,9 @@
         "standard": "https://i.ytimg.com/vi/w0RQgG-Uiyc/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/w0RQgG-Uiyc/maxresdefault.jpg"
       },
-      "position": 15
+      "position": 15,
+      "viewCount": 550201,
+      "likeCount": 23802
     },
     {
       "videoId": "eMb63NYcAL8",
@@ -297,7 +329,9 @@
         "standard": "https://i.ytimg.com/vi/eMb63NYcAL8/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/eMb63NYcAL8/maxresdefault.jpg"
       },
-      "position": 16
+      "position": 16,
+      "viewCount": 766256,
+      "likeCount": 16833
     },
     {
       "videoId": "uuFNVow4ciw",
@@ -314,7 +348,9 @@
         "standard": "https://i.ytimg.com/vi/uuFNVow4ciw/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/uuFNVow4ciw/maxresdefault.jpg"
       },
-      "position": 17
+      "position": 17,
+      "viewCount": 511218,
+      "likeCount": 20108
     },
     {
       "videoId": "bFoOj45VwkE",
@@ -331,7 +367,9 @@
         "standard": "https://i.ytimg.com/vi/bFoOj45VwkE/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/bFoOj45VwkE/maxresdefault.jpg"
       },
-      "position": 18
+      "position": 18,
+      "viewCount": 1156702,
+      "likeCount": 20948
     },
     {
       "videoId": "lG_XfyebmoI",
@@ -348,7 +386,9 @@
         "standard": "https://i.ytimg.com/vi/lG_XfyebmoI/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/lG_XfyebmoI/maxresdefault.jpg"
       },
-      "position": 19
+      "position": 19,
+      "viewCount": 833967,
+      "likeCount": 23417
     },
     {
       "videoId": "tk-uP-Yfl5I",
@@ -365,7 +405,9 @@
         "standard": "https://i.ytimg.com/vi/tk-uP-Yfl5I/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/tk-uP-Yfl5I/maxresdefault.jpg"
       },
-      "position": 20
+      "position": 20,
+      "viewCount": 1120862,
+      "likeCount": 42673
     },
     {
       "videoId": "WGy0Iw1Asw4",
@@ -382,7 +424,9 @@
         "standard": "https://i.ytimg.com/vi/WGy0Iw1Asw4/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/WGy0Iw1Asw4/maxresdefault.jpg"
       },
-      "position": 21
+      "position": 21,
+      "viewCount": 1564147,
+      "likeCount": 36540
     },
     {
       "videoId": "h-MnZzmtW58",
@@ -399,7 +443,9 @@
         "standard": "https://i.ytimg.com/vi/h-MnZzmtW58/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/h-MnZzmtW58/maxresdefault.jpg"
       },
-      "position": 22
+      "position": 22,
+      "viewCount": 885496,
+      "likeCount": 26197
     },
     {
       "videoId": "5u52uGdTnHk",
@@ -416,7 +462,9 @@
         "standard": "https://i.ytimg.com/vi/5u52uGdTnHk/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/5u52uGdTnHk/maxresdefault.jpg"
       },
-      "position": 23
+      "position": 23,
+      "viewCount": 1656426,
+      "likeCount": 37456
     },
     {
       "videoId": "RRrzsE2WNP0",
@@ -433,7 +481,9 @@
         "standard": "https://i.ytimg.com/vi/RRrzsE2WNP0/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/RRrzsE2WNP0/maxresdefault.jpg"
       },
-      "position": 24
+      "position": 24,
+      "viewCount": 790512,
+      "likeCount": 19033
     },
     {
       "videoId": "ztHZrb1E4V4",
@@ -450,7 +500,9 @@
         "standard": "https://i.ytimg.com/vi/ztHZrb1E4V4/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/ztHZrb1E4V4/maxresdefault.jpg"
       },
-      "position": 25
+      "position": 25,
+      "viewCount": 1049879,
+      "likeCount": 46108
     },
     {
       "videoId": "NSAILdVVOg8",
@@ -467,7 +519,9 @@
         "standard": "https://i.ytimg.com/vi/NSAILdVVOg8/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/NSAILdVVOg8/maxresdefault.jpg"
       },
-      "position": 26
+      "position": 26,
+      "viewCount": 1458263,
+      "likeCount": 24539
     },
     {
       "videoId": "nq_x3D0_lgw",
@@ -484,7 +538,9 @@
         "standard": "https://i.ytimg.com/vi/nq_x3D0_lgw/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/nq_x3D0_lgw/maxresdefault.jpg"
       },
-      "position": 27
+      "position": 27,
+      "viewCount": 1170783,
+      "likeCount": 55854
     },
     {
       "videoId": "8wdgH9J8ajs",
@@ -501,7 +557,9 @@
         "standard": "https://i.ytimg.com/vi/8wdgH9J8ajs/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/8wdgH9J8ajs/maxresdefault.jpg"
       },
-      "position": 28
+      "position": 28,
+      "viewCount": 587479,
+      "likeCount": 28276
     },
     {
       "videoId": "G-WN0ab-9ZI",
@@ -518,7 +576,9 @@
         "standard": "https://i.ytimg.com/vi/G-WN0ab-9ZI/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/G-WN0ab-9ZI/maxresdefault.jpg"
       },
-      "position": 29
+      "position": 29,
+      "viewCount": 618314,
+      "likeCount": 17684
     },
     {
       "videoId": "TExe8q822cs",
@@ -535,7 +595,9 @@
         "standard": "https://i.ytimg.com/vi/TExe8q822cs/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/TExe8q822cs/maxresdefault.jpg"
       },
-      "position": 30
+      "position": 30,
+      "viewCount": 855893,
+      "likeCount": 29611
     },
     {
       "videoId": "KKxPzUTQJ3Y",
@@ -552,7 +614,9 @@
         "standard": "https://i.ytimg.com/vi/KKxPzUTQJ3Y/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/KKxPzUTQJ3Y/maxresdefault.jpg"
       },
-      "position": 31
+      "position": 31,
+      "viewCount": 2632659,
+      "likeCount": 48437
     },
     {
       "videoId": "ab3ku_Zv7Jo",
@@ -569,7 +633,9 @@
         "standard": "https://i.ytimg.com/vi/ab3ku_Zv7Jo/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/ab3ku_Zv7Jo/maxresdefault.jpg"
       },
-      "position": 32
+      "position": 32,
+      "viewCount": 2187481,
+      "likeCount": 45180
     },
     {
       "videoId": "b_EcPgJ7Fnk",
@@ -586,7 +652,9 @@
         "standard": "https://i.ytimg.com/vi/b_EcPgJ7Fnk/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/b_EcPgJ7Fnk/maxresdefault.jpg"
       },
-      "position": 33
+      "position": 33,
+      "viewCount": 2178211,
+      "likeCount": 32117
     },
     {
       "videoId": "wB62r76PMpc",
@@ -603,7 +671,9 @@
         "standard": "https://i.ytimg.com/vi/wB62r76PMpc/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/wB62r76PMpc/maxresdefault.jpg"
       },
-      "position": 34
+      "position": 34,
+      "viewCount": 1725034,
+      "likeCount": 75850
     },
     {
       "videoId": "VAYBbosmDgs",
@@ -620,7 +690,9 @@
         "standard": "https://i.ytimg.com/vi/VAYBbosmDgs/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/VAYBbosmDgs/maxresdefault.jpg"
       },
-      "position": 35
+      "position": 35,
+      "viewCount": 679237,
+      "likeCount": 16676
     },
     {
       "videoId": "4SAqC7QXjSs",
@@ -637,7 +709,9 @@
         "standard": "https://i.ytimg.com/vi/4SAqC7QXjSs/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/4SAqC7QXjSs/maxresdefault.jpg"
       },
-      "position": 36
+      "position": 36,
+      "viewCount": 1339520,
+      "likeCount": 21133
     },
     {
       "videoId": "yvKp1yrqoZc",
@@ -654,7 +728,9 @@
         "standard": "https://i.ytimg.com/vi/yvKp1yrqoZc/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/yvKp1yrqoZc/maxresdefault.jpg"
       },
-      "position": 37
+      "position": 37,
+      "viewCount": 1815593,
+      "likeCount": 49228
     },
     {
       "videoId": "o4AS22B_9vU",
@@ -671,7 +747,9 @@
         "standard": "https://i.ytimg.com/vi/o4AS22B_9vU/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/o4AS22B_9vU/maxresdefault.jpg"
       },
-      "position": 38
+      "position": 38,
+      "viewCount": 2572192,
+      "likeCount": 44498
     },
     {
       "videoId": "yaTU-vstAIc",
@@ -688,7 +766,9 @@
         "standard": "https://i.ytimg.com/vi/yaTU-vstAIc/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/yaTU-vstAIc/maxresdefault.jpg"
       },
-      "position": 39
+      "position": 39,
+      "viewCount": 653152,
+      "likeCount": 25045
     },
     {
       "videoId": "ne-K_ZUU9-Q",
@@ -705,7 +785,9 @@
         "standard": "https://i.ytimg.com/vi/ne-K_ZUU9-Q/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/ne-K_ZUU9-Q/maxresdefault.jpg"
       },
-      "position": 40
+      "position": 40,
+      "viewCount": 1336045,
+      "likeCount": 32443
     },
     {
       "videoId": "OLOcR2spm58",
@@ -722,7 +804,9 @@
         "standard": "https://i.ytimg.com/vi/OLOcR2spm58/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/OLOcR2spm58/maxresdefault.jpg"
       },
-      "position": 41
+      "position": 41,
+      "viewCount": 3573740,
+      "likeCount": 54469
     },
     {
       "videoId": "TRN2e84qIcM",
@@ -739,7 +823,9 @@
         "standard": "https://i.ytimg.com/vi/TRN2e84qIcM/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/TRN2e84qIcM/maxresdefault.jpg"
       },
-      "position": 42
+      "position": 42,
+      "viewCount": 1998370,
+      "likeCount": 32139
     },
     {
       "videoId": "LWHwJMGP9Rw",
@@ -756,7 +842,9 @@
         "standard": "https://i.ytimg.com/vi/LWHwJMGP9Rw/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/LWHwJMGP9Rw/maxresdefault.jpg"
       },
-      "position": 43
+      "position": 43,
+      "viewCount": 8503257,
+      "likeCount": 117607
     },
     {
       "videoId": "iIuZk3Ms1So",
@@ -773,7 +861,9 @@
         "standard": "https://i.ytimg.com/vi/iIuZk3Ms1So/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/iIuZk3Ms1So/maxresdefault.jpg"
       },
-      "position": 44
+      "position": 44,
+      "viewCount": 2180342,
+      "likeCount": 60000
     },
     {
       "videoId": "PE0rxHzyxNs",
@@ -790,7 +880,9 @@
         "standard": "https://i.ytimg.com/vi/PE0rxHzyxNs/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/PE0rxHzyxNs/maxresdefault.jpg"
       },
-      "position": 45
+      "position": 45,
+      "viewCount": 1836270,
+      "likeCount": 48477
     },
     {
       "videoId": "cafeiRu4XGI",
@@ -807,7 +899,9 @@
         "standard": "https://i.ytimg.com/vi/cafeiRu4XGI/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/cafeiRu4XGI/maxresdefault.jpg"
       },
-      "position": 46
+      "position": 46,
+      "viewCount": 3024127,
+      "likeCount": 51767
     },
     {
       "videoId": "vjZe8vyryfU",
@@ -824,7 +918,9 @@
         "standard": "https://i.ytimg.com/vi/vjZe8vyryfU/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/vjZe8vyryfU/maxresdefault.jpg"
       },
-      "position": 47
+      "position": 47,
+      "viewCount": 1965430,
+      "likeCount": 43754
     },
     {
       "videoId": "cCZOz1RbvHs",
@@ -841,7 +937,9 @@
         "standard": "https://i.ytimg.com/vi/cCZOz1RbvHs/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/cCZOz1RbvHs/maxresdefault.jpg"
       },
-      "position": 48
+      "position": 48,
+      "viewCount": 1196354,
+      "likeCount": 25002
     },
     {
       "videoId": "RyRfLSOewbU",
@@ -858,7 +956,9 @@
         "standard": "https://i.ytimg.com/vi/RyRfLSOewbU/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/RyRfLSOewbU/maxresdefault.jpg"
       },
-      "position": 49
+      "position": 49,
+      "viewCount": 17265039,
+      "likeCount": 166453
     },
     {
       "videoId": "qDidqFD9QsU",
@@ -875,7 +975,9 @@
         "standard": "https://i.ytimg.com/vi/qDidqFD9QsU/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/qDidqFD9QsU/maxresdefault.jpg"
       },
-      "position": 50
+      "position": 50,
+      "viewCount": 432923,
+      "likeCount": 14719
     },
     {
       "videoId": "HXUOqVYZ9Gk",
@@ -892,7 +994,9 @@
         "standard": "https://i.ytimg.com/vi/HXUOqVYZ9Gk/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/HXUOqVYZ9Gk/maxresdefault.jpg"
       },
-      "position": 51
+      "position": 51,
+      "viewCount": 2276663,
+      "likeCount": 37757
     },
     {
       "videoId": "A7hZb62PPbI",
@@ -909,7 +1013,9 @@
         "standard": "https://i.ytimg.com/vi/A7hZb62PPbI/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/A7hZb62PPbI/maxresdefault.jpg"
       },
-      "position": 52
+      "position": 52,
+      "viewCount": 3375902,
+      "likeCount": 73802
     },
     {
       "videoId": "d3Eqz55SxlA",
@@ -926,7 +1032,9 @@
         "standard": "https://i.ytimg.com/vi/d3Eqz55SxlA/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/d3Eqz55SxlA/maxresdefault.jpg"
       },
-      "position": 53
+      "position": 53,
+      "viewCount": 9244454,
+      "likeCount": 89915
     },
     {
       "videoId": "7CbbxM-UQzU",
@@ -943,7 +1051,9 @@
         "standard": "https://i.ytimg.com/vi/7CbbxM-UQzU/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/7CbbxM-UQzU/maxresdefault.jpg"
       },
-      "position": 54
+      "position": 54,
+      "viewCount": 2616867,
+      "likeCount": 67370
     },
     {
       "videoId": "Rys-vZSKlsg",
@@ -960,7 +1070,9 @@
         "standard": "https://i.ytimg.com/vi/Rys-vZSKlsg/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/Rys-vZSKlsg/maxresdefault.jpg"
       },
-      "position": 55
+      "position": 55,
+      "viewCount": 1062835,
+      "likeCount": 42838
     },
     {
       "videoId": "XVEkMhzHLTQ",
@@ -977,7 +1089,9 @@
         "standard": "https://i.ytimg.com/vi/XVEkMhzHLTQ/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/XVEkMhzHLTQ/maxresdefault.jpg"
       },
-      "position": 56
+      "position": 56,
+      "viewCount": 5542388,
+      "likeCount": 122154
     },
     {
       "videoId": "aRXnHW2k07A",
@@ -994,7 +1108,9 @@
         "standard": "https://i.ytimg.com/vi/aRXnHW2k07A/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/aRXnHW2k07A/maxresdefault.jpg"
       },
-      "position": 57
+      "position": 57,
+      "viewCount": 2578242,
+      "likeCount": 71496
     },
     {
       "videoId": "-m8ypkvZL6g",
@@ -1011,7 +1127,9 @@
         "standard": "https://i.ytimg.com/vi/-m8ypkvZL6g/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/-m8ypkvZL6g/maxresdefault.jpg"
       },
-      "position": 58
+      "position": 58,
+      "viewCount": 349444,
+      "likeCount": 10962
     },
     {
       "videoId": "9fnQklaziX4",
@@ -1028,7 +1146,9 @@
         "standard": "https://i.ytimg.com/vi/9fnQklaziX4/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/9fnQklaziX4/maxresdefault.jpg"
       },
-      "position": 59
+      "position": 59,
+      "viewCount": 3458144,
+      "likeCount": 60069
     },
     {
       "videoId": "Bj84UUMt44U",
@@ -1045,7 +1165,9 @@
         "standard": "https://i.ytimg.com/vi/Bj84UUMt44U/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/Bj84UUMt44U/maxresdefault.jpg"
       },
-      "position": 60
+      "position": 60,
+      "viewCount": 548792,
+      "likeCount": 18811
     },
     {
       "videoId": "91O6VohptEo",
@@ -1062,7 +1184,9 @@
         "standard": "https://i.ytimg.com/vi/91O6VohptEo/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/91O6VohptEo/maxresdefault.jpg"
       },
-      "position": 61
+      "position": 61,
+      "viewCount": 2954239,
+      "likeCount": 61407
     },
     {
       "videoId": "HfYp8slz5ro",
@@ -1079,7 +1203,9 @@
         "standard": "https://i.ytimg.com/vi/HfYp8slz5ro/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/HfYp8slz5ro/maxresdefault.jpg"
       },
-      "position": 62
+      "position": 62,
+      "viewCount": 533217,
+      "likeCount": 16107
     },
     {
       "videoId": "C6TAZ8Elbao",
@@ -1096,7 +1222,9 @@
         "standard": "https://i.ytimg.com/vi/C6TAZ8Elbao/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/C6TAZ8Elbao/maxresdefault.jpg"
       },
-      "position": 63
+      "position": 63,
+      "viewCount": 4674299,
+      "likeCount": 71746
     },
     {
       "videoId": "lgAlH2HwbGA",
@@ -1113,7 +1241,9 @@
         "standard": "https://i.ytimg.com/vi/lgAlH2HwbGA/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/lgAlH2HwbGA/maxresdefault.jpg"
       },
-      "position": 64
+      "position": 64,
+      "viewCount": 3186019,
+      "likeCount": 69116
     },
     {
       "videoId": "RjwDQG8sq_M",
@@ -1130,7 +1260,9 @@
         "standard": "https://i.ytimg.com/vi/RjwDQG8sq_M/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/RjwDQG8sq_M/maxresdefault.jpg"
       },
-      "position": 65
+      "position": 65,
+      "viewCount": 677411,
+      "likeCount": 21828
     },
     {
       "videoId": "WkGgD_RF5V8",
@@ -1147,7 +1279,9 @@
         "standard": "https://i.ytimg.com/vi/WkGgD_RF5V8/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/WkGgD_RF5V8/maxresdefault.jpg"
       },
-      "position": 66
+      "position": 66,
+      "viewCount": 6024342,
+      "likeCount": 100656
     },
     {
       "videoId": "9hveQ4bsqzs",
@@ -1164,7 +1298,9 @@
         "standard": "https://i.ytimg.com/vi/9hveQ4bsqzs/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/9hveQ4bsqzs/maxresdefault.jpg"
       },
-      "position": 67
+      "position": 67,
+      "viewCount": 1035464,
+      "likeCount": 37581
     },
     {
       "videoId": "Zqs0lEADyFo",
@@ -1181,7 +1317,9 @@
         "standard": "https://i.ytimg.com/vi/Zqs0lEADyFo/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/Zqs0lEADyFo/maxresdefault.jpg"
       },
-      "position": 68
+      "position": 68,
+      "viewCount": 11476327,
+      "likeCount": 158270
     },
     {
       "videoId": "73z9ZsDK4co",
@@ -1198,7 +1336,9 @@
         "standard": "https://i.ytimg.com/vi/73z9ZsDK4co/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/73z9ZsDK4co/maxresdefault.jpg"
       },
-      "position": 69
+      "position": 69,
+      "viewCount": 3574264,
+      "likeCount": 43140
     },
     {
       "videoId": "mxj3mW4jf7Q",
@@ -1215,7 +1355,9 @@
         "standard": "https://i.ytimg.com/vi/mxj3mW4jf7Q/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/mxj3mW4jf7Q/maxresdefault.jpg"
       },
-      "position": 70
+      "position": 70,
+      "viewCount": 2930982,
+      "likeCount": 64595
     },
     {
       "videoId": "MgbsMSnMCOg",
@@ -1232,7 +1374,9 @@
         "standard": "https://i.ytimg.com/vi/MgbsMSnMCOg/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/MgbsMSnMCOg/maxresdefault.jpg"
       },
-      "position": 71
+      "position": 71,
+      "viewCount": 4761776,
+      "likeCount": 77564
     },
     {
       "videoId": "vIHCFGj_G2E",
@@ -1249,7 +1393,9 @@
         "standard": "https://i.ytimg.com/vi/vIHCFGj_G2E/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/vIHCFGj_G2E/maxresdefault.jpg"
       },
-      "position": 72
+      "position": 72,
+      "viewCount": 3789067,
+      "likeCount": 76661
     },
     {
       "videoId": "GubCnt93vzk",
@@ -1266,7 +1412,9 @@
         "standard": "https://i.ytimg.com/vi/GubCnt93vzk/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/GubCnt93vzk/maxresdefault.jpg"
       },
-      "position": 73
+      "position": 73,
+      "viewCount": 1255648,
+      "likeCount": 50665
     },
     {
       "videoId": "Rz_UKkElk9U",
@@ -1283,7 +1431,9 @@
         "standard": "https://i.ytimg.com/vi/Rz_UKkElk9U/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/Rz_UKkElk9U/maxresdefault.jpg"
       },
-      "position": 74
+      "position": 74,
+      "viewCount": 1252727,
+      "likeCount": 23410
     },
     {
       "videoId": "agbpbVVA78U",
@@ -1300,7 +1450,9 @@
         "standard": "https://i.ytimg.com/vi/agbpbVVA78U/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/agbpbVVA78U/maxresdefault.jpg"
       },
-      "position": 75
+      "position": 75,
+      "viewCount": 7938842,
+      "likeCount": 108510
     },
     {
       "videoId": "aNS1lu_PkpQ",
@@ -1317,7 +1469,9 @@
         "standard": "https://i.ytimg.com/vi/aNS1lu_PkpQ/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/aNS1lu_PkpQ/maxresdefault.jpg"
       },
-      "position": 76
+      "position": 76,
+      "viewCount": 7553504,
+      "likeCount": 87803
     },
     {
       "videoId": "UqulFtYBdGw",
@@ -1334,7 +1488,9 @@
         "standard": "https://i.ytimg.com/vi/UqulFtYBdGw/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/UqulFtYBdGw/maxresdefault.jpg"
       },
-      "position": 77
+      "position": 77,
+      "viewCount": 1070777,
+      "likeCount": 25827
     },
     {
       "videoId": "ue_BSaV1ry4",
@@ -1351,7 +1507,9 @@
         "standard": "https://i.ytimg.com/vi/ue_BSaV1ry4/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/ue_BSaV1ry4/maxresdefault.jpg"
       },
-      "position": 78
+      "position": 78,
+      "viewCount": 1904824,
+      "likeCount": 39140
     },
     {
       "videoId": "U6jQbe_BuUc",
@@ -1368,7 +1526,9 @@
         "standard": "https://i.ytimg.com/vi/U6jQbe_BuUc/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/U6jQbe_BuUc/maxresdefault.jpg"
       },
-      "position": 79
+      "position": 79,
+      "viewCount": 1238130,
+      "likeCount": 23318
     },
     {
       "videoId": "HkcAuqAsWfY",
@@ -1385,7 +1545,9 @@
         "standard": "https://i.ytimg.com/vi/HkcAuqAsWfY/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/HkcAuqAsWfY/maxresdefault.jpg"
       },
-      "position": 80
+      "position": 80,
+      "viewCount": 3879549,
+      "likeCount": 61472
     },
     {
       "videoId": "UFRIsspP9UE",
@@ -1402,7 +1564,9 @@
         "standard": "https://i.ytimg.com/vi/UFRIsspP9UE/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/UFRIsspP9UE/maxresdefault.jpg"
       },
-      "position": 81
+      "position": 81,
+      "viewCount": 18087127,
+      "likeCount": 218336
     },
     {
       "videoId": "WxXf9iRNwYM",
@@ -1419,7 +1583,9 @@
         "standard": "https://i.ytimg.com/vi/WxXf9iRNwYM/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/WxXf9iRNwYM/maxresdefault.jpg"
       },
-      "position": 82
+      "position": 82,
+      "viewCount": 1320811,
+      "likeCount": 29089
     },
     {
       "videoId": "7kT2Azgw3rc",
@@ -1436,7 +1602,9 @@
         "standard": "https://i.ytimg.com/vi/7kT2Azgw3rc/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/7kT2Azgw3rc/maxresdefault.jpg"
       },
-      "position": 83
+      "position": 83,
+      "viewCount": 5394787,
+      "likeCount": 130885
     },
     {
       "videoId": "ftYDy4SyK4E",
@@ -1453,7 +1621,9 @@
         "standard": "https://i.ytimg.com/vi/ftYDy4SyK4E/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/ftYDy4SyK4E/maxresdefault.jpg"
       },
-      "position": 84
+      "position": 84,
+      "viewCount": 1547467,
+      "likeCount": 24275
     },
     {
       "videoId": "PFQQhZQp5vo",
@@ -1470,7 +1640,9 @@
         "standard": "https://i.ytimg.com/vi/PFQQhZQp5vo/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/PFQQhZQp5vo/maxresdefault.jpg"
       },
-      "position": 85
+      "position": 85,
+      "viewCount": 2096922,
+      "likeCount": 55024
     },
     {
       "videoId": "jKtkVvAq_Kk",
@@ -1487,7 +1659,9 @@
         "standard": "https://i.ytimg.com/vi/jKtkVvAq_Kk/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/jKtkVvAq_Kk/maxresdefault.jpg"
       },
-      "position": 86
+      "position": 86,
+      "viewCount": 2936443,
+      "likeCount": 64284
     },
     {
       "videoId": "GHvhDURnRPE",
@@ -1504,7 +1678,9 @@
         "standard": "https://i.ytimg.com/vi/GHvhDURnRPE/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/GHvhDURnRPE/maxresdefault.jpg"
       },
-      "position": 87
+      "position": 87,
+      "viewCount": 941435,
+      "likeCount": 24109
     },
     {
       "videoId": "7mPowVq9wxo",
@@ -1521,7 +1697,9 @@
         "standard": "https://i.ytimg.com/vi/7mPowVq9wxo/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/7mPowVq9wxo/maxresdefault.jpg"
       },
-      "position": 88
+      "position": 88,
+      "viewCount": 2646195,
+      "likeCount": 51048
     },
     {
       "videoId": "cchy8Tl5Oa8",
@@ -1538,7 +1716,9 @@
         "standard": "https://i.ytimg.com/vi/cchy8Tl5Oa8/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/cchy8Tl5Oa8/maxresdefault.jpg"
       },
-      "position": 89
+      "position": 89,
+      "viewCount": 7188933,
+      "likeCount": 99969
     },
     {
       "videoId": "BSi88nRijoA",
@@ -1555,7 +1735,9 @@
         "standard": "https://i.ytimg.com/vi/BSi88nRijoA/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/BSi88nRijoA/maxresdefault.jpg"
       },
-      "position": 90
+      "position": 90,
+      "viewCount": 6278684,
+      "likeCount": 68888
     },
     {
       "videoId": "7jhiYmtD4qE",
@@ -1572,7 +1754,9 @@
         "standard": "https://i.ytimg.com/vi/7jhiYmtD4qE/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/7jhiYmtD4qE/maxresdefault.jpg"
       },
-      "position": 91
+      "position": 91,
+      "viewCount": 272162,
+      "likeCount": 8813
     },
     {
       "videoId": "w0lpuKNZRQ0",
@@ -1589,7 +1773,9 @@
         "standard": "https://i.ytimg.com/vi/w0lpuKNZRQ0/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/w0lpuKNZRQ0/maxresdefault.jpg"
       },
-      "position": 92
+      "position": 92,
+      "viewCount": 5024304,
+      "likeCount": 74383
     },
     {
       "videoId": "7WryveKlyX8",
@@ -1606,7 +1792,9 @@
         "standard": "https://i.ytimg.com/vi/7WryveKlyX8/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/7WryveKlyX8/maxresdefault.jpg"
       },
-      "position": 93
+      "position": 93,
+      "viewCount": 11548448,
+      "likeCount": 116276
     },
     {
       "videoId": "LP5Q7J0Zs7s",
@@ -1623,7 +1811,9 @@
         "standard": "https://i.ytimg.com/vi/LP5Q7J0Zs7s/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/LP5Q7J0Zs7s/maxresdefault.jpg"
       },
-      "position": 94
+      "position": 94,
+      "viewCount": 6511822,
+      "likeCount": 77888
     },
     {
       "videoId": "tLyCG-Pcn8w",
@@ -1640,7 +1830,9 @@
         "standard": "https://i.ytimg.com/vi/tLyCG-Pcn8w/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/tLyCG-Pcn8w/maxresdefault.jpg"
       },
-      "position": 95
+      "position": 95,
+      "viewCount": 2195304,
+      "likeCount": 57758
     },
     {
       "videoId": "2DGf-KlKXGA",
@@ -1657,7 +1849,9 @@
         "standard": "https://i.ytimg.com/vi/2DGf-KlKXGA/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/2DGf-KlKXGA/maxresdefault.jpg"
       },
-      "position": 96
+      "position": 96,
+      "viewCount": 4710597,
+      "likeCount": 54910
     },
     {
       "videoId": "rmRHecZZGvs",
@@ -1674,7 +1868,9 @@
         "standard": "https://i.ytimg.com/vi/rmRHecZZGvs/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/rmRHecZZGvs/maxresdefault.jpg"
       },
-      "position": 97
+      "position": 97,
+      "viewCount": 4132702,
+      "likeCount": 54015
     },
     {
       "videoId": "XhWcA37YAd8",
@@ -1691,7 +1887,9 @@
         "standard": "https://i.ytimg.com/vi/XhWcA37YAd8/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/XhWcA37YAd8/maxresdefault.jpg"
       },
-      "position": 98
+      "position": 98,
+      "viewCount": 1057004,
+      "likeCount": 20330
     },
     {
       "videoId": "eex9bQZ1p_E",
@@ -1708,7 +1906,9 @@
         "standard": "https://i.ytimg.com/vi/eex9bQZ1p_E/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/eex9bQZ1p_E/maxresdefault.jpg"
       },
-      "position": 99
+      "position": 99,
+      "viewCount": 362324,
+      "likeCount": 14654
     },
     {
       "videoId": "cX9MG-cUdqI",
@@ -1725,7 +1925,9 @@
         "standard": "https://i.ytimg.com/vi/cX9MG-cUdqI/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/cX9MG-cUdqI/maxresdefault.jpg"
       },
-      "position": 100
+      "position": 100,
+      "viewCount": 5407564,
+      "likeCount": 54891
     },
     {
       "videoId": "wuVfqSYJoeU",
@@ -1742,7 +1944,9 @@
         "standard": "https://i.ytimg.com/vi/wuVfqSYJoeU/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/wuVfqSYJoeU/maxresdefault.jpg"
       },
-      "position": 101
+      "position": 101,
+      "viewCount": 10456073,
+      "likeCount": 213484
     },
     {
       "videoId": "v-fc1zv31zE",
@@ -1759,7 +1963,9 @@
         "standard": "https://i.ytimg.com/vi/v-fc1zv31zE/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/v-fc1zv31zE/maxresdefault.jpg"
       },
-      "position": 102
+      "position": 102,
+      "viewCount": 14067900,
+      "likeCount": 227057
     },
     {
       "videoId": "Dn1ym4Z416A",
@@ -1776,7 +1982,9 @@
         "standard": "https://i.ytimg.com/vi/Dn1ym4Z416A/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/Dn1ym4Z416A/maxresdefault.jpg"
       },
-      "position": 103
+      "position": 103,
+      "viewCount": 2615973,
+      "likeCount": 32779
     },
     {
       "videoId": "91E_W8JhSjs",
@@ -1793,7 +2001,9 @@
         "standard": "https://i.ytimg.com/vi/91E_W8JhSjs/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/91E_W8JhSjs/maxresdefault.jpg"
       },
-      "position": 104
+      "position": 104,
+      "viewCount": 6804609,
+      "likeCount": 77399
     },
     {
       "videoId": "XQJOpOYhdRM",
@@ -1810,7 +2020,9 @@
         "standard": "https://i.ytimg.com/vi/XQJOpOYhdRM/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/XQJOpOYhdRM/maxresdefault.jpg"
       },
-      "position": 105
+      "position": 105,
+      "viewCount": 1449393,
+      "likeCount": 44743
     },
     {
       "videoId": "bxi1UpAParc",
@@ -1827,7 +2039,9 @@
         "standard": "https://i.ytimg.com/vi/bxi1UpAParc/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/bxi1UpAParc/maxresdefault.jpg"
       },
-      "position": 106
+      "position": 106,
+      "viewCount": 3083887,
+      "likeCount": 50707
     },
     {
       "videoId": "vdqVZq-6EbI",
@@ -1844,7 +2058,9 @@
         "standard": "https://i.ytimg.com/vi/vdqVZq-6EbI/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/vdqVZq-6EbI/maxresdefault.jpg"
       },
-      "position": 107
+      "position": 107,
+      "viewCount": 4310575,
+      "likeCount": 85421
     },
     {
       "videoId": "FvnoqCn6YOY",
@@ -1861,7 +2077,9 @@
         "standard": "https://i.ytimg.com/vi/FvnoqCn6YOY/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/FvnoqCn6YOY/maxresdefault.jpg"
       },
-      "position": 108
+      "position": 108,
+      "viewCount": 4870539,
+      "likeCount": 96097
     },
     {
       "videoId": "enD1h7gGhkc",
@@ -1878,7 +2096,9 @@
         "standard": "https://i.ytimg.com/vi/enD1h7gGhkc/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/enD1h7gGhkc/maxresdefault.jpg"
       },
-      "position": 109
+      "position": 109,
+      "viewCount": 1083803,
+      "likeCount": 16438
     },
     {
       "videoId": "F1v97Y6z0o0",
@@ -1895,7 +2115,9 @@
         "standard": "https://i.ytimg.com/vi/F1v97Y6z0o0/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/F1v97Y6z0o0/maxresdefault.jpg"
       },
-      "position": 110
+      "position": 110,
+      "viewCount": 3227094,
+      "likeCount": 36683
     },
     {
       "videoId": "i8XnOZgtE34",
@@ -1912,7 +2134,9 @@
         "standard": "https://i.ytimg.com/vi/i8XnOZgtE34/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/i8XnOZgtE34/maxresdefault.jpg"
       },
-      "position": 111
+      "position": 111,
+      "viewCount": 3928032,
+      "likeCount": 48806
     },
     {
       "videoId": "cb5OsMFrqzg",
@@ -1929,7 +2153,9 @@
         "standard": "https://i.ytimg.com/vi/cb5OsMFrqzg/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/cb5OsMFrqzg/maxresdefault.jpg"
       },
-      "position": 112
+      "position": 112,
+      "viewCount": 2295599,
+      "likeCount": 34451
     },
     {
       "videoId": "RmHiTOqfJP8",
@@ -1946,7 +2172,9 @@
         "standard": "https://i.ytimg.com/vi/RmHiTOqfJP8/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/RmHiTOqfJP8/maxresdefault.jpg"
       },
-      "position": 113
+      "position": 113,
+      "viewCount": 2935484,
+      "likeCount": 46147
     },
     {
       "videoId": "TxOA6VGGxgU",
@@ -1963,7 +2191,9 @@
         "standard": "https://i.ytimg.com/vi/TxOA6VGGxgU/sddefault.jpg",
         "maxres": ""
       },
-      "position": 114
+      "position": 114,
+      "viewCount": 9988479,
+      "likeCount": 128187
     },
     {
       "videoId": "Mj38FoEYVGA",
@@ -1980,7 +2210,9 @@
         "standard": "https://i.ytimg.com/vi/Mj38FoEYVGA/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/Mj38FoEYVGA/maxresdefault.jpg"
       },
-      "position": 115
+      "position": 115,
+      "viewCount": 8369512,
+      "likeCount": 102682
     },
     {
       "videoId": "upn_CnVPGAA",
@@ -1997,7 +2229,9 @@
         "standard": "https://i.ytimg.com/vi/upn_CnVPGAA/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/upn_CnVPGAA/maxresdefault.jpg"
       },
-      "position": 116
+      "position": 116,
+      "viewCount": 1823444,
+      "likeCount": 28476
     },
     {
       "videoId": "8ge0WVq18Oo",
@@ -2014,7 +2248,9 @@
         "standard": "https://i.ytimg.com/vi/8ge0WVq18Oo/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/8ge0WVq18Oo/maxresdefault.jpg"
       },
-      "position": 117
+      "position": 117,
+      "viewCount": 3078960,
+      "likeCount": 53254
     },
     {
       "videoId": "ODuMEKNXFWg",
@@ -2031,7 +2267,9 @@
         "standard": "https://i.ytimg.com/vi/ODuMEKNXFWg/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/ODuMEKNXFWg/maxresdefault.jpg"
       },
-      "position": 118
+      "position": 118,
+      "viewCount": 6734678,
+      "likeCount": 79222
     },
     {
       "videoId": "Vvp2OOXiEyU",
@@ -2048,7 +2286,9 @@
         "standard": "https://i.ytimg.com/vi/Vvp2OOXiEyU/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/Vvp2OOXiEyU/maxresdefault.jpg"
       },
-      "position": 119
+      "position": 119,
+      "viewCount": 909504,
+      "likeCount": 21964
     },
     {
       "videoId": "wgk69V2XUDg",
@@ -2065,7 +2305,9 @@
         "standard": "https://i.ytimg.com/vi/wgk69V2XUDg/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/wgk69V2XUDg/maxresdefault.jpg"
       },
-      "position": 120
+      "position": 120,
+      "viewCount": 476930,
+      "likeCount": 16285
     },
     {
       "videoId": "S9wXcIOHLyk",
@@ -2082,7 +2324,9 @@
         "standard": "https://i.ytimg.com/vi/S9wXcIOHLyk/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/S9wXcIOHLyk/maxresdefault.jpg"
       },
-      "position": 121
+      "position": 121,
+      "viewCount": 1724230,
+      "likeCount": 36682
     },
     {
       "videoId": "UAzw5B-35kI",
@@ -2099,7 +2343,9 @@
         "standard": "https://i.ytimg.com/vi/UAzw5B-35kI/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/UAzw5B-35kI/maxresdefault.jpg"
       },
-      "position": 122
+      "position": 122,
+      "viewCount": 10446731,
+      "likeCount": 122961
     },
     {
       "videoId": "e14s4bMmHdI",
@@ -2116,7 +2362,9 @@
         "standard": "https://i.ytimg.com/vi/e14s4bMmHdI/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/e14s4bMmHdI/maxresdefault.jpg"
       },
-      "position": 123
+      "position": 123,
+      "viewCount": 3961976,
+      "likeCount": 55225
     },
     {
       "videoId": "tfetmZjz2mA",
@@ -2133,7 +2381,9 @@
         "standard": "https://i.ytimg.com/vi/tfetmZjz2mA/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/tfetmZjz2mA/maxresdefault.jpg"
       },
-      "position": 124
+      "position": 124,
+      "viewCount": 9100509,
+      "likeCount": 109871
     },
     {
       "videoId": "0w9vjCToTPQ",
@@ -2150,7 +2400,9 @@
         "standard": "https://i.ytimg.com/vi/0w9vjCToTPQ/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/0w9vjCToTPQ/maxresdefault.jpg"
       },
-      "position": 125
+      "position": 125,
+      "viewCount": 2151892,
+      "likeCount": 31321
     },
     {
       "videoId": "h1QTkwJnX0E",
@@ -2167,7 +2419,9 @@
         "standard": "https://i.ytimg.com/vi/h1QTkwJnX0E/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/h1QTkwJnX0E/maxresdefault.jpg"
       },
-      "position": 126
+      "position": 126,
+      "viewCount": 6914174,
+      "likeCount": 66937
     },
     {
       "videoId": "dk13KyWwZn4",
@@ -2184,7 +2438,9 @@
         "standard": "https://i.ytimg.com/vi/dk13KyWwZn4/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/dk13KyWwZn4/maxresdefault.jpg"
       },
-      "position": 127
+      "position": 127,
+      "viewCount": 4732242,
+      "likeCount": 70292
     },
     {
       "videoId": "wgpHtgV-WI4",
@@ -2201,7 +2457,9 @@
         "standard": "https://i.ytimg.com/vi/wgpHtgV-WI4/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/wgpHtgV-WI4/maxresdefault.jpg"
       },
-      "position": 128
+      "position": 128,
+      "viewCount": 1057858,
+      "likeCount": 19573
     },
     {
       "videoId": "5T9guD86JXE",
@@ -2218,7 +2476,9 @@
         "standard": "https://i.ytimg.com/vi/5T9guD86JXE/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/5T9guD86JXE/maxresdefault.jpg"
       },
-      "position": 129
+      "position": 129,
+      "viewCount": 1541423,
+      "likeCount": 27038
     },
     {
       "videoId": "0lur0sN_O60",
@@ -2235,7 +2495,9 @@
         "standard": "https://i.ytimg.com/vi/0lur0sN_O60/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/0lur0sN_O60/maxresdefault.jpg"
       },
-      "position": 130
+      "position": 130,
+      "viewCount": 9292699,
+      "likeCount": 109623
     },
     {
       "videoId": "GxgQzW_y6ts",
@@ -2252,7 +2514,9 @@
         "standard": "https://i.ytimg.com/vi/GxgQzW_y6ts/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/GxgQzW_y6ts/maxresdefault.jpg"
       },
-      "position": 131
+      "position": 131,
+      "viewCount": 4083683,
+      "likeCount": 61630
     },
     {
       "videoId": "HScDU73-MnI",
@@ -2269,7 +2533,9 @@
         "standard": "https://i.ytimg.com/vi/HScDU73-MnI/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/HScDU73-MnI/maxresdefault.jpg"
       },
-      "position": 132
+      "position": 132,
+      "viewCount": 982484,
+      "likeCount": 29525
     },
     {
       "videoId": "zw0JHV7nrUg",
@@ -2286,7 +2552,9 @@
         "standard": "https://i.ytimg.com/vi/zw0JHV7nrUg/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/zw0JHV7nrUg/maxresdefault.jpg"
       },
-      "position": 133
+      "position": 133,
+      "viewCount": 16381349,
+      "likeCount": 247891
     },
     {
       "videoId": "0zhop5qsyKY",
@@ -2303,7 +2571,9 @@
         "standard": "https://i.ytimg.com/vi/0zhop5qsyKY/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/0zhop5qsyKY/maxresdefault.jpg"
       },
-      "position": 134
+      "position": 134,
+      "viewCount": 3066319,
+      "likeCount": 51159
     },
     {
       "videoId": "3MnJU3QtDVE",
@@ -2320,7 +2590,9 @@
         "standard": "https://i.ytimg.com/vi/3MnJU3QtDVE/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/3MnJU3QtDVE/maxresdefault.jpg"
       },
-      "position": 135
+      "position": 135,
+      "viewCount": 3998930,
+      "likeCount": 87429
     },
     {
       "videoId": "1gywabi-I4k",
@@ -2337,7 +2609,9 @@
         "standard": "https://i.ytimg.com/vi/1gywabi-I4k/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/1gywabi-I4k/maxresdefault.jpg"
       },
-      "position": 136
+      "position": 136,
+      "viewCount": 3759296,
+      "likeCount": 55701
     },
     {
       "videoId": "vpVMJJUkSuw",
@@ -2354,7 +2628,9 @@
         "standard": "https://i.ytimg.com/vi/vpVMJJUkSuw/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/vpVMJJUkSuw/maxresdefault.jpg"
       },
-      "position": 137
+      "position": 137,
+      "viewCount": 505889,
+      "likeCount": 22678
     },
     {
       "videoId": "Kv49Wbh1wHg",
@@ -2371,7 +2647,9 @@
         "standard": "https://i.ytimg.com/vi/Kv49Wbh1wHg/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/Kv49Wbh1wHg/maxresdefault.jpg"
       },
-      "position": 138
+      "position": 138,
+      "viewCount": 3117869,
+      "likeCount": 46364
     },
     {
       "videoId": "gJk_vTwiduU",
@@ -2388,7 +2666,9 @@
         "standard": "https://i.ytimg.com/vi/gJk_vTwiduU/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/gJk_vTwiduU/maxresdefault.jpg"
       },
-      "position": 139
+      "position": 139,
+      "viewCount": 4966391,
+      "likeCount": 79204
     },
     {
       "videoId": "sYKew3uzDtM",
@@ -2405,7 +2685,9 @@
         "standard": "https://i.ytimg.com/vi/sYKew3uzDtM/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/sYKew3uzDtM/maxresdefault.jpg"
       },
-      "position": 140
+      "position": 140,
+      "viewCount": 1204959,
+      "likeCount": 27040
     },
     {
       "videoId": "Qu4oqtVmBck",
@@ -2422,7 +2704,9 @@
         "standard": "https://i.ytimg.com/vi/Qu4oqtVmBck/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/Qu4oqtVmBck/maxresdefault.jpg"
       },
-      "position": 141
+      "position": 141,
+      "viewCount": 1282067,
+      "likeCount": 21382
     },
     {
       "videoId": "B_G4OKreu80",
@@ -2439,7 +2723,9 @@
         "standard": "https://i.ytimg.com/vi/B_G4OKreu80/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/B_G4OKreu80/maxresdefault.jpg"
       },
-      "position": 142
+      "position": 142,
+      "viewCount": 5544167,
+      "likeCount": 81304
     },
     {
       "videoId": "nVg3V4L-LeY",
@@ -2456,7 +2742,9 @@
         "standard": "https://i.ytimg.com/vi/nVg3V4L-LeY/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/nVg3V4L-LeY/maxresdefault.jpg"
       },
-      "position": 143
+      "position": 143,
+      "viewCount": 2787248,
+      "likeCount": 52276
     },
     {
       "videoId": "Icq8vBZivxc",
@@ -2473,7 +2761,9 @@
         "standard": "https://i.ytimg.com/vi/Icq8vBZivxc/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/Icq8vBZivxc/maxresdefault.jpg"
       },
-      "position": 144
+      "position": 144,
+      "viewCount": 858339,
+      "likeCount": 25685
     },
     {
       "videoId": "dXumRYQzs2s",
@@ -2490,7 +2780,9 @@
         "standard": "https://i.ytimg.com/vi/dXumRYQzs2s/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/dXumRYQzs2s/maxresdefault.jpg"
       },
-      "position": 145
+      "position": 145,
+      "viewCount": 3028742,
+      "likeCount": 43526
     },
     {
       "videoId": "M39eT_tbtjI",
@@ -2507,7 +2799,9 @@
         "standard": "https://i.ytimg.com/vi/M39eT_tbtjI/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/M39eT_tbtjI/maxresdefault.jpg"
       },
-      "position": 146
+      "position": 146,
+      "viewCount": 3803737,
+      "likeCount": 44634
     },
     {
       "videoId": "XADWOc8alvw",
@@ -2524,7 +2818,9 @@
         "standard": "https://i.ytimg.com/vi/XADWOc8alvw/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/XADWOc8alvw/maxresdefault.jpg"
       },
-      "position": 147
+      "position": 147,
+      "viewCount": 3249799,
+      "likeCount": 50002
     },
     {
       "videoId": "zBePOfn5FIg",
@@ -2541,7 +2837,9 @@
         "standard": "https://i.ytimg.com/vi/zBePOfn5FIg/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/zBePOfn5FIg/maxresdefault.jpg"
       },
-      "position": 148
+      "position": 148,
+      "viewCount": 10804010,
+      "likeCount": 139128
     },
     {
       "videoId": "jERIsGLQerY",
@@ -2558,7 +2856,9 @@
         "standard": "https://i.ytimg.com/vi/jERIsGLQerY/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/jERIsGLQerY/maxresdefault.jpg"
       },
-      "position": 149
+      "position": 149,
+      "viewCount": 3386829,
+      "likeCount": 56316
     },
     {
       "videoId": "VL4-H_O2MNo",
@@ -2575,7 +2875,9 @@
         "standard": "https://i.ytimg.com/vi/VL4-H_O2MNo/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/VL4-H_O2MNo/maxresdefault.jpg"
       },
-      "position": 150
+      "position": 150,
+      "viewCount": 1457922,
+      "likeCount": 31259
     },
     {
       "videoId": "R38QyFy2-1I",
@@ -2592,7 +2894,9 @@
         "standard": "https://i.ytimg.com/vi/R38QyFy2-1I/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/R38QyFy2-1I/maxresdefault.jpg"
       },
-      "position": 151
+      "position": 151,
+      "viewCount": 641496,
+      "likeCount": 19041
     },
     {
       "videoId": "l-OtSO4dsLM",
@@ -2609,7 +2913,9 @@
         "standard": "https://i.ytimg.com/vi/l-OtSO4dsLM/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/l-OtSO4dsLM/maxresdefault.jpg"
       },
-      "position": 152
+      "position": 152,
+      "viewCount": 17158983,
+      "likeCount": 151514
     },
     {
       "videoId": "YfZ6Dv6tC4E",
@@ -2626,7 +2932,9 @@
         "standard": "https://i.ytimg.com/vi/YfZ6Dv6tC4E/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/YfZ6Dv6tC4E/maxresdefault.jpg"
       },
-      "position": 153
+      "position": 153,
+      "viewCount": 1386917,
+      "likeCount": 24101
     },
     {
       "videoId": "tIvL_TlLckg",
@@ -2643,7 +2951,9 @@
         "standard": "https://i.ytimg.com/vi/tIvL_TlLckg/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/tIvL_TlLckg/maxresdefault.jpg"
       },
-      "position": 154
+      "position": 154,
+      "viewCount": 3749062,
+      "likeCount": 77447
     },
     {
       "videoId": "mZI9HEVh6Yw",
@@ -2660,7 +2970,9 @@
         "standard": "https://i.ytimg.com/vi/mZI9HEVh6Yw/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/mZI9HEVh6Yw/maxresdefault.jpg"
       },
-      "position": 155
+      "position": 155,
+      "viewCount": 6327857,
+      "likeCount": 129113
     },
     {
       "videoId": "jSL3Q2BHtH4",
@@ -2677,7 +2989,9 @@
         "standard": "https://i.ytimg.com/vi/jSL3Q2BHtH4/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/jSL3Q2BHtH4/maxresdefault.jpg"
       },
-      "position": 156
+      "position": 156,
+      "viewCount": 12358129,
+      "likeCount": 149065
     },
     {
       "videoId": "QkF12S1QCxc",
@@ -2694,7 +3008,9 @@
         "standard": "https://i.ytimg.com/vi/QkF12S1QCxc/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/QkF12S1QCxc/maxresdefault.jpg"
       },
-      "position": 157
+      "position": 157,
+      "viewCount": 11763309,
+      "likeCount": 109949
     },
     {
       "videoId": "LTNhnSYd5CU",
@@ -2711,7 +3027,9 @@
         "standard": "https://i.ytimg.com/vi/LTNhnSYd5CU/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/LTNhnSYd5CU/maxresdefault.jpg"
       },
-      "position": 158
+      "position": 158,
+      "viewCount": 7459470,
+      "likeCount": 100897
     },
     {
       "videoId": "YZpGYdK0qP0",
@@ -2728,7 +3046,9 @@
         "standard": "https://i.ytimg.com/vi/YZpGYdK0qP0/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/YZpGYdK0qP0/maxresdefault.jpg"
       },
-      "position": 159
+      "position": 159,
+      "viewCount": 589523,
+      "likeCount": 17729
     },
     {
       "videoId": "2GK1B1RshN4",
@@ -2745,7 +3065,9 @@
         "standard": "https://i.ytimg.com/vi/2GK1B1RshN4/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/2GK1B1RshN4/maxresdefault.jpg"
       },
-      "position": 160
+      "position": 160,
+      "viewCount": 5405070,
+      "likeCount": 66249
     },
     {
       "videoId": "_--Sjtj84-U",
@@ -2762,7 +3084,9 @@
         "standard": "https://i.ytimg.com/vi/_--Sjtj84-U/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/_--Sjtj84-U/maxresdefault.jpg"
       },
-      "position": 161
+      "position": 161,
+      "viewCount": 4483933,
+      "likeCount": 92684
     },
     {
       "videoId": "1Cg4G-rUe68",
@@ -2779,7 +3103,9 @@
         "standard": "https://i.ytimg.com/vi/1Cg4G-rUe68/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/1Cg4G-rUe68/maxresdefault.jpg"
       },
-      "position": 162
+      "position": 162,
+      "viewCount": 2783898,
+      "likeCount": 47948
     },
     {
       "videoId": "iCPSISA0NM8",
@@ -2796,7 +3122,9 @@
         "standard": "https://i.ytimg.com/vi/iCPSISA0NM8/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/iCPSISA0NM8/maxresdefault.jpg"
       },
-      "position": 163
+      "position": 163,
+      "viewCount": 1085859,
+      "likeCount": 42571
     },
     {
       "videoId": "eWBjxT54RQA",
@@ -2813,7 +3141,9 @@
         "standard": "https://i.ytimg.com/vi/eWBjxT54RQA/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/eWBjxT54RQA/maxresdefault.jpg"
       },
-      "position": 164
+      "position": 164,
+      "viewCount": 9942001,
+      "likeCount": 141042
     },
     {
       "videoId": "y_lZimJsdjU",
@@ -2830,7 +3160,9 @@
         "standard": "https://i.ytimg.com/vi/y_lZimJsdjU/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/y_lZimJsdjU/maxresdefault.jpg"
       },
-      "position": 165
+      "position": 165,
+      "viewCount": 8068858,
+      "likeCount": 99638
     },
     {
       "videoId": "Brap_tO3Jj0",
@@ -2847,7 +3179,9 @@
         "standard": "https://i.ytimg.com/vi/Brap_tO3Jj0/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/Brap_tO3Jj0/maxresdefault.jpg"
       },
-      "position": 166
+      "position": 166,
+      "viewCount": 2455095,
+      "likeCount": 34019
     },
     {
       "videoId": "GWylU4wzBvo",
@@ -2864,7 +3198,9 @@
         "standard": "https://i.ytimg.com/vi/GWylU4wzBvo/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/GWylU4wzBvo/maxresdefault.jpg"
       },
-      "position": 167
+      "position": 167,
+      "viewCount": 3738555,
+      "likeCount": 80254
     },
     {
       "videoId": "lMXlOPGjwUI",
@@ -2881,7 +3217,9 @@
         "standard": "https://i.ytimg.com/vi/lMXlOPGjwUI/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/lMXlOPGjwUI/maxresdefault.jpg"
       },
-      "position": 168
+      "position": 168,
+      "viewCount": 15834454,
+      "likeCount": 179407
     },
     {
       "videoId": "YAc_gGGdkEg",
@@ -2898,7 +3236,9 @@
         "standard": "https://i.ytimg.com/vi/YAc_gGGdkEg/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/YAc_gGGdkEg/maxresdefault.jpg"
       },
-      "position": 169
+      "position": 169,
+      "viewCount": 2691277,
+      "likeCount": 73118
     },
     {
       "videoId": "bof7UD3MJAQ",
@@ -2915,7 +3255,9 @@
         "standard": "https://i.ytimg.com/vi/bof7UD3MJAQ/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/bof7UD3MJAQ/maxresdefault.jpg"
       },
-      "position": 170
+      "position": 170,
+      "viewCount": 5343517,
+      "likeCount": 80269
     },
     {
       "videoId": "U1aS62Juz70",
@@ -2932,7 +3274,9 @@
         "standard": "https://i.ytimg.com/vi/U1aS62Juz70/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/U1aS62Juz70/maxresdefault.jpg"
       },
-      "position": 171
+      "position": 171,
+      "viewCount": 2567286,
+      "likeCount": 48151
     },
     {
       "videoId": "zhBS-b3roHw",
@@ -2949,7 +3293,9 @@
         "standard": "https://i.ytimg.com/vi/zhBS-b3roHw/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/zhBS-b3roHw/maxresdefault.jpg"
       },
-      "position": 172
+      "position": 172,
+      "viewCount": 5444342,
+      "likeCount": 91104
     },
     {
       "videoId": "ZfVWqos23xs",
@@ -2966,7 +3312,9 @@
         "standard": "https://i.ytimg.com/vi/ZfVWqos23xs/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/ZfVWqos23xs/maxresdefault.jpg"
       },
-      "position": 173
+      "position": 173,
+      "viewCount": 12068932,
+      "likeCount": 225042
     },
     {
       "videoId": "egAHniCboNQ",
@@ -2983,7 +3331,9 @@
         "standard": "https://i.ytimg.com/vi/egAHniCboNQ/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/egAHniCboNQ/maxresdefault.jpg"
       },
-      "position": 174
+      "position": 174,
+      "viewCount": 6965963,
+      "likeCount": 85779
     },
     {
       "videoId": "gr4FAlsibeg",
@@ -3000,7 +3350,9 @@
         "standard": "https://i.ytimg.com/vi/gr4FAlsibeg/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/gr4FAlsibeg/maxresdefault.jpg"
       },
-      "position": 175
+      "position": 175,
+      "viewCount": 10283090,
+      "likeCount": 119348
     },
     {
       "videoId": "JTOM6fuXptg",
@@ -3017,7 +3369,9 @@
         "standard": "https://i.ytimg.com/vi/JTOM6fuXptg/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/JTOM6fuXptg/maxresdefault.jpg"
       },
-      "position": 176
+      "position": 176,
+      "viewCount": 8759049,
+      "likeCount": 135116
     },
     {
       "videoId": "Sloi-L5FHBY",
@@ -3034,7 +3388,9 @@
         "standard": "https://i.ytimg.com/vi/Sloi-L5FHBY/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/Sloi-L5FHBY/maxresdefault.jpg"
       },
-      "position": 177
+      "position": 177,
+      "viewCount": 5448642,
+      "likeCount": 74153
     },
     {
       "videoId": "m__WcDdaF7k",
@@ -3051,7 +3407,9 @@
         "standard": "https://i.ytimg.com/vi/m__WcDdaF7k/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/m__WcDdaF7k/maxresdefault.jpg"
       },
-      "position": 178
+      "position": 178,
+      "viewCount": 15068471,
+      "likeCount": 239312
     },
     {
       "videoId": "MxT59XJXMnU",
@@ -3068,7 +3426,9 @@
         "standard": "https://i.ytimg.com/vi/MxT59XJXMnU/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/MxT59XJXMnU/maxresdefault.jpg"
       },
-      "position": 179
+      "position": 179,
+      "viewCount": 11031407,
+      "likeCount": 321207
     },
     {
       "videoId": "MnZfL-cwUCA",
@@ -3085,7 +3445,9 @@
         "standard": "https://i.ytimg.com/vi/MnZfL-cwUCA/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/MnZfL-cwUCA/maxresdefault.jpg"
       },
-      "position": 180
+      "position": 180,
+      "viewCount": 9369310,
+      "likeCount": 115457
     },
     {
       "videoId": "gocFWi_8dfI",
@@ -3102,7 +3464,9 @@
         "standard": "https://i.ytimg.com/vi/gocFWi_8dfI/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/gocFWi_8dfI/maxresdefault.jpg"
       },
-      "position": 181
+      "position": 181,
+      "viewCount": 3806155,
+      "likeCount": 84723
     },
     {
       "videoId": "jfO8TPREjco",
@@ -3119,7 +3483,9 @@
         "standard": "https://i.ytimg.com/vi/jfO8TPREjco/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/jfO8TPREjco/maxresdefault.jpg"
       },
-      "position": 182
+      "position": 182,
+      "viewCount": 1197554,
+      "likeCount": 22811
     },
     {
       "videoId": "mMUFtpnPFKs",
@@ -3136,7 +3502,9 @@
         "standard": "https://i.ytimg.com/vi/mMUFtpnPFKs/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/mMUFtpnPFKs/maxresdefault.jpg"
       },
-      "position": 183
+      "position": 183,
+      "viewCount": 4955975,
+      "likeCount": 91578
     },
     {
       "videoId": "KJI_3HaLtmc",
@@ -3153,7 +3521,9 @@
         "standard": "https://i.ytimg.com/vi/KJI_3HaLtmc/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/KJI_3HaLtmc/maxresdefault.jpg"
       },
-      "position": 184
+      "position": 184,
+      "viewCount": 5879594,
+      "likeCount": 88986
     },
     {
       "videoId": "1B9c916aaq8",
@@ -3170,7 +3540,9 @@
         "standard": "https://i.ytimg.com/vi/1B9c916aaq8/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/1B9c916aaq8/maxresdefault.jpg"
       },
-      "position": 185
+      "position": 185,
+      "viewCount": 944067,
+      "likeCount": 37677
     },
     {
       "videoId": "diDsFjpV8yw",
@@ -3187,7 +3559,9 @@
         "standard": "https://i.ytimg.com/vi/diDsFjpV8yw/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/diDsFjpV8yw/maxresdefault.jpg"
       },
-      "position": 186
+      "position": 186,
+      "viewCount": 13916428,
+      "likeCount": 155954
     },
     {
       "videoId": "3VT85q-E-UU",
@@ -3204,7 +3578,9 @@
         "standard": "https://i.ytimg.com/vi/3VT85q-E-UU/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/3VT85q-E-UU/maxresdefault.jpg"
       },
-      "position": 187
+      "position": 187,
+      "viewCount": 9614295,
+      "likeCount": 148711
     },
     {
       "videoId": "t1XM0ECUqTE",
@@ -3221,7 +3597,9 @@
         "standard": "https://i.ytimg.com/vi/t1XM0ECUqTE/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/t1XM0ECUqTE/maxresdefault.jpg"
       },
-      "position": 188
+      "position": 188,
+      "viewCount": 5210425,
+      "likeCount": 107413
     },
     {
       "videoId": "_oe2F3tgKIk",
@@ -3238,7 +3616,9 @@
         "standard": "https://i.ytimg.com/vi/_oe2F3tgKIk/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/_oe2F3tgKIk/maxresdefault.jpg"
       },
-      "position": 189
+      "position": 189,
+      "viewCount": 2376556,
+      "likeCount": 68863
     },
     {
       "videoId": "2Ii7UBMxWVw",
@@ -3255,7 +3635,9 @@
         "standard": "https://i.ytimg.com/vi/2Ii7UBMxWVw/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/2Ii7UBMxWVw/maxresdefault.jpg"
       },
-      "position": 190
+      "position": 190,
+      "viewCount": 55288895,
+      "likeCount": 583308
     },
     {
       "videoId": "g6hGN-WNig0",
@@ -3272,7 +3654,9 @@
         "standard": "https://i.ytimg.com/vi/g6hGN-WNig0/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/g6hGN-WNig0/maxresdefault.jpg"
       },
-      "position": 191
+      "position": 191,
+      "viewCount": 3136078,
+      "likeCount": 49982
     },
     {
       "videoId": "BUyrhLRzAwU",
@@ -3289,7 +3673,9 @@
         "standard": "https://i.ytimg.com/vi/BUyrhLRzAwU/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/BUyrhLRzAwU/maxresdefault.jpg"
       },
-      "position": 192
+      "position": 192,
+      "viewCount": 7679110,
+      "likeCount": 103719
     },
     {
       "videoId": "E5Wu8Ir6kdQ",
@@ -3306,7 +3692,9 @@
         "standard": "https://i.ytimg.com/vi/E5Wu8Ir6kdQ/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/E5Wu8Ir6kdQ/maxresdefault.jpg"
       },
-      "position": 193
+      "position": 193,
+      "viewCount": 12433631,
+      "likeCount": 139347
     },
     {
       "videoId": "xBVIHNosBTg",
@@ -3323,7 +3711,9 @@
         "standard": "https://i.ytimg.com/vi/xBVIHNosBTg/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/xBVIHNosBTg/maxresdefault.jpg"
       },
-      "position": 194
+      "position": 194,
+      "viewCount": 4179126,
+      "likeCount": 82149
     },
     {
       "videoId": "I36IQ3cEPAo",
@@ -3340,7 +3730,9 @@
         "standard": "https://i.ytimg.com/vi/I36IQ3cEPAo/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/I36IQ3cEPAo/maxresdefault.jpg"
       },
-      "position": 195
+      "position": 195,
+      "viewCount": 4714390,
+      "likeCount": 142720
     },
     {
       "videoId": "giOsLry_orw",
@@ -3357,7 +3749,9 @@
         "standard": "https://i.ytimg.com/vi/giOsLry_orw/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/giOsLry_orw/maxresdefault.jpg"
       },
-      "position": 196
+      "position": 196,
+      "viewCount": 11546773,
+      "likeCount": 164766
     },
     {
       "videoId": "t5c8D1xbXtw",
@@ -3374,7 +3768,9 @@
         "standard": "https://i.ytimg.com/vi/t5c8D1xbXtw/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/t5c8D1xbXtw/maxresdefault.jpg"
       },
-      "position": 197
+      "position": 197,
+      "viewCount": 4148371,
+      "likeCount": 71316
     },
     {
       "videoId": "0BHY0Gs0ZZM",
@@ -3391,7 +3787,9 @@
         "standard": "https://i.ytimg.com/vi/0BHY0Gs0ZZM/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/0BHY0Gs0ZZM/maxresdefault.jpg"
       },
-      "position": 198
+      "position": 198,
+      "viewCount": 3389539,
+      "likeCount": 52272
     },
     {
       "videoId": "eLIUBridZsw",
@@ -3408,7 +3806,9 @@
         "standard": "https://i.ytimg.com/vi/eLIUBridZsw/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/eLIUBridZsw/maxresdefault.jpg"
       },
-      "position": 199
+      "position": 199,
+      "viewCount": 1316841,
+      "likeCount": 36589
     },
     {
       "videoId": "babaG-xuBQM",
@@ -3425,7 +3825,9 @@
         "standard": "https://i.ytimg.com/vi/babaG-xuBQM/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/babaG-xuBQM/maxresdefault.jpg"
       },
-      "position": 200
+      "position": 200,
+      "viewCount": 11396379,
+      "likeCount": 183230
     },
     {
       "videoId": "eb46opRRyLc",
@@ -3442,7 +3844,9 @@
         "standard": "https://i.ytimg.com/vi/eb46opRRyLc/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/eb46opRRyLc/maxresdefault.jpg"
       },
-      "position": 201
+      "position": 201,
+      "viewCount": 3819128,
+      "likeCount": 60263
     },
     {
       "videoId": "IPIwkhKdQxM",
@@ -3459,7 +3863,9 @@
         "standard": "https://i.ytimg.com/vi/IPIwkhKdQxM/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/IPIwkhKdQxM/maxresdefault.jpg"
       },
-      "position": 202
+      "position": 202,
+      "viewCount": 4743256,
+      "likeCount": 70871
     },
     {
       "videoId": "aFx6y9HxDt0",
@@ -3476,7 +3882,9 @@
         "standard": "https://i.ytimg.com/vi/aFx6y9HxDt0/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/aFx6y9HxDt0/maxresdefault.jpg"
       },
-      "position": 203
+      "position": 203,
+      "viewCount": 3840385,
+      "likeCount": 78159
     },
     {
       "videoId": "jPXAgWkqbo4",
@@ -3493,7 +3901,9 @@
         "standard": "https://i.ytimg.com/vi/jPXAgWkqbo4/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/jPXAgWkqbo4/maxresdefault.jpg"
       },
-      "position": 204
+      "position": 204,
+      "viewCount": 14665271,
+      "likeCount": 305285
     },
     {
       "videoId": "ZVnD_K972P8",
@@ -3510,7 +3920,9 @@
         "standard": "https://i.ytimg.com/vi/ZVnD_K972P8/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/ZVnD_K972P8/maxresdefault.jpg"
       },
-      "position": 205
+      "position": 205,
+      "viewCount": 2163026,
+      "likeCount": 57035
     },
     {
       "videoId": "0qb27SBWZ38",
@@ -3527,7 +3939,9 @@
         "standard": "https://i.ytimg.com/vi/0qb27SBWZ38/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/0qb27SBWZ38/maxresdefault.jpg"
       },
-      "position": 206
+      "position": 206,
+      "viewCount": 5170737,
+      "likeCount": 105525
     },
     {
       "videoId": "M_ijFuoASt0",
@@ -3544,7 +3958,9 @@
         "standard": "https://i.ytimg.com/vi/M_ijFuoASt0/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/M_ijFuoASt0/maxresdefault.jpg"
       },
-      "position": 207
+      "position": 207,
+      "viewCount": 13527439,
+      "likeCount": 133055
     },
     {
       "videoId": "ZiZkXbivmh4",
@@ -3561,7 +3977,9 @@
         "standard": "https://i.ytimg.com/vi/ZiZkXbivmh4/sddefault.jpg",
         "maxres": ""
       },
-      "position": 208
+      "position": 208,
+      "viewCount": 7601992,
+      "likeCount": 135032
     },
     {
       "videoId": "a-Xnb5Iw6Is",
@@ -3578,7 +3996,9 @@
         "standard": "https://i.ytimg.com/vi/a-Xnb5Iw6Is/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/a-Xnb5Iw6Is/maxresdefault.jpg"
       },
-      "position": 209
+      "position": 209,
+      "viewCount": 2903366,
+      "likeCount": 57479
     },
     {
       "videoId": "JluOv0KD9Wc",
@@ -3595,7 +4015,9 @@
         "standard": "https://i.ytimg.com/vi/JluOv0KD9Wc/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/JluOv0KD9Wc/maxresdefault.jpg"
       },
-      "position": 210
+      "position": 210,
+      "viewCount": 3991676,
+      "likeCount": 86327
     },
     {
       "videoId": "YsSShYaKOvk",
@@ -3612,7 +4034,9 @@
         "standard": "https://i.ytimg.com/vi/YsSShYaKOvk/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/YsSShYaKOvk/maxresdefault.jpg"
       },
-      "position": 211
+      "position": 211,
+      "viewCount": 24329416,
+      "likeCount": 300440
     },
     {
       "videoId": "X_u5UtcgrKw",
@@ -3629,7 +4053,9 @@
         "standard": "https://i.ytimg.com/vi/X_u5UtcgrKw/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/X_u5UtcgrKw/maxresdefault.jpg"
       },
-      "position": 212
+      "position": 212,
+      "viewCount": 4573560,
+      "likeCount": 70609
     },
     {
       "videoId": "B45Q1AbiBWg",
@@ -3646,7 +4072,9 @@
         "standard": "https://i.ytimg.com/vi/B45Q1AbiBWg/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/B45Q1AbiBWg/maxresdefault.jpg"
       },
-      "position": 213
+      "position": 213,
+      "viewCount": 8100884,
+      "likeCount": 203045
     },
     {
       "videoId": "aO_ZCaoojh4",
@@ -3663,7 +4091,9 @@
         "standard": "https://i.ytimg.com/vi/aO_ZCaoojh4/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/aO_ZCaoojh4/maxresdefault.jpg"
       },
-      "position": 214
+      "position": 214,
+      "viewCount": 5908865,
+      "likeCount": 81768
     },
     {
       "videoId": "UyDytd1EZSk",
@@ -3680,7 +4110,9 @@
         "standard": "https://i.ytimg.com/vi/UyDytd1EZSk/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/UyDytd1EZSk/maxresdefault.jpg"
       },
-      "position": 215
+      "position": 215,
+      "viewCount": 5141544,
+      "likeCount": 91474
     },
     {
       "videoId": "16M9oC-a5bY",
@@ -3697,7 +4129,9 @@
         "standard": "https://i.ytimg.com/vi/16M9oC-a5bY/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/16M9oC-a5bY/maxresdefault.jpg"
       },
-      "position": 216
+      "position": 216,
+      "viewCount": 31017902,
+      "likeCount": 290757
     },
     {
       "videoId": "B1nUc7LfZYA",
@@ -3714,7 +4148,9 @@
         "standard": "https://i.ytimg.com/vi/B1nUc7LfZYA/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/B1nUc7LfZYA/maxresdefault.jpg"
       },
-      "position": 217
+      "position": 217,
+      "viewCount": 2729004,
+      "likeCount": 41877
     },
     {
       "videoId": "YkP0JMByjRM",
@@ -3731,7 +4167,9 @@
         "standard": "https://i.ytimg.com/vi/YkP0JMByjRM/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/YkP0JMByjRM/maxresdefault.jpg"
       },
-      "position": 218
+      "position": 218,
+      "viewCount": 5543836,
+      "likeCount": 74456
     },
     {
       "videoId": "hZgbqUQI64E",
@@ -3748,7 +4186,9 @@
         "standard": "https://i.ytimg.com/vi/hZgbqUQI64E/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/hZgbqUQI64E/maxresdefault.jpg"
       },
-      "position": 219
+      "position": 219,
+      "viewCount": 3957747,
+      "likeCount": 56803
     },
     {
       "videoId": "fzRWpcvPJYo",
@@ -3765,7 +4205,9 @@
         "standard": "https://i.ytimg.com/vi/fzRWpcvPJYo/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/fzRWpcvPJYo/maxresdefault.jpg"
       },
-      "position": 220
+      "position": 220,
+      "viewCount": 1812761,
+      "likeCount": 46828
     },
     {
       "videoId": "JoM4JGqQyCU",
@@ -3782,7 +4224,9 @@
         "standard": "https://i.ytimg.com/vi/JoM4JGqQyCU/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/JoM4JGqQyCU/maxresdefault.jpg"
       },
-      "position": 221
+      "position": 221,
+      "viewCount": 15543093,
+      "likeCount": 191420
     },
     {
       "videoId": "mqrp4SfMJwk",
@@ -3799,7 +4243,9 @@
         "standard": "https://i.ytimg.com/vi/mqrp4SfMJwk/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/mqrp4SfMJwk/maxresdefault.jpg"
       },
-      "position": 222
+      "position": 222,
+      "viewCount": 2051859,
+      "likeCount": 46345
     },
     {
       "videoId": "8m1cUgLepmY",
@@ -3816,7 +4262,9 @@
         "standard": "https://i.ytimg.com/vi/8m1cUgLepmY/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/8m1cUgLepmY/maxresdefault.jpg"
       },
-      "position": 223
+      "position": 223,
+      "viewCount": 25115195,
+      "likeCount": 260877
     },
     {
       "videoId": "J9kD9rYR088",
@@ -3833,7 +4281,9 @@
         "standard": "https://i.ytimg.com/vi/J9kD9rYR088/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/J9kD9rYR088/maxresdefault.jpg"
       },
-      "position": 224
+      "position": 224,
+      "viewCount": 16714138,
+      "likeCount": 180179
     },
     {
       "videoId": "BdTf_uKTqos",
@@ -3850,7 +4300,9 @@
         "standard": "https://i.ytimg.com/vi/BdTf_uKTqos/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/BdTf_uKTqos/maxresdefault.jpg"
       },
-      "position": 225
+      "position": 225,
+      "viewCount": 3499695,
+      "likeCount": 74163
     },
     {
       "videoId": "jSwRwYVjRg8",
@@ -3867,7 +4319,9 @@
         "standard": "https://i.ytimg.com/vi/jSwRwYVjRg8/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/jSwRwYVjRg8/maxresdefault.jpg"
       },
-      "position": 226
+      "position": 226,
+      "viewCount": 8146343,
+      "likeCount": 107689
     },
     {
       "videoId": "DaWbq6KeJq4",
@@ -3884,7 +4338,9 @@
         "standard": "https://i.ytimg.com/vi/DaWbq6KeJq4/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/DaWbq6KeJq4/maxresdefault.jpg"
       },
-      "position": 227
+      "position": 227,
+      "viewCount": 17347142,
+      "likeCount": 185441
     },
     {
       "videoId": "uDgikBUvIlQ",
@@ -3901,7 +4357,9 @@
         "standard": "https://i.ytimg.com/vi/uDgikBUvIlQ/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/uDgikBUvIlQ/maxresdefault.jpg"
       },
-      "position": 228
+      "position": 228,
+      "viewCount": 4668316,
+      "likeCount": 74620
     },
     {
       "videoId": "s1yW2jPJiVE",
@@ -3918,7 +4376,9 @@
         "standard": "https://i.ytimg.com/vi/s1yW2jPJiVE/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/s1yW2jPJiVE/maxresdefault.jpg"
       },
-      "position": 229
+      "position": 229,
+      "viewCount": 1569738,
+      "likeCount": 32136
     },
     {
       "videoId": "GTlQhMRHXIg",
@@ -3935,7 +4395,9 @@
         "standard": "https://i.ytimg.com/vi/GTlQhMRHXIg/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/GTlQhMRHXIg/maxresdefault.jpg"
       },
-      "position": 230
+      "position": 230,
+      "viewCount": 10233445,
+      "likeCount": 116154
     },
     {
       "videoId": "SKbutknpQ_I",
@@ -3952,7 +4414,9 @@
         "standard": "https://i.ytimg.com/vi/SKbutknpQ_I/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/SKbutknpQ_I/maxresdefault.jpg"
       },
-      "position": 231
+      "position": 231,
+      "viewCount": 10196307,
+      "likeCount": 140577
     },
     {
       "videoId": "n7ZmBBf5-7g",
@@ -3969,7 +4433,9 @@
         "standard": "https://i.ytimg.com/vi/n7ZmBBf5-7g/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/n7ZmBBf5-7g/maxresdefault.jpg"
       },
-      "position": 232
+      "position": 232,
+      "viewCount": 6053840,
+      "likeCount": 100450
     },
     {
       "videoId": "nNe6o3ivrXA",
@@ -3986,7 +4452,9 @@
         "standard": "https://i.ytimg.com/vi/nNe6o3ivrXA/sddefault.jpg",
         "maxres": ""
       },
-      "position": 233
+      "position": 233,
+      "viewCount": 2966680,
+      "likeCount": 65102
     },
     {
       "videoId": "miLfbcfdqus",
@@ -4003,7 +4471,9 @@
         "standard": "https://i.ytimg.com/vi/miLfbcfdqus/sddefault.jpg",
         "maxres": ""
       },
-      "position": 234
+      "position": 234,
+      "viewCount": 2106085,
+      "likeCount": 37085
     },
     {
       "videoId": "ZjNUJUgyoOw",
@@ -4020,7 +4490,9 @@
         "standard": "https://i.ytimg.com/vi/ZjNUJUgyoOw/sddefault.jpg",
         "maxres": ""
       },
-      "position": 235
+      "position": 235,
+      "viewCount": 4698078,
+      "likeCount": 89821
     },
     {
       "videoId": "4z9Mg8sbFeU",
@@ -4037,7 +4509,9 @@
         "standard": "https://i.ytimg.com/vi/4z9Mg8sbFeU/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/4z9Mg8sbFeU/maxresdefault.jpg"
       },
-      "position": 236
+      "position": 236,
+      "viewCount": 8852478,
+      "likeCount": 140998
     },
     {
       "videoId": "_GdIO1AANg4",
@@ -4054,7 +4528,9 @@
         "standard": "https://i.ytimg.com/vi/_GdIO1AANg4/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/_GdIO1AANg4/maxresdefault.jpg"
       },
-      "position": 237
+      "position": 237,
+      "viewCount": 3925608,
+      "likeCount": 51263
     },
     {
       "videoId": "1RoDmN9n8xE",
@@ -4071,7 +4547,9 @@
         "standard": "https://i.ytimg.com/vi/1RoDmN9n8xE/sddefault.jpg",
         "maxres": ""
       },
-      "position": 238
+      "position": 238,
+      "viewCount": 5523682,
+      "likeCount": 69184
     },
     {
       "videoId": "xD3amnjfxac",
@@ -4088,7 +4566,9 @@
         "standard": "https://i.ytimg.com/vi/xD3amnjfxac/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/xD3amnjfxac/maxresdefault.jpg"
       },
-      "position": 239
+      "position": 239,
+      "viewCount": 3617411,
+      "likeCount": 56554
     },
     {
       "videoId": "i16qWEUjd4o",
@@ -4105,7 +4585,9 @@
         "standard": "https://i.ytimg.com/vi/i16qWEUjd4o/sddefault.jpg",
         "maxres": ""
       },
-      "position": 240
+      "position": 240,
+      "viewCount": 5361444,
+      "likeCount": 76858
     },
     {
       "videoId": "ZMbWDpC1N7s",
@@ -4122,7 +4604,9 @@
         "standard": "https://i.ytimg.com/vi/ZMbWDpC1N7s/sddefault.jpg",
         "maxres": ""
       },
-      "position": 241
+      "position": 241,
+      "viewCount": 14780254,
+      "likeCount": 190343
     },
     {
       "videoId": "70ZLvDTonqI",
@@ -4139,7 +4623,9 @@
         "standard": "https://i.ytimg.com/vi/70ZLvDTonqI/sddefault.jpg",
         "maxres": ""
       },
-      "position": 242
+      "position": 242,
+      "viewCount": 5548704,
+      "likeCount": 63614
     },
     {
       "videoId": "EIUO-fPrkSo",
@@ -4156,7 +4642,9 @@
         "standard": "https://i.ytimg.com/vi/EIUO-fPrkSo/sddefault.jpg",
         "maxres": ""
       },
-      "position": 243
+      "position": 243,
+      "viewCount": 1489111,
+      "likeCount": 32750
     },
     {
       "videoId": "9kZ6MPqj9Tg",
@@ -4173,7 +4661,9 @@
         "standard": "https://i.ytimg.com/vi/9kZ6MPqj9Tg/sddefault.jpg",
         "maxres": ""
       },
-      "position": 244
+      "position": 244,
+      "viewCount": 13282068,
+      "likeCount": 179154
     },
     {
       "videoId": "vjCfKbwD17c",
@@ -4190,7 +4680,9 @@
         "standard": "https://i.ytimg.com/vi/vjCfKbwD17c/sddefault.jpg",
         "maxres": ""
       },
-      "position": 245
+      "position": 245,
+      "viewCount": 3877369,
+      "likeCount": 68802
     },
     {
       "videoId": "AL6hWKN0WQo",
@@ -4207,7 +4699,9 @@
         "standard": "https://i.ytimg.com/vi/AL6hWKN0WQo/sddefault.jpg",
         "maxres": ""
       },
-      "position": 246
+      "position": 246,
+      "viewCount": 8917597,
+      "likeCount": 131135
     },
     {
       "videoId": "kU4Rth300FM",
@@ -4224,7 +4718,9 @@
         "standard": "https://i.ytimg.com/vi/kU4Rth300FM/sddefault.jpg",
         "maxres": ""
       },
-      "position": 247
+      "position": 247,
+      "viewCount": 5487315,
+      "likeCount": 82177
     },
     {
       "videoId": "kNLyqES4fC8",
@@ -4241,7 +4737,9 @@
         "standard": "https://i.ytimg.com/vi/kNLyqES4fC8/sddefault.jpg",
         "maxres": ""
       },
-      "position": 248
+      "position": 248,
+      "viewCount": 6504163,
+      "likeCount": 105995
     },
     {
       "videoId": "zAkqd6iw-lo",
@@ -4258,7 +4756,9 @@
         "standard": "https://i.ytimg.com/vi/zAkqd6iw-lo/sddefault.jpg",
         "maxres": ""
       },
-      "position": 249
+      "position": 249,
+      "viewCount": 2599961,
+      "likeCount": 52459
     },
     {
       "videoId": "esaV1kjzg_Q",
@@ -4275,7 +4775,9 @@
         "standard": "https://i.ytimg.com/vi/esaV1kjzg_Q/sddefault.jpg",
         "maxres": ""
       },
-      "position": 250
+      "position": 250,
+      "viewCount": 1512646,
+      "likeCount": 45181
     },
     {
       "videoId": "wNxrGUf6G0A",
@@ -4292,7 +4794,9 @@
         "standard": "https://i.ytimg.com/vi/wNxrGUf6G0A/sddefault.jpg",
         "maxres": ""
       },
-      "position": 251
+      "position": 251,
+      "viewCount": 7848029,
+      "likeCount": 108259
     },
     {
       "videoId": "F7iqxHOth58",
@@ -4309,7 +4813,9 @@
         "standard": "https://i.ytimg.com/vi/F7iqxHOth58/sddefault.jpg",
         "maxres": ""
       },
-      "position": 252
+      "position": 252,
+      "viewCount": 5516624,
+      "likeCount": 115812
     }
   ]
 }

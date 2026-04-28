@@ -3,7 +3,7 @@
     "fetchedAt": "2026-01-22T16:18:00.938167",
     "totalVideos": 3,
     "fetchMethod": "API",
-    "channelEnrichedAt": "2026-04-24T15:56:55.426631",
+    "channelEnrichedAt": "2026-04-27T15:49:33.918892",
     "channelEnrichment": {
       "source": "youtube.videos.list",
       "updatedVideos": 3
@@ -25,7 +25,9 @@
         "standard": "https://i.ytimg.com/vi/_Fzt6xgt7Oo/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/_Fzt6xgt7Oo/maxresdefault.jpg"
       },
-      "position": 0
+      "position": 0,
+      "viewCount": 1605984,
+      "likeCount": 54788
     },
     {
       "videoId": "sgZjbk9eH6g",
@@ -42,7 +44,9 @@
         "standard": "https://i.ytimg.com/vi/sgZjbk9eH6g/sddefault.jpg",
         "maxres": ""
       },
-      "position": 1
+      "position": 1,
+      "viewCount": 30162058,
+      "likeCount": 552795
     },
     {
       "videoId": "MxT59XJXMnU",
@@ -59,7 +63,9 @@
         "standard": "https://i.ytimg.com/vi/MxT59XJXMnU/sddefault.jpg",
         "maxres": "https://i.ytimg.com/vi/MxT59XJXMnU/maxresdefault.jpg"
       },
-      "position": 2
+      "position": 2,
+      "viewCount": 11031407,
+      "likeCount": 321207
     }
   ]
 }

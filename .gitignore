@@ -36,6 +36,9 @@ fetch_original_videos/output/failed_videos.json
 backup/
 *_backup/
 
+# YouTube thumbnail caches
+fetch_youtube_playlist/thumbnails*/
+
 # Local SQLite scratch files
 Database/temp.db
 *.db-journal

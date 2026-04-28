@@ -54,11 +54,12 @@ class YouTubePlaylistFetcher:
                 return match.group(1)
         return None
 
-    def build_video_info_from_api_snippet(self, snippet, video_id=None):
+    def build_video_info_from_api_snippet(self, snippet, video_id=None, statistics=None):
         """从 YouTube API snippet 构建标准视频信息。
 
         playlistItems.snippet 的 channelTitle 是播放列表所属频道；真实投稿者在
         videoOwnerChannelTitle/videoOwnerChannelId，或 videos.list 的 snippet.channelTitle/channelId。
+        statistics 来自 videos.list 的 statistics 部分，包含 viewCount、likeCount 等。
         """
         resource_id = snippet.get('resourceId') or {}
         resolved_video_id = video_id or resource_id.get('videoId', '')
@@ -74,7 +75,7 @@ class YouTubePlaylistFetcher:
             or ''
         )
 
-        return {
+        info = {
             'videoId': resolved_video_id,
             'url': f'https://www.youtube.com/watch?v={resolved_video_id}',
             'title': snippet.get('title', ''),
@@ -92,6 +93,12 @@ class YouTubePlaylistFetcher:
             'position': snippet.get('position', 0)
         }
 
+        if statistics:
+            info['viewCount'] = int(statistics.get('viewCount', 0)) if statistics.get('viewCount') else 0
+            info['likeCount'] = int(statistics.get('likeCount', 0)) if statistics.get('likeCount') else 0
+
+        return info
+
     def fetch_video_details_map(self, video_ids):
         """批量获取 videos.list 详情，用真实视频 snippet 覆盖 playlistItem 元数据。"""
         if not video_ids or not self.api_key or requests is None:
@@ -106,7 +113,7 @@ class YouTubePlaylistFetcher:
             response = requests.get(
                 f"{self.base_url}/videos",
                 params={
-                    'part': 'snippet',
+                    'part': 'snippet,statistics',
                     'id': ','.join(batch),
                     'key': self.api_key,
                     'maxResults': 50,
@@ -122,8 +129,9 @@ class YouTubePlaylistFetcher:
             for item in payload.get('items', []):
                 video_id = item.get('id')
                 snippet = item.get('snippet') or {}
+                statistics = item.get('statistics') or {}
                 if video_id and snippet:
-                    details[video_id] = self.build_video_info_from_api_snippet(snippet, video_id=video_id)
+                    details[video_id] = self.build_video_info_from_api_snippet(snippet, video_id=video_id, statistics=statistics)
 
             time.sleep(0.2)
 
@@ -150,6 +158,8 @@ class YouTubePlaylistFetcher:
                 'channelId': detail.get('channelId') or video.get('channelId', ''),
                 'publishedAt': detail.get('publishedAt') or video.get('publishedAt', ''),
                 'thumbnails': detail.get('thumbnails') or video.get('thumbnails', {}),
+                'viewCount': detail.get('viewCount') if detail.get('viewCount') is not None else video.get('viewCount', 0),
+                'likeCount': detail.get('likeCount') if detail.get('likeCount') is not None else video.get('likeCount', 0),
             }
             enriched.append(merged)
 
