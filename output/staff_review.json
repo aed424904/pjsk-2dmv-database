@@ -1,5 +1,24 @@
 [
   {
+    "songId": "song_CRASH THE PARTY",
+    "songTitle": "CRASH THE PARTY",
+    "videoId": "tjL4KK2RWgQ",
+    "videoTitle": "KIRA - CRASH THE PARTY ft. Hatsune Miku, Kasane Teto, GUMI (Official MV)",
+    "unknownRoleLines": [
+      "Vocal: Hatsune Miku, Kasane Teto, GUMI",
+      "Arrange: KIRA",
+      "Lyrics: Sena Kiryuin / https://twitter.com/sena_daze"
+    ],
+    "unparsedLines": [
+      "Stream now: https://linkco.re/ZRMCgq2s",
+      "Vivid BAD SQUAD ver.: https://www.youtube.com/watch?v=9xRxkaRKsgE",
+      "Instrumental: https://drive.google.com/file/d/1VQRNWjk4ssc1gyjrWvXHQmVKUhsGgtqU/view?usp=sharing",
+      "Johnny R / https://twitter.com/johnnyisboring",
+      "monii / https://twitter.com/Monii_Bagel",
+      "LYRICS:"
+    ]
+  },
+  {
     "songId": "song_傀儡のうつつ",
     "songTitle": "傀儡のうつつ",
     "videoId": "eu3yoLa3dgs",
@@ -108,6 +127,25 @@
     "unknownRoleLines": [],
     "unparsedLines": [
       "すいか　https://x.com/Su1c4_mv"
+    ]
+  },
+  {
+    "songId": "song_オーダーメイド",
+    "songTitle": "オーダーメイド",
+    "videoId": "sHXrqptOU2s",
+    "videoTitle": "オーダーメイド　/  feat. VOCALOIDs",
+    "unknownRoleLines": [
+      "作詞・作曲・調声：傘村トータ https://twitter.com/machiomiii",
+      "歌：傘村家のボカロたち",
+      "絵：半額酸素 https://twitter.com/_O2_sanso_",
+      "Piano,key : furani https://twitter.com/furanizm",
+      "Guitar : 瑠 (LIVE LAB.) https://twitter.com/Ryu_Drgn",
+      "Bass : 小澤のぞみ https://twitter.com/non_trb",
+      "Drums : 遠藤勝彦 https://twitter.com/uzupong7",
+      "Engineering : 栗花落洋一"
+    ],
+    "unparsedLines": [
+      "offvocal→https://piapro.jp/t/9Iub"
     ]
   },
   {
@@ -309,6 +347,16 @@
     "videoTitle": "アンチユー / MORE MORE JUMP！ × 巡音ルカ",
     "unknownRoleLines": [
       "制作：R11R　https://r11r.jp/"
+    ],
+    "unparsedLines": []
+  },
+  {
+    "songId": "song_フラジール",
+    "songTitle": "フラジール",
+    "videoId": "vpVMJJUkSuw",
+    "videoTitle": "フラジール[ゲームサイズ ver.] / 鏡音レン × KAITO",
+    "unknownRoleLines": [
+      "Production：THINGS."
     ],
     "unparsedLines": []
   },
@@ -524,8 +572,24 @@
     "unparsedLines": []
   },
   {
-    "songId": "song_4周年アニバーサリーソング『熱風』",
-    "songTitle": "4周年アニバーサリーソング『熱風』",
+    "songId": "song_天使のクローバー",
+    "songTitle": "天使のクローバー",
+    "videoId": "lFJA9muTUDM",
+    "videoTitle": "天使のクローバー ／ DIVELA feat.鏡音リン",
+    "unknownRoleLines": [
+      "■Music＆Lyric：DIVELA：https://twitter.com/MIX_Destroy",
+      "■Illust：しろくろ 様：https://twitter.com/shirokuro_3939",
+      "■Movie：まきのせな 様：https://twitter.com/3329h0rned0w1",
+      "■Vocal：鏡音リン"
+    ],
+    "unparsedLines": [
+      "inst：https://piapro.jp/t/FKcj",
+      "niconico：https://www.nicovideo.jp/watch/sm38510568"
+    ]
+  },
+  {
+    "songId": "song_熱風",
+    "songTitle": "熱風",
     "videoId": "7kT2Azgw3rc",
     "videoTitle": "4周年アニバーサリーソング『熱風』",
     "unknownRoleLines": [
@@ -735,6 +799,16 @@
     "unparsedLines": []
   },
   {
+    "songId": "song_purpose",
+    "songTitle": "purpose",
+    "videoId": "w6bP9GZ2-gg",
+    "videoTitle": "purpose/ doriko feat. 初音ミク (Official MV)",
+    "unknownRoleLines": [
+      "Guitar : Hirokazu Tajiri"
+    ],
+    "unparsedLines": []
+  },
+  {
     "songId": "song_CR詠ZY",
     "songTitle": "CR詠ZY",
     "videoId": "yys1WD9A2IY",
@@ -747,8 +821,8 @@
     ]
   },
   {
-    "songId": "song_3周年アニバーサリーソング『NEO』",
-    "songTitle": "3周年アニバーサリーソング『NEO』",
+    "songId": "song_NEO",
+    "songTitle": "NEO",
     "videoId": "zw0JHV7nrUg",
     "videoTitle": "3周年アニバーサリーソング『NEO』",
     "unknownRoleLines": [
@@ -771,16 +845,6 @@
     "videoTitle": "天ノ弱 / Leo/need",
     "unknownRoleLines": [
       "絵コンテ：大島 つくも（https://twitter.com/tsukumonomo）"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_フラジール[ゲームサイズ ver.]",
-    "songTitle": "フラジール[ゲームサイズ ver.]",
-    "videoId": "vpVMJJUkSuw",
-    "videoTitle": "フラジール[ゲームサイズ ver.] / 鏡音レン × KAITO",
-    "unknownRoleLines": [
-      "Production：THINGS."
     ],
     "unparsedLines": []
   },
@@ -927,8 +991,8 @@
     "unparsedLines": []
   },
   {
-    "songId": "song_1周年アニバーサリーソング『群青讃歌』",
-    "songTitle": "1周年アニバーサリーソング『群青讃歌』",
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
     "videoId": "MxT59XJXMnU",
     "videoTitle": "1周年アニバーサリーソング『群青讃歌』",
     "unknownRoleLines": [
@@ -1294,25 +1358,6 @@
       "(C) Craft Egg Inc. Developed by Colorful Palette"
     ],
     "unparsedLines": []
-  },
-  {
-    "songId": "song_KIRA - CRASH THE PARTY ft. Hatsune Miku, Kasane Teto, GUMI",
-    "songTitle": "KIRA - CRASH THE PARTY ft. Hatsune Miku, Kasane Teto, GUMI",
-    "videoId": "tjL4KK2RWgQ",
-    "videoTitle": "KIRA - CRASH THE PARTY ft. Hatsune Miku, Kasane Teto, GUMI (Official MV)",
-    "unknownRoleLines": [
-      "Vocal: Hatsune Miku, Kasane Teto, GUMI",
-      "Arrange: KIRA",
-      "Lyrics: Sena Kiryuin / https://twitter.com/sena_daze"
-    ],
-    "unparsedLines": [
-      "Stream now: https://linkco.re/ZRMCgq2s",
-      "Vivid BAD SQUAD ver.: https://www.youtube.com/watch?v=9xRxkaRKsgE",
-      "Instrumental: https://drive.google.com/file/d/1VQRNWjk4ssc1gyjrWvXHQmVKUhsGgtqU/view?usp=sharing",
-      "Johnny R / https://twitter.com/johnnyisboring",
-      "monii / https://twitter.com/Monii_Bagel",
-      "LYRICS:"
-    ]
   },
   {
     "songId": "song_【公式】 ネクラチューンサーカス／かいりきベア feat.初音ミク",
@@ -2072,16 +2117,6 @@
     ]
   },
   {
-    "songId": "song_purpose/ doriko feat. 初音ミク",
-    "songTitle": "purpose/ doriko feat. 初音ミク",
-    "videoId": "w6bP9GZ2-gg",
-    "videoTitle": "purpose/ doriko feat. 初音ミク (Official MV)",
-    "unknownRoleLines": [
-      "Guitar : Hirokazu Tajiri"
-    ],
-    "unparsedLines": []
-  },
-  {
     "songId": "song_halyosy - アイムマイン ft. VOCALOIDS [Official Video]",
     "songTitle": "halyosy - アイムマイン ft. VOCALOIDS [Official Video]",
     "videoId": "yVMHWv7hKTE",
@@ -2131,8 +2166,8 @@
     ]
   },
   {
-    "songId": "song_Un-Lock feat. 巡音ルカ/ MuryokuP",
-    "songTitle": "Un-Lock feat. 巡音ルカ/ MuryokuP",
+    "songId": "song_Un-Lock feat. 巡音ルカ",
+    "songTitle": "Un-Lock feat. 巡音ルカ",
     "videoId": "cdw_2hCSYys",
     "videoTitle": "Un-Lock feat. 巡音ルカ (MEGURINE LUKA) / MuryokuP",
     "unknownRoleLines": [
@@ -2603,25 +2638,6 @@
     ]
   },
   {
-    "songId": "song_オーダーメイド　/  feat. VOCALOIDs",
-    "songTitle": "オーダーメイド　/  feat. VOCALOIDs",
-    "videoId": "sHXrqptOU2s",
-    "videoTitle": "オーダーメイド　/  feat. VOCALOIDs",
-    "unknownRoleLines": [
-      "作詞・作曲・調声：傘村トータ https://twitter.com/machiomiii",
-      "歌：傘村家のボカロたち",
-      "絵：半額酸素 https://twitter.com/_O2_sanso_",
-      "Piano,key : furani https://twitter.com/furanizm",
-      "Guitar : 瑠 (LIVE LAB.) https://twitter.com/Ryu_Drgn",
-      "Bass : 小澤のぞみ https://twitter.com/non_trb",
-      "Drums : 遠藤勝彦 https://twitter.com/uzupong7",
-      "Engineering : 栗花落洋一"
-    ],
-    "unparsedLines": [
-      "offvocal→https://piapro.jp/t/9Iub"
-    ]
-  },
-  {
     "songId": "song_ノマド／flower",
     "songTitle": "ノマド／flower",
     "videoId": "mKfwzOgorXs",
@@ -2703,8 +2719,8 @@
     ]
   },
   {
-    "songId": "song_【鏡音リンレン】にっこり^^調査隊のテーマ【ワンオポ/OriginalMV】/ Niccori^^ Survey Team Theme",
-    "songTitle": "【鏡音リンレン】にっこり^^調査隊のテーマ【ワンオポ/OriginalMV】/ Niccori^^ Survey Team Theme",
+    "songId": "song_【鏡音リンレン】にっこり^^調査隊のテーマ【ワンオポ/OriginalMV】",
+    "songTitle": "【鏡音リンレン】にっこり^^調査隊のテーマ【ワンオポ/OriginalMV】",
     "videoId": "C_Fc1x_aeFQ",
     "videoTitle": "【鏡音リンレン】にっこり^^調査隊のテーマ【ワンオポ/OriginalMV】/ Niccori^^ Survey Team Theme",
     "unknownRoleLines": [
@@ -2906,8 +2922,8 @@
     ]
   },
   {
-    "songId": "song_『トンデモワンダーズ』feat.初音ミク/ sasakure.‌UK",
-    "songTitle": "『トンデモワンダーズ』feat.初音ミク/ sasakure.‌UK",
+    "songId": "song_『トンデモワンダーズ』feat.初音ミク",
+    "songTitle": "『トンデモワンダーズ』feat.初音ミク",
     "videoId": "dBQg24mx45Y",
     "videoTitle": "『トンデモワンダーズ』feat.初音ミク (+KAITO)  / sasakure.‌UK",
     "unknownRoleLines": [],
@@ -2955,22 +2971,6 @@
       "金丸 紗希 (https://twitter.com/saaakii_o4o5)",
       "荻山こころ(https://twitter.com/ogiyama_kokoro)",
       "大﨑 月陽(https://twitter.com/tsukihi__osaki )"
-    ]
-  },
-  {
-    "songId": "song_天使のクローバー ／ DIVELA feat.鏡音リン",
-    "songTitle": "天使のクローバー ／ DIVELA feat.鏡音リン",
-    "videoId": "lFJA9muTUDM",
-    "videoTitle": "天使のクローバー ／ DIVELA feat.鏡音リン",
-    "unknownRoleLines": [
-      "■Music＆Lyric：DIVELA：https://twitter.com/MIX_Destroy",
-      "■Illust：しろくろ 様：https://twitter.com/shirokuro_3939",
-      "■Movie：まきのせな 様：https://twitter.com/3329h0rned0w1",
-      "■Vocal：鏡音リン"
-    ],
-    "unparsedLines": [
-      "inst：https://piapro.jp/t/FKcj",
-      "niconico：https://www.nicovideo.jp/watch/sm38510568"
     ]
   },
   {

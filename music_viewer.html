@@ -541,6 +541,12 @@
       color: #9b6a00;
     }
 
+    .version-preview-badge.label-custom {
+      background: rgba(32, 41, 58, 0.06);
+      border-color: rgba(32, 41, 58, 0.14);
+      color: var(--text-main);
+    }
+
     .staff-preview-item {
       display: inline-flex;
       align-items: center;
@@ -1225,6 +1231,15 @@
       const summary = getSongVersionSummary(song);
       const badges = [];
       const seen = new Set();
+
+      if (summary.labels.length) {
+        summary.labels.forEach(label => {
+          if (!label || seen.has(label)) return;
+          seen.add(label);
+          badges.push(`<span class="version-preview-badge label-custom">${esc(label)}</span>`);
+        });
+        return badges;
+      }
 
       summary.bases.forEach(base => {
         const key = `base:${base}`;

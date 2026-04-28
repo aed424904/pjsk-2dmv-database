@@ -420,6 +420,16 @@
             font-size: 0.9em;
         }
 
+        .channel-link {
+            color: #1976d2;
+            text-decoration: none;
+        }
+
+        .channel-link:hover {
+            text-decoration: underline;
+            color: #1565c0;
+        }
+
         .video-date-cell {
             color: #999;
             font-size: 0.85em;
@@ -1794,6 +1804,14 @@
             return keys;
         }
 
+        function getVideoTagKey(video) {
+            return [
+                video.sourceKey || video.type || 'entry',
+                video.videoId || video.songId || video.position,
+                video.songId || ''
+            ].join(':');
+        }
+
         function buildVersionBadgeHtml(video) {
             if (video.isSongOnly) return '';
 
@@ -1802,7 +1820,7 @@
 
             if (version.base) {
                 const config = VERSION_FILTER_CONFIG[`base:${version.base}`];
-                const label = config?.label || version.label || version.base;
+                const label = version.label || config?.label || version.base;
                 badges.push(`<span class="version-badge version-base-${version.base}">${label}</span>`);
             }
 
@@ -1942,7 +1960,7 @@
 
             allVideos.forEach(video => {
                 const tags = new Set(video.songTags || []);
-                videoTags.set(video.position, tags);
+                videoTags.set(getVideoTagKey(video), tags);
                 tags.forEach(tag => {
                     availableTags.set(tag, (availableTags.get(tag) || 0) + 1);
                 });
@@ -1958,7 +1976,7 @@
                 Object.entries(unitBreakdown).forEach(([unitName, count]) => {
                     if (unitName !== 'Virtual Singer') {
                         const unitConfig = Object.values(UNIT_CONFIG).find(u => u.name === unitName);
-                        if (unitConfig) {
+                        if (unitConfig && !availableTags.has(unitName)) {
                             availableTags.set(unitName, count);
                         }
                     }
@@ -2376,11 +2394,11 @@
                 });
             }
 
-            // 3. 标签筛选（AND逻辑 - 所有选中的标签都必须匹配）
+            // 3. 标签筛选（OR逻辑 - 匹配任一选中的标签即可）
             if (filterState.selectedTags.size > 0) {
                 filteredVideos = filteredVideos.filter(video => {
-                    const tags = videoTags.get(video.position) || new Set();
-                    return [...filterState.selectedTags].every(tag => tags.has(tag));
+                    const tags = videoTags.get(getVideoTagKey(video)) || new Set(video.songTags || []);
+                    return [...filterState.selectedTags].some(tag => tags.has(tag));
                 });
             }
 
@@ -2621,7 +2639,10 @@
             }
 
             if (displayFields.channel) {
-                rowHTML += `<td class="video-channel-cell">${video.channelTitle || '-'}</td>`;
+                const channelHtml = video.channelId
+                    ? `<a href="https://www.youtube.com/channel/${video.channelId}" target="_blank" class="channel-link" onclick="event.stopPropagation();">${video.channelTitle || '-'}</a>`
+                    : (video.channelTitle || '-');
+                rowHTML += `<td class="video-channel-cell">${channelHtml}</td>`;
             } else {
                 rowHTML += '<td style="display:none;"></td>';
             }

@@ -54,6 +54,107 @@ class YouTubePlaylistFetcher:
                 return match.group(1)
         return None
 
+    def build_video_info_from_api_snippet(self, snippet, video_id=None):
+        """从 YouTube API snippet 构建标准视频信息。
+
+        playlistItems.snippet 的 channelTitle 是播放列表所属频道；真实投稿者在
+        videoOwnerChannelTitle/videoOwnerChannelId，或 videos.list 的 snippet.channelTitle/channelId。
+        """
+        resource_id = snippet.get('resourceId') or {}
+        resolved_video_id = video_id or resource_id.get('videoId', '')
+
+        channel_title = (
+            snippet.get('videoOwnerChannelTitle')
+            or snippet.get('channelTitle')
+            or ''
+        )
+        channel_id = (
+            snippet.get('videoOwnerChannelId')
+            or snippet.get('channelId')
+            or ''
+        )
+
+        return {
+            'videoId': resolved_video_id,
+            'url': f'https://www.youtube.com/watch?v={resolved_video_id}',
+            'title': snippet.get('title', ''),
+            'description': snippet.get('description', ''),
+            'channelTitle': channel_title,
+            'channelId': channel_id,
+            'publishedAt': snippet.get('publishedAt', ''),
+            'thumbnails': {
+                'default': snippet.get('thumbnails', {}).get('default', {}).get('url', ''),
+                'medium': snippet.get('thumbnails', {}).get('medium', {}).get('url', ''),
+                'high': snippet.get('thumbnails', {}).get('high', {}).get('url', ''),
+                'standard': snippet.get('thumbnails', {}).get('standard', {}).get('url', ''),
+                'maxres': snippet.get('thumbnails', {}).get('maxres', {}).get('url', '')
+            },
+            'position': snippet.get('position', 0)
+        }
+
+    def fetch_video_details_map(self, video_ids):
+        """批量获取 videos.list 详情，用真实视频 snippet 覆盖 playlistItem 元数据。"""
+        if not video_ids or not self.api_key or requests is None:
+            return {}
+
+        details = {}
+        for start in range(0, len(video_ids), 50):
+            batch = [video_id for video_id in video_ids[start:start + 50] if video_id]
+            if not batch:
+                continue
+
+            response = requests.get(
+                f"{self.base_url}/videos",
+                params={
+                    'part': 'snippet',
+                    'id': ','.join(batch),
+                    'key': self.api_key,
+                    'maxResults': 50,
+                },
+            )
+
+            if response.status_code != 200:
+                print(f"⚠️  视频详情请求失败: {response.status_code}")
+                print(f"   错误信息: {response.text}")
+                continue
+
+            payload = response.json()
+            for item in payload.get('items', []):
+                video_id = item.get('id')
+                snippet = item.get('snippet') or {}
+                if video_id and snippet:
+                    details[video_id] = self.build_video_info_from_api_snippet(snippet, video_id=video_id)
+
+            time.sleep(0.2)
+
+        return details
+
+    def merge_video_details(self, videos, details_map):
+        """保留 playlist 位置/source 字段，同时用真实视频详情覆盖标题、频道、发布时间等。"""
+        if not details_map:
+            return videos
+
+        enriched = []
+        for video in videos:
+            video_id = video.get('videoId')
+            detail = details_map.get(video_id)
+            if not detail:
+                enriched.append(video)
+                continue
+
+            merged = {
+                **video,
+                'title': detail.get('title') or video.get('title', ''),
+                'description': detail.get('description') or video.get('description', ''),
+                'channelTitle': detail.get('channelTitle') or video.get('channelTitle', ''),
+                'channelId': detail.get('channelId') or video.get('channelId', ''),
+                'publishedAt': detail.get('publishedAt') or video.get('publishedAt', ''),
+                'thumbnails': detail.get('thumbnails') or video.get('thumbnails', {}),
+            }
+            enriched.append(merged)
+
+        return enriched
+
     def fetch_with_api(self, playlist_id, max_results=500):
         """
         使用 YouTube Data API v3 获取 Playlist 信息
@@ -109,23 +210,7 @@ class YouTubePlaylistFetcher:
                     snippet = item['snippet']
                     video_id = snippet['resourceId']['videoId']
 
-                    video_info = {
-                        'videoId': video_id,
-                        'url': f'https://www.youtube.com/watch?v={video_id}',
-                        'title': snippet.get('title', ''),
-                        'description': snippet.get('description', ''),
-                        'channelTitle': snippet.get('channelTitle', ''),
-                        'channelId': snippet.get('channelId', ''),
-                        'publishedAt': snippet.get('publishedAt', ''),
-                        'thumbnails': {
-                            'default': snippet.get('thumbnails', {}).get('default', {}).get('url', ''),
-                            'medium': snippet.get('thumbnails', {}).get('medium', {}).get('url', ''),
-                            'high': snippet.get('thumbnails', {}).get('high', {}).get('url', ''),
-                            'standard': snippet.get('thumbnails', {}).get('standard', {}).get('url', ''),
-                            'maxres': snippet.get('thumbnails', {}).get('maxres', {}).get('url', '')
-                        },
-                        'position': snippet.get('position', 0)
-                    }
+                    video_info = self.build_video_info_from_api_snippet(snippet, video_id=video_id)
                     videos.append(video_info)
 
                 print(f"    ✓ 已获取 {len(videos)} 个视频")
@@ -138,7 +223,10 @@ class YouTubePlaylistFetcher:
                 # 避免请求过快
                 time.sleep(0.5)
 
-            print(f"✅ API 抓取完成，共获取 {len(videos)} 个视频")
+            print("  - 正在补全真实视频投稿账号...")
+            details_map = self.fetch_video_details_map([video['videoId'] for video in videos])
+            videos = self.merge_video_details(videos, details_map)
+            print(f"✅ API 抓取完成，共获取 {len(videos)} 个视频，补全详情 {len(details_map)} 条")
             return videos
 
         except Exception as e:

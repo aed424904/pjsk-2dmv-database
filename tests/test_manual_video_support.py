@@ -158,6 +158,49 @@ class ManualVideoNormalizationTests(unittest.TestCase):
         self.assertEqual(version["special"], ["april_fool"])
         self.assertEqual(version["source"], "manual_override")
 
+    def test_extract_song_title_splits_slash_without_spaces(self):
+        title = self.builder.extract_song_title("モザイクロール/ Leo/need × KAITO")
+
+        self.assertEqual(title, "モザイクロール")
+
+    def test_extract_song_title_preserves_slashes_inside_song_title(self):
+        title = self.builder.extract_song_title("D/N/A / 25時、ナイトコードで。 × 鏡音リン")
+
+        self.assertEqual(title, "D/N/A")
+
+    def test_match_music_uses_unicode_normalized_titles(self):
+        self.builder.base_musics = [
+            {
+                "id": 132,
+                "title": "「１」",
+                "categories": ["mv_2d"],
+                "unitTags": ["light_music_club"],
+                "units": ["Leo/need"],
+            }
+        ]
+
+        music = self.builder.match_sekai_music("「1」")
+
+        self.assertIsNotNone(music)
+        self.assertEqual(music["id"], 132)
+
+    def test_match_music_does_not_use_short_title_inside_long_title(self):
+        self.builder.base_musics = [
+            {
+                "id": 153,
+                "title": "Miku",
+                "categories": ["mv"],
+                "unitTags": ["vocaloid"],
+                "units": ["Virtual Singer"],
+            }
+        ]
+
+        music = self.builder.match_sekai_music(
+            "KIRA - CRASH THE PARTY ft. Hatsune Miku, Kasane Teto, GUMI"
+        )
+
+        self.assertIsNone(music)
+
 
 class ManualVideoBuildDatabaseTests(unittest.TestCase):
     def test_build_database_prefers_explicit_song_title(self):
@@ -193,6 +236,124 @@ class ManualVideoBuildDatabaseTests(unittest.TestCase):
         self.assertEqual(database["songs"][0]["videos"][0]["videoId"], "AbCdEfGhI12")
         self.assertEqual(database["songs"][0]["videos"][0]["version"]["base"], "unknown")
         self.assertEqual(database["songs"][0]["videoVersionSummary"]["bases"], ["unknown"])
+
+    def test_build_database_uses_music_base_for_new_catalog_tags(self):
+        builder = DatabaseBuilder(".")
+        builder.corrections = {}
+        builder.youtube_source_name = "playlist_videos_test.json"
+        builder.youtube_data = {
+            "videos": [
+                {
+                    "videoId": "AbCdEfGhI12",
+                    "url": "https://www.youtube.com/watch?v=AbCdEfGhI12",
+                    "title": "CRASH THE PARTY / Vivid BAD SQUAD × 巡音ルカ",
+                    "description": "",
+                    "channelTitle": builder.OFFICIAL_CHANNEL_TITLE,
+                    "channelId": builder.OFFICIAL_CHANNEL_ID,
+                    "publishedAt": "2026-04-16T13:19:22Z",
+                    "thumbnails": builder.build_youtube_thumbnails("AbCdEfGhI12"),
+                    "position": 1,
+                }
+            ]
+        }
+        builder.base_musics = [
+            {
+                "id": 679,
+                "title": "CRASH THE PARTY",
+                "categories": ["mv"],
+                "unitTags": ["street"],
+                "units": ["Vivid BAD SQUAD"],
+                "publishedAt": "2026-04-16 12:00:00",
+            }
+        ]
+        builder.sekai_musics = []
+        builder.sekai_music_tags = []
+        builder.sekai_units = []
+        builder.aliases = {}
+        builder.manual_videos = []
+        builder.original_video_overrides = {}
+
+        database = builder.build_database()
+        song = database["songs"][0]
+
+        self.assertEqual(song["sekaiMusicId"], 679)
+        self.assertEqual(song["classification"]["units"], ["Vivid BAD SQUAD"])
+        self.assertEqual(song["classification"]["mvType"], "mv")
+        self.assertIn("游戏3D MV", song["classification"]["tags"])
+        self.assertIn("Vivid BAD SQUAD", song["classification"]["tags"])
+
+    def test_build_database_groups_original_mv_with_game_version(self):
+        builder = DatabaseBuilder(".")
+        builder.corrections = {
+            "titleCorrections": {
+                "KIRA - CRASH THE PARTY ft. Hatsune Miku, Kasane Teto, GUMI": "CRASH THE PARTY",
+            }
+        }
+        builder.youtube_source_name = "playlist_videos_test.json"
+        builder.youtube_data = {
+            "videos": [
+                {
+                    "videoId": "9xRxkaRKsgE",
+                    "url": "https://www.youtube.com/watch?v=9xRxkaRKsgE",
+                    "title": "CRASH THE PARTY / Vivid BAD SQUAD × 巡音ルカ",
+                    "description": "",
+                    "channelTitle": builder.OFFICIAL_CHANNEL_TITLE,
+                    "channelId": builder.OFFICIAL_CHANNEL_ID,
+                    "publishedAt": "2026-04-16T13:19:22Z",
+                    "thumbnails": builder.build_youtube_thumbnails("9xRxkaRKsgE"),
+                    "position": 1,
+                    "sourceKey": "official_2dmv",
+                    "sourceName": "官方 2DMV Playlist",
+                },
+                {
+                    "videoId": "tjL4KK2RWgQ",
+                    "url": "https://www.youtube.com/watch?v=tjL4KK2RWgQ",
+                    "title": "KIRA - CRASH THE PARTY ft. Hatsune Miku, Kasane Teto, GUMI (Official MV)",
+                    "description": "",
+                    "channelTitle": builder.OFFICIAL_CHANNEL_TITLE,
+                    "channelId": builder.OFFICIAL_CHANNEL_ID,
+                    "publishedAt": "2026-04-21T01:38:15Z",
+                    "thumbnails": builder.build_youtube_thumbnails("tjL4KK2RWgQ"),
+                    "position": 2,
+                    "sourceKey": "commissioned_original_mv",
+                    "sourceName": "书下曲本家 MV Playlist",
+                    "version": {"base": "original"},
+                },
+            ]
+        }
+        builder.base_musics = [
+            {
+                "id": 679,
+                "title": "CRASH THE PARTY",
+                "categories": ["mv"],
+                "unitTags": ["street"],
+                "units": ["Vivid BAD SQUAD"],
+                "publishedAt": "2026-04-16 12:00:00",
+            },
+            {
+                "id": 153,
+                "title": "Miku",
+                "categories": ["mv"],
+                "unitTags": ["vocaloid"],
+                "units": ["Virtual Singer"],
+            },
+        ]
+        builder.sekai_musics = []
+        builder.sekai_music_tags = []
+        builder.sekai_units = []
+        builder.aliases = {}
+        builder.manual_videos = []
+        builder.original_video_overrides = {}
+
+        database = builder.build_database()
+
+        self.assertEqual(len(database["songs"]), 1)
+        song = database["songs"][0]
+        self.assertEqual(song["title"], "CRASH THE PARTY")
+        self.assertEqual(song["sekaiMusicId"], 679)
+        self.assertEqual({video["videoId"] for video in song["videos"]}, {"9xRxkaRKsgE", "tjL4KK2RWgQ"})
+        self.assertEqual(song["videoVersionSummary"]["bases"], ["sekai", "original"])
+        self.assertEqual(song["videoVersionSummary"]["labels"], ["本家", "Vivid BAD SQUAD", "游戏3D MV"])
 
     def test_build_database_summarizes_song_video_versions(self):
         builder = DatabaseBuilder(".")

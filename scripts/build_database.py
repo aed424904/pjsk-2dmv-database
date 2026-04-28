@@ -7,6 +7,7 @@ Project Sekai 2DMV Database Builder
 
 import json
 import os
+import unicodedata
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Any, Optional
@@ -112,6 +113,8 @@ class DatabaseBuilder:
         self.sekai_musics = []
         self.sekai_music_tags = []
         self.sekai_units = []
+        self.base_musics = []
+        self.base_music_source = None
         self.aliases = {}
         self.corrections = {}
 
@@ -540,6 +543,18 @@ class DatabaseBuilder:
             self.sekai_units = json.load(f)
         print(f"[OK] Sekai 组合数据: {len(self.sekai_units)} 个组合")
 
+        base_music_path = self.base_path / "output" / "musics_base.json"
+        if base_music_path.exists():
+            with open(base_music_path, 'r', encoding='utf-8') as f:
+                base_music_payload = json.load(f)
+            self.base_musics = base_music_payload.get('songs', [])
+            self.base_music_source = "output/musics_base.json"
+            print(f"[OK] 曲库基表数据: {len(self.base_musics)} 首歌曲")
+        else:
+            self.base_musics = []
+            self.base_music_source = None
+            print(f"[WARN] 未找到曲库基表: {base_music_path}")
+
         # 3. 加载手动维护数据
         manual_path = self.base_path / "manual_data"
 
@@ -563,9 +578,9 @@ class DatabaseBuilder:
         # 去除 (Reloaded) 等后缀
         title = re.sub(r'\s*\(.*?\)\s*', '', video_title)
 
-        # 提取 / 之前的部分
-        if ' / ' in title:
-            song_title = title.split(' / ')[0].strip()
+        # 提取官方标题中 "/" 或 "／" 之前的歌曲名，兼容 "曲名/ 组合" 这种无空格格式
+        if re.search(r'\s*[\/／]\s+', title):
+            song_title = re.split(r'\s*[\/／]\s+', title, maxsplit=1)[0].strip()
         else:
             song_title = title.strip()
 
@@ -575,22 +590,57 @@ class DatabaseBuilder:
 
         return song_title
 
-    def match_sekai_music(self, song_title: str) -> Optional[Dict]:
-        """匹配 Sekai 音乐数据"""
+    def normalize_music_title(self, title: str) -> str:
+        """用于跨数据源匹配的轻量标题归一化。"""
+        if not title:
+            return ''
+        title = unicodedata.normalize('NFKC', title)
+        return re.sub(
+            r'[\s\[\]\(\){}<>《》「」『』“”"\'\-_/／]',
+            '',
+            title.lower()
+        )
+
+    def match_music_from_catalog(self, song_title: str, catalog: List[Dict]) -> Optional[Dict]:
+        normalized_title = self.normalize_music_title(song_title)
+        if not normalized_title:
+            return None
+
+        for music in catalog:
+            if normalized_title == self.normalize_music_title(music.get('title', '')):
+                return music
+
         song_title_lower = song_title.lower()
+        for music in catalog:
+            music_title = music.get('title', '')
+            music_title_lower = music_title.lower()
+            normalized_music_title = self.normalize_music_title(music_title)
 
-        for music in self.sekai_musics:
-            music_title_lower = music['title'].lower()
-
-            # 完全匹配
             if song_title_lower == music_title_lower:
                 return music
 
-            # 包含匹配
-            if song_title_lower in music_title_lower or music_title_lower in song_title_lower:
+            if (
+                min(len(normalized_title), len(normalized_music_title)) >= 6
+                and (normalized_title in normalized_music_title or normalized_music_title in normalized_title)
+            ):
                 return music
 
         return None
+
+    def match_sekai_music(self, song_title: str) -> Optional[Dict]:
+        """匹配 Sekai 音乐数据"""
+        base_match = self.match_music_from_catalog(song_title, self.base_musics)
+        if base_match:
+            return base_match
+
+        return self.match_music_from_catalog(song_title, self.sekai_musics)
+
+    def normalize_unit_name(self, unit_name: str) -> str:
+        unit_name_mapping = {
+            'Wonderlands x Showtime': 'ワンダショ',
+            '25-ji, Nightcord de.': '25時、ナイトコードで。',
+        }
+        return unit_name_mapping.get(unit_name, unit_name)
 
     def get_music_units(self, music_id: int) -> List[str]:
         """获取歌曲所属组合"""
@@ -613,6 +663,33 @@ class DatabaseBuilder:
                         units.append(unit_name)
 
         return units
+
+    def get_music_units_for_music(self, music: Dict) -> List[str]:
+        """从最新曲库记录或 Sekai 标签表获取歌曲所属组合。"""
+        unit_mapping = {
+            'light_music_club': 'Leo/need',
+            'idol': 'MORE MORE JUMP!',
+            'street': 'Vivid BAD SQUAD',
+            'theme_park': 'ワンダショ',
+            'school_refusal': '25時、ナイトコードで。',
+            'vocaloid': 'Virtual Singer'
+        }
+
+        units = []
+        for tag in music.get('unitTags', []):
+            unit_name = unit_mapping.get(tag)
+            if unit_name and unit_name not in units:
+                units.append(unit_name)
+
+        for unit_name in music.get('units', []):
+            normalized_name = self.normalize_unit_name(unit_name)
+            if normalized_name and normalized_name not in units:
+                units.append(normalized_name)
+
+        if units:
+            return units
+
+        return self.get_music_units(music['id'])
 
     def extract_virtual_singers(self, video_title: str) -> List[str]:
         """从视频标题提取虚拟歌手"""
@@ -736,6 +813,27 @@ class DatabaseBuilder:
 
         return ' / '.join(labels) if labels else '未分类'
 
+    def get_unit_version_label(self, units: List[str]) -> str:
+        unit_names = [unit for unit in units if unit != 'Virtual Singer']
+        if len(unit_names) == 1:
+            return unit_names[0]
+        return self.VERSION_BASE_LABELS['sekai']
+
+    def apply_song_context_to_version(self, version: Dict[str, Any], units: List[str]) -> Dict[str, Any]:
+        if version.get('base') != 'sekai':
+            return version
+
+        contextual_version = dict(version)
+        contextual_version['label'] = self.get_unit_version_label(units)
+        return contextual_version
+
+    def get_mv_type_label(self, mv_type: Optional[str]) -> Optional[str]:
+        if mv_type == 'mv_2d':
+            return '游戏2D MV'
+        if mv_type == 'mv':
+            return '游戏3D MV'
+        return None
+
     def extract_title_cast_segment(self, title: str) -> str:
         if ' / ' not in title:
             return ''
@@ -827,7 +925,12 @@ class DatabaseBuilder:
             'source': 'title_heuristic',
         }
 
-    def summarize_song_video_versions(self, video_entries: List[Dict[str, Any]]) -> Dict[str, Any]:
+    def summarize_song_video_versions(
+        self,
+        video_entries: List[Dict[str, Any]],
+        units: Optional[List[str]] = None,
+        mv_type: Optional[str] = None
+    ) -> Dict[str, Any]:
         base_values = []
         special_values = []
         label_values = []
@@ -855,11 +958,46 @@ class DatabaseBuilder:
         base_values.sort(key=lambda value: self.VERSION_BASE_ORDER.index(value) if value in self.VERSION_BASE_ORDER else 999)
         special_values.sort(key=lambda value: self.VERSION_SPECIAL_ORDER.index(value) if value in self.VERSION_SPECIAL_ORDER else 999)
 
+        display_labels = self.build_song_version_display_labels(base_values, special_values, units or [], mv_type)
+        if not display_labels:
+            display_labels = label_values
+
         return {
             'bases': base_values,
             'special': special_values,
-            'labels': label_values,
+            'labels': display_labels,
         }
+
+    def build_song_version_display_labels(
+        self,
+        base_values: List[str],
+        special_values: List[str],
+        units: List[str],
+        mv_type: Optional[str]
+    ) -> List[str]:
+        labels = []
+        seen = set()
+
+        def add_label(label: Optional[str]):
+            if not label or label in seen:
+                return
+            seen.add(label)
+            labels.append(label)
+
+        for base in ['original', 'sekai', 'virtual_singer', 'another_vocal', 'unknown']:
+            if base not in base_values:
+                continue
+            if base == 'sekai':
+                add_label(self.get_unit_version_label(units))
+            else:
+                add_label(self.VERSION_BASE_LABELS.get(base, base))
+
+        for special_key in self.VERSION_SPECIAL_ORDER:
+            if special_key in special_values:
+                add_label(self.VERSION_SPECIAL_LABELS.get(special_key, special_key))
+
+        add_label(self.get_mv_type_label(mv_type))
+        return labels
 
     def build_video_performer_extraction(self, video: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         extractors = self.normalize_extractors(video.get('extractors'))
@@ -882,7 +1020,7 @@ class DatabaseBuilder:
         if sekai_music:
             self.stats['matched_sekai'] += 1
             sekai_music_id = sekai_music['id']
-            units = self.get_music_units(sekai_music_id)
+            units = self.get_music_units_for_music(sekai_music)
             mv_type = 'mv_2d' if 'mv_2d' in sekai_music.get('categories', []) else 'mv'
         else:
             sekai_music_id = None
@@ -922,7 +1060,10 @@ class DatabaseBuilder:
         video_entries = []
         for video in videos:
             resolved_video = self.apply_original_video_override(video)
-            version = self.determine_video_version(resolved_video)
+            version = self.apply_song_context_to_version(
+                self.determine_video_version(resolved_video),
+                units
+            )
             performer_extraction = self.build_video_performer_extraction(resolved_video)
             video_entry = {
                 'type': self.determine_video_type(resolved_video, song_title),
@@ -949,7 +1090,7 @@ class DatabaseBuilder:
 
         staff_summary = summarize_song_staff([video_entry['staff'] for video_entry in video_entries])
         performer_summary = summarize_song_performers(video_entries)
-        video_version_summary = self.summarize_song_video_versions(video_entries)
+        video_version_summary = self.summarize_song_video_versions(video_entries, units, mv_type)
 
         # 构建歌曲条目
         song_entry = {
@@ -1056,21 +1197,24 @@ class DatabaseBuilder:
 
         self.stats['total_songs'] = len(songs)
 
+        source_names = (
+            [f'YouTube Snapshot ({name})' for name in (self.youtube_source_names or ([self.youtube_source_name] if self.youtube_source_name else []))]
+            + [
+                'Sekai Viewer musics.json',
+                'Sekai Viewer musicTag.json',
+                self.base_music_source,
+                f'Manual aliases.json ({len(self.aliases)} songs)',
+                f'Manual videos.json ({len(self.manual_videos)} videos)',
+                f'Manual original_video_overrides.json ({len(self.original_video_overrides)} videos)'
+            ]
+        )
+
         # 构建最终数据库
         database = {
             'metadata': {
                 'version': '2.2.0',
                 'generatedAt': datetime.now().isoformat(),
-                'sources': (
-                    [f'YouTube Snapshot ({name})' for name in (self.youtube_source_names or ([self.youtube_source_name] if self.youtube_source_name else []))]
-                    + [
-                        'Sekai Viewer musics.json',
-                        'Sekai Viewer musicTag.json',
-                        f'Manual aliases.json ({len(self.aliases)} songs)',
-                        f'Manual videos.json ({len(self.manual_videos)} videos)',
-                        f'Manual original_video_overrides.json ({len(self.original_video_overrides)} videos)'
-                    ]
-                ),
+                'sources': [source for source in source_names if source],
                 'stats': {
                     'totalSongs': self.stats['total_songs'],
                     'totalVideos': self.stats['total_videos'],
