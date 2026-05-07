@@ -1,22 +1,22 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "generatedAt": "2026-04-22T16:21:00.348102",
+    "generatedAt": "2026-05-07T11:19:12.707441",
     "sources": [
       "sekai-master-db-diff-main/musics.json",
       "sekai-master-db-diff-main/musicTags.json",
       "sekai-master-db-diff-main/musicOriginals.json"
     ],
     "stats": {
-      "totalSongs": 670,
-      "songsWithOriginalVideoLink": 468,
+      "totalSongs": 673,
+      "songsWithOriginalVideoLink": 469,
       "unitBreakdown": {
-        "Leo/need": 82,
-        "MORE MORE JUMP!": 81,
+        "Leo/need": 84,
+        "MORE MORE JUMP!": 82,
         "Vivid BAD SQUAD": 81,
-        "Wonderlands x Showtime": 80,
-        "25-ji, Nightcord de.": 81,
-        "Virtual Singer": 447
+        "Wonderlands x Showtime": 82,
+        "25-ji, Nightcord de.": 82,
+        "Virtual Singer": 448
       }
     }
   },
@@ -17689,6 +17689,33 @@
       "originalVideoLink": "https://youtu.be/8JXiXt0D6tw?si=8G6j4jhIwJvA4bJL"
     },
     {
+      "id": 681,
+      "seq": 2264301,
+      "title": "星に一番近い場所",
+      "pronunciation": "ほしにいちばんちかいばしょ",
+      "lyricist": "TOKOTOKO",
+      "composer": "TOKOTOKO",
+      "arranger": "TOKOTOKO",
+      "categories": [
+        "mv"
+      ],
+      "publishedAt": "2026-05-06 22:05:00",
+      "releasedAt": "2026-05-06 00:00:00",
+      "isNewlyWrittenMusic": true,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "light_music_club"
+      ],
+      "unitTags": [
+        "light_music_club"
+      ],
+      "units": [
+        "Leo/need"
+      ],
+      "originalVideoLink": null
+    },
+    {
       "id": 683,
       "seq": 2362401,
       "title": "カラフルファンデーション",
@@ -18417,6 +18444,33 @@
       "originalVideoLink": "https://www.youtube.com/watch?v=DZ3q8c6QgrM"
     },
     {
+      "id": 715,
+      "seq": 1564201,
+      "title": "魔法少女幸福論",
+      "pronunciation": "まほうしょうじょこうふくろん",
+      "lyricist": "トーマ",
+      "composer": "トーマ",
+      "arranger": "トーマ",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-05-02 15:00:00",
+      "releasedAt": "2013-04-02 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "theme_park"
+      ],
+      "unitTags": [
+        "theme_park"
+      ],
+      "units": [
+        "Wonderlands x Showtime"
+      ],
+      "originalVideoLink": "https://www.nicovideo.jp/watch/sm20503130"
+    },
+    {
       "id": 716,
       "seq": 2460101,
       "title": "透過する温度",
@@ -18795,6 +18849,46 @@
         "Virtual Singer"
       ],
       "originalVideoLink": "https://www.youtube.com/watch?v=6_Fci4Y8CUk"
+    },
+    {
+      "id": 739,
+      "seq": 2764101,
+      "title": "世界の歩き方",
+      "pronunciation": "せかいのあるきかた",
+      "lyricist": "ユリイ・カノン",
+      "composer": "ユリイ・カノン",
+      "arranger": "ユリイ・カノン",
+      "categories": [
+        "mv_2d"
+      ],
+      "publishedAt": "2026-04-28 20:15:00",
+      "releasedAt": "2026-04-28 00:00:00",
+      "isNewlyWrittenMusic": true,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid",
+        "theme_park",
+        "idol",
+        "school_refusal",
+        "light_music_club",
+        "other"
+      ],
+      "unitTags": [
+        "vocaloid",
+        "theme_park",
+        "idol",
+        "school_refusal",
+        "light_music_club"
+      ],
+      "units": [
+        "Virtual Singer",
+        "Wonderlands x Showtime",
+        "MORE MORE JUMP!",
+        "25-ji, Nightcord de.",
+        "Leo/need"
+      ],
+      "originalVideoLink": null
     }
   ]
 }
