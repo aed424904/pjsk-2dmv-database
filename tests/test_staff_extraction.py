@@ -4,6 +4,7 @@ from scripts.staff_extraction import (
     build_staff_review_rows,
     build_staff_index_rows,
     build_video_staff,
+    load_role_aliases,
     normalize_role_label,
     parse_staff_lines,
     summarize_song_staff,
@@ -17,6 +18,18 @@ class StaffRoleTaxonomyTests(unittest.TestCase):
         self.assertEqual(normalize_role_label("イラストアニメーション"), "illustrationAnimation")
         self.assertEqual(normalize_role_label("リリックデザイン"), "lyricDesign")
         self.assertEqual(normalize_role_label("3DCG"), "cg3d")
+
+    def test_normalizes_manual_visual_role_aliases(self):
+        load_role_aliases.cache_clear()
+        self.assertEqual(normalize_role_label("Graphic Design"), "design")
+        self.assertEqual(normalize_role_label("原画"), "animation")
+        self.assertEqual(normalize_role_label("Video Direction"), "pvCreator")
+
+    def test_skips_audio_credit_roles(self):
+        parsed = parse_staff_lines("Vocal: 初音ミク\nGuitar: テスト\nMix & Mastering: テスト")
+
+        self.assertEqual(parsed["contributors"], [])
+        self.assertEqual(parsed["unknownRoleLines"], [])
 
 
 class StaffLineParsingTests(unittest.TestCase):
@@ -33,10 +46,10 @@ class StaffLineParsingTests(unittest.TestCase):
         self.assertEqual(result["contributors"][0]["name"], "omu")
 
     def test_preserves_unknown_roles(self):
-        description = "アニメーションプロデューサー：Someone"
+        description = "未知役職：Someone"
         result = parse_staff_lines(description)
         self.assertEqual(result["contributors"][0]["role"], "unknown")
-        self.assertEqual(result["contributors"][0]["roleRaw"], "アニメーションプロデューサー")
+        self.assertEqual(result["contributors"][0]["roleRaw"], "未知役職")
 
     def test_strips_dangling_fullwidth_parenthesis_after_url_cleanup(self):
         description = "イラスト：おかざきおか（https://twitter.com/okazakiokaa）"
@@ -116,7 +129,7 @@ class StaffAuditExportTests(unittest.TestCase):
                             "\n".join(
                                 [
                                     "イラスト：燠",
-                                    "アニメーションプロデューサー：Someone",
+                                    "未知役職：Someone",
                                     "Graphic Designer:",
                                 ]
                             )
@@ -130,5 +143,5 @@ class StaffAuditExportTests(unittest.TestCase):
         self.assertEqual(index_rows[0]["songId"], "song_test")
         self.assertEqual(index_rows[0]["videoId"], "video_1")
         self.assertEqual(review_rows[0]["songTitle"], "Test Song")
-        self.assertIn("アニメーションプロデューサー：Someone", review_rows[0]["unknownRoleLines"])
+        self.assertIn("未知役職：Someone", review_rows[0]["unknownRoleLines"])
         self.assertIn("Graphic Designer:", review_rows[0]["unparsedLines"])

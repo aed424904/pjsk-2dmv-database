@@ -10,12 +10,12 @@
 - 首页整合展示 699 首游戏歌曲；别称搜索、侧栏筛选、排序和详情展开已实现。
 - 视频页以 `database_v2.json` 为唯一视频真源，显示 425 / 425 个视频，当前待关联数为 0。
 - 已修复静态 JSON 被浏览器缓存后显示旧数据的问题：首页、歌曲页和视频页的动态数据请求均使用 `cache: 'no-store'`。
-- 离线验证通过：52 个 `unittest`、Python `compileall`、`scripts/validate_data.py`。
+- 离线验证通过：54 个 `unittest`、Python `compileall`、`scripts/validate_data.py`。
 - 浏览器抽查通过：别称“洛基”命中 `ロキ`；Leo/need 筛选得到 87 首；视频搜索 `CRASH THE PARTY` 得到 2 条；Enter 键可展开视频详情；未发现控制台错误。
 
 ### 尚未完成
 
-1. 处理 `output/staff_review.json` 中 226 条 Staff 人工复核记录。
+1. 处理 `output/staff_review.json` 中 217 条 Staff 人工复核记录。
 2. 完成移动端、全量筛选组合及性能指标的系统化浏览器验收。
 3. 推送本地提交，然后验证 GitHub Actions 与 GitHub Pages 的线上运行状态。
 4. 高级搜索面板仍为后续增强项，不阻塞当前版本发布。

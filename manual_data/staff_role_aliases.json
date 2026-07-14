@@ -1,1 +1,19 @@
-{}
+{
+  "Direction": "pvCreator",
+  "Edit": "pvCreator",
+  "Video Direction": "pvCreator",
+  "Movie Director": "pvCreator",
+  "ストーリーボード": "pvCreator",
+  "絵": "illustrator",
+  "キャラクターイラスト": "illustrator",
+  "Lead Illustrator": "illustrator",
+  "Graphic Design": "design",
+  "タイトルロゴデザイン": "design",
+  "原画": "animation",
+  "第二原画": "animation",
+  "仕上": "animation",
+  "PaintAssistant": "animation",
+  "Animation Assistant": "animation",
+  "アニメーションプロデューサー": "animation",
+  "制作進行": "animation"
+}
