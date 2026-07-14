@@ -14,13 +14,61 @@
 
 import json
 import os
+from datetime import datetime, timezone, timedelta
+
+JST = timezone(timedelta(hours=9))
 
 DB_DIR = os.path.join(os.path.dirname(__file__), '..', 'sekai-master-db-diff-main')
+OUTPUT_DIR = os.path.join(os.path.dirname(__file__), '..', 'output')
 
 def load_json(filename):
     path = os.path.join(DB_DIR, filename)
     with open(path, encoding='utf-8') as f:
         return json.load(f)
+
+def load_output_json(filename):
+    path = os.path.join(OUTPUT_DIR, filename)
+    with open(path, encoding='utf-8') as f:
+        return json.load(f)
+
+def parse_youtube_date(date_str):
+    """Parse ISO 8601 date like '2026-04-17T12:01:13Z' to millisecond timestamp."""
+    if not date_str:
+        return None
+    try:
+        dt = datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+        return int(dt.timestamp() * 1000)
+    except (ValueError, TypeError):
+        return None
+
+def build_original_mv_date_map(database_v2):
+    """Build a map from sekaiMusicId -> earliest original MV upload timestamp (ms)."""
+    date_map = {}
+    songs = database_v2.get('songs', []) if isinstance(database_v2, dict) else database_v2
+    for song in songs:
+        sid = song.get('sekaiMusicId')
+        if not sid:
+            continue
+        videos = song.get('videos', [])
+        for v in videos:
+            if v.get('type') == 'original_mv':
+                ts = parse_youtube_date(v.get('uploadDate'))
+                if ts:
+                    existing = date_map.get(sid)
+                    if existing is None or ts < existing:
+                        date_map[sid] = ts
+    return date_map
+
+JST_OFFSET_MS = 9 * 3600 * 1000  # 9 hours in milliseconds
+
+def resolve_released_at(music_id, game_ts, mv_date_map):
+    """Determine releasedAt: prefer original MV upload date, otherwise JST-corrected game timestamp."""
+    mv_ts = mv_date_map.get(music_id)
+    if mv_ts:
+        return mv_ts
+    if game_ts:
+        return game_ts + JST_OFFSET_MS
+    return None
 
 def main():
     # 1. 加载所有需要的数据源
@@ -29,6 +77,15 @@ def main():
     music_tags = load_json('musicTags.json')
     music_vocals = load_json('musicVocals.json')
     music_originals = load_json('musicOriginals.json')
+
+    # 加载 database_v2 获取本家 MV 上传日期
+    try:
+        database_v2 = load_output_json('database_v2.json')
+        original_mv_dates = build_original_mv_date_map(database_v2)
+        print(f'Loaded {len(original_mv_dates)} original MV dates from database_v2.json')
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f'Warning: could not load database_v2.json: {e}')
+        original_mv_dates = {}
 
     # 2. 构建查找索引
     # musicArtists: id -> artist object
@@ -96,7 +153,7 @@ def main():
             'tags': tags_map.get(mid, []),
             'categories': m.get('categories', []),
             'publishedAt': m.get('publishedAt'),
-            'releasedAt': m.get('releasedAt'),
+            'releasedAt': resolve_released_at(mid, m.get('releasedAt'), original_mv_dates),
             'originalVideoLink': original_links_map.get(mid),
             'vocals': vocals_list,
         }

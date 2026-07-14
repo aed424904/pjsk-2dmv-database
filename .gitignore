@@ -44,3 +44,10 @@ Database/temp.db
 *.db-journal
 *.db-wal
 *.db-shm
+
+# Local analysis and CN server reference data
+sekai-master-db-cn-diff-main/
+output/cn_song_title_translation_with_unit.csv
+scripts/export_cn_song_title_unit_table.mjs
+Leo'need_*.csv
+char_*.txt

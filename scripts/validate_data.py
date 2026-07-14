@@ -6,6 +6,7 @@
 """
 
 import json
+import sys
 from pathlib import Path
 from typing import Dict, List
 
@@ -27,6 +28,7 @@ class DataValidator:
         self.validate_references()
 
         self.print_report()
+        return not self.errors
 
     def validate_metadata(self):
         """验证元数据"""
@@ -40,6 +42,10 @@ class DataValidator:
 
         if metadata.get('stats', {}).get('totalSongs', 0) != len(self.database.get('songs', [])):
             self.errors.append("metadata.stats.totalSongs 与实际歌曲数不符")
+
+        actual_video_count = sum(len(song.get('videos', [])) for song in self.database.get('songs', []))
+        if metadata.get('stats', {}).get('totalVideos', 0) != actual_video_count:
+            self.errors.append("metadata.stats.totalVideos 与实际视频数不符")
 
     def validate_songs(self):
         """验证歌曲数据"""
@@ -117,11 +123,16 @@ class DataValidator:
 
 
 def main():
-    database_path = r"C:\Users\10693\Desktop\并非工作内容\Project Sekai 2DMV Database\output\database_v2.json"
+    base_path = Path(__file__).resolve().parents[1]
+    database_path = Path(sys.argv[1]) if len(sys.argv) > 1 else base_path / "output" / "database_v2.json"
 
-    validator = DataValidator(database_path)
-    validator.validate()
+    try:
+        validator = DataValidator(str(database_path))
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"[ERROR] 无法读取数据库: {exc}")
+        return 1
+    return 0 if validator.validate() else 1
 
 
 if __name__ == '__main__':
-    main()
+    raise SystemExit(main())

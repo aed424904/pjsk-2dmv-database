@@ -32,6 +32,41 @@ class VideoSourceRegistryTests(unittest.TestCase):
         finally:
             shutil.rmtree(base_path, ignore_errors=True)
 
+    def test_preferred_snapshot_uses_latest_valid_even_when_it_has_fewer_videos(self):
+        base_path = Path.cwd() / "tests" / "_tmp" / f"registry_{uuid.uuid4().hex}"
+        try:
+            fetch_dir = base_path / "fetch_youtube_playlist"
+            fetch_dir.mkdir(parents=True, exist_ok=True)
+            older_path = fetch_dir / "playlist_official_2dmv_20260421_101000.json"
+            newer_path = fetch_dir / "playlist_official_2dmv_20260422_101000.json"
+            invalid_path = fetch_dir / "playlist_official_2dmv_20260423_101000.json"
+
+            older_path.write_text(json.dumps({"videos": [{"videoId": str(i)} for i in range(5)]}), encoding="utf-8")
+            newer_path.write_text(json.dumps({"videos": [{"videoId": "remaining"}]}), encoding="utf-8")
+            invalid_path.write_text(json.dumps({"metadata": {"status": "partial"}, "videos": [{"videoId": "partial"}]}), encoding="utf-8")
+
+            preferred = get_preferred_snapshot_for_source(base_path, "official_2dmv")
+
+            self.assertEqual(preferred, newer_path)
+        finally:
+            shutil.rmtree(base_path, ignore_errors=True)
+
+    def test_preferred_snapshot_compares_timestamps_across_legacy_names(self):
+        base_path = Path.cwd() / "tests" / "_tmp" / f"registry_{uuid.uuid4().hex}"
+        try:
+            fetch_dir = base_path / "fetch_youtube_playlist"
+            fetch_dir.mkdir(parents=True, exist_ok=True)
+            legacy_path = fetch_dir / "playlist_videos_20260421_101101.json"
+            current_path = fetch_dir / "playlist_official_2dmv_20260710_162823.json"
+            legacy_path.write_text(json.dumps({"videos": [{"videoId": "legacy"}]}), encoding="utf-8")
+            current_path.write_text(json.dumps({"videos": [{"videoId": "current"}]}), encoding="utf-8")
+
+            preferred = get_preferred_snapshot_for_source(base_path, "official_2dmv")
+
+            self.assertEqual(preferred, current_path)
+        finally:
+            shutil.rmtree(base_path, ignore_errors=True)
+
 
 class DatabaseBuilderMultiSourceTests(unittest.TestCase):
     def test_load_youtube_data_from_sources_merges_multiple_sources(self):

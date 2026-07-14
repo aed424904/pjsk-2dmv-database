@@ -1,22 +1,22 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "generatedAt": "2026-05-07T11:19:12.707441",
+    "generatedAt": "2026-07-10T16:29:09.642142",
     "sources": [
       "sekai-master-db-diff-main/musics.json",
       "sekai-master-db-diff-main/musicTags.json",
       "sekai-master-db-diff-main/musicOriginals.json"
     ],
     "stats": {
-      "totalSongs": 673,
-      "songsWithOriginalVideoLink": 469,
+      "totalSongs": 699,
+      "songsWithOriginalVideoLink": 483,
       "unitBreakdown": {
-        "Leo/need": 84,
-        "MORE MORE JUMP!": 82,
-        "Vivid BAD SQUAD": 81,
-        "Wonderlands x Showtime": 82,
-        "25-ji, Nightcord de.": 82,
-        "Virtual Singer": 448
+        "Leo/need": 87,
+        "MORE MORE JUMP!": 86,
+        "Vivid BAD SQUAD": 86,
+        "Wonderlands x Showtime": 86,
+        "25-ji, Nightcord de.": 86,
+        "Virtual Singer": 456
       }
     }
   },
@@ -5351,7 +5351,8 @@
       "composer": "ぽりふぉ",
       "arranger": "ぽりふぉ",
       "categories": [
-        "mv"
+        "mv",
+        "mv_2d"
       ],
       "publishedAt": "2022-06-28 22:05:00",
       "releasedAt": "2022-06-28 00:00:00",
@@ -12567,7 +12568,8 @@
       "composer": "DECO*27",
       "arranger": "Rockwell",
       "categories": [
-        "mv"
+        "mv",
+        "mv_2d"
       ],
       "publishedAt": "2024-10-01 15:00:00",
       "releasedAt": "2021-10-08 00:00:00",
@@ -13045,7 +13047,8 @@
       "composer": "Guiano",
       "arranger": "Guiano",
       "categories": [
-        "original"
+        "original",
+        "mv_2d"
       ],
       "publishedAt": "2024-09-09 15:00:00",
       "releasedAt": "2018-04-14 00:00:00",
@@ -15924,7 +15927,8 @@
       "composer": "烏屋茶房",
       "arranger": "烏屋茶房",
       "categories": [
-        "mv"
+        "mv",
+        "mv_2d"
       ],
       "publishedAt": "2025-12-29 22:05:00",
       "releasedAt": "2025-12-29 00:00:00",
@@ -16464,7 +16468,8 @@
       "composer": "LonePi",
       "arranger": "LonePi",
       "categories": [
-        "mv"
+        "mv",
+        "mv_2d"
       ],
       "publishedAt": "2026-01-19 22:05:00",
       "releasedAt": "2026-01-19 00:00:00",
@@ -16481,6 +16486,33 @@
         "25-ji, Nightcord de."
       ],
       "originalVideoLink": null
+    },
+    {
+      "id": 631,
+      "seq": 1566501,
+      "title": "天才ロック",
+      "pronunciation": "てんさいろっく",
+      "lyricist": "カラスヤサボウ",
+      "composer": "カラスヤサボウ",
+      "arranger": "カラスヤサボウ",
+      "categories": [
+        "mv"
+      ],
+      "publishedAt": "2026-07-01 15:00:00",
+      "releasedAt": "2017-11-04 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "theme_park"
+      ],
+      "unitTags": [
+        "theme_park"
+      ],
+      "units": [
+        "Wonderlands x Showtime"
+      ],
+      "originalVideoLink": "https://www.nicovideo.jp/watch/sm32214623"
     },
     {
       "id": 632,
@@ -17213,6 +17245,33 @@
       "originalVideoLink": null
     },
     {
+      "id": 661,
+      "seq": 1564501,
+      "title": "卑怯戦隊うろたんだー",
+      "pronunciation": "ひきょーせんたいうろたんだー",
+      "lyricist": "シンP",
+      "composer": "シンP",
+      "arranger": "シンP",
+      "categories": [
+        "mv"
+      ],
+      "publishedAt": "2026-05-11 15:00:00",
+      "releasedAt": "2007-11-28 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "theme_park"
+      ],
+      "unitTags": [
+        "theme_park"
+      ],
+      "units": [
+        "Wonderlands x Showtime"
+      ],
+      "originalVideoLink": "https://www.nicovideo.jp/watch/sm1639267"
+    },
+    {
       "id": 662,
       "seq": 2662901,
       "title": "告白",
@@ -17714,6 +17773,33 @@
         "Leo/need"
       ],
       "originalVideoLink": null
+    },
+    {
+      "id": 682,
+      "seq": 1364601,
+      "title": "あなたしか見えないの",
+      "pronunciation": "あなたしかみえないの",
+      "lyricist": "r-906",
+      "composer": "r-906",
+      "arranger": "r-906",
+      "categories": [
+        "mv"
+      ],
+      "publishedAt": "2026-05-18 15:00:00",
+      "releasedAt": "2024-04-25 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "idol"
+      ],
+      "unitTags": [
+        "idol"
+      ],
+      "units": [
+        "MORE MORE JUMP!"
+      ],
+      "originalVideoLink": "https://www.youtube.com/watch?v=xv7hJ32xK94&feature=youtu.be"
     },
     {
       "id": 683,
@@ -18262,6 +18348,60 @@
       "originalVideoLink": "https://youtu.be/8BekVGwSX3c?si=ip_5ocGu87ym2FQY"
     },
     {
+      "id": 705,
+      "seq": 1265101,
+      "title": "ラズベリー＊モンスター",
+      "pronunciation": "らずべりーもんすたー",
+      "lyricist": "Gom, shito",
+      "composer": "Gom",
+      "arranger": "HoneyWorks",
+      "categories": [
+        "mv"
+      ],
+      "publishedAt": "2026-06-05 15:00:00",
+      "releasedAt": "2013-06-06 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "light_music_club"
+      ],
+      "unitTags": [
+        "light_music_club"
+      ],
+      "units": [
+        "Leo/need"
+      ],
+      "originalVideoLink": "https://youtu.be/P4dhSf8pEeE?si=-q1Sfm5e6EfQJWOX"
+    },
+    {
+      "id": 706,
+      "seq": 1465401,
+      "title": "永遠甚だしい",
+      "pronunciation": "えいえんはなはだしい",
+      "lyricist": "獅子志司",
+      "composer": "獅子志司",
+      "arranger": "獅子志司",
+      "categories": [
+        "mv"
+      ],
+      "publishedAt": "2026-06-12 15:00:00",
+      "releasedAt": "2020-08-01 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "street"
+      ],
+      "unitTags": [
+        "street"
+      ],
+      "units": [
+        "Vivid BAD SQUAD"
+      ],
+      "originalVideoLink": "https://youtu.be/gjMBTMMf45w?si=ag74fWEMatHynudb"
+    },
+    {
       "id": 707,
       "seq": 3761701,
       "title": "さいたま2000",
@@ -18388,6 +18528,33 @@
         "Virtual Singer"
       ],
       "originalVideoLink": "https://www.youtube.com/watch?v=NneNmdW44BI"
+    },
+    {
+      "id": 712,
+      "seq": 1664701,
+      "title": "比較症候群",
+      "pronunciation": "ひかくしょうこうぐん",
+      "lyricist": "葵木ゴウ",
+      "composer": "葵木ゴウ",
+      "arranger": "葵木ゴウ",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-05-22 15:00:00",
+      "releasedAt": "2020-06-10 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "school_refusal"
+      ],
+      "unitTags": [
+        "school_refusal"
+      ],
+      "units": [
+        "25-ji, Nightcord de."
+      ],
+      "originalVideoLink": "https://x.gd/NHQMt"
     },
     {
       "id": 713,
@@ -18797,6 +18964,60 @@
       "originalVideoLink": "https://www.youtube.com/watch?v=D2oOoNfjkEg"
     },
     {
+      "id": 733,
+      "seq": 1165201,
+      "title": "いますぐ輪廻",
+      "pronunciation": "いますぐりんね",
+      "lyricist": "なきそ",
+      "composer": "なきそ",
+      "arranger": "なきそ",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-06-08 15:00:00",
+      "releasedAt": "2025-08-01 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://www.youtube.com/watch?v=3iUgKH8c7p4"
+    },
+    {
+      "id": 734,
+      "seq": 1665001,
+      "title": "プロポーズ",
+      "pronunciation": "ぷろぽーず",
+      "lyricist": "内緒のピアス",
+      "composer": "内緒のピアス",
+      "arranger": "内緒のピアス",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-06-01 15:00:00",
+      "releasedAt": "2023-07-10 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "school_refusal"
+      ],
+      "unitTags": [
+        "school_refusal"
+      ],
+      "units": [
+        "25-ji, Nightcord de."
+      ],
+      "originalVideoLink": "https://youtu.be/ST_AJmY_Tcc"
+    },
+    {
       "id": 735,
       "seq": 2563001,
       "title": "傀儡のうつつ",
@@ -18851,6 +19072,33 @@
       "originalVideoLink": "https://www.youtube.com/watch?v=6_Fci4Y8CUk"
     },
     {
+      "id": 738,
+      "seq": 1164801,
+      "title": "ストラタでまちあわせ",
+      "pronunciation": "すとらたでまちあわせ",
+      "lyricist": "メキメキ地蔵",
+      "composer": "メキメキ地蔵",
+      "arranger": "メキメキ地蔵",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-05-25 15:00:00",
+      "releasedAt": "2026-01-31 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://www.youtube.com/watch?v=Gsttuf9EPSM"
+    },
+    {
       "id": 739,
       "seq": 2764101,
       "title": "世界の歩き方",
@@ -18887,6 +19135,467 @@
         "MORE MORE JUMP!",
         "25-ji, Nightcord de.",
         "Leo/need"
+      ],
+      "originalVideoLink": null
+    },
+    {
+      "id": 740,
+      "seq": 2464401,
+      "title": "羽歌",
+      "pronunciation": "うか",
+      "lyricist": "遼遼",
+      "composer": "遼遼",
+      "arranger": "遼遼",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-05-08 15:00:00",
+      "releasedAt": "2026-05-08 00:00:00",
+      "isNewlyWrittenMusic": true,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "street"
+      ],
+      "unitTags": [
+        "street"
+      ],
+      "units": [
+        "Vivid BAD SQUAD"
+      ],
+      "originalVideoLink": null
+    },
+    {
+      "id": 741,
+      "seq": 1166601,
+      "title": "アイ・メイカー！",
+      "pronunciation": "あい・めいかー",
+      "lyricist": "マキシウキョウ",
+      "composer": "マキシウキョウ",
+      "arranger": "マキシウキョウ",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-07-06 15:00:00",
+      "releasedAt": "2025-10-30 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://youtu.be/jMEw5D74WQg"
+    },
+    {
+      "id": 742,
+      "seq": 2765601,
+      "title": "旅に帰る",
+      "pronunciation": "たびにかえる",
+      "lyricist": "カンザキイオリ",
+      "composer": "カンザキイオリ",
+      "arranger": "カンザキイオリ",
+      "categories": [
+        "mv_2d"
+      ],
+      "publishedAt": "2026-06-18 20:15:00",
+      "releasedAt": "2026-06-18 00:00:00",
+      "isNewlyWrittenMusic": true,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid",
+        "street",
+        "idol",
+        "school_refusal",
+        "light_music_club",
+        "other"
+      ],
+      "unitTags": [
+        "vocaloid",
+        "street",
+        "idol",
+        "school_refusal",
+        "light_music_club"
+      ],
+      "units": [
+        "Virtual Singer",
+        "Vivid BAD SQUAD",
+        "MORE MORE JUMP!",
+        "25-ji, Nightcord de.",
+        "Leo/need"
+      ],
+      "originalVideoLink": null
+    },
+    {
+      "id": 743,
+      "seq": 2764901,
+      "title": "ドリーマーズビート",
+      "pronunciation": "どりーまーずびーと",
+      "lyricist": "40mP",
+      "composer": "40mP",
+      "arranger": "40mP",
+      "categories": [
+        "mv_2d"
+      ],
+      "publishedAt": "2026-05-29 20:15:00",
+      "releasedAt": "2026-05-29 00:00:00",
+      "isNewlyWrittenMusic": true,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid",
+        "theme_park",
+        "street",
+        "idol",
+        "light_music_club",
+        "other"
+      ],
+      "unitTags": [
+        "vocaloid",
+        "theme_park",
+        "street",
+        "idol",
+        "light_music_club"
+      ],
+      "units": [
+        "Virtual Singer",
+        "Wonderlands x Showtime",
+        "Vivid BAD SQUAD",
+        "MORE MORE JUMP!",
+        "Leo/need"
+      ],
+      "originalVideoLink": null
+    },
+    {
+      "id": 744,
+      "seq": 3765901,
+      "title": "CHAOS",
+      "pronunciation": "かおす",
+      "lyricist": "-",
+      "composer": "Æsir",
+      "arranger": "KIVΛ",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-06-22 15:00:00",
+      "releasedAt": "2018-01-18 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "other"
+      ],
+      "unitTags": [],
+      "units": [],
+      "originalVideoLink": null
+    },
+    {
+      "id": 745,
+      "seq": 3766201,
+      "title": "ANiMA",
+      "pronunciation": "あにま",
+      "lyricist": "-",
+      "composer": "xi",
+      "arranger": "xi",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-06-25 15:00:00",
+      "releasedAt": "2015-05-27 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "other"
+      ],
+      "unitTags": [],
+      "units": [],
+      "originalVideoLink": null
+    },
+    {
+      "id": 746,
+      "seq": 3766301,
+      "title": "Masquerade",
+      "pronunciation": "ますかれーど",
+      "lyricist": "-",
+      "composer": "M2U",
+      "arranger": "M2U",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-06-26 15:00:00",
+      "releasedAt": "2013-08-14 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "other"
+      ],
+      "unitTags": [],
+      "units": [],
+      "originalVideoLink": null
+    },
+    {
+      "id": 747,
+      "seq": 3765801,
+      "title": "SAIRAI",
+      "pronunciation": "さいらい",
+      "lyricist": "-",
+      "composer": "Shinichi Kobayashi",
+      "arranger": "Yoshikatsu Fukuhara",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-06-21 15:00:00",
+      "releasedAt": "2014-01-27 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "other"
+      ],
+      "unitTags": [],
+      "units": [],
+      "originalVideoLink": null
+    },
+    {
+      "id": 748,
+      "seq": 3766001,
+      "title": "Saika",
+      "pronunciation": "さいか",
+      "lyricist": "-",
+      "composer": "RABPIT",
+      "arranger": "RABPIT",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-06-23 15:00:00",
+      "releasedAt": "2013-11-13 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "other"
+      ],
+      "unitTags": [],
+      "units": [],
+      "originalVideoLink": null
+    },
+    {
+      "id": 749,
+      "seq": 3766101,
+      "title": "99 Glooms",
+      "pronunciation": "ないんてぃないんぐるーむず",
+      "lyricist": "-",
+      "composer": "Sta",
+      "arranger": "Sta",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-06-24 15:00:00",
+      "releasedAt": "2019-01-12 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "other"
+      ],
+      "unitTags": [],
+      "units": [],
+      "originalVideoLink": null
+    },
+    {
+      "id": 754,
+      "seq": 2666701,
+      "title": "光",
+      "pronunciation": "ひかり",
+      "lyricist": "水野あつ",
+      "composer": "水野あつ",
+      "arranger": "小島英也",
+      "categories": [
+        "mv_2d"
+      ],
+      "publishedAt": "2026-07-09 15:00:00",
+      "releasedAt": "2026-07-09 00:00:00",
+      "isNewlyWrittenMusic": true,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "school_refusal"
+      ],
+      "unitTags": [
+        "school_refusal"
+      ],
+      "units": [
+        "25-ji, Nightcord de."
+      ],
+      "originalVideoLink": null
+    },
+    {
+      "id": 755,
+      "seq": 1165301,
+      "title": "初音狂奏曲第01番「彗惺」",
+      "pronunciation": "はつねきょうそうきょくだいいちばんすいせい",
+      "lyricist": "湊貴大(流星P)",
+      "composer": "よみぃ",
+      "arranger": "よみぃ",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-06-09 15:00:00",
+      "releasedAt": "2026-02-27 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://youtu.be/jro_ogZGNus?si=il6PkX8Y5cvj6UZX"
+    },
+    {
+      "id": 756,
+      "seq": 2366401,
+      "title": "Gimme more!",
+      "pronunciation": "ぎみーもあ",
+      "lyricist": "めろくる",
+      "composer": "めろくる",
+      "arranger": "めろくる",
+      "categories": [
+        "mv_2d"
+      ],
+      "publishedAt": "2026-06-30 15:00:00",
+      "releasedAt": "2026-06-30 00:00:00",
+      "isNewlyWrittenMusic": true,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "idol"
+      ],
+      "unitTags": [
+        "idol"
+      ],
+      "units": [
+        "MORE MORE JUMP!"
+      ],
+      "originalVideoLink": null
+    },
+    {
+      "id": 757,
+      "seq": 1165501,
+      "title": "ひかりのあつめかた",
+      "pronunciation": "ひかりのあつめかた",
+      "lyricist": "まかろり",
+      "composer": "まかろり",
+      "arranger": "まかろり",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-06-15 15:00:00",
+      "releasedAt": "2026-02-20 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://youtu.be/FEgM1c9IXrE?si=4Wm5M27J-COshKz5"
+    },
+    {
+      "id": 758,
+      "seq": 1166901,
+      "title": "ラプス",
+      "pronunciation": "らぷす",
+      "lyricist": "kr-KuuRa",
+      "composer": "kr-KuuRa",
+      "arranger": "kr-KuuRa",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-07-17 15:00:00",
+      "releasedAt": "2026-02-20 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://youtu.be/v0JcLyWZxXc?si=saGvO-BnPCpnQyBr"
+    },
+    {
+      "id": 759,
+      "seq": 1466801,
+      "title": "ハナタバ",
+      "pronunciation": "はなたば",
+      "lyricist": "MIMI",
+      "composer": "MIMI",
+      "arranger": "MIMI",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-07-13 15:00:00",
+      "releasedAt": "2022-11-19 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "street"
+      ],
+      "unitTags": [
+        "street"
+      ],
+      "units": [
+        "Vivid BAD SQUAD"
+      ],
+      "originalVideoLink": "https://youtu.be/7xht3kQO_TM?si=E185TMEBD2vuXLSg"
+    },
+    {
+      "id": 760,
+      "seq": 2565701,
+      "title": "オールイン・ワン",
+      "pronunciation": "おーるいんわん",
+      "lyricist": "和田たけあき",
+      "composer": "和田たけあき",
+      "arranger": "和田たけあき",
+      "categories": [
+        "mv_2d"
+      ],
+      "publishedAt": "2026-06-20 15:00:00",
+      "releasedAt": "2026-06-20 00:00:00",
+      "isNewlyWrittenMusic": true,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "theme_park"
+      ],
+      "unitTags": [
+        "theme_park"
+      ],
+      "units": [
+        "Wonderlands x Showtime"
       ],
       "originalVideoLink": null
     }

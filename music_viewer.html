@@ -1194,6 +1194,7 @@
       <div class="header-nav">
         <a class="nav-link active" href="index.html">🎵 歌曲列表</a>
         <a class="nav-link" href="video_viewer.html">📺 视频列表</a>
+        <a class="nav-link" href="editor.html">🛠️ 编辑工具</a>
       </div>
       <div class="stats-bar">
         <div class="stat">歌曲 <span class="stat-num" id="stat-total">-</span></div>
@@ -2041,10 +2042,10 @@
       if (handleFileProtocolAccess()) return;
       try {
         const [resp, databaseResp, gameCharactersResp, outsideCharactersResp] = await Promise.all([
-          fetch('output/combined_music_data.json'),
-          fetch('output/database_v2.json').catch(() => null),
-          fetch('sekai-master-db-diff-main/gameCharacters.json').catch(() => null),
-          fetch('sekai-master-db-diff-main/outsideCharacters.json').catch(() => null),
+          fetch('output/combined_music_data.json', { cache: 'no-store' }),
+          fetch('output/database_v2.json', { cache: 'no-store' }).catch(() => null),
+          fetch('sekai-master-db-diff-main/gameCharacters.json', { cache: 'no-store' }).catch(() => null),
+          fetch('sekai-master-db-diff-main/outsideCharacters.json', { cache: 'no-store' }).catch(() => null),
         ]);
         const baseSongs = await resp.json();
         let databaseV2 = null;
@@ -2071,7 +2072,7 @@
       }
       // Load alias data
       try {
-        const aliasResp = await fetch('output/aliases.json');
+        const aliasResp = await fetch('output/aliases.json', { cache: 'no-store' });
         const aliasData = await aliasResp.json();
         Object.entries(aliasData).forEach(([id, aliasList]) => {
           aliasMap[parseInt(id)] = Array.isArray(aliasList) ? aliasList : [];

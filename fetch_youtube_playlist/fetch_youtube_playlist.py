@@ -17,13 +17,13 @@ try:
 except ImportError:
     requests = None
 
-DEFAULT_API_KEY = os.getenv('YOUTUBE_API_KEY', 'AIzaSyB-RGqZxL4c9nqycnfC9rOzTo44rH-EM2Y')
+DEFAULT_API_KEY = os.getenv('YOUTUBE_API_KEY')
 
 
 class YouTubePlaylistFetcher:
     """YouTube Playlist 抓取器"""
 
-    def __init__(self, api_key=None):
+    def __init__(self, api_key=None, request_timeout=(5, 30), max_retries=3, retry_backoff=1.0):
         """
         初始化抓取器
 
@@ -33,6 +33,41 @@ class YouTubePlaylistFetcher:
         self.api_key = api_key
         self.base_url = "https://www.googleapis.com/youtube/v3"
         self.results = []
+        self.request_timeout = request_timeout
+        self.max_retries = max(0, int(max_retries))
+        self.retry_backoff = max(0.0, float(retry_backoff))
+
+    def request_api(self, endpoint, params):
+        """发送带超时和有限重试的 YouTube Data API GET 请求。"""
+        if requests is None:
+            raise RuntimeError("未安装 requests")
+
+        url = f"{self.base_url}/{endpoint.lstrip('/')}"
+        retryable_statuses = {429, 500, 502, 503, 504}
+
+        for attempt in range(self.max_retries + 1):
+            try:
+                response = requests.get(url, params=params, timeout=self.request_timeout)
+            except requests.RequestException:
+                if attempt >= self.max_retries:
+                    raise
+                delay = self.retry_backoff * (2 ** attempt)
+                print(f"[WARN] API 网络错误，{delay:.1f} 秒后重试 ({attempt + 1}/{self.max_retries})")
+                time.sleep(delay)
+                continue
+
+            if response.status_code not in retryable_statuses or attempt >= self.max_retries:
+                return response
+
+            retry_after = response.headers.get('Retry-After', '')
+            try:
+                delay = max(0.0, float(retry_after))
+            except (TypeError, ValueError):
+                delay = self.retry_backoff * (2 ** attempt)
+            print(f"[WARN] API 返回 {response.status_code}，{delay:.1f} 秒后重试 ({attempt + 1}/{self.max_retries})")
+            time.sleep(delay)
+
+        raise RuntimeError("YouTube API 重试流程异常结束")
 
     def extract_playlist_id(self, url):
         """从 URL 提取 Playlist ID"""
@@ -110,9 +145,9 @@ class YouTubePlaylistFetcher:
             if not batch:
                 continue
 
-            response = requests.get(
-                f"{self.base_url}/videos",
-                params={
+            response = self.request_api(
+                "videos",
+                {
                     'part': 'snippet,statistics',
                     'id': ','.join(batch),
                     'key': self.api_key,
@@ -206,7 +241,7 @@ class YouTubePlaylistFetcher:
                     params['pageToken'] = next_page_token
 
                 # 发送请求
-                response = requests.get(url, params=params)
+                response = self.request_api("playlistItems", params)
 
                 if response.status_code != 200:
                     print(f"❌ API 请求失败: {response.status_code}")

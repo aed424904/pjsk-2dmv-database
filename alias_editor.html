@@ -113,6 +113,42 @@
 
     .btn-danger:hover { background: #e05555; }
 
+    .header-nav {
+      margin-left: auto;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .nav-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      font-size: 13px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+
+    .nav-link:hover {
+      border-color: var(--accent-blue);
+      color: var(--accent-blue);
+      background: #1a1f38;
+    }
+
+    .nav-link.active {
+      background: rgba(91, 138, 245, 0.15);
+      border-color: rgba(91, 138, 245, 0.3);
+      color: var(--accent-blue);
+      font-weight: 600;
+    }
+
     /* Layout */
     .container {
       max-width: 1200px;
@@ -443,6 +479,10 @@
   <header class="header">
     <div class="header-inner">
       <h1>✏️ 别称编辑器</h1>
+      <div class="header-nav">
+        <a class="nav-link" href="index.html">🎵 歌曲列表</a>
+        <a class="nav-link" href="video_viewer.html">📺 视频列表</a>
+      </div>
       <div class="stats-bar">
         <span>歌曲 <span class="stat-num" id="stat-total">-</span></span>
         <span>已设别称 <span class="stat-num" id="stat-aliased">-</span></span>

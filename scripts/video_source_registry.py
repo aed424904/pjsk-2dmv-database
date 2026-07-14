@@ -148,21 +148,36 @@ def _load_snapshot_video_count(path: Path) -> Optional[int]:
     try:
         with path.open("r", encoding="utf-8") as handle:
             payload = json.load(handle)
-        return len(payload.get("videos", []))
+        if not isinstance(payload, dict):
+            return None
+        metadata = payload.get("metadata", {})
+        if isinstance(metadata, dict) and metadata.get("status") not in (None, "complete"):
+            return None
+        videos = payload.get("videos")
+        if not isinstance(videos, list) or not videos:
+            return None
+        return len(videos)
     except Exception:
         return None
 
 
+def _snapshot_timestamp_key(path: Path) -> Tuple[str, str]:
+    """从新旧快照命名中提取时间戳，避免前缀影响新旧顺序。"""
+    match = re.search(r"(\d{8}_\d{6})(?=\.json$)", path.name)
+    timestamp = match.group(1) if match else ""
+    return timestamp, path.name
+
+
 def get_preferred_snapshot_for_source(base_path: Any, source_key: str) -> Optional[Path]:
     best_path: Optional[Path] = None
-    best_key: Tuple[int, str] = (-1, "")
+    best_key: Tuple[str, str] = ("", "")
 
     for path in iter_source_snapshot_candidates(base_path, source_key):
         video_count = _load_snapshot_video_count(path)
         if video_count is None:
             continue
 
-        current_key = (video_count, path.name)
+        current_key = _snapshot_timestamp_key(path)
         if current_key > best_key:
             best_key = current_key
             best_path = path

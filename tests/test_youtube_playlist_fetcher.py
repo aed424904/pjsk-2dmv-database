@@ -1,9 +1,28 @@
 import unittest
+from unittest.mock import Mock, patch
 
 from fetch_youtube_playlist.fetch_youtube_playlist import YouTubePlaylistFetcher
 
 
 class YouTubePlaylistFetcherTests(unittest.TestCase):
+    @patch("fetch_youtube_playlist.fetch_youtube_playlist.time.sleep")
+    def test_request_api_retries_retryable_status_with_timeout(self, mock_sleep):
+        retry_response = Mock(status_code=503, headers={"Retry-After": "0"})
+        success_response = Mock(status_code=200, headers={})
+        fake_requests = Mock()
+        fake_requests.RequestException = Exception
+        mock_get = fake_requests.get
+        mock_get.side_effect = [retry_response, success_response]
+        fetcher = YouTubePlaylistFetcher(api_key="test", max_retries=2)
+
+        with patch("fetch_youtube_playlist.fetch_youtube_playlist.requests", fake_requests):
+            response = fetcher.request_api("playlistItems", {"key": "test"})
+
+        self.assertIs(response, success_response)
+        self.assertEqual(mock_get.call_count, 2)
+        self.assertEqual(mock_get.call_args.kwargs["timeout"], (5, 30))
+        mock_sleep.assert_called_once_with(0.0)
+
     def test_api_snippet_prefers_video_owner_channel(self):
         fetcher = YouTubePlaylistFetcher(api_key=None)
 

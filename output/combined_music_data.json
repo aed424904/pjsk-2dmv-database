@@ -909,6 +909,22 @@
           }
         ],
         "assetbundleName": "an_0019_03"
+      },
+      {
+        "id": 1807,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 6
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 10
+          }
+        ],
+        "assetbundleName": "cl_0019_01"
       }
     ]
   },
@@ -8493,6 +8509,18 @@
           }
         ],
         "assetbundleName": "an_0142_02"
+      },
+      {
+        "id": 2045,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          }
+        ],
+        "assetbundleName": "an_0142_03"
       }
     ]
   },
@@ -9376,6 +9404,22 @@
           }
         ],
         "assetbundleName": "an_0154_03"
+      },
+      {
+        "id": 1808,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 1
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 15
+          }
+        ],
+        "assetbundleName": "cl_0154_01"
       }
     ]
   },
@@ -12534,6 +12578,22 @@
           }
         ],
         "assetbundleName": "an_0198_01"
+      },
+      {
+        "id": 1809,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 11
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 19
+          }
+        ],
+        "assetbundleName": "cl_0198_01"
       }
     ]
   },
@@ -12818,6 +12878,26 @@
           }
         ],
         "assetbundleName": "an_0201_04"
+      },
+      {
+        "id": 1810,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 4
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 5
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 9
+          }
+        ],
+        "assetbundleName": "cl_0201_01"
       }
     ]
   },
@@ -13329,6 +13409,22 @@
           }
         ],
         "assetbundleName": "an_0208_02"
+      },
+      {
+        "id": 1811,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 12
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 13
+          }
+        ],
+        "assetbundleName": "cl_0208_01"
       }
     ]
   },
@@ -13604,7 +13700,8 @@
       "theme_park"
     ],
     "categories": [
-      "mv"
+      "mv",
+      "mv_2d"
     ],
     "publishedAt": 1656421500000,
     "releasedAt": 1656422103000,
@@ -14708,6 +14805,26 @@
           }
         ],
         "assetbundleName": "vs_0229_01"
+      },
+      {
+        "id": 1812,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 24
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 25
+          }
+        ],
+        "assetbundleName": "cl_0229_01"
       }
     ]
   },
@@ -15748,6 +15865,22 @@
           }
         ],
         "assetbundleName": "an_0242_02"
+      },
+      {
+        "id": 1813,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 3
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 17
+          }
+        ],
+        "assetbundleName": "cl_0242_01"
       }
     ]
   },
@@ -21320,6 +21453,38 @@
           }
         ],
         "assetbundleName": "vs_0331_01"
+      },
+      {
+        "id": 1814,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 23
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 24
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 25
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 26
+          }
+        ],
+        "assetbundleName": "cl_0331_01"
       }
     ]
   },
@@ -26089,6 +26254,38 @@
           }
         ],
         "assetbundleName": "vs_0408_01"
+      },
+      {
+        "id": 1815,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 23
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 24
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 25
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 26
+          }
+        ],
+        "assetbundleName": "cl_0408_01"
       }
     ]
   },
@@ -29187,6 +29384,22 @@
           }
         ],
         "assetbundleName": "an_0458_01"
+      },
+      {
+        "id": 1816,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 8
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 18
+          }
+        ],
+        "assetbundleName": "cl_0458_01"
       }
     ]
   },
@@ -30119,7 +30332,8 @@
       "light_music_club"
     ],
     "categories": [
-      "mv"
+      "mv",
+      "mv_2d"
     ],
     "publishedAt": 1727762400000,
     "releasedAt": 1633651200000,
@@ -30996,6 +31210,18 @@
           }
         ],
         "assetbundleName": "se_0490_01"
+      },
+      {
+        "id": 1802,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 12
+          }
+        ],
+        "assetbundleName": "an_0490_01"
       }
     ]
   },
@@ -31052,6 +31278,26 @@
           }
         ],
         "assetbundleName": "se_0491_01"
+      },
+      {
+        "id": 1817,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 2
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 7
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 14
+          }
+        ],
+        "assetbundleName": "cl_0491_01"
       }
     ]
   },
@@ -31303,7 +31549,8 @@
       "idol"
     ],
     "categories": [
-      "original"
+      "original",
+      "mv_2d"
     ],
     "publishedAt": 1725861600000,
     "releasedAt": 1523664000000,
@@ -32842,6 +33089,30 @@
           }
         ],
         "assetbundleName": "se_0520_01"
+      },
+      {
+        "id": 1826,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 1
+          }
+        ],
+        "assetbundleName": "an_0520_01"
+      },
+      {
+        "id": 1827,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 2
+          }
+        ],
+        "assetbundleName": "an_0520_02"
       }
     ]
   },
@@ -33454,6 +33725,18 @@
           }
         ],
         "assetbundleName": "an_0533_01"
+      },
+      {
+        "id": 1836,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 24
+          }
+        ],
+        "assetbundleName": "an_0533_02"
       }
     ]
   },
@@ -33824,6 +34107,30 @@
           }
         ],
         "assetbundleName": "se_0539_01"
+      },
+      {
+        "id": 1840,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 7
+          }
+        ],
+        "assetbundleName": "an_0539_01"
+      },
+      {
+        "id": 1841,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 25
+          }
+        ],
+        "assetbundleName": "an_0539_02"
       }
     ]
   },
@@ -34502,6 +34809,30 @@
           }
         ],
         "assetbundleName": "se_0551_01"
+      },
+      {
+        "id": 1821,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 18
+          }
+        ],
+        "assetbundleName": "an_0551_01"
+      },
+      {
+        "id": 1822,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 19
+          }
+        ],
+        "assetbundleName": "an_0551_02"
       }
     ]
   },
@@ -35515,6 +35846,22 @@
           }
         ],
         "assetbundleName": "se_0571_01"
+      },
+      {
+        "id": 1818,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 16
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 20
+          }
+        ],
+        "assetbundleName": "cl_0571_01"
       }
     ]
   },
@@ -37271,6 +37618,18 @@
           }
         ],
         "assetbundleName": "se_0597_01"
+      },
+      {
+        "id": 2046,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 19
+          }
+        ],
+        "assetbundleName": "an_0597_01"
       }
     ]
   },
@@ -37782,10 +38141,11 @@
       "idol"
     ],
     "categories": [
-      "mv"
+      "mv",
+      "mv_2d"
     ],
     "publishedAt": 1767013500000,
-    "releasedAt": 1766966400000,
+    "releasedAt": 1780059628000,
     "originalVideoLink": null,
     "vocals": [
       {
@@ -37815,6 +38175,18 @@
           }
         ],
         "assetbundleName": "se_0610_01"
+      },
+      {
+        "id": 1842,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 6
+          }
+        ],
+        "assetbundleName": "an_0610_01"
       }
     ]
   },
@@ -38746,7 +39118,8 @@
       "school_refusal"
     ],
     "categories": [
-      "mv"
+      "mv",
+      "mv_2d"
     ],
     "publishedAt": 1768827900000,
     "releasedAt": 1768780800000,
@@ -38791,6 +39164,69 @@
           }
         ],
         "assetbundleName": "se_0630_01"
+      }
+    ]
+  },
+  {
+    "id": 631,
+    "title": "天才ロック",
+    "creators": {
+      "creatorArtistId": 91,
+      "creatorArtistName": "カラスヤサボウ",
+      "lyricist": "カラスヤサボウ",
+      "composer": "カラスヤサボウ",
+      "arranger": "カラスヤサボウ"
+    },
+    "tags": [
+      "all",
+      "theme_park"
+    ],
+    "categories": [
+      "mv"
+    ],
+    "publishedAt": 1782885600000,
+    "releasedAt": 1509753600000,
+    "originalVideoLink": "https://www.nicovideo.jp/watch/sm32214623",
+    "vocals": [
+      {
+        "id": 1188,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          }
+        ],
+        "assetbundleName": "vs_0631_01"
+      },
+      {
+        "id": 1844,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 13
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 14
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 15
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 16
+          }
+        ],
+        "assetbundleName": "se_0631_01"
       }
     ]
   },
@@ -38956,6 +39392,30 @@
           }
         ],
         "assetbundleName": "se_0634_01"
+      },
+      {
+        "id": 1803,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 9
+          }
+        ],
+        "assetbundleName": "an_0634_01"
+      },
+      {
+        "id": 1804,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "an_0634_03"
       }
     ]
   },
@@ -39043,6 +39503,18 @@
           }
         ],
         "assetbundleName": "an_0635_01"
+      },
+      {
+        "id": 1828,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 26
+          }
+        ],
+        "assetbundleName": "an_0635_02"
       }
     ]
   },
@@ -39727,6 +40199,18 @@
           }
         ],
         "assetbundleName": "se_0649_01"
+      },
+      {
+        "id": 1820,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 13
+          }
+        ],
+        "assetbundleName": "an_0649_01"
       }
     ]
   },
@@ -40098,6 +40582,30 @@
           }
         ],
         "assetbundleName": "se_0659_01"
+      },
+      {
+        "id": 1831,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 8
+          }
+        ],
+        "assetbundleName": "an_0659_01"
+      },
+      {
+        "id": 1832,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 25
+          }
+        ],
+        "assetbundleName": "an_0659_02"
       }
     ]
   },
@@ -40165,6 +40673,77 @@
           }
         ],
         "assetbundleName": "se_0660_01"
+      }
+    ]
+  },
+  {
+    "id": 661,
+    "title": "卑怯戦隊うろたんだー",
+    "creators": {
+      "creatorArtistId": 321,
+      "creatorArtistName": "シンP",
+      "lyricist": "シンP",
+      "composer": "シンP",
+      "arranger": "シンP"
+    },
+    "tags": [
+      "all",
+      "theme_park"
+    ],
+    "categories": [
+      "mv"
+    ],
+    "publishedAt": 1778479200000,
+    "releasedAt": 1196208000000,
+    "originalVideoLink": "https://www.nicovideo.jp/watch/sm1639267",
+    "vocals": [
+      {
+        "id": 1218,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 26
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 25
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0661_01"
+      },
+      {
+        "id": 1806,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 26
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 13
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 14
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 15
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 16
+          }
+        ],
+        "assetbundleName": "se_0661_01"
       }
     ]
   },
@@ -40459,6 +41038,26 @@
           }
         ],
         "assetbundleName": "vs_0667_01"
+      },
+      {
+        "id": 1819,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 23
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 26
+          }
+        ],
+        "assetbundleName": "cl_0667_01"
       }
     ]
   },
@@ -41058,7 +41657,7 @@
       "mv"
     ],
     "publishedAt": 1778072700000,
-    "releasedAt": 1778025600000,
+    "releasedAt": 1779098406000,
     "originalVideoLink": null,
     "vocals": [
       {
@@ -41104,6 +41703,89 @@
           }
         ],
         "assetbundleName": "se_0681_01"
+      }
+    ]
+  },
+  {
+    "id": 682,
+    "title": "あなたしか見えないの",
+    "creators": {
+      "creatorArtistId": 205,
+      "creatorArtistName": "r-906",
+      "lyricist": "r-906",
+      "composer": "r-906",
+      "arranger": "r-906"
+    },
+    "tags": [
+      "all",
+      "idol"
+    ],
+    "categories": [
+      "mv"
+    ],
+    "publishedAt": 1779084000000,
+    "releasedAt": 1714003200000,
+    "originalVideoLink": "https://www.youtube.com/watch?v=xv7hJ32xK94&feature=youtu.be",
+    "vocals": [
+      {
+        "id": 1239,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "outside_character",
+            "characterId": 9
+          },
+          {
+            "characterType": "outside_character",
+            "characterId": 18
+          },
+          {
+            "characterType": "outside_character",
+            "characterId": 11
+          },
+          {
+            "characterType": "outside_character",
+            "characterId": 42
+          },
+          {
+            "characterType": "outside_character",
+            "characterId": 43
+          }
+        ],
+        "assetbundleName": "vs_0682_01"
+      },
+      {
+        "id": 1823,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 24
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 5
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 6
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 7
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 8
+          }
+        ],
+        "assetbundleName": "se_0682_01"
       }
     ]
   },
@@ -41465,6 +42147,30 @@
           }
         ],
         "assetbundleName": "se_0690_01"
+      },
+      {
+        "id": 1837,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 13
+          }
+        ],
+        "assetbundleName": "an_0690_01"
+      },
+      {
+        "id": 1838,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 16
+          }
+        ],
+        "assetbundleName": "an_0690_02"
       }
     ]
   },
@@ -41951,6 +42657,18 @@
           }
         ],
         "assetbundleName": "se_0702_01"
+      },
+      {
+        "id": 1833,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 3
+          }
+        ],
+        "assetbundleName": "an_0702_01"
       }
     ]
   },
@@ -42050,6 +42768,132 @@
           }
         ],
         "assetbundleName": "vs_0704_01"
+      }
+    ]
+  },
+  {
+    "id": 705,
+    "title": "ラズベリー＊モンスター",
+    "creators": {
+      "creatorArtistId": 163,
+      "creatorArtistName": "HoneyWorks",
+      "lyricist": "Gom, shito",
+      "composer": "Gom",
+      "arranger": "HoneyWorks"
+    },
+    "tags": [
+      "all",
+      "light_music_club"
+    ],
+    "categories": [
+      "mv"
+    ],
+    "publishedAt": 1780639200000,
+    "releasedAt": 1370476800000,
+    "originalVideoLink": "https://youtu.be/P4dhSf8pEeE?si=-q1Sfm5e6EfQJWOX",
+    "vocals": [
+      {
+        "id": 1262,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0705_01"
+      },
+      {
+        "id": 1830,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 1
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 2
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 3
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 4
+          }
+        ],
+        "assetbundleName": "se_0705_01"
+      }
+    ]
+  },
+  {
+    "id": 706,
+    "title": "永遠甚だしい",
+    "creators": {
+      "creatorArtistId": 148,
+      "creatorArtistName": "獅子志司",
+      "lyricist": "獅子志司",
+      "composer": "獅子志司",
+      "arranger": "獅子志司"
+    },
+    "tags": [
+      "all",
+      "street"
+    ],
+    "categories": [
+      "mv"
+    ],
+    "publishedAt": 1781244000000,
+    "releasedAt": 1596240000000,
+    "originalVideoLink": "https://youtu.be/gjMBTMMf45w?si=ag74fWEMatHynudb",
+    "vocals": [
+      {
+        "id": 1263,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0706_01"
+      },
+      {
+        "id": 1834,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 24
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 9
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 10
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 11
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 12
+          }
+        ],
+        "assetbundleName": "se_0706_01"
       }
     ]
   },
@@ -42244,6 +43088,61 @@
           }
         ],
         "assetbundleName": "vs_0711_01"
+      }
+    ]
+  },
+  {
+    "id": 712,
+    "title": "比較症候群",
+    "creators": {
+      "creatorArtistId": 255,
+      "creatorArtistName": "葵木ゴウ",
+      "lyricist": "葵木ゴウ",
+      "composer": "葵木ゴウ",
+      "arranger": "葵木ゴウ"
+    },
+    "tags": [
+      "all",
+      "school_refusal"
+    ],
+    "categories": [
+      "image"
+    ],
+    "publishedAt": 1779429600000,
+    "releasedAt": 1591747200000,
+    "originalVideoLink": "https://x.gd/NHQMt",
+    "vocals": [
+      {
+        "id": 1269,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "outside_character",
+            "characterId": 5
+          }
+        ],
+        "assetbundleName": "vs_0712_01"
+      },
+      {
+        "id": 1824,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 26
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 17
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 19
+          }
+        ],
+        "assetbundleName": "se_0712_01"
       }
     ]
   },
@@ -42863,6 +43762,96 @@
     ]
   },
   {
+    "id": 733,
+    "title": "いますぐ輪廻",
+    "creators": {
+      "creatorArtistId": 228,
+      "creatorArtistName": "なきそ",
+      "lyricist": "なきそ",
+      "composer": "なきそ",
+      "arranger": "なきそ"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [
+      "image"
+    ],
+    "publishedAt": 1780898400000,
+    "releasedAt": 1754006400000,
+    "originalVideoLink": "https://www.youtube.com/watch?v=3iUgKH8c7p4",
+    "vocals": [
+      {
+        "id": 1290,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0733_01"
+      }
+    ]
+  },
+  {
+    "id": 734,
+    "title": "プロポーズ",
+    "creators": {
+      "creatorArtistId": 316,
+      "creatorArtistName": "内緒のピアス",
+      "lyricist": "内緒のピアス",
+      "composer": "内緒のピアス",
+      "arranger": "内緒のピアス"
+    },
+    "tags": [
+      "all",
+      "school_refusal"
+    ],
+    "categories": [
+      "image"
+    ],
+    "publishedAt": 1780293600000,
+    "releasedAt": 1688947200000,
+    "originalVideoLink": "https://youtu.be/ST_AJmY_Tcc",
+    "vocals": [
+      {
+        "id": 1291,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "outside_character",
+            "characterId": 9
+          }
+        ],
+        "assetbundleName": "vs_0734_01"
+      },
+      {
+        "id": 1829,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 24
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 18
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 20
+          }
+        ],
+        "assetbundleName": "se_0734_01"
+      }
+    ]
+  },
+  {
     "id": 735,
     "title": "傀儡のうつつ",
     "creators": {
@@ -42949,6 +43938,41 @@
     ]
   },
   {
+    "id": 738,
+    "title": "ストラタでまちあわせ",
+    "creators": {
+      "creatorArtistId": 322,
+      "creatorArtistName": "メキメキ地蔵",
+      "lyricist": "メキメキ地蔵",
+      "composer": "メキメキ地蔵",
+      "arranger": "メキメキ地蔵"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [
+      "image"
+    ],
+    "publishedAt": 1779688800000,
+    "releasedAt": 1769817600000,
+    "originalVideoLink": "https://www.youtube.com/watch?v=Gsttuf9EPSM",
+    "vocals": [
+      {
+        "id": 1295,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 24
+          }
+        ],
+        "assetbundleName": "vs_0738_01"
+      }
+    ]
+  },
+  {
     "id": 739,
     "title": "世界の歩き方",
     "creators": {
@@ -42971,7 +43995,7 @@
       "mv_2d"
     ],
     "publishedAt": 1777374900000,
-    "releasedAt": 1777334400000,
+    "releasedAt": 1777388467000,
     "originalVideoLink": null,
     "vocals": [
       {
@@ -43001,6 +44025,789 @@
           }
         ],
         "assetbundleName": "se_0739_01"
+      }
+    ]
+  },
+  {
+    "id": 740,
+    "title": "羽歌",
+    "creators": {
+      "creatorArtistId": 140,
+      "creatorArtistName": "遼遼",
+      "lyricist": "遼遼",
+      "composer": "遼遼",
+      "arranger": "遼遼"
+    },
+    "tags": [
+      "all",
+      "street"
+    ],
+    "categories": [
+      "image"
+    ],
+    "publishedAt": 1778220000000,
+    "releasedAt": 1778198400000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1297,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0740_01"
+      },
+      {
+        "id": 1805,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 9
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 26
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 10
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 11
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 12
+          }
+        ],
+        "assetbundleName": "se_0740_01"
+      }
+    ]
+  },
+  {
+    "id": 741,
+    "title": "アイ・メイカー！",
+    "creators": {
+      "creatorArtistId": 332,
+      "creatorArtistName": "マキシウキョウ",
+      "lyricist": "マキシウキョウ",
+      "composer": "マキシウキョウ",
+      "arranger": "マキシウキョウ"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [
+      "image"
+    ],
+    "publishedAt": 1783317600000,
+    "releasedAt": 1761782400000,
+    "originalVideoLink": "https://youtu.be/jMEw5D74WQg",
+    "vocals": [
+      {
+        "id": 1298,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 25
+          }
+        ],
+        "assetbundleName": "vs_0741_01"
+      }
+    ]
+  },
+  {
+    "id": 742,
+    "title": "旅に帰る",
+    "creators": {
+      "creatorArtistId": 13,
+      "creatorArtistName": "カンザキイオリ",
+      "lyricist": "カンザキイオリ",
+      "composer": "カンザキイオリ",
+      "arranger": "カンザキイオリ"
+    },
+    "tags": [
+      "all",
+      "vocaloid",
+      "light_music_club",
+      "idol",
+      "street",
+      "school_refusal",
+      "other"
+    ],
+    "categories": [
+      "mv_2d"
+    ],
+    "publishedAt": 1781781300000,
+    "releasedAt": 1781740800000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1299,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "outside_character",
+            "characterId": 24
+          }
+        ],
+        "assetbundleName": "vs_0742_01"
+      },
+      {
+        "id": 1835,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 3
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 8
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 9
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 18
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 24
+          }
+        ],
+        "assetbundleName": "se_0742_01"
+      }
+    ]
+  },
+  {
+    "id": 743,
+    "title": "ドリーマーズビート",
+    "creators": {
+      "creatorArtistId": 48,
+      "creatorArtistName": "40mP",
+      "lyricist": "40mP",
+      "composer": "40mP",
+      "arranger": "40mP"
+    },
+    "tags": [
+      "all",
+      "vocaloid",
+      "light_music_club",
+      "idol",
+      "street",
+      "theme_park",
+      "other"
+    ],
+    "categories": [
+      "mv_2d"
+    ],
+    "publishedAt": 1780053300000,
+    "releasedAt": 1780055114000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1300,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0743_01"
+      },
+      {
+        "id": 1825,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 4
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 5
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 10
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 13
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 23
+          }
+        ],
+        "assetbundleName": "se_0743_01"
+      }
+    ]
+  },
+  {
+    "id": 744,
+    "title": "CHAOS",
+    "creators": {
+      "creatorArtistId": 323,
+      "creatorArtistName": "Æsir",
+      "lyricist": "-",
+      "composer": "Æsir",
+      "arranger": "KIVΛ"
+    },
+    "tags": [
+      "all",
+      "other"
+    ],
+    "categories": [
+      "image"
+    ],
+    "publishedAt": 1782108000000,
+    "releasedAt": 1516233600000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1301,
+        "musicVocalType": "instrumental",
+        "caption": "Inst.ver.",
+        "characters": [],
+        "assetbundleName": "in_0744_01"
+      }
+    ]
+  },
+  {
+    "id": 745,
+    "title": "ANiMA",
+    "creators": {
+      "creatorArtistId": 324,
+      "creatorArtistName": "xi",
+      "lyricist": "-",
+      "composer": "xi",
+      "arranger": "xi"
+    },
+    "tags": [
+      "all",
+      "other"
+    ],
+    "categories": [
+      "image"
+    ],
+    "publishedAt": 1782367200000,
+    "releasedAt": 1432684800000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1302,
+        "musicVocalType": "instrumental",
+        "caption": "Inst.ver.",
+        "characters": [],
+        "assetbundleName": "in_0745_01"
+      }
+    ]
+  },
+  {
+    "id": 746,
+    "title": "Masquerade",
+    "creators": {
+      "creatorArtistId": 325,
+      "creatorArtistName": "M2U",
+      "lyricist": "-",
+      "composer": "M2U",
+      "arranger": "M2U"
+    },
+    "tags": [
+      "all",
+      "other"
+    ],
+    "categories": [
+      "image"
+    ],
+    "publishedAt": 1782453600000,
+    "releasedAt": 1376438400000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1303,
+        "musicVocalType": "instrumental",
+        "caption": "Inst.ver.",
+        "characters": [],
+        "assetbundleName": "in_0746_01"
+      }
+    ]
+  },
+  {
+    "id": 747,
+    "title": "SAIRAI",
+    "creators": {
+      "creatorArtistId": 326,
+      "creatorArtistName": "Shinichi Kobayashi",
+      "lyricist": "-",
+      "composer": "Shinichi Kobayashi",
+      "arranger": "Yoshikatsu Fukuhara"
+    },
+    "tags": [
+      "all",
+      "other"
+    ],
+    "categories": [
+      "image"
+    ],
+    "publishedAt": 1782021600000,
+    "releasedAt": 1390780800000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1304,
+        "musicVocalType": "instrumental",
+        "caption": "Inst.ver.",
+        "characters": [],
+        "assetbundleName": "in_0747_01"
+      }
+    ]
+  },
+  {
+    "id": 748,
+    "title": "Saika",
+    "creators": {
+      "creatorArtistId": 327,
+      "creatorArtistName": "RABPIT",
+      "lyricist": "-",
+      "composer": "RABPIT",
+      "arranger": "RABPIT"
+    },
+    "tags": [
+      "all",
+      "other"
+    ],
+    "categories": [
+      "image"
+    ],
+    "publishedAt": 1782194400000,
+    "releasedAt": 1384300800000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1305,
+        "musicVocalType": "instrumental",
+        "caption": "Inst.ver.",
+        "characters": [],
+        "assetbundleName": "in_0748_01"
+      }
+    ]
+  },
+  {
+    "id": 749,
+    "title": "99 Glooms",
+    "creators": {
+      "creatorArtistId": 328,
+      "creatorArtistName": "Sta",
+      "lyricist": "-",
+      "composer": "Sta",
+      "arranger": "Sta"
+    },
+    "tags": [
+      "all",
+      "other"
+    ],
+    "categories": [
+      "image"
+    ],
+    "publishedAt": 1782280800000,
+    "releasedAt": 1547251200000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1306,
+        "musicVocalType": "instrumental",
+        "caption": "Inst.ver.",
+        "characters": [],
+        "assetbundleName": "in_0749_01"
+      }
+    ]
+  },
+  {
+    "id": 754,
+    "title": "光",
+    "creators": {
+      "creatorArtistId": 149,
+      "creatorArtistName": "水野あつ",
+      "lyricist": "水野あつ",
+      "composer": "水野あつ",
+      "arranger": "小島英也"
+    },
+    "tags": [
+      "all",
+      "school_refusal"
+    ],
+    "categories": [
+      "mv_2d"
+    ],
+    "publishedAt": 1783576800000,
+    "releasedAt": 1783555200000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1311,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0754_01"
+      },
+      {
+        "id": 2047,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 19
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 25
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 17
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 18
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 20
+          }
+        ],
+        "assetbundleName": "se_0754_01"
+      }
+    ]
+  },
+  {
+    "id": 755,
+    "title": "初音狂奏曲第01番「彗惺」",
+    "creators": {
+      "creatorArtistId": 330,
+      "creatorArtistName": "よみぃ",
+      "lyricist": "湊貴大(流星P)",
+      "composer": "よみぃ",
+      "arranger": "よみぃ"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [
+      "image"
+    ],
+    "publishedAt": 1780984800000,
+    "releasedAt": 1772150400000,
+    "originalVideoLink": "https://youtu.be/jro_ogZGNus?si=il6PkX8Y5cvj6UZX",
+    "vocals": [
+      {
+        "id": 1312,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0755_01"
+      }
+    ]
+  },
+  {
+    "id": 756,
+    "title": "Gimme more!",
+    "creators": {
+      "creatorArtistId": 180,
+      "creatorArtistName": "めろくる",
+      "lyricist": "めろくる",
+      "composer": "めろくる",
+      "arranger": "めろくる"
+    },
+    "tags": [
+      "all",
+      "idol"
+    ],
+    "categories": [
+      "mv_2d"
+    ],
+    "publishedAt": 1782799200000,
+    "releasedAt": 1783427406000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1313,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 24
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 25
+          }
+        ],
+        "assetbundleName": "vs_0756_01"
+      },
+      {
+        "id": 1843,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 5
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 6
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 7
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 8
+          }
+        ],
+        "assetbundleName": "se_0756_01"
+      }
+    ]
+  },
+  {
+    "id": 757,
+    "title": "ひかりのあつめかた",
+    "creators": {
+      "creatorArtistId": 331,
+      "creatorArtistName": "まかろり",
+      "lyricist": "まかろり",
+      "composer": "まかろり",
+      "arranger": "まかろり"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [
+      "image"
+    ],
+    "publishedAt": 1781503200000,
+    "releasedAt": 1771545600000,
+    "originalVideoLink": "https://youtu.be/FEgM1c9IXrE?si=4Wm5M27J-COshKz5",
+    "vocals": [
+      {
+        "id": 1314,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0757_01"
+      }
+    ]
+  },
+  {
+    "id": 758,
+    "title": "ラプス",
+    "creators": {
+      "creatorArtistId": 336,
+      "creatorArtistName": "kr-KuuRa",
+      "lyricist": "kr-KuuRa",
+      "composer": "kr-KuuRa",
+      "arranger": "kr-KuuRa"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [
+      "image"
+    ],
+    "publishedAt": 1784268000000,
+    "releasedAt": 1771545600000,
+    "originalVideoLink": "https://youtu.be/v0JcLyWZxXc?si=saGvO-BnPCpnQyBr",
+    "vocals": [
+      {
+        "id": 1315,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0758_01"
+      }
+    ]
+  },
+  {
+    "id": 759,
+    "title": "ハナタバ",
+    "creators": {
+      "creatorArtistId": 89,
+      "creatorArtistName": "MIMI",
+      "lyricist": "MIMI",
+      "composer": "MIMI",
+      "arranger": "MIMI"
+    },
+    "tags": [
+      "all",
+      "street"
+    ],
+    "categories": [
+      "image"
+    ],
+    "publishedAt": 1783922400000,
+    "releasedAt": 1668816000000,
+    "originalVideoLink": "https://youtu.be/7xht3kQO_TM?si=E185TMEBD2vuXLSg",
+    "vocals": [
+      {
+        "id": 1316,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "outside_character",
+            "characterId": 9
+          }
+        ],
+        "assetbundleName": "vs_0759_01"
+      },
+      {
+        "id": 2048,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 25
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 9
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 10
+          }
+        ],
+        "assetbundleName": "se_0759_01"
+      }
+    ]
+  },
+  {
+    "id": 760,
+    "title": "オールイン・ワン",
+    "creators": {
+      "creatorArtistId": 36,
+      "creatorArtistName": "和田たけあき",
+      "lyricist": "和田たけあき",
+      "composer": "和田たけあき",
+      "arranger": "和田たけあき"
+    },
+    "tags": [
+      "all",
+      "theme_park"
+    ],
+    "categories": [
+      "mv_2d"
+    ],
+    "publishedAt": 1781935200000,
+    "releasedAt": 1782653493000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1317,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "outside_character",
+            "characterId": 24
+          }
+        ],
+        "assetbundleName": "vs_0760_01"
+      },
+      {
+        "id": 1839,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 13
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 23
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 14
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 15
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 16
+          }
+        ],
+        "assetbundleName": "se_0760_01"
       }
     ]
   }

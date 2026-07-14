@@ -283,11 +283,14 @@
 
     .search-bar {
       position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 8px;
     }
 
     .search-bar input {
       width: 100%;
-      padding: 15px 16px 15px 42px;
+      padding: 22px 42px 9px;
       background: var(--bg-card);
       border: 1px solid var(--border);
       border-radius: 16px;
@@ -309,11 +312,48 @@
     .search-bar .search-icon {
       position: absolute;
       left: 16px;
-      top: 50%;
+      top: 58%;
       transform: translateY(-50%);
       color: var(--text-muted);
       font-size: 14px;
     }
+
+    .search-label {
+      position: absolute;
+      z-index: 1;
+      left: 42px;
+      top: 6px;
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--accent-blue);
+      letter-spacing: 0.5px;
+    }
+
+    .clear-button, .sidebar-clear {
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      border-radius: 12px;
+      padding: 0 14px;
+      font: inherit;
+      cursor: pointer;
+    }
+
+    .clear-button:hover, .sidebar-clear:hover { border-color: var(--accent-blue); color: var(--accent-blue); }
+    .clear-button:disabled { opacity: 0.45; cursor: default; }
+
+    .filter-summary {
+      display: none;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+
+    .filter-summary.visible { display: flex; }
+    .filter-chip { padding: 4px 8px; border-radius: 999px; background: #eef5ff; color: var(--accent-blue); }
+    .sidebar-clear { width: 100%; min-height: 34px; margin-bottom: 14px; }
 
     .results-info {
       font-size: 12px;
@@ -534,8 +574,18 @@
       user-select: none;
     }
 
-    .list-header span { cursor: pointer; }
-    .list-header span:hover { color: var(--text-secondary); }
+    .sort-button {
+      padding: 0;
+      border: 0;
+      background: transparent;
+      color: inherit;
+      font: inherit;
+      text-transform: inherit;
+      letter-spacing: inherit;
+      text-align: inherit;
+      cursor: pointer;
+    }
+    .sort-button:hover, .sort-button:focus-visible { color: var(--text-secondary); }
     .sort-indicator { font-size: 10px; }
 
     .loading {
@@ -661,16 +711,19 @@
       <div class="header-nav">
         <a class="nav-link" href="index.html">🎵 歌曲列表</a>
         <a class="nav-link active" href="video_viewer.html">📺 视频列表</a>
+        <a class="nav-link" href="editor.html">🛠️ 编辑工具</a>
       </div>
       <div class="stats-bar">
         <div class="stat">视频 <span class="stat-num" id="stat-total">-</span></div>
         <div class="stat">已筛选 <span class="stat-num" id="stat-filtered">-</span></div>
+        <div class="stat">待关联 <span class="stat-num" id="stat-unmatched">-</span></div>
       </div>
     </div>
   </header>
 
   <div class="app">
     <aside class="sidebar" id="sidebar">
+      <button class="sidebar-clear" id="clear-filters-btn" type="button">清空筛选</button>
       <h3>团队 / 标签</h3>
       <div class="filter-group" id="tag-filters"></div>
       <h3>视频类型</h3>
@@ -683,18 +736,21 @@
 
     <main class="main">
       <div class="search-bar">
+        <label class="search-label" for="search-input">搜索视频</label>
         <span class="search-icon">🔍</span>
         <input type="text" id="search-input" placeholder="搜索视频标题、歌曲名、Staff、频道..." autocomplete="off">
+        <button class="clear-button" id="clear-search-btn" type="button" disabled>清空</button>
       </div>
+      <div class="filter-summary" id="filter-summary" aria-live="polite"></div>
       <div class="results-info" id="results-info"></div>
       <section class="table-shell">
         <div class="list-header">
-          <span data-sort="type">类型 <span class="sort-indicator" id="sort-type"></span></span>
-          <span data-sort="title">视频标题 <span class="sort-indicator" id="sort-title"></span></span>
-          <span data-sort="version">版本 <span class="sort-indicator" id="sort-version"></span></span>
-          <span data-sort="channelTitle">频道 <span class="sort-indicator" id="sort-channelTitle"></span></span>
-          <span data-sort="viewCount" style="text-align:right">播放量 <span class="sort-indicator" id="sort-viewCount"></span></span>
-          <span data-sort="uploadDate" style="text-align:right">上传时间 <span class="sort-indicator" id="sort-uploadDate">▼</span></span>
+          <span role="columnheader"><button class="sort-button" data-sort="type">类型 <span class="sort-indicator" id="sort-type"></span></button></span>
+          <span role="columnheader"><button class="sort-button" data-sort="title">视频标题 <span class="sort-indicator" id="sort-title"></span></button></span>
+          <span role="columnheader"><button class="sort-button" data-sort="version">版本 <span class="sort-indicator" id="sort-version"></span></button></span>
+          <span role="columnheader"><button class="sort-button" data-sort="channelTitle">频道 <span class="sort-indicator" id="sort-channelTitle"></span></button></span>
+          <span role="columnheader" style="text-align:right"><button class="sort-button" data-sort="viewCount">播放量 <span class="sort-indicator" id="sort-viewCount"></span></button></span>
+          <span role="columnheader" aria-sort="descending" style="text-align:right"><button class="sort-button" data-sort="uploadDate">上传时间 <span class="sort-indicator" id="sort-uploadDate">▼</span></button></span>
           <span></span>
         </div>
         <div id="video-list" class="video-list">
@@ -730,6 +786,7 @@
     const PAGE_SIZE = 50;
     let visibleCount = PAGE_SIZE;
     let songMap = {};
+    let unmatchedVideoCount = 0;
 
     const TAG_CONFIG = {
       light_music_club: { label: 'Leo/need', color: '#4dabf7' },
@@ -878,11 +935,11 @@
       const typeClass = v.type === 'original_mv' ? 'vt-original' : 'vt-official';
       const verLabel = getVersionLabel(v.version);
 
-      return `<div class="video-row" data-uid="${v._uid}">
+      return `<div class="video-row" data-uid="${v._uid}" role="button" tabindex="0" aria-expanded="false" aria-label="展开视频 ${esc(v.title)} 的详情">
         <span class="video-type-col"><span class="video-type-badge ${typeClass}">${typeLabel}</span></span>
         <div class="video-title-col">
           <div class="video-title">${esc(v.title)}</div>
-          <div class="video-song-name">${esc(v.songTitle || '-')}</div>
+          <div class="video-song-name">${esc(v.songTitle || '-')}${v.isUnmatched ? ' · <span class="filter-chip">待关联</span>' : ''}</div>
         </div>
         <span class="video-version-col">${esc(verLabel || '-')}</span>
         <span class="video-channel-col" title="${esc(v.channelTitle || '')}">${esc(v.channelTitle || '-')}</span>
@@ -926,30 +983,68 @@
       }
     }
 
-    function bindListClick(container) {
-      container.onclick = (e) => {
-        const row = e.target.closest('.video-row');
-        if (!row) return;
+    function toggleVideoRow(row, container) {
         const uid = row.dataset.uid;
 
         if (expandedId === uid) {
           expandedId = null;
           row.classList.remove('expanded');
+          row.setAttribute('aria-expanded', 'false');
           const detail = document.getElementById(`detail-${uid}`);
           if (detail) detail.remove();
         } else {
           if (expandedId !== null) {
             const prevRow = container.querySelector(`.video-row[data-uid="${expandedId}"]`);
-            if (prevRow) prevRow.classList.remove('expanded');
+            if (prevRow) {
+              prevRow.classList.remove('expanded');
+              prevRow.setAttribute('aria-expanded', 'false');
+            }
             const prevDetail = document.getElementById(`detail-${expandedId}`);
             if (prevDetail) prevDetail.remove();
           }
           expandedId = uid;
           row.classList.add('expanded');
+          row.setAttribute('aria-expanded', 'true');
           const v = allVideos.find(x => x._uid === uid);
           if (v) row.insertAdjacentHTML('afterend', buildVideoDetailHtml(v));
         }
+    }
+
+    function bindListClick(container) {
+      container.onclick = (e) => {
+        const row = e.target.closest('.video-row');
+        if (row) toggleVideoRow(row, container);
       };
+      container.onkeydown = (e) => {
+        if (e.key !== 'Enter' && e.key !== ' ') return;
+        const row = e.target.closest('.video-row');
+        if (!row) return;
+        e.preventDefault();
+        toggleVideoRow(row, container);
+      };
+    }
+
+    function clearAllFilters() {
+      Object.values(activeFilters).forEach(set => set.clear());
+      renderFilters();
+      applyFilters();
+    }
+
+    function updateFilterSummary(q) {
+      const summary = document.getElementById('filter-summary');
+      const labels = [];
+      if (q) labels.push(`搜索：${q}`);
+      Object.entries(activeFilters).forEach(([group, values]) => {
+        values.forEach(value => {
+          const label = TAG_CONFIG[value]?.label || VIDEO_TYPE_CONFIG[value]?.label || VIDEO_VERSION_CONFIG[value]?.label || value;
+          labels.push(label);
+        });
+      });
+      summary.innerHTML = labels.length
+        ? `<strong>当前条件</strong>${labels.map(label => `<span class="filter-chip">${esc(label)}</span>`).join('')}`
+        : '';
+      summary.classList.toggle('visible', labels.length > 0);
+      document.getElementById('clear-search-btn').disabled = !q;
     }
 
     function renderFilters() {
@@ -1008,10 +1103,11 @@
 
     function applyFilters() {
       const q = document.getElementById('search-input').value.toLowerCase().trim();
+      updateFilterSummary(q);
       filteredVideos = allVideos.filter(v => {
         if (q) {
           const staff = v.staff || {};
-          const allContributors = staff.allContributors || [];
+          const allContributors = staff.allContributors || staff.contributors || [];
           const staffNames = [
             ...(staff.illustrators || []),
             ...(staff.pvCreators || []),
@@ -1053,7 +1149,8 @@
       });
 
       document.getElementById('stat-filtered').textContent = filteredVideos.length;
-      document.getElementById('results-info').textContent = `显示 ${filteredVideos.length} / ${allVideos.length} 个视频`;
+      document.getElementById('results-info').textContent =
+        `显示 ${filteredVideos.length} / ${allVideos.length} 个视频 · 待关联 ${unmatchedVideoCount}`;
       expandedId = null;
       visibleCount = PAGE_SIZE;
       renderVideoList();
@@ -1089,46 +1186,80 @@
       return true;
     }
 
+    function normalizeSongTitle(value) {
+      return String(value || '')
+        .normalize('NFKC')
+        .toLocaleLowerCase('ja')
+        .replace(/[\s・･·:：!！?？'"“”‘’()（）\[\]【】「」『』\-‐‑‒–—―_/／\\]/g, '');
+    }
+
+    function buildFallbackSongContext(dbSong) {
+      const unitTags = {
+        'Leo/need': 'light_music_club',
+        'MORE MORE JUMP!': 'idol',
+        'Vivid BAD SQUAD': 'street',
+        'ワンダショ': 'theme_park',
+        'Wonderlands×Showtime': 'theme_park',
+        '25時、ナイトコードで。': 'school_refusal',
+        'Virtual Singer': 'vocaloid',
+      };
+      const tags = (dbSong.classification?.units || []).map(unit => unitTags[unit]).filter(Boolean);
+      return {
+        id: dbSong.sekaiMusicId || dbSong.id,
+        title: dbSong.title,
+        tags: tags.length ? tags : ['other'],
+        categories: dbSong.classification?.mvType ? [dbSong.classification.mvType] : [],
+        creators: dbSong.creators || null,
+      };
+    }
+
     async function init() {
       if (handleFileProtocolAccess()) return;
 
       try {
         const [baseResp, dbResp] = await Promise.all([
-          fetch('output/combined_music_data.json'),
-          fetch('output/database_v2.json').catch(() => null),
+          fetch('output/combined_music_data.json', { cache: 'no-store' }),
+          fetch('output/database_v2.json', { cache: 'no-store' }).catch(() => null),
         ]);
         const baseSongs = await baseResp.json();
         let databaseV2 = null;
         if (dbResp && dbResp.ok) databaseV2 = await dbResp.json();
+        if (!databaseV2) throw new Error('database_v2.json 不可用，无法保证视频列表完整性');
 
-        // Build song lookup from database_v2
-        const dbSongMap = new Map();
-        (databaseV2?.songs || []).forEach(song => {
-          dbSongMap.set(song.title, song);
+        const baseById = new Map(baseSongs.map(song => [Number(song.id), song]));
+        const baseByTitle = new Map();
+        baseSongs.forEach(song => {
+          const key = normalizeSongTitle(song.title);
+          if (key && !baseByTitle.has(key)) baseByTitle.set(key, song);
+          songMap[song.title] = song;
         });
 
-        // Flatten videos
+        // database_v2 is the video source of truth. Base data only enriches rows.
         let uidCounter = 0;
         allVideos = [];
+        unmatchedVideoCount = 0;
 
-        baseSongs.forEach(song => {
-          songMap[song.title] = song;
-          const dbSong = dbSongMap.get(song.title);
-          const videos = dbSong?.videos || [];
-          videos.forEach(video => {
+        (databaseV2?.songs || []).forEach(dbSong => {
+          const matchedSong = baseById.get(Number(dbSong.sekaiMusicId)) || baseByTitle.get(normalizeSongTitle(dbSong.title));
+          const song = matchedSong || buildFallbackSongContext(dbSong);
+          songMap[dbSong.title] = song;
+          (dbSong.videos || []).forEach(video => {
+            if (!matchedSong) unmatchedVideoCount += 1;
             allVideos.push({
               ...video,
               _uid: String(uidCounter++),
               songId: song.id,
-              songTitle: song.title,
+              songTitle: dbSong.title,
               songTags: song.tags || [],
               songCategories: song.categories || [],
               songCreators: song.creators || null,
+              isUnmatched: !matchedSong,
             });
           });
         });
 
         document.getElementById('stat-total').textContent = allVideos.length;
+        document.getElementById('stat-unmatched').textContent = unmatchedVideoCount;
         filteredVideos = [...allVideos];
         renderFilters();
         applyFilters();
@@ -1145,8 +1276,14 @@
         clearTimeout(timer);
         timer = setTimeout(applyFilters, 200);
       });
+      document.getElementById('clear-search-btn').addEventListener('click', () => {
+        document.getElementById('search-input').value = '';
+        applyFilters();
+        document.getElementById('search-input').focus();
+      });
+      document.getElementById('clear-filters-btn').addEventListener('click', clearAllFilters);
 
-      document.querySelectorAll('.list-header span[data-sort]').forEach(el => {
+      document.querySelectorAll('.sort-button[data-sort]').forEach(el => {
         el.addEventListener('click', () => {
           const f = el.dataset.sort;
           if (sortField === f) sortAsc = !sortAsc;
@@ -1154,6 +1291,8 @@
           document.querySelectorAll('.sort-indicator').forEach(si => si.textContent = '');
           const ind = document.getElementById(`sort-${f}`);
           if (ind) ind.textContent = sortAsc ? '▲' : '▼';
+          document.querySelectorAll('.list-header [role="columnheader"]').forEach(header => header.removeAttribute('aria-sort'));
+          el.closest('[role="columnheader"]')?.setAttribute('aria-sort', sortAsc ? 'ascending' : 'descending');
           applyFilters();
         });
       });

@@ -198,6 +198,7 @@ def regenerate_data():
         ('combine_music_data.py', '生成 combined_music_data.json'),
         ('build_musics_base.py', '生成 musics_base.json'),
         ('build_database.py', '生成 database_v2.json 并同步 aliases.json'),
+        ('validate_data.py', '校验 database_v2.json'),
     ]
 
     for script_name, description in steps:
@@ -256,8 +257,15 @@ def normalize_playlist_videos(videos):
             {
                 'videoId': video.get('videoId'),
                 'title': video.get('title'),
+                'description': video.get('description'),
+                'channelTitle': video.get('channelTitle'),
+                'channelId': video.get('channelId'),
                 'publishedAt': video.get('publishedAt'),
+                'thumbnails': video.get('thumbnails'),
                 'position': video.get('position'),
+                'duration': video.get('duration'),
+                'viewCount': video.get('viewCount'),
+                'likeCount': video.get('likeCount'),
             }
         )
     return normalized
@@ -297,6 +305,7 @@ def build_source_snapshot_payload(source, fetcher, videos):
     return {
         'metadata': {
             'fetchedAt': datetime.now().isoformat(),
+            'status': 'complete',
             'totalVideos': len(enriched_videos),
             'fetchMethod': 'API' if getattr(fetcher, 'api_key', None) else 'yt-dlp',
             'sourceKey': source['key'],

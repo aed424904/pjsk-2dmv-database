@@ -95,6 +95,42 @@
       line-height: 1.5;
     }
 
+    .header-nav {
+      margin-left: auto;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .nav-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 16px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      font-size: 13px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+
+    .nav-link:hover {
+      border-color: var(--accent-blue);
+      color: var(--accent-blue);
+      background: #f8fbff;
+    }
+
+    .nav-link.active {
+      background: rgba(22, 104, 220, 0.06);
+      border-color: rgba(22, 104, 220, 0.28);
+      color: var(--accent-blue);
+      font-weight: 600;
+    }
+
     .stats-bar {
       display: flex;
       gap: 10px;
@@ -671,6 +707,10 @@
         <div class="header-kicker">Manual Video Intake</div>
         <h1>手动视频补录台</h1>
         <div class="header-subtitle">为未进入官方播放列表的视频生成 `manual_data/manual_videos.json`，也可为已存在视频维护 `manual_data/original_video_overrides.json`，重新构建后会自动并入主站数据库。</div>
+      </div>
+      <div class="header-nav">
+        <a class="nav-link" href="index.html">🎵 歌曲列表</a>
+        <a class="nav-link" href="video_viewer.html">📺 视频列表</a>
       </div>
       <div class="stats-bar">
         <div class="stat">草稿视频 <span class="stat-num" id="stat-videos">0</span></div>

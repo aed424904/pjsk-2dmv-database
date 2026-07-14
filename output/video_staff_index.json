@@ -1,5 +1,356 @@
 [
   {
+    "songId": "song_Gimme more!",
+    "songTitle": "Gimme more!",
+    "videoId": "7bC8xdanmiY",
+    "videoTitle": "Gimme more! / MORE MORE JUMP！ × 初音ミク",
+    "name": "サコ",
+    "role": "illustrator",
+    "roleRaw": "イラスト"
+  },
+  {
+    "songId": "song_Gimme more!",
+    "songTitle": "Gimme more!",
+    "videoId": "7bC8xdanmiY",
+    "videoTitle": "Gimme more! / MORE MORE JUMP！ × 初音ミク",
+    "name": "Cube(Hifumi",
+    "role": "pvCreator",
+    "roleRaw": "動画"
+  },
+  {
+    "songId": "song_Gimme more!",
+    "songTitle": "Gimme more!",
+    "videoId": "7bC8xdanmiY",
+    "videoTitle": "Gimme more! / MORE MORE JUMP！ × 初音ミク",
+    "name": "inc.)",
+    "role": "pvCreator",
+    "roleRaw": "動画"
+  },
+  {
+    "songId": "song_Gimme more!",
+    "songTitle": "Gimme more!",
+    "videoId": "p1BHscS8O5w",
+    "videoTitle": "Gimme more! / めろくる feat.初音ミク, 鏡音リン, 巡音ルカ, MEIKO",
+    "name": "めろくる",
+    "role": "unknown",
+    "roleRaw": "音楽"
+  },
+  {
+    "songId": "song_Gimme more!",
+    "songTitle": "Gimme more!",
+    "videoId": "p1BHscS8O5w",
+    "videoTitle": "Gimme more! / めろくる feat.初音ミク, 鏡音リン, 巡音ルカ, MEIKO",
+    "name": "Mellowcle",
+    "role": "unknown",
+    "roleRaw": "音楽"
+  },
+  {
+    "songId": "song_Gimme more!",
+    "songTitle": "Gimme more!",
+    "videoId": "p1BHscS8O5w",
+    "videoTitle": "Gimme more! / めろくる feat.初音ミク, 鏡音リン, 巡音ルカ, MEIKO",
+    "name": "杜本",
+    "role": "unknown",
+    "roleRaw": "キャラクターイラスト"
+  },
+  {
+    "songId": "song_Gimme more!",
+    "songTitle": "Gimme more!",
+    "videoId": "p1BHscS8O5w",
+    "videoTitle": "Gimme more! / めろくる feat.初音ミク, 鏡音リン, 巡音ルカ, MEIKO",
+    "name": "ひみつ",
+    "role": "design",
+    "roleRaw": "背景"
+  },
+  {
+    "songId": "song_Gimme more!",
+    "songTitle": "Gimme more!",
+    "videoId": "p1BHscS8O5w",
+    "videoTitle": "Gimme more! / めろくる feat.初音ミク, 鏡音リン, 巡音ルカ, MEIKO",
+    "name": "ひみつ",
+    "role": "unknown",
+    "roleRaw": "小物イラスト"
+  },
+  {
+    "songId": "song_Gimme more!",
+    "songTitle": "Gimme more!",
+    "videoId": "p1BHscS8O5w",
+    "videoTitle": "Gimme more! / めろくる feat.初音ミク, 鏡音リン, 巡音ルカ, MEIKO",
+    "name": "aco",
+    "role": "pvCreator",
+    "roleRaw": "動画"
+  },
+  {
+    "songId": "song_Gimme more!",
+    "songTitle": "Gimme more!",
+    "videoId": "p1BHscS8O5w",
+    "videoTitle": "Gimme more! / めろくる feat.初音ミク, 鏡音リン, 巡音ルカ, MEIKO",
+    "name": "mill!on",
+    "role": "design",
+    "roleRaw": "ロゴ"
+  },
+  {
+    "songId": "song_Gimme more!",
+    "songTitle": "Gimme more!",
+    "videoId": "p1BHscS8O5w",
+    "videoTitle": "Gimme more! / めろくる feat.初音ミク, 鏡音リン, 巡音ルカ, MEIKO",
+    "name": "mill!on",
+    "role": "unknown",
+    "roleRaw": "作字"
+  },
+  {
+    "songId": "song_Gimme more!",
+    "songTitle": "Gimme more!",
+    "videoId": "p1BHscS8O5w",
+    "videoTitle": "Gimme more! / めろくる feat.初音ミク, 鏡音リン, 巡音ルカ, MEIKO",
+    "name": "C'Na",
+    "role": "unknown",
+    "roleRaw": "ギター"
+  },
+  {
+    "songId": "song_Gimme more!",
+    "songTitle": "Gimme more!",
+    "videoId": "p1BHscS8O5w",
+    "videoTitle": "Gimme more! / めろくる feat.初音ミク, 鏡音リン, 巡音ルカ, MEIKO",
+    "name": "福井昌彦",
+    "role": "unknown",
+    "roleRaw": "MIX"
+  },
+  {
+    "songId": "song_オールイン・ワン",
+    "songTitle": "オールイン・ワン",
+    "videoId": "erMpHZQVcF8",
+    "videoTitle": "オールイン・ワン / ワンダーランズ×ショウタイム × 鏡音レン",
+    "name": "へいわ",
+    "role": "illustrator",
+    "roleRaw": "イラスト"
+  },
+  {
+    "songId": "song_オールイン・ワン",
+    "songTitle": "オールイン・ワン",
+    "videoId": "erMpHZQVcF8",
+    "videoTitle": "オールイン・ワン / ワンダーランズ×ショウタイム × 鏡音レン",
+    "name": "omu",
+    "role": "pvCreator",
+    "roleRaw": "動画"
+  },
+  {
+    "songId": "song_旅に帰る",
+    "songTitle": "旅に帰る",
+    "videoId": "SGwB23JvKjc",
+    "videoTitle": "旅に帰る / 望月穂波 × 日野森雫 × 小豆沢こはね × 朝比奈まふゆ × 巡音ルカ",
+    "name": "kouko",
+    "role": "unknown",
+    "roleRaw": "General Director"
+  },
+  {
+    "songId": "song_旅に帰る",
+    "songTitle": "旅に帰る",
+    "videoId": "SGwB23JvKjc",
+    "videoTitle": "旅に帰る / 望月穂波 × 日野森雫 × 小豆沢こはね × 朝比奈まふゆ × 巡音ルカ",
+    "name": "Youmi (Karure)",
+    "role": "pvCreator",
+    "roleRaw": "Director"
+  },
+  {
+    "songId": "song_旅に帰る",
+    "songTitle": "旅に帰る",
+    "videoId": "SGwB23JvKjc",
+    "videoTitle": "旅に帰る / 望月穂波 × 日野森雫 × 小豆沢こはね × 朝比奈まふゆ × 巡音ルカ",
+    "name": "らふれしあ (Karure)",
+    "role": "unknown",
+    "roleRaw": "Co-Director"
+  },
+  {
+    "songId": "song_旅に帰る",
+    "songTitle": "旅に帰る",
+    "videoId": "SGwB23JvKjc",
+    "videoTitle": "旅に帰る / 望月穂波 × 日野森雫 × 小豆沢こはね × 朝比奈まふゆ × 巡音ルカ",
+    "name": "秋 (Karure)",
+    "role": "unknown",
+    "roleRaw": "Graphic Design"
+  },
+  {
+    "songId": "song_旅に帰る",
+    "songTitle": "旅に帰る",
+    "videoId": "SGwB23JvKjc",
+    "videoTitle": "旅に帰る / 望月穂波 × 日野森雫 × 小豆沢こはね × 朝比奈まふゆ × 巡音ルカ",
+    "name": "Sabiasagi (Karure)",
+    "role": "cg3d",
+    "roleRaw": "3DCG"
+  },
+  {
+    "songId": "song_旅に帰る",
+    "songTitle": "旅に帰る",
+    "videoId": "SGwB23JvKjc",
+    "videoTitle": "旅に帰る / 望月穂波 × 日野森雫 × 小豆沢こはね × 朝比奈まふゆ × 巡音ルカ",
+    "name": "はるきち",
+    "role": "unknown",
+    "roleRaw": "Shooting Cooperation"
+  },
+  {
+    "songId": "song_旅に帰る",
+    "songTitle": "旅に帰る",
+    "videoId": "SGwB23JvKjc",
+    "videoTitle": "旅に帰る / 望月穂波 × 日野森雫 × 小豆沢こはね × 朝比奈まふゆ × 巡音ルカ",
+    "name": "黒衣 (Karure)",
+    "role": "unknown",
+    "roleRaw": "Shooting Cooperation"
+  },
+  {
+    "songId": "song_旅に帰る",
+    "songTitle": "旅に帰る",
+    "videoId": "SGwB23JvKjc",
+    "videoTitle": "旅に帰る / 望月穂波 × 日野森雫 × 小豆沢こはね × 朝比奈まふゆ × 巡音ルカ",
+    "name": "Okan (Karure)",
+    "role": "unknown",
+    "roleRaw": "Shooting Cooperation"
+  },
+  {
+    "songId": "song_旅に帰る",
+    "songTitle": "旅に帰る",
+    "videoId": "SGwB23JvKjc",
+    "videoTitle": "旅に帰る / 望月穂波 × 日野森雫 × 小豆沢こはね × 朝比奈まふゆ × 巡音ルカ",
+    "name": "じゃがさん",
+    "role": "unknown",
+    "roleRaw": "Shooting Cooperation"
+  },
+  {
+    "songId": "song_旅に帰る",
+    "songTitle": "旅に帰る",
+    "videoId": "SGwB23JvKjc",
+    "videoTitle": "旅に帰る / 望月穂波 × 日野森雫 × 小豆沢こはね × 朝比奈まふゆ × 巡音ルカ",
+    "name": "ユニタロー (Karure)",
+    "role": "unknown",
+    "roleRaw": "Lead Illustrator"
+  },
+  {
+    "songId": "song_旅に帰る",
+    "songTitle": "旅に帰る",
+    "videoId": "SGwB23JvKjc",
+    "videoTitle": "旅に帰る / 望月穂波 × 日野森雫 × 小豆沢こはね × 朝比奈まふゆ × 巡音ルカ",
+    "name": "s!on",
+    "role": "illustrator",
+    "roleRaw": "Illustration"
+  },
+  {
+    "songId": "song_旅に帰る",
+    "songTitle": "旅に帰る",
+    "videoId": "SGwB23JvKjc",
+    "videoTitle": "旅に帰る / 望月穂波 × 日野森雫 × 小豆沢こはね × 朝比奈まふゆ × 巡音ルカ",
+    "name": "あうふふ",
+    "role": "illustrator",
+    "roleRaw": "Illustration"
+  },
+  {
+    "songId": "song_旅に帰る",
+    "songTitle": "旅に帰る",
+    "videoId": "SGwB23JvKjc",
+    "videoTitle": "旅に帰る / 望月穂波 × 日野森雫 × 小豆沢こはね × 朝比奈まふゆ × 巡音ルカ",
+    "name": "なーがそのもの",
+    "role": "illustrator",
+    "roleRaw": "Illustration"
+  },
+  {
+    "songId": "song_旅に帰る",
+    "songTitle": "旅に帰る",
+    "videoId": "SGwB23JvKjc",
+    "videoTitle": "旅に帰る / 望月穂波 × 日野森雫 × 小豆沢こはね × 朝比奈まふゆ × 巡音ルカ",
+    "name": "慈口",
+    "role": "illustrator",
+    "roleRaw": "Illustration"
+  },
+  {
+    "songId": "song_旅に帰る",
+    "songTitle": "旅に帰る",
+    "videoId": "SGwB23JvKjc",
+    "videoTitle": "旅に帰る / 望月穂波 × 日野森雫 × 小豆沢こはね × 朝比奈まふゆ × 巡音ルカ",
+    "name": "emma inc.",
+    "role": "unknown",
+    "roleRaw": "Production"
+  },
+  {
+    "songId": "song_ドリーマーズビート",
+    "songTitle": "ドリーマーズビート",
+    "videoId": "ERyR7P76jT0",
+    "videoTitle": "ドリーマーズビート / 日野森志歩 × 花里みのり × 白石杏 × 天馬司 × 鏡音リン × 鏡音レン",
+    "name": "Rei Kurashima",
+    "role": "unknown",
+    "roleRaw": "Direction"
+  },
+  {
+    "songId": "song_ドリーマーズビート",
+    "songTitle": "ドリーマーズビート",
+    "videoId": "ERyR7P76jT0",
+    "videoTitle": "ドリーマーズビート / 日野森志歩 × 花里みのり × 白石杏 × 天馬司 × 鏡音リン × 鏡音レン",
+    "name": "GA",
+    "role": "unknown",
+    "roleRaw": "Direction"
+  },
+  {
+    "songId": "song_ドリーマーズビート",
+    "songTitle": "ドリーマーズビート",
+    "videoId": "ERyR7P76jT0",
+    "videoTitle": "ドリーマーズビート / 日野森志歩 × 花里みのり × 白石杏 × 天馬司 × 鏡音リン × 鏡音レン",
+    "name": "sowiti",
+    "role": "illustrator",
+    "roleRaw": "Illustration"
+  },
+  {
+    "songId": "song_ドリーマーズビート",
+    "songTitle": "ドリーマーズビート",
+    "videoId": "ERyR7P76jT0",
+    "videoTitle": "ドリーマーズビート / 日野森志歩 × 花里みのり × 白石杏 × 天馬司 × 鏡音リン × 鏡音レン",
+    "name": "zoni",
+    "role": "unknown",
+    "roleRaw": "PaintAssistant"
+  },
+  {
+    "songId": "song_ドリーマーズビート",
+    "songTitle": "ドリーマーズビート",
+    "videoId": "ERyR7P76jT0",
+    "videoTitle": "ドリーマーズビート / 日野森志歩 × 花里みのり × 白石杏 × 天馬司 × 鏡音リン × 鏡音レン",
+    "name": "neybell",
+    "role": "unknown",
+    "roleRaw": "Graphic Design"
+  },
+  {
+    "songId": "song_ドリーマーズビート",
+    "songTitle": "ドリーマーズビート",
+    "videoId": "ERyR7P76jT0",
+    "videoTitle": "ドリーマーズビート / 日野森志歩 × 花里みのり × 白石杏 × 天馬司 × 鏡音リン × 鏡音レン",
+    "name": "GA",
+    "role": "unknown",
+    "roleRaw": "Graphic Design"
+  },
+  {
+    "songId": "song_ドリーマーズビート",
+    "songTitle": "ドリーマーズビート",
+    "videoId": "ERyR7P76jT0",
+    "videoTitle": "ドリーマーズビート / 日野森志歩 × 花里みのり × 白石杏 × 天馬司 × 鏡音リン × 鏡音レン",
+    "name": "Rei Kurashima",
+    "role": "cg3d",
+    "roleRaw": "CG"
+  },
+  {
+    "songId": "song_ラグトレイン",
+    "songTitle": "ラグトレイン",
+    "videoId": "kZ92YJp-MBE",
+    "videoTitle": "ラグトレイン / 25時、ナイトコードで。 × MEIKO",
+    "name": "ぬくぬくにぎりめし",
+    "role": "illustrator",
+    "roleRaw": "イラスト"
+  },
+  {
+    "songId": "song_ラグトレイン",
+    "songTitle": "ラグトレイン",
+    "videoId": "kZ92YJp-MBE",
+    "videoTitle": "ラグトレイン / 25時、ナイトコードで。 × MEIKO",
+    "name": "稲葉曇",
+    "role": "pvCreator",
+    "roleRaw": "動画"
+  },
+  {
     "songId": "song_星に一番近い場所",
     "songTitle": "星に一番近い場所",
     "videoId": "AEc1rxEwFos",
@@ -1426,7 +1777,7 @@
     "songTitle": "ノマド",
     "videoId": "yvKp1yrqoZc",
     "videoTitle": "ノマド / 25時、ナイトコードで。 × 鏡音リン",
-    "name": "明飛(CASANE)",
+    "name": "明飛(CASANE.)",
     "role": "pvCreator",
     "roleRaw": "動画"
   },
@@ -8775,6 +9126,528 @@
     "roleRaw": "(C) Craft Egg Inc. Developed"
   },
   {
+    "songId": "song_1000年生きてる",
+    "songTitle": "1000年生きてる",
+    "videoId": "b6nm7NtmIBY",
+    "videoTitle": "1000年生きてる / ワンダーランズ×ショウタイム × 巡音ルカ",
+    "name": "みっ君",
+    "role": "illustrator",
+    "roleRaw": "イラスト"
+  },
+  {
+    "songId": "song_1000年生きてる",
+    "songTitle": "1000年生きてる",
+    "videoId": "b6nm7NtmIBY",
+    "videoTitle": "1000年生きてる / ワンダーランズ×ショウタイム × 巡音ルカ",
+    "name": "とこう",
+    "role": "pvCreator",
+    "roleRaw": "動画"
+  },
+  {
+    "songId": "song_1000年生きてる",
+    "songTitle": "1000年生きてる",
+    "videoId": "b6nm7NtmIBY",
+    "videoTitle": "1000年生きてる / ワンダーランズ×ショウタイム × 巡音ルカ",
+    "name": "玉野ハヅキ",
+    "role": "unknown",
+    "roleRaw": "リリック"
+  },
+  {
+    "songId": "song_『オールイン・ワン』- 重音テト × 和田たけあき",
+    "songTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
+    "videoId": "Jf3TxUsgJTU",
+    "videoTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
+    "name": "和田たけあき",
+    "role": "unknown",
+    "roleRaw": "Lyrics"
+  },
+  {
+    "songId": "song_『オールイン・ワン』- 重音テト × 和田たけあき",
+    "songTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
+    "videoId": "Jf3TxUsgJTU",
+    "videoTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
+    "name": "yasu",
+    "role": "unknown",
+    "roleRaw": "Mix"
+  },
+  {
+    "songId": "song_『オールイン・ワン』- 重音テト × 和田たけあき",
+    "songTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
+    "videoId": "Jf3TxUsgJTU",
+    "videoTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
+    "name": "go-shu",
+    "role": "unknown",
+    "roleRaw": "Character Design"
+  },
+  {
+    "songId": "song_『オールイン・ワン』- 重音テト × 和田たけあき",
+    "songTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
+    "videoId": "Jf3TxUsgJTU",
+    "videoTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
+    "name": "go-shu",
+    "role": "animation",
+    "roleRaw": "Animator"
+  },
+  {
+    "songId": "song_『オールイン・ワン』- 重音テト × 和田たけあき",
+    "songTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
+    "videoId": "Jf3TxUsgJTU",
+    "videoTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
+    "name": "がしか",
+    "role": "animation",
+    "roleRaw": "Animator"
+  },
+  {
+    "songId": "song_『オールイン・ワン』- 重音テト × 和田たけあき",
+    "songTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
+    "videoId": "Jf3TxUsgJTU",
+    "videoTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
+    "name": "朝月みお",
+    "role": "animation",
+    "roleRaw": "Animator"
+  },
+  {
+    "songId": "song_『オールイン・ワン』- 重音テト × 和田たけあき",
+    "songTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
+    "videoId": "Jf3TxUsgJTU",
+    "videoTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
+    "name": "神多洋",
+    "role": "animation",
+    "roleRaw": "Animator"
+  },
+  {
+    "songId": "song_『オールイン・ワン』- 重音テト × 和田たけあき",
+    "songTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
+    "videoId": "Jf3TxUsgJTU",
+    "videoTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
+    "name": "新宅萊夢",
+    "role": "animation",
+    "roleRaw": "Animator"
+  },
+  {
+    "songId": "song_『オールイン・ワン』- 重音テト × 和田たけあき",
+    "songTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
+    "videoId": "Jf3TxUsgJTU",
+    "videoTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
+    "name": "TIMTOM",
+    "role": "unknown",
+    "roleRaw": "Animation Producer"
+  },
+  {
+    "songId": "song_星に一番近い場所 feat.鏡音レン, 鏡音リン",
+    "songTitle": "星に一番近い場所 feat.鏡音レン, 鏡音リン",
+    "videoId": "tbeV4Xb3kD8",
+    "videoTitle": "星に一番近い場所 feat.鏡音レン, 鏡音リン / TOKOTOKO（西沢さんP）",
+    "name": "鏡音レン 鏡音リン",
+    "role": "unknown",
+    "roleRaw": "Vocal"
+  },
+  {
+    "songId": "song_星に一番近い場所 feat.鏡音レン, 鏡音リン",
+    "songTitle": "星に一番近い場所 feat.鏡音レン, 鏡音リン",
+    "videoId": "tbeV4Xb3kD8",
+    "videoTitle": "星に一番近い場所 feat.鏡音レン, 鏡音リン / TOKOTOKO（西沢さんP）",
+    "name": "小林ファンキ風格",
+    "role": "unknown",
+    "roleRaw": "E.Guitar"
+  },
+  {
+    "songId": "song_星に一番近い場所 feat.鏡音レン, 鏡音リン",
+    "songTitle": "星に一番近い場所 feat.鏡音レン, 鏡音リン",
+    "videoId": "tbeV4Xb3kD8",
+    "videoTitle": "星に一番近い場所 feat.鏡音レン, 鏡音リン / TOKOTOKO（西沢さんP）",
+    "name": "樋口幸佑",
+    "role": "unknown",
+    "roleRaw": "Drums"
+  },
+  {
+    "songId": "song_星に一番近い場所 feat.鏡音レン, 鏡音リン",
+    "songTitle": "星に一番近い場所 feat.鏡音レン, 鏡音リン",
+    "videoId": "tbeV4Xb3kD8",
+    "videoTitle": "星に一番近い場所 feat.鏡音レン, 鏡音リン / TOKOTOKO（西沢さんP）",
+    "name": "おはる",
+    "role": "unknown",
+    "roleRaw": "Piano"
+  },
+  {
+    "songId": "song_星に一番近い場所 feat.鏡音レン, 鏡音リン",
+    "songTitle": "星に一番近い場所 feat.鏡音レン, 鏡音リン",
+    "videoId": "tbeV4Xb3kD8",
+    "videoTitle": "星に一番近い場所 feat.鏡音レン, 鏡音リン / TOKOTOKO（西沢さんP）",
+    "name": "友達募集P",
+    "role": "unknown",
+    "roleRaw": "Mix"
+  },
+  {
+    "songId": "song_星に一番近い場所 feat.鏡音レン, 鏡音リン",
+    "songTitle": "星に一番近い場所 feat.鏡音レン, 鏡音リン",
+    "videoId": "tbeV4Xb3kD8",
+    "videoTitle": "星に一番近い場所 feat.鏡音レン, 鏡音リン / TOKOTOKO（西沢さんP）",
+    "name": "たま",
+    "role": "illustrator",
+    "roleRaw": "Illust"
+  },
+  {
+    "songId": "song_星に一番近い場所 feat.鏡音レン, 鏡音リン",
+    "songTitle": "星に一番近い場所 feat.鏡音レン, 鏡音リン",
+    "videoId": "tbeV4Xb3kD8",
+    "videoTitle": "星に一番近い場所 feat.鏡音レン, 鏡音リン / TOKOTOKO（西沢さんP）",
+    "name": "べて",
+    "role": "pvCreator",
+    "roleRaw": "Movie"
+  },
+  {
+    "songId": "song_月詠み『世界の歩き方』Music Video",
+    "songTitle": "月詠み『世界の歩き方』Music Video",
+    "videoId": "csDLDFadvlI",
+    "videoTitle": "月詠み『世界の歩き方』Music Video",
+    "name": "noa ）",
+    "role": "unknown",
+    "roleRaw": "Vocal"
+  },
+  {
+    "songId": "song_月詠み『世界の歩き方』Music Video",
+    "songTitle": "月詠み『世界の歩き方』Music Video",
+    "videoId": "csDLDFadvlI",
+    "videoTitle": "月詠み『世界の歩き方』Music Video",
+    "name": "ユリイ",
+    "role": "unknown",
+    "roleRaw": "Piano"
+  },
+  {
+    "songId": "song_月詠み『世界の歩き方』Music Video",
+    "songTitle": "月詠み『世界の歩き方』Music Video",
+    "videoId": "csDLDFadvlI",
+    "videoTitle": "月詠み『世界の歩き方』Music Video",
+    "name": "カノン ）",
+    "role": "unknown",
+    "roleRaw": "Piano"
+  },
+  {
+    "songId": "song_月詠み『世界の歩き方』Music Video",
+    "songTitle": "月詠み『世界の歩き方』Music Video",
+    "videoId": "csDLDFadvlI",
+    "videoTitle": "月詠み『世界の歩き方』Music Video",
+    "name": "つゆ ）",
+    "role": "unknown",
+    "roleRaw": "Guitar"
+  },
+  {
+    "songId": "song_月詠み『世界の歩き方』Music Video",
+    "songTitle": "月詠み『世界の歩き方』Music Video",
+    "videoId": "csDLDFadvlI",
+    "videoTitle": "月詠み『世界の歩き方』Music Video",
+    "name": "土井達也 ）",
+    "role": "unknown",
+    "roleRaw": "Bass"
+  },
+  {
+    "songId": "song_月詠み『世界の歩き方』Music Video",
+    "songTitle": "月詠み『世界の歩き方』Music Video",
+    "videoId": "csDLDFadvlI",
+    "videoTitle": "月詠み『世界の歩き方』Music Video",
+    "name": "なおk )",
+    "role": "unknown",
+    "roleRaw": "Drums"
+  },
+  {
+    "songId": "song_月詠み『世界の歩き方』Music Video",
+    "songTitle": "月詠み『世界の歩き方』Music Video",
+    "videoId": "csDLDFadvlI",
+    "videoTitle": "月詠み『世界の歩き方』Music Video",
+    "name": "眞鍋 広（VICTOR STUDIO）",
+    "role": "unknown",
+    "roleRaw": "Vocal Recording Engineer"
+  },
+  {
+    "songId": "song_月詠み『世界の歩き方』Music Video",
+    "songTitle": "月詠み『世界の歩き方』Music Video",
+    "videoId": "csDLDFadvlI",
+    "videoTitle": "月詠み『世界の歩き方』Music Video",
+    "name": "増井淳平",
+    "role": "unknown",
+    "roleRaw": "Mixing Engineer"
+  },
+  {
+    "songId": "song_月詠み『世界の歩き方』Music Video",
+    "songTitle": "月詠み『世界の歩き方』Music Video",
+    "videoId": "csDLDFadvlI",
+    "videoTitle": "月詠み『世界の歩き方』Music Video",
+    "name": "吉良武男（TEMAS）",
+    "role": "unknown",
+    "roleRaw": "Mastering Engineer"
+  },
+  {
+    "songId": "song_月詠み『世界の歩き方』Music Video",
+    "songTitle": "月詠み『世界の歩き方』Music Video",
+    "videoId": "csDLDFadvlI",
+    "videoTitle": "月詠み『世界の歩き方』Music Video",
+    "name": "ユリイ",
+    "role": "unknown",
+    "roleRaw": "作詞作曲"
+  },
+  {
+    "songId": "song_月詠み『世界の歩き方』Music Video",
+    "songTitle": "月詠み『世界の歩き方』Music Video",
+    "videoId": "csDLDFadvlI",
+    "videoTitle": "月詠み『世界の歩き方』Music Video",
+    "name": "カノン",
+    "role": "unknown",
+    "roleRaw": "作詞作曲"
+  },
+  {
+    "songId": "song_初音ミク, 遼遼『羽歌』MV - Soar",
+    "songTitle": "初音ミク, 遼遼『羽歌』MV - Soar",
+    "videoId": "MS1JmGKrdFo",
+    "videoTitle": "初音ミク, 遼遼『羽歌』MV - Soar",
+    "name": "遼遼",
+    "role": "unknown",
+    "roleRaw": "■作詞作曲編曲(Words"
+  },
+  {
+    "songId": "song_初音ミク, 遼遼『羽歌』MV - Soar",
+    "songTitle": "初音ミク, 遼遼『羽歌』MV - Soar",
+    "videoId": "MS1JmGKrdFo",
+    "videoTitle": "初音ミク, 遼遼『羽歌』MV - Soar",
+    "name": "陽風穹",
+    "role": "unknown",
+    "roleRaw": "■漫画(Comics)"
+  },
+  {
+    "songId": "song_初音ミク, 遼遼『羽歌』MV - Soar",
+    "songTitle": "初音ミク, 遼遼『羽歌』MV - Soar",
+    "videoId": "MS1JmGKrdFo",
+    "videoTitle": "初音ミク, 遼遼『羽歌』MV - Soar",
+    "name": "ﾅﾑﾙ",
+    "role": "unknown",
+    "roleRaw": "■映像(Movie)"
+  },
+  {
+    "songId": "song_初音ミク, 遼遼『羽歌』MV - Soar",
+    "songTitle": "初音ミク, 遼遼『羽歌』MV - Soar",
+    "videoId": "MS1JmGKrdFo",
+    "videoTitle": "初音ミク, 遼遼『羽歌』MV - Soar",
+    "name": "浦本雅史",
+    "role": "unknown",
+    "roleRaw": "■ミキシング(Mixing)"
+  },
+  {
+    "songId": "song_「ドリーマーズビート」40mP feat.初音ミク",
+    "songTitle": "「ドリーマーズビート」40mP feat.初音ミク",
+    "videoId": "FRSfnD3k_ts",
+    "videoTitle": "「ドリーマーズビート」40mP feat.初音ミク",
+    "name": "00 配信スタート",
+    "role": "unknown",
+    "roleRaw": "◻︎2026.5.30 0"
+  },
+  {
+    "songId": "song_「ドリーマーズビート」40mP feat.初音ミク",
+    "songTitle": "「ドリーマーズビート」40mP feat.初音ミク",
+    "videoId": "FRSfnD3k_ts",
+    "videoTitle": "「ドリーマーズビート」40mP feat.初音ミク",
+    "name": "初音ミク",
+    "role": "unknown",
+    "roleRaw": "Vocal"
+  },
+  {
+    "songId": "song_「ドリーマーズビート」40mP feat.初音ミク",
+    "songTitle": "「ドリーマーズビート」40mP feat.初音ミク",
+    "videoId": "FRSfnD3k_ts",
+    "videoTitle": "「ドリーマーズビート」40mP feat.初音ミク",
+    "name": "40mP",
+    "role": "unknown",
+    "roleRaw": "Lyrics"
+  },
+  {
+    "songId": "song_「ドリーマーズビート」40mP feat.初音ミク",
+    "songTitle": "「ドリーマーズビート」40mP feat.初音ミク",
+    "videoId": "FRSfnD3k_ts",
+    "videoTitle": "「ドリーマーズビート」40mP feat.初音ミク",
+    "name": "[TEST]",
+    "role": "unknown",
+    "roleRaw": "Guitar"
+  },
+  {
+    "songId": "song_「ドリーマーズビート」40mP feat.初音ミク",
+    "songTitle": "「ドリーマーズビート」40mP feat.初音ミク",
+    "videoId": "FRSfnD3k_ts",
+    "videoTitle": "「ドリーマーズビート」40mP feat.初音ミク",
+    "name": "Kei Nakamura",
+    "role": "unknown",
+    "roleRaw": "Bass"
+  },
+  {
+    "songId": "song_「ドリーマーズビート」40mP feat.初音ミク",
+    "songTitle": "「ドリーマーズビート」40mP feat.初音ミク",
+    "videoId": "FRSfnD3k_ts",
+    "videoTitle": "「ドリーマーズビート」40mP feat.初音ミク",
+    "name": "諏訪桂輔",
+    "role": "unknown",
+    "roleRaw": "Mix"
+  },
+  {
+    "songId": "song_「ドリーマーズビート」40mP feat.初音ミク",
+    "songTitle": "「ドリーマーズビート」40mP feat.初音ミク",
+    "videoId": "FRSfnD3k_ts",
+    "videoTitle": "「ドリーマーズビート」40mP feat.初音ミク",
+    "name": "山崎翼 (Flugel Mastering)",
+    "role": "unknown",
+    "roleRaw": "Mastering"
+  },
+  {
+    "songId": "song_「ドリーマーズビート」40mP feat.初音ミク",
+    "songTitle": "「ドリーマーズビート」40mP feat.初音ミク",
+    "videoId": "FRSfnD3k_ts",
+    "videoTitle": "「ドリーマーズビート」40mP feat.初音ミク",
+    "name": "たま",
+    "role": "illustrator",
+    "roleRaw": "Illust"
+  },
+  {
+    "songId": "song_「ドリーマーズビート」40mP feat.初音ミク",
+    "songTitle": "「ドリーマーズビート」40mP feat.初音ミク",
+    "videoId": "FRSfnD3k_ts",
+    "videoTitle": "「ドリーマーズビート」40mP feat.初音ミク",
+    "name": "紅良あねか",
+    "role": "pvCreator",
+    "roleRaw": "Movie"
+  },
+  {
+    "songId": "song_Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "songTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "videoId": "69MN_xQnwU0",
+    "videoTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "name": "鏡音レン",
+    "role": "unknown",
+    "roleRaw": "■歌"
+  },
+  {
+    "songId": "song_Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "songTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "videoId": "69MN_xQnwU0",
+    "videoTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "name": "鏡音リン",
+    "role": "unknown",
+    "roleRaw": "■歌"
+  },
+  {
+    "songId": "song_Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "songTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "videoId": "69MN_xQnwU0",
+    "videoTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "name": "烏屋茶房",
+    "role": "unknown",
+    "roleRaw": "■作詞"
+  },
+  {
+    "songId": "song_Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "songTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "videoId": "69MN_xQnwU0",
+    "videoTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "name": "@tghgworks_krsy",
+    "role": "unknown",
+    "roleRaw": "X"
+  },
+  {
+    "songId": "song_Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "songTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "videoId": "69MN_xQnwU0",
+    "videoTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "name": "火種",
+    "role": "unknown",
+    "roleRaw": "■絵"
+  },
+  {
+    "songId": "song_Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "songTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "videoId": "69MN_xQnwU0",
+    "videoTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "name": "@hidane_nico",
+    "role": "unknown",
+    "roleRaw": "X"
+  },
+  {
+    "songId": "song_Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "songTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "videoId": "69MN_xQnwU0",
+    "videoTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "name": "みやざわえそら",
+    "role": "unknown",
+    "roleRaw": "■映像"
+  },
+  {
+    "songId": "song_Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "songTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "videoId": "69MN_xQnwU0",
+    "videoTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "name": "@miyazawano",
+    "role": "unknown",
+    "roleRaw": "X"
+  },
+  {
+    "songId": "song_Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "songTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "videoId": "69MN_xQnwU0",
+    "videoTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "name": "和田たけあき",
+    "role": "unknown",
+    "roleRaw": "Guitar"
+  },
+  {
+    "songId": "song_Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "songTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "videoId": "69MN_xQnwU0",
+    "videoTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "name": "malo",
+    "role": "unknown",
+    "roleRaw": "Bass"
+  },
+  {
+    "songId": "song_Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "songTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "videoId": "69MN_xQnwU0",
+    "videoTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "name": "宇賀啓人 a.k.a Re:Coda",
+    "role": "unknown",
+    "roleRaw": "Trumpet"
+  },
+  {
+    "songId": "song_Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "songTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "videoId": "69MN_xQnwU0",
+    "videoTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "name": "島田直道",
+    "role": "unknown",
+    "roleRaw": "Trombone"
+  },
+  {
+    "songId": "song_Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "songTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "videoId": "69MN_xQnwU0",
+    "videoTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "name": "わたなべまさや",
+    "role": "unknown",
+    "roleRaw": "Strings"
+  },
+  {
+    "songId": "song_Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "songTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "videoId": "69MN_xQnwU0",
+    "videoTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "name": "ゆさ",
+    "role": "unknown",
+    "roleRaw": "Violin"
+  },
+  {
+    "songId": "song_Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "songTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "videoId": "69MN_xQnwU0",
+    "videoTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "name": "田本雅浩",
+    "role": "unknown",
+    "roleRaw": "■Mix"
+  },
+  {
     "songId": "song_【公式】 ネクラチューンサーカス／かいりきベア feat.初音ミク",
     "songTitle": "【公式】 ネクラチューンサーカス／かいりきベア feat.初音ミク",
     "videoId": "nOtWU5MRiTU",
@@ -9004,18 +9877,171 @@
     "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
     "videoId": "JXbb-_ScjSY",
     "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "4",
+    "name": "l-tike.com",
     "role": "unknown",
-    "roleRaw": "受付期間"
+    "roleRaw": "ローソンチケット"
   },
   {
     "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
     "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
     "videoId": "JXbb-_ScjSY",
     "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "27(月)23:59まで",
+    "name": "syudou",
     "role": "unknown",
-    "roleRaw": "受付期間"
+    "roleRaw": "ローソンチケット"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "w.pia.jp",
+    "role": "unknown",
+    "roleRaw": "チケットぴあ"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "t",
+    "role": "unknown",
+    "roleRaw": "チケットぴあ"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "syudou-t",
+    "role": "unknown",
+    "roleRaw": "チケットぴあ"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "eplus.jp",
+    "role": "unknown",
+    "roleRaw": "イープラス"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "syudou",
+    "role": "unknown",
+    "roleRaw": "イープラス"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "Kanadevia Hall",
+    "role": "unknown",
+    "roleRaw": "東京"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "00",
+    "role": "unknown",
+    "roleRaw": "開場 16"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "8",
+    "role": "unknown",
+    "roleRaw": "チケット"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "500円（全席指定",
+    "role": "unknown",
+    "roleRaw": "チケット"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "ドリンク代別）",
+    "role": "unknown",
+    "roleRaw": "チケット"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "syudou",
+    "role": "unknown",
+    "roleRaw": "出演者"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "Dannie May",
+    "role": "unknown",
+    "roleRaw": "出演者"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "浪漫派マシュマロ",
+    "role": "unknown",
+    "roleRaw": "出演者"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "マヂカルラブリー",
+    "role": "unknown",
+    "roleRaw": "出演者"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "オズワルド",
+    "role": "unknown",
+    "roleRaw": "出演者"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "7",
+    "role": "unknown",
+    "roleRaw": "受付"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "12(日) 23:59まで",
+    "role": "unknown",
+    "roleRaw": "受付"
   },
   {
     "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
@@ -9486,6 +10512,24 @@
     "roleRaw": "【受付期間】4"
   },
   {
+    "songId": "song_ぼくのかみさま",
+    "songTitle": "ぼくのかみさま",
+    "videoId": "nP3Lv7CfCFs",
+    "videoTitle": "ぼくのかみさま / flower",
+    "name": "内田晟",
+    "role": "illustrator",
+    "roleRaw": "Illustration"
+  },
+  {
+    "songId": "song_ぼくのかみさま",
+    "songTitle": "ぼくのかみさま",
+    "videoId": "nP3Lv7CfCFs",
+    "videoTitle": "ぼくのかみさま / flower",
+    "name": "羽生まゐご",
+    "role": "unknown",
+    "roleRaw": "作詞作曲"
+  },
+  {
     "songId": "song_Chinozo 'アンチユー' feat.初音ミク",
     "songTitle": "Chinozo 'アンチユー' feat.初音ミク",
     "videoId": "eVfppbSqACQ",
@@ -9594,24 +10638,6 @@
     "roleRaw": "Video Direction"
   },
   {
-    "songId": "song_ぼくのかみさま",
-    "songTitle": "ぼくのかみさま",
-    "videoId": "nP3Lv7CfCFs",
-    "videoTitle": "ぼくのかみさま / flower",
-    "name": "内田晟",
-    "role": "illustrator",
-    "roleRaw": "Illustration"
-  },
-  {
-    "songId": "song_ぼくのかみさま",
-    "songTitle": "ぼくのかみさま",
-    "videoId": "nP3Lv7CfCFs",
-    "videoTitle": "ぼくのかみさま / flower",
-    "name": "羽生まゐご",
-    "role": "unknown",
-    "roleRaw": "作詞作曲"
-  },
-  {
     "songId": "song_Utsu-P - フューエル",
     "songTitle": "Utsu-P - フューエル",
     "videoId": "n9xeDxXE4Jc",
@@ -9711,33 +10737,6 @@
     "roleRaw": "Movie"
   },
   {
-    "songId": "song_「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
-    "songTitle": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
-    "videoId": "D4FWxIn3sHU",
-    "videoTitle": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
-    "name": "Pasoputi",
-    "role": "unknown",
-    "roleRaw": "Artwork"
-  },
-  {
-    "songId": "song_「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
-    "songTitle": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
-    "videoId": "D4FWxIn3sHU",
-    "videoTitle": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
-    "name": "Koki Matsumoto",
-    "role": "unknown",
-    "roleRaw": "Guitar"
-  },
-  {
-    "songId": "song_「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
-    "songTitle": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
-    "videoId": "D4FWxIn3sHU",
-    "videoTitle": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
-    "name": "Yoshihisa Hirata",
-    "role": "unknown",
-    "roleRaw": "Edit"
-  },
-  {
     "songId": "song_Giga & TeddyLoid - ULTRA C ft.Rin・Len【MV】",
     "songTitle": "Giga & TeddyLoid - ULTRA C ft.Rin・Len【MV】",
     "videoId": "KF9Mu2gXNdI",
@@ -9781,6 +10780,33 @@
     "name": "筆者",
     "role": "pvCreator",
     "roleRaw": "Movie"
+  },
+  {
+    "songId": "song_「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
+    "songTitle": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
+    "videoId": "D4FWxIn3sHU",
+    "videoTitle": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
+    "name": "Pasoputi",
+    "role": "unknown",
+    "roleRaw": "Artwork"
+  },
+  {
+    "songId": "song_「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
+    "songTitle": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
+    "videoId": "D4FWxIn3sHU",
+    "videoTitle": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
+    "name": "Koki Matsumoto",
+    "role": "unknown",
+    "roleRaw": "Guitar"
+  },
+  {
+    "songId": "song_「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
+    "songTitle": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
+    "videoId": "D4FWxIn3sHU",
+    "videoTitle": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
+    "name": "Yoshihisa Hirata",
+    "role": "unknown",
+    "roleRaw": "Edit"
   },
   {
     "songId": "song_ワンオポ - 成敗いたAAAAAす！ft.鏡音レンリン【MV】",
@@ -9855,6 +10881,42 @@
     "roleRaw": "Lyric design"
   },
   {
+    "songId": "song_瀬名航 - ショウタイム×オーディエンス feat.初音ミク",
+    "songTitle": "瀬名航 - ショウタイム×オーディエンス feat.初音ミク",
+    "videoId": "yz0pg4pNzQY",
+    "videoTitle": "瀬名航 - ショウタイム×オーディエンス feat.初音ミク / Wataru Sena - Showtime×Audience ft.Miku Hatsune",
+    "name": "初音ミク",
+    "role": "unknown",
+    "roleRaw": "歌"
+  },
+  {
+    "songId": "song_瀬名航 - ショウタイム×オーディエンス feat.初音ミク",
+    "songTitle": "瀬名航 - ショウタイム×オーディエンス feat.初音ミク",
+    "videoId": "yz0pg4pNzQY",
+    "videoTitle": "瀬名航 - ショウタイム×オーディエンス feat.初音ミク / Wataru Sena - Showtime×Audience ft.Miku Hatsune",
+    "name": "瀬名航",
+    "role": "unknown",
+    "roleRaw": "作詞"
+  },
+  {
+    "songId": "song_瀬名航 - ショウタイム×オーディエンス feat.初音ミク",
+    "songTitle": "瀬名航 - ショウタイム×オーディエンス feat.初音ミク",
+    "videoId": "yz0pg4pNzQY",
+    "videoTitle": "瀬名航 - ショウタイム×オーディエンス feat.初音ミク / Wataru Sena - Showtime×Audience ft.Miku Hatsune",
+    "name": "アルセチカ",
+    "role": "unknown",
+    "roleRaw": "絵"
+  },
+  {
+    "songId": "song_瀬名航 - ショウタイム×オーディエンス feat.初音ミク",
+    "songTitle": "瀬名航 - ショウタイム×オーディエンス feat.初音ミク",
+    "videoId": "yz0pg4pNzQY",
+    "videoTitle": "瀬名航 - ショウタイム×オーディエンス feat.初音ミク / Wataru Sena - Showtime×Audience ft.Miku Hatsune",
+    "name": "藍瀬まなみ",
+    "role": "pvCreator",
+    "roleRaw": "動画"
+  },
+  {
     "songId": "song_picco - ときめきジェットコースター feat.初音ミク",
     "songTitle": "picco - ときめきジェットコースター feat.初音ミク",
     "videoId": "4T2vDDY6qNw",
@@ -9871,51 +10933,6 @@
     "name": "堕落ぴて",
     "role": "unknown",
     "roleRaw": "Moive"
-  },
-  {
-    "songId": "song_稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "songTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "videoId": "EEk4JGzqoFg",
-    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "name": "歌愛ユキ",
-    "role": "unknown",
-    "roleRaw": "Vocal"
-  },
-  {
-    "songId": "song_稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "songTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "videoId": "EEk4JGzqoFg",
-    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "name": "初音ミク",
-    "role": "unknown",
-    "roleRaw": "Backing Vocal"
-  },
-  {
-    "songId": "song_稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "songTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "videoId": "EEk4JGzqoFg",
-    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "name": "ぬくぬくにぎりめし",
-    "role": "illustrator",
-    "roleRaw": "Illustration"
-  },
-  {
-    "songId": "song_稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "songTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "videoId": "EEk4JGzqoFg",
-    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "name": "ぬくぬくにぎりめし",
-    "role": "animation",
-    "roleRaw": "Animation"
-  },
-  {
-    "songId": "song_稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "songTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "videoId": "EEk4JGzqoFg",
-    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "name": "稲葉曇",
-    "role": "pvCreator",
-    "roleRaw": "Movie"
   },
   {
     "songId": "song_the WALL",
@@ -10008,6 +11025,51 @@
     "roleRaw": "Composite"
   },
   {
+    "songId": "song_稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "songTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "videoId": "EEk4JGzqoFg",
+    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "name": "歌愛ユキ",
+    "role": "unknown",
+    "roleRaw": "Vocal"
+  },
+  {
+    "songId": "song_稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "songTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "videoId": "EEk4JGzqoFg",
+    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "name": "初音ミク",
+    "role": "unknown",
+    "roleRaw": "Backing Vocal"
+  },
+  {
+    "songId": "song_稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "songTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "videoId": "EEk4JGzqoFg",
+    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "name": "ぬくぬくにぎりめし",
+    "role": "illustrator",
+    "roleRaw": "Illustration"
+  },
+  {
+    "songId": "song_稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "songTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "videoId": "EEk4JGzqoFg",
+    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "name": "ぬくぬくにぎりめし",
+    "role": "animation",
+    "roleRaw": "Animation"
+  },
+  {
+    "songId": "song_稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "songTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "videoId": "EEk4JGzqoFg",
+    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "name": "稲葉曇",
+    "role": "pvCreator",
+    "roleRaw": "Movie"
+  },
+  {
     "songId": "song_limbo - 初音ミク",
     "songTitle": "limbo - 初音ミク",
     "videoId": "hr_w8F_YeXM",
@@ -10093,6 +11155,15 @@
     "songTitle": "サイバーパンクデッドボーイ feat. 初音ミク【ボカロオリジナル曲】マイキP",
     "videoId": "5HPJ7eUvU4o",
     "videoTitle": "サイバーパンクデッドボーイ feat. 初音ミク【ボカロオリジナル曲】マイキP",
+    "name": "00",
+    "role": "unknown",
+    "roleRaw": "OPEN 18"
+  },
+  {
+    "songId": "song_サイバーパンクデッドボーイ feat. 初音ミク【ボカロオリジナル曲】マイキP",
+    "songTitle": "サイバーパンクデッドボーイ feat. 初音ミク【ボカロオリジナル曲】マイキP",
+    "videoId": "5HPJ7eUvU4o",
+    "videoTitle": "サイバーパンクデッドボーイ feat. 初音ミク【ボカロオリジナル曲】マイキP",
     "name": "マイキP",
     "role": "unknown",
     "roleRaw": "作詞.作曲.編曲.映像"
@@ -10105,51 +11176,6 @@
     "name": "くろうめ )",
     "role": "illustrator",
     "roleRaw": "イラスト"
-  },
-  {
-    "songId": "song_Giga - Beyond the way ft.Miku・Rin・Len【MV】",
-    "songTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
-    "videoId": "SJcgOWsDwi4",
-    "videoTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
-    "name": "q*Left",
-    "role": "unknown",
-    "roleRaw": "Lyrics"
-  },
-  {
-    "songId": "song_Giga - Beyond the way ft.Miku・Rin・Len【MV】",
-    "songTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
-    "videoId": "SJcgOWsDwi4",
-    "videoTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
-    "name": "ろるあ",
-    "role": "illustrator",
-    "roleRaw": "Illust"
-  },
-  {
-    "songId": "song_Giga - Beyond the way ft.Miku・Rin・Len【MV】",
-    "songTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
-    "videoId": "SJcgOWsDwi4",
-    "videoTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
-    "name": "3DCG 筆者",
-    "role": "pvCreator",
-    "roleRaw": "Movie"
-  },
-  {
-    "songId": "song_Giga - Beyond the way ft.Miku・Rin・Len【MV】",
-    "songTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
-    "videoId": "SJcgOWsDwi4",
-    "videoTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
-    "name": "2DAnimation お菊",
-    "role": "pvCreator",
-    "roleRaw": "Movie"
-  },
-  {
-    "songId": "song_Giga - Beyond the way ft.Miku・Rin・Len【MV】",
-    "songTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
-    "videoId": "SJcgOWsDwi4",
-    "videoTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
-    "name": "Sena Kiryuin",
-    "role": "unknown",
-    "roleRaw": "Special Thanks"
   },
   {
     "songId": "song_25時の情熱/初音ミク、鏡音リン、鏡音レン、巡音ルカ、MEIKO、KAITO",
@@ -10195,6 +11221,51 @@
     "name": "てる",
     "role": "pvCreator",
     "roleRaw": "映像"
+  },
+  {
+    "songId": "song_Giga - Beyond the way ft.Miku・Rin・Len【MV】",
+    "songTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
+    "videoId": "SJcgOWsDwi4",
+    "videoTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
+    "name": "q*Left",
+    "role": "unknown",
+    "roleRaw": "Lyrics"
+  },
+  {
+    "songId": "song_Giga - Beyond the way ft.Miku・Rin・Len【MV】",
+    "songTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
+    "videoId": "SJcgOWsDwi4",
+    "videoTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
+    "name": "ろるあ",
+    "role": "illustrator",
+    "roleRaw": "Illust"
+  },
+  {
+    "songId": "song_Giga - Beyond the way ft.Miku・Rin・Len【MV】",
+    "songTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
+    "videoId": "SJcgOWsDwi4",
+    "videoTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
+    "name": "3DCG 筆者",
+    "role": "pvCreator",
+    "roleRaw": "Movie"
+  },
+  {
+    "songId": "song_Giga - Beyond the way ft.Miku・Rin・Len【MV】",
+    "songTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
+    "videoId": "SJcgOWsDwi4",
+    "videoTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
+    "name": "2DAnimation お菊",
+    "role": "pvCreator",
+    "roleRaw": "Movie"
+  },
+  {
+    "songId": "song_Giga - Beyond the way ft.Miku・Rin・Len【MV】",
+    "songTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
+    "videoId": "SJcgOWsDwi4",
+    "videoTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
+    "name": "Sena Kiryuin",
+    "role": "unknown",
+    "roleRaw": "Special Thanks"
   },
   {
     "songId": "song_Unpoison",
@@ -10350,114 +11421,6 @@
     "roleRaw": "Animation"
   },
   {
-    "songId": "song_瀬名航 - ショウタイム×オーディエンス feat.初音ミク",
-    "songTitle": "瀬名航 - ショウタイム×オーディエンス feat.初音ミク",
-    "videoId": "yz0pg4pNzQY",
-    "videoTitle": "瀬名航 - ショウタイム×オーディエンス feat.初音ミク / Wataru Sena - Showtime×Audience ft.Miku Hatsune",
-    "name": "初音ミク",
-    "role": "unknown",
-    "roleRaw": "歌"
-  },
-  {
-    "songId": "song_瀬名航 - ショウタイム×オーディエンス feat.初音ミク",
-    "songTitle": "瀬名航 - ショウタイム×オーディエンス feat.初音ミク",
-    "videoId": "yz0pg4pNzQY",
-    "videoTitle": "瀬名航 - ショウタイム×オーディエンス feat.初音ミク / Wataru Sena - Showtime×Audience ft.Miku Hatsune",
-    "name": "瀬名航",
-    "role": "unknown",
-    "roleRaw": "作詞"
-  },
-  {
-    "songId": "song_瀬名航 - ショウタイム×オーディエンス feat.初音ミク",
-    "songTitle": "瀬名航 - ショウタイム×オーディエンス feat.初音ミク",
-    "videoId": "yz0pg4pNzQY",
-    "videoTitle": "瀬名航 - ショウタイム×オーディエンス feat.初音ミク / Wataru Sena - Showtime×Audience ft.Miku Hatsune",
-    "name": "アルセチカ",
-    "role": "unknown",
-    "roleRaw": "絵"
-  },
-  {
-    "songId": "song_瀬名航 - ショウタイム×オーディエンス feat.初音ミク",
-    "songTitle": "瀬名航 - ショウタイム×オーディエンス feat.初音ミク",
-    "videoId": "yz0pg4pNzQY",
-    "videoTitle": "瀬名航 - ショウタイム×オーディエンス feat.初音ミク / Wataru Sena - Showtime×Audience ft.Miku Hatsune",
-    "name": "藍瀬まなみ",
-    "role": "pvCreator",
-    "roleRaw": "動画"
-  },
-  {
-    "songId": "song_MEIKO『ARQETYPE』",
-    "songTitle": "MEIKO『ARQETYPE』",
-    "videoId": "C5ElSU1EdZk",
-    "videoTitle": "MEIKO『ARQETYPE』",
-    "name": "原型。典型。",
-    "role": "unknown",
-    "roleRaw": "archetype(名)"
-  },
-  {
-    "songId": "song_MEIKO『ARQETYPE』",
-    "songTitle": "MEIKO『ARQETYPE』",
-    "videoId": "C5ElSU1EdZk",
-    "videoTitle": "MEIKO『ARQETYPE』",
-    "name": "Sohbana",
-    "role": "unknown",
-    "roleRaw": "■Music"
-  },
-  {
-    "songId": "song_MEIKO『ARQETYPE』",
-    "songTitle": "MEIKO『ARQETYPE』",
-    "videoId": "C5ElSU1EdZk",
-    "videoTitle": "MEIKO『ARQETYPE』",
-    "name": "中村真綿",
-    "role": "unknown",
-    "roleRaw": "■Illustration"
-  },
-  {
-    "songId": "song_MEIKO『ARQETYPE』",
-    "songTitle": "MEIKO『ARQETYPE』",
-    "videoId": "C5ElSU1EdZk",
-    "videoTitle": "MEIKO『ARQETYPE』",
-    "name": "演繹",
-    "role": "unknown",
-    "roleRaw": "■Movie"
-  },
-  {
-    "songId": "song_MEIKO『ARQETYPE』",
-    "songTitle": "MEIKO『ARQETYPE』",
-    "videoId": "C5ElSU1EdZk",
-    "videoTitle": "MEIKO『ARQETYPE』",
-    "name": "ユニットイメージアルバム「セカイノオト vol.1」",
-    "role": "unknown",
-    "roleRaw": "□stream"
-  },
-  {
-    "songId": "song_『 はぐ 』",
-    "songTitle": "『 はぐ 』",
-    "videoId": "PAwZl3Up-hc",
-    "videoTitle": "『 はぐ 』  /  初音ミク・可不",
-    "name": "おむたつ @omrice4869",
-    "role": "illustrator",
-    "roleRaw": "Illustration"
-  },
-  {
-    "songId": "song_『 はぐ 』",
-    "songTitle": "『 はぐ 』",
-    "videoId": "PAwZl3Up-hc",
-    "videoTitle": "『 はぐ 』  /  初音ミク・可不",
-    "name": "瀬戸わらび @yk__rm",
-    "role": "pvCreator",
-    "roleRaw": "movie"
-  },
-  {
-    "songId": "song_『 はぐ 』",
-    "songTitle": "『 はぐ 』",
-    "videoId": "PAwZl3Up-hc",
-    "videoTitle": "『 はぐ 』  /  初音ミク・可不",
-    "name": "はるお @haluo_haluo",
-    "role": "unknown",
-    "roleRaw": "mix"
-  },
-  {
     "songId": "song_とあ - トワイライトライト - ft.初音ミク, 鏡音リン",
     "songTitle": "とあ - トワイライトライト - ft.初音ミク, 鏡音リン",
     "videoId": "ydb05OX2U7M",
@@ -10510,6 +11473,141 @@
     "name": "Yohei Takita",
     "role": "unknown",
     "roleRaw": "■Mixing"
+  },
+  {
+    "songId": "song_MEIKO『ARQETYPE』",
+    "songTitle": "MEIKO『ARQETYPE』",
+    "videoId": "C5ElSU1EdZk",
+    "videoTitle": "MEIKO『ARQETYPE』",
+    "name": "原型。典型。",
+    "role": "unknown",
+    "roleRaw": "archetype(名)"
+  },
+  {
+    "songId": "song_MEIKO『ARQETYPE』",
+    "songTitle": "MEIKO『ARQETYPE』",
+    "videoId": "C5ElSU1EdZk",
+    "videoTitle": "MEIKO『ARQETYPE』",
+    "name": "Sohbana",
+    "role": "unknown",
+    "roleRaw": "■Music"
+  },
+  {
+    "songId": "song_MEIKO『ARQETYPE』",
+    "songTitle": "MEIKO『ARQETYPE』",
+    "videoId": "C5ElSU1EdZk",
+    "videoTitle": "MEIKO『ARQETYPE』",
+    "name": "中村真綿",
+    "role": "unknown",
+    "roleRaw": "■Illustration"
+  },
+  {
+    "songId": "song_MEIKO『ARQETYPE』",
+    "songTitle": "MEIKO『ARQETYPE』",
+    "videoId": "C5ElSU1EdZk",
+    "videoTitle": "MEIKO『ARQETYPE』",
+    "name": "演繹",
+    "role": "unknown",
+    "roleRaw": "■Movie"
+  },
+  {
+    "songId": "song_MEIKO『ARQETYPE』",
+    "songTitle": "MEIKO『ARQETYPE』",
+    "videoId": "C5ElSU1EdZk",
+    "videoTitle": "MEIKO『ARQETYPE』",
+    "name": "ユニットイメージアルバム「セカイノオト vol.1」",
+    "role": "unknown",
+    "roleRaw": "□stream"
+  },
+  {
+    "songId": "song_Un-Lock feat. 巡音ルカ",
+    "songTitle": "Un-Lock feat. 巡音ルカ",
+    "videoId": "cdw_2hCSYys",
+    "videoTitle": "Un-Lock feat. 巡音ルカ (MEGURINE LUKA) / MuryokuP",
+    "name": "巡音ルカ",
+    "role": "unknown",
+    "roleRaw": "▼Vocal"
+  },
+  {
+    "songId": "song_Un-Lock feat. 巡音ルカ",
+    "songTitle": "Un-Lock feat. 巡音ルカ",
+    "videoId": "cdw_2hCSYys",
+    "videoTitle": "Un-Lock feat. 巡音ルカ (MEGURINE LUKA) / MuryokuP",
+    "name": "Megurine Luka",
+    "role": "unknown",
+    "roleRaw": "▼Vocal"
+  },
+  {
+    "songId": "song_Un-Lock feat. 巡音ルカ",
+    "songTitle": "Un-Lock feat. 巡音ルカ",
+    "videoId": "cdw_2hCSYys",
+    "videoTitle": "Un-Lock feat. 巡音ルカ (MEGURINE LUKA) / MuryokuP",
+    "name": "無力P",
+    "role": "unknown",
+    "roleRaw": "▼Music"
+  },
+  {
+    "songId": "song_Un-Lock feat. 巡音ルカ",
+    "songTitle": "Un-Lock feat. 巡音ルカ",
+    "videoId": "cdw_2hCSYys",
+    "videoTitle": "Un-Lock feat. 巡音ルカ (MEGURINE LUKA) / MuryokuP",
+    "name": "MuryokuP a.k.a Powerless",
+    "role": "unknown",
+    "roleRaw": "▼Music"
+  },
+  {
+    "songId": "song_Un-Lock feat. 巡音ルカ",
+    "songTitle": "Un-Lock feat. 巡音ルカ",
+    "videoId": "cdw_2hCSYys",
+    "videoTitle": "Un-Lock feat. 巡音ルカ (MEGURINE LUKA) / MuryokuP",
+    "name": "AO",
+    "role": "unknown",
+    "roleRaw": "▼Illustration"
+  },
+  {
+    "songId": "song_Un-Lock feat. 巡音ルカ",
+    "songTitle": "Un-Lock feat. 巡音ルカ",
+    "videoId": "cdw_2hCSYys",
+    "videoTitle": "Un-Lock feat. 巡音ルカ (MEGURINE LUKA) / MuryokuP",
+    "name": "yksb (KAZE Lab)",
+    "role": "unknown",
+    "roleRaw": "▼Video"
+  },
+  {
+    "songId": "song_Un-Lock feat. 巡音ルカ",
+    "songTitle": "Un-Lock feat. 巡音ルカ",
+    "videoId": "cdw_2hCSYys",
+    "videoTitle": "Un-Lock feat. 巡音ルカ (MEGURINE LUKA) / MuryokuP",
+    "name": "ムラタユーサク(TOKYO LOGIC)",
+    "role": "unknown",
+    "roleRaw": "▼Video proposals"
+  },
+  {
+    "songId": "song_『 はぐ 』",
+    "songTitle": "『 はぐ 』",
+    "videoId": "PAwZl3Up-hc",
+    "videoTitle": "『 はぐ 』  /  初音ミク・可不",
+    "name": "おむたつ @omrice4869",
+    "role": "illustrator",
+    "roleRaw": "Illustration"
+  },
+  {
+    "songId": "song_『 はぐ 』",
+    "songTitle": "『 はぐ 』",
+    "videoId": "PAwZl3Up-hc",
+    "videoTitle": "『 はぐ 』  /  初音ミク・可不",
+    "name": "瀬戸わらび @yk__rm",
+    "role": "pvCreator",
+    "roleRaw": "movie"
+  },
+  {
+    "songId": "song_『 はぐ 』",
+    "songTitle": "『 はぐ 』",
+    "videoId": "PAwZl3Up-hc",
+    "videoTitle": "『 はぐ 』  /  初音ミク・可不",
+    "name": "はるお @haluo_haluo",
+    "role": "unknown",
+    "roleRaw": "mix"
   },
   {
     "songId": "song_halyosy - アイムマイン ft. VOCALOIDS [Official Video]",
@@ -10771,69 +11869,6 @@
     "name": "INPINE",
     "role": "unknown",
     "roleRaw": "Video Direction"
-  },
-  {
-    "songId": "song_Un-Lock feat. 巡音ルカ",
-    "songTitle": "Un-Lock feat. 巡音ルカ",
-    "videoId": "cdw_2hCSYys",
-    "videoTitle": "Un-Lock feat. 巡音ルカ (MEGURINE LUKA) / MuryokuP",
-    "name": "巡音ルカ",
-    "role": "unknown",
-    "roleRaw": "▼Vocal"
-  },
-  {
-    "songId": "song_Un-Lock feat. 巡音ルカ",
-    "songTitle": "Un-Lock feat. 巡音ルカ",
-    "videoId": "cdw_2hCSYys",
-    "videoTitle": "Un-Lock feat. 巡音ルカ (MEGURINE LUKA) / MuryokuP",
-    "name": "Megurine Luka",
-    "role": "unknown",
-    "roleRaw": "▼Vocal"
-  },
-  {
-    "songId": "song_Un-Lock feat. 巡音ルカ",
-    "songTitle": "Un-Lock feat. 巡音ルカ",
-    "videoId": "cdw_2hCSYys",
-    "videoTitle": "Un-Lock feat. 巡音ルカ (MEGURINE LUKA) / MuryokuP",
-    "name": "無力P",
-    "role": "unknown",
-    "roleRaw": "▼Music"
-  },
-  {
-    "songId": "song_Un-Lock feat. 巡音ルカ",
-    "songTitle": "Un-Lock feat. 巡音ルカ",
-    "videoId": "cdw_2hCSYys",
-    "videoTitle": "Un-Lock feat. 巡音ルカ (MEGURINE LUKA) / MuryokuP",
-    "name": "MuryokuP a.k.a Powerless",
-    "role": "unknown",
-    "roleRaw": "▼Music"
-  },
-  {
-    "songId": "song_Un-Lock feat. 巡音ルカ",
-    "songTitle": "Un-Lock feat. 巡音ルカ",
-    "videoId": "cdw_2hCSYys",
-    "videoTitle": "Un-Lock feat. 巡音ルカ (MEGURINE LUKA) / MuryokuP",
-    "name": "AO",
-    "role": "unknown",
-    "roleRaw": "▼Illustration"
-  },
-  {
-    "songId": "song_Un-Lock feat. 巡音ルカ",
-    "songTitle": "Un-Lock feat. 巡音ルカ",
-    "videoId": "cdw_2hCSYys",
-    "videoTitle": "Un-Lock feat. 巡音ルカ (MEGURINE LUKA) / MuryokuP",
-    "name": "yksb (KAZE Lab)",
-    "role": "unknown",
-    "roleRaw": "▼Video"
-  },
-  {
-    "songId": "song_Un-Lock feat. 巡音ルカ",
-    "songTitle": "Un-Lock feat. 巡音ルカ",
-    "videoId": "cdw_2hCSYys",
-    "videoTitle": "Un-Lock feat. 巡音ルカ (MEGURINE LUKA) / MuryokuP",
-    "name": "ムラタユーサク(TOKYO LOGIC)",
-    "role": "unknown",
-    "roleRaw": "▼Video proposals"
   },
   {
     "songId": "song_相生/初音ミク",
@@ -11313,6 +12348,78 @@
     "roleRaw": "◽️英語字幕作成者(English translator)"
   },
   {
+    "songId": "song_DECO*27 - Journey feat. 初音ミク",
+    "songTitle": "DECO*27 - Journey feat. 初音ミク",
+    "videoId": "BTekXS9d-no",
+    "videoTitle": "DECO*27 - Journey feat. 初音ミク",
+    "name": "OTOIRO",
+    "role": "pvCreator",
+    "roleRaw": "Movie"
+  },
+  {
+    "songId": "song_DECO*27 - Journey feat. 初音ミク",
+    "songTitle": "DECO*27 - Journey feat. 初音ミク",
+    "videoId": "BTekXS9d-no",
+    "videoTitle": "DECO*27 - Journey feat. 初音ミク",
+    "name": "yuka fujii",
+    "role": "pvCreator",
+    "roleRaw": "Director"
+  },
+  {
+    "songId": "song_DECO*27 - Journey feat. 初音ミク",
+    "songTitle": "DECO*27 - Journey feat. 初音ミク",
+    "videoId": "BTekXS9d-no",
+    "videoTitle": "DECO*27 - Journey feat. 初音ミク",
+    "name": "yuka fujii",
+    "role": "unknown",
+    "roleRaw": "Designer"
+  },
+  {
+    "songId": "song_DECO*27 - Journey feat. 初音ミク",
+    "songTitle": "DECO*27 - Journey feat. 初音ミク",
+    "videoId": "BTekXS9d-no",
+    "videoTitle": "DECO*27 - Journey feat. 初音ミク",
+    "name": "おむたつ",
+    "role": "illustrator",
+    "roleRaw": "Illustrator"
+  },
+  {
+    "songId": "song_DECO*27 - Journey feat. 初音ミク",
+    "songTitle": "DECO*27 - Journey feat. 初音ミク",
+    "videoId": "BTekXS9d-no",
+    "videoTitle": "DECO*27 - Journey feat. 初音ミク",
+    "name": "Mitsumi Yanokawa",
+    "role": "pvCreator",
+    "roleRaw": "Composite"
+  },
+  {
+    "songId": "song_DECO*27 - Journey feat. 初音ミク",
+    "songTitle": "DECO*27 - Journey feat. 初音ミク",
+    "videoId": "BTekXS9d-no",
+    "videoTitle": "DECO*27 - Journey feat. 初音ミク",
+    "name": "GA",
+    "role": "pvCreator",
+    "roleRaw": "Composite"
+  },
+  {
+    "songId": "song_DECO*27 - Journey feat. 初音ミク",
+    "songTitle": "DECO*27 - Journey feat. 初音ミク",
+    "videoId": "BTekXS9d-no",
+    "videoTitle": "DECO*27 - Journey feat. 初音ミク",
+    "name": "Iori Majima",
+    "role": "unknown",
+    "roleRaw": "Project Manager"
+  },
+  {
+    "songId": "song_DECO*27 - Journey feat. 初音ミク",
+    "songTitle": "DECO*27 - Journey feat. 初音ミク",
+    "videoId": "BTekXS9d-no",
+    "videoTitle": "DECO*27 - Journey feat. 初音ミク",
+    "name": "Yusuke Sato",
+    "role": "unknown",
+    "roleRaw": "Sound Product Manager"
+  },
+  {
     "songId": "song_ひつじがいっぴき/鏡音リン　MV",
     "songTitle": "ひつじがいっぴき/鏡音リン　MV",
     "videoId": "4J1O5NA8Nek",
@@ -11365,6 +12472,42 @@
     "name": "錦",
     "role": "unknown",
     "roleRaw": "■調声"
+  },
+  {
+    "songId": "song_「君の夜をくれ feat.初音ミク＆巡音ルカ」",
+    "songTitle": "「君の夜をくれ feat.初音ミク＆巡音ルカ」",
+    "videoId": "fwb4qCw5Q1I",
+    "videoTitle": "「君の夜をくれ feat.初音ミク＆巡音ルカ (Lyric Video)」",
+    "name": "DONAI",
+    "role": "unknown",
+    "roleRaw": "ID"
+  },
+  {
+    "songId": "song_「君の夜をくれ feat.初音ミク＆巡音ルカ」",
+    "songTitle": "「君の夜をくれ feat.初音ミク＆巡音ルカ」",
+    "videoId": "fwb4qCw5Q1I",
+    "videoTitle": "「君の夜をくれ feat.初音ミク＆巡音ルカ (Lyric Video)」",
+    "name": "paris44",
+    "role": "unknown",
+    "roleRaw": "PASS"
+  },
+  {
+    "songId": "song_「君の夜をくれ feat.初音ミク＆巡音ルカ」",
+    "songTitle": "「君の夜をくれ feat.初音ミク＆巡音ルカ」",
+    "videoId": "fwb4qCw5Q1I",
+    "videoTitle": "「君の夜をくれ feat.初音ミク＆巡音ルカ (Lyric Video)」",
+    "name": "AA MOVIE",
+    "role": "pvCreator",
+    "roleRaw": "Movie"
+  },
+  {
+    "songId": "song_「君の夜をくれ feat.初音ミク＆巡音ルカ」",
+    "songTitle": "「君の夜をくれ feat.初音ミク＆巡音ルカ」",
+    "videoId": "fwb4qCw5Q1I",
+    "videoTitle": "「君の夜をくれ feat.初音ミク＆巡音ルカ (Lyric Video)」",
+    "name": "Inc.",
+    "role": "pvCreator",
+    "roleRaw": "Movie"
   },
   {
     "songId": "song_Guiano - 私は、私達は",
@@ -11709,42 +12852,6 @@
     "roleRaw": "Captivated"
   },
   {
-    "songId": "song_「君の夜をくれ feat.初音ミク＆巡音ルカ」",
-    "songTitle": "「君の夜をくれ feat.初音ミク＆巡音ルカ」",
-    "videoId": "fwb4qCw5Q1I",
-    "videoTitle": "「君の夜をくれ feat.初音ミク＆巡音ルカ (Lyric Video)」",
-    "name": "DONAI",
-    "role": "unknown",
-    "roleRaw": "ID"
-  },
-  {
-    "songId": "song_「君の夜をくれ feat.初音ミク＆巡音ルカ」",
-    "songTitle": "「君の夜をくれ feat.初音ミク＆巡音ルカ」",
-    "videoId": "fwb4qCw5Q1I",
-    "videoTitle": "「君の夜をくれ feat.初音ミク＆巡音ルカ (Lyric Video)」",
-    "name": "paris44",
-    "role": "unknown",
-    "roleRaw": "PASS"
-  },
-  {
-    "songId": "song_「君の夜をくれ feat.初音ミク＆巡音ルカ」",
-    "songTitle": "「君の夜をくれ feat.初音ミク＆巡音ルカ」",
-    "videoId": "fwb4qCw5Q1I",
-    "videoTitle": "「君の夜をくれ feat.初音ミク＆巡音ルカ (Lyric Video)」",
-    "name": "AA MOVIE",
-    "role": "pvCreator",
-    "roleRaw": "Movie"
-  },
-  {
-    "songId": "song_「君の夜をくれ feat.初音ミク＆巡音ルカ」",
-    "songTitle": "「君の夜をくれ feat.初音ミク＆巡音ルカ」",
-    "videoId": "fwb4qCw5Q1I",
-    "videoTitle": "「君の夜をくれ feat.初音ミク＆巡音ルカ (Lyric Video)」",
-    "name": "Inc.",
-    "role": "pvCreator",
-    "roleRaw": "Movie"
-  },
-  {
     "songId": "song_DREAM PLACE",
     "songTitle": "DREAM PLACE",
     "videoId": "Dr5vN1GgKlo",
@@ -11770,78 +12877,6 @@
     "name": "初音ミク 巡音ルカ 鏡音リン",
     "role": "unknown",
     "roleRaw": "Vocal"
-  },
-  {
-    "songId": "song_DECO*27 - Journey feat. 初音ミク",
-    "songTitle": "DECO*27 - Journey feat. 初音ミク",
-    "videoId": "BTekXS9d-no",
-    "videoTitle": "DECO*27 - Journey feat. 初音ミク",
-    "name": "OTOIRO",
-    "role": "pvCreator",
-    "roleRaw": "Movie"
-  },
-  {
-    "songId": "song_DECO*27 - Journey feat. 初音ミク",
-    "songTitle": "DECO*27 - Journey feat. 初音ミク",
-    "videoId": "BTekXS9d-no",
-    "videoTitle": "DECO*27 - Journey feat. 初音ミク",
-    "name": "yuka fujii",
-    "role": "pvCreator",
-    "roleRaw": "Director"
-  },
-  {
-    "songId": "song_DECO*27 - Journey feat. 初音ミク",
-    "songTitle": "DECO*27 - Journey feat. 初音ミク",
-    "videoId": "BTekXS9d-no",
-    "videoTitle": "DECO*27 - Journey feat. 初音ミク",
-    "name": "yuka fujii",
-    "role": "unknown",
-    "roleRaw": "Designer"
-  },
-  {
-    "songId": "song_DECO*27 - Journey feat. 初音ミク",
-    "songTitle": "DECO*27 - Journey feat. 初音ミク",
-    "videoId": "BTekXS9d-no",
-    "videoTitle": "DECO*27 - Journey feat. 初音ミク",
-    "name": "おむたつ",
-    "role": "illustrator",
-    "roleRaw": "Illustrator"
-  },
-  {
-    "songId": "song_DECO*27 - Journey feat. 初音ミク",
-    "songTitle": "DECO*27 - Journey feat. 初音ミク",
-    "videoId": "BTekXS9d-no",
-    "videoTitle": "DECO*27 - Journey feat. 初音ミク",
-    "name": "Mitsumi Yanokawa",
-    "role": "pvCreator",
-    "roleRaw": "Composite"
-  },
-  {
-    "songId": "song_DECO*27 - Journey feat. 初音ミク",
-    "songTitle": "DECO*27 - Journey feat. 初音ミク",
-    "videoId": "BTekXS9d-no",
-    "videoTitle": "DECO*27 - Journey feat. 初音ミク",
-    "name": "GA",
-    "role": "pvCreator",
-    "roleRaw": "Composite"
-  },
-  {
-    "songId": "song_DECO*27 - Journey feat. 初音ミク",
-    "songTitle": "DECO*27 - Journey feat. 初音ミク",
-    "videoId": "BTekXS9d-no",
-    "videoTitle": "DECO*27 - Journey feat. 初音ミク",
-    "name": "Iori Majima",
-    "role": "unknown",
-    "roleRaw": "Project Manager"
-  },
-  {
-    "songId": "song_DECO*27 - Journey feat. 初音ミク",
-    "songTitle": "DECO*27 - Journey feat. 初音ミク",
-    "videoId": "BTekXS9d-no",
-    "videoTitle": "DECO*27 - Journey feat. 初音ミク",
-    "name": "Yusuke Sato",
-    "role": "unknown",
-    "roleRaw": "Sound Product Manager"
   },
   {
     "songId": "song_八王子P「RAD DOGS feat. 初音ミク・鏡音リン・鏡音レン」",
@@ -12159,6 +13194,69 @@
     "roleRaw": "Mixing"
   },
   {
+    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "videoId": "BPh4m2VnfNo",
+    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "name": "δ428",
+    "role": "unknown",
+    "roleRaw": "《第1部》 MWLÁND"
+  },
+  {
+    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "videoId": "BPh4m2VnfNo",
+    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "name": "15",
+    "role": "unknown",
+    "roleRaw": "open 14"
+  },
+  {
+    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "videoId": "BPh4m2VnfNo",
+    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "name": "00",
+    "role": "unknown",
+    "roleRaw": "start 15"
+  },
+  {
+    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "videoId": "BPh4m2VnfNo",
+    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "name": "45",
+    "role": "unknown",
+    "roleRaw": "open 17"
+  },
+  {
+    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "videoId": "BPh4m2VnfNo",
+    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "name": "30",
+    "role": "unknown",
+    "roleRaw": "start 18"
+  },
+  {
+    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "videoId": "BPh4m2VnfNo",
+    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "name": "shackles",
+    "role": "unknown",
+    "roleRaw": "I’m bound"
+  },
+  {
+    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "videoId": "BPh4m2VnfNo",
+    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
+    "name": "corruption",
+    "role": "unknown",
+    "roleRaw": "I’m bound"
+  },
+  {
     "songId": "song_メタモリボン｜鏡音リン",
     "songTitle": "メタモリボン｜鏡音リン",
     "videoId": "PulLO9CgBE0",
@@ -12240,69 +13338,6 @@
     "roleRaw": "Movie"
   },
   {
-    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "videoId": "BPh4m2VnfNo",
-    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "name": "δ428",
-    "role": "unknown",
-    "roleRaw": "《第1部》 MWLÁND"
-  },
-  {
-    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "videoId": "BPh4m2VnfNo",
-    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "name": "15",
-    "role": "unknown",
-    "roleRaw": "open 14"
-  },
-  {
-    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "videoId": "BPh4m2VnfNo",
-    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "name": "00",
-    "role": "unknown",
-    "roleRaw": "start 15"
-  },
-  {
-    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "videoId": "BPh4m2VnfNo",
-    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "name": "45",
-    "role": "unknown",
-    "roleRaw": "open 17"
-  },
-  {
-    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "videoId": "BPh4m2VnfNo",
-    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "name": "30",
-    "role": "unknown",
-    "roleRaw": "start 18"
-  },
-  {
-    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "videoId": "BPh4m2VnfNo",
-    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "name": "shackles",
-    "role": "unknown",
-    "roleRaw": "I’m bound"
-  },
-  {
-    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "videoId": "BPh4m2VnfNo",
-    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "name": "corruption",
-    "role": "unknown",
-    "roleRaw": "I’m bound"
-  },
-  {
     "songId": "song_Chinozo 'Flyer!' feat.FloweR",
     "songTitle": "Chinozo 'Flyer!' feat.FloweR",
     "videoId": "nfpYhYtHuKo",
@@ -12328,6 +13363,51 @@
     "name": "kakeyan",
     "role": "unknown",
     "roleRaw": "■Bass"
+  },
+  {
+    "songId": "song_ぬゆり - ロウワー",
+    "songTitle": "ぬゆり - ロウワー",
+    "videoId": "3sEptl-psU0",
+    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
+    "name": "春私宜",
+    "role": "unknown",
+    "roleRaw": "■Illustration"
+  },
+  {
+    "songId": "song_ぬゆり - ロウワー",
+    "songTitle": "ぬゆり - ロウワー",
+    "videoId": "3sEptl-psU0",
+    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
+    "name": "みず希",
+    "role": "unknown",
+    "roleRaw": "■Movie"
+  },
+  {
+    "songId": "song_ぬゆり - ロウワー",
+    "songTitle": "ぬゆり - ロウワー",
+    "videoId": "3sEptl-psU0",
+    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
+    "name": "いちた",
+    "role": "unknown",
+    "roleRaw": "■Guitar"
+  },
+  {
+    "songId": "song_ぬゆり - ロウワー",
+    "songTitle": "ぬゆり - ロウワー",
+    "videoId": "3sEptl-psU0",
+    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
+    "name": "中村涼真",
+    "role": "unknown",
+    "roleRaw": "■Mix"
+  },
+  {
+    "songId": "song_ぬゆり - ロウワー",
+    "songTitle": "ぬゆり - ロウワー",
+    "videoId": "3sEptl-psU0",
+    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
+    "name": "ぬゆり",
+    "role": "unknown",
+    "roleRaw": "■Music"
   },
   {
     "songId": "song_【鏡音リンレン】にっこり^^調査隊のテーマ【ワンオポ/OriginalMV】",
@@ -12535,51 +13615,6 @@
     "name": "友達募集P",
     "role": "unknown",
     "roleRaw": "Mix"
-  },
-  {
-    "songId": "song_ぬゆり - ロウワー",
-    "songTitle": "ぬゆり - ロウワー",
-    "videoId": "3sEptl-psU0",
-    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
-    "name": "春私宜",
-    "role": "unknown",
-    "roleRaw": "■Illustration"
-  },
-  {
-    "songId": "song_ぬゆり - ロウワー",
-    "songTitle": "ぬゆり - ロウワー",
-    "videoId": "3sEptl-psU0",
-    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
-    "name": "みず希",
-    "role": "unknown",
-    "roleRaw": "■Movie"
-  },
-  {
-    "songId": "song_ぬゆり - ロウワー",
-    "songTitle": "ぬゆり - ロウワー",
-    "videoId": "3sEptl-psU0",
-    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
-    "name": "いちた",
-    "role": "unknown",
-    "roleRaw": "■Guitar"
-  },
-  {
-    "songId": "song_ぬゆり - ロウワー",
-    "songTitle": "ぬゆり - ロウワー",
-    "videoId": "3sEptl-psU0",
-    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
-    "name": "中村涼真",
-    "role": "unknown",
-    "roleRaw": "■Mix"
-  },
-  {
-    "songId": "song_ぬゆり - ロウワー",
-    "songTitle": "ぬゆり - ロウワー",
-    "videoId": "3sEptl-psU0",
-    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
-    "name": "ぬゆり",
-    "role": "unknown",
-    "roleRaw": "■Music"
   },
   {
     "songId": "song_ショウタイム・ルーラー/鏡音リン",
@@ -13126,78 +14161,6 @@
     "songTitle": "限りなく灰色へ",
     "videoId": "cwLlHFMlBNQ",
     "videoTitle": "限りなく灰色へ / すりぃ feat.鏡音レン",
-    "name": "１Fスタンディング 5",
-    "role": "unknown",
-    "roleRaw": "■先行限定早割チケット(3月22日(日)23:59まで)"
-  },
-  {
-    "songId": "song_限りなく灰色へ",
-    "songTitle": "限りなく灰色へ",
-    "videoId": "cwLlHFMlBNQ",
-    "videoTitle": "限りなく灰色へ / すりぃ feat.鏡音レン",
-    "name": "300円",
-    "role": "unknown",
-    "roleRaw": "■先行限定早割チケット(3月22日(日)23:59まで)"
-  },
-  {
-    "songId": "song_限りなく灰色へ",
-    "songTitle": "限りなく灰色へ",
-    "videoId": "cwLlHFMlBNQ",
-    "videoTitle": "限りなく灰色へ / すりぃ feat.鏡音レン",
-    "name": "2F･３F 指定席 5",
-    "role": "unknown",
-    "roleRaw": "■先行限定早割チケット(3月22日(日)23:59まで)"
-  },
-  {
-    "songId": "song_限りなく灰色へ",
-    "songTitle": "限りなく灰色へ",
-    "videoId": "cwLlHFMlBNQ",
-    "videoTitle": "限りなく灰色へ / すりぃ feat.鏡音レン",
-    "name": "800円",
-    "role": "unknown",
-    "roleRaw": "■先行限定早割チケット(3月22日(日)23:59まで)"
-  },
-  {
-    "songId": "song_限りなく灰色へ",
-    "songTitle": "限りなく灰色へ",
-    "videoId": "cwLlHFMlBNQ",
-    "videoTitle": "限りなく灰色へ / すりぃ feat.鏡音レン",
-    "name": "１Fスタンディング 5",
-    "role": "unknown",
-    "roleRaw": "■通常チケット"
-  },
-  {
-    "songId": "song_限りなく灰色へ",
-    "songTitle": "限りなく灰色へ",
-    "videoId": "cwLlHFMlBNQ",
-    "videoTitle": "限りなく灰色へ / すりぃ feat.鏡音レン",
-    "name": "800円",
-    "role": "unknown",
-    "roleRaw": "■通常チケット"
-  },
-  {
-    "songId": "song_限りなく灰色へ",
-    "songTitle": "限りなく灰色へ",
-    "videoId": "cwLlHFMlBNQ",
-    "videoTitle": "限りなく灰色へ / すりぃ feat.鏡音レン",
-    "name": "2F･３F 指定席 6",
-    "role": "unknown",
-    "roleRaw": "■通常チケット"
-  },
-  {
-    "songId": "song_限りなく灰色へ",
-    "songTitle": "限りなく灰色へ",
-    "videoId": "cwLlHFMlBNQ",
-    "videoTitle": "限りなく灰色へ / すりぃ feat.鏡音レン",
-    "name": "300円",
-    "role": "unknown",
-    "roleRaw": "■通常チケット"
-  },
-  {
-    "songId": "song_限りなく灰色へ",
-    "songTitle": "限りなく灰色へ",
-    "videoId": "cwLlHFMlBNQ",
-    "videoTitle": "限りなく灰色へ / すりぃ feat.鏡音レン",
     "name": "2026年10月17日(土) OPEN 17:00",
     "role": "unknown",
     "roleRaw": "■日時"
@@ -13219,42 +14182,6 @@
     "name": "GORILLA HALL OSAKA",
     "role": "unknown",
     "roleRaw": "■会場"
-  },
-  {
-    "songId": "song_限りなく灰色へ",
-    "songTitle": "限りなく灰色へ",
-    "videoId": "cwLlHFMlBNQ",
-    "videoTitle": "限りなく灰色へ / すりぃ feat.鏡音レン",
-    "name": "スタンディング 5",
-    "role": "unknown",
-    "roleRaw": "■先行限定早割チケット(3月22日(日)23:59まで)"
-  },
-  {
-    "songId": "song_限りなく灰色へ",
-    "songTitle": "限りなく灰色へ",
-    "videoId": "cwLlHFMlBNQ",
-    "videoTitle": "限りなく灰色へ / すりぃ feat.鏡音レン",
-    "name": "300円",
-    "role": "unknown",
-    "roleRaw": "■先行限定早割チケット(3月22日(日)23:59まで)"
-  },
-  {
-    "songId": "song_限りなく灰色へ",
-    "songTitle": "限りなく灰色へ",
-    "videoId": "cwLlHFMlBNQ",
-    "videoTitle": "限りなく灰色へ / すりぃ feat.鏡音レン",
-    "name": "１Fスタンディング 5",
-    "role": "unknown",
-    "roleRaw": "■通常チケット"
-  },
-  {
-    "songId": "song_限りなく灰色へ",
-    "songTitle": "限りなく灰色へ",
-    "videoId": "cwLlHFMlBNQ",
-    "videoTitle": "限りなく灰色へ / すりぃ feat.鏡音レン",
-    "name": "800円",
-    "role": "unknown",
-    "roleRaw": "■通常チケット"
   },
   {
     "songId": "song_限りなく灰色へ",
@@ -13309,6 +14236,33 @@
     "name": "たま",
     "role": "pvCreator",
     "roleRaw": "動画"
+  },
+  {
+    "songId": "song_Forward/R Sound Design feat. 初音ミク",
+    "songTitle": "Forward/R Sound Design feat. 初音ミク",
+    "videoId": "crCS77wqxTI",
+    "videoTitle": "Forward/R Sound Design feat. 初音ミク",
+    "name": "BerryVerrine",
+    "role": "illustrator",
+    "roleRaw": "Illustration"
+  },
+  {
+    "songId": "song_Forward/R Sound Design feat. 初音ミク",
+    "songTitle": "Forward/R Sound Design feat. 初音ミク",
+    "videoId": "crCS77wqxTI",
+    "videoTitle": "Forward/R Sound Design feat. 初音ミク",
+    "name": "koshi-kun",
+    "role": "pvCreator",
+    "roleRaw": "Movie"
+  },
+  {
+    "songId": "song_Forward/R Sound Design feat. 初音ミク",
+    "songTitle": "Forward/R Sound Design feat. 初音ミク",
+    "videoId": "crCS77wqxTI",
+    "videoTitle": "Forward/R Sound Design feat. 初音ミク",
+    "name": "R",
+    "role": "unknown",
+    "roleRaw": "詞"
   },
   {
     "songId": "song_ニジイロストーリーズ- OSTER project",
@@ -13383,33 +14337,6 @@
     "roleRaw": "Vocal"
   },
   {
-    "songId": "song_Forward/R Sound Design feat. 初音ミク",
-    "songTitle": "Forward/R Sound Design feat. 初音ミク",
-    "videoId": "crCS77wqxTI",
-    "videoTitle": "Forward/R Sound Design feat. 初音ミク",
-    "name": "BerryVerrine",
-    "role": "illustrator",
-    "roleRaw": "Illustration"
-  },
-  {
-    "songId": "song_Forward/R Sound Design feat. 初音ミク",
-    "songTitle": "Forward/R Sound Design feat. 初音ミク",
-    "videoId": "crCS77wqxTI",
-    "videoTitle": "Forward/R Sound Design feat. 初音ミク",
-    "name": "koshi-kun",
-    "role": "pvCreator",
-    "roleRaw": "Movie"
-  },
-  {
-    "songId": "song_Forward/R Sound Design feat. 初音ミク",
-    "songTitle": "Forward/R Sound Design feat. 初音ミク",
-    "videoId": "crCS77wqxTI",
-    "videoTitle": "Forward/R Sound Design feat. 初音ミク",
-    "name": "R",
-    "role": "unknown",
-    "roleRaw": "詞"
-  },
-  {
     "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
     "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
     "videoId": "B2llCEKbxwA",
@@ -13450,18 +14377,171 @@
     "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
     "videoId": "B2llCEKbxwA",
     "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "name": "4",
+    "name": "l-tike.com",
     "role": "unknown",
-    "roleRaw": "受付期間"
+    "roleRaw": "ローソンチケット"
   },
   {
     "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
     "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
     "videoId": "B2llCEKbxwA",
     "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "name": "27(月)23:59まで",
+    "name": "syudou",
     "role": "unknown",
-    "roleRaw": "受付期間"
+    "roleRaw": "ローソンチケット"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "w.pia.jp",
+    "role": "unknown",
+    "roleRaw": "チケットぴあ"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "t",
+    "role": "unknown",
+    "roleRaw": "チケットぴあ"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "syudou-t",
+    "role": "unknown",
+    "roleRaw": "チケットぴあ"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "eplus.jp",
+    "role": "unknown",
+    "roleRaw": "イープラス"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "syudou",
+    "role": "unknown",
+    "roleRaw": "イープラス"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "Kanadevia Hall",
+    "role": "unknown",
+    "roleRaw": "東京"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "00",
+    "role": "unknown",
+    "roleRaw": "開場 16"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "8",
+    "role": "unknown",
+    "roleRaw": "チケット"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "500円（全席指定",
+    "role": "unknown",
+    "roleRaw": "チケット"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "ドリンク代別）",
+    "role": "unknown",
+    "roleRaw": "チケット"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "syudou",
+    "role": "unknown",
+    "roleRaw": "出演者"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "Dannie May",
+    "role": "unknown",
+    "roleRaw": "出演者"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "浪漫派マシュマロ",
+    "role": "unknown",
+    "roleRaw": "出演者"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "マヂカルラブリー",
+    "role": "unknown",
+    "roleRaw": "出演者"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "オズワルド",
+    "role": "unknown",
+    "roleRaw": "出演者"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "7",
+    "role": "unknown",
+    "roleRaw": "受付"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "12(日) 23:59まで",
+    "role": "unknown",
+    "roleRaw": "受付"
   },
   {
     "songId": "song_Giga - 'Ready Steady' ft. 初音ミク・鏡音リン・鏡音レン【MV】",

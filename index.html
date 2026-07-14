@@ -313,11 +313,14 @@
     /* Search bar */
     .search-bar {
       position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 8px;
     }
 
     .search-bar input {
       width: 100%;
-      padding: 15px 16px 15px 42px;
+      padding: 22px 42px 9px;
       background: var(--bg-card);
       border: 1px solid var(--border);
       border-radius: 16px;
@@ -341,11 +344,48 @@
     .search-bar .search-icon {
       position: absolute;
       left: 16px;
-      top: 50%;
+      top: 58%;
       transform: translateY(-50%);
       color: var(--text-muted);
       font-size: 14px;
     }
+
+    .search-label {
+      position: absolute;
+      z-index: 1;
+      left: 42px;
+      top: 6px;
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--accent-blue);
+      letter-spacing: 0.5px;
+    }
+
+    .clear-button, .sidebar-clear {
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      border-radius: 12px;
+      padding: 0 14px;
+      font: inherit;
+      cursor: pointer;
+    }
+
+    .clear-button:hover, .sidebar-clear:hover { border-color: var(--accent-blue); color: var(--accent-blue); }
+    .clear-button:disabled { opacity: 0.45; cursor: default; }
+    .sidebar-clear { width: 100%; min-height: 34px; margin-bottom: 14px; }
+
+    .filter-summary {
+      display: none;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+
+    .filter-summary.visible { display: flex; }
+    .filter-chip { padding: 4px 8px; border-radius: 999px; background: #eef5ff; color: var(--accent-blue); }
 
     /* Results info */
     .results-info {
@@ -745,6 +785,13 @@
       transform: rotate(90deg);
     }
 
+    button.expand-arrow {
+      border: 0;
+      background: transparent;
+      padding: 6px;
+      cursor: pointer;
+    }
+
     /* Detail panel */
     .song-detail {
       display: none;
@@ -1019,13 +1066,19 @@
       user-select: none;
     }
 
-    .list-header span {
+    .sort-button {
+      padding: 0;
+      border: 0;
+      background: transparent;
+      color: inherit;
+      font: inherit;
+      text-transform: inherit;
+      letter-spacing: inherit;
+      text-align: inherit;
       cursor: pointer;
     }
 
-    .list-header span:hover {
-      color: var(--text-secondary);
-    }
+    .sort-button:hover, .sort-button:focus-visible { color: var(--text-secondary); }
 
     .sort-indicator {
       font-size: 10px;
@@ -1195,6 +1248,7 @@
       <div class="header-nav">
         <a class="nav-link active" href="index.html">🎵 歌曲列表</a>
         <a class="nav-link" href="video_viewer.html">📺 视频列表</a>
+        <a class="nav-link" href="editor.html">🛠️ 编辑工具</a>
       </div>
       <div class="stats-bar">
         <div class="stat">歌曲 <span class="stat-num" id="stat-total">-</span></div>
@@ -1205,6 +1259,7 @@
 
   <div class="app">
     <aside class="sidebar" id="sidebar">
+      <button class="sidebar-clear" id="clear-filters-btn" type="button">清空筛选</button>
       <h3>团队 / 标签</h3>
       <div class="filter-group" id="tag-filters"></div>
       <h3>MV 类型</h3>
@@ -1219,9 +1274,12 @@
 
     <main class="main">
       <div class="search-bar">
+        <label class="search-label" for="search-input">搜索歌曲</label>
         <span class="search-icon">🔍</span>
         <input type="text" id="search-input" placeholder="搜索歌名、创作者、别称、Staff、版本..." autocomplete="off">
+        <button class="clear-button" id="clear-search-btn" type="button" disabled>清空</button>
       </div>
+      <div class="filter-summary" id="filter-summary" aria-live="polite"></div>
       <section class="staff-stats-panel" id="staff-stats-panel">
         <div class="staff-stats-header">
           <div class="staff-stats-title">Staff 统计</div>
@@ -1232,12 +1290,12 @@
       <div class="results-info" id="results-info"></div>
       <section class="table-shell">
         <div class="list-header">
-          <span data-sort="id">ID <span class="sort-indicator" id="sort-id">▲</span></span>
-          <span data-sort="title">歌名 <span class="sort-indicator" id="sort-title"></span></span>
+          <span role="columnheader" aria-sort="ascending"><button class="sort-button" data-sort="id">ID <span class="sort-indicator" id="sort-id">▲</span></button></span>
+          <span role="columnheader"><button class="sort-button" data-sort="title">歌名 <span class="sort-indicator" id="sort-title"></span></button></span>
           <span>标签</span>
           <span>MV类型</span>
-          <span data-sort="publishedAt" style="text-align:right">实装时间 <span class="sort-indicator"
-              id="sort-publishedAt"></span></span>
+          <span role="columnheader" style="text-align:right"><button class="sort-button" data-sort="publishedAt">实装时间 <span class="sort-indicator"
+              id="sort-publishedAt"></span></button></span>
           <span></span>
         </div>
         <div id="song-list" class="song-list">
@@ -1919,7 +1977,7 @@
         <div class="song-tags">${tagsHtml}</div>
         <div class="song-categories">${catsHtml}</div>
         <div class="song-date">${formatDate(s.publishedAt)}</div>
-        <div class="expand-arrow">▶</div>
+        <button class="expand-arrow" type="button" aria-expanded="false" aria-label="展开歌曲 ${esc(s.title)} 的详情">▶</button>
       </div>`;
     }
 
@@ -1954,30 +2012,70 @@
       }
     }
 
-    function bindListClick(container) {
-      container.onclick = (e) => {
-        const row = e.target.closest('.song-row');
-        if (!row) return;
+    function toggleSongRow(row, container) {
         const id = parseInt(row.dataset.id);
 
         if (expandedId === id) {
           expandedId = null;
           row.classList.remove('expanded');
+          row.querySelector('.expand-arrow')?.setAttribute('aria-expanded', 'false');
           const detail = document.getElementById(`detail-${id}`);
           if (detail) detail.remove();
         } else {
           if (expandedId !== null) {
             const prevRow = container.querySelector(`.song-row[data-id="${expandedId}"]`);
-            if (prevRow) prevRow.classList.remove('expanded');
+            if (prevRow) {
+              prevRow.classList.remove('expanded');
+              prevRow.querySelector('.expand-arrow')?.setAttribute('aria-expanded', 'false');
+            }
             const prevDetail = document.getElementById(`detail-${expandedId}`);
             if (prevDetail) prevDetail.remove();
           }
           expandedId = id;
           row.classList.add('expanded');
+          row.querySelector('.expand-arrow')?.setAttribute('aria-expanded', 'true');
           const s = songMap[id];
           if (s) row.insertAdjacentHTML('afterend', buildDetailHtml(s));
         }
+    }
+
+    function bindListClick(container) {
+      container.onclick = (e) => {
+        if (e.target.closest('a')) return;
+        const row = e.target.closest('.song-row');
+        if (row) toggleSongRow(row, container);
       };
+      container.onkeydown = (e) => {
+        if ((e.key !== 'Enter' && e.key !== ' ') || !e.target.closest('.expand-arrow')) return;
+        const row = e.target.closest('.song-row');
+        if (!row) return;
+        e.preventDefault();
+        toggleSongRow(row, container);
+      };
+    }
+
+    function clearAllFilters() {
+      Object.values(activeFilters).forEach(set => set.clear());
+      renderFilters();
+      applyFilters();
+    }
+
+    function updateFilterSummary(q) {
+      const summary = document.getElementById('filter-summary');
+      const labels = [];
+      if (q) labels.push(`搜索：${q}`);
+      Object.values(activeFilters).forEach(values => {
+        values.forEach(value => {
+          const label = TAG_CONFIG[value]?.label || CAT_LABELS[value] || VOCAL_LABELS[value]
+            || VIDEO_VERSION_CONFIG[value]?.label || STAFF_ROLE_CONFIG[value]?.label || value;
+          labels.push(label);
+        });
+      });
+      summary.innerHTML = labels.length
+        ? `<strong>当前条件</strong>${labels.map(label => `<span class="filter-chip">${esc(label)}</span>`).join('')}`
+        : '';
+      summary.classList.toggle('visible', labels.length > 0);
+      document.getElementById('clear-search-btn').disabled = !q;
     }
 
     function updateBackToTopButton() {
@@ -1998,6 +2096,7 @@
 
     function applyFilters() {
       const q = document.getElementById('search-input').value.toLowerCase().trim();
+      updateFilterSummary(q);
       filteredSongs = allSongs.filter(s => {
         if (q) {
           const fields = [
@@ -2042,10 +2141,10 @@
       if (handleFileProtocolAccess()) return;
       try {
         const [resp, databaseResp, gameCharactersResp, outsideCharactersResp] = await Promise.all([
-          fetch('output/combined_music_data.json'),
-          fetch('output/database_v2.json').catch(() => null),
-          fetch('sekai-master-db-diff-main/gameCharacters.json').catch(() => null),
-          fetch('sekai-master-db-diff-main/outsideCharacters.json').catch(() => null),
+          fetch('output/combined_music_data.json', { cache: 'no-store' }),
+          fetch('output/database_v2.json', { cache: 'no-store' }).catch(() => null),
+          fetch('sekai-master-db-diff-main/gameCharacters.json', { cache: 'no-store' }).catch(() => null),
+          fetch('sekai-master-db-diff-main/outsideCharacters.json', { cache: 'no-store' }).catch(() => null),
         ]);
         const baseSongs = await resp.json();
         let databaseV2 = null;
@@ -2073,7 +2172,7 @@
       }
       // Load alias data
       try {
-        const aliasResp = await fetch('output/aliases.json');
+        const aliasResp = await fetch('output/aliases.json', { cache: 'no-store' });
         const aliasData = await aliasResp.json();
         Object.entries(aliasData).forEach(([id, aliasList]) => {
           aliasMap[parseInt(id)] = Array.isArray(aliasList) ? aliasList : [];
@@ -2088,14 +2187,22 @@
 
       let timer;
       document.getElementById('search-input').addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(applyFilters, 200); });
+      document.getElementById('clear-search-btn').addEventListener('click', () => {
+        document.getElementById('search-input').value = '';
+        applyFilters();
+        document.getElementById('search-input').focus();
+      });
+      document.getElementById('clear-filters-btn').addEventListener('click', clearAllFilters);
 
-      document.querySelectorAll('.list-header span[data-sort]').forEach(el => {
+      document.querySelectorAll('.sort-button[data-sort]').forEach(el => {
         el.addEventListener('click', () => {
           const f = el.dataset.sort;
           if (sortField === f) sortAsc = !sortAsc; else { sortField = f; sortAsc = true; }
           document.querySelectorAll('.sort-indicator').forEach(si => si.textContent = '');
           const ind = document.getElementById(`sort-${f}`);
           if (ind) ind.textContent = sortAsc ? '▲' : '▼';
+          document.querySelectorAll('.list-header [role="columnheader"]').forEach(header => header.removeAttribute('aria-sort'));
+          el.closest('[role="columnheader"]')?.setAttribute('aria-sort', sortAsc ? 'ascending' : 'descending');
           applyFilters();
         });
       });
