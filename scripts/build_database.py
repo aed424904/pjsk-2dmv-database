@@ -1181,7 +1181,8 @@ class DatabaseBuilder:
 
         # 按歌曲名分组视频
         songs_dict = {}
-        for video in self.youtube_data['videos']:
+        for source_video in self.youtube_data['videos']:
+            video = self.apply_original_video_override(source_video)
             song_title = video.get('songTitle') or self.extract_song_title(video['title'])
 
             if song_title not in songs_dict:

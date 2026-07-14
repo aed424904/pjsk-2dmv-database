@@ -4,10 +4,46 @@
     "notes": "用于覆写已存在于 playlist 中的视频字段，例如 performers。"
   },
   "videos": {
+    "MS1JmGKrdFo": { "songTitle": "羽歌" },
+    "MlTQUSFr-gw": { "songTitle": "幸福刑" },
+    "Wu8WtrTCX-Q": { "songTitle": "花結び" },
+    "y8sa2X_aZXQ": { "songTitle": "飾って" },
+    "Pr4OUUAXbZI": { "songTitle": "アイリッド" },
+    "T1K831KdL1o": { "songTitle": "光線歌" },
+    "WfEY62WVPCc": { "songTitle": "イレヴンス" },
+    "j9RGt9Z_UeE": { "songTitle": "D/N/A" },
+    "eVfppbSqACQ": { "songTitle": "アンチユー" },
+    "MJa46AEGMb4": { "songTitle": "ヘイヴン" },
+    "n9xeDxXE4Jc": { "songTitle": "フューエル" },
+    "y7uFVdBluns": { "songTitle": "熱風" },
+    "D4FWxIn3sHU": { "songTitle": "夏夜ノ唄" },
+    "7-A2FC4q4ac": { "songTitle": "嬢王" },
+    "EEk4JGzqoFg": { "songTitle": "私は雨" },
+    "hr_w8F_YeXM": { "songTitle": "limbo" },
+    "b2Di3kFGAUM": { "songTitle": "NEO" },
+    "Ws3B-ozOXDU": { "songTitle": "相生" },
+    "akO2mUie1Ds": { "songTitle": "下剋上" },
+    "pRZwLHrMsvM": { "songTitle": "リアライズ" },
+    "Fo3qg44Rn6Q": { "songTitle": "星を繋ぐ" },
+    "p6snD1650ck": { "songTitle": "ÅMARA(大未来電脳)" },
+    "POD_KGL2aqQ": { "songTitle": "仮死化" },
+    "QYpL88jiWFs": { "songTitle": "Iなんです" },
     "03IyS_9Dt0g": {
+      "songTitle": "てらてら",
       "performers": [
         "初音ミク"
       ]
-    }
+    },
+    "FkO8ub83wss": { "songTitle": "バグ" },
+    "Xt1x1s2eAno": { "songTitle": "イフ" },
+    "mKfwzOgorXs": { "songTitle": "ノマド" },
+    "3sEptl-psU0": { "songTitle": "ロウワー" },
+    "zTokBPAXHW4": { "songTitle": "ミライ" },
+    "sgZjbk9eH6g": { "songTitle": "群青讃歌" },
+    "purlnb5K_jM": { "songTitle": "再生" },
+    "fobQOAOAdoE": { "songTitle": "「１」" },
+    "wvlUWjqGQSA": { "songTitle": "霽れを待つ" },
+    "bNagYg_YGbU": { "songTitle": "携帯恋話" },
+    "9vyIPWBeRes": { "songTitle": "セカイ" }
   }
 }

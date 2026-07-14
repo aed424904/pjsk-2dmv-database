@@ -1242,6 +1242,78 @@
     "roleRaw": "動画"
   },
   {
+    "songId": "song_花結び",
+    "songTitle": "花結び",
+    "videoId": "Wu8WtrTCX-Q",
+    "videoTitle": "花結び／Flower＆重音テトSV",
+    "name": "#vflower",
+    "role": "unknown",
+    "roleRaw": "MAIN VOCAL"
+  },
+  {
+    "songId": "song_花結び",
+    "songTitle": "花結び",
+    "videoId": "Wu8WtrTCX-Q",
+    "videoTitle": "花結び／Flower＆重音テトSV",
+    "name": "#重音テト",
+    "role": "unknown",
+    "roleRaw": "MAIN VOCAL"
+  },
+  {
+    "songId": "song_花結び",
+    "songTitle": "花結び",
+    "videoId": "Wu8WtrTCX-Q",
+    "videoTitle": "花結び／Flower＆重音テトSV",
+    "name": "#栗山夕璃",
+    "role": "unknown",
+    "roleRaw": "▼Lyrics"
+  },
+  {
+    "songId": "song_花結び",
+    "songTitle": "花結び",
+    "videoId": "Wu8WtrTCX-Q",
+    "videoTitle": "花結び／Flower＆重音テトSV",
+    "name": "sakiyama",
+    "role": "unknown",
+    "roleRaw": "▽Illustration"
+  },
+  {
+    "songId": "song_花結び",
+    "songTitle": "花結び",
+    "videoId": "Wu8WtrTCX-Q",
+    "videoTitle": "花結び／Flower＆重音テトSV",
+    "name": "tmsw",
+    "role": "unknown",
+    "roleRaw": "▼Bass"
+  },
+  {
+    "songId": "song_花結び",
+    "songTitle": "花結び",
+    "videoId": "Wu8WtrTCX-Q",
+    "videoTitle": "花結び／Flower＆重音テトSV",
+    "name": "長崎",
+    "role": "unknown",
+    "roleRaw": "▽Guitar"
+  },
+  {
+    "songId": "song_花結び",
+    "songTitle": "花結び",
+    "videoId": "Wu8WtrTCX-Q",
+    "videoTitle": "花結び／Flower＆重音テトSV",
+    "name": "Banken",
+    "role": "unknown",
+    "roleRaw": "▼Piano"
+  },
+  {
+    "songId": "song_花結び",
+    "songTitle": "花結び",
+    "videoId": "Wu8WtrTCX-Q",
+    "videoTitle": "花結び／Flower＆重音テトSV",
+    "name": "裕木 レオン",
+    "role": "unknown",
+    "roleRaw": "▽Drums"
+  },
+  {
     "songId": "song_ファイター",
     "songTitle": "ファイター",
     "videoId": "lG_XfyebmoI",
@@ -1683,6 +1755,132 @@
     "roleRaw": "制作協力"
   },
   {
+    "songId": "song_飾って",
+    "songTitle": "飾って",
+    "videoId": "y8sa2X_aZXQ",
+    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
+    "name": "RiU. (THINKR)",
+    "role": "pvCreator",
+    "roleRaw": "Director"
+  },
+  {
+    "songId": "song_飾って",
+    "songTitle": "飾って",
+    "videoId": "y8sa2X_aZXQ",
+    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
+    "name": "RiU. (THINKR)",
+    "role": "unknown",
+    "roleRaw": "Animation Director"
+  },
+  {
+    "songId": "song_飾って",
+    "songTitle": "飾って",
+    "videoId": "y8sa2X_aZXQ",
+    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
+    "name": "RiU. (THINKR)",
+    "role": "unknown",
+    "roleRaw": "Character Design"
+  },
+  {
+    "songId": "song_飾って",
+    "songTitle": "飾って",
+    "videoId": "y8sa2X_aZXQ",
+    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
+    "name": "RiU. (THINKR)",
+    "role": "unknown",
+    "roleRaw": "Key Animation"
+  },
+  {
+    "songId": "song_飾って",
+    "songTitle": "飾って",
+    "videoId": "y8sa2X_aZXQ",
+    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
+    "name": "STUDIO TOKORO",
+    "role": "unknown",
+    "roleRaw": "Key Animation"
+  },
+  {
+    "songId": "song_飾って",
+    "songTitle": "飾って",
+    "videoId": "y8sa2X_aZXQ",
+    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
+    "name": "Shin",
+    "role": "unknown",
+    "roleRaw": "Key Animation"
+  },
+  {
+    "songId": "song_飾って",
+    "songTitle": "飾って",
+    "videoId": "y8sa2X_aZXQ",
+    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
+    "name": "xwx",
+    "role": "unknown",
+    "roleRaw": "Key Animation"
+  },
+  {
+    "songId": "song_飾って",
+    "songTitle": "飾って",
+    "videoId": "y8sa2X_aZXQ",
+    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
+    "name": "STUDIO TOKORO",
+    "role": "unknown",
+    "roleRaw": "Animaton"
+  },
+  {
+    "songId": "song_飾って",
+    "songTitle": "飾って",
+    "videoId": "y8sa2X_aZXQ",
+    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
+    "name": "Fincrossed studio",
+    "role": "unknown",
+    "roleRaw": "Animaton"
+  },
+  {
+    "songId": "song_飾って",
+    "songTitle": "飾って",
+    "videoId": "y8sa2X_aZXQ",
+    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
+    "name": "komadori",
+    "role": "unknown",
+    "roleRaw": "Background Art"
+  },
+  {
+    "songId": "song_飾って",
+    "songTitle": "飾って",
+    "videoId": "y8sa2X_aZXQ",
+    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
+    "name": "Liz LEE",
+    "role": "unknown",
+    "roleRaw": "Graphic Design"
+  },
+  {
+    "songId": "song_飾って",
+    "songTitle": "飾って",
+    "videoId": "y8sa2X_aZXQ",
+    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
+    "name": "RiU. (THINKR)",
+    "role": "unknown",
+    "roleRaw": "Editing"
+  },
+  {
+    "songId": "song_飾って",
+    "songTitle": "飾って",
+    "videoId": "y8sa2X_aZXQ",
+    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
+    "name": "colaka",
+    "role": "unknown",
+    "roleRaw": "Special Thanks"
+  },
+  {
+    "songId": "song_飾って",
+    "songTitle": "飾って",
+    "videoId": "y8sa2X_aZXQ",
+    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
+    "name": "Kei Terayama (THINKR)",
+    "role": "unknown",
+    "roleRaw": "Producer"
+  },
+  {
     "songId": "song_アクセラレイト",
     "songTitle": "アクセラレイト",
     "videoId": "b_EcPgJ7Fnk",
@@ -1809,6 +2007,204 @@
     "roleRaw": "制作協力"
   },
   {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "knock",
+    "role": "unknown",
+    "roleRaw": "■ Direction"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "knock",
+    "role": "animation",
+    "roleRaw": "Animation"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "尾崎伊万里",
+    "role": "unknown",
+    "roleRaw": "■ Concept Art"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "尾崎伊万里",
+    "role": "cg3d",
+    "roleRaw": "3DCG"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "StudioXD（スタジオ プリコンポーズ）",
+    "role": "unknown",
+    "roleRaw": "■ Animation Assistant"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "△",
+    "role": "unknown",
+    "roleRaw": "■ In Between Animator"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "sima",
+    "role": "unknown",
+    "roleRaw": "■ In Between Animator"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "Wild_Drink（スタジオ プリコンポーズ）",
+    "role": "unknown",
+    "roleRaw": "■ Painter"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "umu",
+    "role": "unknown",
+    "roleRaw": "■ Painter"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "おかざきおか",
+    "role": "unknown",
+    "roleRaw": "■ Silhouette Animation"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "Planete",
+    "role": "unknown",
+    "roleRaw": "■ Compositing Direction"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "Planete",
+    "role": "cg3d",
+    "roleRaw": "3DCG"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "ポケット梨子",
+    "role": "unknown",
+    "roleRaw": "■ Compositing"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "ポケット梨子",
+    "role": "cg3d",
+    "roleRaw": "3DCG"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "千石まよひ",
+    "role": "unknown",
+    "roleRaw": "■ Compositing"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "tyao",
+    "role": "unknown",
+    "roleRaw": "■ Compositing Produce"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "Lye",
+    "role": "unknown",
+    "roleRaw": "■ Graphic Design"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "Lye",
+    "role": "cg3d",
+    "roleRaw": "3DCG"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "YUUKI MIYAKE",
+    "role": "unknown",
+    "roleRaw": "■ Guitar"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "タナカ ユウダイ(ユアネス)",
+    "role": "unknown",
+    "roleRaw": "■ Bass"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "中村涼真",
+    "role": "unknown",
+    "roleRaw": "■ Mix"
+  },
+  {
+    "songId": "song_アイリッド",
+    "songTitle": "アイリッド",
+    "videoId": "Pr4OUUAXbZI",
+    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
+    "name": "ぬゆり",
+    "role": "unknown",
+    "roleRaw": "■ Music"
+  },
+  {
     "songId": "song_needLe",
     "songTitle": "needLe",
     "videoId": "yaTU-vstAIc",
@@ -1861,6 +2257,33 @@
     "name": "omu",
     "role": "pvCreator",
     "roleRaw": "動画"
+  },
+  {
+    "songId": "song_光線歌",
+    "songTitle": "光線歌",
+    "videoId": "T1K831KdL1o",
+    "videoTitle": "Guiano - 光線歌 (feat.重音テト)",
+    "name": "00 ～ 4月19日(日) 23:59",
+    "role": "unknown",
+    "roleRaw": "【受付期間】4月1日(水) 12"
+  },
+  {
+    "songId": "song_光線歌",
+    "songTitle": "光線歌",
+    "videoId": "T1K831KdL1o",
+    "videoTitle": "Guiano - 光線歌 (feat.重音テト)",
+    "name": "00 ～ 5",
+    "role": "unknown",
+    "roleRaw": "【受付期間】4"
+  },
+  {
+    "songId": "song_光線歌",
+    "songTitle": "光線歌",
+    "videoId": "T1K831KdL1o",
+    "videoTitle": "Guiano - 光線歌 (feat.重音テト)",
+    "name": "10(日) 23:59",
+    "role": "unknown",
+    "roleRaw": "【受付期間】4"
   },
   {
     "songId": "song_イレヴンス",
@@ -2248,6 +2671,24 @@
     "name": "R11R",
     "role": "unknown",
     "roleRaw": "制作"
+  },
+  {
+    "songId": "song_アンチユー",
+    "songTitle": "アンチユー",
+    "videoId": "eVfppbSqACQ",
+    "videoTitle": "Chinozo 'アンチユー' feat.初音ミク",
+    "name": "アルセチカ",
+    "role": "unknown",
+    "roleRaw": "MV"
+  },
+  {
+    "songId": "song_アンチユー",
+    "songTitle": "アンチユー",
+    "videoId": "eVfppbSqACQ",
+    "videoTitle": "Chinozo 'アンチユー' feat.初音ミク",
+    "name": "kakeyan",
+    "role": "unknown",
+    "roleRaw": "Bass"
   },
   {
     "songId": "song_フラジール",
@@ -2700,6 +3141,51 @@
     "roleRaw": "動画"
   },
   {
+    "songId": "song_ヘイヴン",
+    "songTitle": "ヘイヴン",
+    "videoId": "MJa46AEGMb4",
+    "videoTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
+    "name": "δ428",
+    "role": "unknown",
+    "roleRaw": "《第1部》 MWLÁND"
+  },
+  {
+    "songId": "song_ヘイヴン",
+    "songTitle": "ヘイヴン",
+    "videoId": "MJa46AEGMb4",
+    "videoTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
+    "name": "15",
+    "role": "unknown",
+    "roleRaw": "open 14"
+  },
+  {
+    "songId": "song_ヘイヴン",
+    "songTitle": "ヘイヴン",
+    "videoId": "MJa46AEGMb4",
+    "videoTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
+    "name": "00",
+    "role": "unknown",
+    "roleRaw": "start 15"
+  },
+  {
+    "songId": "song_ヘイヴン",
+    "songTitle": "ヘイヴン",
+    "videoId": "MJa46AEGMb4",
+    "videoTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
+    "name": "45",
+    "role": "unknown",
+    "roleRaw": "open 17"
+  },
+  {
+    "songId": "song_ヘイヴン",
+    "songTitle": "ヘイヴン",
+    "videoId": "MJa46AEGMb4",
+    "videoTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
+    "name": "30",
+    "role": "unknown",
+    "roleRaw": "start 18"
+  },
+  {
     "songId": "song_ももいろの鍵",
     "songTitle": "ももいろの鍵",
     "videoId": "MgbsMSnMCOg",
@@ -2995,6 +3481,42 @@
     "name": "しろみや",
     "role": "pvCreator",
     "roleRaw": "動画"
+  },
+  {
+    "songId": "song_フューエル",
+    "songTitle": "フューエル",
+    "videoId": "n9xeDxXE4Jc",
+    "videoTitle": "Utsu-P - フューエル / FUEL feat. 初音ミク",
+    "name": "初音ミク",
+    "role": "unknown",
+    "roleRaw": "Vocal"
+  },
+  {
+    "songId": "song_フューエル",
+    "songTitle": "フューエル",
+    "videoId": "n9xeDxXE4Jc",
+    "videoTitle": "Utsu-P - フューエル / FUEL feat. 初音ミク",
+    "name": "鬱P",
+    "role": "unknown",
+    "roleRaw": "Song"
+  },
+  {
+    "songId": "song_フューエル",
+    "songTitle": "フューエル",
+    "videoId": "n9xeDxXE4Jc",
+    "videoTitle": "Utsu-P - フューエル / FUEL feat. 初音ミク",
+    "name": "ろるあ",
+    "role": "illustrator",
+    "roleRaw": "Illustrator"
+  },
+  {
+    "songId": "song_フューエル",
+    "songTitle": "フューエル",
+    "videoId": "n9xeDxXE4Jc",
+    "videoTitle": "Utsu-P - フューエル / FUEL feat. 初音ミク",
+    "name": "にへ",
+    "role": "pvCreator",
+    "roleRaw": "Video"
   },
   {
     "songId": "song_化けの花",
@@ -3301,6 +3823,33 @@
     "name": "R11R Pictures",
     "role": "unknown",
     "roleRaw": "制作"
+  },
+  {
+    "songId": "song_熱風",
+    "songTitle": "熱風",
+    "videoId": "y7uFVdBluns",
+    "videoTitle": "熱風 - kemu feat. 初音ミク",
+    "name": "初音ミク",
+    "role": "unknown",
+    "roleRaw": "Vocal"
+  },
+  {
+    "songId": "song_熱風",
+    "songTitle": "熱風",
+    "videoId": "y7uFVdBluns",
+    "videoTitle": "熱風 - kemu feat. 初音ミク",
+    "name": "藤浪潤一郎",
+    "role": "unknown",
+    "roleRaw": "Mix"
+  },
+  {
+    "songId": "song_熱風",
+    "songTitle": "熱風",
+    "videoId": "y7uFVdBluns",
+    "videoTitle": "熱風 - kemu feat. 初音ミク",
+    "name": "火種",
+    "role": "pvCreator",
+    "roleRaw": "Movie"
   },
   {
     "songId": "song_それでも僕らは歌うことをやめない",
@@ -4059,6 +4608,51 @@
     "roleRaw": "動画"
   },
   {
+    "songId": "song_私は雨",
+    "songTitle": "私は雨",
+    "videoId": "EEk4JGzqoFg",
+    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "name": "歌愛ユキ",
+    "role": "unknown",
+    "roleRaw": "Vocal"
+  },
+  {
+    "songId": "song_私は雨",
+    "songTitle": "私は雨",
+    "videoId": "EEk4JGzqoFg",
+    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "name": "初音ミク",
+    "role": "unknown",
+    "roleRaw": "Backing Vocal"
+  },
+  {
+    "songId": "song_私は雨",
+    "songTitle": "私は雨",
+    "videoId": "EEk4JGzqoFg",
+    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "name": "ぬくぬくにぎりめし",
+    "role": "illustrator",
+    "roleRaw": "Illustration"
+  },
+  {
+    "songId": "song_私は雨",
+    "songTitle": "私は雨",
+    "videoId": "EEk4JGzqoFg",
+    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "name": "ぬくぬくにぎりめし",
+    "role": "animation",
+    "roleRaw": "Animation"
+  },
+  {
+    "songId": "song_私は雨",
+    "songTitle": "私は雨",
+    "videoId": "EEk4JGzqoFg",
+    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
+    "name": "稲葉曇",
+    "role": "pvCreator",
+    "roleRaw": "Movie"
+  },
+  {
     "songId": "song_脱法ロック",
     "songTitle": "脱法ロック",
     "videoId": "XQJOpOYhdRM",
@@ -4363,6 +4957,60 @@
     "name": "玉野ハヅキ",
     "role": "unknown",
     "roleRaw": "タイトルロゴデザイン"
+  },
+  {
+    "songId": "song_仮死化",
+    "songTitle": "仮死化",
+    "videoId": "POD_KGL2aqQ",
+    "videoTitle": "遼遼, 初音ミク『仮死化』MV - Kashika",
+    "name": "遼遼",
+    "role": "unknown",
+    "roleRaw": "■作詞作曲編曲(Words"
+  },
+  {
+    "songId": "song_仮死化",
+    "songTitle": "仮死化",
+    "videoId": "POD_KGL2aqQ",
+    "videoTitle": "遼遼, 初音ミク『仮死化』MV - Kashika",
+    "name": "higoAkari.",
+    "role": "unknown",
+    "roleRaw": "■映像(Direction"
+  },
+  {
+    "songId": "song_仮死化",
+    "songTitle": "仮死化",
+    "videoId": "POD_KGL2aqQ",
+    "videoTitle": "遼遼, 初音ミク『仮死化』MV - Kashika",
+    "name": "浦本雅史",
+    "role": "unknown",
+    "roleRaw": "■ミキシング(Mixing)"
+  },
+  {
+    "songId": "song_仮死化",
+    "songTitle": "仮死化",
+    "videoId": "POD_KGL2aqQ",
+    "videoTitle": "遼遼, 初音ミク『仮死化』MV - Kashika",
+    "name": "澤本哲朗",
+    "role": "unknown",
+    "roleRaw": "■マスタリング(Mastering)"
+  },
+  {
+    "songId": "song_仮死化",
+    "songTitle": "仮死化",
+    "videoId": "POD_KGL2aqQ",
+    "videoTitle": "遼遼, 初音ミク『仮死化』MV - Kashika",
+    "name": "遼遼",
+    "role": "unknown",
+    "roleRaw": "■歌唱(Vocal)"
+  },
+  {
+    "songId": "song_仮死化",
+    "songTitle": "仮死化",
+    "videoId": "POD_KGL2aqQ",
+    "videoTitle": "遼遼, 初音ミク『仮死化』MV - Kashika",
+    "name": "初音ミク",
+    "role": "unknown",
+    "roleRaw": "■歌唱(Vocal)"
   },
   {
     "songId": "song_MOTTO!!!",
@@ -5310,6 +5958,96 @@
     "roleRaw": "Special Thanks"
   },
   {
+    "songId": "song_NEO",
+    "songTitle": "NEO",
+    "videoId": "b2Di3kFGAUM",
+    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
+    "name": "ナツメユウキ",
+    "role": "unknown",
+    "roleRaw": "Bass"
+  },
+  {
+    "songId": "song_NEO",
+    "songTitle": "NEO",
+    "videoId": "b2Di3kFGAUM",
+    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
+    "name": "ゆーまお（ヒトリエ）",
+    "role": "unknown",
+    "roleRaw": "Drum"
+  },
+  {
+    "songId": "song_NEO",
+    "songTitle": "NEO",
+    "videoId": "b2Di3kFGAUM",
+    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
+    "name": "まらしぃ",
+    "role": "unknown",
+    "roleRaw": "Piano"
+  },
+  {
+    "songId": "song_NEO",
+    "songTitle": "NEO",
+    "videoId": "b2Di3kFGAUM",
+    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
+    "name": "緩斗",
+    "role": "unknown",
+    "roleRaw": "Arrangement Assist"
+  },
+  {
+    "songId": "song_NEO",
+    "songTitle": "NEO",
+    "videoId": "b2Di3kFGAUM",
+    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
+    "name": "aqbi",
+    "role": "unknown",
+    "roleRaw": "Vocaloid EDIT"
+  },
+  {
+    "songId": "song_NEO",
+    "songTitle": "NEO",
+    "videoId": "b2Di3kFGAUM",
+    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
+    "name": "じん",
+    "role": "unknown",
+    "roleRaw": "Vocaloid EDIT"
+  },
+  {
+    "songId": "song_NEO",
+    "songTitle": "NEO",
+    "videoId": "b2Di3kFGAUM",
+    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
+    "name": "茨木直樹",
+    "role": "unknown",
+    "roleRaw": "REC Engineer"
+  },
+  {
+    "songId": "song_NEO",
+    "songTitle": "NEO",
+    "videoId": "b2Di3kFGAUM",
+    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
+    "name": "白井康裕",
+    "role": "unknown",
+    "roleRaw": "Mix Engineer"
+  },
+  {
+    "songId": "song_NEO",
+    "songTitle": "NEO",
+    "videoId": "b2Di3kFGAUM",
+    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
+    "name": "沙雪",
+    "role": "illustrator",
+    "roleRaw": "Illustration"
+  },
+  {
+    "songId": "song_NEO",
+    "songTitle": "NEO",
+    "videoId": "b2Di3kFGAUM",
+    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
+    "name": "INPINE",
+    "role": "unknown",
+    "roleRaw": "Video Direction"
+  },
+  {
     "songId": "song_天ノ弱",
     "songTitle": "天ノ弱",
     "videoId": "0zhop5qsyKY",
@@ -5551,6 +6289,78 @@
     "name": "omu",
     "role": "pvCreator",
     "roleRaw": "動画"
+  },
+  {
+    "songId": "song_星を繋ぐ",
+    "songTitle": "星を繋ぐ",
+    "videoId": "Fo3qg44Rn6Q",
+    "videoTitle": "「星を繋ぐ」40mP × 一二三 (12340mP) feat.初音ミク",
+    "name": "初音ミク",
+    "role": "unknown",
+    "roleRaw": "Vocal"
+  },
+  {
+    "songId": "song_星を繋ぐ",
+    "songTitle": "星を繋ぐ",
+    "videoId": "Fo3qg44Rn6Q",
+    "videoTitle": "「星を繋ぐ」40mP × 一二三 (12340mP) feat.初音ミク",
+    "name": "一二三",
+    "role": "unknown",
+    "roleRaw": "Lyrics"
+  },
+  {
+    "songId": "song_星を繋ぐ",
+    "songTitle": "星を繋ぐ",
+    "videoId": "Fo3qg44Rn6Q",
+    "videoTitle": "「星を繋ぐ」40mP × 一二三 (12340mP) feat.初音ミク",
+    "name": "たま",
+    "role": "illustrator",
+    "roleRaw": "Illust"
+  },
+  {
+    "songId": "song_星を繋ぐ",
+    "songTitle": "星を繋ぐ",
+    "videoId": "Fo3qg44Rn6Q",
+    "videoTitle": "「星を繋ぐ」40mP × 一二三 (12340mP) feat.初音ミク",
+    "name": "そな",
+    "role": "unknown",
+    "roleRaw": "Background Illust"
+  },
+  {
+    "songId": "song_星を繋ぐ",
+    "songTitle": "星を繋ぐ",
+    "videoId": "Fo3qg44Rn6Q",
+    "videoTitle": "「星を繋ぐ」40mP × 一二三 (12340mP) feat.初音ミク",
+    "name": "shuuya",
+    "role": "pvCreator",
+    "roleRaw": "Movie"
+  },
+  {
+    "songId": "song_星を繋ぐ",
+    "songTitle": "星を繋ぐ",
+    "videoId": "Fo3qg44Rn6Q",
+    "videoTitle": "「星を繋ぐ」40mP × 一二三 (12340mP) feat.初音ミク",
+    "name": "諏訪桂輔",
+    "role": "unknown",
+    "roleRaw": "Mix"
+  },
+  {
+    "songId": "song_星を繋ぐ",
+    "songTitle": "星を繋ぐ",
+    "videoId": "Fo3qg44Rn6Q",
+    "videoTitle": "「星を繋ぐ」40mP × 一二三 (12340mP) feat.初音ミク",
+    "name": "山崎翼 (Flugel Mastering)",
+    "role": "unknown",
+    "roleRaw": "Mastering"
+  },
+  {
+    "songId": "song_星を繋ぐ",
+    "songTitle": "星を繋ぐ",
+    "videoId": "Fo3qg44Rn6Q",
+    "videoTitle": "「星を繋ぐ」40mP × 一二三 (12340mP) feat.初音ミク",
+    "name": "一二三",
+    "role": "unknown",
+    "roleRaw": "Lyrics"
   },
   {
     "songId": "song_ヴィラン",
@@ -5803,6 +6613,78 @@
     "name": "omu",
     "role": "pvCreator",
     "roleRaw": "動画"
+  },
+  {
+    "songId": "song_相生",
+    "songTitle": "相生",
+    "videoId": "Ws3B-ozOXDU",
+    "videoTitle": "相生/初音ミク",
+    "name": "やいり",
+    "role": "unknown",
+    "roleRaw": "作詞作曲編曲"
+  },
+  {
+    "songId": "song_相生",
+    "songTitle": "相生",
+    "videoId": "Ws3B-ozOXDU",
+    "videoTitle": "相生/初音ミク",
+    "name": "秋赤音",
+    "role": "unknown",
+    "roleRaw": "絵"
+  },
+  {
+    "songId": "song_相生",
+    "songTitle": "相生",
+    "videoId": "Ws3B-ozOXDU",
+    "videoTitle": "相生/初音ミク",
+    "name": "えびみりん",
+    "role": "pvCreator",
+    "roleRaw": "動画"
+  },
+  {
+    "songId": "song_相生",
+    "songTitle": "相生",
+    "videoId": "Ws3B-ozOXDU",
+    "videoTitle": "相生/初音ミク",
+    "name": "Kei Nakamura",
+    "role": "unknown",
+    "roleRaw": "Bass"
+  },
+  {
+    "songId": "song_相生",
+    "songTitle": "相生",
+    "videoId": "Ws3B-ozOXDU",
+    "videoTitle": "相生/初音ミク",
+    "name": "中村 圭",
+    "role": "unknown",
+    "roleRaw": "Bass"
+  },
+  {
+    "songId": "song_相生",
+    "songTitle": "相生",
+    "videoId": "Ws3B-ozOXDU",
+    "videoTitle": "相生/初音ミク",
+    "name": "ぷにばら",
+    "role": "unknown",
+    "roleRaw": "special thanks"
+  },
+  {
+    "songId": "song_相生",
+    "songTitle": "相生",
+    "videoId": "Ws3B-ozOXDU",
+    "videoTitle": "相生/初音ミク",
+    "name": "がっちー",
+    "role": "unknown",
+    "roleRaw": "special thanks"
+  },
+  {
+    "songId": "song_相生",
+    "songTitle": "相生",
+    "videoId": "Ws3B-ozOXDU",
+    "videoTitle": "相生/初音ミク",
+    "name": "水戸",
+    "role": "unknown",
+    "roleRaw": "special thanks"
   },
   {
     "songId": "song_独りんぼエンヴィー",
@@ -6183,6 +7065,60 @@
     "roleRaw": "動画"
   },
   {
+    "songId": "song_Iなんです",
+    "songTitle": "Iなんです",
+    "videoId": "QYpL88jiWFs",
+    "videoTitle": "Iなんです - れるりり feat.初音ミク / I am you - rerulili feat.Hatsune Miku",
+    "name": "れるりり 【Twitter】",
+    "role": "unknown",
+    "roleRaw": "作詞作曲"
+  },
+  {
+    "songId": "song_Iなんです",
+    "songTitle": "Iなんです",
+    "videoId": "QYpL88jiWFs",
+    "videoTitle": "Iなんです - れるりり feat.初音ミク / I am you - rerulili feat.Hatsune Miku",
+    "name": "かごめP【Twitter】",
+    "role": "unknown",
+    "roleRaw": "ミックス"
+  },
+  {
+    "songId": "song_Iなんです",
+    "songTitle": "Iなんです",
+    "videoId": "QYpL88jiWFs",
+    "videoTitle": "Iなんです - れるりり feat.初音ミク / I am you - rerulili feat.Hatsune Miku",
+    "name": "利波 雷 【Twitter】",
+    "role": "pvCreator",
+    "roleRaw": "映像"
+  },
+  {
+    "songId": "song_Iなんです",
+    "songTitle": "Iなんです",
+    "videoId": "QYpL88jiWFs",
+    "videoTitle": "Iなんです - れるりり feat.初音ミク / I am you - rerulili feat.Hatsune Miku",
+    "name": "べにちる 【Twitter】",
+    "role": "illustrator",
+    "roleRaw": "イラスト"
+  },
+  {
+    "songId": "song_Iなんです",
+    "songTitle": "Iなんです",
+    "videoId": "QYpL88jiWFs",
+    "videoTitle": "Iなんです - れるりり feat.初音ミク / I am you - rerulili feat.Hatsune Miku",
+    "name": "Shu 【Twitter】",
+    "role": "unknown",
+    "roleRaw": "英文翻訳"
+  },
+  {
+    "songId": "song_Iなんです",
+    "songTitle": "Iなんです",
+    "videoId": "QYpL88jiWFs",
+    "videoTitle": "Iなんです - れるりり feat.初音ミク / I am you - rerulili feat.Hatsune Miku",
+    "name": "idolatrous angels",
+    "role": "unknown",
+    "roleRaw": "Captivated"
+  },
+  {
     "songId": "song_愛して愛して愛して",
     "songTitle": "愛して愛して愛して",
     "videoId": "YAc_gGGdkEg",
@@ -6388,6 +7324,150 @@
     "name": "Moeko Miyoshi",
     "role": "pvCreator",
     "roleRaw": "動画"
+  },
+  {
+    "songId": "song_イフ",
+    "songTitle": "イフ",
+    "videoId": "Xt1x1s2eAno",
+    "videoTitle": "月詠み『イフ』Music Video",
+    "name": "Yue ）",
+    "role": "unknown",
+    "roleRaw": "Vocal"
+  },
+  {
+    "songId": "song_イフ",
+    "songTitle": "イフ",
+    "videoId": "Xt1x1s2eAno",
+    "videoTitle": "月詠み『イフ』Music Video",
+    "name": "ユリイ",
+    "role": "unknown",
+    "roleRaw": "Piano"
+  },
+  {
+    "songId": "song_イフ",
+    "songTitle": "イフ",
+    "videoId": "Xt1x1s2eAno",
+    "videoTitle": "月詠み『イフ』Music Video",
+    "name": "カノン ）",
+    "role": "unknown",
+    "roleRaw": "Piano"
+  },
+  {
+    "songId": "song_イフ",
+    "songTitle": "イフ",
+    "videoId": "Xt1x1s2eAno",
+    "videoTitle": "月詠み『イフ』Music Video",
+    "name": "Epoch )",
+    "role": "unknown",
+    "roleRaw": "Guitar"
+  },
+  {
+    "songId": "song_イフ",
+    "songTitle": "イフ",
+    "videoId": "Xt1x1s2eAno",
+    "videoTitle": "月詠み『イフ』Music Video",
+    "name": "とうかさ )",
+    "role": "unknown",
+    "roleRaw": "Bass"
+  },
+  {
+    "songId": "song_イフ",
+    "songTitle": "イフ",
+    "videoId": "Xt1x1s2eAno",
+    "videoTitle": "月詠み『イフ』Music Video",
+    "name": "OTOIRO",
+    "role": "unknown",
+    "roleRaw": "■Movie"
+  },
+  {
+    "songId": "song_イフ",
+    "songTitle": "イフ",
+    "videoId": "Xt1x1s2eAno",
+    "videoTitle": "月詠み『イフ』Music Video",
+    "name": "あわしま",
+    "role": "pvCreator",
+    "roleRaw": "Director"
+  },
+  {
+    "songId": "song_イフ",
+    "songTitle": "イフ",
+    "videoId": "Xt1x1s2eAno",
+    "videoTitle": "月詠み『イフ』Music Video",
+    "name": "あわしま",
+    "role": "illustrator",
+    "roleRaw": "Illustrator"
+  },
+  {
+    "songId": "song_イフ",
+    "songTitle": "イフ",
+    "videoId": "Xt1x1s2eAno",
+    "videoTitle": "月詠み『イフ』Music Video",
+    "name": "1024",
+    "role": "animation",
+    "roleRaw": "Animator"
+  },
+  {
+    "songId": "song_イフ",
+    "songTitle": "イフ",
+    "videoId": "Xt1x1s2eAno",
+    "videoTitle": "月詠み『イフ』Music Video",
+    "name": "No.734",
+    "role": "unknown",
+    "roleRaw": "Background Artist (背景)"
+  },
+  {
+    "songId": "song_イフ",
+    "songTitle": "イフ",
+    "videoId": "Xt1x1s2eAno",
+    "videoTitle": "月詠み『イフ』Music Video",
+    "name": "kee",
+    "role": "unknown",
+    "roleRaw": "Background Assistant"
+  },
+  {
+    "songId": "song_イフ",
+    "songTitle": "イフ",
+    "videoId": "Xt1x1s2eAno",
+    "videoTitle": "月詠み『イフ』Music Video",
+    "name": "yuka fujii",
+    "role": "design",
+    "roleRaw": "Logo Designer"
+  },
+  {
+    "songId": "song_イフ",
+    "songTitle": "イフ",
+    "videoId": "Xt1x1s2eAno",
+    "videoTitle": "月詠み『イフ』Music Video",
+    "name": "あわしま",
+    "role": "pvCreator",
+    "roleRaw": "Composite"
+  },
+  {
+    "songId": "song_イフ",
+    "songTitle": "イフ",
+    "videoId": "Xt1x1s2eAno",
+    "videoTitle": "月詠み『イフ』Music Video",
+    "name": "Iori Majima",
+    "role": "unknown",
+    "roleRaw": "Project Manager"
+  },
+  {
+    "songId": "song_イフ",
+    "songTitle": "イフ",
+    "videoId": "Xt1x1s2eAno",
+    "videoTitle": "月詠み『イフ』Music Video",
+    "name": "北澤聖士",
+    "role": "unknown",
+    "roleRaw": "Vocal Recording Engineer"
+  },
+  {
+    "songId": "song_イフ",
+    "songTitle": "イフ",
+    "videoId": "Xt1x1s2eAno",
+    "videoTitle": "月詠み『イフ』Music Video",
+    "name": "増位淳平",
+    "role": "unknown",
+    "roleRaw": "Mixing"
   },
   {
     "songId": "song_Flyer!",
@@ -7047,6 +8127,348 @@
     "roleRaw": "アニメーションプロデューサー"
   },
   {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "3",
+    "role": "unknown",
+    "roleRaw": "受付期間"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "29 18:00〜4",
+    "role": "unknown",
+    "roleRaw": "受付期間"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "5 23:59まで(チケットぴあ)",
+    "role": "unknown",
+    "roleRaw": "受付期間"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "2022",
+    "role": "unknown",
+    "roleRaw": "受付期間"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "4",
+    "role": "unknown",
+    "roleRaw": "受付期間"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "2 10:00〜",
+    "role": "unknown",
+    "roleRaw": "受付期間"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "石川",
+    "role": "unknown",
+    "roleRaw": "4"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "本多の森ホール",
+    "role": "unknown",
+    "roleRaw": "4"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "福岡",
+    "role": "unknown",
+    "roleRaw": "4"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "北九州ソレイユホール",
+    "role": "unknown",
+    "roleRaw": "4"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "愛知",
+    "role": "unknown",
+    "roleRaw": "4"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "愛知県芸術劇場大ホール",
+    "role": "unknown",
+    "roleRaw": "4"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "広島",
+    "role": "unknown",
+    "roleRaw": "4"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "広島文化学園HBGホール",
+    "role": "unknown",
+    "roleRaw": "4"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "大阪",
+    "role": "unknown",
+    "roleRaw": "4"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "大阪国際会議場メインホール（グランキューブ大阪）",
+    "role": "unknown",
+    "roleRaw": "4"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "東京",
+    "role": "unknown",
+    "roleRaw": "5"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "東京ガーデンシアター",
+    "role": "unknown",
+    "roleRaw": "5"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "東京",
+    "role": "unknown",
+    "roleRaw": "5"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "東京ガーデンシアター",
+    "role": "unknown",
+    "roleRaw": "5"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "兵庫",
+    "role": "unknown",
+    "roleRaw": "5"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "神戸国際会館こくさいホール",
+    "role": "unknown",
+    "roleRaw": "5"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "2022",
+    "role": "unknown",
+    "roleRaw": "※受付期間"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "4",
+    "role": "unknown",
+    "roleRaw": "※受付期間"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "18(月)18:00〜4",
+    "role": "unknown",
+    "roleRaw": "※受付期間"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "24(日)23:59",
+    "role": "unknown",
+    "roleRaw": "※受付期間"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "（全仕様内容共通）",
+    "role": "unknown",
+    "roleRaw": "CD収録内容"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "他6曲 計14曲収録予定",
+    "role": "unknown",
+    "roleRaw": "＊曲順未定"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "無限廻段（金属製ZINGAIフィギュア",
+    "role": "unknown",
+    "roleRaw": "☑️GOODS [廻人盤（初回限定"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "アクリル製台紙付き）",
+    "role": "unknown",
+    "roleRaw": "☑️GOODS [廻人盤（初回限定"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "more",
+    "role": "unknown",
+    "roleRaw": "☑️GOODS [廻人盤（初回限定"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "Music Video集",
+    "role": "unknown",
+    "roleRaw": "☑️Blu-ray (初廻盤)"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "Eve LiveFilm Blu-ray「廻廻奇譚",
+    "role": "unknown",
+    "roleRaw": "☑️早期予約Blu-ray (全形態)"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "いのちの食べ方",
+    "role": "unknown",
+    "roleRaw": "☑️早期予約Blu-ray (全形態)"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "ドラマツルギー」",
+    "role": "unknown",
+    "roleRaw": "☑️早期予約Blu-ray (全形態)"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "Eve feat. Miku Hatsune",
+    "role": "unknown",
+    "roleRaw": "Vocal"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "Eve",
+    "role": "unknown",
+    "roleRaw": "Lyrics"
+  },
+  {
+    "songId": "song_群青讃歌",
+    "songTitle": "群青讃歌",
+    "videoId": "sgZjbk9eH6g",
+    "videoTitle": "群青讃歌 - Eve MV",
+    "name": "くっか",
+    "role": "unknown",
+    "roleRaw": "Animation Movie"
+  },
+  {
     "songId": "song_虚ろを扇ぐ",
     "songTitle": "虚ろを扇ぐ",
     "videoId": "MnZfL-cwUCA",
@@ -7308,6 +8730,42 @@
     "roleRaw": "動画"
   },
   {
+    "songId": "song_てらてら",
+    "songTitle": "てらてら",
+    "videoId": "03IyS_9Dt0g",
+    "videoTitle": "てらてら [VOCALOID ver.] MV",
+    "name": "二村学",
+    "role": "unknown",
+    "roleRaw": "ベース"
+  },
+  {
+    "songId": "song_てらてら",
+    "songTitle": "てらてら",
+    "videoId": "03IyS_9Dt0g",
+    "videoTitle": "てらてら [VOCALOID ver.] MV",
+    "name": "yasu",
+    "role": "unknown",
+    "roleRaw": "ミックス"
+  },
+  {
+    "songId": "song_てらてら",
+    "songTitle": "てらてら",
+    "videoId": "03IyS_9Dt0g",
+    "videoTitle": "てらてら [VOCALOID ver.] MV",
+    "name": "村カルキ",
+    "role": "illustrator",
+    "roleRaw": "イラスト"
+  },
+  {
+    "songId": "song_てらてら",
+    "songTitle": "てらてら",
+    "videoId": "03IyS_9Dt0g",
+    "videoTitle": "てらてら [VOCALOID ver.] MV",
+    "name": "ぬヴェントス",
+    "role": "pvCreator",
+    "roleRaw": "映像"
+  },
+  {
     "songId": "song_少女レイ",
     "songTitle": "少女レイ",
     "videoId": "3VT85q-E-UU",
@@ -7378,6 +8836,24 @@
     "name": "omu",
     "role": "pvCreator",
     "roleRaw": "動画"
+  },
+  {
+    "songId": "song_バグ",
+    "songTitle": "バグ",
+    "videoId": "FkO8ub83wss",
+    "videoTitle": "【公式】 バグ／かいりきベア feat.初音ミク",
+    "name": "かいりきベア",
+    "role": "unknown",
+    "roleRaw": "▼Music"
+  },
+  {
+    "songId": "song_バグ",
+    "songTitle": "バグ",
+    "videoId": "FkO8ub83wss",
+    "videoTitle": "【公式】 バグ／かいりきベア feat.初音ミク",
+    "name": "のう",
+    "role": "unknown",
+    "roleRaw": "▼Illustration"
   },
   {
     "songId": "song_心拍数♯0822",
@@ -8298,6 +9774,33 @@
     "roleRaw": "動画"
   },
   {
+    "songId": "song_ミライ",
+    "songTitle": "ミライ",
+    "videoId": "zTokBPAXHW4",
+    "videoTitle": "ミライ／初音ミク　mirai/hatsune miku",
+    "name": "Hatsune Miku",
+    "role": "unknown",
+    "roleRaw": "Vocal"
+  },
+  {
+    "songId": "song_ミライ",
+    "songTitle": "ミライ",
+    "videoId": "zTokBPAXHW4",
+    "videoTitle": "ミライ／初音ミク　mirai/hatsune miku",
+    "name": "有機酸",
+    "role": "unknown",
+    "roleRaw": "Lyrics"
+  },
+  {
+    "songId": "song_ミライ",
+    "songTitle": "ミライ",
+    "videoId": "zTokBPAXHW4",
+    "videoTitle": "ミライ／初音ミク　mirai/hatsune miku",
+    "name": "東洋医学",
+    "role": "illustrator",
+    "roleRaw": "Illust"
+  },
+  {
     "songId": "song_KING",
     "songTitle": "KING",
     "videoId": "B45Q1AbiBWg",
@@ -8368,6 +9871,51 @@
     "name": "omu",
     "role": "pvCreator",
     "roleRaw": "動画"
+  },
+  {
+    "songId": "song_ロウワー",
+    "songTitle": "ロウワー",
+    "videoId": "3sEptl-psU0",
+    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
+    "name": "春私宜",
+    "role": "unknown",
+    "roleRaw": "■Illustration"
+  },
+  {
+    "songId": "song_ロウワー",
+    "songTitle": "ロウワー",
+    "videoId": "3sEptl-psU0",
+    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
+    "name": "みず希",
+    "role": "unknown",
+    "roleRaw": "■Movie"
+  },
+  {
+    "songId": "song_ロウワー",
+    "songTitle": "ロウワー",
+    "videoId": "3sEptl-psU0",
+    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
+    "name": "いちた",
+    "role": "unknown",
+    "roleRaw": "■Guitar"
+  },
+  {
+    "songId": "song_ロウワー",
+    "songTitle": "ロウワー",
+    "videoId": "3sEptl-psU0",
+    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
+    "name": "中村涼真",
+    "role": "unknown",
+    "roleRaw": "■Mix"
+  },
+  {
+    "songId": "song_ロウワー",
+    "songTitle": "ロウワー",
+    "videoId": "3sEptl-psU0",
+    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
+    "name": "ぬゆり",
+    "role": "unknown",
+    "roleRaw": "■Music"
   },
   {
     "songId": "song_Hello,world!",
@@ -9396,8 +10944,8 @@
     "roleRaw": "作詞作曲"
   },
   {
-    "songId": "song_初音ミク, 遼遼『羽歌』MV - Soar",
-    "songTitle": "初音ミク, 遼遼『羽歌』MV - Soar",
+    "songId": "song_羽歌",
+    "songTitle": "羽歌",
     "videoId": "MS1JmGKrdFo",
     "videoTitle": "初音ミク, 遼遼『羽歌』MV - Soar",
     "name": "遼遼",
@@ -9405,8 +10953,8 @@
     "roleRaw": "■作詞作曲編曲(Words"
   },
   {
-    "songId": "song_初音ミク, 遼遼『羽歌』MV - Soar",
-    "songTitle": "初音ミク, 遼遼『羽歌』MV - Soar",
+    "songId": "song_羽歌",
+    "songTitle": "羽歌",
     "videoId": "MS1JmGKrdFo",
     "videoTitle": "初音ミク, 遼遼『羽歌』MV - Soar",
     "name": "陽風穹",
@@ -9414,8 +10962,8 @@
     "roleRaw": "■漫画(Comics)"
   },
   {
-    "songId": "song_初音ミク, 遼遼『羽歌』MV - Soar",
-    "songTitle": "初音ミク, 遼遼『羽歌』MV - Soar",
+    "songId": "song_羽歌",
+    "songTitle": "羽歌",
     "videoId": "MS1JmGKrdFo",
     "videoTitle": "初音ミク, 遼遼『羽歌』MV - Soar",
     "name": "ﾅﾑﾙ",
@@ -9423,8 +10971,8 @@
     "roleRaw": "■映像(Movie)"
   },
   {
-    "songId": "song_初音ミク, 遼遼『羽歌』MV - Soar",
-    "songTitle": "初音ミク, 遼遼『羽歌』MV - Soar",
+    "songId": "song_羽歌",
+    "songTitle": "羽歌",
     "videoId": "MS1JmGKrdFo",
     "videoTitle": "初音ミク, 遼遼『羽歌』MV - Soar",
     "name": "浦本雅史",
@@ -9700,78 +11248,6 @@
     "name": "taiyaki~▲≡",
     "role": "unknown",
     "roleRaw": "mix"
-  },
-  {
-    "songId": "song_花結び／Flower＆重音テトSV",
-    "songTitle": "花結び／Flower＆重音テトSV",
-    "videoId": "Wu8WtrTCX-Q",
-    "videoTitle": "花結び／Flower＆重音テトSV",
-    "name": "#vflower",
-    "role": "unknown",
-    "roleRaw": "MAIN VOCAL"
-  },
-  {
-    "songId": "song_花結び／Flower＆重音テトSV",
-    "songTitle": "花結び／Flower＆重音テトSV",
-    "videoId": "Wu8WtrTCX-Q",
-    "videoTitle": "花結び／Flower＆重音テトSV",
-    "name": "#重音テト",
-    "role": "unknown",
-    "roleRaw": "MAIN VOCAL"
-  },
-  {
-    "songId": "song_花結び／Flower＆重音テトSV",
-    "songTitle": "花結び／Flower＆重音テトSV",
-    "videoId": "Wu8WtrTCX-Q",
-    "videoTitle": "花結び／Flower＆重音テトSV",
-    "name": "#栗山夕璃",
-    "role": "unknown",
-    "roleRaw": "▼Lyrics"
-  },
-  {
-    "songId": "song_花結び／Flower＆重音テトSV",
-    "songTitle": "花結び／Flower＆重音テトSV",
-    "videoId": "Wu8WtrTCX-Q",
-    "videoTitle": "花結び／Flower＆重音テトSV",
-    "name": "sakiyama",
-    "role": "unknown",
-    "roleRaw": "▽Illustration"
-  },
-  {
-    "songId": "song_花結び／Flower＆重音テトSV",
-    "songTitle": "花結び／Flower＆重音テトSV",
-    "videoId": "Wu8WtrTCX-Q",
-    "videoTitle": "花結び／Flower＆重音テトSV",
-    "name": "tmsw",
-    "role": "unknown",
-    "roleRaw": "▼Bass"
-  },
-  {
-    "songId": "song_花結び／Flower＆重音テトSV",
-    "songTitle": "花結び／Flower＆重音テトSV",
-    "videoId": "Wu8WtrTCX-Q",
-    "videoTitle": "花結び／Flower＆重音テトSV",
-    "name": "長崎",
-    "role": "unknown",
-    "roleRaw": "▽Guitar"
-  },
-  {
-    "songId": "song_花結び／Flower＆重音テトSV",
-    "songTitle": "花結び／Flower＆重音テトSV",
-    "videoId": "Wu8WtrTCX-Q",
-    "videoTitle": "花結び／Flower＆重音テトSV",
-    "name": "Banken",
-    "role": "unknown",
-    "roleRaw": "▼Piano"
-  },
-  {
-    "songId": "song_花結び／Flower＆重音テトSV",
-    "songTitle": "花結び／Flower＆重音テトSV",
-    "videoId": "Wu8WtrTCX-Q",
-    "videoTitle": "花結び／Flower＆重音テトSV",
-    "name": "裕木 レオン",
-    "role": "unknown",
-    "roleRaw": "▽Drums"
   },
   {
     "songId": "song_あなたの空が泣くのなら/初音ミク",
@@ -10089,330 +11565,6 @@
     "roleRaw": "チケット料金"
   },
   {
-    "songId": "song_大沼パセリ -  飾って",
-    "songTitle": "大沼パセリ -  飾って",
-    "videoId": "y8sa2X_aZXQ",
-    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
-    "name": "RiU. (THINKR)",
-    "role": "pvCreator",
-    "roleRaw": "Director"
-  },
-  {
-    "songId": "song_大沼パセリ -  飾って",
-    "songTitle": "大沼パセリ -  飾って",
-    "videoId": "y8sa2X_aZXQ",
-    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
-    "name": "RiU. (THINKR)",
-    "role": "unknown",
-    "roleRaw": "Animation Director"
-  },
-  {
-    "songId": "song_大沼パセリ -  飾って",
-    "songTitle": "大沼パセリ -  飾って",
-    "videoId": "y8sa2X_aZXQ",
-    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
-    "name": "RiU. (THINKR)",
-    "role": "unknown",
-    "roleRaw": "Character Design"
-  },
-  {
-    "songId": "song_大沼パセリ -  飾って",
-    "songTitle": "大沼パセリ -  飾って",
-    "videoId": "y8sa2X_aZXQ",
-    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
-    "name": "RiU. (THINKR)",
-    "role": "unknown",
-    "roleRaw": "Key Animation"
-  },
-  {
-    "songId": "song_大沼パセリ -  飾って",
-    "songTitle": "大沼パセリ -  飾って",
-    "videoId": "y8sa2X_aZXQ",
-    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
-    "name": "STUDIO TOKORO",
-    "role": "unknown",
-    "roleRaw": "Key Animation"
-  },
-  {
-    "songId": "song_大沼パセリ -  飾って",
-    "songTitle": "大沼パセリ -  飾って",
-    "videoId": "y8sa2X_aZXQ",
-    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
-    "name": "Shin",
-    "role": "unknown",
-    "roleRaw": "Key Animation"
-  },
-  {
-    "songId": "song_大沼パセリ -  飾って",
-    "songTitle": "大沼パセリ -  飾って",
-    "videoId": "y8sa2X_aZXQ",
-    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
-    "name": "xwx",
-    "role": "unknown",
-    "roleRaw": "Key Animation"
-  },
-  {
-    "songId": "song_大沼パセリ -  飾って",
-    "songTitle": "大沼パセリ -  飾って",
-    "videoId": "y8sa2X_aZXQ",
-    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
-    "name": "STUDIO TOKORO",
-    "role": "unknown",
-    "roleRaw": "Animaton"
-  },
-  {
-    "songId": "song_大沼パセリ -  飾って",
-    "songTitle": "大沼パセリ -  飾って",
-    "videoId": "y8sa2X_aZXQ",
-    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
-    "name": "Fincrossed studio",
-    "role": "unknown",
-    "roleRaw": "Animaton"
-  },
-  {
-    "songId": "song_大沼パセリ -  飾って",
-    "songTitle": "大沼パセリ -  飾って",
-    "videoId": "y8sa2X_aZXQ",
-    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
-    "name": "komadori",
-    "role": "unknown",
-    "roleRaw": "Background Art"
-  },
-  {
-    "songId": "song_大沼パセリ -  飾って",
-    "songTitle": "大沼パセリ -  飾って",
-    "videoId": "y8sa2X_aZXQ",
-    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
-    "name": "Liz LEE",
-    "role": "unknown",
-    "roleRaw": "Graphic Design"
-  },
-  {
-    "songId": "song_大沼パセリ -  飾って",
-    "songTitle": "大沼パセリ -  飾って",
-    "videoId": "y8sa2X_aZXQ",
-    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
-    "name": "RiU. (THINKR)",
-    "role": "unknown",
-    "roleRaw": "Editing"
-  },
-  {
-    "songId": "song_大沼パセリ -  飾って",
-    "songTitle": "大沼パセリ -  飾って",
-    "videoId": "y8sa2X_aZXQ",
-    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
-    "name": "colaka",
-    "role": "unknown",
-    "roleRaw": "Special Thanks"
-  },
-  {
-    "songId": "song_大沼パセリ -  飾って",
-    "songTitle": "大沼パセリ -  飾って",
-    "videoId": "y8sa2X_aZXQ",
-    "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
-    "name": "Kei Terayama (THINKR)",
-    "role": "unknown",
-    "roleRaw": "Producer"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "knock",
-    "role": "unknown",
-    "roleRaw": "■ Direction"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "knock",
-    "role": "animation",
-    "roleRaw": "Animation"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "尾崎伊万里",
-    "role": "unknown",
-    "roleRaw": "■ Concept Art"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "尾崎伊万里",
-    "role": "cg3d",
-    "roleRaw": "3DCG"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "StudioXD（スタジオ プリコンポーズ）",
-    "role": "unknown",
-    "roleRaw": "■ Animation Assistant"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "△",
-    "role": "unknown",
-    "roleRaw": "■ In Between Animator"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "sima",
-    "role": "unknown",
-    "roleRaw": "■ In Between Animator"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "Wild_Drink（スタジオ プリコンポーズ）",
-    "role": "unknown",
-    "roleRaw": "■ Painter"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "umu",
-    "role": "unknown",
-    "roleRaw": "■ Painter"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "おかざきおか",
-    "role": "unknown",
-    "roleRaw": "■ Silhouette Animation"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "Planete",
-    "role": "unknown",
-    "roleRaw": "■ Compositing Direction"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "Planete",
-    "role": "cg3d",
-    "roleRaw": "3DCG"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "ポケット梨子",
-    "role": "unknown",
-    "roleRaw": "■ Compositing"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "ポケット梨子",
-    "role": "cg3d",
-    "roleRaw": "3DCG"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "千石まよひ",
-    "role": "unknown",
-    "roleRaw": "■ Compositing"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "tyao",
-    "role": "unknown",
-    "roleRaw": "■ Compositing Produce"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "Lye",
-    "role": "unknown",
-    "roleRaw": "■ Graphic Design"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "Lye",
-    "role": "cg3d",
-    "roleRaw": "3DCG"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "YUUKI MIYAKE",
-    "role": "unknown",
-    "roleRaw": "■ Guitar"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "タナカ ユウダイ(ユアネス)",
-    "role": "unknown",
-    "roleRaw": "■ Bass"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "中村涼真",
-    "role": "unknown",
-    "roleRaw": "■ Mix"
-  },
-  {
-    "songId": "song_ぬゆり - アイリッド",
-    "songTitle": "ぬゆり - アイリッド",
-    "videoId": "Pr4OUUAXbZI",
-    "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
-    "name": "ぬゆり",
-    "role": "unknown",
-    "roleRaw": "■ Music"
-  },
-  {
     "songId": "song_アクセラレイト - 初音ミク[吉田夜世]",
     "songTitle": "アクセラレイト - 初音ミク[吉田夜世]",
     "videoId": "qkAKmANIHDs",
@@ -10485,33 +11637,6 @@
     "roleRaw": "Movie"
   },
   {
-    "songId": "song_Guiano - 光線歌",
-    "songTitle": "Guiano - 光線歌",
-    "videoId": "T1K831KdL1o",
-    "videoTitle": "Guiano - 光線歌 (feat.重音テト)",
-    "name": "00 ～ 4月19日(日) 23:59",
-    "role": "unknown",
-    "roleRaw": "【受付期間】4月1日(水) 12"
-  },
-  {
-    "songId": "song_Guiano - 光線歌",
-    "songTitle": "Guiano - 光線歌",
-    "videoId": "T1K831KdL1o",
-    "videoTitle": "Guiano - 光線歌 (feat.重音テト)",
-    "name": "00 ～ 5",
-    "role": "unknown",
-    "roleRaw": "【受付期間】4"
-  },
-  {
-    "songId": "song_Guiano - 光線歌",
-    "songTitle": "Guiano - 光線歌",
-    "videoId": "T1K831KdL1o",
-    "videoTitle": "Guiano - 光線歌 (feat.重音テト)",
-    "name": "10(日) 23:59",
-    "role": "unknown",
-    "roleRaw": "【受付期間】4"
-  },
-  {
     "songId": "song_ぼくのかみさま",
     "songTitle": "ぼくのかみさま",
     "videoId": "nP3Lv7CfCFs",
@@ -10528,69 +11653,6 @@
     "name": "羽生まゐご",
     "role": "unknown",
     "roleRaw": "作詞作曲"
-  },
-  {
-    "songId": "song_Chinozo 'アンチユー' feat.初音ミク",
-    "songTitle": "Chinozo 'アンチユー' feat.初音ミク",
-    "videoId": "eVfppbSqACQ",
-    "videoTitle": "Chinozo 'アンチユー' feat.初音ミク",
-    "name": "アルセチカ",
-    "role": "unknown",
-    "roleRaw": "MV"
-  },
-  {
-    "songId": "song_Chinozo 'アンチユー' feat.初音ミク",
-    "songTitle": "Chinozo 'アンチユー' feat.初音ミク",
-    "videoId": "eVfppbSqACQ",
-    "videoTitle": "Chinozo 'アンチユー' feat.初音ミク",
-    "name": "kakeyan",
-    "role": "unknown",
-    "roleRaw": "Bass"
-  },
-  {
-    "songId": "song_∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "songTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "videoId": "MJa46AEGMb4",
-    "videoTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "name": "δ428",
-    "role": "unknown",
-    "roleRaw": "《第1部》 MWLÁND"
-  },
-  {
-    "songId": "song_∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "songTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "videoId": "MJa46AEGMb4",
-    "videoTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "name": "15",
-    "role": "unknown",
-    "roleRaw": "open 14"
-  },
-  {
-    "songId": "song_∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "songTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "videoId": "MJa46AEGMb4",
-    "videoTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "name": "00",
-    "role": "unknown",
-    "roleRaw": "start 15"
-  },
-  {
-    "songId": "song_∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "songTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "videoId": "MJa46AEGMb4",
-    "videoTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "name": "45",
-    "role": "unknown",
-    "roleRaw": "open 17"
-  },
-  {
-    "songId": "song_∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "songTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "videoId": "MJa46AEGMb4",
-    "videoTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "name": "30",
-    "role": "unknown",
-    "roleRaw": "start 18"
   },
   {
     "songId": "song_Worlders feat. 初音ミク",
@@ -10638,42 +11700,6 @@
     "roleRaw": "Video Direction"
   },
   {
-    "songId": "song_Utsu-P - フューエル",
-    "songTitle": "Utsu-P - フューエル",
-    "videoId": "n9xeDxXE4Jc",
-    "videoTitle": "Utsu-P - フューエル / FUEL feat. 初音ミク",
-    "name": "初音ミク",
-    "role": "unknown",
-    "roleRaw": "Vocal"
-  },
-  {
-    "songId": "song_Utsu-P - フューエル",
-    "songTitle": "Utsu-P - フューエル",
-    "videoId": "n9xeDxXE4Jc",
-    "videoTitle": "Utsu-P - フューエル / FUEL feat. 初音ミク",
-    "name": "鬱P",
-    "role": "unknown",
-    "roleRaw": "Song"
-  },
-  {
-    "songId": "song_Utsu-P - フューエル",
-    "songTitle": "Utsu-P - フューエル",
-    "videoId": "n9xeDxXE4Jc",
-    "videoTitle": "Utsu-P - フューエル / FUEL feat. 初音ミク",
-    "name": "ろるあ",
-    "role": "illustrator",
-    "roleRaw": "Illustrator"
-  },
-  {
-    "songId": "song_Utsu-P - フューエル",
-    "songTitle": "Utsu-P - フューエル",
-    "videoId": "n9xeDxXE4Jc",
-    "videoTitle": "Utsu-P - フューエル / FUEL feat. 初音ミク",
-    "name": "にへ",
-    "role": "pvCreator",
-    "roleRaw": "Video"
-  },
-  {
     "songId": "song_生命性シンドロウム",
     "songTitle": "生命性シンドロウム",
     "videoId": "OgQc2wSjy3c",
@@ -10708,33 +11734,6 @@
     "name": "かめりあ (Camellia)",
     "role": "unknown",
     "roleRaw": "❏ Music"
-  },
-  {
-    "songId": "song_熱風 - kemu feat. 初音ミク",
-    "songTitle": "熱風 - kemu feat. 初音ミク",
-    "videoId": "y7uFVdBluns",
-    "videoTitle": "熱風 - kemu feat. 初音ミク",
-    "name": "初音ミク",
-    "role": "unknown",
-    "roleRaw": "Vocal"
-  },
-  {
-    "songId": "song_熱風 - kemu feat. 初音ミク",
-    "songTitle": "熱風 - kemu feat. 初音ミク",
-    "videoId": "y7uFVdBluns",
-    "videoTitle": "熱風 - kemu feat. 初音ミク",
-    "name": "藤浪潤一郎",
-    "role": "unknown",
-    "roleRaw": "Mix"
-  },
-  {
-    "songId": "song_熱風 - kemu feat. 初音ミク",
-    "songTitle": "熱風 - kemu feat. 初音ミク",
-    "videoId": "y7uFVdBluns",
-    "videoTitle": "熱風 - kemu feat. 初音ミク",
-    "name": "火種",
-    "role": "pvCreator",
-    "roleRaw": "Movie"
   },
   {
     "songId": "song_Giga & TeddyLoid - ULTRA C ft.Rin・Len【MV】",
@@ -10782,8 +11781,8 @@
     "roleRaw": "Movie"
   },
   {
-    "songId": "song_「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
-    "songTitle": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
+    "songId": "song_夏夜ノ唄",
+    "songTitle": "夏夜ノ唄",
     "videoId": "D4FWxIn3sHU",
     "videoTitle": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
     "name": "Pasoputi",
@@ -10791,8 +11790,8 @@
     "roleRaw": "Artwork"
   },
   {
-    "songId": "song_「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
-    "songTitle": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
+    "songId": "song_夏夜ノ唄",
+    "songTitle": "夏夜ノ唄",
     "videoId": "D4FWxIn3sHU",
     "videoTitle": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
     "name": "Koki Matsumoto",
@@ -10800,8 +11799,8 @@
     "roleRaw": "Guitar"
   },
   {
-    "songId": "song_「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
-    "songTitle": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
+    "songId": "song_夏夜ノ唄",
+    "songTitle": "夏夜ノ唄",
     "videoId": "D4FWxIn3sHU",
     "videoTitle": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
     "name": "Yoshihisa Hirata",
@@ -11025,53 +12024,8 @@
     "roleRaw": "Composite"
   },
   {
-    "songId": "song_稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "songTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "videoId": "EEk4JGzqoFg",
-    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "name": "歌愛ユキ",
-    "role": "unknown",
-    "roleRaw": "Vocal"
-  },
-  {
-    "songId": "song_稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "songTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "videoId": "EEk4JGzqoFg",
-    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "name": "初音ミク",
-    "role": "unknown",
-    "roleRaw": "Backing Vocal"
-  },
-  {
-    "songId": "song_稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "songTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "videoId": "EEk4JGzqoFg",
-    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "name": "ぬくぬくにぎりめし",
-    "role": "illustrator",
-    "roleRaw": "Illustration"
-  },
-  {
-    "songId": "song_稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "songTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "videoId": "EEk4JGzqoFg",
-    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "name": "ぬくぬくにぎりめし",
-    "role": "animation",
-    "roleRaw": "Animation"
-  },
-  {
-    "songId": "song_稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "songTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "videoId": "EEk4JGzqoFg",
-    "videoTitle": "稲葉曇『私は雨』Vo. 歌愛ユキ",
-    "name": "稲葉曇",
-    "role": "pvCreator",
-    "roleRaw": "Movie"
-  },
-  {
-    "songId": "song_limbo - 初音ミク",
-    "songTitle": "limbo - 初音ミク",
+    "songId": "song_limbo",
+    "songTitle": "limbo",
     "videoId": "hr_w8F_YeXM",
     "videoTitle": "limbo - 初音ミク",
     "name": "StudioGnu",
@@ -11781,168 +12735,6 @@
     "roleRaw": "Directed"
   },
   {
-    "songId": "song_NEO feat. 初音ミク",
-    "songTitle": "NEO feat. 初音ミク",
-    "videoId": "b2Di3kFGAUM",
-    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
-    "name": "ナツメユウキ",
-    "role": "unknown",
-    "roleRaw": "Bass"
-  },
-  {
-    "songId": "song_NEO feat. 初音ミク",
-    "songTitle": "NEO feat. 初音ミク",
-    "videoId": "b2Di3kFGAUM",
-    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
-    "name": "ゆーまお（ヒトリエ）",
-    "role": "unknown",
-    "roleRaw": "Drum"
-  },
-  {
-    "songId": "song_NEO feat. 初音ミク",
-    "songTitle": "NEO feat. 初音ミク",
-    "videoId": "b2Di3kFGAUM",
-    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
-    "name": "まらしぃ",
-    "role": "unknown",
-    "roleRaw": "Piano"
-  },
-  {
-    "songId": "song_NEO feat. 初音ミク",
-    "songTitle": "NEO feat. 初音ミク",
-    "videoId": "b2Di3kFGAUM",
-    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
-    "name": "緩斗",
-    "role": "unknown",
-    "roleRaw": "Arrangement Assist"
-  },
-  {
-    "songId": "song_NEO feat. 初音ミク",
-    "songTitle": "NEO feat. 初音ミク",
-    "videoId": "b2Di3kFGAUM",
-    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
-    "name": "aqbi",
-    "role": "unknown",
-    "roleRaw": "Vocaloid EDIT"
-  },
-  {
-    "songId": "song_NEO feat. 初音ミク",
-    "songTitle": "NEO feat. 初音ミク",
-    "videoId": "b2Di3kFGAUM",
-    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
-    "name": "じん",
-    "role": "unknown",
-    "roleRaw": "Vocaloid EDIT"
-  },
-  {
-    "songId": "song_NEO feat. 初音ミク",
-    "songTitle": "NEO feat. 初音ミク",
-    "videoId": "b2Di3kFGAUM",
-    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
-    "name": "茨木直樹",
-    "role": "unknown",
-    "roleRaw": "REC Engineer"
-  },
-  {
-    "songId": "song_NEO feat. 初音ミク",
-    "songTitle": "NEO feat. 初音ミク",
-    "videoId": "b2Di3kFGAUM",
-    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
-    "name": "白井康裕",
-    "role": "unknown",
-    "roleRaw": "Mix Engineer"
-  },
-  {
-    "songId": "song_NEO feat. 初音ミク",
-    "songTitle": "NEO feat. 初音ミク",
-    "videoId": "b2Di3kFGAUM",
-    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
-    "name": "沙雪",
-    "role": "illustrator",
-    "roleRaw": "Illustration"
-  },
-  {
-    "songId": "song_NEO feat. 初音ミク",
-    "songTitle": "NEO feat. 初音ミク",
-    "videoId": "b2Di3kFGAUM",
-    "videoTitle": "NEO feat. 初音ミク / じん【Official MV】",
-    "name": "INPINE",
-    "role": "unknown",
-    "roleRaw": "Video Direction"
-  },
-  {
-    "songId": "song_相生/初音ミク",
-    "songTitle": "相生/初音ミク",
-    "videoId": "Ws3B-ozOXDU",
-    "videoTitle": "相生/初音ミク",
-    "name": "やいり",
-    "role": "unknown",
-    "roleRaw": "作詞作曲編曲"
-  },
-  {
-    "songId": "song_相生/初音ミク",
-    "songTitle": "相生/初音ミク",
-    "videoId": "Ws3B-ozOXDU",
-    "videoTitle": "相生/初音ミク",
-    "name": "秋赤音",
-    "role": "unknown",
-    "roleRaw": "絵"
-  },
-  {
-    "songId": "song_相生/初音ミク",
-    "songTitle": "相生/初音ミク",
-    "videoId": "Ws3B-ozOXDU",
-    "videoTitle": "相生/初音ミク",
-    "name": "えびみりん",
-    "role": "pvCreator",
-    "roleRaw": "動画"
-  },
-  {
-    "songId": "song_相生/初音ミク",
-    "songTitle": "相生/初音ミク",
-    "videoId": "Ws3B-ozOXDU",
-    "videoTitle": "相生/初音ミク",
-    "name": "Kei Nakamura",
-    "role": "unknown",
-    "roleRaw": "Bass"
-  },
-  {
-    "songId": "song_相生/初音ミク",
-    "songTitle": "相生/初音ミク",
-    "videoId": "Ws3B-ozOXDU",
-    "videoTitle": "相生/初音ミク",
-    "name": "中村 圭",
-    "role": "unknown",
-    "roleRaw": "Bass"
-  },
-  {
-    "songId": "song_相生/初音ミク",
-    "songTitle": "相生/初音ミク",
-    "videoId": "Ws3B-ozOXDU",
-    "videoTitle": "相生/初音ミク",
-    "name": "ぷにばら",
-    "role": "unknown",
-    "roleRaw": "special thanks"
-  },
-  {
-    "songId": "song_相生/初音ミク",
-    "songTitle": "相生/初音ミク",
-    "videoId": "Ws3B-ozOXDU",
-    "videoTitle": "相生/初音ミク",
-    "name": "がっちー",
-    "role": "unknown",
-    "roleRaw": "special thanks"
-  },
-  {
-    "songId": "song_相生/初音ミク",
-    "songTitle": "相生/初音ミク",
-    "videoId": "Ws3B-ozOXDU",
-    "videoTitle": "相生/初音ミク",
-    "name": "水戸",
-    "role": "unknown",
-    "roleRaw": "special thanks"
-  },
-  {
     "songId": "song_キラピピ★キラピカ ボカロ ver.",
     "songTitle": "キラピピ★キラピカ ボカロ ver.",
     "videoId": "mQH0Fmk1K0g",
@@ -12049,78 +12841,6 @@
     "name": "卯花ロク",
     "role": "unknown",
     "roleRaw": "■曲"
-  },
-  {
-    "songId": "song_「星を繋ぐ」40mP × 一二三feat.初音ミク",
-    "songTitle": "「星を繋ぐ」40mP × 一二三feat.初音ミク",
-    "videoId": "Fo3qg44Rn6Q",
-    "videoTitle": "「星を繋ぐ」40mP × 一二三 (12340mP) feat.初音ミク",
-    "name": "初音ミク",
-    "role": "unknown",
-    "roleRaw": "Vocal"
-  },
-  {
-    "songId": "song_「星を繋ぐ」40mP × 一二三feat.初音ミク",
-    "songTitle": "「星を繋ぐ」40mP × 一二三feat.初音ミク",
-    "videoId": "Fo3qg44Rn6Q",
-    "videoTitle": "「星を繋ぐ」40mP × 一二三 (12340mP) feat.初音ミク",
-    "name": "一二三",
-    "role": "unknown",
-    "roleRaw": "Lyrics"
-  },
-  {
-    "songId": "song_「星を繋ぐ」40mP × 一二三feat.初音ミク",
-    "songTitle": "「星を繋ぐ」40mP × 一二三feat.初音ミク",
-    "videoId": "Fo3qg44Rn6Q",
-    "videoTitle": "「星を繋ぐ」40mP × 一二三 (12340mP) feat.初音ミク",
-    "name": "たま",
-    "role": "illustrator",
-    "roleRaw": "Illust"
-  },
-  {
-    "songId": "song_「星を繋ぐ」40mP × 一二三feat.初音ミク",
-    "songTitle": "「星を繋ぐ」40mP × 一二三feat.初音ミク",
-    "videoId": "Fo3qg44Rn6Q",
-    "videoTitle": "「星を繋ぐ」40mP × 一二三 (12340mP) feat.初音ミク",
-    "name": "そな",
-    "role": "unknown",
-    "roleRaw": "Background Illust"
-  },
-  {
-    "songId": "song_「星を繋ぐ」40mP × 一二三feat.初音ミク",
-    "songTitle": "「星を繋ぐ」40mP × 一二三feat.初音ミク",
-    "videoId": "Fo3qg44Rn6Q",
-    "videoTitle": "「星を繋ぐ」40mP × 一二三 (12340mP) feat.初音ミク",
-    "name": "shuuya",
-    "role": "pvCreator",
-    "roleRaw": "Movie"
-  },
-  {
-    "songId": "song_「星を繋ぐ」40mP × 一二三feat.初音ミク",
-    "songTitle": "「星を繋ぐ」40mP × 一二三feat.初音ミク",
-    "videoId": "Fo3qg44Rn6Q",
-    "videoTitle": "「星を繋ぐ」40mP × 一二三 (12340mP) feat.初音ミク",
-    "name": "諏訪桂輔",
-    "role": "unknown",
-    "roleRaw": "Mix"
-  },
-  {
-    "songId": "song_「星を繋ぐ」40mP × 一二三feat.初音ミク",
-    "songTitle": "「星を繋ぐ」40mP × 一二三feat.初音ミク",
-    "videoId": "Fo3qg44Rn6Q",
-    "videoTitle": "「星を繋ぐ」40mP × 一二三 (12340mP) feat.初音ミク",
-    "name": "山崎翼 (Flugel Mastering)",
-    "role": "unknown",
-    "roleRaw": "Mastering"
-  },
-  {
-    "songId": "song_「星を繋ぐ」40mP × 一二三feat.初音ミク",
-    "songTitle": "「星を繋ぐ」40mP × 一二三feat.初音ミク",
-    "videoId": "Fo3qg44Rn6Q",
-    "videoTitle": "「星を繋ぐ」40mP × 一二三 (12340mP) feat.初音ミク",
-    "name": "一二三",
-    "role": "unknown",
-    "roleRaw": "Lyrics"
   },
   {
     "songId": "song_チームメイト／HoneyWorks feat.初音ミク",
@@ -12744,114 +13464,6 @@
     "roleRaw": "mix"
   },
   {
-    "songId": "song_遼遼, 初音ミク『仮死化』MV - Kashika",
-    "songTitle": "遼遼, 初音ミク『仮死化』MV - Kashika",
-    "videoId": "POD_KGL2aqQ",
-    "videoTitle": "遼遼, 初音ミク『仮死化』MV - Kashika",
-    "name": "遼遼",
-    "role": "unknown",
-    "roleRaw": "■作詞作曲編曲(Words"
-  },
-  {
-    "songId": "song_遼遼, 初音ミク『仮死化』MV - Kashika",
-    "songTitle": "遼遼, 初音ミク『仮死化』MV - Kashika",
-    "videoId": "POD_KGL2aqQ",
-    "videoTitle": "遼遼, 初音ミク『仮死化』MV - Kashika",
-    "name": "higoAkari.",
-    "role": "unknown",
-    "roleRaw": "■映像(Direction"
-  },
-  {
-    "songId": "song_遼遼, 初音ミク『仮死化』MV - Kashika",
-    "songTitle": "遼遼, 初音ミク『仮死化』MV - Kashika",
-    "videoId": "POD_KGL2aqQ",
-    "videoTitle": "遼遼, 初音ミク『仮死化』MV - Kashika",
-    "name": "浦本雅史",
-    "role": "unknown",
-    "roleRaw": "■ミキシング(Mixing)"
-  },
-  {
-    "songId": "song_遼遼, 初音ミク『仮死化』MV - Kashika",
-    "songTitle": "遼遼, 初音ミク『仮死化』MV - Kashika",
-    "videoId": "POD_KGL2aqQ",
-    "videoTitle": "遼遼, 初音ミク『仮死化』MV - Kashika",
-    "name": "澤本哲朗",
-    "role": "unknown",
-    "roleRaw": "■マスタリング(Mastering)"
-  },
-  {
-    "songId": "song_遼遼, 初音ミク『仮死化』MV - Kashika",
-    "songTitle": "遼遼, 初音ミク『仮死化』MV - Kashika",
-    "videoId": "POD_KGL2aqQ",
-    "videoTitle": "遼遼, 初音ミク『仮死化』MV - Kashika",
-    "name": "遼遼",
-    "role": "unknown",
-    "roleRaw": "■歌唱(Vocal)"
-  },
-  {
-    "songId": "song_遼遼, 初音ミク『仮死化』MV - Kashika",
-    "songTitle": "遼遼, 初音ミク『仮死化』MV - Kashika",
-    "videoId": "POD_KGL2aqQ",
-    "videoTitle": "遼遼, 初音ミク『仮死化』MV - Kashika",
-    "name": "初音ミク",
-    "role": "unknown",
-    "roleRaw": "■歌唱(Vocal)"
-  },
-  {
-    "songId": "song_Iなんです - れるりり feat.初音ミク",
-    "songTitle": "Iなんです - れるりり feat.初音ミク",
-    "videoId": "QYpL88jiWFs",
-    "videoTitle": "Iなんです - れるりり feat.初音ミク / I am you - rerulili feat.Hatsune Miku",
-    "name": "れるりり 【Twitter】",
-    "role": "unknown",
-    "roleRaw": "作詞作曲"
-  },
-  {
-    "songId": "song_Iなんです - れるりり feat.初音ミク",
-    "songTitle": "Iなんです - れるりり feat.初音ミク",
-    "videoId": "QYpL88jiWFs",
-    "videoTitle": "Iなんです - れるりり feat.初音ミク / I am you - rerulili feat.Hatsune Miku",
-    "name": "かごめP【Twitter】",
-    "role": "unknown",
-    "roleRaw": "ミックス"
-  },
-  {
-    "songId": "song_Iなんです - れるりり feat.初音ミク",
-    "songTitle": "Iなんです - れるりり feat.初音ミク",
-    "videoId": "QYpL88jiWFs",
-    "videoTitle": "Iなんです - れるりり feat.初音ミク / I am you - rerulili feat.Hatsune Miku",
-    "name": "利波 雷 【Twitter】",
-    "role": "pvCreator",
-    "roleRaw": "映像"
-  },
-  {
-    "songId": "song_Iなんです - れるりり feat.初音ミク",
-    "songTitle": "Iなんです - れるりり feat.初音ミク",
-    "videoId": "QYpL88jiWFs",
-    "videoTitle": "Iなんです - れるりり feat.初音ミク / I am you - rerulili feat.Hatsune Miku",
-    "name": "べにちる 【Twitter】",
-    "role": "illustrator",
-    "roleRaw": "イラスト"
-  },
-  {
-    "songId": "song_Iなんです - れるりり feat.初音ミク",
-    "songTitle": "Iなんです - れるりり feat.初音ミク",
-    "videoId": "QYpL88jiWFs",
-    "videoTitle": "Iなんです - れるりり feat.初音ミク / I am you - rerulili feat.Hatsune Miku",
-    "name": "Shu 【Twitter】",
-    "role": "unknown",
-    "roleRaw": "英文翻訳"
-  },
-  {
-    "songId": "song_Iなんです - れるりり feat.初音ミク",
-    "songTitle": "Iなんです - れるりり feat.初音ミク",
-    "videoId": "QYpL88jiWFs",
-    "videoTitle": "Iなんです - れるりり feat.初音ミク / I am you - rerulili feat.Hatsune Miku",
-    "name": "idolatrous angels",
-    "role": "unknown",
-    "roleRaw": "Captivated"
-  },
-  {
     "songId": "song_DREAM PLACE",
     "songTitle": "DREAM PLACE",
     "videoId": "Dr5vN1GgKlo",
@@ -12994,204 +13606,6 @@
     "name": "545）",
     "role": "unknown",
     "roleRaw": "通常盤(CD) TFCC-86877 定価"
-  },
-  {
-    "songId": "song_てらてら [VOCALOID ver.] MV",
-    "songTitle": "てらてら [VOCALOID ver.] MV",
-    "videoId": "03IyS_9Dt0g",
-    "videoTitle": "てらてら [VOCALOID ver.] MV",
-    "name": "二村学",
-    "role": "unknown",
-    "roleRaw": "ベース"
-  },
-  {
-    "songId": "song_てらてら [VOCALOID ver.] MV",
-    "songTitle": "てらてら [VOCALOID ver.] MV",
-    "videoId": "03IyS_9Dt0g",
-    "videoTitle": "てらてら [VOCALOID ver.] MV",
-    "name": "yasu",
-    "role": "unknown",
-    "roleRaw": "ミックス"
-  },
-  {
-    "songId": "song_てらてら [VOCALOID ver.] MV",
-    "songTitle": "てらてら [VOCALOID ver.] MV",
-    "videoId": "03IyS_9Dt0g",
-    "videoTitle": "てらてら [VOCALOID ver.] MV",
-    "name": "村カルキ",
-    "role": "illustrator",
-    "roleRaw": "イラスト"
-  },
-  {
-    "songId": "song_てらてら [VOCALOID ver.] MV",
-    "songTitle": "てらてら [VOCALOID ver.] MV",
-    "videoId": "03IyS_9Dt0g",
-    "videoTitle": "てらてら [VOCALOID ver.] MV",
-    "name": "ぬヴェントス",
-    "role": "pvCreator",
-    "roleRaw": "映像"
-  },
-  {
-    "songId": "song_【公式】 バグ／かいりきベア feat.初音ミク",
-    "songTitle": "【公式】 バグ／かいりきベア feat.初音ミク",
-    "videoId": "FkO8ub83wss",
-    "videoTitle": "【公式】 バグ／かいりきベア feat.初音ミク",
-    "name": "かいりきベア",
-    "role": "unknown",
-    "roleRaw": "▼Music"
-  },
-  {
-    "songId": "song_【公式】 バグ／かいりきベア feat.初音ミク",
-    "songTitle": "【公式】 バグ／かいりきベア feat.初音ミク",
-    "videoId": "FkO8ub83wss",
-    "videoTitle": "【公式】 バグ／かいりきベア feat.初音ミク",
-    "name": "のう",
-    "role": "unknown",
-    "roleRaw": "▼Illustration"
-  },
-  {
-    "songId": "song_月詠み『イフ』Music Video",
-    "songTitle": "月詠み『イフ』Music Video",
-    "videoId": "Xt1x1s2eAno",
-    "videoTitle": "月詠み『イフ』Music Video",
-    "name": "Yue ）",
-    "role": "unknown",
-    "roleRaw": "Vocal"
-  },
-  {
-    "songId": "song_月詠み『イフ』Music Video",
-    "songTitle": "月詠み『イフ』Music Video",
-    "videoId": "Xt1x1s2eAno",
-    "videoTitle": "月詠み『イフ』Music Video",
-    "name": "ユリイ",
-    "role": "unknown",
-    "roleRaw": "Piano"
-  },
-  {
-    "songId": "song_月詠み『イフ』Music Video",
-    "songTitle": "月詠み『イフ』Music Video",
-    "videoId": "Xt1x1s2eAno",
-    "videoTitle": "月詠み『イフ』Music Video",
-    "name": "カノン ）",
-    "role": "unknown",
-    "roleRaw": "Piano"
-  },
-  {
-    "songId": "song_月詠み『イフ』Music Video",
-    "songTitle": "月詠み『イフ』Music Video",
-    "videoId": "Xt1x1s2eAno",
-    "videoTitle": "月詠み『イフ』Music Video",
-    "name": "Epoch )",
-    "role": "unknown",
-    "roleRaw": "Guitar"
-  },
-  {
-    "songId": "song_月詠み『イフ』Music Video",
-    "songTitle": "月詠み『イフ』Music Video",
-    "videoId": "Xt1x1s2eAno",
-    "videoTitle": "月詠み『イフ』Music Video",
-    "name": "とうかさ )",
-    "role": "unknown",
-    "roleRaw": "Bass"
-  },
-  {
-    "songId": "song_月詠み『イフ』Music Video",
-    "songTitle": "月詠み『イフ』Music Video",
-    "videoId": "Xt1x1s2eAno",
-    "videoTitle": "月詠み『イフ』Music Video",
-    "name": "OTOIRO",
-    "role": "unknown",
-    "roleRaw": "■Movie"
-  },
-  {
-    "songId": "song_月詠み『イフ』Music Video",
-    "songTitle": "月詠み『イフ』Music Video",
-    "videoId": "Xt1x1s2eAno",
-    "videoTitle": "月詠み『イフ』Music Video",
-    "name": "あわしま",
-    "role": "pvCreator",
-    "roleRaw": "Director"
-  },
-  {
-    "songId": "song_月詠み『イフ』Music Video",
-    "songTitle": "月詠み『イフ』Music Video",
-    "videoId": "Xt1x1s2eAno",
-    "videoTitle": "月詠み『イフ』Music Video",
-    "name": "あわしま",
-    "role": "illustrator",
-    "roleRaw": "Illustrator"
-  },
-  {
-    "songId": "song_月詠み『イフ』Music Video",
-    "songTitle": "月詠み『イフ』Music Video",
-    "videoId": "Xt1x1s2eAno",
-    "videoTitle": "月詠み『イフ』Music Video",
-    "name": "1024",
-    "role": "animation",
-    "roleRaw": "Animator"
-  },
-  {
-    "songId": "song_月詠み『イフ』Music Video",
-    "songTitle": "月詠み『イフ』Music Video",
-    "videoId": "Xt1x1s2eAno",
-    "videoTitle": "月詠み『イフ』Music Video",
-    "name": "No.734",
-    "role": "unknown",
-    "roleRaw": "Background Artist (背景)"
-  },
-  {
-    "songId": "song_月詠み『イフ』Music Video",
-    "songTitle": "月詠み『イフ』Music Video",
-    "videoId": "Xt1x1s2eAno",
-    "videoTitle": "月詠み『イフ』Music Video",
-    "name": "kee",
-    "role": "unknown",
-    "roleRaw": "Background Assistant"
-  },
-  {
-    "songId": "song_月詠み『イフ』Music Video",
-    "songTitle": "月詠み『イフ』Music Video",
-    "videoId": "Xt1x1s2eAno",
-    "videoTitle": "月詠み『イフ』Music Video",
-    "name": "yuka fujii",
-    "role": "design",
-    "roleRaw": "Logo Designer"
-  },
-  {
-    "songId": "song_月詠み『イフ』Music Video",
-    "songTitle": "月詠み『イフ』Music Video",
-    "videoId": "Xt1x1s2eAno",
-    "videoTitle": "月詠み『イフ』Music Video",
-    "name": "あわしま",
-    "role": "pvCreator",
-    "roleRaw": "Composite"
-  },
-  {
-    "songId": "song_月詠み『イフ』Music Video",
-    "songTitle": "月詠み『イフ』Music Video",
-    "videoId": "Xt1x1s2eAno",
-    "videoTitle": "月詠み『イフ』Music Video",
-    "name": "Iori Majima",
-    "role": "unknown",
-    "roleRaw": "Project Manager"
-  },
-  {
-    "songId": "song_月詠み『イフ』Music Video",
-    "songTitle": "月詠み『イフ』Music Video",
-    "videoId": "Xt1x1s2eAno",
-    "videoTitle": "月詠み『イフ』Music Video",
-    "name": "北澤聖士",
-    "role": "unknown",
-    "roleRaw": "Vocal Recording Engineer"
-  },
-  {
-    "songId": "song_月詠み『イフ』Music Video",
-    "songTitle": "月詠み『イフ』Music Video",
-    "videoId": "Xt1x1s2eAno",
-    "videoTitle": "月詠み『イフ』Music Video",
-    "name": "増位淳平",
-    "role": "unknown",
-    "roleRaw": "Mixing"
   },
   {
     "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
@@ -13365,51 +13779,6 @@
     "roleRaw": "■Bass"
   },
   {
-    "songId": "song_ぬゆり - ロウワー",
-    "songTitle": "ぬゆり - ロウワー",
-    "videoId": "3sEptl-psU0",
-    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
-    "name": "春私宜",
-    "role": "unknown",
-    "roleRaw": "■Illustration"
-  },
-  {
-    "songId": "song_ぬゆり - ロウワー",
-    "songTitle": "ぬゆり - ロウワー",
-    "videoId": "3sEptl-psU0",
-    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
-    "name": "みず希",
-    "role": "unknown",
-    "roleRaw": "■Movie"
-  },
-  {
-    "songId": "song_ぬゆり - ロウワー",
-    "songTitle": "ぬゆり - ロウワー",
-    "videoId": "3sEptl-psU0",
-    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
-    "name": "いちた",
-    "role": "unknown",
-    "roleRaw": "■Guitar"
-  },
-  {
-    "songId": "song_ぬゆり - ロウワー",
-    "songTitle": "ぬゆり - ロウワー",
-    "videoId": "3sEptl-psU0",
-    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
-    "name": "中村涼真",
-    "role": "unknown",
-    "roleRaw": "■Mix"
-  },
-  {
-    "songId": "song_ぬゆり - ロウワー",
-    "songTitle": "ぬゆり - ロウワー",
-    "videoId": "3sEptl-psU0",
-    "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
-    "name": "ぬゆり",
-    "role": "unknown",
-    "roleRaw": "■Music"
-  },
-  {
     "songId": "song_【鏡音リンレン】にっこり^^調査隊のテーマ【ワンオポ/OriginalMV】",
     "songTitle": "【鏡音リンレン】にっこり^^調査隊のテーマ【ワンオポ/OriginalMV】",
     "videoId": "C_Fc1x_aeFQ",
@@ -13527,33 +13896,6 @@
     "roleRaw": "Czech"
   },
   {
-    "songId": "song_ミライ／初音ミク　mirai/hatsune miku",
-    "songTitle": "ミライ／初音ミク　mirai/hatsune miku",
-    "videoId": "zTokBPAXHW4",
-    "videoTitle": "ミライ／初音ミク　mirai/hatsune miku",
-    "name": "Hatsune Miku",
-    "role": "unknown",
-    "roleRaw": "Vocal"
-  },
-  {
-    "songId": "song_ミライ／初音ミク　mirai/hatsune miku",
-    "songTitle": "ミライ／初音ミク　mirai/hatsune miku",
-    "videoId": "zTokBPAXHW4",
-    "videoTitle": "ミライ／初音ミク　mirai/hatsune miku",
-    "name": "有機酸",
-    "role": "unknown",
-    "roleRaw": "Lyrics"
-  },
-  {
-    "songId": "song_ミライ／初音ミク　mirai/hatsune miku",
-    "songTitle": "ミライ／初音ミク　mirai/hatsune miku",
-    "videoId": "zTokBPAXHW4",
-    "videoTitle": "ミライ／初音ミク　mirai/hatsune miku",
-    "name": "東洋医学",
-    "role": "illustrator",
-    "roleRaw": "Illust"
-  },
-  {
     "songId": "song_ワールドワイドワンダー feat.初音ミク",
     "songTitle": "ワールドワイドワンダー feat.初音ミク",
     "videoId": "6NdOqVypgCM",
@@ -13642,348 +13984,6 @@
     "name": "じろうす(@pipopipo0402)",
     "role": "pvCreator",
     "roleRaw": "映像"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "3",
-    "role": "unknown",
-    "roleRaw": "受付期間"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "29 18:00〜4",
-    "role": "unknown",
-    "roleRaw": "受付期間"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "5 23:59まで(チケットぴあ)",
-    "role": "unknown",
-    "roleRaw": "受付期間"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "2022",
-    "role": "unknown",
-    "roleRaw": "受付期間"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "4",
-    "role": "unknown",
-    "roleRaw": "受付期間"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "2 10:00〜",
-    "role": "unknown",
-    "roleRaw": "受付期間"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "石川",
-    "role": "unknown",
-    "roleRaw": "4"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "本多の森ホール",
-    "role": "unknown",
-    "roleRaw": "4"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "福岡",
-    "role": "unknown",
-    "roleRaw": "4"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "北九州ソレイユホール",
-    "role": "unknown",
-    "roleRaw": "4"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "愛知",
-    "role": "unknown",
-    "roleRaw": "4"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "愛知県芸術劇場大ホール",
-    "role": "unknown",
-    "roleRaw": "4"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "広島",
-    "role": "unknown",
-    "roleRaw": "4"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "広島文化学園HBGホール",
-    "role": "unknown",
-    "roleRaw": "4"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "大阪",
-    "role": "unknown",
-    "roleRaw": "4"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "大阪国際会議場メインホール（グランキューブ大阪）",
-    "role": "unknown",
-    "roleRaw": "4"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "東京",
-    "role": "unknown",
-    "roleRaw": "5"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "東京ガーデンシアター",
-    "role": "unknown",
-    "roleRaw": "5"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "東京",
-    "role": "unknown",
-    "roleRaw": "5"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "東京ガーデンシアター",
-    "role": "unknown",
-    "roleRaw": "5"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "兵庫",
-    "role": "unknown",
-    "roleRaw": "5"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "神戸国際会館こくさいホール",
-    "role": "unknown",
-    "roleRaw": "5"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "2022",
-    "role": "unknown",
-    "roleRaw": "※受付期間"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "4",
-    "role": "unknown",
-    "roleRaw": "※受付期間"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "18(月)18:00〜4",
-    "role": "unknown",
-    "roleRaw": "※受付期間"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "24(日)23:59",
-    "role": "unknown",
-    "roleRaw": "※受付期間"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "（全仕様内容共通）",
-    "role": "unknown",
-    "roleRaw": "CD収録内容"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "他6曲 計14曲収録予定",
-    "role": "unknown",
-    "roleRaw": "＊曲順未定"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "無限廻段（金属製ZINGAIフィギュア",
-    "role": "unknown",
-    "roleRaw": "☑️GOODS [廻人盤（初回限定"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "アクリル製台紙付き）",
-    "role": "unknown",
-    "roleRaw": "☑️GOODS [廻人盤（初回限定"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "more",
-    "role": "unknown",
-    "roleRaw": "☑️GOODS [廻人盤（初回限定"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "Music Video集",
-    "role": "unknown",
-    "roleRaw": "☑️Blu-ray (初廻盤)"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "Eve LiveFilm Blu-ray「廻廻奇譚",
-    "role": "unknown",
-    "roleRaw": "☑️早期予約Blu-ray (全形態)"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "いのちの食べ方",
-    "role": "unknown",
-    "roleRaw": "☑️早期予約Blu-ray (全形態)"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "ドラマツルギー」",
-    "role": "unknown",
-    "roleRaw": "☑️早期予約Blu-ray (全形態)"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "Eve feat. Miku Hatsune",
-    "role": "unknown",
-    "roleRaw": "Vocal"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "Eve",
-    "role": "unknown",
-    "roleRaw": "Lyrics"
-  },
-  {
-    "songId": "song_群青讃歌 - Eve MV",
-    "songTitle": "群青讃歌 - Eve MV",
-    "videoId": "sgZjbk9eH6g",
-    "videoTitle": "群青讃歌 - Eve MV",
-    "name": "くっか",
-    "role": "unknown",
-    "roleRaw": "Animation Movie"
   },
   {
     "songId": "song_【プロセカ】*Luna - 流星のパルスfeat.Kagamine Len",
@@ -14688,8 +14688,8 @@
     "roleRaw": "Chinese lyrics translation"
   },
   {
-    "songId": "song_DECO*27×堀江晶太- セカイ feat. 初音ミク",
-    "songTitle": "DECO*27×堀江晶太- セカイ feat. 初音ミク",
+    "songId": "song_セカイ",
+    "songTitle": "セカイ",
     "videoId": "9vyIPWBeRes",
     "videoTitle": "DECO*27×堀江晶太(kemu) - セカイ feat. 初音ミク",
     "name": "Colorful Palette",
@@ -14697,8 +14697,8 @@
     "roleRaw": "(C) Craft Egg Inc. Developed"
   },
   {
-    "songId": "song_DECO*27×堀江晶太- セカイ feat. 初音ミク",
-    "songTitle": "DECO*27×堀江晶太- セカイ feat. 初音ミク",
+    "songId": "song_セカイ",
+    "songTitle": "セカイ",
     "videoId": "9vyIPWBeRes",
     "videoTitle": "DECO*27×堀江晶太(kemu) - セカイ feat. 初音ミク",
     "name": "DECO*27",
@@ -14706,8 +14706,8 @@
     "roleRaw": "Lyrics"
   },
   {
-    "songId": "song_DECO*27×堀江晶太- セカイ feat. 初音ミク",
-    "songTitle": "DECO*27×堀江晶太- セカイ feat. 初音ミク",
+    "songId": "song_セカイ",
+    "songTitle": "セカイ",
     "videoId": "9vyIPWBeRes",
     "videoTitle": "DECO*27×堀江晶太(kemu) - セカイ feat. 初音ミク",
     "name": "OTOIRO",
@@ -14715,8 +14715,8 @@
     "roleRaw": "Movie"
   },
   {
-    "songId": "song_DECO*27×堀江晶太- セカイ feat. 初音ミク",
-    "songTitle": "DECO*27×堀江晶太- セカイ feat. 初音ミク",
+    "songId": "song_セカイ",
+    "songTitle": "セカイ",
     "videoId": "9vyIPWBeRes",
     "videoTitle": "DECO*27×堀江晶太(kemu) - セカイ feat. 初音ミク",
     "name": "Yuma Saito",
@@ -14724,8 +14724,8 @@
     "roleRaw": "Director"
   },
   {
-    "songId": "song_DECO*27×堀江晶太- セカイ feat. 初音ミク",
-    "songTitle": "DECO*27×堀江晶太- セカイ feat. 初音ミク",
+    "songId": "song_セカイ",
+    "songTitle": "セカイ",
     "videoId": "9vyIPWBeRes",
     "videoTitle": "DECO*27×堀江晶太(kemu) - セカイ feat. 初音ミク",
     "name": "めろちん",
@@ -14733,8 +14733,8 @@
     "roleRaw": "Choreography"
   },
   {
-    "songId": "song_DECO*27×堀江晶太- セカイ feat. 初音ミク",
-    "songTitle": "DECO*27×堀江晶太- セカイ feat. 初音ミク",
+    "songId": "song_セカイ",
+    "songTitle": "セカイ",
     "videoId": "9vyIPWBeRes",
     "videoTitle": "DECO*27×堀江晶太(kemu) - セカイ feat. 初音ミク",
     "name": "バルス株式会社",

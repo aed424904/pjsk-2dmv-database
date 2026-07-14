@@ -203,6 +203,40 @@ class ManualVideoNormalizationTests(unittest.TestCase):
 
 
 class ManualVideoBuildDatabaseTests(unittest.TestCase):
+    def test_build_database_applies_song_title_override_before_grouping(self):
+        builder = DatabaseBuilder(".")
+        builder.corrections = {}
+        builder.youtube_source_name = "playlist_videos_test.json"
+        builder.youtube_data = {
+            "videos": [
+                {
+                    "videoId": "AbCdEfGhI12",
+                    "url": "https://www.youtube.com/watch?v=AbCdEfGhI12",
+                    "title": "作者名 - 曲名 feat. 初音ミク",
+                    "description": "",
+                    "channelTitle": "测试频道",
+                    "channelId": "test-channel",
+                    "publishedAt": "2026-04-21T08:00:00Z",
+                    "thumbnails": builder.build_youtube_thumbnails("AbCdEfGhI12"),
+                    "position": 1,
+                }
+            ]
+        }
+        builder.base_musics = [{"id": 1, "title": "曲名", "unitTags": [], "units": []}]
+        builder.sekai_musics = []
+        builder.sekai_music_tags = []
+        builder.sekai_units = []
+        builder.aliases = {}
+        builder.manual_videos = []
+        builder.original_video_overrides = {"AbCdEfGhI12": {"songTitle": "曲名"}}
+
+        database = builder.build_database()
+
+        self.assertEqual(len(database["songs"]), 1)
+        self.assertEqual(database["songs"][0]["title"], "曲名")
+        self.assertEqual(database["songs"][0]["sekaiMusicId"], 1)
+        self.assertEqual(database["songs"][0]["videos"][0]["videoId"], "AbCdEfGhI12")
+
     def test_build_database_prefers_explicit_song_title(self):
         builder = DatabaseBuilder(".")
         builder.corrections = {}
