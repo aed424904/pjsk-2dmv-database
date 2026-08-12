@@ -1,22 +1,22 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "generatedAt": "2026-07-10T16:29:09.642142",
+    "generatedAt": "2026-08-12T12:01:16.160836",
     "sources": [
       "sekai-master-db-diff-main/musics.json",
       "sekai-master-db-diff-main/musicTags.json",
       "sekai-master-db-diff-main/musicOriginals.json"
     ],
     "stats": {
-      "totalSongs": 699,
-      "songsWithOriginalVideoLink": 483,
+      "totalSongs": 709,
+      "songsWithOriginalVideoLink": 491,
       "unitBreakdown": {
-        "Leo/need": 87,
-        "MORE MORE JUMP!": 86,
-        "Vivid BAD SQUAD": 86,
-        "Wonderlands x Showtime": 86,
-        "25-ji, Nightcord de.": 86,
-        "Virtual Singer": 456
+        "Leo/need": 90,
+        "MORE MORE JUMP!": 87,
+        "Vivid BAD SQUAD": 88,
+        "Wonderlands x Showtime": 87,
+        "25-ji, Nightcord de.": 87,
+        "Virtual Singer": 462
       }
     }
   },
@@ -4881,7 +4881,8 @@
       "composer": "傘村トータ（LIVE LAB.）",
       "arranger": "村田祐一（LIVE LAB.）",
       "categories": [
-        "mv"
+        "mv",
+        "mv_2d"
       ],
       "publishedAt": "2022-04-28 22:05:00",
       "releasedAt": "2022-04-28 00:00:00",
@@ -11915,7 +11916,8 @@
       "composer": "いよわ",
       "arranger": "いよわ",
       "categories": [
-        "mv"
+        "mv",
+        "mv_2d"
       ],
       "publishedAt": "2024-05-17 15:00:00",
       "releasedAt": "2022-10-12 00:00:00",
@@ -16766,7 +16768,8 @@
       "composer": "ハヤシケイ",
       "arranger": "ハヤシケイ",
       "categories": [
-        "mv"
+        "mv",
+        "mv_2d"
       ],
       "publishedAt": "2026-02-17 22:05:00",
       "releasedAt": "2026-02-17 00:00:00",
@@ -19411,6 +19414,60 @@
       "originalVideoLink": null
     },
     {
+      "id": 750,
+      "seq": 1467901,
+      "title": "ロスタイムメモリー",
+      "pronunciation": "ろすたいむめもりー",
+      "lyricist": "じん",
+      "composer": "じん",
+      "arranger": "じん",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-08-12 15:00:00",
+      "releasedAt": "2013-03-30 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "street"
+      ],
+      "unitTags": [
+        "street"
+      ],
+      "units": [
+        "Vivid BAD SQUAD"
+      ],
+      "originalVideoLink": "https://www.youtube.com/watch?v=yJTQuDCnMjg"
+    },
+    {
+      "id": 751,
+      "seq": 1267701,
+      "title": "アディショナルメモリー",
+      "pronunciation": "あでぃしょなるめもりー",
+      "lyricist": "じん",
+      "composer": "じん",
+      "arranger": "じん",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-08-10 15:00:00",
+      "releasedAt": "2018-09-14 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "light_music_club"
+      ],
+      "unitTags": [
+        "light_music_club"
+      ],
+      "units": [
+        "Leo/need"
+      ],
+      "originalVideoLink": "https://www.youtube.com/watch?v=q2QfH1JqtkY"
+    },
+    {
       "id": 754,
       "seq": 2666701,
       "title": "光",
@@ -19598,6 +19655,235 @@
         "Wonderlands x Showtime"
       ],
       "originalVideoLink": null
+    },
+    {
+      "id": 764,
+      "seq": 1367801,
+      "title": "オツキミリサイタル",
+      "pronunciation": "おつきみりさいたる",
+      "lyricist": "じん",
+      "composer": "じん",
+      "arranger": "じん",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-08-11 15:00:00",
+      "releasedAt": "2013-07-02 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "idol"
+      ],
+      "unitTags": [
+        "idol"
+      ],
+      "units": [
+        "MORE MORE JUMP!"
+      ],
+      "originalVideoLink": "https://www.nicovideo.jp/watch/sm21259575"
+    },
+    {
+      "id": 765,
+      "seq": 2767301,
+      "title": "レム",
+      "pronunciation": "れむ",
+      "lyricist": "バルーン",
+      "composer": "バルーン",
+      "arranger": "バルーン",
+      "categories": [
+        "mv_2d"
+      ],
+      "publishedAt": "2026-07-29 20:15:00",
+      "releasedAt": "2026-07-29 00:00:00",
+      "isNewlyWrittenMusic": true,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid",
+        "theme_park",
+        "street",
+        "school_refusal",
+        "light_music_club",
+        "other"
+      ],
+      "unitTags": [
+        "vocaloid",
+        "theme_park",
+        "street",
+        "school_refusal",
+        "light_music_club"
+      ],
+      "units": [
+        "Virtual Singer",
+        "Wonderlands x Showtime",
+        "Vivid BAD SQUAD",
+        "25-ji, Nightcord de.",
+        "Leo/need"
+      ],
+      "originalVideoLink": null
+    },
+    {
+      "id": 789,
+      "seq": 2267401,
+      "title": "天秤、指先で触れて",
+      "pronunciation": "てんびん、ゆびさきでふれて",
+      "lyricist": "卯花ロク",
+      "composer": "卯花ロク",
+      "arranger": "卯花ロク",
+      "categories": [
+        "mv_2d"
+      ],
+      "publishedAt": "2026-07-31 15:00:00",
+      "releasedAt": "2026-07-31 00:00:00",
+      "isNewlyWrittenMusic": true,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "light_music_club"
+      ],
+      "unitTags": [
+        "light_music_club"
+      ],
+      "units": [
+        "Leo/need"
+      ],
+      "originalVideoLink": null
+    },
+    {
+      "id": 790,
+      "seq": 1167201,
+      "title": "ピッコーン！！",
+      "pronunciation": "ぴっこーん",
+      "lyricist": "椎名もた",
+      "composer": "椎名もた",
+      "arranger": "椎名もた",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-07-23 15:00:00",
+      "releasedAt": "2013-09-30 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://www.youtube.com/watch?v=OjSXEV-Q5VY"
+    },
+    {
+      "id": 791,
+      "seq": 1167101,
+      "title": "シティライツ",
+      "pronunciation": "してぃらいつ",
+      "lyricist": "椎名もた",
+      "composer": "椎名もた",
+      "arranger": "椎名もた",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-07-22 15:00:00",
+      "releasedAt": "2013-01-21 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://youtu.be/9PGXrVjxfY4?si=9B61nTujEVgApDSc"
+    },
+    {
+      "id": 792,
+      "seq": 1167001,
+      "title": "アストロノーツ",
+      "pronunciation": "あすとろのーつ",
+      "lyricist": "椎名もた",
+      "composer": "椎名もた",
+      "arranger": "椎名もた",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-07-21 15:00:00",
+      "releasedAt": "2011-06-02 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://www.nicovideo.jp/watch/nm14629738"
+    },
+    {
+      "id": 794,
+      "seq": 1167501,
+      "title": "デロスサントス",
+      "pronunciation": "でろすさんとす",
+      "lyricist": "山本",
+      "composer": "山本",
+      "arranger": "山本",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-08-03 15:00:00",
+      "releasedAt": "2026-02-21 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://youtu.be/U4bJY_uJvAI?si=dnwfYZ8GbmNJVXdw"
+    },
+    {
+      "id": 795,
+      "seq": 1167601,
+      "title": "一億年恋してる",
+      "pronunciation": "いちおくねんこいしてる",
+      "lyricist": "いのうつはSA",
+      "composer": "いのうつはSA",
+      "arranger": "いのうつはSA",
+      "categories": [
+        "image"
+      ],
+      "publishedAt": "2026-08-04 15:00:00",
+      "releasedAt": "2026-02-20 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://youtu.be/vbP45z87zf0?si=fyR0G_-xD_4vYF_z"
     }
   ]
 }

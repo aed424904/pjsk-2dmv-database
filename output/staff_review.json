@@ -1,5 +1,52 @@
 [
   {
+    "songId": "song_天秤、指先で触れて",
+    "songTitle": "天秤、指先で触れて",
+    "videoId": "MSVNeSQQMMY",
+    "videoTitle": "天秤、指先で触れて / 卯花ロク ft.初音ミク",
+    "unknownRoleLines": [
+      "■絵：房野聖",
+      "■曲：卯花ロク"
+    ],
+    "unparsedLines": [
+      "X(旧twitter)：https://x.com/gumi_seijin",
+      "X(旧twitter)：https://x.com/ukaroku",
+      "off vocal：https://piapro.jp/t/lNTI"
+    ]
+  },
+  {
+    "songId": "song_花に風",
+    "songTitle": "花に風",
+    "videoId": "bqXIwutzqUA",
+    "videoTitle": "花に風 / Vivid BAD SQUAD × 初音ミク",
+    "unknownRoleLines": [
+      "Lyric design：ななし https://x.com/nameless5104",
+      "Movie assistant：Riesz　https://x.com/Riesz_edit"
+    ],
+    "unparsedLines": []
+  },
+  {
+    "songId": "song_レム",
+    "songTitle": "レム",
+    "videoId": "iMKSAGNBFh8",
+    "videoTitle": "レム / 天馬咲希 × 青柳冬弥 × 神代類 × 暁山瑞希 × KAITO",
+    "unknownRoleLines": [
+      "Animation Support：052　https://twitter.com/saniiiwan / 神そんにゃ　https://x.com/sogna_jin / ちろき",
+      "Produced by CAROL (Yuki Inoishi/Haruka Naito)　https://x.com/CAROL_TRIBALCON"
+    ],
+    "unparsedLines": []
+  },
+  {
+    "songId": "song_1000年生きてる",
+    "songTitle": "1000年生きてる",
+    "videoId": "b6nm7NtmIBY",
+    "videoTitle": "1000年生きてる / ワンダーランズ×ショウタイム × 巡音ルカ",
+    "unknownRoleLines": [
+      "リリック：玉野ハヅキ　https://x.com/p_a_r_a_l_l_e_l"
+    ],
+    "unparsedLines": []
+  },
+  {
     "songId": "song_Gimme more!",
     "songTitle": "Gimme more!",
     "videoId": "p1BHscS8O5w",
@@ -23,6 +70,26 @@
       "Production : emma inc."
     ],
     "unparsedLines": []
+  },
+  {
+    "songId": "song_旅に帰る",
+    "songTitle": "旅に帰る",
+    "videoId": "zVi96Fs1G1c",
+    "videoTitle": "旅に帰る / 初音ミク&重音テトSV",
+    "unknownRoleLines": [
+      "ミックス・マスタリングエンジニア：さぶろう"
+    ],
+    "unparsedLines": [
+      "Inst：https://piapro.jp/t/3B6r",
+      "カンザキイオリ X：https://x.com/kurogaki0311",
+      "Info X：https://x.com/info_kanzaki",
+      "Info EN X：https://x.com/info_kanzaki_EN",
+      "書籍 Info X：https://x.com/kanzakibook",
+      "Instagram：https://www.instagram.com/kurogaki0311",
+      "TikTok：https://www.tiktok.com/@iori_kanzaki",
+      "Weibo：https://weibo.com/u/7931120484",
+      "bilibili：https://space.bilibili.com/3546701279267079"
+    ]
   },
   {
     "songId": "song_世界の歩き方",
@@ -668,11 +735,7 @@
     "songTitle": "ヘイヴン",
     "videoId": "MJa46AEGMb4",
     "videoTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "unknownRoleLines": [
-      "《第1部》 MWLÁND：δ428",
-      "open 14:15 / start 15:00",
-      "open 17:45 / start 18:30"
-    ],
+    "unknownRoleLines": [],
     "unparsedLines": [
       "X→ https://twitter.com/vinegar_vinegar",
       "X→ https://x.com/bakuiukabu",
@@ -1234,6 +1297,9 @@
     "videoId": "Xt1x1s2eAno",
     "videoTitle": "月詠み『イフ』Music Video",
     "unknownRoleLines": [
+      "開場 18:00 / 開演 19:00",
+      "開場 18:00 /　開演 19:00",
+      "開場 18:00　/ 開演 19:00",
       "■Movie by OTOIRO",
       "Background Artist (背景): No.734",
       "Background Assistant: kee",
@@ -1725,12 +1791,28 @@
     "unparsedLines": []
   },
   {
-    "songId": "song_1000年生きてる",
-    "songTitle": "1000年生きてる",
-    "videoId": "b6nm7NtmIBY",
-    "videoTitle": "1000年生きてる / ワンダーランズ×ショウタイム × 巡音ルカ",
+    "songId": "song_レム／重音テト × flower",
+    "songTitle": "レム／重音テト × flower",
+    "videoId": "0Ccd0JdqEo4",
+    "videoTitle": "レム／重音テト × flower",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "▽ inst / https://piapro.jp/balloon0120",
+      "X / https://x.com/balloon0120",
+      "Instagram / https://www.instagram.com/balloon0120/",
+      "hp / https://www.tabloid0120.com",
+      "X / https://x.com/avogado6",
+      "hp / https://www.avogado6.com/"
+    ]
+  },
+  {
+    "songId": "song_光 feat. 初音ミク - 水野あつ",
+    "songTitle": "光 feat. 初音ミク - 水野あつ",
+    "videoId": "G9Qs6ljjHVo",
+    "videoTitle": "光 feat. 初音ミク - 水野あつ",
     "unknownRoleLines": [
-      "リリック：玉野ハヅキ　https://x.com/p_a_r_a_l_l_e_l"
+      "Compose: 水野あつ",
+      "Mixing: 林田涼太"
     ],
     "unparsedLines": []
   },
@@ -1766,6 +1848,9 @@
     "videoId": "csDLDFadvlI",
     "videoTitle": "月詠み『世界の歩き方』Music Video",
     "unknownRoleLines": [
+      "開場 18:00 / 開演 19:00",
+      "開場 18:00 /　開演 19:00",
+      "開場 18:00　/ 開演 19:00",
       "Mixing Engineer : 増井淳平",
       "Mastering Engineer : 吉良武男（TEMAS）"
     ],
@@ -1892,21 +1977,18 @@
     "videoId": "JXbb-_ScjSY",
     "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
     "unknownRoleLines": [
-      "東京：TOYOTA ARENA TOKYO",
-      "OPEN 17:00 / START 18:00",
-      "チケット料金：8,800円 (全席指定)",
-      "ローソンチケット：l-tike.com/syudou/",
-      "チケットぴあ：w.pia.jp/t/syudou-t/",
-      "イープラス：eplus.jp/syudou/",
       "東京：Kanadevia Hall",
       "開場 16:00 / 開演 17:00",
       "チケット：8,500円（全席指定 / ドリンク代別）",
       "出演者：syudou / Dannie May / 浪漫派マシュマロ / マヂカルラブリー / オズワルド",
-      "受付：7/12(日) 23:59まで",
-      "2026年3月15日(日)　大阪：NHK大阪ホール",
-      "2026年3月29日(日)　東京：Kanadevia Hall",
-      "OPEN17:00 / START18:00",
-      "チケット料金：8,000円(全席指定)"
+      "期間：8/9(日)23:59まで",
+      "2026年11月7日(土)愛知：岡谷鋼機名古屋公会堂 大ホール",
+      "OPEN 17:00 / START 18:00",
+      "2026年12月19日(土)大阪：オリックス劇場",
+      "2027年1月28日(木)東京：Shibuya LOVEZ",
+      "OPEN 17:30 / START 18:30",
+      "チケット料金：8,800円 (全席指定) ※東京公演のみドリンク代別",
+      "受付期間：8月6日(木)18:00~8/16(日)23:59"
     ],
     "unparsedLines": [
       "配信：https://syudou.lnk.to/pentatonic",
@@ -2650,7 +2732,7 @@
     "songId": "song_DREAM PLACE",
     "songTitle": "DREAM PLACE",
     "videoId": "Dr5vN1GgKlo",
-    "videoTitle": "DREAM PLACE / 巡音ルカ 初音ミク 鏡音リン",
+    "videoTitle": "DREAM PLACE / EasyPop feat.巡音ルカ 初音ミク 鏡音リン",
     "unknownRoleLines": [
       "Ilustration：apapico(@apapico)"
     ],
@@ -2693,9 +2775,6 @@
     "videoId": "BPh4m2VnfNo",
     "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
     "unknownRoleLines": [
-      "《第1部》 MWLÁND：δ428",
-      "open 14:15 / start 15:00",
-      "open 17:45 / start 18:30",
       "I’m bound by shackles and corruption"
     ],
     "unparsedLines": [
@@ -2990,17 +3069,18 @@
     "videoId": "B2llCEKbxwA",
     "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
     "unknownRoleLines": [
-      "東京：TOYOTA ARENA TOKYO",
-      "OPEN 17:00 / START 18:00",
-      "チケット料金：8,800円 (全席指定)",
-      "ローソンチケット：l-tike.com/syudou/",
-      "チケットぴあ：w.pia.jp/t/syudou-t/",
-      "イープラス：eplus.jp/syudou/",
       "東京：Kanadevia Hall",
       "開場 16:00 / 開演 17:00",
       "チケット：8,500円（全席指定 / ドリンク代別）",
       "出演者：syudou / Dannie May / 浪漫派マシュマロ / マヂカルラブリー / オズワルド",
-      "受付：7/12(日) 23:59まで"
+      "期間：8/9(日)23:59まで",
+      "2026年11月7日(土)愛知：岡谷鋼機名古屋公会堂 大ホール",
+      "OPEN 17:00 / START 18:00",
+      "2026年12月19日(土)大阪：オリックス劇場",
+      "2027年1月28日(木)東京：Shibuya LOVEZ",
+      "OPEN 17:30 / START 18:30",
+      "チケット料金：8,800円 (全席指定) ※東京公演のみドリンク代別",
+      "受付期間：8月6日(木)18:00~8/16(日)23:59"
     ],
     "unparsedLines": [
       "曲/syudou(https://twitter.com/tikandame)",

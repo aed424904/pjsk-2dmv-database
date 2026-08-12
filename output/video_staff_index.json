@@ -1,5 +1,230 @@
 [
   {
+    "songId": "song_天秤、指先で触れて",
+    "songTitle": "天秤、指先で触れて",
+    "videoId": "ul97PWn9gtk",
+    "videoTitle": "天秤、指先で触れて / Leo/need × 鏡音リン",
+    "name": "米室",
+    "role": "illustrator",
+    "roleRaw": "イラスト"
+  },
+  {
+    "songId": "song_天秤、指先で触れて",
+    "songTitle": "天秤、指先で触れて",
+    "videoId": "ul97PWn9gtk",
+    "videoTitle": "天秤、指先で触れて / Leo/need × 鏡音リン",
+    "name": "omu",
+    "role": "pvCreator",
+    "roleRaw": "動画"
+  },
+  {
+    "songId": "song_天秤、指先で触れて",
+    "songTitle": "天秤、指先で触れて",
+    "videoId": "MSVNeSQQMMY",
+    "videoTitle": "天秤、指先で触れて / 卯花ロク ft.初音ミク",
+    "name": "房野聖",
+    "role": "unknown",
+    "roleRaw": "■絵"
+  },
+  {
+    "songId": "song_天秤、指先で触れて",
+    "songTitle": "天秤、指先で触れて",
+    "videoId": "MSVNeSQQMMY",
+    "videoTitle": "天秤、指先で触れて / 卯花ロク ft.初音ミク",
+    "name": "卯花ロク",
+    "role": "unknown",
+    "roleRaw": "■曲"
+  },
+  {
+    "songId": "song_花に風",
+    "songTitle": "花に風",
+    "videoId": "bqXIwutzqUA",
+    "videoTitle": "花に風 / Vivid BAD SQUAD × 初音ミク",
+    "name": "nApio",
+    "role": "illustrator",
+    "roleRaw": "Illustration"
+  },
+  {
+    "songId": "song_花に風",
+    "songTitle": "花に風",
+    "videoId": "bqXIwutzqUA",
+    "videoTitle": "花に風 / Vivid BAD SQUAD × 初音ミク",
+    "name": "nApio",
+    "role": "pvCreator",
+    "roleRaw": "Movie"
+  },
+  {
+    "songId": "song_花に風",
+    "songTitle": "花に風",
+    "videoId": "bqXIwutzqUA",
+    "videoTitle": "花に風 / Vivid BAD SQUAD × 初音ミク",
+    "name": "ななし",
+    "role": "unknown",
+    "roleRaw": "Lyric design"
+  },
+  {
+    "songId": "song_花に風",
+    "songTitle": "花に風",
+    "videoId": "bqXIwutzqUA",
+    "videoTitle": "花に風 / Vivid BAD SQUAD × 初音ミク",
+    "name": "Riesz",
+    "role": "unknown",
+    "roleRaw": "Movie assistant"
+  },
+  {
+    "songId": "song_レム",
+    "songTitle": "レム",
+    "videoId": "iMKSAGNBFh8",
+    "videoTitle": "レム / 天馬咲希 × 青柳冬弥 × 神代類 × 暁山瑞希 × KAITO",
+    "name": "ぽぷりか(CAROL)",
+    "role": "pvCreator",
+    "roleRaw": "Direction"
+  },
+  {
+    "songId": "song_レム",
+    "songTitle": "レム",
+    "videoId": "iMKSAGNBFh8",
+    "videoTitle": "レム / 天馬咲希 × 青柳冬弥 × 神代類 × 暁山瑞希 × KAITO",
+    "name": "革蝉",
+    "role": "animation",
+    "roleRaw": "Animation"
+  },
+  {
+    "songId": "song_レム",
+    "songTitle": "レム",
+    "videoId": "iMKSAGNBFh8",
+    "videoTitle": "レム / 天馬咲希 × 青柳冬弥 × 神代類 × 暁山瑞希 × KAITO",
+    "name": "おはじき",
+    "role": "animation",
+    "roleRaw": "Animation"
+  },
+  {
+    "songId": "song_レム",
+    "songTitle": "レム",
+    "videoId": "iMKSAGNBFh8",
+    "videoTitle": "レム / 天馬咲希 × 青柳冬弥 × 神代類 × 暁山瑞希 × KAITO",
+    "name": "052",
+    "role": "unknown",
+    "roleRaw": "Animation Support"
+  },
+  {
+    "songId": "song_レム",
+    "songTitle": "レム",
+    "videoId": "iMKSAGNBFh8",
+    "videoTitle": "レム / 天馬咲希 × 青柳冬弥 × 神代類 × 暁山瑞希 × KAITO",
+    "name": "神そんにゃ",
+    "role": "unknown",
+    "roleRaw": "Animation Support"
+  },
+  {
+    "songId": "song_レム",
+    "songTitle": "レム",
+    "videoId": "iMKSAGNBFh8",
+    "videoTitle": "レム / 天馬咲希 × 青柳冬弥 × 神代類 × 暁山瑞希 × KAITO",
+    "name": "ちろき",
+    "role": "unknown",
+    "roleRaw": "Animation Support"
+  },
+  {
+    "songId": "song_レム",
+    "songTitle": "レム",
+    "videoId": "iMKSAGNBFh8",
+    "videoTitle": "レム / 天馬咲希 × 青柳冬弥 × 神代類 × 暁山瑞希 × KAITO",
+    "name": "安倉",
+    "role": "pvCreator",
+    "roleRaw": "Composite"
+  },
+  {
+    "songId": "song_レム",
+    "songTitle": "レム",
+    "videoId": "iMKSAGNBFh8",
+    "videoTitle": "レム / 天馬咲希 × 青柳冬弥 × 神代類 × 暁山瑞希 × KAITO",
+    "name": "CAROL (Yuki Inoishi",
+    "role": "unknown",
+    "roleRaw": "Produced"
+  },
+  {
+    "songId": "song_レム",
+    "songTitle": "レム",
+    "videoId": "iMKSAGNBFh8",
+    "videoTitle": "レム / 天馬咲希 × 青柳冬弥 × 神代類 × 暁山瑞希 × KAITO",
+    "name": "Haruka Naito)",
+    "role": "unknown",
+    "roleRaw": "Produced"
+  },
+  {
+    "songId": "song_だめにんげんだ!",
+    "songTitle": "だめにんげんだ!",
+    "videoId": "sIcS39Olupk",
+    "videoTitle": "だめにんげんだ! / MORE MORE JUMP！ × 初音ミク",
+    "name": "お天気屋",
+    "role": "illustrator",
+    "roleRaw": "イラスト"
+  },
+  {
+    "songId": "song_だめにんげんだ!",
+    "songTitle": "だめにんげんだ!",
+    "videoId": "sIcS39Olupk",
+    "videoTitle": "だめにんげんだ! / MORE MORE JUMP！ × 初音ミク",
+    "name": "末尾",
+    "role": "pvCreator",
+    "roleRaw": "動画"
+  },
+  {
+    "songId": "song_光",
+    "songTitle": "光",
+    "videoId": "7xrmpZ_L0-0",
+    "videoTitle": "光 / 25時、ナイトコードで。 × MEIKO",
+    "name": "まかぎ",
+    "role": "illustrator",
+    "roleRaw": "イラスト"
+  },
+  {
+    "songId": "song_光",
+    "songTitle": "光",
+    "videoId": "7xrmpZ_L0-0",
+    "videoTitle": "光 / 25時、ナイトコードで。 × MEIKO",
+    "name": "neybell",
+    "role": "design",
+    "roleRaw": "グラフィックデザイン"
+  },
+  {
+    "songId": "song_光",
+    "songTitle": "光",
+    "videoId": "7xrmpZ_L0-0",
+    "videoTitle": "光 / 25時、ナイトコードで。 × MEIKO",
+    "name": "椎柚あげ(R11R)",
+    "role": "pvCreator",
+    "roleRaw": "動画"
+  },
+  {
+    "songId": "song_1000年生きてる",
+    "songTitle": "1000年生きてる",
+    "videoId": "b6nm7NtmIBY",
+    "videoTitle": "1000年生きてる / ワンダーランズ×ショウタイム × 巡音ルカ",
+    "name": "みっ君",
+    "role": "illustrator",
+    "roleRaw": "イラスト"
+  },
+  {
+    "songId": "song_1000年生きてる",
+    "songTitle": "1000年生きてる",
+    "videoId": "b6nm7NtmIBY",
+    "videoTitle": "1000年生きてる / ワンダーランズ×ショウタイム × 巡音ルカ",
+    "name": "とこう",
+    "role": "pvCreator",
+    "roleRaw": "動画"
+  },
+  {
+    "songId": "song_1000年生きてる",
+    "songTitle": "1000年生きてる",
+    "videoId": "b6nm7NtmIBY",
+    "videoTitle": "1000年生きてる / ワンダーランズ×ショウタイム × 巡音ルカ",
+    "name": "玉野ハヅキ",
+    "role": "unknown",
+    "roleRaw": "リリック"
+  },
+  {
     "songId": "song_Gimme more!",
     "songTitle": "Gimme more!",
     "videoId": "7bC8xdanmiY",
@@ -250,6 +475,24 @@
     "name": "emma inc.",
     "role": "unknown",
     "roleRaw": "Production"
+  },
+  {
+    "songId": "song_旅に帰る",
+    "songTitle": "旅に帰る",
+    "videoId": "zVi96Fs1G1c",
+    "videoTitle": "旅に帰る / 初音ミク&重音テトSV",
+    "name": "さぶろう",
+    "role": "unknown",
+    "roleRaw": "ミックス"
+  },
+  {
+    "songId": "song_旅に帰る",
+    "songTitle": "旅に帰る",
+    "videoId": "zVi96Fs1G1c",
+    "videoTitle": "旅に帰る / 初音ミク&重音テトSV",
+    "name": "すもるめ",
+    "role": "pvCreator",
+    "roleRaw": "映像"
   },
   {
     "songId": "song_ドリーマーズビート",
@@ -2941,51 +3184,6 @@
     "name": "よし",
     "role": "pvCreator",
     "roleRaw": "動画"
-  },
-  {
-    "songId": "song_ヘイヴン",
-    "songTitle": "ヘイヴン",
-    "videoId": "MJa46AEGMb4",
-    "videoTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "name": "δ428",
-    "role": "unknown",
-    "roleRaw": "《第1部》 MWLÁND"
-  },
-  {
-    "songId": "song_ヘイヴン",
-    "songTitle": "ヘイヴン",
-    "videoId": "MJa46AEGMb4",
-    "videoTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "name": "15",
-    "role": "unknown",
-    "roleRaw": "open 14"
-  },
-  {
-    "songId": "song_ヘイヴン",
-    "songTitle": "ヘイヴン",
-    "videoId": "MJa46AEGMb4",
-    "videoTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "name": "00",
-    "role": "unknown",
-    "roleRaw": "start 15"
-  },
-  {
-    "songId": "song_ヘイヴン",
-    "songTitle": "ヘイヴン",
-    "videoId": "MJa46AEGMb4",
-    "videoTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "name": "45",
-    "role": "unknown",
-    "roleRaw": "open 17"
-  },
-  {
-    "songId": "song_ヘイヴン",
-    "songTitle": "ヘイヴン",
-    "videoId": "MJa46AEGMb4",
-    "videoTitle": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
-    "name": "30",
-    "role": "unknown",
-    "roleRaw": "start 18"
   },
   {
     "songId": "song_ももいろの鍵",
@@ -6799,6 +6997,33 @@
     "songTitle": "イフ",
     "videoId": "Xt1x1s2eAno",
     "videoTitle": "月詠み『イフ』Music Video",
+    "name": "00",
+    "role": "unknown",
+    "roleRaw": "開場 18"
+  },
+  {
+    "songId": "song_イフ",
+    "songTitle": "イフ",
+    "videoId": "Xt1x1s2eAno",
+    "videoTitle": "月詠み『イフ』Music Video",
+    "name": "00",
+    "role": "unknown",
+    "roleRaw": "開場 18"
+  },
+  {
+    "songId": "song_イフ",
+    "songTitle": "イフ",
+    "videoId": "Xt1x1s2eAno",
+    "videoTitle": "月詠み『イフ』Music Video",
+    "name": "00",
+    "role": "unknown",
+    "roleRaw": "開場 18"
+  },
+  {
+    "songId": "song_イフ",
+    "songTitle": "イフ",
+    "videoId": "Xt1x1s2eAno",
+    "videoTitle": "月詠み『イフ』Music Video",
     "name": "OTOIRO",
     "role": "unknown",
     "roleRaw": "■Movie"
@@ -9972,31 +10197,40 @@
     "roleRaw": "(C) Craft Egg Inc. Developed"
   },
   {
-    "songId": "song_1000年生きてる",
-    "songTitle": "1000年生きてる",
-    "videoId": "b6nm7NtmIBY",
-    "videoTitle": "1000年生きてる / ワンダーランズ×ショウタイム × 巡音ルカ",
-    "name": "みっ君",
-    "role": "illustrator",
-    "roleRaw": "イラスト"
-  },
-  {
-    "songId": "song_1000年生きてる",
-    "songTitle": "1000年生きてる",
-    "videoId": "b6nm7NtmIBY",
-    "videoTitle": "1000年生きてる / ワンダーランズ×ショウタイム × 巡音ルカ",
-    "name": "とこう",
-    "role": "pvCreator",
-    "roleRaw": "動画"
-  },
-  {
-    "songId": "song_1000年生きてる",
-    "songTitle": "1000年生きてる",
-    "videoId": "b6nm7NtmIBY",
-    "videoTitle": "1000年生きてる / ワンダーランズ×ショウタイム × 巡音ルカ",
-    "name": "玉野ハヅキ",
+    "songId": "song_光 feat. 初音ミク - 水野あつ",
+    "songTitle": "光 feat. 初音ミク - 水野あつ",
+    "videoId": "G9Qs6ljjHVo",
+    "videoTitle": "光 feat. 初音ミク - 水野あつ",
+    "name": "水野あつ",
     "role": "unknown",
-    "roleRaw": "リリック"
+    "roleRaw": "Compose"
+  },
+  {
+    "songId": "song_光 feat. 初音ミク - 水野あつ",
+    "songTitle": "光 feat. 初音ミク - 水野あつ",
+    "videoId": "G9Qs6ljjHVo",
+    "videoTitle": "光 feat. 初音ミク - 水野あつ",
+    "name": "林田涼太",
+    "role": "unknown",
+    "roleRaw": "Mixing"
+  },
+  {
+    "songId": "song_光 feat. 初音ミク - 水野あつ",
+    "songTitle": "光 feat. 初音ミク - 水野あつ",
+    "videoId": "G9Qs6ljjHVo",
+    "videoTitle": "光 feat. 初音ミク - 水野あつ",
+    "name": "きょうきち",
+    "role": "illustrator",
+    "roleRaw": "Illustrator"
+  },
+  {
+    "songId": "song_光 feat. 初音ミク - 水野あつ",
+    "songTitle": "光 feat. 初音ミク - 水野あつ",
+    "videoId": "G9Qs6ljjHVo",
+    "videoTitle": "光 feat. 初音ミク - 水野あつ",
+    "name": "よしだなすび",
+    "role": "pvCreator",
+    "roleRaw": "Movie"
   },
   {
     "songId": "song_『オールイン・ワン』- 重音テト × 和田たけあき",
@@ -10096,6 +10330,33 @@
     "name": "べて",
     "role": "pvCreator",
     "roleRaw": "Movie"
+  },
+  {
+    "songId": "song_月詠み『世界の歩き方』Music Video",
+    "songTitle": "月詠み『世界の歩き方』Music Video",
+    "videoId": "csDLDFadvlI",
+    "videoTitle": "月詠み『世界の歩き方』Music Video",
+    "name": "00",
+    "role": "unknown",
+    "roleRaw": "開場 18"
+  },
+  {
+    "songId": "song_月詠み『世界の歩き方』Music Video",
+    "songTitle": "月詠み『世界の歩き方』Music Video",
+    "videoId": "csDLDFadvlI",
+    "videoTitle": "月詠み『世界の歩き方』Music Video",
+    "name": "00",
+    "role": "unknown",
+    "roleRaw": "開場 18"
+  },
+  {
+    "songId": "song_月詠み『世界の歩き方』Music Video",
+    "songTitle": "月詠み『世界の歩き方』Music Video",
+    "videoId": "csDLDFadvlI",
+    "videoTitle": "月詠み『世界の歩き方』Music Video",
+    "name": "00",
+    "role": "unknown",
+    "roleRaw": "開場 18"
   },
   {
     "songId": "song_月詠み『世界の歩き方』Music Video",
@@ -10381,105 +10642,6 @@
     "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
     "videoId": "JXbb-_ScjSY",
     "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "TOYOTA ARENA TOKYO",
-    "role": "unknown",
-    "roleRaw": "東京"
-  },
-  {
-    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "videoId": "JXbb-_ScjSY",
-    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "00",
-    "role": "unknown",
-    "roleRaw": "OPEN 17"
-  },
-  {
-    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "videoId": "JXbb-_ScjSY",
-    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "8",
-    "role": "unknown",
-    "roleRaw": "チケット料金"
-  },
-  {
-    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "videoId": "JXbb-_ScjSY",
-    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "800円 (全席指定)",
-    "role": "unknown",
-    "roleRaw": "チケット料金"
-  },
-  {
-    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "videoId": "JXbb-_ScjSY",
-    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "l-tike.com",
-    "role": "unknown",
-    "roleRaw": "ローソンチケット"
-  },
-  {
-    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "videoId": "JXbb-_ScjSY",
-    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "syudou",
-    "role": "unknown",
-    "roleRaw": "ローソンチケット"
-  },
-  {
-    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "videoId": "JXbb-_ScjSY",
-    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "w.pia.jp",
-    "role": "unknown",
-    "roleRaw": "チケットぴあ"
-  },
-  {
-    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "videoId": "JXbb-_ScjSY",
-    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "t",
-    "role": "unknown",
-    "roleRaw": "チケットぴあ"
-  },
-  {
-    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "videoId": "JXbb-_ScjSY",
-    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "syudou-t",
-    "role": "unknown",
-    "roleRaw": "チケットぴあ"
-  },
-  {
-    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "videoId": "JXbb-_ScjSY",
-    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "eplus.jp",
-    "role": "unknown",
-    "roleRaw": "イープラス"
-  },
-  {
-    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "videoId": "JXbb-_ScjSY",
-    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "syudou",
-    "role": "unknown",
-    "roleRaw": "イープラス"
-  },
-  {
-    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "videoId": "JXbb-_ScjSY",
-    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
     "name": "Kanadevia Hall",
     "role": "unknown",
     "roleRaw": "東京"
@@ -10570,36 +10732,27 @@
     "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
     "videoId": "JXbb-_ScjSY",
     "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "7",
+    "name": "8",
     "role": "unknown",
-    "roleRaw": "受付"
+    "roleRaw": "期間"
   },
   {
     "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
     "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
     "videoId": "JXbb-_ScjSY",
     "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "12(日) 23:59まで",
+    "name": "9(日)23:59まで",
     "role": "unknown",
-    "roleRaw": "受付"
+    "roleRaw": "期間"
   },
   {
     "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
     "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
     "videoId": "JXbb-_ScjSY",
     "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "NHK大阪ホール",
+    "name": "岡谷鋼機名古屋公会堂 大ホール",
     "role": "unknown",
-    "roleRaw": "2026年3月15日(日) 大阪"
-  },
-  {
-    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "videoId": "JXbb-_ScjSY",
-    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "Kanadevia Hall",
-    "role": "unknown",
-    "roleRaw": "2026年3月29日(日) 東京"
+    "roleRaw": "2026年11月7日(土)愛知"
   },
   {
     "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
@@ -10608,7 +10761,34 @@
     "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
     "name": "00",
     "role": "unknown",
-    "roleRaw": "OPEN17"
+    "roleRaw": "OPEN 17"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "オリックス劇場",
+    "role": "unknown",
+    "roleRaw": "2026年12月19日(土)大阪"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "Shibuya LOVEZ",
+    "role": "unknown",
+    "roleRaw": "2027年1月28日(木)東京"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "30",
+    "role": "unknown",
+    "roleRaw": "OPEN 17"
   },
   {
     "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
@@ -10624,9 +10804,27 @@
     "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
     "videoId": "JXbb-_ScjSY",
     "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "000円(全席指定)",
+    "name": "800円 (全席指定) ※東京公演のみドリンク代別",
     "role": "unknown",
     "roleRaw": "チケット料金"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "8月6日(木)18:00~8",
+    "role": "unknown",
+    "roleRaw": "受付期間"
+  },
+  {
+    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "name": "16(日)23:59",
+    "role": "unknown",
+    "roleRaw": "受付期間"
   },
   {
     "songId": "song_アクセラレイト - 初音ミク[吉田夜世]",
@@ -12099,7 +12297,7 @@
     "songId": "song_DREAM PLACE",
     "songTitle": "DREAM PLACE",
     "videoId": "Dr5vN1GgKlo",
-    "videoTitle": "DREAM PLACE / 巡音ルカ 初音ミク 鏡音リン",
+    "videoTitle": "DREAM PLACE / EasyPop feat.巡音ルカ 初音ミク 鏡音リン",
     "name": "モリケント(@tree3_wiseman)",
     "role": "pvCreator",
     "roleRaw": "Movie"
@@ -12108,7 +12306,7 @@
     "songId": "song_DREAM PLACE",
     "songTitle": "DREAM PLACE",
     "videoId": "Dr5vN1GgKlo",
-    "videoTitle": "DREAM PLACE / 巡音ルカ 初音ミク 鏡音リン",
+    "videoTitle": "DREAM PLACE / EasyPop feat.巡音ルカ 初音ミク 鏡音リン",
     "name": "apapico(@apapico)",
     "role": "unknown",
     "roleRaw": "Ilustration"
@@ -12229,51 +12427,6 @@
     "name": "545）",
     "role": "unknown",
     "roleRaw": "通常盤(CD) TFCC-86877 定価"
-  },
-  {
-    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "videoId": "BPh4m2VnfNo",
-    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "name": "δ428",
-    "role": "unknown",
-    "roleRaw": "《第1部》 MWLÁND"
-  },
-  {
-    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "videoId": "BPh4m2VnfNo",
-    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "name": "15",
-    "role": "unknown",
-    "roleRaw": "open 14"
-  },
-  {
-    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "videoId": "BPh4m2VnfNo",
-    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "name": "00",
-    "role": "unknown",
-    "roleRaw": "start 15"
-  },
-  {
-    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "videoId": "BPh4m2VnfNo",
-    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "name": "45",
-    "role": "unknown",
-    "roleRaw": "open 17"
-  },
-  {
-    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "videoId": "BPh4m2VnfNo",
-    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "name": "30",
-    "role": "unknown",
-    "roleRaw": "start 18"
   },
   {
     "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
@@ -12802,105 +12955,6 @@
     "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
     "videoId": "B2llCEKbxwA",
     "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "name": "TOYOTA ARENA TOKYO",
-    "role": "unknown",
-    "roleRaw": "東京"
-  },
-  {
-    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
-    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "videoId": "B2llCEKbxwA",
-    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "name": "00",
-    "role": "unknown",
-    "roleRaw": "OPEN 17"
-  },
-  {
-    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
-    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "videoId": "B2llCEKbxwA",
-    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "name": "8",
-    "role": "unknown",
-    "roleRaw": "チケット料金"
-  },
-  {
-    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
-    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "videoId": "B2llCEKbxwA",
-    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "name": "800円 (全席指定)",
-    "role": "unknown",
-    "roleRaw": "チケット料金"
-  },
-  {
-    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
-    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "videoId": "B2llCEKbxwA",
-    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "name": "l-tike.com",
-    "role": "unknown",
-    "roleRaw": "ローソンチケット"
-  },
-  {
-    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
-    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "videoId": "B2llCEKbxwA",
-    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "name": "syudou",
-    "role": "unknown",
-    "roleRaw": "ローソンチケット"
-  },
-  {
-    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
-    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "videoId": "B2llCEKbxwA",
-    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "name": "w.pia.jp",
-    "role": "unknown",
-    "roleRaw": "チケットぴあ"
-  },
-  {
-    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
-    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "videoId": "B2llCEKbxwA",
-    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "name": "t",
-    "role": "unknown",
-    "roleRaw": "チケットぴあ"
-  },
-  {
-    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
-    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "videoId": "B2llCEKbxwA",
-    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "name": "syudou-t",
-    "role": "unknown",
-    "roleRaw": "チケットぴあ"
-  },
-  {
-    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
-    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "videoId": "B2llCEKbxwA",
-    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "name": "eplus.jp",
-    "role": "unknown",
-    "roleRaw": "イープラス"
-  },
-  {
-    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
-    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "videoId": "B2llCEKbxwA",
-    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "name": "syudou",
-    "role": "unknown",
-    "roleRaw": "イープラス"
-  },
-  {
-    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
-    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "videoId": "B2llCEKbxwA",
-    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
     "name": "Kanadevia Hall",
     "role": "unknown",
     "roleRaw": "東京"
@@ -12991,18 +13045,99 @@
     "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
     "videoId": "B2llCEKbxwA",
     "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "name": "7",
+    "name": "8",
     "role": "unknown",
-    "roleRaw": "受付"
+    "roleRaw": "期間"
   },
   {
     "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
     "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
     "videoId": "B2llCEKbxwA",
     "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "name": "12(日) 23:59まで",
+    "name": "9(日)23:59まで",
     "role": "unknown",
-    "roleRaw": "受付"
+    "roleRaw": "期間"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "岡谷鋼機名古屋公会堂 大ホール",
+    "role": "unknown",
+    "roleRaw": "2026年11月7日(土)愛知"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "00",
+    "role": "unknown",
+    "roleRaw": "OPEN 17"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "オリックス劇場",
+    "role": "unknown",
+    "roleRaw": "2026年12月19日(土)大阪"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "Shibuya LOVEZ",
+    "role": "unknown",
+    "roleRaw": "2027年1月28日(木)東京"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "30",
+    "role": "unknown",
+    "roleRaw": "OPEN 17"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "8",
+    "role": "unknown",
+    "roleRaw": "チケット料金"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "800円 (全席指定) ※東京公演のみドリンク代別",
+    "role": "unknown",
+    "roleRaw": "チケット料金"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "8月6日(木)18:00~8",
+    "role": "unknown",
+    "roleRaw": "受付期間"
+  },
+  {
+    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
+    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
+    "name": "16(日)23:59",
+    "role": "unknown",
+    "roleRaw": "受付期間"
   },
   {
     "songId": "song_Giga - 'Ready Steady' ft. 初音ミク・鏡音リン・鏡音レン【MV】",
