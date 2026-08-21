@@ -15,6 +15,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import unicodedata
 from pathlib import Path
@@ -34,8 +35,8 @@ def normalize_title(title: str) -> str:
     return value.casefold()
 
 
-def load_song_catalog(base_path: Path) -> List[Dict[str, Any]]:
-    combined_path = base_path / "output" / "combined_music_data.json"
+def load_song_catalog(base_path: Path, output_dir: Optional[Path] = None) -> List[Dict[str, Any]]:
+    combined_path = (output_dir or base_path / "output") / "combined_music_data.json"
     if combined_path.exists():
         songs = load_json(combined_path)
         return [{"id": song["id"], "title": song["title"]} for song in songs]
@@ -111,8 +112,9 @@ def resolve_song_id(
     return None
 
 
-def sync_aliases(base_path: Optional[Path] = None) -> Dict[str, Any]:
+def sync_aliases(base_path: Optional[Path] = None, output_dir: Optional[Path] = None) -> Dict[str, Any]:
     base_path = base_path or Path(__file__).resolve().parents[1]
+    output_dir = output_dir or Path(os.environ.get("PROJECT_SEKAI_OUTPUT_DIR", base_path / "output"))
 
     manual_aliases_path = base_path / "manual_data" / "aliases.json"
     if not manual_aliases_path.exists():
@@ -125,7 +127,7 @@ def sync_aliases(base_path: Optional[Path] = None) -> Dict[str, Any]:
         title_corrections = corrections.get("titleCorrections", {})
 
     manual_aliases = load_json(manual_aliases_path)
-    songs = load_song_catalog(base_path)
+    songs = load_song_catalog(base_path, output_dir)
     exact_map, normalized_map = build_title_indexes(songs)
 
     exported: Dict[str, List[str]] = {}
@@ -156,7 +158,7 @@ def sync_aliases(base_path: Optional[Path] = None) -> Dict[str, Any]:
         for key in sorted(exported.keys(), key=lambda value: int(value))
     }
 
-    output_path = base_path / "output" / "aliases.json"
+    output_path = output_dir / "aliases.json"
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8") as f:
         json.dump(sorted_export, f, ensure_ascii=False, indent=2)

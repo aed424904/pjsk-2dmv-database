@@ -17,6 +17,7 @@ CANONICAL_ROLES = (
     "animation",
     "design",
     "cg3d",
+    "ignore",
     "unknown",
 )
 
@@ -156,6 +157,21 @@ def load_name_aliases() -> Dict[str, str]:
     return _load_alias_file(MANUAL_DATA_PATH / "staff_name_aliases.json", DEFAULT_NAME_ALIASES)
 
 
+@lru_cache(maxsize=1)
+def load_ignored_staff_lines() -> set[str]:
+    path = MANUAL_DATA_PATH / "staff_line_ignores.json"
+    if not path.exists():
+        return set()
+
+    with path.open("r", encoding="utf-8") as handle:
+        payload = json.load(handle)
+    if isinstance(payload, dict):
+        payload = payload.get("lines", [])
+    if not isinstance(payload, list):
+        return set()
+    return {str(line).strip() for line in payload if str(line).strip()}
+
+
 def normalize_role_label(role_raw: str) -> str:
     normalized = _clean_token(role_raw)
     if not normalized:
@@ -272,6 +288,8 @@ def parse_staff_lines(description: str) -> Dict[str, List[Dict[str, str]]]:
 
     for raw_line in description.splitlines():
         line = raw_line.strip()
+        if line in load_ignored_staff_lines():
+            continue
         if _is_obviously_not_staff_line(line):
             continue
 
@@ -296,6 +314,9 @@ def parse_staff_lines(description: str) -> Dict[str, List[Dict[str, str]]]:
             parsed_any_clause = True
             for role_label in role_labels:
                 normalized_role = normalize_role_label(role_label)
+                if normalized_role == "ignore":
+                    skipped_clause = True
+                    continue
                 for contributor_name in contributor_names:
                     normalized_name = normalize_staff_name(contributor_name)
                     if not normalized_name:

@@ -1,6 +1,7 @@
 @echo off
 setlocal
 title Project Sekai 2DMV Database - Local Server
+set "PORT=8000"
 
 echo.
 echo ========================================
@@ -32,10 +33,21 @@ if errorlevel 1 (
 
 echo.
 echo Starting local HTTP server...
-echo URL: http://localhost:8000
+echo URL: http://127.0.0.1:%PORT%
 echo Press Ctrl+C to stop the server.
 echo.
 
-python -m http.server 8000
+python scripts\build_site.py
+if errorlevel 1 (
+    echo.
+    echo ERROR: Failed to build the static site.
+    pause
+    exit /b 1
+)
+
+rem Open the page shortly after the blocking server process starts.
+start "" /b powershell.exe -NoProfile -Command "Start-Sleep -Milliseconds 800; Start-Process 'http://127.0.0.1:%PORT%/'" >nul 2>&1
+
+python -m http.server %PORT% --bind 127.0.0.1 --directory dist
 
 pause

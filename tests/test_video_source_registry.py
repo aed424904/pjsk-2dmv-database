@@ -67,6 +67,28 @@ class VideoSourceRegistryTests(unittest.TestCase):
         finally:
             shutil.rmtree(base_path, ignore_errors=True)
 
+    def test_preferred_snapshot_ignores_metadata_count_mismatch(self):
+        base_path = Path.cwd() / "tests" / "_tmp" / f"registry_{uuid.uuid4().hex}"
+        try:
+            fetch_dir = base_path / "fetch_youtube_playlist"
+            fetch_dir.mkdir(parents=True, exist_ok=True)
+            older = fetch_dir / "playlist_official_2dmv_20260422_101000.json"
+            newer = fetch_dir / "playlist_official_2dmv_20260422_102000.json"
+            older.write_text(json.dumps({
+                "metadata": {"status": "complete", "totalVideos": 1},
+                "videos": [{"videoId": "older"}],
+            }), encoding="utf-8")
+            newer.write_text(json.dumps({
+                "metadata": {"status": "complete", "totalVideos": 50},
+                "videos": [{"videoId": "partial"}],
+            }), encoding="utf-8")
+
+            preferred = get_preferred_snapshot_for_source(base_path, "official_2dmv")
+
+            self.assertEqual(preferred, older)
+        finally:
+            shutil.rmtree(base_path, ignore_errors=True)
+
 
 class DatabaseBuilderMultiSourceTests(unittest.TestCase):
     def test_load_youtube_data_from_sources_merges_multiple_sources(self):

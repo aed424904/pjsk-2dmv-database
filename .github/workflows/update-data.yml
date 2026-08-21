@@ -7,6 +7,10 @@ on:
   # 也允许手动触发
   workflow_dispatch:
 
+concurrency:
+  group: project-sekai-data-update
+  cancel-in-progress: false
+
 jobs:
   update-and-deploy:
     runs-on: ubuntu-latest
@@ -22,6 +26,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          submodules: recursive
 
       - name: 安装 Python
         uses: actions/setup-python@v5
@@ -32,27 +37,21 @@ jobs:
         run: |
           pip install requests yt-dlp
 
-      - name: 克隆游戏数据仓库
-        run: |
-          if [ -d sekai-master-db-diff-main/.git ]; then
-            echo "游戏数据仓库已存在，拉取更新..."
-            cd sekai-master-db-diff-main && git pull --ff-only
-          else
-            echo "首次克隆游戏数据仓库..."
-            git clone --depth 1 https://github.com/Sekai-World/sekai-master-db-diff.git sekai-master-db-diff-main
-          fi
+      - name: 运行单元测试
+        run: python -m unittest discover -s tests -v
 
       - name: 刷新 YouTube 播放列表
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          REQUIRE_SOURCE_REFRESH_SUCCESS: '1'
         run: |
           python scripts/auto_update.py
 
-      - name: 补全播放量和频道信息
-        env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: |
-          python scripts/enrich_playlist_channels.py
+      - name: 验证最终数据库
+        run: python scripts/validate_data.py
+
+      - name: 构建部署目录
+        run: python scripts/build_site.py
 
       - name: 提交更新的数据文件
         run: |
@@ -75,6 +74,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
-          # 排除不需要部署的目录
-          exclude_assets: '.github,scripts,tests,backup,__pycache__,**/__pycache__,**/*.py,*.md,requirements.txt'
+          publish_dir: ./dist

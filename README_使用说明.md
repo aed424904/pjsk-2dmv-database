@@ -65,7 +65,10 @@ python scripts\auto_update.py
 
 1. 检查主库更新
 2. 按 `video_sources.json` 刷新每个来源的最新 Playlist 快照
-3. 当音乐主库、来源配置、手动数据或任一来源快照发生变化时，自动重建输出
+3. 当音乐主库、来源配置、手动数据或任一来源快照发生变化时，在临时目录重建并校验输出
+4. 只有全部产物通过校验后才替换 `output/` 中的正式数据；失败时继续保留上一版
+
+为防止 API 分页异常覆盖完整数据，新快照如果比当前有效快照骤减超过 20%，会被拒绝并保留旧快照。
 
 抓取下来的来源快照会保存在：
 
@@ -177,7 +180,7 @@ python scripts\auto_update.py
 
 如果后续有一些视频没有出现在官方播放列表里，可以使用：
 
-- `http://localhost:8000/manual_video_editor.html`
+- `http://localhost:8000/editor.html?tab=video`
 
 这个页面会：
 
@@ -192,7 +195,7 @@ python scripts\auto_update.py
 
 推荐流程：
 
-1. 打开 `manual_video_editor.html`
+1. 打开 `editor.html?tab=video`
 2. 如果是缺失视频，就在“补录表单”里编辑并导出 `manual_videos.json`
 3. 如果是已存在视频字段不准，就在“字段覆写表单”里编辑并导出 `original_video_overrides.json`
 4. 用导出的文件覆盖 `manual_data/manual_videos.json` 或 `manual_data/original_video_overrides.json`
@@ -201,12 +204,42 @@ python scripts\auto_update.py
 构建脚本会自动把手动补录视频并入 `output/database_v2.json`，并按 `videoId` 去重。
 如果视频本身已经存在于 playlist，只需要改 `manual_data/original_video_overrides.json`，不需要再补一整条 `manual_videos.json`。
 
+同一个统一编辑器也提供别称维护，地址为 `http://localhost:8000/editor.html?tab=alias`。旧的 `manual_video_editor.html` 和 `alias_editor.html` 链接会自动跳转到对应标签页，已有书签无需修改。
+
+### Staff 人工复核入口
+
+打开 `http://localhost:8000/editor.html?tab=staff`，可以直接处理 `output/staff_review.json` 中的未知角色和未解析描述行。
+
+页面支持：
+
+- 按歌曲、视频、角色标签或原始描述搜索
+- 按“未知角色 / 未解析行”和处理状态筛选
+- 把原始角色标签映射为标准 Staff 角色
+- 把同一 Staff 的不同署名归一为统一写法
+- 忽略链接、宣传信息等明确无关的完整描述行
+- 在手机端选择问题后自动定位到修正表单
+
+完成复核后，根据修改类型导出：
+
+- `staff_role_aliases.json`
+- `staff_name_aliases.json`
+- `staff_line_ignores.json`
+
+用导出的文件替换 `manual_data/` 中的同名文件，再运行 `python scripts\build_database.py`。导出文件包含已有规则和本次修改，不是只包含增量。
+
+### 浏览、筛选与分享
+
+- `index.html` 是歌曲列表，可搜索歌名、创作者、别称、Staff 与版本，并按团队、MV 类型、歌声版本、视频版本和 Staff 字段筛选。
+- `video_viewer.html` 是视频列表，可搜索视频标题、歌曲名、Staff 与频道，并按团队、视频类型、版本和频道筛选。
+- 手机端点击搜索框下方的“筛选条件”即可打开完整筛选抽屉；底部按钮会实时显示当前结果数。
+- 搜索、筛选和排序会自动写入浏览器网址。复制当前网址即可分享同一结果，刷新以及浏览器前进/后退也会恢复对应状态。
+
 ## 🚀 快速开始
 
 ### 方法一：使用启动脚本（推荐）
 
 1. **双击运行** `启动本地服务器.bat`
-2. 等待服务器启动（会自动打开命令行窗口）
+2. 等待脚本生成安全的 `dist/` 站点目录并启动服务器
 3. 在浏览器中访问：`http://localhost:8000`
 4. 完成！你应该能看到视频数据库页面
 
@@ -216,12 +249,27 @@ python scripts\auto_update.py
 # 在项目目录下打开命令行
 cd "c:\Users\10693\Desktop\并非工作内容\Project Sekai 2DMV Database"
 
-# 启动 Python HTTP 服务器
-python -m http.server 8000
+# 生成只包含网页运行所需文件的站点目录
+python scripts/build_site.py
+
+# 仅监听本机并只提供 dist 目录
+python -m http.server 8000 --bind 127.0.0.1 --directory dist
 
 # 在浏览器访问
 # http://localhost:8000
 ```
+
+### 自动浏览器验收
+
+修改页面或数据后，可运行：
+
+```powershell
+npm run check:browser
+```
+
+该命令会自动构建 `dist/`，使用随机本地端口启动临时站点，检查歌曲搜索、排序、网址状态与展开，视频搜索与键盘操作，编辑器标签、Staff 复核与修正草稿、旧链接跳转，以及手机筛选抽屉、历史返回和视频卡片布局；结束后自动关闭浏览器与服务器。
+
+首次在新环境使用时先运行 `npm install`。如果提示缺少 Chromium，再运行 `npx playwright install chromium`。
 
 ## ❓ 为什么需要本地服务器？
 
@@ -229,23 +277,30 @@ python -m http.server 8000
 - ❌ 无法加载外部 JSON 数据文件
 - ❌ 看到"加载失败"错误提示
 
-使用本地服务器可以：
+使用项目提供的本地服务器可以：
 - ✅ 正常加载 JSON 数据
 - ✅ 完全避免跨域问题
 - ✅ 模拟真实的网站运行环境
+- ✅ 不会公开 `.git`、备份、测试和构建脚本
 
 ## 📂 项目结构
 
 ```
 Project Sekai 2DMV Database/
-├── index.html                          # 主页面（YouTube 数据库展示）
-├── music_viewer.html                   # 音乐数据查看器
-├── manual_video_editor.html            # 手动视频补录工具
+├── index.html                          # 主歌曲列表
+├── video_viewer.html                   # 视频列表
+├── editor.html                         # 统一编辑器（视频补录 / 别称编辑）
+├── music_viewer.html                   # 旧歌曲链接兼容跳转页
+├── manual_video_editor.html            # 旧视频编辑链接兼容跳转页
+├── alias_editor.html                   # 旧别称编辑链接兼容跳转页
+├── assets/                             # 三个主页面的样式、查看逻辑与编辑模块
+├── package.json                        # 前端验收命令与 Playwright 版本
 ├── start_server.bat                    # 启动服务器
 ├── 启动本地服务器.bat                    # 一键启动脚本
 ├── 启动JSON转CSV工具.bat                # JSON转CSV工具
 ├── README_使用说明.md                   # 本文件
 ├── docs/                               # 📚 文档
+├── dist/                               # 🌐 自动生成的安全站点目录（不提交 Git）
 ├── scripts/                            # 🔧 处理脚本
 ├── manual_data/                        # ✍️ 手工维护数据（别称 / 修正 / 手动补录视频）
 ├── output/                             # 📦 输出数据
@@ -260,28 +315,20 @@ Project Sekai 2DMV Database/
 
 ## 🔧 配置说明
 
-### 更换数据源
+### 更换视频数据源
 
-如果你想使用不同的 JSON 数据文件，只需编辑 `index.html` 文件：
-
-```javascript
-// 找到这一行（大约在第 465 行）
-const JSON_DATA_PATH = './fetch_youtube_playlist/playlist_videos_20260122_161800.json';
-
-// 修改为你想要的文件路径
-const JSON_DATA_PATH = './fetch_youtube_playlist/你的文件名.json';
-```
+编辑 `manual_data/video_sources.json`，然后运行 `python scripts/auto_update.py`。主页面固定读取经过构建和校验的 `output/database_v2.json`，不再直接绑定某一份播放列表快照。
 
 ### 更换服务器端口
 
-如果 8000 端口被占用，可以修改 `启动本地服务器.bat`：
+如果 8000 端口被占用，可以修改 `启动本地服务器.bat` 中服务器命令的端口：
 
 ```batch
 # 找到这一行
-python -m http.server 8000
+python -m http.server 8000 --bind 127.0.0.1 --directory dist
 
 # 改为其他端口，例如 3000
-python -m http.server 3000
+python -m http.server 3000 --bind 127.0.0.1 --directory dist
 ```
 
 ## 🎨 功能特性
@@ -331,10 +378,7 @@ python -m http.server 3000
 
 ### GitHub Pages（推荐，免费）
 
-1. 创建 GitHub 仓库
-2. 上传所有文件
-3. 在仓库设置中启用 GitHub Pages
-4. 访问 `https://你的用户名.github.io/仓库名`
+仓库内的 `.github/workflows/update-data.yml` 会运行测试、更新并校验数据、构建 `dist/`，随后只把 `dist/` 部署到 GitHub Pages。不要直接发布整个项目根目录。
 
 ### 其他选择
 

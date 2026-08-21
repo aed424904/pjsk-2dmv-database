@@ -1,5 +1,59 @@
 [
   {
+    "songId": "song_ハイドアンド・シーク",
+    "songTitle": "ハイドアンド・シーク",
+    "videoId": "3oH34VkrIxg",
+    "videoTitle": "ハイドアンド・シーク / Leo/need × 初音ミク",
+    "name": "ゆりぼう",
+    "role": "illustrator",
+    "roleRaw": "イラスト"
+  },
+  {
+    "songId": "song_ハイドアンド・シーク",
+    "songTitle": "ハイドアンド・シーク",
+    "videoId": "3oH34VkrIxg",
+    "videoTitle": "ハイドアンド・シーク / Leo/need × 初音ミク",
+    "name": "Sokei",
+    "role": "pvCreator",
+    "roleRaw": "映像"
+  },
+  {
+    "songId": "song_スターダストレイン",
+    "songTitle": "スターダストレイン",
+    "videoId": "Jo1AXr6CXlo",
+    "videoTitle": "スターダストレイン / MORE MORE JUMP！ × KAITO",
+    "name": "大谷港",
+    "role": "illustrator",
+    "roleRaw": "イラスト"
+  },
+  {
+    "songId": "song_スターダストレイン",
+    "songTitle": "スターダストレイン",
+    "videoId": "Jo1AXr6CXlo",
+    "videoTitle": "スターダストレイン / MORE MORE JUMP！ × KAITO",
+    "name": "臼水",
+    "role": "unknown",
+    "roleRaw": "ディレクション"
+  },
+  {
+    "songId": "song_スターダストレイン",
+    "songTitle": "スターダストレイン",
+    "videoId": "Jo1AXr6CXlo",
+    "videoTitle": "スターダストレイン / MORE MORE JUMP！ × KAITO",
+    "name": "臼水",
+    "role": "pvCreator",
+    "roleRaw": "映像"
+  },
+  {
+    "songId": "song_スターダストレイン",
+    "songTitle": "スターダストレイン",
+    "videoId": "Jo1AXr6CXlo",
+    "videoTitle": "スターダストレイン / MORE MORE JUMP！ × KAITO",
+    "name": "RONI",
+    "role": "design",
+    "roleRaw": "ロゴデザイン"
+  },
+  {
     "songId": "song_天秤、指先で触れて",
     "songTitle": "天秤、指先で触れて",
     "videoId": "ul97PWn9gtk",
@@ -2326,27 +2380,45 @@
     "songTitle": "光線歌",
     "videoId": "T1K831KdL1o",
     "videoTitle": "Guiano - 光線歌 (feat.重音テト)",
-    "name": "00 ～ 4月19日(日) 23:59",
+    "name": "みゆな",
     "role": "unknown",
-    "roleRaw": "【受付期間】4月1日(水) 12"
+    "roleRaw": "GUEST"
   },
   {
     "songId": "song_光線歌",
     "songTitle": "光線歌",
     "videoId": "T1K831KdL1o",
     "videoTitle": "Guiano - 光線歌 (feat.重音テト)",
-    "name": "00 ～ 5",
+    "name": "笹川真生",
     "role": "unknown",
-    "roleRaw": "【受付期間】4"
+    "roleRaw": "GUEST"
   },
   {
     "songId": "song_光線歌",
     "songTitle": "光線歌",
     "videoId": "T1K831KdL1o",
     "videoTitle": "Guiano - 光線歌 (feat.重音テト)",
-    "name": "10(日) 23:59",
+    "name": "NakamuraEmi",
     "role": "unknown",
-    "roleRaw": "【受付期間】4"
+    "roleRaw": "GUEST"
+  },
+  {
+    "songId": "song_光線歌",
+    "songTitle": "光線歌",
+    "videoId": "T1K831KdL1o",
+    "videoTitle": "Guiano - 光線歌 (feat.重音テト)",
+    "name": "眞名子 新",
+    "role": "unknown",
+    "roleRaw": "GUEST"
+  },
+  {
+    "songId": "song_光線歌",
+    "songTitle": "光線歌",
+    "videoId": "T1K831KdL1o",
+    "videoTitle": "Guiano - 光線歌 (feat.重音テト)",
+    "name": "カンザキイオリ",
+    "role": "unknown",
+    "roleRaw": "GUEST"
   },
   {
     "songId": "song_イレヴンス",
@@ -10734,16 +10806,16 @@
     "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
     "name": "8",
     "role": "unknown",
-    "roleRaw": "期間"
+    "roleRaw": "受付期間"
   },
   {
     "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
     "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
     "videoId": "JXbb-_ScjSY",
     "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "9(日)23:59まで",
+    "name": "23(日)23:59まで",
     "role": "unknown",
-    "roleRaw": "期間"
+    "roleRaw": "受付期間"
   },
   {
     "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
@@ -10813,18 +10885,18 @@
     "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
     "videoId": "JXbb-_ScjSY",
     "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "8月6日(木)18:00~8",
+    "name": "8",
     "role": "unknown",
-    "roleRaw": "受付期間"
+    "roleRaw": "期間"
   },
   {
     "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
     "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
     "videoId": "JXbb-_ScjSY",
     "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "name": "16(日)23:59",
+    "name": "30(日)23:59まで",
     "role": "unknown",
-    "roleRaw": "受付期間"
+    "roleRaw": "期間"
   },
   {
     "songId": "song_アクセラレイト - 初音ミク[吉田夜世]",
@@ -12100,27 +12172,45 @@
     "songTitle": "Guiano - 私は、私達は",
     "videoId": "I9VfWCyCagQ",
     "videoTitle": "Guiano - 私は、私達は (feat.可不)",
-    "name": "00 ～ 4月19日(日) 23:59",
+    "name": "みゆな",
     "role": "unknown",
-    "roleRaw": "【受付期間】4月1日(水) 12"
+    "roleRaw": "GUEST"
   },
   {
     "songId": "song_Guiano - 私は、私達は",
     "songTitle": "Guiano - 私は、私達は",
     "videoId": "I9VfWCyCagQ",
     "videoTitle": "Guiano - 私は、私達は (feat.可不)",
-    "name": "00 ～ 5",
+    "name": "笹川真生",
     "role": "unknown",
-    "roleRaw": "【受付期間】4"
+    "roleRaw": "GUEST"
   },
   {
     "songId": "song_Guiano - 私は、私達は",
     "songTitle": "Guiano - 私は、私達は",
     "videoId": "I9VfWCyCagQ",
     "videoTitle": "Guiano - 私は、私達は (feat.可不)",
-    "name": "10(日) 23:59",
+    "name": "NakamuraEmi",
     "role": "unknown",
-    "roleRaw": "【受付期間】4"
+    "roleRaw": "GUEST"
+  },
+  {
+    "songId": "song_Guiano - 私は、私達は",
+    "songTitle": "Guiano - 私は、私達は",
+    "videoId": "I9VfWCyCagQ",
+    "videoTitle": "Guiano - 私は、私達は (feat.可不)",
+    "name": "眞名子 新",
+    "role": "unknown",
+    "roleRaw": "GUEST"
+  },
+  {
+    "songId": "song_Guiano - 私は、私達は",
+    "songTitle": "Guiano - 私は、私達は",
+    "videoId": "I9VfWCyCagQ",
+    "videoTitle": "Guiano - 私は、私達は (feat.可不)",
+    "name": "カンザキイオリ",
+    "role": "unknown",
+    "roleRaw": "GUEST"
   },
   {
     "songId": "song_halyosy - Flyway ft. 鏡音レン, KAITO [Official Video]",
@@ -13047,16 +13137,16 @@
     "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
     "name": "8",
     "role": "unknown",
-    "roleRaw": "期間"
+    "roleRaw": "受付期間"
   },
   {
     "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
     "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
     "videoId": "B2llCEKbxwA",
     "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "name": "9(日)23:59まで",
+    "name": "23(日)23:59まで",
     "role": "unknown",
-    "roleRaw": "期間"
+    "roleRaw": "受付期間"
   },
   {
     "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
@@ -13126,18 +13216,18 @@
     "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
     "videoId": "B2llCEKbxwA",
     "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "name": "8月6日(木)18:00~8",
+    "name": "8",
     "role": "unknown",
-    "roleRaw": "受付期間"
+    "roleRaw": "期間"
   },
   {
     "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
     "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
     "videoId": "B2llCEKbxwA",
     "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "name": "16(日)23:59",
+    "name": "30(日)23:59まで",
     "role": "unknown",
-    "roleRaw": "受付期間"
+    "roleRaw": "期間"
   },
   {
     "songId": "song_Giga - 'Ready Steady' ft. 初音ミク・鏡音リン・鏡音レン【MV】",

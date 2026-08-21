@@ -17,6 +17,7 @@ if str(BASE_PATH) not in sys.path:
 
 from fetch_youtube_playlist.fetch_youtube_playlist import DEFAULT_API_KEY
 from fetch_youtube_playlist.fetch_youtube_playlist import YouTubePlaylistFetcher
+from scripts.video_source_registry import get_preferred_source_snapshots
 
 
 def load_json(path: Path) -> Dict[str, Any]:
@@ -53,7 +54,12 @@ def enrich_snapshot(path: Path, fetcher: YouTubePlaylistFetcher) -> int:
         print(f"[WARN] {path.name}: no details fetched")
         return 0
 
-    payload["videos"] = fetcher.merge_video_details(videos, details_map)
+    enriched_videos = fetcher.merge_video_details(videos, details_map)
+    if enriched_videos == videos:
+        print(f"[SKIP] {path.name}: details unchanged")
+        return 0
+
+    payload["videos"] = enriched_videos
     metadata = payload.setdefault("metadata", {})
     metadata["channelEnrichedAt"] = datetime.now().isoformat()
     metadata["channelEnrichment"] = {
@@ -69,8 +75,7 @@ def resolve_paths(base_path: Path, selected_paths: List[str]) -> List[Path]:
     if selected_paths:
         return [Path(path).resolve() for path in selected_paths]
 
-    fetch_dir = base_path / "fetch_youtube_playlist"
-    return sorted(fetch_dir.glob("playlist_*.json"))
+    return [path for _, path in get_preferred_source_snapshots(base_path)]
 
 
 def main() -> None:

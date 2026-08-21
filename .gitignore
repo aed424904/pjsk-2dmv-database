@@ -16,12 +16,20 @@ __pycache__/
 .venv/
 venv/
 env/
+node_modules/
 
 # Local logs and temporary files
 *.log
 tmp*/
 temp/
 .tmp/
+.output-staging-*/
+.output-rollback-*/
+.site-staging-*/
+.site-previous-*/
+dist/
+outputs/
+output/playwright/
 
 # Codex/Claude local workspace state
 .claude/

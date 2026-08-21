@@ -102,8 +102,12 @@ class DatabaseBuilder:
         '愚人节',
     ]
 
-    def __init__(self, base_path: str):
+    def __init__(self, base_path: str, output_dir: Optional[Path] = None):
         self.base_path = Path(base_path)
+        self.output_dir = output_dir or Path(os.environ.get(
+            "PROJECT_SEKAI_OUTPUT_DIR",
+            self.base_path / "output",
+        ))
         self.youtube_data = None
         self.youtube_source_name = None
         self.youtube_source_names: List[str] = []
@@ -554,7 +558,7 @@ class DatabaseBuilder:
             self.sekai_units = json.load(f)
         print(f"[OK] Sekai 组合数据: {len(self.sekai_units)} 个组合")
 
-        base_music_path = self.base_path / "output" / "musics_base.json"
+        base_music_path = self.output_dir / "musics_base.json"
         if base_music_path.exists():
             with open(base_music_path, 'r', encoding='utf-8') as f:
                 base_music_payload = json.load(f)
@@ -1318,13 +1322,13 @@ def main():
     database = builder.build_database()
 
     # 保存数据库
-    output_path = os.path.join(str(base_path), "output", "database_v2.json")
+    output_path = builder.output_dir / "database_v2.json"
     builder.save_database(database, output_path)
-    builder.export_staff_audits(database, base_path / "output")
-    builder.export_original_credit_review(database, base_path / "output")
+    builder.export_staff_audits(database, builder.output_dir)
+    builder.export_original_credit_review(database, builder.output_dir)
 
     # 同步前端使用的别称文件
-    sync_aliases(base_path)
+    sync_aliases(base_path, builder.output_dir)
 
     # 打印统计
     builder.print_stats()

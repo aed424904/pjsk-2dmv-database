@@ -1,4 +1,5 @@
 import unittest
+from unittest import mock
 
 from scripts.staff_extraction import (
     build_staff_review_rows,
@@ -31,8 +32,23 @@ class StaffRoleTaxonomyTests(unittest.TestCase):
         self.assertEqual(parsed["contributors"], [])
         self.assertEqual(parsed["unknownRoleLines"], [])
 
+    def test_skips_roles_explicitly_mapped_to_ignore(self):
+        with mock.patch("scripts.staff_extraction.load_role_aliases", return_value={"制作": "ignore"}):
+            parsed = parse_staff_lines("制作：Studio Example")
+
+        self.assertEqual(parsed["contributors"], [])
+        self.assertEqual(parsed["unknownRoleLines"], [])
+
 
 class StaffLineParsingTests(unittest.TestCase):
+    def test_skips_exact_lines_from_manual_ignore_list(self):
+        line = "X(旧twitter)：https://x.com/example"
+        with mock.patch("scripts.staff_extraction.load_ignored_staff_lines", return_value={line}):
+            result = parse_staff_lines(line)
+
+        self.assertEqual(result["contributors"], [])
+        self.assertEqual(result["unparsedLines"], [])
+
     def test_extracts_single_role_single_name(self):
         description = "イラスト：燠 https://x.com/oki_charcoal"
         result = parse_staff_lines(description)

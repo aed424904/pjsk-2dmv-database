@@ -19,7 +19,8 @@ from datetime import datetime, timezone, timedelta
 JST = timezone(timedelta(hours=9))
 
 DB_DIR = os.path.join(os.path.dirname(__file__), '..', 'sekai-master-db-diff-main')
-OUTPUT_DIR = os.path.join(os.path.dirname(__file__), '..', 'output')
+DEFAULT_OUTPUT_DIR = os.path.join(os.path.dirname(__file__), '..', 'output')
+OUTPUT_DIR = os.environ.get('PROJECT_SEKAI_OUTPUT_DIR', DEFAULT_OUTPUT_DIR)
 
 def load_json(filename):
     path = os.path.join(DB_DIR, filename)
@@ -160,7 +161,8 @@ def main():
         result.append(song)
 
     # 4. 输出
-    out_path = os.path.join(os.path.dirname(__file__), '..', 'output', 'combined_music_data.json')
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    out_path = os.path.join(OUTPUT_DIR, 'combined_music_data.json')
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
 

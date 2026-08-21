@@ -28506,7 +28506,8 @@
       "light_music_club"
     ],
     "categories": [
-      "original"
+      "original",
+      "mv_2d"
     ],
     "publishedAt": 1721196000000,
     "releasedAt": 1353024000000,
@@ -37724,6 +37725,18 @@
           }
         ],
         "assetbundleName": "se_0600_01"
+      },
+      {
+        "id": 2063,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 15
+          }
+        ],
+        "assetbundleName": "an_0600_01"
       }
     ]
   },
@@ -41951,6 +41964,30 @@
           }
         ],
         "assetbundleName": "se_0684_01"
+      },
+      {
+        "id": 2064,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 11
+          }
+        ],
+        "assetbundleName": "an_0684_01"
+      },
+      {
+        "id": 2065,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 23
+          }
+        ],
+        "assetbundleName": "an_0684_02"
       }
     ]
   },
@@ -43790,6 +43827,69 @@
     ]
   },
   {
+    "id": 728,
+    "title": "スターダストレイン",
+    "creators": {
+      "creatorArtistId": 293,
+      "creatorArtistName": "STEAKA",
+      "lyricist": "STEAKA",
+      "composer": "STEAKA",
+      "arranger": "STEAKA"
+    },
+    "tags": [
+      "all",
+      "idol"
+    ],
+    "categories": [
+      "mv"
+    ],
+    "publishedAt": 1786799100000,
+    "releasedAt": 1786800615000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1285,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0728_01"
+      },
+      {
+        "id": 2060,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 6
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 26
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 5
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 7
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 8
+          }
+        ],
+        "assetbundleName": "se_0728_01"
+      }
+    ]
+  },
+  {
     "id": 732,
     "title": "天藍のアイスヘヴン",
     "creators": {
@@ -44640,6 +44740,132 @@
     ]
   },
   {
+    "id": 752,
+    "title": "アヤノの幸福理論",
+    "creators": {
+      "creatorArtistId": 29,
+      "creatorArtistName": "じん",
+      "lyricist": "じん",
+      "composer": "じん",
+      "arranger": "じん"
+    },
+    "tags": [
+      "all",
+      "school_refusal"
+    ],
+    "categories": [
+      "image"
+    ],
+    "publishedAt": 1786687200000,
+    "releasedAt": 1366588800000,
+    "originalVideoLink": "https://www.youtube.com/watch?v=pLYKKC-EpjA",
+    "vocals": [
+      {
+        "id": 1309,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0752_01"
+      },
+      {
+        "id": 2062,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 25
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 17
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 18
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 19
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 20
+          }
+        ],
+        "assetbundleName": "se_0752_01"
+      }
+    ]
+  },
+  {
+    "id": 753,
+    "title": "空想フォレスト",
+    "creators": {
+      "creatorArtistId": 29,
+      "creatorArtistName": "じん",
+      "lyricist": "じん",
+      "composer": "じん",
+      "arranger": "じん"
+    },
+    "tags": [
+      "all",
+      "theme_park"
+    ],
+    "categories": [
+      "image"
+    ],
+    "publishedAt": 1786600800000,
+    "releasedAt": 1328054400000,
+    "originalVideoLink": "https://www.youtube.com/watch?v=O9g1OyshIX4",
+    "vocals": [
+      {
+        "id": 1310,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0753_01"
+      },
+      {
+        "id": 2061,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 24
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 13
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 14
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 15
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 16
+          }
+        ],
+        "assetbundleName": "se_0753_01"
+      }
+    ]
+  },
+  {
     "id": 754,
     "title": "光",
     "creators": {
@@ -45370,6 +45596,45 @@
           }
         ],
         "assetbundleName": "vs_0795_01"
+      }
+    ]
+  },
+  {
+    "id": 802,
+    "title": "君に贈る未来",
+    "creators": {
+      "creatorArtistId": 338,
+      "creatorArtistName": "木瀬のん",
+      "lyricist": "木瀬のん",
+      "composer": "木瀬のん",
+      "arranger": "木瀬のん"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [
+      "image"
+    ],
+    "publishedAt": 1787551200000,
+    "releasedAt": 1780185600000,
+    "originalVideoLink": "https://youtu.be/-i6afoRjlO4?si=WWQNBtby97V2jXNj",
+    "vocals": [
+      {
+        "id": 1846,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          }
+        ],
+        "assetbundleName": "vs_0802_01"
       }
     ]
   }

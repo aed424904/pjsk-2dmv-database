@@ -14,6 +14,7 @@ Sources:
 from __future__ import annotations
 
 import json
+import os
 from collections import defaultdict
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -112,6 +113,7 @@ def build_original_link_map(original_rows: List[Dict[str, Any]]) -> Dict[int, Op
 
 def main() -> None:
     base_path = Path(__file__).resolve().parents[1]
+    output_dir = Path(os.environ.get("PROJECT_SEKAI_OUTPUT_DIR", base_path / "output"))
 
     musics_path, tags_path, source_labels = resolve_catalog_sources(base_path)
 
@@ -189,7 +191,7 @@ def main() -> None:
         "songs": songs,
     }
 
-    output_path = base_path / "output" / "musics_base.json"
+    output_path = output_dir / "musics_base.json"
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)

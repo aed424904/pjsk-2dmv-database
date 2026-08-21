@@ -156,6 +156,9 @@ def _load_snapshot_video_count(path: Path) -> Optional[int]:
         videos = payload.get("videos")
         if not isinstance(videos, list) or not videos:
             return None
+        declared_count = metadata.get("totalVideos") if isinstance(metadata, dict) else None
+        if declared_count is not None and declared_count != len(videos):
+            return None
         return len(videos)
     except Exception:
         return None

@@ -6,9 +6,16 @@
 """
 
 import json
+import re
 import sys
+from collections import Counter
 from pathlib import Path
-from typing import Dict, List
+from urllib.parse import parse_qs, urlparse
+
+
+VIDEO_ID_PATTERN = re.compile(r"^[A-Za-z0-9_-]{11}$")
+ALLOWED_VIDEO_TYPES = {"official_2dmv", "original_mv"}
+YOUTUBE_HOSTS = {"youtube.com", "www.youtube.com", "m.youtube.com", "youtu.be"}
 
 class DataValidator:
     def __init__(self, database_path: str):
@@ -22,12 +29,27 @@ class DataValidator:
         """执行所有验证"""
         print("[INFO] 开始数据验证...\n")
 
+        if not self.validate_structure():
+            self.print_report()
+            return False
         self.validate_metadata()
         self.validate_songs()
         self.validate_videos()
         self.validate_references()
 
         self.print_report()
+        return not self.errors
+
+    def validate_structure(self):
+        """先验证顶层结构，避免后续遍历因类型错误中断。"""
+        print("[CHECK] 验证顶层结构...")
+        if not isinstance(self.database, dict):
+            self.errors.append("数据库顶层必须是对象")
+            return False
+        if not isinstance(self.database.get('metadata'), dict):
+            self.errors.append("metadata 必须是对象")
+        if not isinstance(self.database.get('songs'), list):
+            self.errors.append("songs 必须是数组")
         return not self.errors
 
     def validate_metadata(self):
@@ -39,6 +61,16 @@ class DataValidator:
         for field in required_fields:
             if field not in metadata:
                 self.errors.append(f"metadata 缺少必填字段: {field}")
+
+        if not isinstance(metadata.get('version'), str) or not metadata.get('version', '').strip():
+            self.errors.append("metadata.version 必须是非空字符串")
+        if not isinstance(metadata.get('generatedAt'), str) or not metadata.get('generatedAt', '').strip():
+            self.errors.append("metadata.generatedAt 必须是非空字符串")
+        if not isinstance(metadata.get('sources'), list) or not metadata.get('sources'):
+            self.errors.append("metadata.sources 必须是非空数组")
+        if not isinstance(metadata.get('stats'), dict):
+            self.errors.append("metadata.stats 必须是对象")
+            return
 
         if metadata.get('stats', {}).get('totalSongs', 0) != len(self.database.get('songs', [])):
             self.errors.append("metadata.stats.totalSongs 与实际歌曲数不符")
@@ -53,6 +85,9 @@ class DataValidator:
 
         song_ids = set()
         for idx, song in enumerate(self.database.get('songs', [])):
+            if not isinstance(song, dict):
+                self.errors.append(f"歌曲 #{idx} 必须是对象")
+                continue
             # 检查必填字段
             required = ['id', 'title', 'videos']
             for field in required:
@@ -61,9 +96,17 @@ class DataValidator:
 
             # 检查 ID 唯一性
             song_id = song.get('id')
+            if song_id is None or not str(song_id).strip():
+                self.errors.append(f"歌曲 #{idx} 的 id 不能为空")
             if song_id in song_ids:
                 self.errors.append(f"重复的歌曲 ID: {song_id}")
             song_ids.add(song_id)
+
+            if not isinstance(song.get('title'), str) or not song.get('title', '').strip():
+                self.errors.append(f"歌曲 {song_id} 的 title 必须是非空字符串")
+            if not isinstance(song.get('videos'), list):
+                self.errors.append(f"歌曲 {song_id} 的 videos 必须是数组")
+                continue
 
             # 检查视频列表
             if not song.get('videos'):
@@ -75,7 +118,12 @@ class DataValidator:
 
         video_ids = set()
         for song in self.database.get('songs', []):
+            if not isinstance(song, dict) or not isinstance(song.get('videos'), list):
+                continue
             for video in song.get('videos', []):
+                if not isinstance(video, dict):
+                    self.errors.append(f"视频必须是对象 (歌曲: {song.get('title')})")
+                    continue
                 # 检查必填字段
                 required = ['type', 'videoId', 'url', 'title']
                 for field in required:
@@ -86,19 +134,69 @@ class DataValidator:
 
                 # 检查视频 ID 唯一性
                 video_id = video.get('videoId')
+                if not isinstance(video_id, str) or not VIDEO_ID_PATTERN.fullmatch(video_id):
+                    self.errors.append(f"无效的 YouTube videoId: {video_id} (歌曲: {song.get('title')})")
                 if video_id in video_ids:
-                    self.warnings.append(f"重复的视频 ID: {video_id}")
+                    self.errors.append(f"重复的视频 ID: {video_id}")
                 video_ids.add(video_id)
+
+                video_type = video.get('type')
+                if video_type not in ALLOWED_VIDEO_TYPES:
+                    self.errors.append(f"未知的视频类型: {video_type} (视频: {video_id})")
+                if not isinstance(video.get('title'), str) or not video.get('title', '').strip():
+                    self.errors.append(f"视频 title 必须是非空字符串 (视频: {video_id})")
+                if not self.is_matching_youtube_url(video.get('url'), video_id):
+                    self.errors.append(f"无效或不匹配的 YouTube URL (视频: {video_id})")
+
+    @staticmethod
+    def is_matching_youtube_url(url, video_id):
+        if not isinstance(url, str) or not isinstance(video_id, str):
+            return False
+        try:
+            parsed = urlparse(url)
+        except ValueError:
+            return False
+        host = (parsed.hostname or '').lower()
+        if parsed.scheme not in {'http', 'https'} or host not in YOUTUBE_HOSTS:
+            return False
+        if host == 'youtu.be':
+            url_video_id = parsed.path.strip('/').split('/')[0]
+        elif parsed.path == '/watch':
+            url_video_id = parse_qs(parsed.query).get('v', [''])[0]
+        elif parsed.path.startswith('/shorts/') or parsed.path.startswith('/embed/'):
+            url_video_id = parsed.path.strip('/').split('/')[1]
+        else:
+            return False
+        return url_video_id == video_id
 
     def validate_references(self):
         """验证引用完整性"""
         print("[CHECK] 验证引用完整性...")
 
-        # 这里可以添加更多验证，例如：
-        # - sekaiMusicId 是否存在于 Sekai 数据中
-        # - units 名称是否合法
-        # - virtualSingers 名称是否合法
-        pass
+        songs = self.database.get('songs', [])
+        stats = self.database.get('metadata', {}).get('stats', {})
+
+        matched_sekai = sum(1 for song in songs if isinstance(song, dict) and song.get('sekaiMusicId'))
+        if stats.get('matchedSekai') != matched_sekai:
+            self.errors.append("metadata.stats.matchedSekai 与实际匹配歌曲数不符")
+
+        video_type_breakdown = Counter()
+        unit_breakdown = Counter()
+        for song in songs:
+            if not isinstance(song, dict):
+                continue
+            for video in song.get('videos', []) if isinstance(song.get('videos'), list) else []:
+                if isinstance(video, dict) and video.get('type'):
+                    video_type_breakdown[video['type']] += 1
+            classification = song.get('classification', {})
+            units = classification.get('units', []) if isinstance(classification, dict) else []
+            if isinstance(units, list):
+                unit_breakdown.update(unit for unit in units if isinstance(unit, str) and unit)
+
+        if stats.get('videoTypeBreakdown') != dict(video_type_breakdown):
+            self.errors.append("metadata.stats.videoTypeBreakdown 与实际视频类型分布不符")
+        if stats.get('unitBreakdown') != dict(unit_breakdown):
+            self.errors.append("metadata.stats.unitBreakdown 与实际组合分布不符")
 
     def print_report(self):
         """打印验证报告"""

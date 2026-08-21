@@ -54,6 +54,14 @@ echo   Press Ctrl+C to stop server
 echo ========================================
 echo.
 
-python -m http.server 8000
+python scripts\build_site.py
+if errorlevel 1 (
+    echo.
+    echo ERROR: Failed to build the static site.
+    pause
+    exit /b 1
+)
+
+python -m http.server 8000 --bind 127.0.0.1 --directory dist
 
 pause

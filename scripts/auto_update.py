@@ -13,7 +13,9 @@ import json
 import shutil
 import subprocess
 import importlib.util
+import tempfile
 from datetime import datetime
+from pathlib import Path
 
 try:
     from .video_source_registry import get_preferred_snapshot_for_source
@@ -30,8 +32,17 @@ BACKUP_DIR = os.path.join(BASE_DIR, 'backup')
 SCRIPTS_DIR = os.path.join(BASE_DIR, 'scripts')
 MANUAL_DATA_DIR = os.path.join(BASE_DIR, 'manual_data')
 YOUTUBE_DIR = os.path.join(BASE_DIR, 'fetch_youtube_playlist')
-VIDEO_SOURCES_CONFIG_PATH = os.path.join(MANUAL_DATA_DIR, 'video_sources.json')
-ORIGINAL_VIDEO_OVERRIDES_PATH = os.path.join(MANUAL_DATA_DIR, 'original_video_overrides.json')
+OUTPUT_DIR_ENV = 'PROJECT_SEKAI_OUTPUT_DIR'
+MAX_SOURCE_COUNT_DROP_RATIO = 0.20
+PUBLISHED_OUTPUT_NAMES = [
+    'combined_music_data.json',
+    'musics_base.json',
+    'database_v2.json',
+    'aliases.json',
+    'video_staff_index.json',
+    'staff_review.json',
+    'original_mv_review.json',
+]
 
 # 我们关心的音乐相关文件
 MUSIC_FILES = [
@@ -84,7 +95,7 @@ def check_repo():
         sys.exit(1)
 
     git_dir = os.path.join(REPO_DIR, '.git')
-    if not os.path.isdir(git_dir):
+    if not os.path.exists(git_dir):
         print(f"⚠️  {REPO_DIR} 不是一个 git 仓库")
         print("   将跳过主库 fetch/pull，只刷新外部视频来源并按本地文件状态决定是否重建")
         return False
@@ -151,18 +162,22 @@ def backup_data():
     return backed_up
 
 
-def pull_updates():
-    """拉取最新更新"""
+def pull_updates(remote_head=None):
+    """快进到远程版本；兼容 CI 中处于 detached HEAD 的子模块。"""
     print("⬇️  拉取最新数据...")
-    code, out, err = run_git(['pull', '--ff-only'])
+    target = remote_head or get_remote_head()
+    if not target:
+        print("❌ 无法确定远程目标版本")
+        return False
+    code, out, err = run_git(['merge', '--ff-only', target])
     if code != 0:
-        print(f"❌ git pull 失败: {err}")
-        print("   尝试: git pull --rebase 或手动解决冲突")
+        print(f"❌ git fast-forward 失败: {err}")
+        print("   请检查数据子模块是否包含本地提交或未解决冲突")
         return False
     return True
 
 
-def run_python_script(script_name, description):
+def run_python_script(script_name, description, args=None, extra_env=None):
     """运行 Python 构建脚本"""
     script_path = os.path.join(SCRIPTS_DIR, script_name)
     if not os.path.exists(script_path):
@@ -173,8 +188,9 @@ def run_python_script(script_name, description):
     child_env = os.environ.copy()
     child_env.setdefault('PYTHONIOENCODING', 'utf-8')
     child_env.setdefault('PYTHONUTF8', '1')
+    child_env.update(extra_env or {})
     result = subprocess.run(
-        [sys.executable, script_path],
+        [sys.executable, script_path, *(args or [])],
         cwd=SCRIPTS_DIR,
         capture_output=True, text=True, encoding='utf-8', errors='replace',
         env=child_env,
@@ -191,21 +207,67 @@ def run_python_script(script_name, description):
     return True
 
 
+def publish_staged_outputs(staging_dir, output_dir, output_names=None):
+    """发布一组已验证产物；任一替换失败时恢复发布前状态。"""
+    staging_dir = Path(staging_dir)
+    output_dir = Path(output_dir)
+    output_names = list(output_names or PUBLISHED_OUTPUT_NAMES)
+    missing = [name for name in output_names if not (staging_dir / name).is_file()]
+    if missing:
+        raise FileNotFoundError(f"暂存输出不完整: {', '.join(missing)}")
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    rollback_dir = Path(tempfile.mkdtemp(prefix='.output-rollback-', dir=str(output_dir.parent)))
+    existed = set()
+    published = []
+    try:
+        for name in output_names:
+            target = output_dir / name
+            if target.exists():
+                shutil.copy2(target, rollback_dir / name)
+                existed.add(name)
+
+        for name in output_names:
+            os.replace(staging_dir / name, output_dir / name)
+            published.append(name)
+    except Exception:
+        for name in output_names:
+            target = output_dir / name
+            backup = rollback_dir / name
+            if name in existed and backup.exists():
+                shutil.copy2(backup, target)
+            elif name in published and target.exists():
+                target.unlink()
+        raise
+    finally:
+        shutil.rmtree(rollback_dir, ignore_errors=True)
+
+
 def regenerate_data():
-    """重新生成前端和构建脚本依赖的数据产物"""
+    """在临时目录生成、校验全部产物，成功后再发布。"""
     print("\n🔄 重新生成数据...")
+    staging_dir = Path(tempfile.mkdtemp(prefix='.output-staging-', dir=BASE_DIR))
+    build_env = {OUTPUT_DIR_ENV: str(staging_dir)}
     steps = [
-        ('combine_music_data.py', '生成 combined_music_data.json'),
-        ('build_musics_base.py', '生成 musics_base.json'),
-        ('build_database.py', '生成 database_v2.json 并同步 aliases.json'),
-        ('validate_data.py', '校验 database_v2.json'),
+        ('build_musics_base.py', '生成 musics_base.json', []),
+        ('build_database.py', '生成 database_v2.json 及审核文件', []),
+        ('combine_music_data.py', '生成 combined_music_data.json', []),
+        ('validate_data.py', '校验暂存 database_v2.json', [str(staging_dir / 'database_v2.json')]),
     ]
 
-    for script_name, description in steps:
-        if not run_python_script(script_name, description):
-            return False
+    try:
+        for script_name, description, args in steps:
+            if not run_python_script(script_name, description, args=args, extra_env=build_env):
+                return False
 
-    return True
+        publish_staged_outputs(staging_dir, OUTPUT_DIR)
+        print("   → 已验证并发布完整输出集")
+        return True
+    except Exception as exc:
+        print(f"❌ 发布暂存输出失败: {exc}")
+        return False
+    finally:
+        shutil.rmtree(staging_dir, ignore_errors=True)
 
 
 def compare_data(old_file, new_file):
@@ -269,6 +331,14 @@ def normalize_playlist_videos(videos):
             }
         )
     return normalized
+
+
+def is_suspicious_video_count_drop(current_count, new_count, max_drop_ratio=MAX_SOURCE_COUNT_DROP_RATIO):
+    """判断新快照是否疑似因分页或 API 异常而严重缺项。"""
+    if current_count <= 0 or new_count < 0:
+        return False
+    minimum_allowed = current_count * (1 - max_drop_ratio)
+    return new_count < minimum_allowed
 
 
 def load_playlist_fetcher_module():
@@ -356,6 +426,14 @@ def refresh_playlist_source(source, fetch_module):
         print(f"⚠️  {source_name} 未返回数据，将继续使用现有文件")
         return False
 
+    if is_suspicious_video_count_drop(len(current_videos), len(videos)):
+        drop_percent = (len(current_videos) - len(videos)) / len(current_videos) * 100
+        print(
+            f"⚠️  {source_name} 条目数异常下降 "
+            f"({len(current_videos)} → {len(videos)}, -{drop_percent:.1f}%)，将继续使用现有文件"
+        )
+        return False
+
     if normalize_playlist_videos(current_videos) == normalize_playlist_videos(videos):
         current_name = os.path.basename(current_best_path) if current_best_path else '（无现有文件）'
         print(f"   → {source_name} 无变化，沿用 {current_name}")
@@ -416,25 +494,26 @@ def get_regeneration_reasons(music_changed):
     if music_changed:
         reasons.append(f"检测到 {len(music_changed)} 个音乐相关文件变更")
 
-    manual_aliases = os.path.join(MANUAL_DATA_DIR, 'aliases.json')
-    manual_corrections = os.path.join(MANUAL_DATA_DIR, 'corrections.json')
     output_aliases = required_outputs['aliases.json']
     database_output = required_outputs['database_v2.json']
+    manual_inputs = [
+        'aliases.json',
+        'corrections.json',
+        'manual_videos.json',
+        'original_video_overrides.json',
+        'staff_name_aliases.json',
+        'staff_role_aliases.json',
+        'staff_line_ignores.json',
+        'video_sources.json',
+    ]
+    for filename in manual_inputs:
+        source_path = os.path.join(MANUAL_DATA_DIR, filename)
+        if is_newer(source_path, database_output):
+            reasons.append(f'manual_data/{filename} 比 database_v2.json 更新')
 
+    manual_aliases = os.path.join(MANUAL_DATA_DIR, 'aliases.json')
     if is_newer(manual_aliases, output_aliases):
         reasons.append('manual_data/aliases.json 比 output/aliases.json 更新')
-
-    if is_newer(manual_aliases, database_output):
-        reasons.append('manual_data/aliases.json 比 database_v2.json 更新')
-
-    if is_newer(manual_corrections, database_output):
-        reasons.append('manual_data/corrections.json 比 database_v2.json 更新')
-
-    if is_newer(VIDEO_SOURCES_CONFIG_PATH, database_output):
-        reasons.append('manual_data/video_sources.json 比 database_v2.json 更新')
-
-    if is_newer(ORIGINAL_VIDEO_OVERRIDES_PATH, database_output):
-        reasons.append('manual_data/original_video_overrides.json 比 database_v2.json 更新')
 
     for source in load_video_sources(BASE_DIR):
         preferred_playlist = get_preferred_playlist_file(source['key'])
@@ -499,7 +578,13 @@ def main():
         print("ℹ️  当前仅执行本地模式刷新：不会检查 sekai-master-db-diff 的远程更新")
 
     # 6. 刷新所有配置的视频来源
-    refresh_configured_playlists()
+    refresh_results = refresh_configured_playlists()
+    failed_sources = [source_key for source_key, succeeded in refresh_results if not succeeded]
+    if failed_sources:
+        print(f"\n⚠️  视频来源刷新失败: {', '.join(failed_sources)}")
+        if os.environ.get('REQUIRE_SOURCE_REFRESH_SUCCESS') == '1':
+            print("❌ 当前启用了严格来源刷新，停止本次更新")
+            sys.exit(1)
 
     regeneration_reasons = get_regeneration_reasons(music_changed)
     if has_git_repo and local_head == remote_head and not regeneration_reasons:
@@ -534,7 +619,7 @@ def main():
     # 8. 拉取
     new_head = local_head
     if has_git_repo and local_head != remote_head:
-        if not pull_updates():
+        if not pull_updates(remote_head):
             sys.exit(1)
 
         new_head = get_local_head()
