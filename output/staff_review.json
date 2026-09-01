@@ -1,48 +1,186 @@
 [
   {
+    "songId": "song_羽歌",
+    "songTitle": "羽歌",
+    "videoId": "MS1JmGKrdFo",
+    "videoTitle": "初音ミク, 遼遼『羽歌』MV - Soar",
+    "unknownRoleLines": [
+      "■漫画(Comics)：陽風穹",
+      "■映像(Movie)：ﾅﾑﾙ"
+    ],
+    "unparsedLines": []
+  },
+  {
+    "songId": "song_ペンタトニック",
+    "songTitle": "ペンタトニック",
+    "videoId": "H4d7PeX6NoM",
+    "videoTitle": "5周年アニバーサリーソング『ペンタトニック』",
+    "unknownRoleLines": [
+      "デザインワークス：福島 紗希 / 有岡 美咲 / スタジオエイトカラーズ",
+      "デジタルリペア：スタジオエイトカラーズ",
+      "山地 梨穂 / 長尾 波奈 / 加治屋 颯 / 細川 留未 / 南瀨 命 / 澤田 理紗 / 谷田 優 / 森島 智菜",
+      "仕上げ検査補佐：大西 萌華"
+    ],
+    "unparsedLines": []
+  },
+  {
+    "songId": "song_ペンタトニック",
+    "songTitle": "ペンタトニック",
+    "videoId": "JXbb-_ScjSY",
+    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+    "unknownRoleLines": [
+      "「ペンタトニック」",
+      "東京：Kanadevia Hall",
+      "開場 16:00 / 開演 17:00",
+      "チケット：8,500円（全席指定 / ドリンク代別）",
+      "出演者：syudou / Dannie May / 浪漫派マシュマロ / マヂカルラブリー / オズワルド",
+      "・オフィシャル特別先行2次受付(先着)",
+      "受付期間：9/4(金)23:59まで",
+      "syudou Live Tour 2026-2027「UKA」開催決定！",
+      "2026年11月7日(土)愛知：岡谷鋼機名古屋公会堂 大ホール",
+      "OPEN 17:00 / START 18:00",
+      "2026年12月19日(土)大阪：オリックス劇場",
+      "2027年1月28日(木)東京：Shibuya LOVEZ",
+      "OPEN 17:30 / START 18:30",
+      "チケット料金：8,800円 (全席指定) ※東京公演のみドリンク代別",
+      "________________________________________________",
+      "＜syudou＞",
+      "＜須田景凪 バルーン＞",
+      "_________________________________________________",
+      "#syudou",
+      "#バルーン",
+      "#プロセカ"
+    ],
+    "unparsedLines": [
+      "配信：https://syudou.lnk.to/pentatonic",
+      "Music/syudou(https://twitter.com/tikandame)",
+      "バルーン(https://twitter.com/balloon0120 )",
+      "Movie/しづ(https://x.com/Dsd_kgn)",
+      "kumamiso(https://x.com/kumamiso_)",
+      "カラオケ/歌詞：https://piapro.jp/syudou",
+      "チケットぴあ：https://w.pia.jp/t/syudou-0923/",
+      "ローソンチケット：https://l-tike.com/syudou-0923/",
+      "イープラス：https://eplus.jp/syudou-0923/",
+      "FANYチケット：https://r.ticket.fany.lol/kakataisyo260923",
+      "X：https://twitter.com/tikandame",
+      "Instagram：https://www.instagram.com/syudou279/",
+      "TikTok：https://www.tiktok.com/@syudou",
+      "HP：https://www.syudou.com",
+      "アプリ：https://syudou.com/app/",
+      "X：https://x.com/balloon0120",
+      "Instagram：https://www.instagram.com/balloon0120/",
+      "TikTok：https://www.tiktok.com/@sudakeina_balloon",
+      "HP：https://www.tabloid0120.com",
+      "アプリ：https://c-rayon.com/result/keinasuda/"
+    ]
+  },
+  {
+    "songId": "song_アンチサイノウ",
+    "songTitle": "アンチサイノウ",
+    "videoId": "Hoz3qH0iA5U",
+    "videoTitle": "アンチサイノウ / 桃井愛莉 × 東雲彰人 × 草薙寧々 × 東雲絵名 × MEIKO",
+    "unknownRoleLines": [
+      "監督・コンポジット：もう石田 　https://x.com/mou14da",
+      "タイトルリリックデザイン：Binn 　https://x.com/binn_n0"
+    ],
+    "unparsedLines": []
+  },
+  {
+    "songId": "song_アンチサイノウ",
+    "songTitle": "アンチサイノウ",
+    "videoId": "pfT4CQfQFsk",
+    "videoTitle": "【初音ミク】アンチサイノウ【syudou】",
+    "unknownRoleLines": [
+      "Ink painting artist：zinkai (https://x.com/zinkai?s=21&t=iPTEW6uZQ-2AfPLZrjljRw)",
+      "Production Assistant：OSA",
+      "syudou主催イベント「呵呵大笑」開催決定！",
+      "2026年9月23日(水・祝)",
+      "東京：Kanadevia Hall",
+      "開場 16:00 / 開演 17:00",
+      "チケット：8,500円（全席指定 / ドリンク代別）",
+      "出演者：syudou / Dannie May / 浪漫派マシュマロ / マヂカルラブリー / オズワルド",
+      "・オフィシャル特別先行2次受付(先着)",
+      "受付期間：9/4(金)23:59まで",
+      "syudou Live Tour 2026-2027「UKA」開催決定！",
+      "2026年11月7日(土)愛知：岡谷鋼機名古屋公会堂 大ホール",
+      "OPEN 17:00 / START 18:00",
+      "2026年12月19日(土)大阪：オリックス劇場",
+      "2027年1月28日(木)東京：Shibuya LOVEZ",
+      "OPEN 17:30 / START 18:30",
+      "チケット料金：8,800円 (全席指定) ※東京公演のみドリンク代別",
+      "「アンチサイノウ」",
+      "全て賭けてんのさ 簡単にゃ割れない",
+      "継ぎ足し続けてんだ 一歩だって引けない",
+      "キミはキミ以外の何者にもなれない",
+      "無双不可避で 3 2 1",
+      "______________________________________________________________",
+      "＃プロセカ #初音ミク #ボカロ"
+    ],
+    "unparsedLines": [
+      "配信：https://syudou.lnk.to/Antisainou",
+      "カラオケ/歌詞：https://piapro.jp/syudou",
+      "チケットぴあ：https://w.pia.jp/t/syudou-0923/",
+      "ローソンチケット：https://l-tike.com/syudou-0923/",
+      "イープラス：https://eplus.jp/syudou-0923/",
+      "FANYチケット：https://r.ticket.fany.lol/kakataisyo260923",
+      "Twitter：https://x.com/tikandame",
+      "Instagram：https://www.instagram.com/syudou279/",
+      "TikTok：https://www.tiktok.com/@syudou",
+      "HP：https://www.syudou.com",
+      "アプリ：https://syudou.com/app/"
+    ]
+  },
+  {
+    "songId": "song_スターダストレイン",
+    "songTitle": "スターダストレイン",
+    "videoId": "RIItBfZ6S3Q",
+    "videoTitle": "スターダストレイン　/　miku",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "▼　Inst　https://x.gd/ScDT1",
+      "▼　Streaming　https://n0.com/a/s2bgxqn5w17e",
+      "▼　STEAKA　https://x.com/steaka_id",
+      "▼　ねこめたる　https://x.com/NecoMeta"
+    ]
+  },
+  {
     "songId": "song_天秤、指先で触れて",
     "songTitle": "天秤、指先で触れて",
     "videoId": "MSVNeSQQMMY",
     "videoTitle": "天秤、指先で触れて / 卯花ロク ft.初音ミク",
     "unknownRoleLines": [
-      "■絵：房野聖",
       "■曲：卯花ロク"
     ],
     "unparsedLines": [
       "X(旧twitter)：https://x.com/gumi_seijin",
       "X(旧twitter)：https://x.com/ukaroku",
-      "off vocal：https://piapro.jp/t/lNTI"
+      "off vocal：https://piapro.jp/t/lNTI",
+      "音源配信：https://t.co/2MeY68yaRt"
     ]
-  },
-  {
-    "songId": "song_花に風",
-    "songTitle": "花に風",
-    "videoId": "bqXIwutzqUA",
-    "videoTitle": "花に風 / Vivid BAD SQUAD × 初音ミク",
-    "unknownRoleLines": [
-      "Lyric design：ななし https://x.com/nameless5104",
-      "Movie assistant：Riesz　https://x.com/Riesz_edit"
-    ],
-    "unparsedLines": []
   },
   {
     "songId": "song_レム",
     "songTitle": "レム",
-    "videoId": "iMKSAGNBFh8",
-    "videoTitle": "レム / 天馬咲希 × 青柳冬弥 × 神代類 × 暁山瑞希 × KAITO",
-    "unknownRoleLines": [
-      "Animation Support：052　https://twitter.com/saniiiwan / 神そんにゃ　https://x.com/sogna_jin / ちろき",
-      "Produced by CAROL (Yuki Inoishi/Haruka Naito)　https://x.com/CAROL_TRIBALCON"
-    ],
-    "unparsedLines": []
+    "videoId": "0Ccd0JdqEo4",
+    "videoTitle": "レム／重音テト × flower",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "▽ inst / https://piapro.jp/balloon0120",
+      "X / https://x.com/balloon0120",
+      "Instagram / https://www.instagram.com/balloon0120/",
+      "hp / https://www.tabloid0120.com",
+      "X / https://x.com/avogado6",
+      "hp / https://www.avogado6.com/"
+    ]
   },
   {
-    "songId": "song_1000年生きてる",
-    "songTitle": "1000年生きてる",
-    "videoId": "b6nm7NtmIBY",
-    "videoTitle": "1000年生きてる / ワンダーランズ×ショウタイム × 巡音ルカ",
+    "songId": "song_光",
+    "songTitle": "光",
+    "videoId": "G9Qs6ljjHVo",
+    "videoTitle": "光 feat. 初音ミク - 水野あつ",
     "unknownRoleLines": [
-      "リリック：玉野ハヅキ　https://x.com/p_a_r_a_l_l_e_l"
+      "Compose: 水野あつ",
+      "Mixing: 林田涼太"
     ],
     "unparsedLines": []
   },
@@ -59,15 +197,13 @@
     "unparsedLines": []
   },
   {
-    "songId": "song_旅に帰る",
-    "songTitle": "旅に帰る",
-    "videoId": "SGwB23JvKjc",
-    "videoTitle": "旅に帰る / 望月穂波 × 日野森雫 × 小豆沢こはね × 朝比奈まふゆ × 巡音ルカ",
+    "songId": "song_オールイン・ワン",
+    "songTitle": "オールイン・ワン",
+    "videoId": "Jf3TxUsgJTU",
+    "videoTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
     "unknownRoleLines": [
-      "General Director : kouko",
-      "Co-Director : らふれしあ (Karure)",
-      "Shooting Cooperation : はるきち / 黒衣 (Karure) / Okan (Karure) / じゃがさん",
-      "Production : emma inc."
+      "Character Design & Directer : go-shu",
+      "Animation Producer : TIMTOM"
     ],
     "unparsedLines": []
   },
@@ -92,15 +228,58 @@
     ]
   },
   {
+    "songId": "song_ドリーマーズビート",
+    "songTitle": "ドリーマーズビート",
+    "videoId": "FRSfnD3k_ts",
+    "videoTitle": "「ドリーマーズビート」40mP feat.初音ミク",
+    "unknownRoleLines": [
+      "◻︎2026.5.30 0:00 配信スタート",
+      "Digital Single「ドリーマーズビート」"
+    ],
+    "unparsedLines": [
+      "ドリーマーズビート / 日野森志歩 × 花里みのり × 白石杏 × 天馬司 × 鏡音リン × 鏡音レン https://www.youtube.com/watch?v=ERyR7P76jT0&feature=youtu.be",
+      "Streaming & Download：https://linkco.re/SSebmEZC",
+      "カラオケ音源→https://drive.google.com/drive/folders/1F1mFi3N6drSRxE6j6CKfQAnWvTCGTm70?usp=sharing",
+      "Official Site：https://www.40mp-official.com",
+      "YouTube： https://www.youtube.com/user/40meterP/featured",
+      "Twitter：https://x.com/40mP"
+    ]
+  },
+  {
+    "songId": "song_星に一番近い場所",
+    "songTitle": "星に一番近い場所",
+    "videoId": "tbeV4Xb3kD8",
+    "videoTitle": "星に一番近い場所 feat.鏡音レン, 鏡音リン / TOKOTOKO（西沢さんP）",
+    "unknownRoleLines": [
+      "E.Guitar: 小林ファンキ風格 https://twitter.com/kfukaku_PARIS"
+    ],
+    "unparsedLines": [
+      "inst→ https://zawaso.com/downloads/inst/hoshichika_inst.zip",
+      "2DMV https://youtu.be/AEc1rxEwFos",
+      "3DMV https://youtu.be/watch?v=-cLPCHK8iy0"
+    ]
+  },
+  {
     "songId": "song_世界の歩き方",
     "songTitle": "世界の歩き方",
-    "videoId": "A-hipHJknZY",
-    "videoTitle": "世界の歩き方 / 星乃一歌 × 桐谷遥 × 鳳えむ × 宵崎奏 × 初音ミク",
+    "videoId": "csDLDFadvlI",
+    "videoTitle": "月詠み『世界の歩き方』Music Video",
     "unknownRoleLines": [
-      "監督/演出/コンテ：reinou　https://x.com/reinou00",
-      "キャラクターデザイン/作画監督/原画：熊猫よる　https://x.com/yorukumane"
+      "開場 18:00 / 開演 19:00",
+      "開場 18:00 /　開演 19:00",
+      "開場 18:00　/ 開演 19:00",
+      "Mixing Engineer : 増井淳平",
+      "Mastering Engineer : 吉良武男（TEMAS）"
     ],
-    "unparsedLines": []
+    "unparsedLines": [
+      "熊味噌（ https://twitter.com/kumamiso_ ）",
+      "YouTube Official Channel：https://www.youtube.com/@YurryCanon",
+      "X：https://twitter.com/Tsukuyomi_JP",
+      "TikTok：https://www.tiktok.com/@tsukuyomi_project",
+      "instagram：https://www.instagram.com/tsukuyomi2943_jp",
+      "piapro：https://piapro.jp/tsukuyomi_project",
+      "ユリイ・カノンX：https://twitter.com/yurryCanon"
+    ]
   },
   {
     "songId": "song_CRASH THE PARTY",
@@ -111,10 +290,7 @@
     "unparsedLines": [
       "Stream now: https://linkco.re/ZRMCgq2s",
       "Vivid BAD SQUAD ver.: https://www.youtube.com/watch?v=9xRxkaRKsgE",
-      "Instrumental: https://drive.google.com/file/d/1VQRNWjk4ssc1gyjrWvXHQmVKUhsGgtqU/view?usp=sharing",
-      "Johnny R / https://twitter.com/johnnyisboring",
-      "monii / https://twitter.com/Monii_Bagel",
-      "LYRICS:"
+      "Instrumental: https://drive.google.com/file/d/1VQRNWjk4ssc1gyjrWvXHQmVKUhsGgtqU/view?usp=sharing"
     ]
   },
   {
@@ -128,7 +304,6 @@
     ],
     "unparsedLines": [
       "Streaming & Download：https://zula.link-map.jp/links/XFG2REaZ",
-      "Director - Rover（https://x.com/13_friend_kim ）",
       "YouTube：https://www.youtube.com/@Shishishishi_C4",
       "X（獅子志司）：https://twitter.com/shishi_shishi_4",
       "X（Official）：https://twitter.com/c4__staff"
@@ -139,7 +314,10 @@
     "songTitle": "告白",
     "videoId": "Ficg3iAOUp8",
     "videoTitle": "告白 / 可不",
-    "unknownRoleLines": [],
+    "unknownRoleLines": [
+      "音楽的同位体 可不(KAFU)はバーチャルシンガー花譜の歌声をもとにして創られた音声合成ソフトウェアです",
+      "Based voice on KAF"
+    ],
     "unparsedLines": [
       "X（Twitter）：https://twitter.com/naishonopiasu",
       "TikTok：https://www.tiktok.com/@naishonopiasu",
@@ -153,37 +331,6 @@
       "花譜Twitter：https://twitter.com/virtual_kaf",
       "花譜YouTube：https://www.youtube.com/@virtual_kaf"
     ]
-  },
-  {
-    "songId": "song_透過する温度",
-    "songTitle": "透過する温度",
-    "videoId": "os_Mx0vCvbY",
-    "videoTitle": "透過する温度 / Vivid BAD SQUAD × KAITO",
-    "unknownRoleLines": [
-      "作詞・作曲：Prod by ササノマリイ　https://x.com/nekobolo"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_バイオレンストリガー",
-    "songTitle": "バイオレンストリガー",
-    "videoId": "YDcuLrkIsOA",
-    "videoTitle": "バイオレンストリガー / Vivid BAD SQUAD × 初音ミク",
-    "unknownRoleLines": [
-      "イラストデザイン：くにゃもん　https://x.com/mDrkiKmmyM8ayxw",
-      "イラスト制作協力：白湯　https://x.com/_sayu_T?s=20"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_とびだせ！わんだぴょい",
-    "songTitle": "とびだせ！わんだぴょい",
-    "videoId": "yyA_PdAytBI",
-    "videoTitle": "とびだせ！わんだぴょい / ワンダーランズ×ショウタイム × 鏡音リン",
-    "unknownRoleLines": [
-      "イラスト（デフォルメ・ピクセルアート）：nekomo　https://x.com/yumenkmc"
-    ],
-    "unparsedLines": []
   },
   {
     "songId": "song_とびだせ！わんだぴょい",
@@ -213,16 +360,6 @@
     ]
   },
   {
-    "songId": "song_熱異常",
-    "songTitle": "熱異常",
-    "videoId": "ToqKNyZi2NQ",
-    "videoTitle": "熱異常 / 25時、ナイトコードで。 × KAITO",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "すいか　https://x.com/Su1c4_mv"
-    ]
-  },
-  {
     "songId": "song_オーダーメイド",
     "songTitle": "オーダーメイド",
     "videoId": "sHXrqptOU2s",
@@ -246,6 +383,22 @@
     ]
   },
   {
+    "songId": "song_Polar Star",
+    "songTitle": "Polar Star",
+    "videoId": "69MN_xQnwU0",
+    "videoTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+    "unknownRoleLines": [
+      "X: @tghgworks_krsy",
+      "X: @hidane_nico",
+      "X: @miyazawano",
+      "Strings & Horn arrangement / Alto Saxophone：わたなべまさや",
+      "Violin ＆ Viola：ゆさ"
+    ],
+    "unparsedLines": [
+      "■Inst：https://piapro.jp/t/R6xJ"
+    ]
+  },
+  {
     "songId": "song_リアライズ",
     "songTitle": "リアライズ",
     "videoId": "pRZwLHrMsvM",
@@ -257,8 +410,6 @@
       "共作詞作曲 / C'Na https://twitter.com/CNa_Qe",
       "共編曲 / 雪乃イト https://twitter.com/Yukino_Ito1218",
       "調声 / びび https://twitter.com/bibian0115 , 柊マグネタイト, C'Na",
-      "絵 / あさ https://twitter.com/o0_asa_0o",
-      "映像 / よしだなすび https://twitter.com/Yoshidanasubeam",
       "▶ https://drive.google.com/drive/folders/1Bu6Giet7VTwSTHisTE3mh3uu05Dhba8L?usp=drive_link",
       "▶ https://youtube.com/playlist?list=PLSXruysuXxNgvP3I_1-6ACwpjkS3HakJx"
     ]
@@ -271,18 +422,17 @@
     "unknownRoleLines": [
       "MAIN VOCAL&CHORUS：#vflower ＆#重音テト",
       "▼Lyrics,Music&Arrangement：#栗山夕璃",
+      "INUSTA→ https://www.instagram.com/gogomasuke/",
       "▽Illustration＆MV：sakiyama",
       "▼Bass： tmsw",
-      "▽Guitar：長崎",
-      "▼Piano：Banken",
-      "▽Drums：裕木 レオン"
-    ],
-    "unparsedLines": [
-      "INUSTA→ https://www.instagram.com/gogomasuke/",
       "Twitter →https://twitter.com/tmsw",
+      "▽Guitar：長崎",
       "Twitter →https://twitter.com/Nagasaki0ji",
+      "▼Piano：Banken",
+      "▽Drums：裕木 レオン",
       "X→https://x.com/leon_drum"
-    ]
+    ],
+    "unparsedLines": []
   },
   {
     "songId": "song_ファイター",
@@ -294,17 +444,6 @@
       "Stream or Download ⇒ https://linkco.re/9PPBPxzF",
       "off vocal ⇒ https://www.dropbox.com/scl/fi/p3grf30cu5tkr2cujcqvs/JonYakitory_Fighter_RSFinalMix_Inst-NoLimiter.wav?rlkey=o7jxnra5nugk8ubhssvzfywif&st=5if88kwp&dl=0"
     ]
-  },
-  {
-    "songId": "song_征け",
-    "songTitle": "征け",
-    "videoId": "WGy0Iw1Asw4",
-    "videoTitle": "征け / ワンダーランズ×ショウタイム × 鏡音リン",
-    "unknownRoleLines": [
-      "イラスト協力：白湯　https://x.com/_sayu_T",
-      "ディレクション・映像：臼水　https://x.com/usumizu_Q"
-    ],
-    "unparsedLines": []
   },
   {
     "songId": "song_征け",
@@ -330,34 +469,23 @@
   {
     "songId": "song_その絵の名前は",
     "songTitle": "その絵の名前は",
-    "videoId": "5u52uGdTnHk",
-    "videoTitle": "その絵の名前は / 25時、ナイトコードで。 × 初音ミク",
-    "unknownRoleLines": [
-      "制作協力：株式会社アクアスター"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_その絵の名前は",
-    "songTitle": "その絵の名前は",
     "videoId": "YMv2bRs25mQ",
     "videoTitle": "その絵の名前は / 蝶々P feat. 初音ミク",
-    "unknownRoleLines": [
-      "Music&Lyric：papiyon"
-    ],
+    "unknownRoleLines": [],
     "unparsedLines": [
       "セカイver.：https://www.youtube.com/watch?v=5u52uGdTnHk",
       "off vocal：https://dl.dropboxusercontent.com/scl/fi/qhzx5ydquranwxwn2h6wc/sonoenonamaeha_offvocal_86bpm_48kHz_24bit.wav?rlkey=g1m4aa50m909a4udocajezzxs&dl=0"
     ]
   },
   {
-    "songId": "song_スター",
-    "songTitle": "スター",
-    "videoId": "NSAILdVVOg8",
-    "videoTitle": "スター / Leo/need × MEIKO",
+    "songId": "song_あなたの空が泣くのなら",
+    "songTitle": "あなたの空が泣くのなら",
+    "videoId": "xJYdM-NugcE",
+    "videoTitle": "あなたの空が泣くのなら/初音ミク",
     "unknownRoleLines": [],
     "unparsedLines": [
-      "Sugawara（STUDIO KAIBA）https://x.com/Sua_1o20"
+      "off vocal(mix&mastered)https://bit.ly/47qHhFy",
+      "MP3 offvo https://piapro.jp/hsuranus/content_list/all/1"
     ]
   },
   {
@@ -398,16 +526,6 @@
   {
     "songId": "song_飾って",
     "songTitle": "飾って",
-    "videoId": "ab3ku_Zv7Jo",
-    "videoTitle": "飾って / 25時、ナイトコードで。 × 鏡音レン",
-    "unknownRoleLines": [
-      "制作協力：Strelitzia　https://strelitzia.biz/"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_飾って",
-    "songTitle": "飾って",
     "videoId": "y8sa2X_aZXQ",
     "videoTitle": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
     "unknownRoleLines": [
@@ -416,8 +534,7 @@
       "Key Animation: RiU. (THINKR), STUDIO TOKORO, Shin, xwx",
       "Animaton & Painting: STUDIO TOKORO, Fincrossed studio",
       "Background Art: komadori",
-      "Editing: RiU. (THINKR)",
-      "Producer: Kei Terayama (THINKR)"
+      "Editing: RiU. (THINKR)"
     ],
     "unparsedLines": [
       "Streaming / Download: https://zula.link-map.jp/links/embellish",
@@ -426,6 +543,31 @@
       "Instagram https://www.instagram.com/amehuruyoru4949/",
       "TikTok https://www.tiktok.com/@onumaparsley?lang=ja-JP",
       "ALLT STUDIO https://alltstudio.jp/"
+    ]
+  },
+  {
+    "songId": "song_アクセラレイト",
+    "songTitle": "アクセラレイト",
+    "videoId": "qkAKmANIHDs",
+    "videoTitle": "アクセラレイト - 初音ミク[吉田夜世]",
+    "unknownRoleLines": [
+      "曲,詞,Mix,Mastering：吉田夜世",
+      "X(旧Twitter) → https://x.com/otgys",
+      "contact → yasson440@gmail.com",
+      "動画,背景絵：藤墅。",
+      "X(旧Twitter) → https://x.com/04_fujino9"
+    ],
+    "unparsedLines": []
+  },
+  {
+    "songId": "song_透明なパレット",
+    "songTitle": "透明なパレット",
+    "videoId": "Q7k_ZNjZS94",
+    "videoTitle": "透明なパレット feat. 初音ミク / Aqu3ra",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "配信,streaming🎨 : https://linkco.re/4vZA3GFS",
+      "offvocal : https://piapro.jp/aqu3rapromo"
     ]
   },
   {
@@ -446,16 +588,6 @@
   {
     "songId": "song_アイリッド",
     "songTitle": "アイリッド",
-    "videoId": "o4AS22B_9vU",
-    "videoTitle": "アイリッド / ワンダーランズ×ショウタイム × 巡音ルカ",
-    "unknownRoleLines": [
-      "制作協力：Strelitzia　https://strelitzia.biz/"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_アイリッド",
-    "songTitle": "アイリッド",
     "videoId": "Pr4OUUAXbZI",
     "videoTitle": "ぬゆり - アイリッド / flower : EYELID",
     "unknownRoleLines": [
@@ -469,15 +601,25 @@
       "■ Compositing / 3DCG： ポケット梨子",
       "■ Compositing： 千石まよひ",
       "■ Compositing Produce： tyao",
-      "■ Graphic Design / Motion Graphics / 3DCG： Lye",
-      "■ Guitar：YUUKI MIYAKE",
-      "■ Bass：タナカ ユウダイ(ユアネス)",
-      "■ Mix：中村涼真",
-      "■ Music：ぬゆり"
+      "■ Graphic Design / Motion Graphics / 3DCG： Lye"
     ],
     "unparsedLines": [
+      "□Streaming：https://nex-tone.link/A00221717",
       "□Streaming/Download：https://nex-tone.link/A00197456",
       "□inst：https://www.dropbox.com/scl/fi/w4jd6ob80tj63yxbsnfb1/.mp3?rlkey=yj4xutzfru0m4h4xte2q91r53&st=93k53xy6&dl=0"
+    ]
+  },
+  {
+    "songId": "song_needLe",
+    "songTitle": "needLe",
+    "videoId": "buoYwfZG4vQ",
+    "videoTitle": "DECO*27 - needLe feat. 初音ミク",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "Twitter: https://twitter.com/deco27",
+      "音楽 & 動画素材: https://otoiro.co.jp/special/",
+      "LINEスタンプ: https://store.line.me/stickershop/author/2564873",
+      "公式グッズ: https://otoiro.official.ec/"
     ]
   },
   {
@@ -486,8 +628,12 @@
     "videoId": "T1K831KdL1o",
     "videoTitle": "Guiano - 光線歌 (feat.重音テト)",
     "unknownRoleLines": [
-      "【受付期間】4月1日(水) 12:00 ～ 4月19日(日) 23:59",
-      "【受付期間】4/25(土) 12:00 ～ 5/10(日) 23:59"
+      "GUEST: みゆな",
+      "GUEST: 笹川真生",
+      "GUEST: NakamuraEmi",
+      "GUEST: 眞名子 新",
+      "GUEST: カンザキイオリ",
+      "━━━━━━━━━━━━━━━━━━━━━━━━━"
     ],
     "unparsedLines": [
       "X: https://x.com/GuiAnoDayo",
@@ -496,8 +642,11 @@
       "HP: https://potofu.me/roundbee08",
       "Streaming / Download: https://zula.link-map.jp/links/guiano_kousenka",
       "Instrumental: https://www.mediafire.com/file_premium/xwetm72kf6gp1au/Kousenka_final_Inst.wav/file",
-      "・オフィシャル先行：",
-      "・オフィシャル2次先行："
+      "🎫: https://eplus.jp/guiano/",
+      "X https://twitter.com/GuiAnoDayo",
+      "Instagram　https://www.instagram.com/guianodayo/",
+      "TikTok　https://vt.tiktok.com/Uyvur3/",
+      "HP https://alltstudio.jp/"
     ]
   },
   {
@@ -524,40 +673,12 @@
     ]
   },
   {
-    "songId": "song_とうほう☆ワンダーランド",
-    "songTitle": "とうほう☆ワンダーランド",
-    "videoId": "iIuZk3Ms1So",
-    "videoTitle": "とうほう☆ワンダーランド / ワンダーランズ×ショウタイム × 初音ミク × KAITO",
-    "unknownRoleLines": [
-      "Arranged by 紅維流星"
-    ],
-    "unparsedLines": [
-      "ひとびと https://twitter.com/people_hitobito",
-      "リチャード https://twitter.com/richaball"
-    ]
-  },
-  {
-    "songId": "song_チルノのパーフェクトさんすう学園[ゲームサイズ ver.]",
-    "songTitle": "チルノのパーフェクトさんすう学園[ゲームサイズ ver.]",
-    "videoId": "PE0rxHzyxNs",
-    "videoTitle": "チルノのパーフェクトさんすう学園[ゲームサイズ ver.] / 初音ミク × 鏡音リン × 鏡音レン × 巡音ルカ × MEIKO × KAITO",
-    "unknownRoleLines": [
-      "マスタリング：Shibayan（ShibayanRecords）",
-      "ボーカロイドエディット：びび",
-      "イラストサポート：すわ、西沢5㍉",
-      "ロゴデザインサポート：ヒトマスモドル",
-      "リスペクト：宇田てとら（TETLA POT）"
-    ],
-    "unparsedLines": []
-  },
-  {
     "songId": "song_オールセーブチャレンジ",
     "songTitle": "オールセーブチャレンジ",
     "videoId": "ejG2_B95DzY",
     "videoTitle": "オールセーブチャレンジ / 香椎モイミ feat. 初音ミク",
     "unknownRoleLines": [],
     "unparsedLines": [
-      "Movie 檀上大空 https://x.com/skyw315",
       "inst https://drive.google.com/drive/folders/1MnWXEmryhVyLdnVGOXQ_2n__Zn8ayRpv?usp=sharing"
     ]
   },
@@ -577,16 +698,6 @@
   {
     "songId": "song_アンチユー",
     "songTitle": "アンチユー",
-    "videoId": "d3Eqz55SxlA",
-    "videoTitle": "アンチユー / MORE MORE JUMP！ × 巡音ルカ",
-    "unknownRoleLines": [
-      "制作：R11R　https://r11r.jp/"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_アンチユー",
-    "songTitle": "アンチユー",
     "videoId": "eVfppbSqACQ",
     "videoTitle": "Chinozo 'アンチユー' feat.初音ミク",
     "unknownRoleLines": [
@@ -595,139 +706,17 @@
     "unparsedLines": []
   },
   {
-    "songId": "song_フラジール",
-    "songTitle": "フラジール",
-    "videoId": "vpVMJJUkSuw",
-    "videoTitle": "フラジール[ゲームサイズ ver.] / 鏡音レン × KAITO",
-    "unknownRoleLines": [
-      "Production：THINGS."
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_フラジール",
-    "songTitle": "フラジール",
-    "videoId": "9kZ6MPqj9Tg",
-    "videoTitle": "フラジール / Vivid BAD SQUAD",
-    "unknownRoleLines": [
-      "(C) Craft Egg Inc. Developed by Colorful Palette"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_フュージョン",
-    "songTitle": "フュージョン",
-    "videoId": "XVEkMhzHLTQ",
-    "videoTitle": "フュージョン / DI:Verse",
-    "unknownRoleLines": [
-      "DI:Verse",
-      "ロゴアニメーション：そのかわまみ　https://x.com/mamitopic",
-      "プロデューサー：ワタナベソウスケ（PHASE STUDIO） https://x.com/sosuke_watanabe"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_SToRY",
-    "songTitle": "SToRY",
-    "videoId": "-m8ypkvZL6g",
-    "videoTitle": "SToRY / 初音ミク × 鏡音リン × 巡音ルカ × MEIKO",
-    "unknownRoleLines": [
-      "サブイラスト：やきほこ　https://x.com/pamdaudonn0331",
-      "モーションデザイン：Con　https://x.com/con_cg_",
-      "Live2D：星宮みづき&akari　https://x.com/Hoshi7Mizuki"
-    ],
-    "unparsedLines": [
-      "インスト音源 https://piapro.jp/caanime_piapro"
-    ]
-  },
-  {
-    "songId": "song_SToRY",
-    "songTitle": "SToRY",
-    "videoId": "9fnQklaziX4",
-    "videoTitle": "SToRY / Leo/need",
+    "songId": "song_Worlders",
+    "songTitle": "Worlders",
+    "videoId": "UoptEaMrnok",
+    "videoTitle": "Worlders feat. 初音ミク / じん【Official MV】",
     "unknownRoleLines": [],
     "unparsedLines": [
-      "インスト音源 https://piapro.jp/caanime_piapro"
-    ]
-  },
-  {
-    "songId": "song_スマイル*シンフォニー",
-    "songTitle": "スマイル*シンフォニー",
-    "videoId": "Bj84UUMt44U",
-    "videoTitle": "スマイル*シンフォニー / 初音ミク × 鏡音リン × 鏡音レン × KAITO",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "インスト音源 https://piapro.jp/caanime_piapro"
-    ]
-  },
-  {
-    "songId": "song_スマイル*シンフォニー",
-    "songTitle": "スマイル*シンフォニー",
-    "videoId": "91O6VohptEo",
-    "videoTitle": "スマイル*シンフォニー / ワンダーランズ×ショウタイム",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "インスト音源 https://piapro.jp/caanime_piapro"
-    ]
-  },
-  {
-    "songId": "song_FUN!!",
-    "songTitle": "FUN!!",
-    "videoId": "HfYp8slz5ro",
-    "videoTitle": "FUN!! / 初音ミク × 鏡音リン × 巡音ルカ × MEIKO",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "インスト音源 https://piapro.jp/caanime_piapro"
-    ]
-  },
-  {
-    "songId": "song_FUN!!",
-    "songTitle": "FUN!!",
-    "videoId": "C6TAZ8Elbao",
-    "videoTitle": "FUN!! / MORE MORE JUMP！",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "インスト音源 https://piapro.jp/caanime_piapro"
-    ]
-  },
-  {
-    "songId": "song_そこに在る、光。",
-    "songTitle": "そこに在る、光。",
-    "videoId": "RjwDQG8sq_M",
-    "videoTitle": "そこに在る、光。 / 初音ミク × 鏡音リン × 巡音ルカ × MEIKO",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "インスト音源 https://piapro.jp/caanime_piapro"
-    ]
-  },
-  {
-    "songId": "song_そこに在る、光。",
-    "songTitle": "そこに在る、光。",
-    "videoId": "WkGgD_RF5V8",
-    "videoTitle": "そこに在る、光。 / 25時、ナイトコードで。",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "インスト音源 https://piapro.jp/caanime_piapro"
-    ]
-  },
-  {
-    "songId": "song_ファイアダンス",
-    "songTitle": "ファイアダンス",
-    "videoId": "9hveQ4bsqzs",
-    "videoTitle": "ファイアダンス / 初音ミク × 鏡音レン × MEIKO × KAITO",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "インスト音源 https://piapro.jp/caanime_piapro"
-    ]
-  },
-  {
-    "songId": "song_ファイアダンス",
-    "songTitle": "ファイアダンス",
-    "videoId": "Zqs0lEADyFo",
-    "videoTitle": "ファイアダンス / Vivid BAD SQUAD",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "インスト音源 https://piapro.jp/caanime_piapro"
+      "ダウンロード/ストリーミングはこちら：https://jin.lnk.to/blue_backPR",
+      "ダウンロード/ストリーミングはこちら：https://Jin.lnk.to/worlders_bbvID",
+      "じん公式X：https://twitter.com/jin_jin_suruyo",
+      "じんスタッフ公式X： https://twitter.com/Jin_jin_shitayo",
+      "じんオフィシャルサイト：https://jin-jin-suruyo.com/"
     ]
   },
   {
@@ -743,6 +732,25 @@
     ]
   },
   {
+    "songId": "song_はじまりの未来",
+    "songTitle": "はじまりの未来",
+    "videoId": "0E6sIrnXFe4",
+    "videoTitle": "\"はじまりの未来(Ergo ver)\" feat.初音ミク/40mP×sasakure.‌UK",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "+サブスク楽曲配信→https://linkco.re/DbvfNVN5",
+      "+映画ver→https://www.youtube.com/watch?v=mxj3mW4jf7Q",
+      "40mP    https://x.com/40mP",
+      "sasakure.UK    https://x.com/sasakure__uk",
+      "宝丼    https://x.com/TreasureBooru",
+      "ととりか    https://x.com/t_totorika",
+      "みやざわえそら    https://x.com/miyazawano",
+      "二家本亮介(有形ランペイジ)    https://x.com/chan_nika116",
+      "岸田勇気(有形ランペイジ)    https://x.com/yukikishida",
+      "[TEST]  https://x.com/hiroki_test"
+    ]
+  },
+  {
     "songId": "song_ももいろの鍵",
     "songTitle": "ももいろの鍵",
     "videoId": "sAUdWpemfGw",
@@ -755,37 +763,39 @@
     ]
   },
   {
-    "songId": "song_余花にみとれて",
-    "songTitle": "余花にみとれて",
-    "videoId": "agbpbVVA78U",
-    "videoTitle": "余花にみとれて / 25時、ナイトコードで。 × MEIKO",
-    "unknownRoleLines": [
-      "動画：AKITO(CASANE. by THINGS.)"
-    ],
-    "unparsedLines": []
+    "songId": "song_はしる! とおく! とどく!",
+    "songTitle": "はしる! とおく! とどく!",
+    "videoId": "b6ndcYxpX24",
+    "videoTitle": "はしる! とおく! とどく! - 薄塩指数 feat. 重音テトSV / Hashiru! Tooku! Todoku!",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "Streaming https://karent.jp/album/4508",
+      "Karaoke https://drive.google.com/drive/folders/1qJsVo0vfsbEWLxbreY3s-XcdPs42FcmM?usp=sharing",
+      "楽曲利用ガイドライン https://note.com/usushioshisuu/n/n4a765d6efe2d",
+      "詞曲 薄塩指数 https://linktr.ee/usushioshisuu"
+    ]
   },
   {
     "songId": "song_余花にみとれて",
     "songTitle": "余花にみとれて",
     "videoId": "BTsrA2SRqhk",
     "videoTitle": "余花にみとれて / keeno feat. 初音ミク",
-    "unknownRoleLines": [
-      "Music & Lyrics :keeno"
-    ],
+    "unknownRoleLines": [],
     "unparsedLines": [
       "セカイver.：　https://t.co/aPVnfmOXjb",
       "Inst:  https://piapro.jp/t/labG"
     ]
   },
   {
-    "songId": "song_東京テディベア",
-    "songTitle": "東京テディベア",
-    "videoId": "UqulFtYBdGw",
-    "videoTitle": "東京テディベア / Leo/need × 鏡音リン",
-    "unknownRoleLines": [
-      "写真撮影：三橋令嗣 松岡孝典 徳原英孝"
-    ],
-    "unparsedLines": []
+    "songId": "song_ぼくのかみさま",
+    "songTitle": "ぼくのかみさま",
+    "videoId": "nP3Lv7CfCFs",
+    "videoTitle": "ぼくのかみさま / flower",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "X   /  https://x.com/maigo_hanyuu",
+      "TikTok   /  https://www.tiktok.com/@maigo_hanyuu"
+    ]
   },
   {
     "songId": "song_街",
@@ -796,15 +806,19 @@
     "unparsedLines": [
       "Stream or Download ⇒ https://linkco.re/RtMev96n",
       "off vocal ⇒ https://www.dropbox.com/s/yftf77ihr3acpqy/jon_Machi_RSFinalMix_Inst%5BNoLimiter%5D.wav?dl=0",
-      "Twitter ( https://twitter.com/jon_408 )",
-      "instagram ( https://www.instagram.com/jonyakitory/ )",
-      "Twitter ( https://twitter.com/koji_onsensuki )",
-      "Twitter ( https://twitter.com/clegiantP )",
-      "Twitter ( https://twitter.com/RossoMixer )",
-      "Twitter ( https://twitter.com/_ushiooo )",
-      "Twitter ( https://twitter.com/mmmmoeko_ )",
-      "Twitter ( https://twitter.com/@ureyugraphy  )",
       "ニコニコ⇒ https://nico.ms/sm40910110"
+    ]
+  },
+  {
+    "songId": "song_その音が鳴るなら",
+    "songTitle": "その音が鳴るなら",
+    "videoId": "JoNrFLnxwpQ",
+    "videoTitle": "その音が鳴るなら／歌、初音ミク",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "Xアカウント　https://x.com/ishi_furo",
+      "Xアカウント　https://x.com/chikuika",
+      "オフボーカル音源→https://piapro.jp/t/WR_B"
     ]
   },
   {
@@ -825,8 +839,7 @@
     "videoId": "jaSJ4t2ITW8",
     "videoTitle": "化けの花 / 初音ミク",
     "unknownRoleLines": [
-      "■音楽：なきそ　https://twitter.com/7kiso_nakiso",
-      "■絵：鮫島ぬりえ　https://twitter.com/nurie_7"
+      "■音楽：なきそ　https://twitter.com/7kiso_nakiso"
     ],
     "unparsedLines": []
   },
@@ -835,35 +848,11 @@
     "songTitle": "天使のクローバー",
     "videoId": "lFJA9muTUDM",
     "videoTitle": "天使のクローバー ／ DIVELA feat.鏡音リン",
-    "unknownRoleLines": [
-      "■Music＆Lyric：DIVELA：https://twitter.com/MIX_Destroy",
-      "■Illust：しろくろ 様：https://twitter.com/shirokuro_3939",
-      "■Movie：まきのせな 様：https://twitter.com/3329h0rned0w1",
-      "■Vocal：鏡音リン"
-    ],
+    "unknownRoleLines": [],
     "unparsedLines": [
       "inst：https://piapro.jp/t/FKcj",
       "niconico：https://www.nicovideo.jp/watch/sm38510568"
     ]
-  },
-  {
-    "songId": "song_熱風",
-    "songTitle": "熱風",
-    "videoId": "7kT2Azgw3rc",
-    "videoTitle": "4周年アニバーサリーソング『熱風』",
-    "unknownRoleLines": [
-      "監督・コンテ：市村　仁弥",
-      "キャラクターデザイン・作画監督・演出：錦寛乃",
-      "色彩設計・色指定・仕上げ検査：堀内　元",
-      "美術監督：伊東　汐",
-      "CG制作進行：常田　麻結香",
-      "撮：Yostar Pictures",
-      "撮影マネージャー：佐藤 彩香",
-      "編集室：グラフィニカ",
-      "企画プロデューサー：柴崎一樹",
-      "制作：R11R Pictures"
-    ],
-    "unparsedLines": []
   },
   {
     "songId": "song_それでも僕らは歌うことをやめない",
@@ -876,13 +865,14 @@
     ]
   },
   {
-    "songId": "song_ザムザ",
-    "songTitle": "ザムザ",
-    "videoId": "cchy8Tl5Oa8",
-    "videoTitle": "ザムザ / 25時、ナイトコードで。 × KAITO",
+    "songId": "song_ショウタイム・ルーラー",
+    "songTitle": "ショウタイム・ルーラー",
+    "videoId": "uDBVetc5JKo",
+    "videoTitle": "ショウタイム・ルーラー/鏡音リン(曲:カラスヤサボウ)",
     "unknownRoleLines": [],
     "unparsedLines": [
-      "MUNIKU（.MP）　https://x.com/muniku_M9"
+      "インスト:https://www.dropbox.com/sh/2izmo7omyc45vyc/AAAkA85uyOQshRtky8tQ5z8Za?dl=0",
+      "配信:https://nex-tone.link/A00094609"
     ]
   },
   {
@@ -897,6 +887,32 @@
     ]
   },
   {
+    "songId": "song_成敗いたAAAAAす！",
+    "songTitle": "成敗いたAAAAAす！",
+    "videoId": "_J5W4Vdlbto",
+    "videoTitle": "ワンオポ - 成敗いたAAAAAす！ft.鏡音レンリン【MV】",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "3DMV → https://www.youtube.com/watch?v=rnoxaVMRB9s",
+      "2DMV → https://www.youtube.com/watch?v=w0lpuKNZRQ0",
+      "KARENT → https://karent.jp/album/4247",
+      "FULL → https://piapro.jp/t/AzrW",
+      "SHORT → https://piapro.jp/t/LMUp",
+      "▽We are looking for translators → https://bit.ly/3kp9hj5"
+    ]
+  },
+  {
+    "songId": "song_ULTRA C",
+    "songTitle": "ULTRA C",
+    "videoId": "KF9Mu2gXNdI",
+    "videoTitle": "Giga & TeddyLoid - ULTRA C ft.Rin・Len【MV】",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "Streaming Link → https://linkco.re/tashfR8U",
+      "off vocal → https://www.dropbox.com/scl/fi/oofd69xxqqk1jy6hvm6bu/ULTRA-C_inst.wav?rlkey=7qrou68oetxzto2nsg4r41wqh&st=nsg5n9oz&dl=0"
+    ]
+  },
+  {
     "songId": "song_エンパープル",
     "songTitle": "エンパープル",
     "videoId": "InZ7GOU-CQ8",
@@ -904,7 +920,6 @@
     "unknownRoleLines": [
       "Singer：初音ミク",
       "Chorus（英語部分）：重音テトSV",
-      "Music & Lyrics & Arrangement & Mix：はるまきごはん",
       "Director & Main Animator & Composite & BG Art：はるまきごはん (@harumaki_gohan)"
     ],
     "unparsedLines": [
@@ -915,16 +930,6 @@
       "▷はるまきごはん Official LINEアカウント：https://line.me/R/ti/p/%40harumaki_gohan",
       "▷はるまきごはんオフィシャルグッズストア：https://official-goods-store.jp/harumakigohan/"
     ]
-  },
-  {
-    "songId": "song_Supernova",
-    "songTitle": "Supernova",
-    "videoId": "2DGf-KlKXGA",
-    "videoTitle": "Supernova / MORE MORE JUMP！× KAITO",
-    "unknownRoleLines": [
-      "アシスタント : ぱんたび　https://x.com/pantabi_v"
-    ],
-    "unparsedLines": []
   },
   {
     "songId": "song_Supernova",
@@ -959,53 +964,7 @@
     "unknownRoleLines": [],
     "unparsedLines": [
       "作詞作曲 niki https://x.com/niki_reverse",
-      "イラスト 東の空まで会いに来て https://x.com/higasizora_kai",
       "Inst https://piapro.jp/t/qDUN"
-    ]
-  },
-  {
-    "songId": "song_Help me, ERINNNNNN!![ゲームサイズ ver.]",
-    "songTitle": "Help me, ERINNNNNN!![ゲームサイズ ver.]",
-    "videoId": "wuVfqSYJoeU",
-    "videoTitle": "Help me, ERINNNNNN!![ゲームサイズ ver.] / 初音ミク × 鏡音リン × 鏡音レン × 巡音ルカ × MEIKO × KAITO",
-    "unknownRoleLines": [
-      "◆illust & movie：ひとびと https://twitter.com/@People_Hitobito",
-      "◆guitar：小林ヒロト https://twitter.com/@manmaru1610",
-      "◆mastering：Shibayan (ShibayanRecords) https://twitter.com/@yaaaaaan",
-      "◆Vocaloid EDIT Support：びび https://twitter.com/@bibian0115",
-      "produce : ビートまりお",
-      "presented by COOL&CREATE"
-    ],
-    "unparsedLines": [
-      "◆illust special support：",
-      "西沢5㍉ https://twitter.com/@wanwangomigomi",
-      "すわ https://twitter.com/@suwa_415",
-      "nda. https://www.instagram.com/blues.seanettle/",
-      "◆logo design support：",
-      "ヒトマスモドル https://twitter.com/@00unit"
-    ]
-  },
-  {
-    "songId": "song_Bad Apple!! feat.SEKAI",
-    "songTitle": "Bad Apple!! feat.SEKAI",
-    "videoId": "v-fc1zv31zE",
-    "videoTitle": "Bad Apple!! feat.SEKAI / 25時、ナイトコードで。 × 初音ミク",
-    "unknownRoleLines": [
-      "AD & Logo & Graphic Designer: DMYM　https://twitter.com/no_734",
-      "Key Animator: RL, 1024　https://twitter.com/0411udon"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_すれすれ",
-    "songTitle": "すれすれ",
-    "videoId": "u4MhA-3ateU",
-    "videoTitle": "すれすれ / すこっぷ feat. 初音ミク",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "Music /すこっぷ https://twitter.com/scopscop",
-      "Illustration / 猫目トヲル https://twitter.com/towor_n",
-      "Movie / Lye https://twitter.com/Lye_xX"
     ]
   },
   {
@@ -1027,17 +986,109 @@
     ]
   },
   {
+    "songId": "song_blender",
+    "songTitle": "blender",
+    "videoId": "SjSlCJG4CxU",
+    "videoTitle": "blender/初音ミク&MEIKO",
+    "unknownRoleLines": [
+      "MV：逢編いあむ https://twitter.com/iamuu_n",
+      "Vocal edit：びび https://twitter.com/bibian0115"
+    ],
+    "unparsedLines": [
+      "offvocal：https://www.dropbox.com/scl/fo/trj7c674i5320zjwc807f/ANVqNEckJN1b_p6dkxHlHpA?rlkey=jj3zmnp1gf8jqidy0apdj1dyn&st=wlqm2su5&dl=0"
+    ]
+  },
+  {
+    "songId": "song_にっこり^^調査隊のテーマ",
+    "songTitle": "にっこり^^調査隊のテーマ",
+    "videoId": "C_Fc1x_aeFQ",
+    "videoTitle": "【鏡音リンレン】にっこり^^調査隊のテーマ【ワンオポ/OriginalMV】/ Niccori^^ Survey Team Theme",
+    "unknownRoleLines": [
+      "Russian：Vir and Team Translations",
+      "Malay：oatsora & soraruur / オートミルク",
+      "Italian：sunraymond",
+      "Czech：Štěpán Valášek（@stepaboss1806）",
+      "——————————————————————Thank you!————",
+      "▽We are looking for translators → https://bit.ly/3kp9hj5"
+    ],
+    "unparsedLines": [
+      "▼セカイver.→https://youtu.be/v7SYWS2jarw",
+      "・apple music→https://apple.co/3rKHXlL",
+      "・spotify→https://spoti.fi/3B9Ss4M",
+      "▼off vocal→https://piapro.jp/t/9lp8"
+    ]
+  },
+  {
+    "songId": "song_インテグラル",
+    "songTitle": "インテグラル",
+    "videoId": "gjLYd3iyPKM",
+    "videoTitle": "【プロセカ】*Luna - インテグラル (Integral) feat.初音ミク",
+    "unknownRoleLines": [
+      "- Vo-Edit：びび"
+    ],
+    "unparsedLines": [
+      "🎵New Single 「インテグラル」→ https://lnkfi.re/integraluna",
+      "※Discordサーバーを作りました→ https://discord.gg/rqsyfVT",
+      "・https://www.dropbox.com/sh/fvddfjcf28yl6z5/AABDEc5C1RWeQ-SCFycYcOova?dl=0"
+    ]
+  },
+  {
+    "songId": "song_JUMPIN’ OVER !",
+    "songTitle": "JUMPIN’ OVER !",
+    "videoId": "P2KRg60WPvE",
+    "videoTitle": "JUMPIN' OVER ! / 初音ミク",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "artwork / torishima  https://twitter.com/oshiritorishima"
+    ]
+  },
+  {
     "songId": "song_レグルス",
     "songTitle": "レグルス",
     "videoId": "8Kp3EqKnOCw",
     "videoTitle": "レグルス / ゆうゆ feat.鏡音リン",
-    "unknownRoleLines": [
-      "Music/Mix：ゆうゆ"
-    ],
+    "unknownRoleLines": [],
     "unparsedLines": [
       "◆ inst :",
-      "◆ Lyrics :",
       "詳細はこちらから  https://yuuyu-official.amebaownd.com/posts/51493721?categoryIds=7177895"
+    ]
+  },
+  {
+    "songId": "song_世界を照らすテトラッド",
+    "songTitle": "世界を照らすテトラッド",
+    "videoId": "R0DWNySEhcc",
+    "videoTitle": "世界を照らすテトラッド (Vocaloid ver.)／OSTER project",
+    "unknownRoleLines": [
+      "FANBOX　https://www.pixiv.net/fanbox/creator/10781789"
+    ],
+    "unparsedLines": [
+      "OSTER project Music 再生リスト https://www.youtube.com/playlist?list=PLVNCicu_Rn51dQIS1yHo6eKbTDl2arqHw",
+      "off vocal ver.  https://commons.nicovideo.jp/works/nc350541",
+      "ワンダーランズ×ショウタイム ver. https://www.youtube.com/watch?v=RmHiTOqfJP8",
+      "Web: http://fuwafuwacinnamon.sakura.ne.jp/"
+    ]
+  },
+  {
+    "songId": "song_サイバーパンクデッドボーイ",
+    "songTitle": "サイバーパンクデッドボーイ",
+    "videoId": "5HPJ7eUvU4o",
+    "videoTitle": "サイバーパンクデッドボーイ feat. 初音ミク【ボカロオリジナル曲】マイキP",
+    "unknownRoleLines": [
+      "OPEN 18:00 / START 19:00",
+      "まじで最高の日にしよう。待ってます！！！",
+      "作詞.作曲.編曲.映像：マイキP"
+    ],
+    "unparsedLines": [
+      "off vocal→https://www.youtube.com/watch?v=WIpUtakIfHQ",
+      "off vocal (＋5key) →https://www.youtube.com/watch?v=ft0jQ9QqyC4",
+      "off vocal(＋9key) →https://www.youtube.com/watch?v=iecdpal7Ksk",
+      "本家：https://www.youtube.com/watch?v=TxOA6VGGxgU",
+      "ボカロver：https://www.youtube.com/watch?v=5HPJ7eUvU4o",
+      "English ver：https://www.youtube.com/watch?v=On1FKTdPiVs",
+      "セルフカバー：https://www.youtube.com/watch?v=vk9vWRG3snk",
+      "Twitter：https://twitter.com/maikidrum",
+      "Instagram：https://www.instagram.com/maikidrum/?...",
+      "TikTok：https://www.tiktok.com/@maikidrum"
     ]
   },
   {
@@ -1046,14 +1097,101 @@
     "videoId": "POD_KGL2aqQ",
     "videoTitle": "遼遼, 初音ミク『仮死化』MV - Kashika",
     "unknownRoleLines": [
-      "■作詞作曲編曲(Words and Music)：遼遼",
       "■映像(Direction & Animation)：higoAkari.",
-      "■ミキシング(Mixing)：浦本雅史",
       "■マスタリング(Mastering)：澤本哲朗",
-      "■歌唱(Vocal)：遼遼, 初音ミク"
+      "■歌唱(Vocal)：遼遼, 初音ミク",
+      "今井文也",
+      "伊東健人",
+      "秋奈",
+      "鷲見友美ジェナ",
+      "Orangestar",
+      "夏背",
+      "夜のロサンゼルス",
+      "ナサガシ",
+      "ジグ",
+      "はるまきごはん",
+      "雄之助",
+      "ハマダコウキ",
+      "澤田空海理",
+      "seeeeecun",
+      "水呑朔",
+      "higoAkari."
     ],
     "unparsedLines": [
       "■コーラス(Chorus)："
+    ]
+  },
+  {
+    "songId": "song_25時の情熱",
+    "songTitle": "25時の情熱",
+    "videoId": "RifILHUOV_w",
+    "videoTitle": "25時の情熱/初音ミク、鏡音リン、鏡音レン、巡音ルカ、MEIKO、KAITO",
+    "unknownRoleLines": [
+      "公式 Info EN Xhttps://x.com/info_kanzaki_EN"
+    ],
+    "unparsedLines": [
+      "Inst→https://piapro.jp/t/Pnzc",
+      "オフィシャルサイト・ファンクラブ：https://kanzakiiori.com/",
+      "カンザキイオリ X：https://twitter.com/kurogaki0311",
+      "Instagram：https://www.instagram.com/kurogaki0311",
+      "TikTok：https://www.tiktok.com/@iori_kanzaki",
+      "Weibo：https://weibo.com/u/7931120484",
+      "bilibili：https://space.bilibili.com/3546701279267079",
+      "公式 Info X：https://twitter.com/info_kanzaki"
+    ]
+  },
+  {
+    "songId": "song_Beyond the way",
+    "songTitle": "Beyond the way",
+    "videoId": "SJcgOWsDwi4",
+    "videoTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "Streaming Link → https://giga.lnk.to/Beyond_the_way",
+      "off vocal → https://www.dropbox.com/scl/fi/a35zl8k7jmqf7b0zxffi9/Beyond-the-way_inst.wav?rlkey=d35dbg9ew8h3ogy9sdgopyc9t&dl=0"
+    ]
+  },
+  {
+    "songId": "song_フィラメントフィーバー",
+    "songTitle": "フィラメントフィーバー",
+    "videoId": "cCjPspdse94",
+    "videoTitle": "フィラメントフィーバー（初音ミク&MEIKO ver）／栗山夕璃",
+    "unknownRoleLines": [
+      "Vocaloid Programming：端倉鑛（Van de Shop）",
+      "Mixed by 松本 義明 (ymg studio) & 栗山夕璃",
+      "Mastered by 藤巻兄将 (Studio MSR) & 栗山夕璃"
+    ],
+    "unparsedLines": [
+      "Twitter：https://twitter.com/KuriyamaYuri88",
+      "Instagram：https://www.instagram.com/gogomasuke/",
+      "TikTok：https://www.tiktok.com/@kuriyamayuri88"
+    ]
+  },
+  {
+    "songId": "song_はぐ",
+    "songTitle": "はぐ",
+    "videoId": "PAwZl3Up-hc",
+    "videoTitle": "『 はぐ 』  /  初音ミク・可不",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "メンバーシップ→https://www.youtube.com/channel/UCam3IAA-nyfxRL8_wDQ35VA/join"
+    ]
+  },
+  {
+    "songId": "song_トワイライトライト",
+    "songTitle": "トワイライトライト",
+    "videoId": "ydb05OX2U7M",
+    "videoTitle": "とあ - トワイライトライト - ft.初音ミク, 鏡音リン ( Toa - Twilight Light -  ft.Hatsune Miku, Kagamine Rin )",
+    "unknownRoleLines": [
+      "■Mixing, Mastering : Yohei Takita",
+      "ーーーーーーーーーーーーーーーーーーーーーーーーー"
+    ],
+    "unparsedLines": [
+      "■X：https://x.com/o0toa0o",
+      "■Niconico：https://www.nicovideo.jp/mylist/36530510",
+      "■YouTube：https://www.youtube.com/user/0toa0oto0",
+      "◆DL / Streaming：https://karent.jp/album/3855",
+      "◆Instrumental / Karaoke : https://piapro.jp/toaoto"
     ]
   },
   {
@@ -1063,26 +1201,23 @@
     "videoTitle": "CR詠ZY / ルカミクグミIAリン",
     "unknownRoleLines": [],
     "unparsedLines": [
-      "X  　https://twitter.com/takenitanzaku_7",
       "梅とら動画尺inst→　https://piapro.jp/t/SlPw",
       "Vivid BAD SQUAD動画尺 inst→　https://piapro.jp/t/gHd8"
     ]
   },
   {
-    "songId": "song_NEO",
-    "songTitle": "NEO",
-    "videoId": "zw0JHV7nrUg",
-    "videoTitle": "3周年アニバーサリーソング『NEO』",
+    "songId": "song_Forward",
+    "songTitle": "Forward",
+    "videoId": "crCS77wqxTI",
+    "videoTitle": "Forward/R Sound Design feat. 初音ミク",
     "unknownRoleLines": [
-      "監督・コンテ・演出：津田",
-      "作画監督：niL / 常温",
-      "仕上げ：さくらっちょ / purokiti / らふしゅんた / s u / Joe / 保坂 里依",
-      "色彩設計・仕上げ検査：studio matomo",
-      "2DBG：あんよ / NZK",
-      "プロップ美術：しまりすゆきち / 津田",
-      "2Dワークス&モーショングラフィックス：合同会社Folium"
+      "詞・曲：R　https://twitter.com/R_SoundDesign"
     ],
-    "unparsedLines": []
+    "unparsedLines": [
+      "offvocal：https://piapro.jp/t/Txs9",
+      "HP：https://r-sd.net",
+      "ディスコグラフィ：https://r-sd.net/discography"
+    ]
   },
   {
     "songId": "song_NEO",
@@ -1092,49 +1227,15 @@
     "unknownRoleLines": [
       "Drum：ゆーまお（ヒトリエ）",
       "Arrangement Assist：緩斗",
-      "Vocaloid EDIT：aqbi、じん",
       "REC Engineer：茨木直樹"
     ],
     "unparsedLines": [
       "ダウンロード/ストリーミングはこちら：https://umj.lnk.to/jin_neoID",
       "ダウンロード／ストリーミングはこちら：https://jin.lnk.to/blue_backPR",
-      "インスト音源はこちら：https://www.dropbox.com/scl/fo/v72jec6bwo8wuhuoh0vz2/h?rlkey=lf9cnjr89imqx31q1vxlly43o&dl=0",
       "じん公式Twitter：https://twitter.com/jin_jin_suruyo",
       "じんスタッフTwitter：https://twitter.com/jin_jin_shitayo",
       "じんオフィシャルサイト：https://jin-jin-suruyo.com/"
     ]
-  },
-  {
-    "songId": "song_天ノ弱",
-    "songTitle": "天ノ弱",
-    "videoId": "0zhop5qsyKY",
-    "videoTitle": "天ノ弱 / Leo/need",
-    "unknownRoleLines": [
-      "絵コンテ：大島 つくも（https://twitter.com/tsukumonomo）"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_帝国少女",
-    "songTitle": "帝国少女",
-    "videoId": "Kv49Wbh1wHg",
-    "videoTitle": "帝国少女 / Vivid BAD SQUAD × 初音ミク",
-    "unknownRoleLines": [
-      "Movic：Lye　https://twitter.com/Lye_xX"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_ウミユリ海底譚",
-    "songTitle": "ウミユリ海底譚",
-    "videoId": "sYKew3uzDtM",
-    "videoTitle": "ウミユリ海底譚 / Leo/need × 初音ミク",
-    "unknownRoleLines": [
-      "Logo & Lyric Designer: DMYM/No.734",
-      "Assistant Manager: Masato Sumihara",
-      "Project Manager: Iori Majima"
-    ],
-    "unparsedLines": []
   },
   {
     "songId": "song_星を繋ぐ",
@@ -1155,12 +1256,14 @@
     ]
   },
   {
-    "songId": "song_夜もすがら君想ふ",
-    "songTitle": "夜もすがら君想ふ",
-    "videoId": "M39eT_tbtjI",
-    "videoTitle": "夜もすがら君想ふ / Leo/need × 鏡音リン",
+    "songId": "song_チームメイト",
+    "songTitle": "チームメイト",
+    "videoId": "QAbwPeAYf_o",
+    "videoTitle": "チームメイト／HoneyWorks feat.初音ミク",
     "unknownRoleLines": [
-      "タイトルロゴ、リリックデザイン :  椎名はる（https://twitter.com/HelloHalHalo）"
+      "作編曲：HoneyWorks",
+      "ピアノ：宇都圭輝",
+      "ドラム：裕木レオン"
     ],
     "unparsedLines": []
   },
@@ -1169,24 +1272,13 @@
     "songTitle": "下剋上",
     "videoId": "akO2mUie1Ds",
     "videoTitle": "Misumi - 下剋上 feat.可不",
-    "unknownRoleLines": [],
+    "unknownRoleLines": [
+      "一昨計算(https://twitter.com/51pichipichi) × 柚璃遥(https://twitter.com/Yuzuri_Hal)"
+    ],
     "unparsedLines": [
       "MV:",
-      "一昨計算(https://twitter.com/51pichipichi) × 柚璃遥(https://twitter.com/Yuzuri_Hal)",
       "inst:https://x.gd/GM0Ry",
-      "streaming/download:https://misumi.lnk.to/gekokuzyou",
-      "lyric:"
-    ]
-  },
-  {
-    "songId": "song_踊れオーケストラ",
-    "songTitle": "踊れオーケストラ",
-    "videoId": "jERIsGLQerY",
-    "videoTitle": "踊れオーケストラ / ワンダーランズ×ショウタイム × 巡音ルカ",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "（https://twitter.com/yosinO_mo）",
-      "（https://twitter.com/usumizu_Q）"
+      "streaming/download:https://misumi.lnk.to/gekokuzyou"
     ]
   },
   {
@@ -1214,34 +1306,100 @@
     ]
   },
   {
-    "songId": "song_からくりピエロ",
-    "songTitle": "からくりピエロ",
-    "videoId": "1Cg4G-rUe68",
-    "videoTitle": "からくりピエロ  / MORE MORE JUMP！ × 初音ミク",
+    "songId": "song_Be The MUSIC!",
+    "songTitle": "Be The MUSIC!",
+    "videoId": "m1I3XWZ4eUs",
+    "videoTitle": "Be The MUSIC!／キノシタ(kinoshita) feat. 初音ミク",
     "unknownRoleLines": [
-      "イラストレーター：手島nari"
+      "☻Vocal：初音ミクさん、鏡音リンさん、鏡音レンさん、巡音ルカさん、MEIKOさん、KAITOさん",
+      "☻Music&Lyrics&illust&Movie：キノシタ",
+      "☻Bass：Keisuke Higashino(https://twitter.com/keisuke_desunen)",
+      "☻MIX&Mastering：madamxx (https://twitter.com/xx_madam_xx)"
     ],
-    "unparsedLines": []
+    "unparsedLines": [
+      "off vocal→https://piapro.jp/t/e-71",
+      "☻twitter→ https://twitter.com/k1n0shita",
+      "☻Instagram→https://www.instagram.com/kinoshita_music",
+      "☻FANBOX→ https://kinoshita.fanbox.cc"
+    ]
   },
   {
-    "songId": "song_ビターチョコデコレーション",
-    "songTitle": "ビターチョコデコレーション",
-    "videoId": "eWBjxT54RQA",
-    "videoTitle": "ビターチョコデコレーション / 25時、ナイトコードで。 × 初音ミク",
+    "songId": "song_Mr. Showtime",
+    "songTitle": "Mr. Showtime",
+    "videoId": "4NhL6mqkMWY",
+    "videoTitle": "【ボカロ6人】Mr. Showtime【オリジナルMV】",
     "unknownRoleLines": [
-      "Original Movie by ヤスタツ"
+      "0:36 「(誤)持て余す精神(ハングリー)」→「（正）持て余すハングリー精神（ハングリー）」",
+      "セカイ版の表記が正しいということになります。この度は皆様の混乱を招き、大変申し訳ございませんでした。",
+      "引き続きご愛好頂けますと幸いです。",
+      "■曲：ひとしずく×やま△",
+      "◽️英語字幕作成者(English translator) : Ahirutama"
     ],
-    "unparsedLines": []
+    "unparsedLines": [
+      "●ひとしずく（Hitoshizuku）：https://twitter.com/samorira9",
+      "●やま△（Yama△）：https://twitter.com/shoma1983",
+      "●鈴ノ助（Suzunosuke）：https://twitter.com/suzu3939",
+      "●とさお：https://twitter.com/anarchylily",
+      "やましずくの館：http://yamashizuku.web.fc2.com"
+    ]
   },
   {
-    "songId": "song_テレキャスタービーボーイ",
-    "songTitle": "テレキャスタービーボーイ",
-    "videoId": "GWylU4wzBvo",
-    "videoTitle": "テレキャスタービーボーイ / ワンダーランズ×ショウタイム × 鏡音レン",
+    "songId": "song_ひつじがいっぴき",
+    "songTitle": "ひつじがいっぴき",
+    "videoId": "4J1O5NA8Nek",
+    "videoTitle": "ひつじがいっぴき/鏡音リン　MV",
     "unknownRoleLines": [
-      "Project Manager: Iori Majima"
+      "■音楽:Peg",
+      "原案:Peg",
+      "美術:ATUHI",
+      "■調声:錦"
     ],
-    "unparsedLines": []
+    "unparsedLines": [
+      "配信: https://nex-tone.link/A00114398",
+      "offvocal:https://drive.google.com/drive/folders/1yXnEz_Qy9WYD8btGyA-QvHe3VeR16Mcs?usp=sharing",
+      "Twitter:https://twitter.com/Peeeeg_444",
+      "Instagram:https://www.instagram.com/peeeeg555",
+      "Twitter:https://twitter.com/atuhina393",
+      "Twitter:https://twitter.com/s_murakumo13",
+      "Twitter:https://twitter.com/nishikikn"
+    ]
+  },
+  {
+    "songId": "song_Flyway",
+    "songTitle": "Flyway",
+    "videoId": "pXLnKaiDeVw",
+    "videoTitle": "halyosy - Flyway ft. 鏡音レン, KAITO [Official Video]",
+    "unknownRoleLines": [
+      "Official music video for “Flyway” by halyosy",
+      "Violin & Viola : 松本一策",
+      "Strings Score Editing & Drums Programming Support : Bach",
+      "Other Instruments : halyosy",
+      "Mixed & Mastered by Meis Clauson",
+      "Background Illustration : halyosy",
+      "Directed & Edited by halyosy & sobomen",
+      "Model Poses : いおり https://twitter.com/DD_IORI ,",
+      "志摩 https://twitter.com/dd_4ma"
+    ],
+    "unparsedLines": [
+      "Listen & Download (サブスク配信) : https://nex-tone.link/A00115344",
+      "セカイver. (Leo/need × 鏡音レン) : https://youtu.be/2GK1B1RshN4",
+      "Instrumental (OffVocal & Video Files) : https://halyosy.com/downloads",
+      "新曲 https://youtu.be/yVMHWv7hKTE",
+      "新曲 https://youtu.be/JLa8FvQf_RA",
+      "halyosy : https://halyosy.com"
+    ]
+  },
+  {
+    "songId": "song_フロート・プランナー",
+    "songTitle": "フロート・プランナー",
+    "videoId": "gtodYcC1nrc",
+    "videoTitle": "『フロート・プランナー』 - Heavenz feat. 鏡音リン＆初音ミク",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "◆INST DATA　https://piapro.jp/Heavenz",
+      "◆KARENT　https://karent.jp/artist/pp000071",
+      "◆Evergreen Leland Studio　https://www.studio-els.tokyo/"
+    ]
   },
   {
     "songId": "song_Iなんです",
@@ -1249,9 +1407,10 @@
     "videoId": "QYpL88jiWFs",
     "videoTitle": "Iなんです - れるりり feat.初音ミク / I am you - rerulili feat.Hatsune Miku",
     "unknownRoleLines": [
-      "ミックス＆マスタリング：かごめP【Twitter】https://twitter.com/kagome_p",
       "英文翻訳：Shu 【Twitter】https://twitter.com/shu_horiike",
-      "Captivated by idolatrous angels"
+      "Captivated by idolatrous angels",
+      "The retribution debate fails to reach an agreement",
+      "Ordinary people's interpretations are very sad"
     ],
     "unparsedLines": [
       "プロセカver.→https://youtu.be/lMXlOPGjwUI",
@@ -1260,36 +1419,25 @@
     ]
   },
   {
-    "songId": "song_愛して愛して愛して",
-    "songTitle": "愛して愛して愛して",
-    "videoId": "YAc_gGGdkEg",
-    "videoTitle": "愛して愛して愛して / 25時、ナイトコードで。 × 初音ミク",
-    "unknownRoleLines": [
-      "movie direction / illustration / composite：さしみやま",
-      "text animation：赤卵"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_ヴァンパイア",
-    "songTitle": "ヴァンパイア",
-    "videoId": "zhBS-b3roHw",
-    "videoTitle": "ヴァンパイア / MORE MORE JUMP！ × 初音ミク",
-    "unknownRoleLines": [
-      "Project Manager: Iori Majima"
-    ],
-    "unparsedLines": []
-  },
-  {
     "songId": "song_トンデモワンダーズ",
     "songTitle": "トンデモワンダーズ",
-    "videoId": "ZfVWqos23xs",
-    "videoTitle": "トンデモワンダーズ / ワンダーランズ×ショウタイム × KAITO",
-    "unknownRoleLines": [
-      "Assistant: Mitsumi Yanokawa",
-      "Project Manager: Iori Majima"
-    ],
-    "unparsedLines": []
+    "videoId": "dBQg24mx45Y",
+    "videoTitle": "『トンデモワンダーズ』feat.初音ミク (+KAITO)  / sasakure.‌UK",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "NEW!!トンデモワンダーズ、小説になりました！！→https://mwbunko.com/blog/news/entry-11422.html",
+      "+サブスク/音楽配信Release!→https://linkco.re/XcpRU7Bm",
+      "→https://sasakuration.booth.pm/items/3527437",
+      "+sasakure.UK Ch.　https://www.youtube.com/c/sasakureUK0211",
+      "+セルフリミックスver→https://www.youtube.com/watch?v=cNJk9tpcL3M",
+      "+feat.エコ (echo) cover→https://www.youtube.com/watch?v=WxRb-4hc_xc",
+      "+プロジェクトセカイ収録ver→https://www.youtube.com/watch?v=vI5xihka9hw",
+      "→https://firestorage.jp/download/3e356187fcdeffbade0e75cacdaf5c6e41cb5cc1",
+      "sasakure.UK    https://twitter.com/sasakure__UK",
+      "echo   https://twitter.com/__7eco",
+      "岸田勇気(有形ランペイジ)  https://twitter.com/yukikishida",
+      "APO+   https://twitter.com/APO_PLUS_"
+    ]
   },
   {
     "songId": "song_イフ",
@@ -1300,19 +1448,45 @@
       "開場 18:00 / 開演 19:00",
       "開場 18:00 /　開演 19:00",
       "開場 18:00　/ 開演 19:00",
-      "■Movie by OTOIRO",
       "Background Artist (背景): No.734",
       "Background Assistant: kee",
-      "Project Manager: Iori Majima",
-      "Mixing & Mastering Engineer：増位淳平"
+      "Mixing & Mastering Engineer：増位淳平",
+      "月詠み Twitter　https://twitter.com/Tsukuyomi_JP",
+      "月詠み official site　https://www.tsukuyomi2943.com/",
+      "小説『だれかの心臓になれたなら』"
     ],
     "unparsedLines": [
       "同時投稿（初音ミクVer）：https://www.nicovideo.jp/watch/sm40435671",
       "⇒https://tsukuyomi.lnk.to/2943_if",
       "Off Vocal⇒https://piapro.jp/t/ZjC7",
-      "⇒https://youtu.be/hdwhxmco6rw",
-      "月詠み Twitter　https://twitter.com/Tsukuyomi_JP",
-      "月詠み official site　https://www.tsukuyomi2943.com/"
+      "⇒https://youtu.be/hdwhxmco6rw"
+    ]
+  },
+  {
+    "songId": "song_Flyer!",
+    "songTitle": "Flyer!",
+    "videoId": "nfpYhYtHuKo",
+    "videoTitle": "Chinozo 'Flyer!' feat.FloweR",
+    "unknownRoleLines": [
+      "■MV：アルセチカ",
+      "Twitter　https://twitter.com/aruseee"
+    ],
+    "unparsedLines": []
+  },
+  {
+    "songId": "song_アイディスマイル",
+    "songTitle": "アイディスマイル",
+    "videoId": "X_6EPkvIAGg",
+    "videoTitle": "とあ - アイディスマイル - ft.初音ミク, 鏡音リン ( Toa - IDSMILE -  ft.Hatsune Miku, Kagamine Rin )",
+    "unknownRoleLines": [
+      "■フランス語字幕：Juliette HARDY, Melody MOUNLASENA"
+    ],
+    "unparsedLines": [
+      "■Twitter：https://twitter.com/o0toa0o",
+      "■Niconico：https://www.nicovideo.jp/mylist/36530510",
+      "■YouTube：https://www.youtube.com/user/0toa0oto0",
+      "→https://karent.jp/album/4141（2024.5.11再開）",
+      "■offvocal : https://piapro.jp/t/0FJz"
     ]
   },
   {
@@ -1328,28 +1502,18 @@
     ]
   },
   {
-    "songId": "song_2周年アニバーサリーソング『Journey』",
-    "songTitle": "2周年アニバーサリーソング『Journey』",
-    "videoId": "m__WcDdaF7k",
-    "videoTitle": "2周年アニバーサリーソング『Journey』",
-    "unknownRoleLines": [
-      "Animation Movie：山下RIRI"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_群青讃歌",
-    "songTitle": "群青讃歌",
-    "videoId": "MxT59XJXMnU",
-    "videoTitle": "1周年アニバーサリーソング『群青讃歌』",
-    "unknownRoleLines": [
-      "監督・コンテ・演出・アニメーションキャラクターデザイン・総作画監督：南方研究所",
-      "作画監督補佐：監物・ケビン・雄太",
-      "動画・仕上げ：TripleA/セブンシーズ/リバイバル",
-      "色指定検査：勝田綾太/山本真希",
-      "2D：益子典子"
-    ],
-    "unparsedLines": []
+    "songId": "song_Journey",
+    "songTitle": "Journey",
+    "videoId": "BTekXS9d-no",
+    "videoTitle": "DECO*27 - Journey feat. 初音ミク",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "Listen & Download: https://karent.jp/album/3284",
+      "Twitter: https://twitter.com/deco27",
+      "音楽 & 動画素材: https://otoiro.co.jp/special/",
+      "LINEスタンプ: https://store.line.me/stickershop/author/2564873",
+      "公式グッズ: https://otoiro.official.ec/"
+    ]
   },
   {
     "songId": "song_群青讃歌",
@@ -1358,6 +1522,7 @@
     "videoTitle": "群青讃歌 - Eve MV",
     "unknownRoleLines": [
       "受付期間：3/29 18:00〜4/5 23:59まで(チケットぴあ)",
+      "※チケットのお申込みには、別途チケットぴあ会員（無料）登録が必要です。",
       "受付期間：2022/4/2 10:00〜",
       "4/8(金)：石川・本多の森ホール",
       "4/17(日)：福岡・北九州ソレイユホール",
@@ -1369,12 +1534,18 @@
       "5/23(月)：兵庫・神戸国際会館こくさいホール",
       "※受付期間：2022/4/18(月)18:00〜4/24(日)23:59",
       "CD収録内容：（全仕様内容共通）",
+      "廻廻奇譚",
+      "蒼のワルツ",
+      "心海",
+      "夜は仄か",
+      "平行線",
+      "遊生夢死",
+      "群青讃歌",
+      "藍才",
       "＊曲順未定 : 他6曲 計14曲収録予定",
       "☑️GOODS [廻人盤（初回限定・特製BOX仕様）]：無限廻段（金属製ZINGAIフィギュア・アクリル製台紙付き）, and more",
       "☑️Blu-ray (初廻盤)：Music Video集",
-      "☑️早期予約Blu-ray (全形態)：Eve LiveFilm Blu-ray「廻廻奇譚 / いのちの食べ方 / ドラマツルギー」",
-      "Lyrics/Music：Eve",
-      "Animation Movie：くっか"
+      "☑️早期予約Blu-ray (全形態)：Eve LiveFilm Blu-ray「廻廻奇譚 / いのちの食べ方 / ドラマツルギー」"
     ],
     "unparsedLines": [
       "同時投稿 (初音ミク ver) ：https://www.nicovideo.jp/watch/sm39411572",
@@ -1388,26 +1559,13 @@
     "videoTitle": "虚ろを扇ぐ / 初音ミク MV",
     "unknownRoleLines": [
       "2022年10月5日（水）0:00",
+      "獅子志司 新曲「隠したボルケーノ」配信リリース",
       "タイトル：獅子志司 1st mini album「揺ら揺ら」",
       "発売日：2022年4月6日（水）",
       "形態：通常盤（本人歌唱 ＋ VOCALOID ver.）",
+      "※ブックレット-「鬣犬新書」「日進月光」Music Video 設定資料付き",
       "価格：【通常盤】¥2,500＋税",
       "品番：【通常盤】REP-059"
-    ],
-    "unparsedLines": [
-      "獅子志司（https://twitter.com/shishi_shishi_4 )",
-      "擬態するメタ（https://twitter.com/MimicryMeta ）",
-      "しまぐち ニケ（https://twitter.com/shimatsuku ）",
-      "Bivi（https://twitter.com/chibiice ）"
-    ]
-  },
-  {
-    "songId": "song_いーあるふぁんくらぶ",
-    "songTitle": "いーあるふぁんくらぶ",
-    "videoId": "gocFWi_8dfI",
-    "videoTitle": "いーあるふぁんくらぶ / ワンダーランズ×ショウタイム × 鏡音リン",
-    "unknownRoleLines": [
-      "Project Manager: Iori Majima"
     ],
     "unparsedLines": []
   },
@@ -1418,13 +1576,9 @@
     "videoTitle": "パラソルサイダー / 初音ミク - ナナホシ管弦楽団",
     "unknownRoleLines": [
       "◆楽曲：ナナホシ管弦楽団/岩見 陸",
-      "◆イラスト・動画：たま 様",
-      "◆タイトルロゴ：BUZZ 様"
+      "・Twitter⇒　https://twitter.com/sosite_iwamikun"
     ],
     "unparsedLines": [
-      "・Twitter⇒　https://twitter.com/sosite_iwamikun",
-      "・Twitter⇒　https://twitter.com/tamak0",
-      "・Twitter⇒　https://twitter.com/BUZ2",
       "⇒　https://www.youtube.com/c/nanakan927",
       "⇒　http://nicovideo.jp/mylist/18955315"
     ]
@@ -1449,7 +1603,6 @@
     "videoTitle": "Awake Now / 雄之助 feat. 初音ミク【Music Video】",
     "unknownRoleLines": [
       "Graphic Design / Logo Design：Reku",
-      "Composition / 3DCG：Nihe",
       "Assistant Animator：kureko"
     ],
     "unparsedLines": [
@@ -1469,7 +1622,6 @@
     "unknownRoleLines": [
       "Director & Main Animator & BG art : はるまきごはん",
       "Director & Collage : イノウエマナ",
-      "Editor : DOMINO",
       "Photographer : 上野留加",
       "Stylist : 大里梨絵",
       "Mask Assistant : 篠倉彩音"
@@ -1484,22 +1636,11 @@
     ]
   },
   {
-    "songId": "song_威風堂々",
-    "songTitle": "威風堂々",
-    "videoId": "I36IQ3cEPAo",
-    "videoTitle": "威風堂々 / Vivid BAD SQUAD × KAITO",
-    "unknownRoleLines": [
-      "Editor : Akito Nakayama(THINGS.)"
-    ],
-    "unparsedLines": []
-  },
-  {
     "songId": "song_88☆彡",
     "songTitle": "88☆彡",
     "videoId": "505rBX9MNcQ",
     "videoTitle": "88☆彡 / まらしぃ × 堀江晶太(kemu)  feat.初音ミク（Hatsune Miku）× KAITO",
     "unknownRoleLines": [
-      "lyrics：まらしぃ",
       "Vocaloid-Edit：びびさん（@bibian0115 ）",
       "Brass Arrange：宮野幸子さん（@studioshangrila ）",
       "Alto Sax：庵原良司さん（@iharaOREBAND ）",
@@ -1518,94 +1659,81 @@
     ]
   },
   {
-    "songId": "song_心予報",
-    "songTitle": "心予報",
-    "videoId": "t5c8D1xbXtw",
-    "videoTitle": "心予報 / MORE MORE JUMP！ × 初音ミク",
+    "songId": "song_メタモリボン",
+    "songTitle": "メタモリボン",
+    "videoId": "PulLO9CgBE0",
+    "videoTitle": "メタモリボン｜鏡音リン",
     "unknownRoleLines": [
-      "Assistant： ぬヴェントス"
+      "キュートにRE:BORN",
+      "マジカルトリックで",
+      "チェインチェインChange！",
+      "モアモア RE:BORN",
+      "それぞれのカラーで"
     ],
-    "unparsedLines": []
+    "unparsedLines": [
+      "⇒https://www.youtube.com/watch?v=0BHY0Gs0ZZM",
+      "inst ⇒https://piapro.jp/t/XOSG",
+      "inst dry⇛https://piapro.jp/t/oxtF",
+      "動画素材 ⇒https://www.dropbox.com/sh/mchmpucmkm5o3br/AADTtqKKkACu76AU5d8VLT6-a?dl=0"
+    ]
   },
   {
     "songId": "song_ニジイロストーリーズ",
     "songTitle": "ニジイロストーリーズ",
-    "videoId": "EIUO-fPrkSo",
-    "videoTitle": "ニジイロストーリーズ / ワンダーランズ×ショウタイム × MEIKO × KAITO",
+    "videoId": "WztzykQSkgM",
+    "videoTitle": "ニジイロストーリーズ (VOCALOID ver.)  - OSTER project",
     "unknownRoleLines": [
-      "(C) Craft Egg Inc. Developed by Colorful Palette"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_サラマンダー",
-    "songTitle": "サラマンダー",
-    "videoId": "babaG-xuBQM",
-    "videoTitle": "サラマンダー / 東雲彰人 & 東雲絵名 × 初音ミク",
-    "unknownRoleLines": [
-      "Art Director: DMYM",
-      "Assistant designer: lowpolydog",
-      "Project Manager: Iori Majima"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_僕らまだアンダーグラウンド",
-    "songTitle": "僕らまだアンダーグラウンド",
-    "videoId": "eb46opRRyLc",
-    "videoTitle": "僕らまだアンダーグラウンド / Leo/need × 初音ミク",
-    "unknownRoleLines": [
-      "Background Painter：NZK"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_徳川カップヌードル禁止令",
-    "songTitle": "徳川カップヌードル禁止令",
-    "videoId": "jPXAgWkqbo4",
-    "videoTitle": "徳川カップヌードル禁止令 / 草薙寧々 & ネネロボ × ミクダヨー & 鏡音レン & KAITO",
-    "unknownRoleLines": [
-      "監督・演出：森井ケンシロウ",
-      "キャラクターデザイン・コンテ：衣谷ソーシ",
-      "撮影監督・エフェクト：大図 佑",
-      "プロデューサー：内海 洋"
+      "Illustration Movie Programming: キクチミロ",
+      "FANBOX　https://osterproject.fanbox.cc/"
     ],
     "unparsedLines": [
-      "作画："
+      "Twitter: https://twitter.com/fuwacina",
+      "Web: http://fuwafuwacinnamon.sakura.ne.jp/",
+      "off vocal　https://commons.nicovideo.jp/material/nc232045"
     ]
   },
   {
-    "songId": "song_乙女解剖",
-    "songTitle": "乙女解剖",
-    "videoId": "JluOv0KD9Wc",
-    "videoTitle": "乙女解剖 / 25時、ナイトコードで。 × 初音ミク",
+    "songId": "song_トリコロージュ",
+    "songTitle": "トリコロージュ",
+    "videoId": "BPh4m2VnfNo",
+    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
     "unknownRoleLines": [
-      "Assistant: 1024, kee",
-      "Designer: yuka fujii",
-      "Project Manager: Iori Majima"
+      "I’m bound by shackles and corruption",
+      "たった一度の光 出会うため",
+      "only to see the light once",
+      "この部屋でずっと忘れた",
+      "A prisoner in this room",
+      "何かを待つ囚人",
+      "waiting for something long forgotten"
     ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_アイデンティティ",
-    "songTitle": "アイデンティティ",
-    "videoId": "YsSShYaKOvk",
-    "videoTitle": "アイデンティティ / 宵崎 奏 × 初音ミク",
-    "unknownRoleLines": [
-      "◆Music：Kanaria"
-    ],
-    "unparsedLines": []
+    "unparsedLines": [
+      "Twitter https://twitter.com/vinegar_vinegar",
+      "Instagram http://bit.ly/2MivZfi",
+      "カンタロ https://twitter.com/_akikan",
+      "火種 https://twitter.com/hidane_nico",
+      "①piapro https://piapro.jp/NebiNevi115",
+      "②ニコニ・コモンズ https://commons.nicovideo.jp/user/2810677"
+    ]
   },
   {
     "songId": "song_ミライ",
     "songTitle": "ミライ",
     "videoId": "zTokBPAXHW4",
     "videoTitle": "ミライ／初音ミク　mirai/hatsune miku",
-    "unknownRoleLines": [
-      "Lyrics/Music/Arrangement：有機酸"
-    ],
+    "unknownRoleLines": [],
     "unparsedLines": [
       "inst：https://piapro.jp/t/EH9Y"
+    ]
+  },
+  {
+    "songId": "song_ワールドワイドワンダー",
+    "songTitle": "ワールドワイドワンダー",
+    "videoId": "6NdOqVypgCM",
+    "videoTitle": "ワールドワイドワンダー feat.初音ミク / TOKOTOKO（西沢さんP）",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "inst→ https://zawaso.com/downloads/inst/www_inst.zip",
+      "→https://youtu.be/aO_ZCaoojh4"
     ]
   },
   {
@@ -1613,16 +1741,43 @@
     "songTitle": "ロウワー",
     "videoId": "3sEptl-psU0",
     "videoTitle": "ぬゆり - ロウワー / Flower : Lower one's eyes",
-    "unknownRoleLines": [
-      "■Illustration : 春私宜",
-      "■Movie : みず希",
-      "■Guitar : いちた",
-      "■Mix : 中村涼真",
-      "■Music / Lyric / Arrangement : ぬゆり"
-    ],
+    "unknownRoleLines": [],
     "unparsedLines": [
       "□Streaming/Download : https://nex-tone.link/A00092382",
       "□inst : https://www.dropbox.com/s/noz7ev3trnllr35/"
+    ]
+  },
+  {
+    "songId": "song_流星のパルス",
+    "songTitle": "流星のパルス",
+    "videoId": "8Zds1FvEtKw",
+    "videoTitle": "【プロセカ】*Luna - 流星のパルス (Pulse of The Meteor) feat.Kagamine Len",
+    "unknownRoleLines": [
+      "“I’m always by your side” “I believe in you”",
+      "“Do you hear me?”"
+    ],
+    "unparsedLines": [
+      "🎧 | https://smarturl.it/Innocent_Luna",
+      "💿 | https://luna-catbird.booth.pm/",
+      "※Discordサーバーを作りました→ https://discord.gg/rqsyfVT",
+      "・https://www.dropbox.com/sh/fvddfjcf28yl6z5/AABDEc5C1RWeQ-SCFycYcOova?dl=0",
+      "Things that change, Things that pass by"
+    ]
+  },
+  {
+    "songId": "song_Glory Steady Go!",
+    "songTitle": "Glory Steady Go!",
+    "videoId": "Y-QhzXC9NbI",
+    "videoTitle": "Glory Steady Go!／キノシタ feat.初音ミク",
+    "unknownRoleLines": [
+      "☻Music&Lyrics&Movie&illust：キノシタ(mylist/56280325)",
+      "0:29、01:53の正しい歌詞は「Hurry! Hurry!」です。お詫びして訂正いたします。"
+    ],
+    "unparsedLines": [
+      "☻twitter→ https://twitter.com/k1n0shita",
+      "☻Instagram→https://www.instagram.com/kinoshita_music",
+      "off vocal→https://piapro.jp/t/qErj",
+      "☻FANBOX→ https://kinoshita.fanbox.cc"
     ]
   },
   {
@@ -1631,9 +1786,7 @@
     "videoId": "EEbWRjavSVw",
     "videoTitle": "シネマ / 初音ミク",
     "unknownRoleLines": [
-      "『シネマ』（難易度：HARD） プレイ動画",
-      "・VOCALS : 初音ミク",
-      "・MUSIC & LYRICS : Ayase"
+      "『シネマ』（難易度：HARD） プレイ動画"
     ],
     "unparsedLines": [
       "Twitter → (@Ayase_0404) https://twitter.com/Ayase_0404",
@@ -1644,24 +1797,68 @@
     ]
   },
   {
-    "songId": "song_Beat Eater",
-    "songTitle": "Beat Eater",
-    "videoId": "DaWbq6KeJq4",
-    "videoTitle": "Beat Eater / Vivid BAD SQUAD × 鏡音レン",
+    "songId": "song_ジャックポットサッドガール",
+    "songTitle": "ジャックポットサッドガール",
+    "videoId": "B2llCEKbxwA",
+    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
     "unknownRoleLines": [
-      "グラフィティアート：ズカ"
+      "東京：Kanadevia Hall",
+      "開場 16:00 / 開演 17:00",
+      "チケット：8,500円（全席指定 / ドリンク代別）",
+      "出演者：syudou / Dannie May / 浪漫派マシュマロ / マヂカルラブリー / オズワルド",
+      "・オフィシャル特別先行2次受付(先着)",
+      "受付期間：9/4(金)23:59まで",
+      "syudou Live Tour 2026-2027「UKA」開催決定！",
+      "2026年11月7日(土)愛知：岡谷鋼機名古屋公会堂 大ホール",
+      "OPEN 17:00 / START 18:00",
+      "2026年12月19日(土)大阪：オリックス劇場",
+      "2027年1月28日(木)東京：Shibuya LOVEZ",
+      "OPEN 17:30 / START 18:30",
+      "チケット料金：8,800円 (全席指定) ※東京公演のみドリンク代別",
+      "「ジャックポットサッドガール」",
+      "________________________________________________________________",
+      "#ジャックポットサッドガール",
+      "#プロセカ",
+      "#syudou"
     ],
-    "unparsedLines": []
+    "unparsedLines": [
+      "曲/syudou(https://twitter.com/tikandame)",
+      "映像/りゅうせー(https://twitter.com/ryuuseee)",
+      "カラオケ http://piapro.jp/syudou",
+      "チケットぴあ：https://w.pia.jp/t/syudou-0923/",
+      "ローソンチケット：https://l-tike.com/syudou-0923/",
+      "イープラス：https://eplus.jp/syudou-0923/",
+      "FANYチケット：https://r.ticket.fany.lol/kakataisyo260923",
+      "Twitter:  　 https://twitter.com/tikandame",
+      "Instagram: https://www.instagram.com/syudou279/?hl=ja",
+      "TikTok:       https://www.tiktok.com/@syudou?",
+      "HP:              https://www.syudou.com"
+    ]
   },
   {
-    "songId": "song_モア！ジャンプ！モア！",
-    "songTitle": "モア！ジャンプ！モア！",
-    "videoId": "vjCfKbwD17c",
-    "videoTitle": "モア！ジャンプ！モア！ / MORE MORE JUMP！ × 初音ミク",
-    "unknownRoleLines": [
-      "(C) Craft Egg Inc. Developed by Colorful Palette"
-    ],
-    "unparsedLines": []
+    "songId": "song_Beat Eater",
+    "songTitle": "Beat Eater",
+    "videoId": "Rcc_BreWEMI",
+    "videoTitle": "Beat Eater - ポリスピカデリー feat. 初音ミク / Police Piccadilly",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "【公式サイト】 https://pjsekai.sega.jp",
+      "【公式Twitter】 https://twitter.com/pj_sekai",
+      "【Vivid BAD SQUAD × 鏡音レンVer.】https://www.youtube.com/watch?v=DaWbq6KeJq4",
+      "Twitter : https://twitter.com/_policep",
+      "Twitter : https://twitter.com/ayaminakazawa",
+      "OffVox : https://www.dropbox.com/s/hspp9zwtcg67wpo/Beat_Eater_OffVox_137BPM.wav?dl=0"
+    ]
+  },
+  {
+    "songId": "song_カナデトモスソラ",
+    "songTitle": "カナデトモスソラ",
+    "videoId": "NY_P9k48pnY",
+    "videoTitle": "ササノマリイ/ねこぼーろ『カナデトモスソラ』MV(ボカロ)",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "LINKFIRE：https://smar.lnk.to/13NElw"
+    ]
   },
   {
     "songId": "song_モア！ジャンプ！モア！",
@@ -1681,14 +1878,63 @@
     "songTitle": "アイノマテリアル",
     "videoId": "YsVmtXmpGEI",
     "videoTitle": "アイノマテリアル / Junky feat.初音ミク,鏡音リン【MV】",
-    "unknownRoleLines": [
-      "■Music＆Lyric：Junky（https://twitter.com/Junky_Box ）",
-      "■Illust：△○□×（https://twitter.com/miwasiba ）",
-      "■Movie：柊メツキ（https://twitter.com/Hiiragi_Metsuki ）",
-      "■Vocal：初音ミク ＆ 鏡音リン"
-    ],
+    "unknownRoleLines": [],
     "unparsedLines": [
       "inst：https://commons.nicovideo.jp/material/nc244612"
+    ]
+  },
+  {
+    "songId": "song_「１」",
+    "songTitle": "「１」",
+    "videoId": "fobQOAOAdoE",
+    "videoTitle": "「１」／164 feat.巡音ルカ",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "宮崎あみさ (https://twitter.com/miyazaki_amisa )",
+      "金丸 紗希 (https://twitter.com/saaakii_o4o5)",
+      "荻山こころ(https://twitter.com/ogiyama_kokoro)",
+      "大﨑 月陽(https://twitter.com/tsukihi__osaki )"
+    ]
+  },
+  {
+    "songId": "song_ワンスアポンアドリーム",
+    "songTitle": "ワンスアポンアドリーム",
+    "videoId": "S84mvlha5Fc",
+    "videoTitle": "ワンスアポンアドリーム YASUHIRO(康寛) feat.鏡音リン",
+    "unknownRoleLines": [],
+    "unparsedLines": [
+      "ワンスアポンアドリーム~INST~➡https://piapro.jp/t/bJSo",
+      "チャンネル  https://www.youtube.com/user/ZARK3235",
+      "TWITTER  https://twitter.com/yasuhiro_vanq",
+      "NICONICO  https://www.nicovideo.jp/user/9078534",
+      "INSTAGRAM  https://www.instagram.com/yasuhiro_vanq",
+      "SOUNDCLOUD  https://soundcloud.com/yasuhiro_vanq"
+    ]
+  },
+  {
+    "songId": "song_RAD DOGS",
+    "songTitle": "RAD DOGS",
+    "videoId": "ikCebevls90",
+    "videoTitle": "八王子P「RAD DOGS feat. 初音ミク・鏡音リン・鏡音レン」",
+    "unknownRoleLines": [
+      "（OffVocalもこちらからDLできます）",
+      "Motion Director: PizaCG　https://twitter.com/Piza_ch",
+      "Motion Actor & Choreographer: 足太ぺんた　https://twitter.com/Asibuto_Penta",
+      "Character Modeling: Sour暄　https://twitter.com/sourxuan939",
+      "Stage: 犬。　https://twitter.com/wanta_4313",
+      "Motion: あひる@anatroccolo　https://twitter.com/anatroccolo_mmd",
+      "Eye: ミコト　https://twitter.com/mico__3510",
+      "Asset \"spray”: KuROE",
+      "通常盤(CD) TFCC-86877 定価:¥2,800 （税抜価格¥2,545）"
+    ],
+    "unparsedLines": [
+      "ニコニコ動画 : https://www.nicovideo.jp/watch/sm40900215",
+      "ご購入・ご予約はこちら：https://TF.lnk.to/HIDEOUT_CD",
+      "Official HP: http://www.hachiojip.net/​",
+      "Twitter: https://twitter.com/8_prince​",
+      "facebook: https://www.facebook.com/hachiojip​",
+      "Instagram: https://www.instagram.com/hachiojip/​",
+      "Subscribe to my YouTube channel: https://goo.gl/AiSqih"
     ]
   },
   {
@@ -1698,44 +1944,8 @@
     "videoTitle": "Orangestar - 霽れを待つ (feat. 初音ミク) Official Video",
     "unknownRoleLines": [],
     "unparsedLines": [
-      "Music - Orangestar (https://twitter.com/MikanseiP)",
-      "Illustration - in (https://twitter.com/in___79)",
-      "Guitar - ルワン (https://twitter.com/L0_1N)",
-      "Guitar - もやし (https://twitter.com/moyasimamire)",
-      "Bass - pino (https://twitter.com/pinomaru09)",
-      "Piano Arrangement - Calkyon (https://www.youtube.com/channel/UCe3sqZW6hEMH8hoOniV1wcg)",
       "inst https://firestorage.jp/download/736afff345b66699b394f35758234a5d92fa9adc"
     ]
-  },
-  {
-    "songId": "song_ステラ",
-    "songTitle": "ステラ",
-    "videoId": "AL6hWKN0WQo",
-    "videoTitle": "ステラ / Leo/need × 初音ミク",
-    "unknownRoleLines": [
-      "(C) Craft Egg Inc. Developed by Colorful Palette"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_ミラクルペイント",
-    "songTitle": "ミラクルペイント",
-    "videoId": "kU4Rth300FM",
-    "videoTitle": "ミラクルペイント / ワンダーランズ×ショウタイム × 初音ミク",
-    "unknownRoleLines": [
-      "(C) Craft Egg Inc. Developed by Colorful Palette"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_携帯恋話",
-    "songTitle": "携帯恋話",
-    "videoId": "kNLyqES4fC8",
-    "videoTitle": "携帯恋話 / 25時、ナイトコードで。 × 初音ミク",
-    "unknownRoleLines": [
-      "(C) Craft Egg Inc. Developed by Colorful Palette"
-    ],
-    "unparsedLines": []
   },
   {
     "songId": "song_携帯恋話",
@@ -1744,181 +1954,13 @@
     "videoTitle": "【MV】携帯恋話／まふまふ",
     "unknownRoleLines": [],
     "unparsedLines": [
-      "絵 茶々ごま https://twitter.com/gura1000be",
-      "映像 MONO-Devoid https://twitter.com/DevoidFire",
       "まふまふ　https://twitter.com/uni_mafumafu",
       "Inst →　https://www.dropbox.com/sh/kjaom6yfwszu5fl/AAA0oFarPRpuDlTDkQ4iugoPa?e=1&st=59sp25d1&dl=0"
     ]
   },
   {
-    "songId": "song_ビバハピ",
-    "songTitle": "ビバハピ",
-    "videoId": "zAkqd6iw-lo",
-    "videoTitle": "ビバハピ / MORE MORE JUMP！ × 初音ミク",
-    "unknownRoleLines": [
-      "(C) Craft Egg Inc. Developed by Colorful Palette"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_Just Be Friends",
-    "songTitle": "Just Be Friends",
-    "videoId": "esaV1kjzg_Q",
-    "videoTitle": "Just Be Friends / バーチャル・シンガーver.（巡音ルカ）",
-    "unknownRoleLines": [
-      "(C) Craft Egg Inc. Developed by Colorful Palette"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_命に嫌われている。",
-    "songTitle": "命に嫌われている。",
-    "videoId": "wNxrGUf6G0A",
-    "videoTitle": "命に嫌われている。 / アナザーver. by 宵崎奏（25時、ナイトコードで。）",
-    "unknownRoleLines": [
-      "(C) Craft Egg Inc. Developed by Colorful Palette"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_命に嫌われている。",
-    "songTitle": "命に嫌われている。",
-    "videoId": "F7iqxHOth58",
-    "videoTitle": "命に嫌われている。 / 25時、ナイトコードで。 × 初音ミク",
-    "unknownRoleLines": [
-      "(C) Craft Egg Inc. Developed by Colorful Palette"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_レム／重音テト × flower",
-    "songTitle": "レム／重音テト × flower",
-    "videoId": "0Ccd0JdqEo4",
-    "videoTitle": "レム／重音テト × flower",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "▽ inst / https://piapro.jp/balloon0120",
-      "X / https://x.com/balloon0120",
-      "Instagram / https://www.instagram.com/balloon0120/",
-      "hp / https://www.tabloid0120.com",
-      "X / https://x.com/avogado6",
-      "hp / https://www.avogado6.com/"
-    ]
-  },
-  {
-    "songId": "song_光 feat. 初音ミク - 水野あつ",
-    "songTitle": "光 feat. 初音ミク - 水野あつ",
-    "videoId": "G9Qs6ljjHVo",
-    "videoTitle": "光 feat. 初音ミク - 水野あつ",
-    "unknownRoleLines": [
-      "Compose: 水野あつ",
-      "Mixing: 林田涼太"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_『オールイン・ワン』- 重音テト × 和田たけあき",
-    "songTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
-    "videoId": "Jf3TxUsgJTU",
-    "videoTitle": "『オールイン・ワン』- 重音テト × 和田たけあき",
-    "unknownRoleLines": [
-      "Lyrics,Music & Arrangement : 和田たけあき",
-      "Character Design & Directer : go-shu",
-      "Animation Producer : TIMTOM"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_星に一番近い場所 feat.鏡音レン, 鏡音リン",
-    "songTitle": "星に一番近い場所 feat.鏡音レン, 鏡音リン",
-    "videoId": "tbeV4Xb3kD8",
-    "videoTitle": "星に一番近い場所 feat.鏡音レン, 鏡音リン / TOKOTOKO（西沢さんP）",
-    "unknownRoleLines": [
-      "E.Guitar: 小林ファンキ風格 https://twitter.com/kfukaku_PARIS"
-    ],
-    "unparsedLines": [
-      "inst→ https://zawaso.com/downloads/inst/hoshichika_inst.zip",
-      "2DMV https://youtu.be/AEc1rxEwFos",
-      "3DMV https://youtu.be/watch?v=-cLPCHK8iy0"
-    ]
-  },
-  {
-    "songId": "song_月詠み『世界の歩き方』Music Video",
-    "songTitle": "月詠み『世界の歩き方』Music Video",
-    "videoId": "csDLDFadvlI",
-    "videoTitle": "月詠み『世界の歩き方』Music Video",
-    "unknownRoleLines": [
-      "開場 18:00 / 開演 19:00",
-      "開場 18:00 /　開演 19:00",
-      "開場 18:00　/ 開演 19:00",
-      "Mixing Engineer : 増井淳平",
-      "Mastering Engineer : 吉良武男（TEMAS）"
-    ],
-    "unparsedLines": [
-      "熊味噌（ https://twitter.com/kumamiso_ ）",
-      "YouTube Official Channel：https://www.youtube.com/@YurryCanon",
-      "X：https://twitter.com/Tsukuyomi_JP",
-      "TikTok：https://www.tiktok.com/@tsukuyomi_project",
-      "instagram：https://www.instagram.com/tsukuyomi2943_jp",
-      "piapro：https://piapro.jp/tsukuyomi_project",
-      "ユリイ・カノンX：https://twitter.com/yurryCanon"
-    ]
-  },
-  {
-    "songId": "song_羽歌",
-    "songTitle": "羽歌",
-    "videoId": "MS1JmGKrdFo",
-    "videoTitle": "初音ミク, 遼遼『羽歌』MV - Soar",
-    "unknownRoleLines": [
-      "■作詞作曲編曲(Words and Music)：遼遼",
-      "■漫画(Comics)：陽風穹",
-      "■映像(Movie)：ﾅﾑﾙ",
-      "■ミキシング(Mixing)：浦本雅史"
-    ],
-    "unparsedLines": []
-  },
-  {
-    "songId": "song_「ドリーマーズビート」40mP feat.初音ミク",
-    "songTitle": "「ドリーマーズビート」40mP feat.初音ミク",
-    "videoId": "FRSfnD3k_ts",
-    "videoTitle": "「ドリーマーズビート」40mP feat.初音ミク",
-    "unknownRoleLines": [
-      "◻︎2026.5.30 0:00 配信スタート",
-      "Lyrics&Music,Arrangement：40mP"
-    ],
-    "unparsedLines": [
-      "ドリーマーズビート / 日野森志歩 × 花里みのり × 白石杏 × 天馬司 × 鏡音リン × 鏡音レン https://www.youtube.com/watch?v=ERyR7P76jT0&feature=youtu.be",
-      "Streaming & Download：https://linkco.re/SSebmEZC",
-      "カラオケ音源→https://drive.google.com/drive/folders/1F1mFi3N6drSRxE6j6CKfQAnWvTCGTm70?usp=sharing",
-      "Official Site：https://www.40mp-official.com",
-      "YouTube： https://www.youtube.com/user/40meterP/featured",
-      "Twitter：https://x.com/40mP"
-    ]
-  },
-  {
-    "songId": "song_Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
-    "songTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
-    "videoId": "69MN_xQnwU0",
-    "videoTitle": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
-    "unknownRoleLines": [
-      "■歌: 鏡音レン・鏡音リン",
-      "■作詞・作曲・編曲：烏屋茶房",
-      "X: @tghgworks_krsy",
-      "■絵：火種",
-      "X: @hidane_nico",
-      "■映像：みやざわえそら",
-      "X: @miyazawano",
-      "Strings & Horn arrangement / Alto Saxophone：わたなべまさや",
-      "Violin ＆ Viola：ゆさ",
-      "■Mix：田本雅浩"
-    ],
-    "unparsedLines": [
-      "■Inst：https://piapro.jp/t/R6xJ"
-    ]
-  },
-  {
-    "songId": "song_【公式】 ネクラチューンサーカス／かいりきベア feat.初音ミク",
-    "songTitle": "【公式】 ネクラチューンサーカス／かいりきベア feat.初音ミク",
+    "songId": "song_ネクラチューンサーカス",
+    "songTitle": "ネクラチューンサーカス",
     "videoId": "nOtWU5MRiTU",
     "videoTitle": "【公式】 ネクラチューンサーカス／かいりきベア feat.初音ミク",
     "unknownRoleLines": [
@@ -1930,38 +1972,13 @@
     ]
   },
   {
-    "songId": "song_透明なパレット feat. 初音ミク",
-    "songTitle": "透明なパレット feat. 初音ミク",
-    "videoId": "Q7k_ZNjZS94",
-    "videoTitle": "透明なパレット feat. 初音ミク / Aqu3ra",
-    "unknownRoleLines": [
-      "music：Aqu3ra"
-    ],
-    "unparsedLines": [
-      "配信,streaming🎨 : https://linkco.re/4vZA3GFS",
-      "offvocal : https://piapro.jp/aqu3rapromo"
-    ]
-  },
-  {
-    "songId": "song_あなたの空が泣くのなら/初音ミク",
-    "songTitle": "あなたの空が泣くのなら/初音ミク",
-    "videoId": "xJYdM-NugcE",
-    "videoTitle": "あなたの空が泣くのなら/初音ミク",
-    "unknownRoleLines": [
-      "イラスト/動画/Live2D：房野聖"
-    ],
-    "unparsedLines": [
-      "off vocal(mix&mastered)https://bit.ly/47qHhFy",
-      "MP3 offvo https://piapro.jp/hsuranus/content_list/all/1"
-    ]
-  },
-  {
     "songId": "song_怪獣になりたい",
     "songTitle": "怪獣になりたい",
     "videoId": "TbakFPc4ZTw",
     "videoTitle": "怪獣になりたい / Sakuzyo feat. 初音ミク 【プロジェクトセカイChampionship 2025】【MV】",
     "unknownRoleLines": [
       "powered by ヴァイスシュヴァルツ",
+      "書き下ろし楽曲",
       "作詞作曲調声: Sakuzyo (https://www.youtube.com/@SakuzyoOfficial)"
     ],
     "unparsedLines": [
@@ -1969,132 +1986,6 @@
       "Spotify: https://open.spotify.com/intl-ja/album/4fb1Sra0CaANa2XmEjoCaE",
       "Apple Music: https://music.apple.com/jp/album/kaijuu-ni-naritai-feat-hatsune-miku-single/1847321034",
       "オフボーカル＋動画： https://drive.google.com/file/d/1uIrB_H9OW6zBeQfEMSSVY8YMpnhierWw/view?usp=sharing"
-    ]
-  },
-  {
-    "songId": "song_【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "songTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "videoId": "JXbb-_ScjSY",
-    "videoTitle": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
-    "unknownRoleLines": [
-      "東京：Kanadevia Hall",
-      "開場 16:00 / 開演 17:00",
-      "チケット：8,500円（全席指定 / ドリンク代別）",
-      "出演者：syudou / Dannie May / 浪漫派マシュマロ / マヂカルラブリー / オズワルド",
-      "期間：8/9(日)23:59まで",
-      "2026年11月7日(土)愛知：岡谷鋼機名古屋公会堂 大ホール",
-      "OPEN 17:00 / START 18:00",
-      "2026年12月19日(土)大阪：オリックス劇場",
-      "2027年1月28日(木)東京：Shibuya LOVEZ",
-      "OPEN 17:30 / START 18:30",
-      "チケット料金：8,800円 (全席指定) ※東京公演のみドリンク代別",
-      "受付期間：8月6日(木)18:00~8/16(日)23:59"
-    ],
-    "unparsedLines": [
-      "配信：https://syudou.lnk.to/pentatonic",
-      "Music/syudou(https://twitter.com/tikandame)",
-      "バルーン(https://twitter.com/balloon0120 )",
-      "Movie/しづ(https://x.com/Dsd_kgn)",
-      "kumamiso(https://x.com/kumamiso_)",
-      "カラオケ/歌詞：https://piapro.jp/syudou",
-      "X：https://twitter.com/tikandame",
-      "Instagram：https://www.instagram.com/syudou279/",
-      "TikTok：https://www.tiktok.com/@syudou",
-      "HP：https://www.syudou.com",
-      "アプリ：https://syudou.com/app/",
-      "X：https://x.com/balloon0120",
-      "Instagram：https://www.instagram.com/balloon0120/",
-      "TikTok：https://www.tiktok.com/@sudakeina_balloon",
-      "HP：https://www.tabloid0120.com",
-      "アプリ：https://c-rayon.com/result/keinasuda/"
-    ]
-  },
-  {
-    "songId": "song_アクセラレイト - 初音ミク[吉田夜世]",
-    "songTitle": "アクセラレイト - 初音ミク[吉田夜世]",
-    "videoId": "qkAKmANIHDs",
-    "videoTitle": "アクセラレイト - 初音ミク[吉田夜世]",
-    "unknownRoleLines": [
-      "曲,詞,Mix,Mastering：吉田夜世",
-      "動画,背景絵：藤墅。"
-    ],
-    "unparsedLines": [
-      "X(旧Twitter) → https://x.com/otgys",
-      "X(旧Twitter) → https://x.com/sisikemo123",
-      "X(旧Twitter) → https://x.com/04_fujino9"
-    ]
-  },
-  {
-    "songId": "song_ぼくのかみさま",
-    "songTitle": "ぼくのかみさま",
-    "videoId": "nP3Lv7CfCFs",
-    "videoTitle": "ぼくのかみさま / flower",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "X   /  https://x.com/maigo_hanyuu",
-      "TikTok   /  https://www.tiktok.com/@maigo_hanyuu"
-    ]
-  },
-  {
-    "songId": "song_その音が鳴るなら／歌、初音ミク",
-    "songTitle": "その音が鳴るなら／歌、初音ミク",
-    "videoId": "JoNrFLnxwpQ",
-    "videoTitle": "その音が鳴るなら／歌、初音ミク",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "Xアカウント　https://x.com/ishi_furo",
-      "Xアカウント　https://x.com/kanaboonmasami",
-      "Xアカウント　https://x.com/chikuika",
-      "オフボーカル音源→https://piapro.jp/t/WR_B"
-    ]
-  },
-  {
-    "songId": "song_Worlders feat. 初音ミク",
-    "songTitle": "Worlders feat. 初音ミク",
-    "videoId": "UoptEaMrnok",
-    "videoTitle": "Worlders feat. 初音ミク / じん【Official MV】",
-    "unknownRoleLines": [
-      "Vocaloid Edit : aqbi"
-    ],
-    "unparsedLines": [
-      "ダウンロード/ストリーミングはこちら：https://jin.lnk.to/blue_backPR",
-      "インスト音源はこちら：https://www.dropbox.com/scl/fo/n479bmiobyly924jfhiud/AN_WxJYEVZlOgMoAIDIyYm4?rlkey=34r9sws6y527jf0o0sjzficg2&st=yjk1cqrc&dl=0",
-      "ダウンロード/ストリーミングはこちら：https://Jin.lnk.to/worlders_bbvID",
-      "じん公式X：https://twitter.com/jin_jin_suruyo",
-      "じんスタッフ公式X： https://twitter.com/Jin_jin_shitayo",
-      "じんオフィシャルサイト：https://jin-jin-suruyo.com/"
-    ]
-  },
-  {
-    "songId": "song_\"はじまりの未来\" feat.初音ミク/40mP×sasakure.‌UK",
-    "songTitle": "\"はじまりの未来\" feat.初音ミク/40mP×sasakure.‌UK",
-    "videoId": "0E6sIrnXFe4",
-    "videoTitle": "\"はじまりの未来(Ergo ver)\" feat.初音ミク/40mP×sasakure.‌UK",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "+サブスク楽曲配信→https://linkco.re/DbvfNVN5",
-      "+映画ver→https://www.youtube.com/watch?v=mxj3mW4jf7Q",
-      "40mP    https://x.com/40mP",
-      "sasakure.UK    https://x.com/sasakure__uk",
-      "宝丼    https://x.com/TreasureBooru",
-      "ととりか    https://x.com/t_totorika",
-      "みやざわえそら    https://x.com/miyazawano",
-      "二家本亮介(有形ランペイジ)    https://x.com/chan_nika116",
-      "岸田勇気(有形ランペイジ)    https://x.com/yukikishida",
-      "[TEST]  https://x.com/hiroki_test"
-    ]
-  },
-  {
-    "songId": "song_はしる! とおく! とどく! - 薄塩指数 feat. 重音テトSV",
-    "songTitle": "はしる! とおく! とどく! - 薄塩指数 feat. 重音テトSV",
-    "videoId": "b6ndcYxpX24",
-    "videoTitle": "はしる! とおく! とどく! - 薄塩指数 feat. 重音テトSV / Hashiru! Tooku! Todoku!",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "Streaming https://karent.jp/album/4508",
-      "Karaoke https://drive.google.com/drive/folders/1qJsVo0vfsbEWLxbreY3s-XcdPs42FcmM?usp=sharing",
-      "楽曲利用ガイドライン https://note.com/usushioshisuu/n/n4a765d6efe2d",
-      "詞曲 薄塩指数 https://linktr.ee/usushioshisuu"
     ]
   },
   {
@@ -2110,7 +2001,6 @@
     ],
     "unparsedLines": [
       "Inst(インストゥルメンタル音源/カラオケ): https://piapro.jp/t/abKz",
-      "歌詞：",
       "■ https://linktr.ee/cametek",
       "■ http://cametek.jp",
       "■ https://twitter.com/cametek",
@@ -2122,26 +2012,12 @@
     ]
   },
   {
-    "songId": "song_Giga & TeddyLoid - ULTRA C ft.Rin・Len【MV】",
-    "songTitle": "Giga & TeddyLoid - ULTRA C ft.Rin・Len【MV】",
-    "videoId": "KF9Mu2gXNdI",
-    "videoTitle": "Giga & TeddyLoid - ULTRA C ft.Rin・Len【MV】",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "Streaming Link → https://linkco.re/tashfR8U",
-      "Giga https://x.com/GigaMozuku",
-      "お菊 https://x.com/__Lizel",
-      "off vocal → https://www.dropbox.com/scl/fi/oofd69xxqqk1jy6hvm6bu/ULTRA-C_inst.wav?rlkey=7qrou68oetxzto2nsg4r41wqh&st=nsg5n9oz&dl=0"
-    ]
-  },
-  {
     "songId": "song_夏夜ノ唄",
     "songTitle": "夏夜ノ唄",
     "videoId": "D4FWxIn3sHU",
     "videoTitle": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
     "unknownRoleLines": [
-      "Artwork : Pasoputi",
-      "Edit / Music : Yoshihisa Hirata"
+      "Artwork : Pasoputi"
     ],
     "unparsedLines": [
       "Off Vocal - https://drive.google.com/drive/folders/1J91Io8tnaubgDNpCLY3wQnIT5B-09Pkd?usp=drive_link",
@@ -2149,55 +2025,25 @@
     ]
   },
   {
-    "songId": "song_ワンオポ - 成敗いたAAAAAす！ft.鏡音レンリン【MV】",
-    "songTitle": "ワンオポ - 成敗いたAAAAAす！ft.鏡音レンリン【MV】",
-    "videoId": "_J5W4Vdlbto",
-    "videoTitle": "ワンオポ - 成敗いたAAAAAす！ft.鏡音レンリン【MV】",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "3DMV → https://www.youtube.com/watch?v=rnoxaVMRB9s",
-      "2DMV → https://www.youtube.com/watch?v=w0lpuKNZRQ0",
-      "KARENT → https://karent.jp/album/4247",
-      "FULL → https://piapro.jp/t/AzrW",
-      "SHORT → https://piapro.jp/t/LMUp",
-      "▽We are looking for translators → https://bit.ly/3kp9hj5"
-    ]
-  },
-  {
-    "songId": "song_ササノマリイ/ねこぼーろ『カナデトモスソラ』MV",
-    "songTitle": "ササノマリイ/ねこぼーろ『カナデトモスソラ』MV",
-    "videoId": "NY_P9k48pnY",
-    "videoTitle": "ササノマリイ/ねこぼーろ『カナデトモスソラ』MV(ボカロ)",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "LINKFIRE：https://smar.lnk.to/13NElw"
-    ]
-  },
-  {
     "songId": "song_LEADER",
     "songTitle": "LEADER",
     "videoId": "uaGq_H22Ok4",
     "videoTitle": "LEADER / 香椎モイミ feat. KAITO",
-    "unknownRoleLines": [
-      "Lyric design：柊綴"
-    ],
+    "unknownRoleLines": [],
     "unparsedLines": [
       "inst https://drive.google.com/drive/folders/1l-0j5A42pxsTjzrrou4fcG2o1H6Bd9-K?usp=sharing"
     ]
   },
   {
-    "songId": "song_瀬名航 - ショウタイム×オーディエンス feat.初音ミク",
-    "songTitle": "瀬名航 - ショウタイム×オーディエンス feat.初音ミク",
+    "songId": "song_ショウタイム×オーディエンス",
+    "songTitle": "ショウタイム×オーディエンス",
     "videoId": "yz0pg4pNzQY",
     "videoTitle": "瀬名航 - ショウタイム×オーディエンス feat.初音ミク / Wataru Sena - Showtime×Audience ft.Miku Hatsune",
-    "unknownRoleLines": [
-      "作詞/作曲/編曲：瀬名航 https://twitter.com/wataru_sena"
-    ],
+    "unknownRoleLines": [],
     "unparsedLines": [
       "DL / Streaming：https://linkco.re/Q4GeatCy",
       "Off Vocal：https://piapro.jp/t/AMcm",
-      "ニコニコ動画：https://www.nicovideo.jp/watch/sm43061454",
-      "歌詞："
+      "ニコニコ動画：https://www.nicovideo.jp/watch/sm43061454"
     ]
   },
   {
@@ -2207,10 +2053,6 @@
     "videoTitle": "八王子P「嬢王 feat. 初音ミク」（プロジェクトセカイ 3周年記念 高難易度書き下ろし楽曲）",
     "unknownRoleLines": [],
     "unparsedLines": [
-      "八王子P  https://twitter.com/8_Prince",
-      "q*Left　https://twitter.com/q_Left",
-      "shyuuya　https://twitter.com/shuuya54",
-      "daichi　https://twitter.com/daichi59864483",
       "Official HP: http://www.hachiojip.net/​",
       "Twitter: https://twitter.com/8_prince​",
       "facebook: https://www.facebook.com/hachiojip​",
@@ -2219,8 +2061,8 @@
     ]
   },
   {
-    "songId": "song_picco - ときめきジェットコースター feat.初音ミク",
-    "songTitle": "picco - ときめきジェットコースター feat.初音ミク",
+    "songId": "song_ときめきジェットコースター",
+    "songTitle": "ときめきジェットコースター",
     "videoId": "4T2vDDY6qNw",
     "videoTitle": "picco - ときめきジェットコースター feat.初音ミク ( MORE MORE JUMP! )",
     "unknownRoleLines": [
@@ -2235,7 +2077,6 @@
     "videoId": "5m6TyoB2mV8",
     "videoTitle": "the WALL / buzzG feat.初音ミク",
     "unknownRoleLines": [
-      "Music / Lyrics : buzzG",
       "All other instrument / Programming : buzzG",
       "Story board / Character design / Direction / Animation : 津田",
       "Video edit / Composite : みやざわえそら, o2bo"
@@ -2258,117 +2099,6 @@
     ]
   },
   {
-    "songId": "song_blender/初音ミク&MEIKO",
-    "songTitle": "blender/初音ミク&MEIKO",
-    "videoId": "SjSlCJG4CxU",
-    "videoTitle": "blender/初音ミク&MEIKO",
-    "unknownRoleLines": [
-      "MV：逢編いあむ https://twitter.com/iamuu_n",
-      "Vocal edit：びび https://twitter.com/bibian0115"
-    ],
-    "unparsedLines": [
-      "offvocal：https://www.dropbox.com/scl/fo/trj7c674i5320zjwc807f/ANVqNEckJN1b_p6dkxHlHpA?rlkey=jj3zmnp1gf8jqidy0apdj1dyn&st=wlqm2su5&dl=0"
-    ]
-  },
-  {
-    "songId": "song_世界を照らすテトラッド／OSTER project",
-    "songTitle": "世界を照らすテトラッド／OSTER project",
-    "videoId": "R0DWNySEhcc",
-    "videoTitle": "世界を照らすテトラッド (Vocaloid ver.)／OSTER project",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "OSTER project Music 再生リスト https://www.youtube.com/playlist?list=PLVNCicu_Rn51dQIS1yHo6eKbTDl2arqHw",
-      "off vocal ver.  https://commons.nicovideo.jp/works/nc350541",
-      "ワンダーランズ×ショウタイム ver. https://www.youtube.com/watch?v=RmHiTOqfJP8",
-      "music / lyrics　OSTER project　https://twitter.com/fuwacina",
-      "Illustration　ぶーた https://twitter.com/booota",
-      "Movie Programming　ヒロサキ https://twitter.com/hirosaking",
-      "Guitar　シンナイコウジ　https://twitter.com/koji_onsensuki",
-      "Bass　沖井 礼二　https://twitter.com/okiireiji",
-      "Drums　ゆーまお（ヒトリエ）　https://twitter.com/_Yumao_",
-      "Alto Sax/Tenor Sax　井上 泰久　https://twitter.com/yas5_jaz2",
-      "Web: http://fuwafuwacinnamon.sakura.ne.jp/",
-      "FANBOX　https://www.pixiv.net/fanbox/creator/10781789"
-    ]
-  },
-  {
-    "songId": "song_JUMPIN' OVER !",
-    "songTitle": "JUMPIN' OVER !",
-    "videoId": "P2KRg60WPvE",
-    "videoTitle": "JUMPIN' OVER ! / 初音ミク",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "artwork / torishima  https://twitter.com/oshiritorishima",
-      "mastering / 中村涼真  https://www.ryomanakamura.com/",
-      "music / r-906  https://twitter.com/arukuremu"
-    ]
-  },
-  {
-    "songId": "song_【プロセカ】*Luna - インテグラルfeat.初音ミク",
-    "songTitle": "【プロセカ】*Luna - インテグラルfeat.初音ミク",
-    "videoId": "gjLYd3iyPKM",
-    "videoTitle": "【プロセカ】*Luna - インテグラル (Integral) feat.初音ミク",
-    "unknownRoleLines": [
-      "- Vo-Edit：びび"
-    ],
-    "unparsedLines": [
-      "🎵New Single 「インテグラル」→ https://lnkfi.re/integraluna",
-      "※Discordサーバーを作りました→ https://discord.gg/rqsyfVT",
-      "・https://www.dropbox.com/sh/fvddfjcf28yl6z5/AABDEc5C1RWeQ-SCFycYcOova?dl=0"
-    ]
-  },
-  {
-    "songId": "song_サイバーパンクデッドボーイ feat. 初音ミク【ボカロオリジナル曲】マイキP",
-    "songTitle": "サイバーパンクデッドボーイ feat. 初音ミク【ボカロオリジナル曲】マイキP",
-    "videoId": "5HPJ7eUvU4o",
-    "videoTitle": "サイバーパンクデッドボーイ feat. 初音ミク【ボカロオリジナル曲】マイキP",
-    "unknownRoleLines": [
-      "OPEN 18:00 / START 19:00",
-      "作詞.作曲.編曲.映像：マイキP"
-    ],
-    "unparsedLines": [
-      "off vocal→https://www.youtube.com/watch?v=WIpUtakIfHQ",
-      "off vocal (＋5key) →https://www.youtube.com/watch?v=ft0jQ9QqyC4",
-      "off vocal(＋9key) →https://www.youtube.com/watch?v=iecdpal7Ksk",
-      "本家：https://www.youtube.com/watch?v=TxOA6VGGxgU",
-      "ボカロver：https://www.youtube.com/watch?v=5HPJ7eUvU4o",
-      "English ver：https://www.youtube.com/watch?v=On1FKTdPiVs",
-      "セルフカバー：https://www.youtube.com/watch?v=vk9vWRG3snk",
-      "Twitter：https://twitter.com/maikidrum",
-      "Instagram：https://www.instagram.com/maikidrum/?...",
-      "TikTok：https://www.tiktok.com/@maikidrum"
-    ]
-  },
-  {
-    "songId": "song_25時の情熱/初音ミク、鏡音リン、鏡音レン、巡音ルカ、MEIKO、KAITO",
-    "songTitle": "25時の情熱/初音ミク、鏡音リン、鏡音レン、巡音ルカ、MEIKO、KAITO",
-    "videoId": "RifILHUOV_w",
-    "videoTitle": "25時の情熱/初音ミク、鏡音リン、鏡音レン、巡音ルカ、MEIKO、KAITO",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "Inst→https://piapro.jp/t/Pnzc",
-      "オフィシャルサイト・ファンクラブ：https://kanzakiiori.com/",
-      "カンザキイオリ X：https://twitter.com/kurogaki0311",
-      "Instagram：https://www.instagram.com/kurogaki0311",
-      "TikTok：https://www.tiktok.com/@iori_kanzaki",
-      "Weibo：https://weibo.com/u/7931120484",
-      "bilibili：https://space.bilibili.com/3546701279267079",
-      "公式 Info X：https://twitter.com/info_kanzaki",
-      "公式 Info EN Xhttps://x.com/info_kanzaki_EN"
-    ]
-  },
-  {
-    "songId": "song_Giga - Beyond the way ft.Miku・Rin・Len【MV】",
-    "songTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
-    "videoId": "SJcgOWsDwi4",
-    "videoTitle": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "Streaming Link → https://giga.lnk.to/Beyond_the_way",
-      "off vocal → https://www.dropbox.com/scl/fi/a35zl8k7jmqf7b0zxffi9/Beyond-the-way_inst.wav?rlkey=d35dbg9ew8h3ogy9sdgopyc9t&dl=0"
-    ]
-  },
-  {
     "songId": "song_Unpoison",
     "songTitle": "Unpoison",
     "videoId": "qmI33kyMeTg",
@@ -2385,53 +2115,13 @@
     ]
   },
   {
-    "songId": "song_フィラメントフィーバー（初音ミク&MEIKO ver）／栗山夕璃",
-    "songTitle": "フィラメントフィーバー（初音ミク&MEIKO ver）／栗山夕璃",
-    "videoId": "cCjPspdse94",
-    "videoTitle": "フィラメントフィーバー（初音ミク&MEIKO ver）／栗山夕璃",
-    "unknownRoleLines": [
-      "Music & Arrangement：栗山夕璃",
-      "Clarinet：石井裕太",
-      "Vocaloid Programming：端倉鑛（Van de Shop）",
-      "Mixed by 松本 義明 (ymg studio) & 栗山夕璃",
-      "Mastered by 藤巻兄将 (Studio MSR) & 栗山夕璃"
-    ],
-    "unparsedLines": [
-      "Twitter：https://twitter.com/KuriyamaYuri88",
-      "Instagram：https://www.instagram.com/gogomasuke/",
-      "TikTok：https://www.tiktok.com/@kuriyamayuri88"
-    ]
-  },
-  {
-    "songId": "song_とあ - トワイライトライト - ft.初音ミク, 鏡音リン",
-    "songTitle": "とあ - トワイライトライト - ft.初音ミク, 鏡音リン",
-    "videoId": "ydb05OX2U7M",
-    "videoTitle": "とあ - トワイライトライト - ft.初音ミク, 鏡音リン ( Toa - Twilight Light -  ft.Hatsune Miku, Kagamine Rin )",
-    "unknownRoleLines": [
-      "- Words,Music,Arrangement：とあ -",
-      "■Vocal : Hatsune Miku, Kagamine Rin",
-      "■Lyrics, Music, Arrangement : Toa",
-      "■Illustration : Satoshi Bouno",
-      "■Mixing, Mastering : Yohei Takita"
-    ],
-    "unparsedLines": [
-      "■X：https://x.com/o0toa0o",
-      "■Niconico：https://www.nicovideo.jp/mylist/36530510",
-      "■YouTube：https://www.youtube.com/user/0toa0oto0",
-      "◆DL / Streaming：https://karent.jp/album/3855",
-      "◆Instrumental / Karaoke : https://piapro.jp/toaoto"
-    ]
-  },
-  {
-    "songId": "song_MEIKO『ARQETYPE』",
-    "songTitle": "MEIKO『ARQETYPE』",
+    "songId": "song_ARQETYPE",
+    "songTitle": "ARQETYPE",
     "videoId": "C5ElSU1EdZk",
     "videoTitle": "MEIKO『ARQETYPE』",
     "unknownRoleLines": [
       "archetype(名)：原型。典型。",
-      "■Music : Sohbana",
-      "■Illustration : 中村真綿",
-      "■Movie : 演繹",
+      "『プロジェクトセカイ カラフルステージ！ feat. 初音ミク』収録楽曲です。",
       "□stream :ユニットイメージアルバム「セカイノオト vol.1」"
     ],
     "unparsedLines": [
@@ -2439,8 +2129,8 @@
     ]
   },
   {
-    "songId": "song_Un-Lock feat. 巡音ルカ",
-    "songTitle": "Un-Lock feat. 巡音ルカ",
+    "songId": "song_Un-Lock",
+    "songTitle": "Un-Lock",
     "videoId": "cdw_2hCSYys",
     "videoTitle": "Un-Lock feat. 巡音ルカ (MEGURINE LUKA) / MuryokuP",
     "unknownRoleLines": [
@@ -2453,25 +2143,12 @@
     "unparsedLines": []
   },
   {
-    "songId": "song_『 はぐ 』",
-    "songTitle": "『 はぐ 』",
-    "videoId": "PAwZl3Up-hc",
-    "videoTitle": "『 はぐ 』  /  初音ミク・可不",
-    "unknownRoleLines": [
-      "mix, mastering : はるお @haluo_haluo"
-    ],
-    "unparsedLines": [
-      "メンバーシップ→https://www.youtube.com/channel/UCam3IAA-nyfxRL8_wDQ35VA/join"
-    ]
-  },
-  {
-    "songId": "song_halyosy - アイムマイン ft. VOCALOIDS [Official Video]",
-    "songTitle": "halyosy - アイムマイン ft. VOCALOIDS [Official Video]",
+    "songId": "song_アイムマイン",
+    "songTitle": "アイムマイン",
     "videoId": "yVMHWv7hKTE",
     "videoTitle": "halyosy - アイムマイン ft. VOCALOIDS [Official Video]",
     "unknownRoleLines": [
       "Official music video for “アイムマイン” by halyosy",
-      "Lyrics, Music & Arrangement : halyosy",
       "Guitar, Guitar Arrangement & Chord Editing : Rio.T",
       "Bass & Bass Arrangement : drm",
       "Violin & Viola : 松本一策",
@@ -2504,7 +2181,6 @@
     "videoId": "ZynP9ajVfuI",
     "videoTitle": "幽光、1/fのゆらめき / 卯花ロク ft.初音ミク",
     "unknownRoleLines": [
-      "■イラスト：房野聖",
       "■曲：卯花ロク"
     ],
     "unparsedLines": [
@@ -2513,18 +2189,6 @@
       "twitter：https://twitter.com/ukaroku",
       "off vocal：https://piapro.jp/t/naBs"
     ]
-  },
-  {
-    "songId": "song_チームメイト／HoneyWorks feat.初音ミク",
-    "songTitle": "チームメイト／HoneyWorks feat.初音ミク",
-    "videoId": "QAbwPeAYf_o",
-    "videoTitle": "チームメイト／HoneyWorks feat.初音ミク",
-    "unknownRoleLines": [
-      "作編曲：HoneyWorks",
-      "ピアノ：宇都圭輝",
-      "ドラム：裕木レオン"
-    ],
-    "unparsedLines": []
   },
   {
     "songId": "song_箱庭のコラル",
@@ -2537,102 +2201,8 @@
     "unparsedLines": []
   },
   {
-    "songId": "song_Be The MUSIC!／キノシタfeat. 初音ミク",
-    "songTitle": "Be The MUSIC!／キノシタfeat. 初音ミク",
-    "videoId": "m1I3XWZ4eUs",
-    "videoTitle": "Be The MUSIC!／キノシタ(kinoshita) feat. 初音ミク",
-    "unknownRoleLines": [
-      "☻Vocal：初音ミクさん、鏡音リンさん、鏡音レンさん、巡音ルカさん、MEIKOさん、KAITOさん",
-      "☻Music&Lyrics&illust&Movie：キノシタ",
-      "☻Bass：Keisuke Higashino(https://twitter.com/keisuke_desunen)",
-      "☻MIX&Mastering：madamxx (https://twitter.com/xx_madam_xx)"
-    ],
-    "unparsedLines": [
-      "off vocal→https://piapro.jp/t/e-71",
-      "☻twitter→ https://twitter.com/k1n0shita",
-      "☻Instagram→https://www.instagram.com/kinoshita_music",
-      "☻FANBOX→ https://kinoshita.fanbox.cc",
-      "(https://youtu.be/mZI9HEVh6Yw)",
-      "(C) Crypton Future Media, INC. http://piapro.net"
-    ]
-  },
-  {
-    "songId": "song_【ボカロ6人】Mr. Showtime【オリジナルMV】",
-    "songTitle": "【ボカロ6人】Mr. Showtime【オリジナルMV】",
-    "videoId": "4NhL6mqkMWY",
-    "videoTitle": "【ボカロ6人】Mr. Showtime【オリジナルMV】",
-    "unknownRoleLines": [
-      "0:36 「(誤)持て余す精神(ハングリー)」→「（正）持て余すハングリー精神（ハングリー）」",
-      "■曲：ひとしずく×やま△",
-      "■絵：鈴ノ助",
-      "■動画：とさお",
-      "◽️英語字幕作成者(English translator) : Ahirutama"
-    ],
-    "unparsedLines": [
-      "●ひとしずく（Hitoshizuku）：https://twitter.com/samorira9",
-      "●やま△（Yama△）：https://twitter.com/shoma1983",
-      "●鈴ノ助（Suzunosuke）：https://twitter.com/suzu3939",
-      "●とさお：https://twitter.com/anarchylily",
-      "やましずくの館：http://yamashizuku.web.fc2.com"
-    ]
-  },
-  {
-    "songId": "song_『フロート・プランナー』 - Heavenz feat. 鏡音リン＆初音ミク",
-    "songTitle": "『フロート・プランナー』 - Heavenz feat. 鏡音リン＆初音ミク",
-    "videoId": "gtodYcC1nrc",
-    "videoTitle": "『フロート・プランナー』 - Heavenz feat. 鏡音リン＆初音ミク",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "Heavenz　https://twitter.com/HeavenzP",
-      "与作。　https://twitter.com/yosakuh",
-      "みさわさくら　https://twitter.com/nua_ms",
-      "◆INST DATA　https://piapro.jp/Heavenz",
-      "◆KARENT　https://karent.jp/artist/pp000071",
-      "◆Evergreen Leland Studio　https://www.studio-els.tokyo/"
-    ]
-  },
-  {
-    "songId": "song_DECO*27 - Journey feat. 初音ミク",
-    "songTitle": "DECO*27 - Journey feat. 初音ミク",
-    "videoId": "BTekXS9d-no",
-    "videoTitle": "DECO*27 - Journey feat. 初音ミク",
-    "unknownRoleLines": [
-      "Director & Designer: yuka fujii",
-      "Project Manager: Iori Majima"
-    ],
-    "unparsedLines": [
-      "Listen & Download: https://karent.jp/album/3284",
-      "Twitter: https://twitter.com/deco27",
-      "音楽 & 動画素材: https://otoiro.co.jp/special/",
-      "LINEスタンプ: https://store.line.me/stickershop/author/2564873",
-      "公式グッズ: https://otoiro.official.ec/"
-    ]
-  },
-  {
-    "songId": "song_ひつじがいっぴき/鏡音リン　MV",
-    "songTitle": "ひつじがいっぴき/鏡音リン　MV",
-    "videoId": "4J1O5NA8Nek",
-    "videoTitle": "ひつじがいっぴき/鏡音リン　MV",
-    "unknownRoleLines": [
-      "■音楽:Peg",
-      "■映像:スタジオ猿芝居",
-      "原案:Peg",
-      "美術:ATUHI",
-      "■調声:錦"
-    ],
-    "unparsedLines": [
-      "配信: https://nex-tone.link/A00114398",
-      "offvocal:https://drive.google.com/drive/folders/1yXnEz_Qy9WYD8btGyA-QvHe3VeR16Mcs?usp=sharing",
-      "Twitter:https://twitter.com/Peeeeg_444",
-      "Instagram:https://www.instagram.com/peeeeg555",
-      "Twitter:https://twitter.com/atuhina393",
-      "Twitter:https://twitter.com/s_murakumo13",
-      "Twitter:https://twitter.com/nishikikn"
-    ]
-  },
-  {
-    "songId": "song_「君の夜をくれ feat.初音ミク＆巡音ルカ」",
-    "songTitle": "「君の夜をくれ feat.初音ミク＆巡音ルカ」",
+    "songId": "song_君の夜をくれ",
+    "songTitle": "君の夜をくれ",
     "videoId": "fwb4qCw5Q1I",
     "videoTitle": "「君の夜をくれ feat.初音ミク＆巡音ルカ (Lyric Video)」",
     "unknownRoleLines": [
@@ -2651,13 +2221,17 @@
     ]
   },
   {
-    "songId": "song_Guiano - 私は、私達は",
-    "songTitle": "Guiano - 私は、私達は",
+    "songId": "song_私は、私達は",
+    "songTitle": "私は、私達は",
     "videoId": "I9VfWCyCagQ",
     "videoTitle": "Guiano - 私は、私達は (feat.可不)",
     "unknownRoleLines": [
-      "【受付期間】4月1日(水) 12:00 ～ 4月19日(日) 23:59",
-      "【受付期間】4/25(土) 12:00 ～ 5/10(日) 23:59"
+      "GUEST: みゆな",
+      "GUEST: 笹川真生",
+      "GUEST: NakamuraEmi",
+      "GUEST: 眞名子 新",
+      "GUEST: カンザキイオリ",
+      "━━━━━━━━━━━━━━━━━━━━━━━━━"
     ],
     "unparsedLines": [
       "twitter: https://twitter.com/GuiAnoDayo",
@@ -2666,8 +2240,11 @@
       "works: https://omutatsu.work/",
       "Streaming / Download: https://guiano.lnk.to/watashiwa-watashitachiwa",
       "instrumental: https://www.dropbox.com/s/65sqidyajqsxr68/%E7%A7%81%E3%81%AF%E3%80%81%E7%A7%81%E9%81%94%E3%81%AF%2032%2048%20inst.wav?dl=0",
-      "・オフィシャル先行：",
-      "・オフィシャル2次先行："
+      "🎫: https://eplus.jp/guiano/",
+      "X https://twitter.com/GuiAnoDayo",
+      "Instagram　https://www.instagram.com/guianodayo/",
+      "TikTok　https://vt.tiktok.com/Uyvur3/",
+      "HP https://alltstudio.jp/"
     ]
   },
   {
@@ -2683,43 +2260,11 @@
     ]
   },
   {
-    "songId": "song_halyosy - Flyway ft. 鏡音レン, KAITO [Official Video]",
-    "songTitle": "halyosy - Flyway ft. 鏡音レン, KAITO [Official Video]",
-    "videoId": "pXLnKaiDeVw",
-    "videoTitle": "halyosy - Flyway ft. 鏡音レン, KAITO [Official Video]",
-    "unknownRoleLines": [
-      "Official music video for “Flyway” by halyosy",
-      "Lyrics, Music & Arrangement : halyosy",
-      "Violin & Viola : 松本一策",
-      "Strings Score Editing & Drums Programming Support : Bach",
-      "Other Instruments : halyosy",
-      "Mixed & Mastered by Meis Clauson",
-      "Background Illustration : halyosy",
-      "Directed & Edited by halyosy & sobomen",
-      "Model Poses : いおり https://twitter.com/DD_IORI ,"
-    ],
-    "unparsedLines": [
-      "Listen & Download (サブスク配信) : https://nex-tone.link/A00115344",
-      "セカイver. (Leo/need × 鏡音レン) : https://youtu.be/2GK1B1RshN4",
-      "Instrumental (OffVocal & Video Files) : https://halyosy.com/downloads",
-      "新曲 https://youtu.be/yVMHWv7hKTE",
-      "新曲 https://youtu.be/JLa8FvQf_RA",
-      "志摩 https://twitter.com/dd_4ma",
-      "halyosy : https://halyosy.com"
-    ]
-  },
-  {
-    "songId": "song_星空オーケストラ feat. 初音ミク - 水野あつ",
-    "songTitle": "星空オーケストラ feat. 初音ミク - 水野あつ",
+    "songId": "song_星空オーケストラ",
+    "songTitle": "星空オーケストラ",
     "videoId": "FS9xdxx42EU",
     "videoTitle": "星空オーケストラ feat. 初音ミク - 水野あつ",
-    "unknownRoleLines": [
-      "・vocal: 初音ミク",
-      "・music: 水野あつ",
-      "・arrange: 水野あつ,雪乃イト",
-      "・guitar: C'na",
-      "・mix: Meis Clauson"
-    ],
+    "unknownRoleLines": [],
     "unparsedLines": [
       "inst:　https://www.dropbox.com/scl/fo/q28kf9tgyj17ve9laxg3p/h?dl=0&rlkey=t17sgngmnf6fvlis4s3yanrtt",
       "▷Twitter(https://twitter.com/atsu361​​)",
@@ -2744,130 +2289,8 @@
     ]
   },
   {
-    "songId": "song_八王子P「RAD DOGS feat. 初音ミク・鏡音リン・鏡音レン」",
-    "songTitle": "八王子P「RAD DOGS feat. 初音ミク・鏡音リン・鏡音レン」",
-    "videoId": "ikCebevls90",
-    "videoTitle": "八王子P「RAD DOGS feat. 初音ミク・鏡音リン・鏡音レン」",
-    "unknownRoleLines": [
-      "Words：q*Left  https://twitter.com/q_Left",
-      "Motion Director: PizaCG　https://twitter.com/Piza_ch",
-      "Motion Actor & Choreographer: 足太ぺんた　https://twitter.com/Asibuto_Penta",
-      "Character Modeling: Sour暄　https://twitter.com/sourxuan939",
-      "Stage: 犬。　https://twitter.com/wanta_4313",
-      "Motion: あひる@anatroccolo　https://twitter.com/anatroccolo_mmd",
-      "Eye: ミコト　https://twitter.com/mico__3510",
-      "Asset \"spray”: KuROE",
-      "通常盤(CD) TFCC-86877 定価:¥2,800 （税抜価格¥2,545）"
-    ],
-    "unparsedLines": [
-      "ニコニコ動画 : https://www.nicovideo.jp/watch/sm40900215",
-      "ご購入・ご予約はこちら：https://TF.lnk.to/HIDEOUT_CD",
-      "Official HP: http://www.hachiojip.net/​",
-      "Twitter: https://twitter.com/8_prince​",
-      "facebook: https://www.facebook.com/hachiojip​",
-      "Instagram: https://www.instagram.com/hachiojip/​",
-      "Subscribe to my YouTube channel: https://goo.gl/AiSqih"
-    ]
-  },
-  {
-    "songId": "song_∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "songTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "videoId": "BPh4m2VnfNo",
-    "videoTitle": "∴煮ル果実「トリコロージュ」with Flower【Official】- Tricologe",
-    "unknownRoleLines": [
-      "I’m bound by shackles and corruption"
-    ],
-    "unparsedLines": [
-      "Twitter https://twitter.com/vinegar_vinegar",
-      "Instagram http://bit.ly/2MivZfi",
-      "カンタロ https://twitter.com/_akikan",
-      "火種 https://twitter.com/hidane_nico",
-      "ゆっけ https://twitter.com/yuki_yuxtuke",
-      "五月病マリオ https://twitter.com/5mario",
-      "①piapro https://piapro.jp/NebiNevi115",
-      "②ニコニ・コモンズ https://commons.nicovideo.jp/user/2810677"
-    ]
-  },
-  {
-    "songId": "song_メタモリボン｜鏡音リン",
-    "songTitle": "メタモリボン｜鏡音リン",
-    "videoId": "PulLO9CgBE0",
-    "videoTitle": "メタモリボン｜鏡音リン",
-    "unknownRoleLines": [
-      "作曲・編曲・MIX：emon (@emon316)",
-      "キュートにRE:BORN",
-      "モアモア RE:BORN"
-    ],
-    "unparsedLines": [
-      "⇒https://www.youtube.com/watch?v=0BHY0Gs0ZZM",
-      "inst ⇒https://piapro.jp/t/XOSG",
-      "inst dry⇛https://piapro.jp/t/oxtF",
-      "動画素材 ⇒https://www.dropbox.com/sh/mchmpucmkm5o3br/AADTtqKKkACu76AU5d8VLT6-a?dl=0"
-    ]
-  },
-  {
-    "songId": "song_Chinozo 'Flyer!' feat.FloweR",
-    "songTitle": "Chinozo 'Flyer!' feat.FloweR",
-    "videoId": "nfpYhYtHuKo",
-    "videoTitle": "Chinozo 'Flyer!' feat.FloweR",
-    "unknownRoleLines": [
-      "■Music：Chinozo",
-      "■MV：アルセチカ",
-      "■Bass：kakeyan"
-    ],
-    "unparsedLines": [
-      "Twitter　https://twitter.com/chinozo_",
-      "Tiktok　https://www.tiktok.com/@chinozo_?lang...",
-      "Instagram　https://www.instagram.com/chinozoo0/",
-      "Twitter　https://twitter.com/aruseee"
-    ]
-  },
-  {
-    "songId": "song_【鏡音リンレン】にっこり^^調査隊のテーマ【ワンオポ/OriginalMV】",
-    "songTitle": "【鏡音リンレン】にっこり^^調査隊のテーマ【ワンオポ/OriginalMV】",
-    "videoId": "C_Fc1x_aeFQ",
-    "videoTitle": "【鏡音リンレン】にっこり^^調査隊のテーマ【ワンオポ/OriginalMV】/ Niccori^^ Survey Team Theme",
-    "unknownRoleLines": [
-      "Russian：Vir and Team Translations",
-      "Malay：oatsora & soraruur / オートミルク",
-      "Italian：sunraymond",
-      "Czech：Štěpán Valášek（@stepaboss1806）"
-    ],
-    "unparsedLines": [
-      "▼セカイver.→https://youtu.be/v7SYWS2jarw",
-      "・apple music→https://apple.co/3rKHXlL",
-      "・spotify→https://spoti.fi/3B9Ss4M",
-      "▼off vocal→https://piapro.jp/t/9lp8",
-      "▽We are looking for translators → https://bit.ly/3kp9hj5"
-    ]
-  },
-  {
-    "songId": "song_ワールドワイドワンダー feat.初音ミク",
-    "songTitle": "ワールドワイドワンダー feat.初音ミク",
-    "videoId": "6NdOqVypgCM",
-    "videoTitle": "ワールドワイドワンダー feat.初音ミク / TOKOTOKO（西沢さんP）",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "inst→ https://zawaso.com/downloads/inst/www_inst.zip",
-      "→https://youtu.be/aO_ZCaoojh4"
-    ]
-  },
-  {
-    "songId": "song_ショウタイム・ルーラー/鏡音リン",
-    "songTitle": "ショウタイム・ルーラー/鏡音リン",
-    "videoId": "uDBVetc5JKo",
-    "videoTitle": "ショウタイム・ルーラー/鏡音リン(曲:カラスヤサボウ)",
-    "unknownRoleLines": [
-      "イラストレーター：ygt(@yagita_000)"
-    ],
-    "unparsedLines": [
-      "インスト:https://www.dropbox.com/sh/2izmo7omyc45vyc/AAAkA85uyOQshRtky8tQ5z8Za?dl=0",
-      "配信:https://nex-tone.link/A00094609"
-    ]
-  },
-  {
-    "songId": "song_マシンガンポエムドール- cosMo＠暴走P feat. 初音ミク",
-    "songTitle": "マシンガンポエムドール- cosMo＠暴走P feat. 初音ミク",
+    "songId": "song_マシンガンポエムドール",
+    "songTitle": "マシンガンポエムドール",
     "videoId": "UgZFpO_Y6qo",
     "videoTitle": "マシンガンポエムドール(from プロジェクトセカイ) - cosMo＠暴走P feat. 初音ミク",
     "unknownRoleLines": [],
@@ -2880,132 +2303,13 @@
     ]
   },
   {
-    "songId": "song_【プロセカ】*Luna - 流星のパルスfeat.Kagamine Len",
-    "songTitle": "【プロセカ】*Luna - 流星のパルスfeat.Kagamine Len",
-    "videoId": "8Zds1FvEtKw",
-    "videoTitle": "【プロセカ】*Luna - 流星のパルス (Pulse of The Meteor) feat.Kagamine Len",
-    "unknownRoleLines": [
-      "“I’m always by your side” “I believe in you”"
-    ],
-    "unparsedLines": [
-      "🎧 | https://smarturl.it/Innocent_Luna",
-      "💿 | https://luna-catbird.booth.pm/",
-      "※Discordサーバーを作りました→ https://discord.gg/rqsyfVT",
-      "・https://www.dropbox.com/sh/fvddfjcf28yl6z5/AABDEc5C1RWeQ-SCFycYcOova?dl=0",
-      "Things that change, Things that pass by"
-    ]
-  },
-  {
-    "songId": "song_Glory Steady Go!／キノシタ feat.初音ミク",
-    "songTitle": "Glory Steady Go!／キノシタ feat.初音ミク",
-    "videoId": "Y-QhzXC9NbI",
-    "videoTitle": "Glory Steady Go!／キノシタ feat.初音ミク",
-    "unknownRoleLines": [
-      "☻Music&Lyrics&Movie&illust：キノシタ(mylist/56280325)",
-      "0:29、01:53の正しい歌詞は「Hurry! Hurry!」です。お詫びして訂正いたします。"
-    ],
-    "unparsedLines": [
-      "☻twitter→ https://twitter.com/k1n0shita",
-      "☻Instagram→https://www.instagram.com/kinoshita_music",
-      "off vocal→https://piapro.jp/t/qErj",
-      "☻FANBOX→ https://kinoshita.fanbox.cc",
-      "(https://youtu.be/JoM4JGqQyCU)",
-      "(C) Crypton Future Media, INC. http://piapro.net"
-    ]
-  },
-  {
-    "songId": "song_アイスドロップ feat. 初音ミク",
-    "songTitle": "アイスドロップ feat. 初音ミク",
+    "songId": "song_アイスドロップ",
+    "songTitle": "アイスドロップ",
     "videoId": "WXvm5XfkXrk",
     "videoTitle": "アイスドロップ feat. 初音ミク / aqu3ra",
-    "unknownRoleLines": [
-      "music：Aqu3ra ( https://twitter.com/AQU3RA_music ）",
-      "mastering：中村涼真 ( https://twitter.com/Nakamura_Ryoma ）"
-    ],
+    "unknownRoleLines": [],
     "unparsedLines": [
       "offvocal : https://piapro.jp/aqu3rapromo"
-    ]
-  },
-  {
-    "songId": "song_『トンデモワンダーズ』feat.初音ミク",
-    "songTitle": "『トンデモワンダーズ』feat.初音ミク",
-    "videoId": "dBQg24mx45Y",
-    "videoTitle": "『トンデモワンダーズ』feat.初音ミク (+KAITO)  / sasakure.‌UK",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "NEW!!トンデモワンダーズ、小説になりました！！→https://mwbunko.com/blog/news/entry-11422.html",
-      "+サブスク/音楽配信Release!→https://linkco.re/XcpRU7Bm",
-      "→https://sasakuration.booth.pm/items/3527437",
-      "+sasakure.UK Ch.　https://www.youtube.com/c/sasakureUK0211",
-      "+セルフリミックスver→https://www.youtube.com/watch?v=cNJk9tpcL3M",
-      "+feat.エコ (echo) cover→https://www.youtube.com/watch?v=WxRb-4hc_xc",
-      "+プロジェクトセカイ収録ver→https://www.youtube.com/watch?v=vI5xihka9hw",
-      "→https://firestorage.jp/download/3e356187fcdeffbade0e75cacdaf5c6e41cb5cc1",
-      "sasakure.UK    https://twitter.com/sasakure__UK",
-      "echo   https://twitter.com/__7eco",
-      "岸田勇気(有形ランペイジ)  https://twitter.com/yukikishida",
-      "APO+   https://twitter.com/APO_PLUS_"
-    ]
-  },
-  {
-    "songId": "song_Beat Eater - ポリスピカデリー feat. 初音ミク",
-    "songTitle": "Beat Eater - ポリスピカデリー feat. 初音ミク",
-    "videoId": "Rcc_BreWEMI",
-    "videoTitle": "Beat Eater - ポリスピカデリー feat. 初音ミク / Police Piccadilly",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "【公式サイト】 https://pjsekai.sega.jp",
-      "【公式Twitter】 https://twitter.com/pj_sekai",
-      "【Vivid BAD SQUAD × 鏡音レンVer.】https://www.youtube.com/watch?v=DaWbq6KeJq4",
-      "Twitter : https://twitter.com/_policep",
-      "Twitter : https://twitter.com/ayaminakazawa",
-      "OffVox : https://www.dropbox.com/s/hspp9zwtcg67wpo/Beat_Eater_OffVox_137BPM.wav?dl=0"
-    ]
-  },
-  {
-    "songId": "song_「１」",
-    "songTitle": "「１」",
-    "videoId": "fobQOAOAdoE",
-    "videoTitle": "「１」／164 feat.巡音ルカ",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "164 (https://twitter.com/164203)",
-      "宮崎あみさ (https://twitter.com/miyazaki_amisa )",
-      "金丸 紗希 (https://twitter.com/saaakii_o4o5)",
-      "荻山こころ(https://twitter.com/ogiyama_kokoro)",
-      "大﨑 月陽(https://twitter.com/tsukihi__osaki )"
-    ]
-  },
-  {
-    "songId": "song_とあ - アイディスマイル - ft.初音ミク, 鏡音リン",
-    "songTitle": "とあ - アイディスマイル - ft.初音ミク, 鏡音リン",
-    "videoId": "X_6EPkvIAGg",
-    "videoTitle": "とあ - アイディスマイル - ft.初音ミク, 鏡音リン ( Toa - IDSMILE -  ft.Hatsune Miku, Kagamine Rin )",
-    "unknownRoleLines": [
-      "- Words,Music,Arrangement：とあ -",
-      "■フランス語字幕：Juliette HARDY, Melody MOUNLASENA"
-    ],
-    "unparsedLines": [
-      "■Twitter：https://twitter.com/o0toa0o",
-      "■Niconico：https://www.nicovideo.jp/mylist/36530510",
-      "■YouTube：https://www.youtube.com/user/0toa0oto0",
-      "→https://karent.jp/album/4141（2024.5.11再開）",
-      "■offvocal : https://piapro.jp/t/0FJz"
-    ]
-  },
-  {
-    "songId": "song_ワンスアポンアドリーム YASUHIROfeat.鏡音リン",
-    "songTitle": "ワンスアポンアドリーム YASUHIROfeat.鏡音リン",
-    "videoId": "S84mvlha5Fc",
-    "videoTitle": "ワンスアポンアドリーム YASUHIRO(康寛) feat.鏡音リン",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "ワンスアポンアドリーム~INST~➡https://piapro.jp/t/bJSo",
-      "チャンネル  https://www.youtube.com/user/ZARK3235",
-      "TWITTER  https://twitter.com/yasuhiro_vanq",
-      "NICONICO  https://www.nicovideo.jp/user/9078534",
-      "INSTAGRAM  https://www.instagram.com/yasuhiro_vanq",
-      "SOUNDCLOUD  https://soundcloud.com/yasuhiro_vanq"
     ]
   },
   {
@@ -3024,8 +2328,8 @@
     ]
   },
   {
-    "songId": "song_初音ミク「Color of Drops」",
-    "songTitle": "初音ミク「Color of Drops」",
+    "songId": "song_Color of Drops",
+    "songTitle": "Color of Drops",
     "videoId": "i5rl-NGSYoo",
     "videoTitle": "初音ミク「Color of Drops」",
     "unknownRoleLines": [],
@@ -3034,67 +2338,8 @@
     ]
   },
   {
-    "songId": "song_Forward/R Sound Design feat. 初音ミク",
-    "songTitle": "Forward/R Sound Design feat. 初音ミク",
-    "videoId": "crCS77wqxTI",
-    "videoTitle": "Forward/R Sound Design feat. 初音ミク",
-    "unknownRoleLines": [
-      "詞・曲：R　https://twitter.com/R_SoundDesign"
-    ],
-    "unparsedLines": [
-      "offvocal：https://piapro.jp/t/Txs9",
-      "HP：https://r-sd.net",
-      "ディスコグラフィ：https://r-sd.net/discography"
-    ]
-  },
-  {
-    "songId": "song_ニジイロストーリーズ- OSTER project",
-    "songTitle": "ニジイロストーリーズ- OSTER project",
-    "videoId": "WztzykQSkgM",
-    "videoTitle": "ニジイロストーリーズ (VOCALOID ver.)  - OSTER project",
-    "unknownRoleLines": [
-      "Music, Lyrics: OSTER project",
-      "Illustration Movie Programming: キクチミロ"
-    ],
-    "unparsedLines": [
-      "Twitter: https://twitter.com/fuwacina",
-      "Web: http://fuwafuwacinnamon.sakura.ne.jp/",
-      "FANBOX　https://osterproject.fanbox.cc/",
-      "off vocal　https://commons.nicovideo.jp/material/nc232045"
-    ]
-  },
-  {
-    "songId": "song_【初音ミク】ジャックポットサッドガール【syudou】",
-    "songTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "videoId": "B2llCEKbxwA",
-    "videoTitle": "【初音ミク】ジャックポットサッドガール【syudou】",
-    "unknownRoleLines": [
-      "東京：Kanadevia Hall",
-      "開場 16:00 / 開演 17:00",
-      "チケット：8,500円（全席指定 / ドリンク代別）",
-      "出演者：syudou / Dannie May / 浪漫派マシュマロ / マヂカルラブリー / オズワルド",
-      "期間：8/9(日)23:59まで",
-      "2026年11月7日(土)愛知：岡谷鋼機名古屋公会堂 大ホール",
-      "OPEN 17:00 / START 18:00",
-      "2026年12月19日(土)大阪：オリックス劇場",
-      "2027年1月28日(木)東京：Shibuya LOVEZ",
-      "OPEN 17:30 / START 18:30",
-      "チケット料金：8,800円 (全席指定) ※東京公演のみドリンク代別",
-      "受付期間：8月6日(木)18:00~8/16(日)23:59"
-    ],
-    "unparsedLines": [
-      "曲/syudou(https://twitter.com/tikandame)",
-      "映像/りゅうせー(https://twitter.com/ryuuseee)",
-      "カラオケ http://piapro.jp/syudou",
-      "Twitter:  　 https://twitter.com/tikandame",
-      "Instagram: https://www.instagram.com/syudou279/?hl=ja",
-      "TikTok:       https://www.tiktok.com/@syudou?",
-      "HP:              https://www.syudou.com"
-    ]
-  },
-  {
-    "songId": "song_Giga - 'Ready Steady' ft. 初音ミク・鏡音リン・鏡音レン【MV】",
-    "songTitle": "Giga - 'Ready Steady' ft. 初音ミク・鏡音リン・鏡音レン【MV】",
+    "songId": "song_Ready Steady",
+    "songTitle": "Ready Steady",
     "videoId": "XAg1jDDG49Y",
     "videoTitle": "Giga - 'Ready Steady' ft. 初音ミク・鏡音リン・鏡音レン【MV】",
     "unknownRoleLines": [],
@@ -3108,14 +2353,11 @@
     ]
   },
   {
-    "songId": "song_Mitchie M - アイドル新鋭隊 feat.初音ミク, 鏡音リン, 巡音ルカ, MEIKO [プロジェクトセカイ ユニット曲]",
-    "songTitle": "Mitchie M - アイドル新鋭隊 feat.初音ミク, 鏡音リン, 巡音ルカ, MEIKO [プロジェクトセカイ ユニット曲]",
+    "songId": "song_アイドル新鋭隊",
+    "songTitle": "アイドル新鋭隊",
     "videoId": "4QL9tLfVFJg",
     "videoTitle": "Mitchie M - アイドル新鋭隊 feat.初音ミク, 鏡音リン, 巡音ルカ, MEIKO [プロジェクトセカイ ユニット曲]",
     "unknownRoleLines": [
-      "◆ 作詞作曲編曲：Mitchie M",
-      "◆ イラスト：ばず",
-      "◆ 動画：とさお (TSO)",
       "◆ 中国語翻訳：Azusa",
       "◆ スペイン翻訳： Dark_Kudoh"
     ],
@@ -3130,21 +2372,8 @@
     ]
   },
   {
-    "songId": "song_DECO*27 - needLe feat. 初音ミク",
-    "songTitle": "DECO*27 - needLe feat. 初音ミク",
-    "videoId": "buoYwfZG4vQ",
-    "videoTitle": "DECO*27 - needLe feat. 初音ミク",
-    "unknownRoleLines": [],
-    "unparsedLines": [
-      "Twitter: https://twitter.com/deco27",
-      "音楽 & 動画素材: https://otoiro.co.jp/special/",
-      "LINEスタンプ: https://store.line.me/stickershop/author/2564873",
-      "公式グッズ: https://otoiro.official.ec/"
-    ]
-  },
-  {
-    "songId": "song_Giga × Mitchie M - ワーワーワールド feat. 初音ミク&鏡音リン（プロジェクトセカイ テーマ曲）",
-    "songTitle": "Giga × Mitchie M - ワーワーワールド feat. 初音ミク&鏡音リン（プロジェクトセカイ テーマ曲）",
+    "songId": "song_ワーワーワールド",
+    "songTitle": "ワーワーワールド",
     "videoId": "okJ9Vk6owG8",
     "videoTitle": "Giga × Mitchie M - ワーワーワールド feat. 初音ミク&鏡音リン（プロジェクトセカイ テーマ曲）",
     "unknownRoleLines": [
@@ -3167,21 +2396,18 @@
     ]
   },
   {
-    "songId": "song_【MV】悔やむと書いてミライ／まふまふ",
-    "songTitle": "【MV】悔やむと書いてミライ／まふまふ",
+    "songId": "song_悔やむと書いてミライ",
+    "songTitle": "悔やむと書いてミライ",
     "videoId": "r2OS97F6P_U",
     "videoTitle": "【MV】悔やむと書いてミライ／まふまふ",
     "unknownRoleLines": [],
     "unparsedLines": [
-      "Illust  456　https://twitter.com/456log",
-      "Movie   Yuma Saito　https://twitter.com/yumasaito",
-      "まふまふ　https://twitter.com/uni_mafumafu",
       "Inst → https://piapro.jp/uni_mafumafu"
     ]
   },
   {
-    "songId": "song_ピノキオピー - セカイはまだ始まってすらいない feat. 初音ミク",
-    "songTitle": "ピノキオピー - セカイはまだ始まってすらいない feat. 初音ミク",
+    "songId": "song_セカイはまだ始まってすらいない",
+    "songTitle": "セカイはまだ始まってすらいない",
     "videoId": "1s8NNPgdl5g",
     "videoTitle": "ピノキオピー - セカイはまだ始まってすらいない feat. 初音ミク / The World Hasn’t Even Started Yet",
     "unknownRoleLines": [],
@@ -3203,7 +2429,6 @@
     "videoId": "9vyIPWBeRes",
     "videoTitle": "DECO*27×堀江晶太(kemu) - セカイ feat. 初音ミク",
     "unknownRoleLines": [
-      "(C) Craft Egg Inc. Developed by Colorful Palette",
       "Choreography: めろちん",
       "Studio: バルス株式会社"
     ],
