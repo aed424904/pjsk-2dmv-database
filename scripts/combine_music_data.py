@@ -6,6 +6,7 @@
   - creators: 创作者信息 (creatorArtistId, creatorArtistName, lyricist, composer, arranger)
   - tags: 所属团队/标签
   - categories: MV类型
+  - songType: 歌曲类型（original 原创曲 / cover 翻唱曲）
   - publishedAt: 实装时间（游戏内发布时间戳）
   - releasedAt: 原曲发布时间戳
   - originalVideoLink: 原曲投稿链接（YouTube / Niconico）
@@ -70,6 +71,10 @@ def resolve_released_at(music_id, game_ts, mv_date_map):
     if game_ts:
         return game_ts + JST_OFFSET_MS
     return None
+
+def resolve_song_type(is_newly_written):
+    """Map the master-data commissioned-song flag to the public song type."""
+    return 'original' if is_newly_written is True else 'cover'
 
 def main():
     # 1. 加载所有需要的数据源
@@ -153,6 +158,7 @@ def main():
             },
             'tags': tags_map.get(mid, []),
             'categories': m.get('categories', []),
+            'songType': resolve_song_type(m.get('isNewlyWrittenMusic')),
             'publishedAt': m.get('publishedAt'),
             'releasedAt': resolve_released_at(mid, m.get('releasedAt'), original_mv_dates),
             'originalVideoLink': original_links_map.get(mid),

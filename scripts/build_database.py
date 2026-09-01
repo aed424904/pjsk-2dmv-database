@@ -1122,7 +1122,11 @@ class DatabaseBuilder:
             'classification': {
                 'units': units,
                 'virtualSingers': virtual_singers,
-                'category': 'original',
+                'category': (
+                    'original'
+                    if sekai_music and sekai_music.get('isNewlyWrittenMusic') is True
+                    else 'cover'
+                ),
                 'mvType': mv_type,
                 'tags': tags
             },
@@ -1183,21 +1187,35 @@ class DatabaseBuilder:
         """构建完整数据库"""
         print("\n[BUILD] 开始构建数据库...")
 
-        # 按歌曲名分组视频
-        songs_dict = {}
+        # 优先按 Sekai Music ID 分组，避免官方版与本家版因标题写法不同被拆开。
+        # 未匹配曲目继续按提取后的标题分组，保留手动补录与站外视频的兼容性。
+        song_groups = {}
         for source_video in self.youtube_data['videos']:
             video = self.apply_original_video_override(source_video)
             song_title = video.get('songTitle') or self.extract_song_title(video['title'])
+            sekai_music = self.match_sekai_music(song_title)
 
-            if song_title not in songs_dict:
-                songs_dict[song_title] = []
-            songs_dict[song_title].append(video)
+            if sekai_music:
+                group_key = ('sekai', sekai_music['id'])
+                canonical_title = sekai_music['title']
+            else:
+                group_key = ('title', song_title)
+                canonical_title = song_title
 
-        print(f"[STATS] 识别到 {len(songs_dict)} 首不同的歌曲")
+            if group_key not in song_groups:
+                song_groups[group_key] = {
+                    'title': canonical_title,
+                    'videos': [],
+                }
+            song_groups[group_key]['videos'].append(video)
+
+        print(f"[STATS] 识别到 {len(song_groups)} 首不同的歌曲")
 
         # 构建歌曲条目
         songs = []
-        for song_title, videos in songs_dict.items():
+        for group in song_groups.values():
+            song_title = group['title']
+            videos = group['videos']
             song_entry = self.build_song_entry(song_title, videos)
             songs.append(song_entry)
 

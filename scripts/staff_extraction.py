@@ -17,8 +17,28 @@ CANONICAL_ROLES = (
     "animation",
     "design",
     "cg3d",
+    "direction",
+    "storyboard",
+    "compositing",
+    "editing",
+    "production",
+    "productionSupport",
+    "lyricist",
+    "composer",
+    "arranger",
+    "vocalist",
+    "musician",
+    "mixing",
+    "mastering",
+    "vocalEdit",
+    "musicProduction",
     "ignore",
     "unknown",
+)
+
+OTHER_ROLE_KEYS = tuple(
+    role for role in CANONICAL_ROLES
+    if role not in {"illustrator", "pvCreator", "ignore"}
 )
 
 DEFAULT_ROLE_ALIASES = {
@@ -30,10 +50,24 @@ DEFAULT_ROLE_ALIASES = {
     "映像": "pvCreator",
     "Movie": "pvCreator",
     "Video": "pvCreator",
-    "Movie Editor": "pvCreator",
-    "Director": "pvCreator",
-    "Composite": "pvCreator",
-    "編集": "pvCreator",
+    "Animation Movie": "pvCreator",
+    "Movie Editor": "editing",
+    "Editor": "editing",
+    "編集": "editing",
+    "Director": "direction",
+    "General Director": "direction",
+    "Direction": "direction",
+    "movie direction": "direction",
+    "監督": "direction",
+    "演出": "direction",
+    "コンテ": "storyboard",
+    "絵コンテ": "storyboard",
+    "ストーリーボード": "storyboard",
+    "Composite": "compositing",
+    "composite": "compositing",
+    "撮影監督": "compositing",
+    "撮影": "compositing",
+    "DI": "compositing",
     "イラストアニメーション": "illustrationAnimation",
     "アニメーション": "animation",
     "アニメーター": "animation",
@@ -58,12 +92,69 @@ DEFAULT_ROLE_ALIASES = {
     "Background Artist": "design",
     "3DCG": "cg3d",
     "CG": "cg3d",
-    "監督": "pvCreator",
-    "撮影監督": "pvCreator",
-    "撮影": "pvCreator",
+    "Production": "production",
+    "Produced": "production",
+    "Producer": "production",
+    "Project Manager": "production",
+    "プロデューサー": "production",
+    "企画プロデューサー": "production",
+    "制作": "production",
+    "制作進行": "production",
+    "CG制作進行": "production",
+    "制作協力": "productionSupport",
+    "Assistant": "productionSupport",
+    "アシスタント": "productionSupport",
+    "Movie assistant": "productionSupport",
+    "Animation Assistant": "productionSupport",
+    "Animation Support": "productionSupport",
+    "作詞": "lyricist",
+    "Lyrics": "lyricist",
+    "Lyric": "lyricist",
+    "Words": "lyricist",
+    "作曲": "composer",
+    "Music": "composer",
+    "Composition": "composer",
+    "編曲": "arranger",
+    "Arrangement": "arranger",
+    "Arrange": "arranger",
+    "Vocal": "vocalist",
+    "Vocals": "vocalist",
+    "Vocaloid": "vocalist",
+    "歌": "vocalist",
+    "歌唱": "vocalist",
+    "Bass": "musician",
+    "ベース": "musician",
+    "Guitar": "musician",
+    "guitar": "musician",
+    "ギター": "musician",
+    "Piano": "musician",
+    "Drums": "musician",
+    "Trumpet": "musician",
+    "Trombone": "musician",
+    "Mix": "mixing",
+    "mix": "mixing",
+    "MIX": "mixing",
+    "Mix Engineer": "mixing",
+    "ミキシング(Mixing)": "mixing",
+    "Mastering": "mastering",
+    "mastering": "mastering",
+    "Vocal Tuning": "vocalEdit",
+    "Vocaloid Edit": "vocalEdit",
+    "Vocaloid EDIT": "vocalEdit",
+    "Vocaloid EDIT Support": "vocalEdit",
+    "Vocal Recording Engineer": "vocalEdit",
+    "Music Producer": "musicProduction",
+    "Sound Producer": "musicProduction",
+    "Sound Product Manager": "musicProduction",
 }
 
 DEFAULT_NAME_ALIASES: Dict[str, str] = {}
+
+COMBINED_ROLE_LABELS = {
+    "作詞作曲": ["作詞", "作曲"],
+    "作詞作曲編曲": ["作詞", "作曲", "編曲"],
+    "作詞作曲編曲(Words and Music)": ["作詞", "作曲", "編曲"],
+}
 
 BASE_PATH = Path(__file__).resolve().parents[1]
 MANUAL_DATA_PATH = BASE_PATH / "manual_data"
@@ -73,63 +164,18 @@ WHITESPACE_RE = re.compile(r"\s+")
 INLINE_CLAUSE_SPLIT_RE = re.compile(r"\s+/\s+")
 ROLE_SPLIT_RE = re.compile(r"\s*(?:・|/|／|&|＆|\band\b|、|,)\s*", re.IGNORECASE)
 CONTRIBUTOR_SPLIT_RE = re.compile(r"\s*(?:/|／|,|、|・|&|＆|\band\b)\s*", re.IGNORECASE)
+CONTENT_SECTION_HEADER_RE = re.compile(r"^(?:lyrics?|歌詞)\s*[：:]?$", re.IGNORECASE)
 SKIP_ROLE_LABELS = {
     "公式サイト",
     "公式X",
     "公式 X",
     "公式Twitter",
     "劇場版公式サイト",
-    "作詞",
-    "作曲",
-    "作詞・作曲",
-    "作詞・作曲・編曲",
-    "編曲",
-    "Lyrics & Music",
-    "Arrangement",
-    "Music",
     "原曲",
     "原作",
     "バーチャル・シンガーver.",
     "◆バーチャル・シンガーver.",
-    "Vocal",
-    "Vocals",
-    "Vocaloid",
-    "歌",
-    "歌唱",
-    "Bass",
-    "ベース",
-    "Guitar",
-    "guitar",
-    "ギター",
-    "Piano",
-    "Drums",
-    "Trumpet",
-    "Trombone",
-    "Lyrics",
-    "Lyric",
-    "Music & Lyric",
-    "Music&Lyrics",
-    "Music＆Lyrics",
-    "Music&Words",
-    "Music & Words",
-    "作詞作曲",
-    "作詞/作曲",
-    "作詞作曲編曲",
-    "作詞作曲編曲(Words and Music)",
-    "Mix",
-    "mix",
-    "MIX",
-    "Mix & Mastering",
-    "MIX&Mastering",
-    "Mix Engineer",
-    "Mastering",
-    "ミキシング(Mixing)",
-    "ミックス・マスタリング",
-    "Vocal Tuning",
-    "Vocal Recording Engineer",
     "Engineering",
-    "Arrange",
-    "Sound Product Manager",
     "Special Thanks",
 }
 
@@ -197,7 +243,7 @@ def normalize_staff_name(name_raw: str) -> str:
 
 
 def _clean_token(value: str) -> str:
-    return WHITESPACE_RE.sub(" ", value.replace("\u3000", " ")).strip(" \t\r\n:-")
+    return WHITESPACE_RE.sub(" ", value.replace("\u3000", " ")).strip(" \t\r\n:-◆●■")
 
 
 def _strip_dangling_opening_brackets(value: str) -> str:
@@ -220,6 +266,12 @@ def _is_obviously_not_staff_line(line: str) -> bool:
         return True
     if stripped.startswith("http://") or stripped.startswith("https://"):
         return True
+    if BRACKETED_URL_RE.fullmatch(stripped):
+        return True
+    if stripped.startswith("インスト音源") and URL_RE.search(stripped):
+        return True
+    if re.match(r"^(?:\(C\)|©)\s", stripped, re.IGNORECASE):
+        return True
     return False
 
 
@@ -235,10 +287,6 @@ def _split_inline_clauses(line: str) -> List[str]:
 
 
 def _split_role_and_contributor(line: str) -> Tuple[str, str] | None:
-    by_match = re.match(r"^(?P<role>.+?)\s+by\s+(?P<name>.+)$", line, re.IGNORECASE)
-    if by_match:
-        return by_match.group("role"), by_match.group("name")
-
     first_url_match = URL_RE.search(line)
     first_url_start = first_url_match.start() if first_url_match else len(line) + 1
 
@@ -253,6 +301,10 @@ def _split_role_and_contributor(line: str) -> Tuple[str, str] | None:
             role_raw, contributor_raw = line.split(":", 1)
             return role_raw, contributor_raw
 
+    by_match = re.match(r"^(?P<role>.+?)\s+by\s+(?P<name>.+)$", line, re.IGNORECASE)
+    if by_match:
+        return by_match.group("role"), by_match.group("name")
+
     return None
 
 
@@ -260,6 +312,9 @@ def _split_role_labels(role_raw: str) -> List[str]:
     cleaned_role = _clean_token(role_raw)
     if not cleaned_role:
         return []
+
+    if cleaned_role in COMBINED_ROLE_LABELS:
+        return COMBINED_ROLE_LABELS[cleaned_role]
 
     if normalize_role_label(cleaned_role) != "unknown":
         return [cleaned_role]
@@ -277,6 +332,15 @@ def _split_contributor_names(contributor_raw: str) -> List[str]:
     return [item for item in contributors if item]
 
 
+def _split_known_role_prefix(line: str) -> Tuple[str, str] | None:
+    role_aliases = load_role_aliases()
+    for alias in sorted(role_aliases, key=len, reverse=True):
+        match = re.match(rf"^{re.escape(alias)}\s+(.+)$", line, re.IGNORECASE)
+        if match and role_aliases[alias] not in {"ignore", "unknown"}:
+            return alias, match.group(1)
+    return None
+
+
 def parse_staff_lines(description: str) -> Dict[str, List[Dict[str, str]]]:
     result = {
         "contributors": [],
@@ -285,9 +349,55 @@ def parse_staff_lines(description: str) -> Dict[str, List[Dict[str, str]]]:
     }
     seen_contributors = set()
     unknown_lines_seen = set()
+    pending_role_labels: List[str] = []
+    pending_unparsed_line: str | None = None
+
+    def append_contributors(role_labels: List[str], contributor_raw: str, source_line: str) -> bool:
+        contributor_names = _split_contributor_names(contributor_raw)
+        if not role_labels or not contributor_names:
+            return False
+
+        recognized = False
+        for role_label in role_labels:
+            normalized_role = normalize_role_label(role_label)
+            if normalized_role == "ignore":
+                continue
+            for contributor_name in contributor_names:
+                normalized_name = normalize_staff_name(contributor_name)
+                if not normalized_name:
+                    continue
+                recognized = True
+
+                dedupe_key = (normalized_role, normalized_name, source_line)
+                if dedupe_key in seen_contributors:
+                    continue
+                seen_contributors.add(dedupe_key)
+
+                contributor = {
+                    "name": normalized_name,
+                    "nameRaw": contributor_name,
+                    "role": normalized_role,
+                    "roleRaw": role_label,
+                    "sourceLine": source_line,
+                }
+                result["contributors"].append(contributor)
+
+                if normalized_role == "unknown" and source_line not in unknown_lines_seen:
+                    result["unknownRoleLines"].append(source_line)
+                    unknown_lines_seen.add(source_line)
+
+        return recognized
 
     for raw_line in description.splitlines():
         line = raw_line.strip()
+        if not line:
+            pending_role_labels = []
+            pending_unparsed_line = None
+            continue
+        if CONTENT_SECTION_HEADER_RE.fullmatch(line):
+            pending_role_labels = []
+            pending_unparsed_line = None
+            continue
         if line in load_ignored_staff_lines():
             continue
         if _is_obviously_not_staff_line(line):
@@ -298,47 +408,52 @@ def parse_staff_lines(description: str) -> Dict[str, List[Dict[str, str]]]:
         for clause in _split_inline_clauses(line):
             split_result = _split_role_and_contributor(clause)
             if split_result is None:
+                split_result = _split_known_role_prefix(clause)
+
+            if split_result is None:
+                possible_role_labels = _split_role_labels(clause.rstrip("：:"))
+                possible_roles = [normalize_role_label(label) for label in possible_role_labels]
+                if possible_role_labels and all(role not in {"unknown", "ignore"} for role in possible_roles):
+                    pending_role_labels = possible_role_labels
+                    pending_unparsed_line = None
+                    parsed_any_clause = True
+                    continue
+
+                if pending_role_labels and append_contributors(pending_role_labels, clause, line):
+                    if pending_unparsed_line in result["unparsedLines"]:
+                        result["unparsedLines"].remove(pending_unparsed_line)
+                    pending_unparsed_line = None
+                    parsed_any_clause = True
                 continue
 
             role_raw, contributor_raw = split_result
             role_raw = _clean_token(role_raw)
             if not role_raw or role_raw in SKIP_ROLE_LABELS:
                 skipped_clause = True
+                pending_role_labels = []
+                pending_unparsed_line = None
                 continue
 
             role_labels = _split_role_labels(role_raw)
-            contributor_names = _split_contributor_names(contributor_raw)
-            if not role_labels or not contributor_names:
+            if not role_labels:
                 continue
 
-            parsed_any_clause = True
-            for role_label in role_labels:
-                normalized_role = normalize_role_label(role_label)
-                if normalized_role == "ignore":
-                    skipped_clause = True
-                    continue
-                for contributor_name in contributor_names:
-                    normalized_name = normalize_staff_name(contributor_name)
-                    if not normalized_name:
-                        continue
+            normalized_roles = [normalize_role_label(label) for label in role_labels]
+            if all(role == "ignore" for role in normalized_roles):
+                skipped_clause = True
+                pending_role_labels = []
+                pending_unparsed_line = None
+                continue
 
-                    dedupe_key = (normalized_role, normalized_name, line)
-                    if dedupe_key in seen_contributors:
-                        continue
-                    seen_contributors.add(dedupe_key)
-
-                    contributor = {
-                        "name": normalized_name,
-                        "nameRaw": contributor_name,
-                        "role": normalized_role,
-                        "roleRaw": role_label,
-                        "sourceLine": line,
-                    }
-                    result["contributors"].append(contributor)
-
-                    if normalized_role == "unknown" and line not in unknown_lines_seen:
-                        result["unknownRoleLines"].append(line)
-                        unknown_lines_seen.add(line)
+            pending_role_labels = role_labels
+            if append_contributors(role_labels, contributor_raw, line):
+                pending_unparsed_line = None
+                parsed_any_clause = True
+            elif all(role != "unknown" for role in normalized_roles):
+                if line not in result["unparsedLines"]:
+                    result["unparsedLines"].append(line)
+                pending_unparsed_line = line
+                parsed_any_clause = True
 
         if not parsed_any_clause and not skipped_clause and ("：" in line or ":" in line or re.search(r"\bby\b", line, re.IGNORECASE)):
             result["unparsedLines"].append(line)
@@ -376,12 +491,11 @@ def _dedupe_contributors(contributors: List[Dict[str, str]]) -> List[Dict[str, s
 def build_video_staff(description: str) -> Dict[str, object]:
     parsed = parse_staff_lines(description)
     contributors = parsed["contributors"]
-    other_role_keys = ("illustrationAnimation", "lyricDesign", "animation", "design", "cg3d", "unknown")
 
     staff = {
         "illustrators": [],
         "pvCreators": [],
-        "otherRoles": {role_key: [] for role_key in other_role_keys},
+        "otherRoles": {role_key: [] for role_key in OTHER_ROLE_KEYS},
         "contributors": contributors,
         "unparsedLines": parsed["unparsedLines"],
         "unknownRoleLines": parsed["unknownRoleLines"],
@@ -399,18 +513,17 @@ def build_video_staff(description: str) -> Dict[str, object]:
 
     staff["illustrators"] = _dedupe_names(staff["illustrators"])
     staff["pvCreators"] = _dedupe_names(staff["pvCreators"])
-    for role_key in other_role_keys:
+    for role_key in OTHER_ROLE_KEYS:
         staff["otherRoles"][role_key] = _dedupe_names(staff["otherRoles"][role_key])
 
     return staff
 
 
 def summarize_song_staff(video_staff_list: List[Dict[str, object]]) -> Dict[str, object]:
-    other_role_keys = ("illustrationAnimation", "lyricDesign", "animation", "design", "cg3d", "unknown")
     summary = {
         "illustrators": [],
         "pvCreators": [],
-        "otherRoles": {role_key: [] for role_key in other_role_keys},
+        "otherRoles": {role_key: [] for role_key in OTHER_ROLE_KEYS},
         "allContributors": [],
     }
 
@@ -419,14 +532,14 @@ def summarize_song_staff(video_staff_list: List[Dict[str, object]]) -> Dict[str,
         summary["pvCreators"].extend(video_staff.get("pvCreators", []))
 
         other_roles = video_staff.get("otherRoles", {})
-        for role_key in other_role_keys:
+        for role_key in OTHER_ROLE_KEYS:
             summary["otherRoles"][role_key].extend(other_roles.get(role_key, []))
 
         summary["allContributors"].extend(video_staff.get("contributors", []))
 
     summary["illustrators"] = _dedupe_names(summary["illustrators"])
     summary["pvCreators"] = _dedupe_names(summary["pvCreators"])
-    for role_key in other_role_keys:
+    for role_key in OTHER_ROLE_KEYS:
         summary["otherRoles"][role_key] = _dedupe_names(summary["otherRoles"][role_key])
     summary["allContributors"] = _dedupe_contributors(summary["allContributors"])
 

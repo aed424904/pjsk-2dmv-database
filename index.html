@@ -48,6 +48,10 @@
       <button class="sidebar-clear" id="clear-filters-btn" type="button">清空筛选</button>
       <h3>团队 / 标签</h3>
       <div class="filter-group" id="tag-filters"></div>
+      <h3>歌曲类型</h3>
+      <div class="filter-group" id="song-type-filters"></div>
+      <h3>角色</h3>
+      <div class="filter-group" id="character-filters"></div>
       <h3>MV 类型</h3>
       <div class="filter-group" id="cat-filters"></div>
       <h3>歌声版本</h3>
@@ -71,7 +75,7 @@
       <div class="mobile-filter-toolbar">
         <button class="mobile-filter-trigger" id="filter-drawer-trigger" type="button" aria-controls="sidebar"
           aria-expanded="false">筛选条件 <span class="mobile-filter-count" id="active-filter-count" hidden>0</span></button>
-        <span class="mobile-filter-hint">可按团队、版本与 Staff 缩小范围</span>
+        <span class="mobile-filter-hint">可按团队、角色、歌曲类型、版本与 Staff 缩小范围</span>
       </div>
       <div class="filter-summary" id="filter-summary" aria-live="polite"></div>
       <section class="staff-stats-panel" id="staff-stats-panel">
@@ -86,9 +90,11 @@
         <div class="list-header">
           <span role="columnheader" aria-sort="ascending"><button class="sort-button" data-sort="id">ID <span class="sort-indicator" id="sort-id">▲</span></button></span>
           <span role="columnheader"><button class="sort-button" data-sort="title">歌名 <span class="sort-indicator" id="sort-title"></span></button></span>
-          <span>标签</span>
+          <span class="header-tags">标签</span>
           <span>MV类型</span>
-          <span role="columnheader" style="text-align:right"><button class="sort-button" data-sort="publishedAt">实装时间 <span class="sort-indicator"
+          <span class="header-date" role="columnheader" style="text-align:right"><button class="sort-button" data-sort="releasedAt">视频网站投稿时间 <span class="sort-indicator"
+              id="sort-releasedAt"></span></button></span>
+          <span class="header-date" role="columnheader" style="text-align:right"><button class="sort-button" data-sort="publishedAt">实装时间 <span class="sort-indicator"
               id="sort-publishedAt"></span></button></span>
           <span></span>
         </div>

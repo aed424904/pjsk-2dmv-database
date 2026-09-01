@@ -2,6 +2,8 @@ let allSongs = [];
 let filteredSongs = [];
 let activeFilters = {
   tags: new Set(),
+  songTypes: new Set(),
+  characters: new Set(),
   categories: new Set(),
   vocalTypes: new Set(),
   videoVersions: new Set(),
@@ -26,6 +28,11 @@ const TAG_CONFIG = {
   vocaloid: { label: 'V.S.', color: '#38d9e8' },
   other: { label: 'Other', color: '#868e96' },
 };
+const TEAM_TAG_KEYS = new Set(['light_music_club', 'idol', 'street', 'theme_park', 'school_refusal', 'vocaloid']);
+const SONG_TYPE_CONFIG = {
+  cover: { label: '翻唱曲' },
+  original: { label: '原创曲' },
+};
 const CAT_LABELS = { mv: '3D MV', mv_2d: '2D MV', image: 'Image', original: 'Original' };
 const VOCAL_LABELS = {
   original_song: '原唱', sekai: 'セカイ', another_vocal: 'アナザー',
@@ -49,9 +56,31 @@ const STAFF_ROLE_CONFIG = {
   animation: { label: '动画' },
   design: { label: '设计 / Logo' },
   cg3d: { label: '3DCG' },
+  direction: { label: '监督 / 演出' },
+  storyboard: { label: '分镜' },
+  compositing: { label: '摄影 / 合成' },
+  editing: { label: '剪辑' },
+  production: { label: '制片 / 制作' },
+  productionSupport: { label: '制作协力' },
+  lyricist: { label: '作词' },
+  composer: { label: '作曲' },
+  arranger: { label: '编曲' },
+  vocalist: { label: '演唱' },
+  musician: { label: '乐器演奏' },
+  mixing: { label: '混音' },
+  mastering: { label: '母带' },
+  vocalEdit: { label: 'Vocal Edit' },
+  musicProduction: { label: '音乐制作' },
   unknown: { label: '待整理' },
 };
-const STAFF_ROLE_ORDER = Object.keys(STAFF_ROLE_CONFIG);
+const STAFF_ROLE_GROUPS = [
+  { label: '视觉', roles: ['illustrator', 'pvCreator', 'illustrationAnimation', 'lyricDesign', 'design', 'cg3d'] },
+  { label: '动画与后期', roles: ['direction', 'storyboard', 'animation', 'compositing', 'editing'] },
+  { label: '制作', roles: ['production', 'productionSupport'] },
+  { label: '音乐', roles: ['lyricist', 'composer', 'arranger', 'vocalist', 'musician', 'mixing', 'mastering', 'vocalEdit', 'musicProduction'] },
+  { label: '待整理', roles: ['unknown'] },
+];
+const STAFF_ROLE_ORDER = STAFF_ROLE_GROUPS.flatMap(group => group.roles);
 
 function formatDate(ts) {
   if (!ts) return '-';
@@ -82,6 +111,21 @@ function createEmptyStaffSummary() {
       animation: [],
       design: [],
       cg3d: [],
+      direction: [],
+      storyboard: [],
+      compositing: [],
+      editing: [],
+      production: [],
+      productionSupport: [],
+      lyricist: [],
+      composer: [],
+      arranger: [],
+      vocalist: [],
+      musician: [],
+      mixing: [],
+      mastering: [],
+      vocalEdit: [],
+      musicProduction: [],
       unknown: [],
     },
     allContributors: [],
@@ -131,6 +175,35 @@ function getCharacterDisplayName(character) {
 function formatVocalCharacterNames(vocal) {
   const names = (vocal?.characters || []).map(getCharacterDisplayName).filter(Boolean);
   return names.length ? names.join(' / ') : '(无角色)';
+}
+function getCharacterKey(character) {
+  const type = character?.characterType === 'outside_character' ? 'outside_character' : 'game_character';
+  const id = Number(character?.characterId);
+  return Number.isFinite(id) ? `${type}:${id}` : '';
+}
+function getCharacterFilterLabel(key) {
+  const [type, rawId] = String(key).split(':');
+  return getCharacterDisplayName({ characterType: type, characterId: Number(rawId) });
+}
+function getSongCharacterKeys(song) {
+  const keys = new Set();
+  (song.vocals || []).forEach(vocal => {
+    (vocal.characters || []).forEach(character => {
+      const key = getCharacterKey(character);
+      if (key) keys.add(key);
+    });
+  });
+  return Array.from(keys);
+}
+function hasOnlyVirtualSingerTeam(song) {
+  const teamTags = getDisplayTags(song.tags).filter(tag => TEAM_TAG_KEYS.has(tag));
+  return teamTags.length === 1 && teamTags[0] === 'vocaloid';
+}
+function matchesTeamTagFilters(song) {
+  if (!activeFilters.tags.size) return true;
+  if (activeFilters.tags.has('vocaloid')) return hasOnlyVirtualSingerTeam(song);
+  const tags = getDisplayTags(song.tags);
+  return tags.some(tag => activeFilters.tags.has(tag));
 }
 function getStaffSummary(song) {
   return song.staffSummary || createEmptyStaffSummary();
@@ -251,6 +324,8 @@ function getAllStaffNames(song) {
 }
 function getFilterSet(type) {
   if (type === 'tag') return activeFilters.tags;
+  if (type === 'songType') return activeFilters.songTypes;
+  if (type === 'character') return activeFilters.characters;
   if (type === 'cat') return activeFilters.categories;
   if (type === 'vocal') return activeFilters.vocalTypes;
   if (type === 'version') return activeFilters.videoVersions;
@@ -280,23 +355,26 @@ function handleFileProtocolAccess() {
 }
 function buildStaffDetailSection(staff, label) {
   if (!staff) return '';
-  const staffItems = [];
-  const addRole = (roleKey, values) => {
-    if (values && values.length) {
-      staffItems.push(`<div class="detail-item"><span class="label">${STAFF_ROLE_CONFIG[roleKey].label}</span> <span class="value">${esc(values.join(' / '))}</span></div>`);
-    }
+  const getValues = roleKey => {
+    if (roleKey === 'illustrator') return staff.illustrators || [];
+    if (roleKey === 'pvCreator') return staff.pvCreators || [];
+    return staff.otherRoles?.[roleKey] || [];
   };
-  addRole('illustrator', staff.illustrators);
-  addRole('pvCreator', staff.pvCreators);
-  if (staff.otherRoles) {
-    STAFF_ROLE_ORDER.filter(k => k !== 'illustrator' && k !== 'pvCreator').forEach(roleKey => {
-      addRole(roleKey, staff.otherRoles[roleKey]);
-    });
-  }
-  if (!staffItems.length) return '';
+
+  const groupHtml = STAFF_ROLE_GROUPS.map(group => {
+    const roleItems = group.roles.map(roleKey => {
+      const values = getValues(roleKey);
+      if (!values.length) return '';
+      return `<div class="detail-item"><span class="label">${STAFF_ROLE_CONFIG[roleKey].label}</span> <span class="value">${esc(values.join(' / '))}</span></div>`;
+    }).filter(Boolean);
+    if (!roleItems.length) return '';
+    return `<div class="staff-role-group"><div class="staff-role-group-label">${esc(group.label)}</div><div class="detail-grid">${roleItems.join('')}</div></div>`;
+  }).filter(Boolean);
+
+  if (!groupHtml.length) return '';
   return `<div class="detail-section">
         <div class="detail-label">Staff${label ? ' · ' + esc(label) : ''}</div>
-        <div class="detail-grid">${staffItems.join('')}</div>
+        <div class="staff-role-groups">${groupHtml.join('')}</div>
       </div>`;
 }
 
@@ -446,9 +524,11 @@ function mergeSupplementalSongData(baseSongs, databaseV2) {
 }
 
 function renderFilters() {
-  const tagCounts = {}, catCounts = {}, vocalCounts = {}, versionCounts = {}, staffCounts = {};
+  const tagCounts = {}, songTypeCounts = {}, characterCounts = {}, catCounts = {}, vocalCounts = {}, versionCounts = {}, staffCounts = {};
   allSongs.forEach(s => {
     getDisplayTags(s.tags).forEach(t => tagCounts[t] = (tagCounts[t] || 0) + 1);
+    if (s.songType) songTypeCounts[s.songType] = (songTypeCounts[s.songType] || 0) + 1;
+    getSongCharacterKeys(s).forEach(key => characterCounts[key] = (characterCounts[key] || 0) + 1);
     (s.categories || []).forEach(c => catCounts[c] = (catCounts[c] || 0) + 1);
     (s.vocals || []).forEach(v => vocalCounts[v.musicVocalType] = (vocalCounts[v.musicVocalType] || 0) + 1);
     getSongVersionFilterKeys(s).forEach(key => versionCounts[key] = (versionCounts[key] || 0) + 1);
@@ -474,6 +554,15 @@ function renderFilters() {
   mkFilter('tag-filters',
     ['light_music_club', 'idol', 'street', 'theme_park', 'school_refusal', 'vocaloid', 'other'],
     tagCounts, TAG_CONFIG, 'tag', Object.fromEntries(Object.entries(TAG_CONFIG).map(([k, v]) => [k, v.color])));
+  mkFilter('song-type-filters', ['cover', 'original'], songTypeCounts, SONG_TYPE_CONFIG, 'songType', null);
+  const characterKeys = Object.keys(characterCounts).sort((a, b) => {
+    const [typeA, idA] = a.split(':');
+    const [typeB, idB] = b.split(':');
+    if (typeA !== typeB) return typeA === 'game_character' ? -1 : 1;
+    return Number(idA) - Number(idB);
+  });
+  const characterLabels = Object.fromEntries(characterKeys.map(key => [key, getCharacterFilterLabel(key)]));
+  mkFilter('character-filters', characterKeys, characterCounts, characterLabels, 'character', null);
   mkFilter('cat-filters', ['mv', 'mv_2d', 'image', 'original'], catCounts, CAT_LABELS, 'cat', null);
   mkFilter('vocal-filters',
     ['original_song', 'sekai', 'another_vocal', 'virtual_singer', 'instrumental', 'april_fool_2022', 'streaming_live'],
@@ -516,8 +605,8 @@ function buildDetailHtml(s) {
   const timeRows = [];
   timeRows.push(`<div class="detail-item"><span class="label">实装时间</span> <span class="value">${formatDate(s.publishedAt)}</span></div>`);
   if (dates.sekaiReleaseDate) timeRows.push(`<div class="detail-item"><span class="label">SEKAI 发布</span> <span class="value">${esc(dates.sekaiReleaseDate)}</span></div>`);
-  if (dates.youtubeUploadDate) timeRows.push(`<div class="detail-item"><span class="label">YouTube 上传</span> <span class="value">${esc(dates.youtubeUploadDate)}</span></div>`);
-  if (s.releasedAt) timeRows.push(`<div class="detail-item"><span class="label">原曲发布</span> <span class="value">${formatDate(s.releasedAt)}</span></div>`);
+  if (dates.youtubeUploadDate) timeRows.push(`<div class="detail-item"><span class="label">Project Sekai 视频上传</span> <span class="value">${esc(dates.youtubeUploadDate)}</span></div>`);
+  if (s.releasedAt) timeRows.push(`<div class="detail-item"><span class="label">视频网站投稿时间</span> <span class="value">${formatDate(s.releasedAt)}</span></div>`);
 
   // --- 游戏信息 ---
   const gameRows = [];
@@ -550,7 +639,7 @@ function buildDetailHtml(s) {
         const vTypeClass = v.type === 'original_mv' ? 'vt-original' : 'vt-official';
         const vVerLabel = v.version?.label || '';
         const vStaff = v.staff || {};
-        const vContributors = vStaff.allContributors || [];
+        const vContributors = vStaff.allContributors || vStaff.contributors || [];
         const vStaffSummary = vContributors.slice(0, 4).map(c =>
           `<span class="staff-tag">${esc(c.roleRaw || c.role)}: ${esc(c.name)}</span>`
         ).join('');
@@ -659,6 +748,7 @@ function buildRowHtml(s) {
     </div>
     <div class="song-tags">${tagsHtml}</div>
     <div class="song-categories">${catsHtml}</div>
+    <div class="song-date song-release-date">${formatDate(s.releasedAt)}</div>
     <div class="song-date">${formatDate(s.publishedAt)}</div>
     <button class="expand-arrow" type="button" aria-expanded="false" aria-label="展开歌曲 ${esc(s.title)} 的详情">▶</button>
   </div>`;
@@ -756,11 +846,18 @@ function updateFilterSummary(q) {
   const summary = document.getElementById('filter-summary');
   const labels = [];
   if (q) labels.push(`搜索：${q}`);
-  Object.values(activeFilters).forEach(values => {
+  const groups = [
+    [activeFilters.tags, value => TAG_CONFIG[value]?.label || value],
+    [activeFilters.songTypes, value => SONG_TYPE_CONFIG[value]?.label || value],
+    [activeFilters.characters, value => getCharacterFilterLabel(value)],
+    [activeFilters.categories, value => CAT_LABELS[value] || value],
+    [activeFilters.vocalTypes, value => VOCAL_LABELS[value] || value],
+    [activeFilters.videoVersions, value => VIDEO_VERSION_CONFIG[value]?.label || value],
+    [activeFilters.staffRoles, value => STAFF_ROLE_CONFIG[value]?.label || value],
+  ];
+  groups.forEach(([values, getLabel]) => {
     values.forEach(value => {
-      const label = TAG_CONFIG[value]?.label || CAT_LABELS[value] || VOCAL_LABELS[value]
-        || VIDEO_VERSION_CONFIG[value]?.label || STAFF_ROLE_CONFIG[value]?.label || value;
-      labels.push(label);
+      labels.push(getLabel(value));
     });
   });
   summary.innerHTML = labels.length
@@ -804,7 +901,12 @@ function applyFilters({ syncUrl = true } = {}) {
       const songAliases = aliasMap[s.id] || [];
       if (!fields.some(f => f.includes(q)) && !songAliases.some(a => a.toLowerCase().includes(q))) return false;
     }
-    if (activeFilters.tags.size && !getDisplayTags(s.tags).some(t => activeFilters.tags.has(t))) return false;
+    if (!matchesTeamTagFilters(s)) return false;
+    if (activeFilters.songTypes.size && !activeFilters.songTypes.has(s.songType)) return false;
+    if (activeFilters.characters.size) {
+      const characterKeys = new Set(getSongCharacterKeys(s));
+      if (![...activeFilters.characters].some(key => characterKeys.has(key))) return false;
+    }
     if (activeFilters.categories.size && !(s.categories || []).some(c => activeFilters.categories.has(c))) return false;
     if (activeFilters.vocalTypes.size && !(s.vocals || []).some(v => activeFilters.vocalTypes.has(v.musicVocalType))) return false;
     if (activeFilters.videoVersions.size) {
@@ -817,6 +919,8 @@ function applyFilters({ syncUrl = true } = {}) {
   filteredSongs.sort((a, b) => {
     let va = a[sortField], vb = b[sortField];
     if (sortField === 'title') { va = (va || '').toLowerCase(); vb = (vb || '').toLowerCase(); }
+    if (va == null && vb != null) return 1;
+    if (va != null && vb == null) return -1;
     if (va < vb) return sortAsc ? -1 : 1;
     if (va > vb) return sortAsc ? 1 : -1;
     return 0;
@@ -879,6 +983,8 @@ async function init() {
   viewerUrlState = ViewerControls.createUrlState({
     groups: [
       { param: 'tag', filterType: 'tag', set: activeFilters.tags },
+      { param: 'songType', filterType: 'songType', set: activeFilters.songTypes },
+      { param: 'character', filterType: 'character', set: activeFilters.characters },
       { param: 'cat', filterType: 'cat', set: activeFilters.categories },
       { param: 'vocal', filterType: 'vocal', set: activeFilters.vocalTypes },
       { param: 'version', filterType: 'version', set: activeFilters.videoVersions },
@@ -886,7 +992,7 @@ async function init() {
     ],
     defaultSortField: 'id',
     defaultSortAsc: true,
-    allowedSortFields: ['id', 'title', 'publishedAt'],
+    allowedSortFields: ['id', 'title', 'releasedAt', 'publishedAt'],
     getSort: () => ({ field: sortField, asc: sortAsc }),
     setSort: sort => {
       sortField = sort.field;

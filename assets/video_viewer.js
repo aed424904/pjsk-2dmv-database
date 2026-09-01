@@ -40,6 +40,39 @@ const VIDEO_VERSION_CONFIG = {
   'special:april_fool': { label: '愚人节版' },
 };
 
+const STAFF_ROLE_CONFIG = {
+  illustrator: { label: '插画师' },
+  pvCreator: { label: 'PV / 视频' },
+  illustrationAnimation: { label: '插图动画' },
+  lyricDesign: { label: '歌词设计' },
+  animation: { label: '动画' },
+  design: { label: '设计 / Logo' },
+  cg3d: { label: '3DCG' },
+  direction: { label: '监督 / 演出' },
+  storyboard: { label: '分镜' },
+  compositing: { label: '摄影 / 合成' },
+  editing: { label: '剪辑' },
+  production: { label: '制片 / 制作' },
+  productionSupport: { label: '制作协力' },
+  lyricist: { label: '作词' },
+  composer: { label: '作曲' },
+  arranger: { label: '编曲' },
+  vocalist: { label: '演唱' },
+  musician: { label: '乐器演奏' },
+  mixing: { label: '混音' },
+  mastering: { label: '母带' },
+  vocalEdit: { label: 'Vocal Edit' },
+  musicProduction: { label: '音乐制作' },
+  unknown: { label: '待整理' },
+};
+const STAFF_ROLE_GROUPS = [
+  { label: '视觉', roles: ['illustrator', 'pvCreator', 'illustrationAnimation', 'lyricDesign', 'design', 'cg3d'] },
+  { label: '动画与后期', roles: ['direction', 'storyboard', 'animation', 'compositing', 'editing'] },
+  { label: '制作', roles: ['production', 'productionSupport'] },
+  { label: '音乐', roles: ['lyricist', 'composer', 'arranger', 'vocalist', 'musician', 'mixing', 'mastering', 'vocalEdit', 'musicProduction'] },
+  { label: '待整理', roles: ['unknown'] },
+];
+
 function formatDate(ts) {
   if (!ts) return '-';
   const d = new Date(ts);
@@ -106,23 +139,23 @@ function buildVideoDetailHtml(v) {
 
   // Staff
   const staff = v.staff || {};
-  const allContributors = staff.allContributors || [];
-  const staffItems = [];
-  if (staff.illustrators && staff.illustrators.length) {
-    staffItems.push(`<div class="detail-item"><span class="label">插画</span> <span class="value">${esc(staff.illustrators.join(' / '))}</span></div>`);
-  }
-  if (staff.pvCreators && staff.pvCreators.length) {
-    staffItems.push(`<div class="detail-item"><span class="label">PV / 视频</span> <span class="value">${esc(staff.pvCreators.join(' / '))}</span></div>`);
-  }
-  if (staff.otherRoles) {
-    Object.entries(staff.otherRoles).forEach(([role, names]) => {
-      if (names && names.length) {
-        staffItems.push(`<div class="detail-item"><span class="label">${esc(role)}</span> <span class="value">${esc(names.join(' / '))}</span></div>`);
-      }
-    });
-  }
-  if (staffItems.length) {
-    sections.push(`<div class="detail-section"><div class="detail-label">Staff</div><div class="detail-grid">${staffItems.join('')}</div></div>`);
+  const allContributors = staff.allContributors || staff.contributors || [];
+  const getStaffValues = roleKey => {
+    if (roleKey === 'illustrator') return staff.illustrators || [];
+    if (roleKey === 'pvCreator') return staff.pvCreators || [];
+    return staff.otherRoles?.[roleKey] || [];
+  };
+  const staffGroups = STAFF_ROLE_GROUPS.map(group => {
+    const roleItems = group.roles.map(roleKey => {
+      const names = getStaffValues(roleKey);
+      if (!names.length) return '';
+      return `<div class="detail-item"><span class="label">${esc(STAFF_ROLE_CONFIG[roleKey].label)}</span> <span class="value">${esc(names.join(' / '))}</span></div>`;
+    }).filter(Boolean);
+    if (!roleItems.length) return '';
+    return `<div class="staff-role-group"><div class="staff-role-group-label">${esc(group.label)}</div><div class="detail-grid">${roleItems.join('')}</div></div>`;
+  }).filter(Boolean);
+  if (staffGroups.length) {
+    sections.push(`<div class="detail-section"><div class="detail-label">Staff</div><div class="staff-role-groups">${staffGroups.join('')}</div></div>`);
   }
 
   // All contributors detail

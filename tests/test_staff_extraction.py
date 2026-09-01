@@ -24,13 +24,24 @@ class StaffRoleTaxonomyTests(unittest.TestCase):
         load_role_aliases.cache_clear()
         self.assertEqual(normalize_role_label("Graphic Design"), "design")
         self.assertEqual(normalize_role_label("原画"), "animation")
-        self.assertEqual(normalize_role_label("Video Direction"), "pvCreator")
+        self.assertEqual(normalize_role_label("Video Direction"), "direction")
 
-    def test_skips_audio_credit_roles(self):
-        parsed = parse_staff_lines("Vocal: 初音ミク\nGuitar: テスト\nMix & Mastering: テスト")
+    def test_extracts_audio_credit_roles(self):
+        parsed = parse_staff_lines("Vocal: 初音ミク\nGuitar: テスト\nMix & Mastering: エンジニア")
 
-        self.assertEqual(parsed["contributors"], [])
+        self.assertEqual(
+            {item["role"] for item in parsed["contributors"]},
+            {"vocalist", "musician", "mixing", "mastering"},
+        )
         self.assertEqual(parsed["unknownRoleLines"], [])
+
+    def test_extracts_combined_lyrics_music_and_arrangement(self):
+        parsed = parse_staff_lines("作詞・作曲・編曲：Example")
+
+        self.assertEqual(
+            {item["role"] for item in parsed["contributors"]},
+            {"lyricist", "composer", "arranger"},
+        )
 
     def test_skips_roles_explicitly_mapped_to_ignore(self):
         with mock.patch("scripts.staff_extraction.load_role_aliases", return_value={"制作": "ignore"}):
@@ -77,6 +88,25 @@ class StaffLineParsingTests(unittest.TestCase):
         result = parse_staff_lines(description)
         self.assertEqual(result["contributors"][0]["name"], "ZIIEK（THINGS.）")
 
+    def test_prefers_role_delimiter_when_contributor_name_contains_by(self):
+        description = "動画：AKITO(CASANE. by THINGS.)"
+        result = parse_staff_lines(description)
+
+        self.assertEqual(result["contributors"][0]["role"], "pvCreator")
+        self.assertEqual(result["contributors"][0]["name"], "AKITO(CASANE. by THINGS.)")
+
+    def test_skips_copyright_notice_with_by_wording(self):
+        result = parse_staff_lines("(C) Craft Egg Inc. Developed by Colorful Palette")
+
+        self.assertEqual(result["contributors"], [])
+        self.assertEqual(result["unknownRoleLines"], [])
+
+    def test_duplicate_credit_line_is_not_reported_as_unparsed(self):
+        result = parse_staff_lines("背景：Studio A\n背景：Studio A")
+
+        self.assertEqual(len(result["contributors"]), 1)
+        self.assertEqual(result["unparsedLines"], [])
+
 
 class StaffComplexLineParsingTests(unittest.TestCase):
     def test_splits_combined_role_labels(self):
@@ -94,6 +124,47 @@ class StaffComplexLineParsingTests(unittest.TestCase):
         description = "イラストアニメーション：お菊"
         result = parse_staff_lines(description)
         self.assertEqual(result["contributors"][0]["role"], "illustrationAnimation")
+
+    def test_attaches_continuation_names_to_previous_role(self):
+        result = parse_staff_lines(
+            "動画：Creator A https://example.com/a\n"
+            "Creator B https://example.com/b"
+        )
+
+        self.assertEqual(
+            [item["name"] for item in result["contributors"]],
+            ["Creator A", "Creator B"],
+        )
+        self.assertTrue(all(item["role"] == "pvCreator" for item in result["contributors"]))
+
+    def test_parses_role_header_followed_by_multiple_people(self):
+        result = parse_staff_lines("作画：\n衣谷ソーシ\n長野 新平")
+
+        self.assertEqual(
+            [item["name"] for item in result["contributors"]],
+            ["衣谷ソーシ", "長野 新平"],
+        )
+        self.assertTrue(all(item["role"] == "animation" for item in result["contributors"]))
+
+    def test_parses_known_music_role_prefix_without_colon(self):
+        result = parse_staff_lines("1st Trumpet Player A")
+
+        self.assertEqual(result["contributors"][0]["role"], "musician")
+        self.assertEqual(result["contributors"][0]["name"], "Player A")
+
+    def test_does_not_treat_lyrics_body_as_lyricist_names(self):
+        result = parse_staff_lines(
+            "Lyrics: Sena Kiryuin / monii / KIRA\n"
+            "\n"
+            "LYRICS:\n"
+            "Uhuh\n"
+            "Make 'em move right now"
+        )
+
+        self.assertEqual(
+            [item["name"] for item in result["contributors"]],
+            ["Sena Kiryuin", "monii", "KIRA"],
+        )
 
 
 class VideoStaffBuilderTests(unittest.TestCase):
@@ -115,6 +186,17 @@ class VideoStaffBuilderTests(unittest.TestCase):
             "unknownRoleLines",
         }
         self.assertEqual(set(result.keys()), expected_keys)
+
+    def test_groups_music_credits_without_losing_raw_roles(self):
+        result = build_video_staff(
+            "作詞・作曲：Producer\nGuitar：Player A / Player B\nMastering：Engineer"
+        )
+
+        self.assertEqual(result["otherRoles"]["lyricist"], ["Producer"])
+        self.assertEqual(result["otherRoles"]["composer"], ["Producer"])
+        self.assertEqual(result["otherRoles"]["musician"], ["Player A", "Player B"])
+        self.assertEqual(result["otherRoles"]["mastering"], ["Engineer"])
+        self.assertTrue(any(item["roleRaw"] == "Guitar" for item in result["contributors"]))
 
 
 class SongStaffSummaryTests(unittest.TestCase):

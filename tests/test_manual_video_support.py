@@ -1,4 +1,6 @@
+import json
 import unittest
+from pathlib import Path
 
 from scripts.build_database import DatabaseBuilder
 
@@ -201,6 +203,31 @@ class ManualVideoNormalizationTests(unittest.TestCase):
 
         self.assertIsNone(music)
 
+    def test_current_title_corrections_match_recent_original_videos(self):
+        corrections_path = (
+            Path(__file__).resolve().parents[1]
+            / "manual_data"
+            / "corrections.json"
+        )
+        self.builder.corrections = json.loads(corrections_path.read_text(encoding="utf-8"))
+        self.builder.base_musics = [
+            {"id": 761, "title": "レム"},
+            {"id": 762, "title": "光"},
+            {"id": 437, "title": "JUMPIN’ OVER !"},
+        ]
+
+        cases = {
+            "レム／重音テト × flower": 761,
+            "光 feat. 初音ミク - 水野あつ": 762,
+            "JUMPIN' OVER ! / 初音ミク": 437,
+        }
+        for video_title, expected_music_id in cases.items():
+            with self.subTest(video_title=video_title):
+                song_title = self.builder.extract_song_title(video_title)
+                music = self.builder.match_sekai_music(song_title)
+                self.assertIsNotNone(music)
+                self.assertEqual(music["id"], expected_music_id)
+
 
 class ManualVideoBuildDatabaseTests(unittest.TestCase):
     def test_build_database_applies_song_title_override_before_grouping(self):
@@ -388,6 +415,67 @@ class ManualVideoBuildDatabaseTests(unittest.TestCase):
         self.assertEqual({video["videoId"] for video in song["videos"]}, {"9xRxkaRKsgE", "tjL4KK2RWgQ"})
         self.assertEqual(song["videoVersionSummary"]["bases"], ["sekai", "original"])
         self.assertEqual(song["videoVersionSummary"]["labels"], ["本家", "Vivid BAD SQUAD", "游戏3D MV"])
+
+    def test_build_database_groups_title_variants_by_sekai_music_id(self):
+        builder = DatabaseBuilder(".")
+        builder.corrections = {}
+        builder.youtube_source_name = "playlist_videos_test.json"
+        builder.youtube_data = {
+            "videos": [
+                {
+                    "videoId": "AbCdEfGhI12",
+                    "url": "https://www.youtube.com/watch?v=AbCdEfGhI12",
+                    "title": "チームメイト / MORE MORE JUMP！ × 初音ミク",
+                    "description": "",
+                    "channelTitle": builder.OFFICIAL_CHANNEL_TITLE,
+                    "channelId": builder.OFFICIAL_CHANNEL_ID,
+                    "publishedAt": "2026-04-21T08:00:00Z",
+                    "thumbnails": builder.build_youtube_thumbnails("AbCdEfGhI12"),
+                    "position": 1,
+                    "sourceKey": "official_2dmv",
+                },
+                {
+                    "videoId": "ZyXwVuTsRq9",
+                    "url": "https://www.youtube.com/watch?v=ZyXwVuTsRq9",
+                    "title": "チームメイト／HoneyWorks feat.初音ミク",
+                    "description": "",
+                    "channelTitle": "HoneyWorks OFFICIAL",
+                    "channelId": "test-channel",
+                    "publishedAt": "2026-04-22T08:00:00Z",
+                    "thumbnails": builder.build_youtube_thumbnails("ZyXwVuTsRq9"),
+                    "position": 2,
+                    "sourceKey": "commissioned_original_mv",
+                },
+            ]
+        }
+        builder.base_musics = [
+            {
+                "id": 374,
+                "title": "チームメイト",
+                "categories": ["mv_2d"],
+                "unitTags": ["idol"],
+                "units": ["MORE MORE JUMP!"],
+                "publishedAt": "2023-07-29 15:00:00",
+            }
+        ]
+        builder.sekai_musics = []
+        builder.sekai_music_tags = []
+        builder.sekai_units = []
+        builder.aliases = {}
+        builder.manual_videos = []
+        builder.original_video_overrides = {}
+
+        database = builder.build_database()
+
+        self.assertEqual(len(database["songs"]), 1)
+        self.assertEqual(database["metadata"]["stats"]["matchedSekai"], 1)
+        song = database["songs"][0]
+        self.assertEqual(song["title"], "チームメイト")
+        self.assertEqual(song["sekaiMusicId"], 374)
+        self.assertEqual(
+            {video["videoId"] for video in song["videos"]},
+            {"AbCdEfGhI12", "ZyXwVuTsRq9"},
+        )
 
     def test_build_database_summarizes_song_video_versions(self):
         builder = DatabaseBuilder(".")

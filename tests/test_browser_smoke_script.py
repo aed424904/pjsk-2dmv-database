@@ -42,6 +42,13 @@ class BrowserSmokeScriptTests(unittest.TestCase):
             "Noto Sans SC",
             "songTitlesOverflowing",
             "staff-review-mobile-queue.png",
+            "video-staff-groups.png",
+            "output/staff_review.json",
+            "expectedReviewStats",
+            "releasedAt",
+            "character-filters",
+            "song-type-filters",
+            "hasOnlyVirtualSingerTeam",
         ):
             with self.subTest(marker=marker):
                 self.assertIn(marker, script)

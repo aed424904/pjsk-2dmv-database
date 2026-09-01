@@ -162,8 +162,63 @@ async function checkSongViewer(browser, baseUrl) {
     await row.click();
     assert(await row.locator('.expand-arrow').getAttribute('aria-expanded') === 'true', '歌曲详情未展开');
     assert(await page.locator('.song-detail').count() === 1, '歌曲详情节点数异常');
+
+    await page.goto(`${baseUrl}/index.html`, { waitUntil: 'domcontentloaded' });
+    await waitForNumericText(page, '#stat-total', 700, '歌曲页筛选检查');
+    const expected = await page.evaluate(async () => {
+      const songs = await (await fetch('output/combined_music_data.json', { cache: 'no-store' })).json();
+      const teamTags = new Set(['light_music_club', 'idol', 'street', 'theme_park', 'school_refusal', 'vocaloid']);
+      return {
+        virtualSingerOnly: songs.filter(song => {
+          const units = (song.tags || []).filter(tag => teamTags.has(tag));
+          return units.length === 1 && units[0] === 'vocaloid';
+        }).length,
+        original: songs.filter(song => song.songType === 'original').length,
+        cover: songs.filter(song => song.songType === 'cover').length,
+        miku: songs.filter(song => (song.vocals || []).some(vocal => (
+          (vocal.characters || []).some(character => (
+            character.characterType === 'game_character' && Number(character.characterId) === 21
+          ))
+        ))).length,
+      };
+    });
+
+    await page.locator('.sort-button[data-sort="releasedAt"]').click();
+    assert(new URL(page.url()).searchParams.get('sort') === 'releasedAt', '投稿时间排序字段未写入 URL');
+    assert(await page.locator('#sort-releasedAt').textContent() === '▲', '投稿时间升序指示未更新');
+    const publicationDates = await page.locator('.song-release-date').evaluateAll(items => items.slice(0, 10).map(item => item.textContent.trim()));
+    assert(publicationDates.every((date, index) => index === 0 || publicationDates[index - 1] <= date), `投稿时间未按升序排列：${publicationDates.join(',')}`);
+
+    const vsFilter = page.locator('#tag-filters [data-filter="tag"][data-value="vocaloid"]');
+    await vsFilter.click();
+    await page.waitForFunction(count => Number(document.querySelector('#stat-filtered')?.textContent) === count, expected.virtualSingerOnly);
+    assert(await page.evaluate(() => typeof hasOnlyVirtualSingerTeam === 'function'), 'V.S. 精确筛选逻辑未加载');
+    const visibleTeamLabels = await page.locator('.song-row .song-tags').evaluateAll(items => items.map(item => (
+      [...item.querySelectorAll('.tag')].map(tag => tag.textContent.trim())
+    )));
+    assert(visibleTeamLabels.every(labels => labels.length === 1 && labels[0] === 'V.S.'), 'V.S. 筛选包含了其他团队歌曲');
+    await vsFilter.click();
+
+    const songTypeFilter = page.locator('#song-type-filters [data-filter="songType"][data-value="original"]');
+    await songTypeFilter.click();
+    await page.waitForFunction(count => Number(document.querySelector('#stat-filtered')?.textContent) === count, expected.original);
+    assert(new URL(page.url()).searchParams.get('songType') === 'original', '歌曲类型筛选未写入 URL');
+    await songTypeFilter.click();
+    const coverFilter = page.locator('#song-type-filters [data-filter="songType"][data-value="cover"]');
+    await coverFilter.click();
+    await page.waitForFunction(count => Number(document.querySelector('#stat-filtered')?.textContent) === count, expected.cover);
+    await coverFilter.click();
+
+    const characterFilter = page.locator('#character-filters [data-filter="character"][data-value="game_character:21"]');
+    await characterFilter.click();
+    await page.waitForFunction(count => Number(document.querySelector('#stat-filtered')?.textContent) === count, expected.miku);
+    assert(new URL(page.url()).searchParams.get('character') === 'game_character:21', '单角色筛选未写入 URL');
+    if (process.env.PROJECT_SEKAI_SCREENSHOTS === '1') {
+      mkdirSync(SCREENSHOT_ROOT, { recursive: true });
+      await page.screenshot({ path: resolve(SCREENSHOT_ROOT, 'song-type-character-filters.png'), fullPage: false });
+    }
     assert(errors.length === 0, errors.join('\n'));
-    return { total, matchedTitle };
+    return { total, matchedTitle, expected, publicationDates };
   } finally {
     await page.close();
   }
@@ -185,8 +240,14 @@ async function checkVideoViewer(browser, baseUrl) {
     await page.keyboard.press('Enter');
     assert(await row.getAttribute('aria-expanded') === 'true', '视频详情未展开');
     assert(await page.locator('.video-detail').count() === 1, '视频详情节点数异常');
+    const staffGroupLabels = await page.locator('.video-detail .staff-role-group-label').allTextContents();
+    assert(staffGroupLabels.includes('音乐'), `视频详情缺少音乐 Staff 分组：${staffGroupLabels.join('/')}`);
+    if (process.env.PROJECT_SEKAI_SCREENSHOTS === '1') {
+      mkdirSync(SCREENSHOT_ROOT, { recursive: true });
+      await page.locator('.video-detail').screenshot({ path: resolve(SCREENSHOT_ROOT, 'video-staff-groups.png') });
+    }
     assert(errors.length === 0, errors.join('\n'));
-    return { total, filtered: 2 };
+    return { total, filtered: 2, staffGroupLabels };
   } finally {
     await page.close();
   }
@@ -219,10 +280,30 @@ async function checkStaffReviewEditor(browser, baseUrl) {
   const errors = collectErrors(page, baseUrl);
   try {
     await page.goto(`${baseUrl}/editor.html?tab=staff`, { waitUntil: 'domcontentloaded' });
-    const reviewRecords = await waitForNumericText(page, '#stat-staff-records', 200, 'Staff 复核');
+    const expectedReviewStats = await page.evaluate(async () => {
+      const response = await fetch('output/staff_review.json', { cache: 'no-store' });
+      const rows = await response.json();
+      return {
+        records: rows.length,
+        unknownLines: rows.reduce((total, row) => total + (row.unknownRoleLines || []).length, 0),
+        unparsedLines: rows.reduce((total, row) => total + (row.unparsedLines || []).length, 0),
+      };
+    });
+    assert(expectedReviewStats.records > 0, 'Staff 复核样本为空，无法执行编辑器交互烟测');
+    await page.waitForFunction(expected => (
+      Number(document.querySelector('#stat-staff-records')?.textContent) === expected.records
+      && Number(document.querySelector('#stat-staff-unknown')?.textContent) === expected.unknownLines
+      && Number(document.querySelector('#stat-staff-unparsed')?.textContent) === expected.unparsedLines
+    ), expectedReviewStats);
+    const reviewRecords = Number(await page.locator('#stat-staff-records').textContent());
     const unknownLines = Number(await page.locator('#stat-staff-unknown').textContent());
     const unparsedLines = Number(await page.locator('#stat-staff-unparsed').textContent());
-    assert(unknownLines >= 400 && unparsedLines >= 600, `Staff 审计统计异常：${unknownLines}/${unparsedLines}`);
+    assert(
+      reviewRecords === expectedReviewStats.records
+        && unknownLines === expectedReviewStats.unknownLines
+        && unparsedLines === expectedReviewStats.unparsedLines,
+      `Staff 审计统计与 JSON 不一致：${reviewRecords}/${unknownLines}/${unparsedLines}`,
+    );
     assert(new URL(page.url()).searchParams.get('tab') === 'staff', 'Staff 标签未由 URL 激活');
 
     const desktopReadingState = await page.evaluate(() => {
@@ -248,25 +329,27 @@ async function checkStaffReviewEditor(browser, baseUrl) {
     assert(desktopReadingState.issueFontSize >= 15 && desktopReadingState.sourceFontSize >= 14, 'Staff 核心文字未放大');
     assert(desktopReadingState.inputHeight >= 48, `Staff 输入控件过矮：${desktopReadingState.inputHeight}`);
 
-    await page.locator('#staff-review-search').fill('天秤、指先で触れて');
-    const illustrationIssue = page.locator('.staff-issue-card').filter({ hasText: '■絵：房野聖' }).first();
-    await illustrationIssue.click();
-    assert(await page.locator('#staff-role-raw').inputValue() === '■絵', 'Staff 候选角色提取错误');
+    const roleIssue = page.locator('.staff-issue-card').filter({ has: page.locator('.staff-candidate') }).first();
+    await roleIssue.click();
+    const candidateRole = await page.locator('#staff-role-raw').inputValue();
+    assert(candidateRole.length > 0, 'Staff 未能从未知职位中提取候选角色');
     await page.locator('#staff-role-value').selectOption('illustrator');
     await page.locator('#staff-save-role-btn').click();
     await page.waitForFunction(() => Number(document.querySelector('#stat-staff-fixes')?.textContent) === 1);
-    assert(await page.locator('#staff-correction-list').getByText('■絵', { exact: true }).count() >= 1, '角色映射未进入维护规则');
+    assert(await page.locator('#staff-correction-list').getByText(candidateRole, { exact: true }).count() >= 1, '角色映射未进入维护规则');
 
-    const unparsedIssue = page.locator('.staff-issue-card').filter({ hasText: 'X(旧twitter)' }).first();
+    await page.locator('#staff-kind-filter').selectOption('unparsed');
+    const unparsedIssue = page.locator('.staff-issue-card').first();
     await unparsedIssue.click();
+    const ignoredLine = await page.locator('.staff-source-block code').textContent();
     await page.locator('#staff-toggle-ignore-btn').click();
     await page.waitForFunction(() => Number(document.querySelector('#stat-staff-fixes')?.textContent) === 2);
-    assert(await page.locator('#staff-correction-list').getByText(/X\(旧twitter\)/).count() >= 1, '忽略原文未进入维护规则');
+    assert(await page.locator('#staff-correction-list').getByText(ignoredLine, { exact: true }).count() >= 1, '忽略原文未进入维护规则');
 
     await page.locator('#tab-alias').click();
     await page.locator('#tab-staff').click();
     assert(Number(await page.locator('#stat-staff-fixes').textContent()) === 2, '标签切换后 Staff 修正草稿丢失');
-    assert(await page.locator('#staff-correction-list').getByText('■絵', { exact: true }).count() >= 1, '标签切换后角色映射丢失');
+    assert(await page.locator('#staff-correction-list').getByText(candidateRole, { exact: true }).count() >= 1, '标签切换后角色映射丢失');
 
     if (process.env.PROJECT_SEKAI_SCREENSHOTS === '1') {
       mkdirSync(SCREENSHOT_ROOT, { recursive: true });
@@ -276,6 +359,7 @@ async function checkStaffReviewEditor(browser, baseUrl) {
     }
 
     await page.locator('#staff-review-search').fill('');
+    await page.locator('#staff-kind-filter').selectOption('all');
     await page.setViewportSize({ width: 468, height: 878 });
     const mobileQueueState = await page.evaluate(() => {
       const songTitles = [...document.querySelectorAll('.staff-issue-song')];

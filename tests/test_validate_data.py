@@ -84,6 +84,25 @@ class DataValidatorTests(unittest.TestCase):
         finally:
             shutil.rmtree(base_path, ignore_errors=True)
 
+    def test_duplicate_sekai_music_id_fails_validation(self):
+        base_path = Path.cwd() / "tests" / "_tmp" / f"validator_{uuid.uuid4().hex}"
+        try:
+            database = self.valid_database()
+            duplicate_song = dict(database["songs"][0])
+            duplicate_song["id"] = "song_duplicate"
+            duplicate_song["title"] = "duplicate"
+            duplicate_song["videos"] = []
+            database["songs"].append(duplicate_song)
+            database["metadata"]["stats"]["totalSongs"] = 2
+            database["metadata"]["stats"]["unitBreakdown"] = {"Virtual Singer": 2}
+            database_path = self.write_database(base_path, database)
+
+            validator = DataValidator(str(database_path))
+            self.assertFalse(validator.validate())
+            self.assertTrue(any("Sekai Music ID" in error for error in validator.errors))
+        finally:
+            shutil.rmtree(base_path, ignore_errors=True)
+
     def test_non_youtube_video_url_fails_validation(self):
         base_path = Path.cwd() / "tests" / "_tmp" / f"validator_{uuid.uuid4().hex}"
         try:

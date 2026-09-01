@@ -45,6 +45,29 @@ class ViewerAssetTests(unittest.TestCase):
         self.assertIn("fetch('output/database_v2.json'", script)
         self.assertTrue(script.rstrip().endswith("init();"))
 
+    def test_staff_views_group_and_label_music_credits(self):
+        song_script = (BASE_PATH / "assets" / "index.js").read_text(encoding="utf-8")
+        video_script = (BASE_PATH / "assets" / "video_viewer.js").read_text(encoding="utf-8")
+
+        for script in (song_script, video_script):
+            self.assertIn("STAFF_ROLE_GROUPS", script)
+            self.assertIn("lyricist", script)
+            self.assertIn("composer", script)
+            self.assertIn("mastering", script)
+            self.assertIn("音乐", script)
+
+    def test_song_viewer_supports_publication_sort_and_fine_grained_filters(self):
+        html = (BASE_PATH / "index.html").read_text(encoding="utf-8")
+        script = (BASE_PATH / "assets" / "index.js").read_text(encoding="utf-8")
+
+        self.assertIn('data-sort="releasedAt"', html)
+        self.assertIn('id="character-filters"', html)
+        self.assertIn('id="song-type-filters"', html)
+        self.assertIn("function hasOnlyVirtualSingerTeam", script)
+        self.assertIn("function getSongCharacterKeys", script)
+        self.assertIn("SONG_TYPE_CONFIG", script)
+        self.assertIn("'releasedAt'", script)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -9,7 +9,22 @@ const StaffReviewEditor = (function() {
     ['animation', '动画'],
     ['design', '视觉设计'],
     ['cg3d', '3D / CG'],
-    ['ignore', '忽略（非视觉 Staff）'],
+    ['direction', '监督 / 演出'],
+    ['storyboard', '分镜'],
+    ['compositing', '摄影 / 合成'],
+    ['editing', '剪辑'],
+    ['production', '制片 / 制作'],
+    ['productionSupport', '制作协力'],
+    ['lyricist', '作词'],
+    ['composer', '作曲'],
+    ['arranger', '编曲'],
+    ['vocalist', '演唱'],
+    ['musician', '乐器演奏'],
+    ['mixing', '混音'],
+    ['mastering', '母带'],
+    ['vocalEdit', 'Vocal Edit'],
+    ['musicProduction', '音乐制作'],
+    ['ignore', '忽略（非 Staff / 链接）'],
   ];
   const ROLE_LABELS = Object.fromEntries(ROLE_OPTIONS);
 

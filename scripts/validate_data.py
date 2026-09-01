@@ -84,6 +84,7 @@ class DataValidator:
         print("[CHECK] 验证歌曲数据...")
 
         song_ids = set()
+        sekai_music_ids = set()
         for idx, song in enumerate(self.database.get('songs', [])):
             if not isinstance(song, dict):
                 self.errors.append(f"歌曲 #{idx} 必须是对象")
@@ -101,6 +102,12 @@ class DataValidator:
             if song_id in song_ids:
                 self.errors.append(f"重复的歌曲 ID: {song_id}")
             song_ids.add(song_id)
+
+            sekai_music_id = song.get('sekaiMusicId')
+            if sekai_music_id is not None:
+                if sekai_music_id in sekai_music_ids:
+                    self.errors.append(f"重复的 Sekai Music ID: {sekai_music_id}")
+                sekai_music_ids.add(sekai_music_id)
 
             if not isinstance(song.get('title'), str) or not song.get('title', '').strip():
                 self.errors.append(f"歌曲 {song_id} 的 title 必须是非空字符串")
