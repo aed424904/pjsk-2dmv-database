@@ -1,0 +1,4441 @@
+{
+  "metadata": {
+    "fetchedAt": "2026-09-03T02:52:14.443508",
+    "status": "complete",
+    "totalVideos": 170,
+    "fetchMethod": "yt-dlp",
+    "sourceKey": "commissioned_original_mv",
+    "sourceName": "书下曲本家 MV Playlist",
+    "sourceKind": "playlist",
+    "sourceUrl": "https://www.youtube.com/playlist?list=PLiFNg5fXiX32p4RMMDCUpjVEwXOnqyTj_",
+    "videoType": "original_mv",
+    "versionBase": "original",
+    "versionSpecial": [],
+    "extractors": [
+      "performers",
+      "staff"
+    ]
+  },
+  "videos": [
+    {
+      "videoId": "pfT4CQfQFsk",
+      "url": "https://www.youtube.com/watch?v=pfT4CQfQFsk",
+      "title": "【初音ミク】アンチサイノウ【syudou】",
+      "description": "",
+      "channelTitle": "syudou",
+      "channelId": "UCraC7460yGQF4GDmSjCecpQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 0,
+      "duration": 204,
+      "viewCount": 204000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "RIItBfZ6S3Q",
+      "url": "https://www.youtube.com/watch?v=RIItBfZ6S3Q",
+      "title": "スターダストレイン　/　miku",
+      "description": "",
+      "channelTitle": "STEAKA",
+      "channelId": "UCUqXRp0gbx0DiWXOY4D1xQw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 1,
+      "duration": 120,
+      "viewCount": 157000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "MSVNeSQQMMY",
+      "url": "https://www.youtube.com/watch?v=MSVNeSQQMMY",
+      "title": "天秤、指先で触れて / 卯花ロク ft.初音ミク",
+      "description": "",
+      "channelTitle": "卯花ロク",
+      "channelId": "UCTVHI4WCdd6QmWb5Iw6JdVA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 2,
+      "duration": 238,
+      "viewCount": 47000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "0Ccd0JdqEo4",
+      "url": "https://www.youtube.com/watch?v=0Ccd0JdqEo4",
+      "title": "レム／重音テト × flower",
+      "description": "",
+      "channelTitle": "須田景凪 バルーン",
+      "channelId": "UC3Bjw_Ek1FTbhEKZsh9uo1w",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 3,
+      "duration": 161,
+      "viewCount": 422000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "zVi96Fs1G1c",
+      "url": "https://www.youtube.com/watch?v=zVi96Fs1G1c",
+      "title": "旅に帰る / 初音ミク&重音テトSV",
+      "description": "",
+      "channelTitle": "Iori Kanzaki",
+      "channelId": "UCv1KOiaRusvqOR4BrT9Sh8w",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 4,
+      "duration": 211,
+      "viewCount": 121000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "G9Qs6ljjHVo",
+      "url": "https://www.youtube.com/watch?v=G9Qs6ljjHVo",
+      "title": "光 feat. 初音ミク - 水野あつ",
+      "description": "",
+      "channelTitle": "水野あつ",
+      "channelId": "UCBn41FlxHaINjQuaIfzRZbQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 5,
+      "duration": 258,
+      "viewCount": 66000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "p1BHscS8O5w",
+      "url": "https://www.youtube.com/watch?v=p1BHscS8O5w",
+      "title": "Gimme more! / Mellowcle feat. Miku Hatsune, Rin Kagamine, Luka Megurine, MEIKO",
+      "description": "",
+      "channelTitle": "めろくる",
+      "channelId": "UCX5aTMDjqpR3nkt-XpuftLg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 6,
+      "duration": 178,
+      "viewCount": 99000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "Jf3TxUsgJTU",
+      "url": "https://www.youtube.com/watch?v=Jf3TxUsgJTU",
+      "title": "『オールイン・ワン』- 重音テト × 和田たけあき",
+      "description": "",
+      "channelTitle": "和田たけあき",
+      "channelId": "UC7BYDRV-l741zjSUcyLT_cQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 7,
+      "duration": 286,
+      "viewCount": 147000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "tbeV4Xb3kD8",
+      "url": "https://www.youtube.com/watch?v=tbeV4Xb3kD8",
+      "title": "星に一番近い場所 feat.鏡音レン, 鏡音リン / TOKOTOKO（西沢さんP）",
+      "description": "",
+      "channelTitle": "TOKOTOKO / 西沢さんP / zawaso Official",
+      "channelId": "",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 8,
+      "duration": 200,
+      "viewCount": 140000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "csDLDFadvlI",
+      "url": "https://www.youtube.com/watch?v=csDLDFadvlI",
+      "title": "月詠み『世界の歩き方』Music Video",
+      "description": "",
+      "channelTitle": "ユリイ・カノン / 月詠み Official",
+      "channelId": "UC2OgzdgLQ7vxlANVxF3kgvg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 9,
+      "duration": 194,
+      "viewCount": 1000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "MS1JmGKrdFo",
+      "url": "https://www.youtube.com/watch?v=MS1JmGKrdFo",
+      "title": "初音ミク, 遼遼『羽歌』MV - Soar",
+      "description": "",
+      "channelTitle": "遼遼",
+      "channelId": "UCRFL7bVj2c6viEX5RlqRWGg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 10,
+      "duration": 172,
+      "viewCount": 340000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "FRSfnD3k_ts",
+      "url": "https://www.youtube.com/watch?v=FRSfnD3k_ts",
+      "title": "「ドリーマーズビート」40mP feat.初音ミク",
+      "description": "",
+      "channelTitle": "40meterP",
+      "channelId": "UCG09qajPDZdPtLsTkW7mJQA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 11,
+      "duration": 239,
+      "viewCount": 188000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "69MN_xQnwU0",
+      "url": "https://www.youtube.com/watch?v=69MN_xQnwU0",
+      "title": "Polar Star/烏屋茶房feat.鏡音レン 鏡音リン",
+      "description": "",
+      "channelTitle": "烏屋茶房（カラスヤサボウ）",
+      "channelId": "UC2FNanB0hlrsLtsnufAV1cA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 12,
+      "duration": 186,
+      "viewCount": 71000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "tjL4KK2RWgQ",
+      "url": "https://www.youtube.com/watch?v=tjL4KK2RWgQ",
+      "title": "KIRA - CRASH THE PARTY ft. Hatsune Miku, Kasane Teto, GUMI (Official MV)",
+      "description": "",
+      "channelTitle": "KIRA",
+      "channelId": "UCDxS8VeAQhnHJc6B5jE3KHg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 13,
+      "duration": 193,
+      "viewCount": 1400000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "hfY9-ROVfvg",
+      "url": "https://www.youtube.com/watch?v=hfY9-ROVfvg",
+      "title": "カラフルファンデーション feat.初音ミク 【プロジェクトセカイ】",
+      "description": "",
+      "channelTitle": "mikitoP  Official",
+      "channelId": "UCBR4N5DkgDt3PLTcfJB1iiw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 14,
+      "duration": 173,
+      "viewCount": 86000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "eu3yoLa3dgs",
+      "url": "https://www.youtube.com/watch?v=eu3yoLa3dgs",
+      "title": "Puppet / Miku Hatsune",
+      "description": "",
+      "channelTitle": "獅子志司",
+      "channelId": "UCihQ9WPpwc-fZ9lz3ZjAYnA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 15,
+      "duration": 193,
+      "viewCount": 406000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "Ficg3iAOUp8",
+      "url": "https://www.youtube.com/watch?v=Ficg3iAOUp8",
+      "title": "CONFESSION / KAFU",
+      "description": "",
+      "channelTitle": "内緒のピアス",
+      "channelId": "UC7C8glg8Yvwy3d0w7mU76Cg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 16,
+      "duration": 174,
+      "viewCount": 1800000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "MlTQUSFr-gw",
+      "url": "https://www.youtube.com/watch?v=MlTQUSFr-gw",
+      "title": "幸福刑 - LonePi feat.初音ミク",
+      "description": "",
+      "channelTitle": "LonePi",
+      "channelId": "UC_FFb9bWEj0Bbdlnp5SFPIg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 17,
+      "duration": 233,
+      "viewCount": 3900000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "Eb6iBq0zNZg",
+      "url": "https://www.youtube.com/watch?v=Eb6iBq0zNZg",
+      "title": "Beyond ! Wonderpyoi(とびだせ！わんだぴょい）  / namigroove feat. Zundamon Kagamine Rin",
+      "description": "",
+      "channelTitle": "なみぐる - namigroove",
+      "channelId": "UCRu9LBf2hAp7saEYYQZFFTQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 18,
+      "duration": 123,
+      "viewCount": 219000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "YMv2bRs25mQ",
+      "url": "https://www.youtube.com/watch?v=YMv2bRs25mQ",
+      "title": "その絵の名前は / 蝶々P feat. 初音ミク",
+      "description": "",
+      "channelTitle": "蝶々P / 一之瀬ユウ",
+      "channelId": "UCCejN_rqhLnQt2uEM6v-uug",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 19,
+      "duration": 267,
+      "viewCount": 131000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "BTsrA2SRqhk",
+      "url": "https://www.youtube.com/watch?v=BTsrA2SRqhk",
+      "title": "余花にみとれて / keeno feat. 初音ミク",
+      "description": "",
+      "channelTitle": "keeno official",
+      "channelId": "UCFn6QNMs31x6hv0CIEyAYiw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 20,
+      "duration": 284,
+      "viewCount": 489000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "3l45Dz5wzh8",
+      "url": "https://www.youtube.com/watch?v=3l45Dz5wzh8",
+      "title": "このまんまでいこう / 初音ミク＆巡音ルカ",
+      "description": "",
+      "channelTitle": "HomingEcho",
+      "channelId": "",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 21,
+      "duration": 244,
+      "viewCount": 79000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "nOtWU5MRiTU",
+      "url": "https://www.youtube.com/watch?v=nOtWU5MRiTU",
+      "title": "【公式】 ネクラチューンサーカス／かいりきベア feat.初音ミク",
+      "description": "",
+      "channelTitle": "かいりきベア／Kairiki bear",
+      "channelId": "UCp13SxKXbhCS0lb6Ty774iQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 22,
+      "duration": 126,
+      "viewCount": 1300000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "PkGyhX2HhQY",
+      "url": "https://www.youtube.com/watch?v=PkGyhX2HhQY",
+      "title": "ファイター / jon-YAKITORY feat.初音ミク - Fighter(Official MV)",
+      "description": "",
+      "channelTitle": "jon -YAKITORY",
+      "channelId": "UCENRrmGuopCcwwi2jW00LDQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 23,
+      "duration": 226,
+      "viewCount": 123000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "Q7k_ZNjZS94",
+      "url": "https://www.youtube.com/watch?v=Q7k_ZNjZS94",
+      "title": "透明なパレット feat. 初音ミク / Aqu3ra",
+      "description": "",
+      "channelTitle": "Aqu3ra",
+      "channelId": "UCT5ZYc0Whk1NX_Fdvlm1baw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 24,
+      "duration": 183,
+      "viewCount": 486000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "Wu8WtrTCX-Q",
+      "url": "https://www.youtube.com/watch?v=Wu8WtrTCX-Q",
+      "title": "Flower Knot／Flower＆Kasane Teto SV",
+      "description": "",
+      "channelTitle": "栗山夕璃",
+      "channelId": "UChOF_ryuu0huXTPeyxlpfSQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 25,
+      "duration": 167,
+      "viewCount": 1000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "0cY4qgR5e9w",
+      "url": "https://www.youtube.com/watch?v=0cY4qgR5e9w",
+      "title": "征け / せきこみごはん feat. 鏡音リン・鏡音レン",
+      "description": "",
+      "channelTitle": "せきこみごはん / Uka",
+      "channelId": "UCJi3Y_xAC89swjGFxGGXMJg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 26,
+      "duration": 174,
+      "viewCount": 354000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "xJYdM-NugcE",
+      "url": "https://www.youtube.com/watch?v=xJYdM-NugcE",
+      "title": "あなたの空が泣くのなら/初音ミク",
+      "description": "",
+      "channelTitle": "ユジー Yuzy OFFICIAL",
+      "channelId": "UCZcREkbIN9Yhpfhuetkq1xw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 27,
+      "duration": 256,
+      "viewCount": 119000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "TbakFPc4ZTw",
+      "url": "https://www.youtube.com/watch?v=TbakFPc4ZTw",
+      "title": "怪獣になりたい / Sakuzyo feat. 初音ミク 【プロジェクトセカイChampionship 2025】【MV】",
+      "description": "",
+      "channelTitle": "Sakuzyo Official",
+      "channelId": "UC58hIFa6J8zRm3dKg7exQ2Q",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 28,
+      "duration": 125,
+      "viewCount": 9100000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "6p6QKhvKkVw",
+      "url": "https://www.youtube.com/watch?v=6p6QKhvKkVw",
+      "title": "スター / 初音ミク・巡音ルカ・鏡音リン・鏡音レン・MEIKO・KAITO",
+      "description": "",
+      "channelTitle": "大漠波新",
+      "channelId": "UC80ttKvARb7Gslo7AgPOZeA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 29,
+      "duration": 303,
+      "viewCount": 863000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "JXbb-_ScjSY",
+      "url": "https://www.youtube.com/watch?v=JXbb-_ScjSY",
+      "title": "【初音ミク × flower】ペンタトニック【syudou × バルーン】",
+      "description": "",
+      "channelTitle": "syudou",
+      "channelId": "UCraC7460yGQF4GDmSjCecpQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 30,
+      "duration": 213,
+      "viewCount": 1600000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "y8sa2X_aZXQ",
+      "url": "https://www.youtube.com/watch?v=y8sa2X_aZXQ",
+      "title": "大沼パセリ -  飾って / Parsley Onuma - Embellish",
+      "description": "",
+      "channelTitle": "大沼パセリ",
+      "channelId": "UCiOOc3UicP_PG1_F2NPs2Ig",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 31,
+      "duration": 222,
+      "viewCount": 341000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "0GnVdv2q3jM",
+      "url": "https://www.youtube.com/watch?v=0GnVdv2q3jM",
+      "title": "サヨナラ天国また来て地獄 / 初音ミク",
+      "description": "",
+      "channelTitle": "john / TOOBOE",
+      "channelId": "UC9rPALOT-ZVc7VEXATYSNCA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 32,
+      "duration": 172,
+      "viewCount": 452000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "Pr4OUUAXbZI",
+      "url": "https://www.youtube.com/watch?v=Pr4OUUAXbZI",
+      "title": "ぬゆり - アイリッド / flower : EYELID",
+      "description": "",
+      "channelTitle": "Lanndo / ぬゆり Official",
+      "channelId": "UCTpvP62LES9r-5xyxZBsUWg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 33,
+      "duration": 188,
+      "viewCount": 632000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "qkAKmANIHDs",
+      "url": "https://www.youtube.com/watch?v=qkAKmANIHDs",
+      "title": "アクセラレイト - 初音ミク[吉田夜世]",
+      "description": "",
+      "channelTitle": "吉田夜世",
+      "channelId": "UCzTwIedETJq-dLqAhieCm2A",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 34,
+      "duration": 191,
+      "viewCount": 345000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "4_OZvsjqJGY",
+      "url": "https://www.youtube.com/watch?v=4_OZvsjqJGY",
+      "title": "Our True Story - Noboru feat. Hatsune Miku, Natsuki Karin, Otomachi Una, GUMI",
+      "description": "",
+      "channelTitle": "Noboru",
+      "channelId": "UCl2BybuWtxg09OjzdCHMjUQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 35,
+      "duration": 225,
+      "viewCount": 223000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "T1K831KdL1o",
+      "url": "https://www.youtube.com/watch?v=T1K831KdL1o",
+      "title": "Guiano - 光線歌 (feat.重音テト)",
+      "description": "",
+      "channelTitle": "Guiano",
+      "channelId": "UCAwt148qKLXzPF3LHfN76Bw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 36,
+      "duration": 243,
+      "viewCount": 1600000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "WfEY62WVPCc",
+      "url": "https://www.youtube.com/watch?v=WfEY62WVPCc",
+      "title": "イレヴンス - ポリスピカデリー feat. 初音ミク",
+      "description": "",
+      "channelTitle": "ポリスピカデリー / Police Piccadilly",
+      "channelId": "UCDOTPjUW-NhQMDmYbgMvQKA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 37,
+      "duration": 202,
+      "viewCount": 526000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "nP3Lv7CfCFs",
+      "url": "https://www.youtube.com/watch?v=nP3Lv7CfCFs",
+      "title": "ぼくのかみさま / flower",
+      "description": "",
+      "channelTitle": "羽生まゐご",
+      "channelId": "UCSwShVpWrdSAV9PYpH5ojBQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 38,
+      "duration": 176,
+      "viewCount": 8700000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "jaCSrluJBUE",
+      "url": "https://www.youtube.com/watch?v=jaCSrluJBUE",
+      "title": "虚無さん / ¿? feat.flower",
+      "description": "",
+      "channelTitle": "¿?",
+      "channelId": "UCN2vYj_GQp3xaPkaLbmprHw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 39,
+      "duration": 149,
+      "viewCount": 2300000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "jBcvuTUgQsI",
+      "url": "https://www.youtube.com/watch?v=jBcvuTUgQsI",
+      "title": "Sympathy / 初音ミク",
+      "description": "",
+      "channelTitle": "プロジェクトセカイ カラフルステージ! feat. 初音ミク",
+      "channelId": "UCdMGYXL38w6htx6Yf9YJa-w",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 40,
+      "duration": 178,
+      "viewCount": 200000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "ejG2_B95DzY",
+      "url": "https://www.youtube.com/watch?v=ejG2_B95DzY",
+      "title": "オールセーブチャレンジ / 香椎モイミ feat. 初音ミク",
+      "description": "",
+      "channelTitle": "香椎モイミ",
+      "channelId": "UC9_8AXpxjjNl62HPhF5IAyg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 41,
+      "duration": 183,
+      "viewCount": 1700000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "xwqjhRwg7xc",
+      "url": "https://www.youtube.com/watch?v=xwqjhRwg7xc",
+      "title": "キティ / kitty - miku",
+      "description": "",
+      "channelTitle": "ツミキ / NOMELON NOLEMON",
+      "channelId": "UCpLKk1TqiGRqLWcR9_ZcNaA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 42,
+      "duration": 207,
+      "viewCount": 1100000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "j9RGt9Z_UeE",
+      "url": "https://www.youtube.com/watch?v=j9RGt9Z_UeE",
+      "title": "D/N/A - Kasane Teto, flower",
+      "description": "",
+      "channelTitle": "Azari",
+      "channelId": "UCuNlrb3G0BLLDbwhz7EqF8w",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 43,
+      "duration": 129,
+      "viewCount": 14000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "JoNrFLnxwpQ",
+      "url": "https://www.youtube.com/watch?v=JoNrFLnxwpQ",
+      "title": "その音が鳴るなら／歌、初音ミク",
+      "description": "",
+      "channelTitle": "石風呂 / 朝日",
+      "channelId": "UCPr1pSqFK9Xd6tZ4cKaIJVw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 44,
+      "duration": 256,
+      "viewCount": 181000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "eVfppbSqACQ",
+      "url": "https://www.youtube.com/watch?v=eVfppbSqACQ",
+      "title": "Anti You ft.Hatsune Miku",
+      "description": "",
+      "channelTitle": "Chinozo",
+      "channelId": "UCft5HulDeuKloukyShxyOZA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 45,
+      "duration": 207,
+      "viewCount": 3200000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "MJa46AEGMb4",
+      "url": "https://www.youtube.com/watch?v=MJa46AEGMb4",
+      "title": "∴煮ル果実「ヘイヴン」with Flower【Official】 - HAVEN",
+      "description": "",
+      "channelTitle": "煮ル果実 / NILFRUITS",
+      "channelId": "UCkltfvjVoojq0BGRt4pmlig",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 46,
+      "duration": 204,
+      "viewCount": 1800000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "UoptEaMrnok",
+      "url": "https://www.youtube.com/watch?v=UoptEaMrnok",
+      "title": "Worlders feat. 初音ミク / じん【Official MV】",
+      "description": "",
+      "channelTitle": "じん OFFICIAL YOUTUBE CHANNEL",
+      "channelId": "UCP4sp1GUNCMAjktM3O-o9hg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 47,
+      "duration": 287,
+      "viewCount": 825000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "0E6sIrnXFe4",
+      "url": "https://www.youtube.com/watch?v=0E6sIrnXFe4",
+      "title": "\"はじまりの未来(Ergo ver)\" feat.初音ミク/40mP×sasakure.‌UK",
+      "description": "",
+      "channelTitle": "sasakure. UK",
+      "channelId": "UClkc2M0xPFhoOzzHlgZDMfw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 48,
+      "duration": 260,
+      "viewCount": 2100000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "b6ndcYxpX24",
+      "url": "https://www.youtube.com/watch?v=b6ndcYxpX24",
+      "title": "Run! Far! Reach! - Usushio Sisuu feat. Kasane Teto SV",
+      "description": "",
+      "channelTitle": "薄塩指数Usushioshisuu",
+      "channelId": "UCQlj7cVNN9_gg6XUKj-coJg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 49,
+      "duration": 156,
+      "viewCount": 317000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "Yz2UiHN-u6E",
+      "url": "https://www.youtube.com/watch?v=Yz2UiHN-u6E",
+      "title": "キラー / 初音ミク - Music Video (KILLER / Hatsune Miku)",
+      "description": "",
+      "channelTitle": "夏代孝明-夏と彗星",
+      "channelId": "UCf0XAjyzbtPHJBhZB1SwFLQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 50,
+      "duration": 176,
+      "viewCount": 1600000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "MBU2UfZQ5m0",
+      "url": "https://www.youtube.com/watch?v=MBU2UfZQ5m0",
+      "title": "それでも僕らは歌うことをやめない / 初音ミク",
+      "description": "",
+      "channelTitle": "Go Aoki / Gogotea",
+      "channelId": "UC88OkBeipUqm-dQfGOEEAcA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 51,
+      "duration": 262,
+      "viewCount": 177000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "n9xeDxXE4Jc",
+      "url": "https://www.youtube.com/watch?v=n9xeDxXE4Jc",
+      "title": "Utsu-P - フューエル / FUEL feat. 初音ミク",
+      "description": "",
+      "channelTitle": "鬱P / Utsu-P",
+      "channelId": "UCkMsHxeWjiHQvhHAs33OCmw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 52,
+      "duration": 210,
+      "viewCount": 2100000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "LqteHTWNdu0",
+      "url": "https://www.youtube.com/watch?v=LqteHTWNdu0",
+      "title": "オペラ！スペースオペラ！ / 初音ミク × 鏡音リン",
+      "description": "",
+      "channelTitle": "NayutalieN Official / Nayutan Seijin",
+      "channelId": "UChK8kgGU767nKTxp4f4GD6g",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 53,
+      "duration": 175,
+      "viewCount": 922000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "jaSJ4t2ITW8",
+      "url": "https://www.youtube.com/watch?v=jaSJ4t2ITW8",
+      "title": "化けの花（BAKENOHANA） / NAKISO feat. Hatsune Miku",
+      "description": "",
+      "channelTitle": "NAKISO",
+      "channelId": "UC7d3Y_v5O202eo006uvvPzw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 54,
+      "duration": 117,
+      "viewCount": 13000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "OgQc2wSjy3c",
+      "url": "https://www.youtube.com/watch?v=OgQc2wSjy3c",
+      "title": "Camellia ft. Hatsune Miku - Seimeisei Syndrome / Birthright Syndrome 「MV」",
+      "description": "",
+      "channelTitle": "Camellia Official",
+      "channelId": "UCV4ggxLd_Vz-I-ePGSKfFog",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 55,
+      "duration": 240,
+      "viewCount": 3500000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "y7uFVdBluns",
+      "url": "https://www.youtube.com/watch?v=y7uFVdBluns",
+      "title": "熱風 - kemu feat. 初音ミク",
+      "description": "",
+      "channelTitle": "kemu",
+      "channelId": "UC1IlfMWvfA-KEP-vCInH7rA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 56,
+      "duration": 210,
+      "viewCount": 753000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "KF9Mu2gXNdI",
+      "url": "https://www.youtube.com/watch?v=KF9Mu2gXNdI",
+      "title": "Giga & TeddyLoid - ULTRA C ft.Rin・Len【MV】",
+      "description": "",
+      "channelTitle": "Giga",
+      "channelId": "UCvq3kUGY5Dbsdkr3DZx25Sw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 57,
+      "duration": 180,
+      "viewCount": 3500000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "D4FWxIn3sHU",
+      "url": "https://www.youtube.com/watch?v=D4FWxIn3sHU",
+      "title": "「夏夜ノ唄」鏡音レン（Prod. 平田義久）",
+      "description": "",
+      "channelTitle": "平田義久",
+      "channelId": "UCv9b9KtcBkM1_VEZ8pK8bVQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 58,
+      "duration": 180,
+      "viewCount": 278000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "yys1WD9A2IY",
+      "url": "https://www.youtube.com/watch?v=yys1WD9A2IY",
+      "title": "CR詠ZY / ルカミクグミIAリン",
+      "description": "",
+      "channelTitle": "official梅とら",
+      "channelId": "UCMR0yUQrsu5xpYQgAH4bicQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 59,
+      "duration": 207,
+      "viewCount": 1000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "_J5W4Vdlbto",
+      "url": "https://www.youtube.com/watch?v=_J5W4Vdlbto",
+      "title": "ワンオポ - 成敗いたAAAAAす！ft.鏡音レンリン【MV】",
+      "description": "",
+      "channelTitle": "WONDERFUL★OPPORTUNITY!",
+      "channelId": "UCpJgF7I5iSL5_a3xtXgQJvw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 60,
+      "duration": 205,
+      "viewCount": 1500000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "NY_P9k48pnY",
+      "url": "https://www.youtube.com/watch?v=NY_P9k48pnY",
+      "title": "Sasanomaly/nekobolo『kanadetomosusora』MV(Vocaloid)",
+      "description": "",
+      "channelTitle": "ササノマリイ Official YouTube Channnel",
+      "channelId": "UCATc47qMk4n-_RJac1Nfp2w",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 61,
+      "duration": 256,
+      "viewCount": 728000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "uaGq_H22Ok4",
+      "url": "https://www.youtube.com/watch?v=uaGq_H22Ok4",
+      "title": "LEADER / 香椎モイミ feat. KAITO",
+      "description": "",
+      "channelTitle": "香椎モイミ",
+      "channelId": "UC9_8AXpxjjNl62HPhF5IAyg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 62,
+      "duration": 258,
+      "viewCount": 561000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "sjVBXpYzSEg",
+      "url": "https://www.youtube.com/watch?v=sjVBXpYzSEg",
+      "title": "烈火 / niki",
+      "description": "",
+      "channelTitle": "niki official",
+      "channelId": "UCqlAKJQ0KjpyKuvGOkJCKfQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 63,
+      "duration": 194,
+      "viewCount": 773000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "TZlIBKfEB6M",
+      "url": "https://www.youtube.com/watch?v=TZlIBKfEB6M",
+      "title": "Supernova / 雄之助×春野 feat. 初音ミク【Music Video】",
+      "description": "",
+      "channelTitle": "雄之助/Yunosuke",
+      "channelId": "UCkv_bAMJEoNJWThutrtlUQQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 64,
+      "duration": 173,
+      "viewCount": 1500000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "InZ7GOU-CQ8",
+      "url": "https://www.youtube.com/watch?v=InZ7GOU-CQ8",
+      "title": "Empurple / HarumakiGohan feat. Hatsune Miku",
+      "description": "",
+      "channelTitle": "HarumakiGohan Official",
+      "channelId": "UCgbTJ0Qb1OpA0GEocaJ7qrw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 65,
+      "duration": 181,
+      "viewCount": 4200000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "u4MhA-3ateU",
+      "url": "https://www.youtube.com/watch?v=u4MhA-3ateU",
+      "title": "すれすれ / すこっぷ feat. 初音ミク",
+      "description": "",
+      "channelTitle": "すこっぷOfficial Channel",
+      "channelId": "UCAEytT-UTImfk47pUbH_Paw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 66,
+      "duration": 213,
+      "viewCount": 696000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "yz0pg4pNzQY",
+      "url": "https://www.youtube.com/watch?v=yz0pg4pNzQY",
+      "title": "瀬名航 - ショウタイム×オーディエンス feat.初音ミク / Wataru Sena - Showtime×Audience ft.Miku Hatsune",
+      "description": "",
+      "channelTitle": "瀬名航/Wataru Sena",
+      "channelId": "UCG6ZjHSETmlhT4lQG6B4CEw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 67,
+      "duration": 198,
+      "viewCount": 295000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "7-A2FC4q4ac",
+      "url": "https://www.youtube.com/watch?v=7-A2FC4q4ac",
+      "title": "八王子P「嬢王 feat. 初音ミク」（プロジェクトセカイ 3周年記念 高難易度書き下ろし楽曲）",
+      "description": "",
+      "channelTitle": "八王子P",
+      "channelId": "UCD7pKXtQ-ZFixYZp8NYAY1Q",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 68,
+      "duration": 145,
+      "viewCount": 3100000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "4T2vDDY6qNw",
+      "url": "https://www.youtube.com/watch?v=4T2vDDY6qNw",
+      "title": "picco - ときめきジェットコースター feat.初音ミク ( MORE MORE JUMP! )",
+      "description": "",
+      "channelTitle": "picco",
+      "channelId": "UCCrb6TtI5zG7_uNLaG1YT1A",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 69,
+      "duration": 168,
+      "viewCount": 402000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "5m6TyoB2mV8",
+      "url": "https://www.youtube.com/watch?v=5m6TyoB2mV8",
+      "title": "the WALL / buzzG feat. Hatsune Miku",
+      "description": "",
+      "channelTitle": "buzzG",
+      "channelId": "UCG5f9pjxDD_Vtxv2iXOqxGQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 70,
+      "duration": 242,
+      "viewCount": 203000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "6AfASbJBrJY",
+      "url": "https://www.youtube.com/watch?v=6AfASbJBrJY",
+      "title": "Voices / 巡音ルカ",
+      "description": "",
+      "channelTitle": "プロジェクトセカイ カラフルステージ! feat. 初音ミク",
+      "channelId": "UCdMGYXL38w6htx6Yf9YJa-w",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 71,
+      "duration": 191,
+      "viewCount": 351000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "EEk4JGzqoFg",
+      "url": "https://www.youtube.com/watch?v=EEk4JGzqoFg",
+      "title": "inabakumori -  I'm the Rain (Vo. Kaai Yuki) / 稲葉曇『私は雨』Vo. 歌愛ユキ",
+      "description": "",
+      "channelTitle": "inabakumori",
+      "channelId": "UCNElM45JypxqAR73RoUQ10g",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 72,
+      "duration": 221,
+      "viewCount": 9000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "hr_w8F_YeXM",
+      "url": "https://www.youtube.com/watch?v=hr_w8F_YeXM",
+      "title": "Sheeno Mirin - limbo (ft. Hatsune Miku)",
+      "description": "",
+      "channelTitle": "Sheeno Mirin",
+      "channelId": "UC_P7NBqY_sWRjWcGeUWMVWA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 73,
+      "duration": 180,
+      "viewCount": 414000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "SjSlCJG4CxU",
+      "url": "https://www.youtube.com/watch?v=SjSlCJG4CxU",
+      "title": "blender/初音ミク&MEIKO",
+      "description": "",
+      "channelTitle": "R Sound Design",
+      "channelId": "UCID4elKLzUCZVIVtXiXKA-w",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 74,
+      "duration": 133,
+      "viewCount": 872000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "R0DWNySEhcc",
+      "url": "https://www.youtube.com/watch?v=R0DWNySEhcc",
+      "title": "世界を照らすテトラッド (Vocaloid ver.)／OSTER project",
+      "description": "",
+      "channelTitle": "OSTER projectテスロ&ロゼット",
+      "channelId": "UCwMJFtRyZtDPupoqIYwn95g",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 75,
+      "duration": 267,
+      "viewCount": 237000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "8Kp3EqKnOCw",
+      "url": "https://www.youtube.com/watch?v=8Kp3EqKnOCw",
+      "title": "レグルス / ゆうゆ feat.鏡音リン",
+      "description": "",
+      "channelTitle": "ゆうゆ /仮乃スガタ",
+      "channelId": "UCDaNhtCAFnvRKIyI8j8mObg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 76,
+      "duration": 195,
+      "viewCount": 513000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "P2KRg60WPvE",
+      "url": "https://www.youtube.com/watch?v=P2KRg60WPvE",
+      "title": "JUMPIN' OVER ! / 初音ミク",
+      "description": "",
+      "channelTitle": "r-906",
+      "channelId": "UCtwSCTpftyPm4-TBf9S6kfQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 77,
+      "duration": 202,
+      "viewCount": 1400000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "gjLYd3iyPKM",
+      "url": "https://www.youtube.com/watch?v=gjLYd3iyPKM",
+      "title": "【プロセカ】*Luna - インテグラル (Integral) feat.初音ミク",
+      "description": "",
+      "channelTitle": "*Luna",
+      "channelId": "UCGGY3oTOQ9g9FCu9hLFJsqw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 78,
+      "duration": 276,
+      "viewCount": 437000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "5HPJ7eUvU4o",
+      "url": "https://www.youtube.com/watch?v=5HPJ7eUvU4o",
+      "title": "CYBERPUNK DEAD BOY feat. HATSUNE MIKU / Maiki P",
+      "description": "",
+      "channelTitle": "マイキ",
+      "channelId": "UCmAutZSvFH5mkR9OoPtpOmQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 79,
+      "duration": 228,
+      "viewCount": 1600000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "RifILHUOV_w",
+      "url": "https://www.youtube.com/watch?v=RifILHUOV_w",
+      "title": "25時の情熱/初音ミク、鏡音リン、鏡音レン、巡音ルカ、MEIKO、KAITO",
+      "description": "",
+      "channelTitle": "Iori Kanzaki",
+      "channelId": "UCv1KOiaRusvqOR4BrT9Sh8w",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 80,
+      "duration": 253,
+      "viewCount": 672000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "SJcgOWsDwi4",
+      "url": "https://www.youtube.com/watch?v=SJcgOWsDwi4",
+      "title": "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
+      "description": "",
+      "channelTitle": "Giga",
+      "channelId": "UCvq3kUGY5Dbsdkr3DZx25Sw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 81,
+      "duration": 181,
+      "viewCount": 13000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "qmI33kyMeTg",
+      "url": "https://www.youtube.com/watch?v=qmI33kyMeTg",
+      "title": "Unpoison / 初音ミク",
+      "description": "",
+      "channelTitle": "袖野あらわ",
+      "channelId": "UC7509pHc4zYdUtp9U3hFp6g",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 82,
+      "duration": 150,
+      "viewCount": 1000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "cCjPspdse94",
+      "url": "https://www.youtube.com/watch?v=cCjPspdse94",
+      "title": "フィラメントフィーバー（初音ミク&MEIKO ver）／栗山夕璃",
+      "description": "",
+      "channelTitle": "栗山夕璃",
+      "channelId": "UChOF_ryuu0huXTPeyxlpfSQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 83,
+      "duration": 246,
+      "viewCount": 1300000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "ydb05OX2U7M",
+      "url": "https://www.youtube.com/watch?v=ydb05OX2U7M",
+      "title": "とあ - トワイライトライト - ft.初音ミク, 鏡音リン ( Toa - Twilight Light -  ft.Hatsune Miku, Kagamine Rin )",
+      "description": "",
+      "channelTitle": "- Toa Official -",
+      "channelId": "UCEoSVgHlCKPVEHDIve3K7NA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 84,
+      "duration": 202,
+      "viewCount": 650000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "w6bP9GZ2-gg",
+      "url": "https://www.youtube.com/watch?v=w6bP9GZ2-gg",
+      "title": "purpose/ doriko feat. 初音ミク (Official MV)",
+      "description": "",
+      "channelTitle": "doriko",
+      "channelId": "UCA7SMc0trh1CUNITLEtcy3w",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 85,
+      "duration": 215,
+      "viewCount": 138000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "C5ElSU1EdZk",
+      "url": "https://www.youtube.com/watch?v=C5ElSU1EdZk",
+      "title": "MEIKO『ARQETYPE』",
+      "description": "",
+      "channelTitle": "Sohbana",
+      "channelId": "UC0Ss3V3-fJI6AiqQLdRSx4Q",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 86,
+      "duration": 146,
+      "viewCount": 373000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "cdw_2hCSYys",
+      "url": "https://www.youtube.com/watch?v=cdw_2hCSYys",
+      "title": "Un-Lock feat. 巡音ルカ (MEGURINE LUKA) / MuryokuP",
+      "description": "",
+      "channelTitle": "Powerless Sounds Official",
+      "channelId": "UCIIJjephXPaMihtkDoWwMtw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 87,
+      "duration": 245,
+      "viewCount": 119000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "PAwZl3Up-hc",
+      "url": "https://www.youtube.com/watch?v=PAwZl3Up-hc",
+      "title": "『 Hug 』 / Hatsune Miku, KAFU",
+      "description": "",
+      "channelTitle": "MIMI",
+      "channelId": "UCam3IAA-nyfxRL8_wDQ35VA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 88,
+      "duration": 160,
+      "viewCount": 9100000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "yVMHWv7hKTE",
+      "url": "https://www.youtube.com/watch?v=yVMHWv7hKTE",
+      "title": "halyosy - I'm Mine ft. VOCALOIDS",
+      "description": "",
+      "channelTitle": "halyosy",
+      "channelId": "UC-cGs-5HqIutyUrPa8mmDUA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 89,
+      "duration": 233,
+      "viewCount": 4000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "b2Di3kFGAUM",
+      "url": "https://www.youtube.com/watch?v=b2Di3kFGAUM",
+      "title": "NEO feat. 初音ミク / じん【Official MV】",
+      "description": "",
+      "channelTitle": "じん OFFICIAL YOUTUBE CHANNEL",
+      "channelId": "UCP4sp1GUNCMAjktM3O-o9hg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 90,
+      "duration": 182,
+      "viewCount": 3400000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "Ws3B-ozOXDU",
+      "url": "https://www.youtube.com/watch?v=Ws3B-ozOXDU",
+      "title": "相生/初音ミク",
+      "description": "",
+      "channelTitle": "やいり チャンネル",
+      "channelId": "UCPpBRBsXQA6h9wSzdFG4xwA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 91,
+      "duration": 257,
+      "viewCount": 83000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "akO2mUie1Ds",
+      "url": "https://www.youtube.com/watch?v=akO2mUie1Ds",
+      "title": "Misumi - 下剋上 feat.可不",
+      "description": "",
+      "channelTitle": "Misumi",
+      "channelId": "UC8c-dBnOuvKsoxSOUihQi0Q",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 92,
+      "duration": 155,
+      "viewCount": 572000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "mQH0Fmk1K0g",
+      "url": "https://www.youtube.com/watch?v=mQH0Fmk1K0g",
+      "title": "Kirapipi★Kirapika (VOCALOID ver.) / nyanyannya (Daitensai P)",
+      "description": "",
+      "channelTitle": "nyanyannya",
+      "channelId": "UC13cTkDWK6o_TYL2tdtpJHg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 93,
+      "duration": 226,
+      "viewCount": 833000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "Sa0d5w-b9Vs",
+      "url": "https://www.youtube.com/watch?v=Sa0d5w-b9Vs",
+      "title": "ボトルケーキ / 鏡音リン",
+      "description": "",
+      "channelTitle": "ライブP Live-P",
+      "channelId": "UCCo-eAtYUNAfHSjdtyMr6Ww",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 94,
+      "duration": 142,
+      "viewCount": 232000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "ZynP9ajVfuI",
+      "url": "https://www.youtube.com/watch?v=ZynP9ajVfuI",
+      "title": "幽光、1/fのゆらめき / 卯花ロク ft.初音ミク",
+      "description": "",
+      "channelTitle": "卯花ロク",
+      "channelId": "UCTVHI4WCdd6QmWb5Iw6JdVA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 95,
+      "duration": 209,
+      "viewCount": 304000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "pRZwLHrMsvM",
+      "url": "https://www.youtube.com/watch?v=pRZwLHrMsvM",
+      "title": "柊マグネタイト - リアライズ / 初音ミク",
+      "description": "",
+      "channelTitle": "Hiiragi Magnetite",
+      "channelId": "UCFXkDxCa_XVcNC7oOEw7U5g",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 96,
+      "duration": 161,
+      "viewCount": 5600000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "jwZWhMnSvm4",
+      "url": "https://www.youtube.com/watch?v=jwZWhMnSvm4",
+      "title": "モア！ジャンプ！モア！ / 初音ミク",
+      "description": "",
+      "channelTitle": "NayutalieN Official / Nayutan Seijin",
+      "channelId": "UChK8kgGU767nKTxp4f4GD6g",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 97,
+      "duration": 181,
+      "viewCount": 2100000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "sAUdWpemfGw",
+      "url": "https://www.youtube.com/watch?v=sAUdWpemfGw",
+      "title": "ももいろの鍵 / いよわ feat.初音ミク（The Peachy Key / Iyowa feat.Hatsune Miku）",
+      "description": "",
+      "channelTitle": "いよわ/ iyowa",
+      "channelId": "UCLz6MG2kx_0xeaW0LowYnMQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 98,
+      "duration": 204,
+      "viewCount": 14000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "gJqsFNNCIX0",
+      "url": "https://www.youtube.com/watch?v=gJqsFNNCIX0",
+      "title": "演劇 / ナノウ feat. 初音ミク (Engeki / Nanou feat. Hatsune Miku)",
+      "description": "",
+      "channelTitle": "Nanou Official",
+      "channelId": "UCubsnLthL3ELISoNZq9lhjw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 99,
+      "duration": 307,
+      "viewCount": 4900000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "Fo3qg44Rn6Q",
+      "url": "https://www.youtube.com/watch?v=Fo3qg44Rn6Q",
+      "title": "「星を繋ぐ」40mP × 一二三 (12340mP) feat.初音ミク",
+      "description": "",
+      "channelTitle": "40meterP",
+      "channelId": "UCG09qajPDZdPtLsTkW7mJQA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 100,
+      "duration": 207,
+      "viewCount": 372000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "QAbwPeAYf_o",
+      "url": "https://www.youtube.com/watch?v=QAbwPeAYf_o",
+      "title": "チームメイト／HoneyWorks feat.初音ミク",
+      "description": "",
+      "channelTitle": "HoneyWorks OFFICIAL",
+      "channelId": "UCAaGaynFpku5cAx6OOSrW-w",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 101,
+      "duration": 266,
+      "viewCount": 1400000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "gB4hx1MxcGs",
+      "url": "https://www.youtube.com/watch?v=gB4hx1MxcGs",
+      "title": "箱庭のコラル / 初音ミク",
+      "description": "",
+      "channelTitle": "koyori/電ポルP",
+      "channelId": "UCt59wlJI-jW8vvq08CmQV1g",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 102,
+      "duration": 247,
+      "viewCount": 1300000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "q90SFMi8aUg",
+      "url": "https://www.youtube.com/watch?v=q90SFMi8aUg",
+      "title": "ザムザ / てにをは feat.初音ミク",
+      "description": "",
+      "channelTitle": "てにをは",
+      "channelId": "UCQAdXyrF2fYcqdXUUW3YxUg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 103,
+      "duration": 211,
+      "viewCount": 21000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "m1I3XWZ4eUs",
+      "url": "https://www.youtube.com/watch?v=m1I3XWZ4eUs",
+      "title": "Be The MUSIC!／キノシタ(kinoshita) feat. 初音ミク",
+      "description": "",
+      "channelTitle": "キノシタ/kinoshita",
+      "channelId": "UCvy_1uRgNNu-h3JJCJOGfpw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 104,
+      "duration": 221,
+      "viewCount": 746000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "4NhL6mqkMWY",
+      "url": "https://www.youtube.com/watch?v=4NhL6mqkMWY",
+      "title": "【ボカロ6人】Mr. Showtime【オリジナルMV】",
+      "description": "",
+      "channelTitle": "ひとしずく×やま△ （Hitoshizuku_Yamasankakkei）",
+      "channelId": "UCxKrjx1FDU81UXuwTgwYQHw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 105,
+      "duration": 239,
+      "viewCount": 1300000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "gtodYcC1nrc",
+      "url": "https://www.youtube.com/watch?v=gtodYcC1nrc",
+      "title": "『フロート・プランナー』 - Heavenz feat. 鏡音リン＆初音ミク",
+      "description": "",
+      "channelTitle": "Heavenz / Experimental Groove",
+      "channelId": "UCPo-rSBkHv1DaQhqwibdYmg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 106,
+      "duration": 242,
+      "viewCount": 270000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "BTekXS9d-no",
+      "url": "https://www.youtube.com/watch?v=BTekXS9d-no",
+      "title": "DECO*27 - Journey feat. Hatsune Miku",
+      "description": "",
+      "channelTitle": "DECO*27",
+      "channelId": "UCGmO0S4S-AunjRdmxA6TQYg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 107,
+      "duration": 168,
+      "viewCount": 5400000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "4J1O5NA8Nek",
+      "url": "https://www.youtube.com/watch?v=4J1O5NA8Nek",
+      "title": "ひつじがいっぴき/鏡音リン　MV",
+      "description": "",
+      "channelTitle": "ヤマモトガク／Peg",
+      "channelId": "UC78xUXnW5eARZBhhBMb8cJw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 108,
+      "duration": 184,
+      "viewCount": 2600000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "fwb4qCw5Q1I",
+      "url": "https://www.youtube.com/watch?v=fwb4qCw5Q1I",
+      "title": "「君の夜をくれ feat.初音ミク＆巡音ルカ (Lyric Video)」",
+      "description": "",
+      "channelTitle": "古川本舗",
+      "channelId": "UCGkrmvTw66Lo8feYb0IqtPw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 109,
+      "duration": 233,
+      "viewCount": 1800000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "I9VfWCyCagQ",
+      "url": "https://www.youtube.com/watch?v=I9VfWCyCagQ",
+      "title": "Guiano - 私は、私達は (feat.可不)",
+      "description": "",
+      "channelTitle": "Guiano",
+      "channelId": "UCAwt148qKLXzPF3LHfN76Bw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 110,
+      "duration": 242,
+      "viewCount": 7600000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "SaX0By61S3U",
+      "url": "https://www.youtube.com/watch?v=SaX0By61S3U",
+      "title": "Moonlight : HarumakiGohan & Tatsuya Kitani feat.Hatsune Miku & Kagamine Rin MV",
+      "description": "",
+      "channelTitle": "HarumakiGohan Official",
+      "channelId": "UCgbTJ0Qb1OpA0GEocaJ7qrw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 111,
+      "duration": 235,
+      "viewCount": 3300000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "p6snD1650ck",
+      "url": "https://www.youtube.com/watch?v=p6snD1650ck",
+      "title": "\"ÅMARA(大未来電脳)\"  feat.HatsuneMiku+KAITO  /  sasakure.‌UK",
+      "description": "",
+      "channelTitle": "sasakure. UK",
+      "channelId": "UClkc2M0xPFhoOzzHlgZDMfw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 112,
+      "duration": 197,
+      "viewCount": 8300000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "pXLnKaiDeVw",
+      "url": "https://www.youtube.com/watch?v=pXLnKaiDeVw",
+      "title": "halyosy - Flyway ft. Len Kagamine, KAITO [Official Video]",
+      "description": "",
+      "channelTitle": "halyosy",
+      "channelId": "UC-cGs-5HqIutyUrPa8mmDUA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 113,
+      "duration": 193,
+      "viewCount": 3400000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "FS9xdxx42EU",
+      "url": "https://www.youtube.com/watch?v=FS9xdxx42EU",
+      "title": "星空オーケストラ feat. 初音ミク - 水野あつ",
+      "description": "",
+      "channelTitle": "Mizuno Atsu",
+      "channelId": "UCBn41FlxHaINjQuaIfzRZbQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 114,
+      "duration": 191,
+      "viewCount": 558000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "POD_KGL2aqQ",
+      "url": "https://www.youtube.com/watch?v=POD_KGL2aqQ",
+      "title": "Kashika - Ryo Haruka, Hatsune Miku MV",
+      "description": "",
+      "channelTitle": "遼遼",
+      "channelId": "UCRFL7bVj2c6viEX5RlqRWGg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 115,
+      "duration": 247,
+      "viewCount": 2500000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "QYpL88jiWFs",
+      "url": "https://www.youtube.com/watch?v=QYpL88jiWFs",
+      "title": "Iなんです - れるりり feat.初音ミク / I am you - rerulili feat.Hatsune Miku",
+      "description": "",
+      "channelTitle": "れるりり, rerulili",
+      "channelId": "UCRYh_OrRM4JnZv3SxExbCnw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 116,
+      "duration": 148,
+      "viewCount": 3500000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "Dr5vN1GgKlo",
+      "url": "https://www.youtube.com/watch?v=Dr5vN1GgKlo",
+      "title": "DREAM PLACE / EasyPop feat.巡音ルカ 初音ミク 鏡音リン",
+      "description": "",
+      "channelTitle": "EasyPop",
+      "channelId": "UCDIcnP-mnl4OE8AO8Dbs-HQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 117,
+      "duration": 248,
+      "viewCount": 812000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "nb3iQVE30Uk",
+      "url": "https://www.youtube.com/watch?v=nb3iQVE30Uk",
+      "title": "虚ろを扇ぐ / 初音ミク MV",
+      "description": "",
+      "channelTitle": "獅子志司",
+      "channelId": "UCihQ9WPpwc-fZ9lz3ZjAYnA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 118,
+      "duration": 209,
+      "viewCount": 1600000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "rmw_4vVvp-0",
+      "url": "https://www.youtube.com/watch?v=rmw_4vVvp-0",
+      "title": "街 / jon-YAKITORY feat.初音ミク",
+      "description": "",
+      "channelTitle": "jon -YAKITORY",
+      "channelId": "UCENRrmGuopCcwwi2jW00LDQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 119,
+      "duration": 218,
+      "viewCount": 1600000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "ikCebevls90",
+      "url": "https://www.youtube.com/watch?v=ikCebevls90",
+      "title": "八王子P「RAD DOGS feat. 初音ミク・鏡音リン・鏡音レン」",
+      "description": "",
+      "channelTitle": "八王子P",
+      "channelId": "UCD7pKXtQ-ZFixYZp8NYAY1Q",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 120,
+      "duration": 222,
+      "viewCount": 926000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "I0XyBfldX2U",
+      "url": "https://www.youtube.com/watch?v=I0XyBfldX2U",
+      "title": "パラソルサイダー / 初音ミク - ナナホシ管弦楽団",
+      "description": "",
+      "channelTitle": "ナナホシ管弦楽団/岩見陸official",
+      "channelId": "UCh_vIwOvAvBshqSgvD3G0YA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 121,
+      "duration": 212,
+      "viewCount": 942000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "03IyS_9Dt0g",
+      "url": "https://www.youtube.com/watch?v=03IyS_9Dt0g",
+      "title": "てらてら [VOCALOID ver.] MV",
+      "description": "",
+      "channelTitle": "和田たけあき",
+      "channelId": "UC7BYDRV-l741zjSUcyLT_cQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 122,
+      "duration": 199,
+      "viewCount": 3500000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "VznMASce0CM",
+      "url": "https://www.youtube.com/watch?v=VznMASce0CM",
+      "title": "Starry Sky Melody - Polypho feat . HatsuneMiku、KagamineRin、KagamineLen、MEIKO、KAITO",
+      "description": "",
+      "channelTitle": "ぽりふぉ / PolyphonicBranch",
+      "channelId": "UCooGmyC5ax5zM9IzP9cy1QQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 123,
+      "duration": 237,
+      "viewCount": 817000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "FkO8ub83wss",
+      "url": "https://www.youtube.com/watch?v=FkO8ub83wss",
+      "title": "【公式】 バグ／かいりきベア feat.初音ミク",
+      "description": "",
+      "channelTitle": "かいりきベア／Kairiki bear",
+      "channelId": "UCp13SxKXbhCS0lb6Ty774iQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 124,
+      "duration": 171,
+      "viewCount": 30000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "gtYydJJtQdg",
+      "url": "https://www.youtube.com/watch?v=gtYydJJtQdg",
+      "title": "Awake Now / 雄之助 feat. 初音ミク【Music Video】",
+      "description": "",
+      "channelTitle": "雄之助/Yunosuke",
+      "channelId": "UCkv_bAMJEoNJWThutrtlUQQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 125,
+      "duration": 198,
+      "viewCount": 3800000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "Xt1x1s2eAno",
+      "url": "https://www.youtube.com/watch?v=Xt1x1s2eAno",
+      "title": "Tsukuyomi - IF (Music Video)",
+      "description": "",
+      "channelTitle": "Tsukuyomi / YurryCanon",
+      "channelId": "UC2OgzdgLQ7vxlANVxF3kgvg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 126,
+      "duration": 216,
+      "viewCount": 7800000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "sHXrqptOU2s",
+      "url": "https://www.youtube.com/watch?v=sHXrqptOU2s",
+      "title": "オーダーメイド　/  feat. VOCALOIDs",
+      "description": "",
+      "channelTitle": "傘村トータ",
+      "channelId": "UCPKbVouzvWhHeVvy0UbsRCQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 127,
+      "duration": 262,
+      "viewCount": 1900000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "505rBX9MNcQ",
+      "url": "https://www.youtube.com/watch?v=505rBX9MNcQ",
+      "title": "88☆彡 / まらしぃ × 堀江晶太(kemu)  feat.初音ミク（Hatsune Miku）× KAITO",
+      "description": "",
+      "channelTitle": "marasy8",
+      "channelId": "UCcvLSRIWJIAGFDyWtzkbiHA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 128,
+      "duration": 131,
+      "viewCount": 4800000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "BPh4m2VnfNo",
+      "url": "https://www.youtube.com/watch?v=BPh4m2VnfNo",
+      "title": "『Tricologe』/ NILFRUITS  feat.v flower【Official】",
+      "description": "",
+      "channelTitle": "煮ル果実 / NILFRUITS",
+      "channelId": "UCkltfvjVoojq0BGRt4pmlig",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 129,
+      "duration": 262,
+      "viewCount": 4400000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "mKfwzOgorXs",
+      "url": "https://www.youtube.com/watch?v=mKfwzOgorXs",
+      "title": "ノマド／flower",
+      "description": "",
+      "channelTitle": "SudaKeina Balloon",
+      "channelId": "UC3Bjw_Ek1FTbhEKZsh9uo1w",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 130,
+      "duration": 231,
+      "viewCount": 6700000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "PulLO9CgBE0",
+      "url": "https://www.youtube.com/watch?v=PulLO9CgBE0",
+      "title": "メタモリボン｜鏡音リン",
+      "description": "",
+      "channelTitle": "emon-Tes. Official Channel",
+      "channelId": "UCQS8TAEfaDhnU-L5oZ5Mj5A",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 131,
+      "duration": 226,
+      "viewCount": 893000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "GWuI8LXceYc",
+      "url": "https://www.youtube.com/watch?v=GWuI8LXceYc",
+      "title": "Peaky Peaky / 初音ミク × 鏡音リン",
+      "description": "",
+      "channelTitle": "プロジェクトセカイ カラフルステージ! feat. 初音ミク",
+      "channelId": "UCdMGYXL38w6htx6Yf9YJa-w",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 132,
+      "duration": 186,
+      "viewCount": 930000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "nfpYhYtHuKo",
+      "url": "https://www.youtube.com/watch?v=nfpYhYtHuKo",
+      "title": "Flyer! ft.FloweR",
+      "description": "",
+      "channelTitle": "Chinozo",
+      "channelId": "UCft5HulDeuKloukyShxyOZA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 133,
+      "duration": 215,
+      "viewCount": 4500000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "3sEptl-psU0",
+      "url": "https://www.youtube.com/watch?v=3sEptl-psU0",
+      "title": "ぬゆり - ロウワー / Flower : Lower one's eyes",
+      "description": "",
+      "channelTitle": "Lanndo / ぬゆり Official",
+      "channelId": "UCTpvP62LES9r-5xyxZBsUWg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 134,
+      "duration": 230,
+      "viewCount": 63000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "C_Fc1x_aeFQ",
+      "url": "https://www.youtube.com/watch?v=C_Fc1x_aeFQ",
+      "title": "【鏡音リンレン】にっこり^^調査隊のテーマ【ワンオポ/OriginalMV】/ Niccori^^ Survey Team Theme",
+      "description": "",
+      "channelTitle": "WONDERFUL★OPPORTUNITY!",
+      "channelId": "UCpJgF7I5iSL5_a3xtXgQJvw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 135,
+      "duration": 211,
+      "viewCount": 9400000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "zTokBPAXHW4",
+      "url": "https://www.youtube.com/watch?v=zTokBPAXHW4",
+      "title": "ミライ／初音ミク　mirai/hatsune miku",
+      "description": "",
+      "channelTitle": "神山羊 / Yoh Kamiyama",
+      "channelId": "UCw1U9K3S8WVWp7REGaHIW0A",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 136,
+      "duration": 230,
+      "viewCount": 717000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "YVD1RLI7klc",
+      "url": "https://www.youtube.com/watch?v=YVD1RLI7klc",
+      "title": "STAGE OF SEKAI / HarryP feat. 初音ミク (Official Music Video)",
+      "description": "",
+      "channelTitle": "針原翼 / はりーP",
+      "channelId": "UCFEwOFWlPNbVprYBsLKWeJA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 137,
+      "duration": 240,
+      "viewCount": 1600000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "6NdOqVypgCM",
+      "url": "https://www.youtube.com/watch?v=6NdOqVypgCM",
+      "title": "ワールドワイドワンダー feat.初音ミク / TOKOTOKO（西沢さんP）",
+      "description": "",
+      "channelTitle": "TOKOTOKO / 西沢さんP / zawaso Official",
+      "channelId": "UCfdFNsR_tvF8bwp0KhMaJZQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 138,
+      "duration": 226,
+      "viewCount": 1700000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "uDBVetc5JKo",
+      "url": "https://www.youtube.com/watch?v=uDBVetc5JKo",
+      "title": "ショウタイム・ルーラー/鏡音リン(曲:カラスヤサボウ)",
+      "description": "",
+      "channelTitle": "烏屋茶房（カラスヤサボウ）",
+      "channelId": "UC2FNanB0hlrsLtsnufAV1cA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 139,
+      "duration": 214,
+      "viewCount": 4400000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "UgZFpO_Y6qo",
+      "url": "https://www.youtube.com/watch?v=UgZFpO_Y6qo",
+      "title": "マシンガンポエムドール(from プロジェクトセカイ) - cosMo＠暴走P feat. 初音ミク",
+      "description": "",
+      "channelTitle": "cosMo@bousouP Official Channel",
+      "channelId": "UC9AYHlE2OLcMlZJo3MBlfkQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 140,
+      "duration": 145,
+      "viewCount": 16000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "sgZjbk9eH6g",
+      "url": "https://www.youtube.com/watch?v=sgZjbk9eH6g",
+      "title": "群青讃歌 - Eve MV",
+      "description": "",
+      "channelTitle": "Eve",
+      "channelId": "UCUXfRsEIJ9xO1DT7TbEWksw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 141,
+      "duration": 281,
+      "viewCount": 30000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "purlnb5K_jM",
+      "url": "https://www.youtube.com/watch?v=purlnb5K_jM",
+      "title": "ピコン - 再生  ft. 初音ミク",
+      "description": "",
+      "channelTitle": "Picon / ピコン OFFICIAL CHANNEL",
+      "channelId": "UCaWVCqpIfWFXUHSKANMjVQA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 142,
+      "duration": 266,
+      "viewCount": 3100000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "8Zds1FvEtKw",
+      "url": "https://www.youtube.com/watch?v=8Zds1FvEtKw",
+      "title": "【プロセカ】*Luna - 流星のパルス (Pulse of The Meteor) feat.Kagamine Len",
+      "description": "",
+      "channelTitle": "*Luna",
+      "channelId": "UCGGY3oTOQ9g9FCu9hLFJsqw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 143,
+      "duration": 286,
+      "viewCount": 3000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "Y-QhzXC9NbI",
+      "url": "https://www.youtube.com/watch?v=Y-QhzXC9NbI",
+      "title": "Glory Steady Go!／キノシタ feat.初音ミク",
+      "description": "",
+      "channelTitle": "キノシタ/kinoshita",
+      "channelId": "UCvy_1uRgNNu-h3JJCJOGfpw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 144,
+      "duration": 239,
+      "viewCount": 2000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "mMiLWxuffdQ",
+      "url": "https://www.youtube.com/watch?v=mMiLWxuffdQ",
+      "title": "フロムトーキョー / 初音ミク - Music Video (From Tokyo / Hatsune Miku)",
+      "description": "",
+      "channelTitle": "夏代孝明-夏と彗星",
+      "channelId": "UCf0XAjyzbtPHJBhZB1SwFLQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 145,
+      "duration": 169,
+      "viewCount": 5300000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "WXvm5XfkXrk",
+      "url": "https://www.youtube.com/watch?v=WXvm5XfkXrk",
+      "title": "Ice Drop / Aqu3ra feat.Hatsune Miku",
+      "description": "",
+      "channelTitle": "Aqu3ra",
+      "channelId": "UCT5ZYc0Whk1NX_Fdvlm1baw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 146,
+      "duration": 225,
+      "viewCount": 4600000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "dBQg24mx45Y",
+      "url": "https://www.youtube.com/watch?v=dBQg24mx45Y",
+      "title": "『トンデモワンダーズ』feat.初音ミク (+KAITO)  / sasakure.‌UK",
+      "description": "",
+      "channelTitle": "sasakure. UK",
+      "channelId": "UClkc2M0xPFhoOzzHlgZDMfw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 147,
+      "duration": 196,
+      "viewCount": 31000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "Rcc_BreWEMI",
+      "url": "https://www.youtube.com/watch?v=Rcc_BreWEMI",
+      "title": "Beat Eater - ポリスピカデリー feat. 初音ミク / Police Piccadilly",
+      "description": "",
+      "channelTitle": "ポリスピカデリー / Police Piccadilly",
+      "channelId": "UCDOTPjUW-NhQMDmYbgMvQKA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 148,
+      "duration": 219,
+      "viewCount": 6100000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "YsVmtXmpGEI",
+      "url": "https://www.youtube.com/watch?v=YsVmtXmpGEI",
+      "title": "アイノマテリアル / Junky feat.初音ミク,鏡音リン【MV】",
+      "description": "",
+      "channelTitle": "Junky // Clover lab.",
+      "channelId": "UCWLoej7Wx1hoEPVxhufZQfw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 149,
+      "duration": 279,
+      "viewCount": 880000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "EEbWRjavSVw",
+      "url": "https://www.youtube.com/watch?v=EEbWRjavSVw",
+      "title": "シネマ / 初音ミク",
+      "description": "",
+      "channelTitle": "YOASOBI",
+      "channelId": "UCvpredjG93ifbCP1Y77JyFA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 150,
+      "duration": 209,
+      "viewCount": 17000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "fobQOAOAdoE",
+      "url": "https://www.youtube.com/watch?v=fobQOAOAdoE",
+      "title": "「１」／164 feat.巡音ルカ",
+      "description": "",
+      "channelTitle": "164",
+      "channelId": "UChFmH8dTXNPYCY3XeF9xtSA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 151,
+      "duration": 211,
+      "viewCount": 1400000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "X_6EPkvIAGg",
+      "url": "https://www.youtube.com/watch?v=X_6EPkvIAGg",
+      "title": "とあ - アイディスマイル - ft.初音ミク, 鏡音リン ( Toa - IDSMILE -  ft.Hatsune Miku, Kagamine Rin )",
+      "description": "",
+      "channelTitle": "- Toa Official -",
+      "channelId": "UCEoSVgHlCKPVEHDIve3K7NA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 152,
+      "duration": 182,
+      "viewCount": 7100000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "lFJA9muTUDM",
+      "url": "https://www.youtube.com/watch?v=lFJA9muTUDM",
+      "title": "天使のクローバー ／ DIVELA feat.鏡音リン",
+      "description": "",
+      "channelTitle": "DIVELA / Official",
+      "channelId": "UCrGzu0MPKQpYF2AV2oG-VpQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 153,
+      "duration": 253,
+      "viewCount": 4400000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "S84mvlha5Fc",
+      "url": "https://www.youtube.com/watch?v=S84mvlha5Fc",
+      "title": "ワンスアポンアドリーム YASUHIRO(康寛) feat.鏡音リン",
+      "description": "",
+      "channelTitle": "YASUHIRO(康寛)",
+      "channelId": "UCBjUVEhPdxnVKu83i6K2Eew",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 154,
+      "duration": 234,
+      "viewCount": 851000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "cwLlHFMlBNQ",
+      "url": "https://www.youtube.com/watch?v=cwLlHFMlBNQ",
+      "title": "限りなく灰色へ / すりぃ feat.鏡音レン",
+      "description": "",
+      "channelTitle": "すりぃ",
+      "channelId": "UCHGKS3VDKxu3N1u9naM0XYA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 155,
+      "duration": 275,
+      "viewCount": 19000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "i5rl-NGSYoo",
+      "url": "https://www.youtube.com/watch?v=i5rl-NGSYoo",
+      "title": "初音ミク「Color of Drops」",
+      "description": "",
+      "channelTitle": "40meterP",
+      "channelId": "UCG09qajPDZdPtLsTkW7mJQA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 156,
+      "duration": 284,
+      "viewCount": 3200000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "crCS77wqxTI",
+      "url": "https://www.youtube.com/watch?v=crCS77wqxTI",
+      "title": "Forward/R Sound Design feat. 初音ミク",
+      "description": "",
+      "channelTitle": "R Sound Design",
+      "channelId": "UCID4elKLzUCZVIVtXiXKA-w",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 157,
+      "duration": 194,
+      "viewCount": 1700000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "wvlUWjqGQSA",
+      "url": "https://www.youtube.com/watch?v=wvlUWjqGQSA",
+      "title": "Orangestar - 霽れを待つ (feat. 初音ミク) Official Video",
+      "description": "",
+      "channelTitle": "Orangestar",
+      "channelId": "UCgBPuTX7crv_2jKAkH5z7bA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 158,
+      "duration": 252,
+      "viewCount": 8000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "WztzykQSkgM",
+      "url": "https://www.youtube.com/watch?v=WztzykQSkgM",
+      "title": "ニジイロストーリーズ (VOCALOID ver.)  - OSTER project",
+      "description": "",
+      "channelTitle": "OSTER projectテスロ&ロゼット",
+      "channelId": "UCwMJFtRyZtDPupoqIYwn95g",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 159,
+      "duration": 240,
+      "viewCount": 792000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "B2llCEKbxwA",
+      "url": "https://www.youtube.com/watch?v=B2llCEKbxwA",
+      "title": "【Hatsune Miku】Jack Pot Sad Girl【syudou】",
+      "description": "",
+      "channelTitle": "syudou",
+      "channelId": "UCraC7460yGQF4GDmSjCecpQ",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 160,
+      "duration": 187,
+      "viewCount": 9800000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "XAg1jDDG49Y",
+      "url": "https://www.youtube.com/watch?v=XAg1jDDG49Y",
+      "title": "Giga - 'Ready Steady' ft. Miku・Rin・Len【MV】",
+      "description": "",
+      "channelTitle": "Giga",
+      "channelId": "UCvq3kUGY5Dbsdkr3DZx25Sw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 161,
+      "duration": 211,
+      "viewCount": 21000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "4QL9tLfVFJg",
+      "url": "https://www.youtube.com/watch?v=4QL9tLfVFJg",
+      "title": "Mitchie M - Newly Edgy Idols feat. Hatsune Miku, Kagamine Rin, Megurine Luka, Meiko",
+      "description": "",
+      "channelTitle": "Mitchie M",
+      "channelId": "UCE0uNSkGhhsNMwAZcIQY7rw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 162,
+      "duration": 234,
+      "viewCount": 5300000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "buoYwfZG4vQ",
+      "url": "https://www.youtube.com/watch?v=buoYwfZG4vQ",
+      "title": "DECO*27 - needLe feat. Hatsune Miku",
+      "description": "",
+      "channelTitle": "DECO*27",
+      "channelId": "UCGmO0S4S-AunjRdmxA6TQYg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 163,
+      "duration": 229,
+      "viewCount": 3900000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "okJ9Vk6owG8",
+      "url": "https://www.youtube.com/watch?v=okJ9Vk6owG8",
+      "title": "Giga × Mitchie M - Wah Wah World feat. Hatsune Miku & Kagamine Rin",
+      "description": "",
+      "channelTitle": "Mitchie M",
+      "channelId": "UCE0uNSkGhhsNMwAZcIQY7rw",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 164,
+      "duration": 207,
+      "viewCount": 4800000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "bNagYg_YGbU",
+      "url": "https://www.youtube.com/watch?v=bNagYg_YGbU",
+      "title": "【MV】携帯恋話／まふまふ",
+      "description": "",
+      "channelTitle": "まふまふちゃんねる",
+      "channelId": "UCOTR1tcOAhjgi6YukrPpZxg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 165,
+      "duration": 257,
+      "viewCount": 13000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "r2OS97F6P_U",
+      "url": "https://www.youtube.com/watch?v=r2OS97F6P_U",
+      "title": "【MV】悔やむと書いてミライ／まふまふ",
+      "description": "",
+      "channelTitle": "まふまふちゃんねる",
+      "channelId": "UCOTR1tcOAhjgi6YukrPpZxg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 166,
+      "duration": 234,
+      "viewCount": 12000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "Dun11cIEo9s",
+      "url": "https://www.youtube.com/watch?v=Dun11cIEo9s",
+      "title": "Neru - potatoになっていく (Becoming Potatoes) feat. Kagamine Rin & Kagamine Len",
+      "description": "",
+      "channelTitle": "Neru OFFICIAL",
+      "channelId": "UClxXuM2m0rIL9VCA1ds9HqA",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 167,
+      "duration": 190,
+      "viewCount": 19000000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "1s8NNPgdl5g",
+      "url": "https://www.youtube.com/watch?v=1s8NNPgdl5g",
+      "title": "PinocchioP - The World Hasn’t Even Started Yet feat. Hatsune Miku",
+      "description": "",
+      "channelTitle": "ピノキオピー PINOCCHIOP OFFICIAL CHANNEL",
+      "channelId": "UCMMBGMjrrWcRZmG_lW4jC-Q",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 168,
+      "duration": 219,
+      "viewCount": 7500000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    },
+    {
+      "videoId": "9vyIPWBeRes",
+      "url": "https://www.youtube.com/watch?v=9vyIPWBeRes",
+      "title": "DECO*27×Shota Horie(kemu) - SEKAI feat. Hatsune Miku",
+      "description": "",
+      "channelTitle": "DECO*27",
+      "channelId": "UCGmO0S4S-AunjRdmxA6TQYg",
+      "publishedAt": "",
+      "thumbnails": {
+        "default": "",
+        "medium": "",
+        "high": ""
+      },
+      "position": 169,
+      "duration": 258,
+      "viewCount": 7800000,
+      "sourceKey": "commissioned_original_mv",
+      "sourceName": "书下曲本家 MV Playlist",
+      "sourceKind": "playlist",
+      "videoType": "original_mv",
+      "versionBase": "original",
+      "extractors": [
+        "performers",
+        "staff"
+      ]
+    }
+  ]
+}
