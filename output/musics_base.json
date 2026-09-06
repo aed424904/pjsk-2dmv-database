@@ -1,19 +1,19 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "generatedAt": "2026-09-05T02:53:22.169645",
+    "generatedAt": "2026-09-06T02:51:59.416811",
     "sources": [
       "sekai-master-db-diff-main/musics.json",
       "sekai-master-db-diff-main/musicTags.json",
       "sekai-master-db-diff-main/musicOriginals.json"
     ],
     "stats": {
-      "totalSongs": 716,
+      "totalSongs": 717,
       "songsWithOriginalVideoLink": 496,
       "unitBreakdown": {
         "Leo/need": 90,
         "MORE MORE JUMP!": 90,
-        "Vivid BAD SQUAD": 89,
+        "Vivid BAD SQUAD": 90,
         "Wonderlands x Showtime": 89,
         "25-ji, Nightcord de.": 89,
         "Virtual Singer": 465
@@ -18521,6 +18521,31 @@
         "Virtual Singer"
       ],
       "originalVideoLink": "https://youtu.be/m8PbMlflLPM"
+    },
+    {
+      "id": 804,
+      "seq": 2468701,
+      "title": "正解",
+      "pronunciation": "せいかい",
+      "lyricist": "雨良 Amala",
+      "composer": "雨良 Amala",
+      "arranger": "雨良 Amala",
+      "categories": [],
+      "publishedAt": "2026-09-06 15:00:00",
+      "releasedAt": "2026-09-06 00:00:00",
+      "isNewlyWrittenMusic": true,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "street"
+      ],
+      "unitTags": [
+        "street"
+      ],
+      "units": [
+        "Vivid BAD SQUAD"
+      ],
+      "originalVideoLink": null
     }
   ]
 }
