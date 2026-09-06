@@ -27325,6 +27325,18 @@
           }
         ],
         "assetbundleName": "af_0432_01"
+      },
+      {
+        "id": 2071,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 14
+          }
+        ],
+        "assetbundleName": "an_0432_03"
       }
     ]
   },
@@ -38604,6 +38616,30 @@
           }
         ],
         "assetbundleName": "se_0630_01"
+      },
+      {
+        "id": 2072,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 17
+          }
+        ],
+        "assetbundleName": "an_0630_01"
+      },
+      {
+        "id": 2073,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 25
+          }
+        ],
+        "assetbundleName": "an_0630_02"
       }
     ]
   },
@@ -44995,6 +45031,68 @@
           }
         ],
         "assetbundleName": "vs_0803_01"
+      }
+    ]
+  },
+  {
+    "id": 804,
+    "title": "正解",
+    "creators": {
+      "creatorArtistId": 317,
+      "creatorArtistName": "雨良 Amala",
+      "lyricist": "雨良 Amala",
+      "composer": "雨良 Amala",
+      "arranger": "雨良 Amala"
+    },
+    "tags": [
+      "all",
+      "street"
+    ],
+    "categories": [],
+    "songType": "original",
+    "publishedAt": 1788674400000,
+    "releasedAt": 1788652800000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1848,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "outside_character",
+            "characterId": 24
+          }
+        ],
+        "assetbundleName": "vs_0804_01"
+      },
+      {
+        "id": 2074,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 11
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 9
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 10
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 12
+          }
+        ],
+        "assetbundleName": "se_0804_01"
       }
     ]
   }
