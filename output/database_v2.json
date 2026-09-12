@@ -1,10 +1,10 @@
 {
   "metadata": {
     "version": "2.2.0",
-    "generatedAt": "2026-09-11T02:56:22.741701",
+    "generatedAt": "2026-09-12T03:03:31.626677",
     "sources": [
-      "YouTube Snapshot (官方 2DMV Playlist (playlist_official_2dmv_20260911_025619.json))",
-      "YouTube Snapshot (书下曲本家 MV Playlist (playlist_commissioned_original_mv_20260911_025621.json))",
+      "YouTube Snapshot (官方 2DMV Playlist (playlist_official_2dmv_20260912_030328.json))",
+      "YouTube Snapshot (书下曲本家 MV Playlist (playlist_commissioned_original_mv_20260912_030330.json))",
       "Sekai Viewer musics.json",
       "Sekai Viewer musicTag.json",
       "output/musics_base.json",
@@ -100,7 +100,7 @@
             "high": ""
           },
           "playlistPosition": 0,
-          "viewCount": 313000,
+          "viewCount": 355000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -304,7 +304,7 @@
             "high": ""
           },
           "playlistPosition": 1,
-          "viewCount": 258000,
+          "viewCount": 279000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -363,7 +363,7 @@
             "high": ""
           },
           "playlistPosition": 39,
-          "viewCount": 787000,
+          "viewCount": 790000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -510,7 +510,7 @@
             "high": ""
           },
           "playlistPosition": 2,
-          "viewCount": 596000,
+          "viewCount": 643000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -714,7 +714,7 @@
             "high": ""
           },
           "playlistPosition": 3,
-          "viewCount": 579000,
+          "viewCount": 611000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -858,7 +858,7 @@
             "high": ""
           },
           "playlistPosition": 4,
-          "viewCount": 1200000,
+          "viewCount": 1300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -1147,7 +1147,7 @@
             "high": ""
           },
           "playlistPosition": 6,
-          "viewCount": 627000,
+          "viewCount": 643000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -1374,7 +1374,7 @@
             "high": ""
           },
           "playlistPosition": 7,
-          "viewCount": 893000,
+          "viewCount": 902000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -1662,7 +1662,7 @@
             "high": ""
           },
           "playlistPosition": 0,
-          "viewCount": 262000,
+          "viewCount": 266000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -1820,7 +1820,7 @@
             "high": ""
           },
           "playlistPosition": 9,
-          "viewCount": 149000,
+          "viewCount": 151000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -1965,7 +1965,7 @@
             "high": ""
           },
           "playlistPosition": 10,
-          "viewCount": 206000,
+          "viewCount": 209000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -2024,7 +2024,7 @@
             "high": ""
           },
           "playlistPosition": 1,
-          "viewCount": 186000,
+          "viewCount": 188000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -2184,7 +2184,7 @@
             "high": ""
           },
           "playlistPosition": 11,
-          "viewCount": 325000,
+          "viewCount": 329000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -2243,7 +2243,7 @@
             "high": ""
           },
           "playlistPosition": 2,
-          "viewCount": 51000,
+          "viewCount": 52000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -2401,7 +2401,7 @@
             "high": ""
           },
           "playlistPosition": 12,
-          "viewCount": 724000,
+          "viewCount": 732000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -2613,7 +2613,7 @@
             "high": ""
           },
           "playlistPosition": 3,
-          "viewCount": 459000,
+          "viewCount": 463000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -2773,7 +2773,7 @@
             "high": ""
           },
           "playlistPosition": 14,
-          "viewCount": 284000,
+          "viewCount": 285000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -2920,7 +2920,7 @@
             "high": ""
           },
           "playlistPosition": 15,
-          "viewCount": 474000,
+          "viewCount": 477000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -3137,7 +3137,7 @@
             "high": ""
           },
           "playlistPosition": 16,
-          "viewCount": 633000,
+          "viewCount": 637000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -3288,7 +3288,7 @@
             "high": ""
           },
           "playlistPosition": 17,
-          "viewCount": 535000,
+          "viewCount": 539000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -3347,7 +3347,7 @@
             "high": ""
           },
           "playlistPosition": 6,
-          "viewCount": 103000,
+          "viewCount": 104000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -3797,7 +3797,7 @@
             "high": ""
           },
           "playlistPosition": 4,
-          "viewCount": 128000,
+          "viewCount": 129000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -3969,7 +3969,7 @@
             "high": ""
           },
           "playlistPosition": 20,
-          "viewCount": 1000000,
+          "viewCount": 1100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -4028,7 +4028,7 @@
             "high": ""
           },
           "playlistPosition": 11,
-          "viewCount": 194000,
+          "viewCount": 195000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -4333,7 +4333,7 @@
             "high": ""
           },
           "playlistPosition": 22,
-          "viewCount": 440000,
+          "viewCount": 442000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -5288,7 +5288,7 @@
             "high": ""
           },
           "playlistPosition": 27,
-          "viewCount": 901000,
+          "viewCount": 904000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -5435,7 +5435,7 @@
             "high": ""
           },
           "playlistPosition": 28,
-          "viewCount": 624000,
+          "viewCount": 626000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -5494,7 +5494,7 @@
             "high": ""
           },
           "playlistPosition": 14,
-          "viewCount": 88000,
+          "viewCount": 89000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -5942,7 +5942,7 @@
             "high": ""
           },
           "playlistPosition": 31,
-          "viewCount": 486000,
+          "viewCount": 487000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -6087,7 +6087,7 @@
             "high": ""
           },
           "playlistPosition": 32,
-          "viewCount": 912000,
+          "viewCount": 914000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -6146,7 +6146,7 @@
             "high": ""
           },
           "playlistPosition": 18,
-          "viewCount": 221000,
+          "viewCount": 222000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -6306,7 +6306,7 @@
             "high": ""
           },
           "playlistPosition": 33,
-          "viewCount": 758000,
+          "viewCount": 760000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -6670,7 +6670,7 @@
             "high": ""
           },
           "playlistPosition": 35,
-          "viewCount": 333000,
+          "viewCount": 334000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -6887,7 +6887,7 @@
             "high": ""
           },
           "playlistPosition": 36,
-          "viewCount": 519000,
+          "viewCount": 520000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -7038,7 +7038,7 @@
             "high": ""
           },
           "playlistPosition": 37,
-          "viewCount": 6500000,
+          "viewCount": 6600000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -7259,7 +7259,7 @@
             "high": ""
           },
           "playlistPosition": 38,
-          "viewCount": 397000,
+          "viewCount": 398000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -7465,7 +7465,7 @@
             "high": ""
           },
           "playlistPosition": 12,
-          "viewCount": 73000,
+          "viewCount": 74000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -7623,7 +7623,7 @@
             "high": ""
           },
           "playlistPosition": 41,
-          "viewCount": 701000,
+          "viewCount": 702000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -8120,7 +8120,7 @@
             "high": ""
           },
           "playlistPosition": 23,
-          "viewCount": 124000,
+          "viewCount": 125000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -8848,7 +8848,7 @@
             "high": ""
           },
           "playlistPosition": 19,
-          "viewCount": 132000,
+          "viewCount": 133000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -9439,7 +9439,7 @@
             "high": ""
           },
           "playlistPosition": 29,
-          "viewCount": 872000,
+          "viewCount": 873000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -9756,7 +9756,7 @@
             "high": ""
           },
           "playlistPosition": 52,
-          "viewCount": 711000,
+          "viewCount": 712000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -9958,7 +9958,7 @@
             "high": ""
           },
           "playlistPosition": 53,
-          "viewCount": 808000,
+          "viewCount": 809000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -10873,7 +10873,7 @@
             "high": ""
           },
           "playlistPosition": 59,
-          "viewCount": 771000,
+          "viewCount": 772000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -11079,7 +11079,7 @@
             "high": ""
           },
           "playlistPosition": 24,
-          "viewCount": 499000,
+          "viewCount": 500000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -11517,7 +11517,7 @@
             "high": ""
           },
           "playlistPosition": 33,
-          "viewCount": 639000,
+          "viewCount": 640000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -11677,7 +11677,7 @@
             "high": ""
           },
           "playlistPosition": 63,
-          "viewCount": 780000,
+          "viewCount": 781000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -12039,7 +12039,7 @@
             "high": ""
           },
           "playlistPosition": 65,
-          "viewCount": 4100000,
+          "viewCount": 4200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -15574,7 +15574,7 @@
             "high": ""
           },
           "playlistPosition": 86,
-          "viewCount": 575000,
+          "viewCount": 576000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -16013,7 +16013,7 @@
             "high": ""
           },
           "playlistPosition": 89,
-          "viewCount": 703000,
+          "viewCount": 704000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -17496,7 +17496,7 @@
             "high": ""
           },
           "playlistPosition": 20,
-          "viewCount": 500000,
+          "viewCount": 502000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -18298,7 +18298,7 @@
             "high": ""
           },
           "playlistPosition": 44,
-          "viewCount": 182000,
+          "viewCount": 183000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -22182,7 +22182,7 @@
             "high": ""
           },
           "playlistPosition": 63,
-          "viewCount": 776000,
+          "viewCount": 777000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -25552,7 +25552,7 @@
             "high": ""
           },
           "playlistPosition": 80,
-          "viewCount": 673000,
+          "viewCount": 674000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -29382,7 +29382,7 @@
             "high": ""
           },
           "playlistPosition": 100,
-          "viewCount": 373000,
+          "viewCount": 374000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -31853,7 +31853,7 @@
             "high": ""
           },
           "playlistPosition": 104,
-          "viewCount": 747000,
+          "viewCount": 748000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -42869,7 +42869,7 @@
             "high": ""
           },
           "playlistPosition": 242,
-          "viewCount": 5900000,
+          "viewCount": 6000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -47901,7 +47901,7 @@
             "high": ""
           },
           "playlistPosition": 15,
-          "viewCount": 411000,
+          "viewCount": 412000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -48502,7 +48502,7 @@
             "high": ""
           },
           "playlistPosition": 31,
-          "viewCount": 345000,
+          "viewCount": 346000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -48942,7 +48942,7 @@
             "high": ""
           },
           "playlistPosition": 49,
-          "viewCount": 318000,
+          "viewCount": 319000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -49517,7 +49517,7 @@
             "high": ""
           },
           "playlistPosition": 61,
-          "viewCount": 736000,
+          "viewCount": 737000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -49672,7 +49672,7 @@
             "high": ""
           },
           "playlistPosition": 62,
-          "viewCount": 564000,
+          "viewCount": 565000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -54858,7 +54858,7 @@
             "high": ""
           },
           "playlistPosition": 164,
-          "viewCount": 4800000,
+          "viewCount": 4900000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -55308,7 +55308,7 @@
             "high": ""
           },
           "playlistPosition": 169,
-          "viewCount": 7800000,
+          "viewCount": 7900000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
