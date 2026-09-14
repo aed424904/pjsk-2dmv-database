@@ -1,22 +1,22 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "generatedAt": "2026-09-13T03:04:08.975465",
+    "generatedAt": "2026-09-14T03:17:55.691813",
     "sources": [
       "sekai-master-db-diff-main/musics.json",
       "sekai-master-db-diff-main/musicTags.json",
       "sekai-master-db-diff-main/musicOriginals.json"
     ],
     "stats": {
-      "totalSongs": 717,
-      "songsWithOriginalVideoLink": 496,
+      "totalSongs": 719,
+      "songsWithOriginalVideoLink": 497,
       "unitBreakdown": {
         "Leo/need": 90,
         "MORE MORE JUMP!": 90,
         "Vivid BAD SQUAD": 90,
-        "Wonderlands x Showtime": 89,
+        "Wonderlands x Showtime": 90,
         "25-ji, Nightcord de.": 89,
-        "Virtual Singer": 465
+        "Virtual Singer": 466
       }
     }
   },
@@ -18544,6 +18544,56 @@
       ],
       "units": [
         "Vivid BAD SQUAD"
+      ],
+      "originalVideoLink": null
+    },
+    {
+      "id": 809,
+      "seq": 1168901,
+      "title": "敗走",
+      "pronunciation": "はいそう",
+      "lyricist": "傘村トータ",
+      "composer": "傘村トータ",
+      "arranger": "たかぴぃ",
+      "categories": [],
+      "publishedAt": "2026-09-19 15:00:00",
+      "releasedAt": "2019-12-02 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://youtu.be/j5UzDdUmI7s?si=sMKfYCyLicI5HntZ"
+    },
+    {
+      "id": 811,
+      "seq": 2568801,
+      "title": "ヘレディティ",
+      "pronunciation": "へれでぃてぃ",
+      "lyricist": "サツキ",
+      "composer": "サツキ",
+      "arranger": "サツキ",
+      "categories": [],
+      "publishedAt": "2026-09-14 15:00:00",
+      "releasedAt": "2026-09-14 00:00:00",
+      "isNewlyWrittenMusic": true,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "theme_park"
+      ],
+      "unitTags": [
+        "theme_park"
+      ],
+      "units": [
+        "Wonderlands x Showtime"
       ],
       "originalVideoLink": null
     }
