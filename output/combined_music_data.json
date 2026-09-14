@@ -13872,6 +13872,18 @@
           }
         ],
         "assetbundleName": "an_0217_01"
+      },
+      {
+        "id": 1752,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          }
+        ],
+        "assetbundleName": "an_0217_02"
       }
     ]
   },
@@ -35348,6 +35360,30 @@
           }
         ],
         "assetbundleName": "cl_0571_01"
+      },
+      {
+        "id": 2075,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 11
+          }
+        ],
+        "assetbundleName": "an_0571_01"
+      },
+      {
+        "id": 2076,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 12
+          }
+        ],
+        "assetbundleName": "an_0571_02"
       }
     ]
   },
@@ -45093,6 +45129,122 @@
           }
         ],
         "assetbundleName": "se_0804_01"
+      }
+    ]
+  },
+  {
+    "id": 809,
+    "title": "敗走",
+    "creators": {
+      "creatorArtistId": 108,
+      "creatorArtistName": "傘村トータ",
+      "lyricist": "傘村トータ",
+      "composer": "傘村トータ",
+      "arranger": "たかぴぃ"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1789797600000,
+    "releasedAt": 1575244800000,
+    "originalVideoLink": "https://youtu.be/j5UzDdUmI7s?si=sMKfYCyLicI5HntZ",
+    "vocals": [
+      {
+        "id": 1853,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 26
+          }
+        ],
+        "assetbundleName": "vs_0809_01"
+      }
+    ]
+  },
+  {
+    "id": 811,
+    "title": "ヘレディティ",
+    "creators": {
+      "creatorArtistId": 207,
+      "creatorArtistName": "サツキ",
+      "lyricist": "サツキ",
+      "composer": "サツキ",
+      "arranger": "サツキ"
+    },
+    "tags": [
+      "all",
+      "theme_park"
+    ],
+    "categories": [],
+    "songType": "original",
+    "publishedAt": 1789365600000,
+    "releasedAt": 1789344000000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1855,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "outside_character",
+            "characterId": 1
+          },
+          {
+            "characterType": "outside_character",
+            "characterId": 2
+          },
+          {
+            "characterType": "outside_character",
+            "characterId": 3
+          },
+          {
+            "characterType": "outside_character",
+            "characterId": 9
+          },
+          {
+            "characterType": "outside_character",
+            "characterId": 24
+          }
+        ],
+        "assetbundleName": "vs_0811_01"
+      },
+      {
+        "id": 2077,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 15
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 24
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 13
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 14
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 16
+          }
+        ],
+        "assetbundleName": "se_0811_01"
       }
     ]
   }
