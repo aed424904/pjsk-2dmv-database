@@ -41035,6 +41035,30 @@
           }
         ],
         "assetbundleName": "se_0679_01"
+      },
+      {
+        "id": 2079,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 10
+          }
+        ],
+        "assetbundleName": "an_0679_01"
+      },
+      {
+        "id": 2080,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 24
+          }
+        ],
+        "assetbundleName": "an_0679_02"
       }
     ]
   },
@@ -45133,6 +45157,60 @@
     ]
   },
   {
+    "id": 805,
+    "title": "きのせい",
+    "creators": {
+      "creatorArtistId": 340,
+      "creatorArtistName": "imie",
+      "lyricist": "imie",
+      "composer": "imie",
+      "arranger": "imie"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1790143200000,
+    "releasedAt": 1779840000000,
+    "originalVideoLink": "https://youtu.be/y1juHMozkOw?si=7EjJ-atAFXE8AHhD",
+    "vocals": [
+      {
+        "id": 1849,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 23
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 24
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 25
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 26
+          }
+        ],
+        "assetbundleName": "vs_0805_01"
+      }
+    ]
+  },
+  {
     "id": 809,
     "title": "敗走",
     "creators": {
@@ -45245,6 +45323,40 @@
           }
         ],
         "assetbundleName": "se_0811_01"
+      }
+    ]
+  },
+  {
+    "id": 814,
+    "title": "こわれちゃった！！",
+    "creators": {
+      "creatorArtistId": 96,
+      "creatorArtistName": "タケノコ少年",
+      "lyricist": "タケノコ少年",
+      "composer": "タケノコ少年",
+      "arranger": "タケノコ少年"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1790056800000,
+    "releasedAt": 1771632000000,
+    "originalVideoLink": "https://youtu.be/XEvoptb8x8U?si=RA2UewZcDBbw6RVs",
+    "vocals": [
+      {
+        "id": 1858,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0814_01"
       }
     ]
   }

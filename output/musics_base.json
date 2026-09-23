@@ -1,22 +1,22 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "generatedAt": "2026-09-22T03:14:33.808924",
+    "generatedAt": "2026-09-23T03:14:37.056230",
     "sources": [
       "sekai-master-db-diff-main/musics.json",
       "sekai-master-db-diff-main/musicTags.json",
       "sekai-master-db-diff-main/musicOriginals.json"
     ],
     "stats": {
-      "totalSongs": 719,
-      "songsWithOriginalVideoLink": 497,
+      "totalSongs": 721,
+      "songsWithOriginalVideoLink": 499,
       "unitBreakdown": {
         "Leo/need": 90,
         "MORE MORE JUMP!": 90,
         "Vivid BAD SQUAD": 90,
         "Wonderlands x Showtime": 90,
         "25-ji, Nightcord de.": 89,
-        "Virtual Singer": 466
+        "Virtual Singer": 468
       }
     }
   },
@@ -18548,6 +18548,31 @@
       "originalVideoLink": null
     },
     {
+      "id": 805,
+      "seq": 1169101,
+      "title": "きのせい",
+      "pronunciation": "きのせい",
+      "lyricist": "imie",
+      "composer": "imie",
+      "arranger": "imie",
+      "categories": [],
+      "publishedAt": "2026-09-23 15:00:00",
+      "releasedAt": "2026-05-27 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://youtu.be/y1juHMozkOw?si=7EjJ-atAFXE8AHhD"
+    },
+    {
       "id": 809,
       "seq": 1168901,
       "title": "敗走",
@@ -18596,6 +18621,31 @@
         "Wonderlands x Showtime"
       ],
       "originalVideoLink": null
+    },
+    {
+      "id": 814,
+      "seq": 1169001,
+      "title": "こわれちゃった！！",
+      "pronunciation": "こわれちゃった",
+      "lyricist": "タケノコ少年",
+      "composer": "タケノコ少年",
+      "arranger": "タケノコ少年",
+      "categories": [],
+      "publishedAt": "2026-09-22 15:00:00",
+      "releasedAt": "2026-02-21 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://youtu.be/XEvoptb8x8U?si=RA2UewZcDBbw6RVs"
     }
   ]
 }
