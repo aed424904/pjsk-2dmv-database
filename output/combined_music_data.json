@@ -32116,6 +32116,18 @@
           }
         ],
         "assetbundleName": "an_0510_01"
+      },
+      {
+        "id": 2078,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 18
+          }
+        ],
+        "assetbundleName": "an_0510_02"
       }
     ]
   },
