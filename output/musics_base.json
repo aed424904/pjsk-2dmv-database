@@ -1,22 +1,22 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "generatedAt": "2026-09-29T04:09:02.367138",
+    "generatedAt": "2026-09-30T03:55:01.901246",
     "sources": [
       "sekai-master-db-diff-main/musics.json",
       "sekai-master-db-diff-main/musicTags.json",
       "sekai-master-db-diff-main/musicOriginals.json"
     ],
     "stats": {
-      "totalSongs": 721,
-      "songsWithOriginalVideoLink": 499,
+      "totalSongs": 727,
+      "songsWithOriginalVideoLink": 504,
       "unitBreakdown": {
-        "Leo/need": 90,
-        "MORE MORE JUMP!": 90,
-        "Vivid BAD SQUAD": 90,
-        "Wonderlands x Showtime": 90,
-        "25-ji, Nightcord de.": 89,
-        "Virtual Singer": 468
+        "Leo/need": 92,
+        "MORE MORE JUMP!": 92,
+        "Vivid BAD SQUAD": 91,
+        "Wonderlands x Showtime": 91,
+        "25-ji, Nightcord de.": 90,
+        "Virtual Singer": 472
       }
     }
   },
@@ -17507,6 +17507,72 @@
       "originalVideoLink": null
     },
     {
+      "id": 729,
+      "seq": 1369601,
+      "title": "LEMON MELON COOKIE",
+      "pronunciation": "れもんめろんくっきー",
+      "lyricist": "TAK",
+      "composer": "TAK",
+      "arranger": "TAK",
+      "categories": [],
+      "publishedAt": "2026-10-04 15:00:00",
+      "releasedAt": "2025-01-15 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "idol"
+      ],
+      "unitTags": [
+        "idol"
+      ],
+      "units": [
+        "MORE MORE JUMP!"
+      ],
+      "originalVideoLink": "https://www.youtube.com/watch?v=5l8VZEyNRH8"
+    },
+    {
+      "id": 730,
+      "seq": 2769201,
+      "title": "エメラルド",
+      "pronunciation": "えめらるど",
+      "lyricist": "キタニタツヤ",
+      "composer": "キタニタツヤ",
+      "arranger": "キタニタツヤ",
+      "categories": [],
+      "publishedAt": "2026-09-30 00:00:00",
+      "releasedAt": "2026-09-30 00:00:00",
+      "isNewlyWrittenMusic": true,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid",
+        "theme_park",
+        "street",
+        "idol",
+        "school_refusal",
+        "light_music_club",
+        "other"
+      ],
+      "unitTags": [
+        "vocaloid",
+        "theme_park",
+        "street",
+        "idol",
+        "school_refusal",
+        "light_music_club"
+      ],
+      "units": [
+        "Virtual Singer",
+        "Wonderlands x Showtime",
+        "Vivid BAD SQUAD",
+        "MORE MORE JUMP!",
+        "25-ji, Nightcord de.",
+        "Leo/need"
+      ],
+      "originalVideoLink": null
+    },
+    {
       "id": 732,
       "seq": 1162801,
       "title": "天藍のアイスヘヴン",
@@ -18283,6 +18349,106 @@
         "Leo/need"
       ],
       "originalVideoLink": null
+    },
+    {
+      "id": 766,
+      "seq": 1269401,
+      "title": "アブノーマリティ･ダンシンガール",
+      "pronunciation": "あぶのーまりてぃだんしんがーる",
+      "lyricist": "ぐちり",
+      "composer": "ぐちり",
+      "arranger": "ぐちり",
+      "categories": [],
+      "publishedAt": "2026-10-02 15:00:00",
+      "releasedAt": "2021-02-27 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "light_music_club"
+      ],
+      "unitTags": [
+        "light_music_club"
+      ],
+      "units": [
+        "Leo/need"
+      ],
+      "originalVideoLink": "https://www.youtube.com/watch?v=SDt2OOdWR-Y"
+    },
+    {
+      "id": 774,
+      "seq": 1169501,
+      "title": "ラビットホール",
+      "pronunciation": "らびっとほーる",
+      "lyricist": "DECO*27",
+      "composer": "DECO*27",
+      "arranger": "tepe",
+      "categories": [],
+      "publishedAt": "2026-10-03 15:00:00",
+      "releasedAt": "2023-05-19 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://youtu.be/eSW2LVbPThw?si=6eBn05Ec9JamPWMt"
+    },
+    {
+      "id": 775,
+      "seq": 1169701,
+      "title": "ドゥーマー",
+      "pronunciation": "どぅーまー",
+      "lyricist": "東京真中",
+      "composer": "東京真中",
+      "arranger": "東京真中",
+      "categories": [],
+      "publishedAt": "2026-10-05 15:00:00",
+      "releasedAt": "2025-08-22 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://youtu.be/YcO-MxPf_Vg?si=ygzQq_7b0fP9VT_N"
+    },
+    {
+      "id": 784,
+      "seq": 1169301,
+      "title": "オブソミート",
+      "pronunciation": "おぶそみーと",
+      "lyricist": "サツキ",
+      "composer": "サツキ",
+      "arranger": "サツキ",
+      "categories": [],
+      "publishedAt": "2026-10-01 15:00:00",
+      "releasedAt": "2024-11-08 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://youtu.be/L2hzsXOT0Nc"
     },
     {
       "id": 788,
