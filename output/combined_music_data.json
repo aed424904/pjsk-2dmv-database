@@ -43294,6 +43294,232 @@
     ]
   },
   {
+    "id": 729,
+    "title": "LEMON MELON COOKIE",
+    "creators": {
+      "creatorArtistId": 342,
+      "creatorArtistName": "TAK",
+      "lyricist": "TAK",
+      "composer": "TAK",
+      "arranger": "TAK"
+    },
+    "tags": [
+      "all",
+      "idol"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1791093600000,
+    "releasedAt": 1736899200000,
+    "originalVideoLink": "https://www.youtube.com/watch?v=5l8VZEyNRH8",
+    "vocals": [
+      {
+        "id": 1286,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0729_01"
+      },
+      {
+        "id": 2089,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 5
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 6
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 7
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 8
+          }
+        ],
+        "assetbundleName": "se_0729_01"
+      }
+    ]
+  },
+  {
+    "id": 730,
+    "title": "エメラルド",
+    "creators": {
+      "creatorArtistId": 74,
+      "creatorArtistName": "キタニタツヤ",
+      "lyricist": "キタニタツヤ",
+      "composer": "キタニタツヤ",
+      "arranger": "キタニタツヤ"
+    },
+    "tags": [
+      "all",
+      "vocaloid",
+      "light_music_club",
+      "idol",
+      "street",
+      "theme_park",
+      "school_refusal",
+      "other"
+    ],
+    "categories": [],
+    "songType": "original",
+    "publishedAt": 1790694000000,
+    "releasedAt": 1790726400000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1287,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0730_01"
+      },
+      {
+        "id": 2081,
+        "musicVocalType": "virtual_singer",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 23
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 24
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 25
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 26
+          }
+        ],
+        "assetbundleName": "vs_0730_02"
+      },
+      {
+        "id": 2082,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 1
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 5
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 9
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 13
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 17
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "se_0730_01"
+      },
+      {
+        "id": 2083,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 1
+          }
+        ],
+        "assetbundleName": "an_0730_01"
+      },
+      {
+        "id": 2084,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 5
+          }
+        ],
+        "assetbundleName": "an_0730_02"
+      },
+      {
+        "id": 2085,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 9
+          }
+        ],
+        "assetbundleName": "an_0730_03"
+      },
+      {
+        "id": 2086,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 13
+          }
+        ],
+        "assetbundleName": "an_0730_04"
+      },
+      {
+        "id": 2087,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 17
+          }
+        ],
+        "assetbundleName": "an_0730_05"
+      }
+    ]
+  },
+  {
     "id": 732,
     "title": "天藍のアイスヘヴン",
     "creators": {
@@ -44732,6 +44958,174 @@
           }
         ],
         "assetbundleName": "se_0765_01"
+      }
+    ]
+  },
+  {
+    "id": 766,
+    "title": "アブノーマリティ･ダンシンガール",
+    "creators": {
+      "creatorArtistId": 341,
+      "creatorArtistName": "ぐちり",
+      "lyricist": "ぐちり",
+      "composer": "ぐちり",
+      "arranger": "ぐちり"
+    },
+    "tags": [
+      "all",
+      "light_music_club"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1790920800000,
+    "releasedAt": 1614384000000,
+    "originalVideoLink": "https://www.youtube.com/watch?v=SDt2OOdWR-Y",
+    "vocals": [
+      {
+        "id": 1323,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "outside_character",
+            "characterId": 3
+          }
+        ],
+        "assetbundleName": "vs_0766_01"
+      },
+      {
+        "id": 2088,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 1
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 2
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 3
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 4
+          }
+        ],
+        "assetbundleName": "se_0766_01"
+      }
+    ]
+  },
+  {
+    "id": 774,
+    "title": "ラビットホール",
+    "creators": {
+      "creatorArtistId": 4,
+      "creatorArtistName": "DECO*27",
+      "lyricist": "DECO*27",
+      "composer": "DECO*27",
+      "arranger": "tepe"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1791007200000,
+    "releasedAt": 1684454400000,
+    "originalVideoLink": "https://youtu.be/eSW2LVbPThw?si=6eBn05Ec9JamPWMt",
+    "vocals": [
+      {
+        "id": 1331,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0774_01"
+      }
+    ]
+  },
+  {
+    "id": 775,
+    "title": "ドゥーマー",
+    "creators": {
+      "creatorArtistId": 343,
+      "creatorArtistName": "東京真中",
+      "lyricist": "東京真中",
+      "composer": "東京真中",
+      "arranger": "東京真中"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1791180000000,
+    "releasedAt": 1755820800000,
+    "originalVideoLink": "https://youtu.be/YcO-MxPf_Vg?si=ygzQq_7b0fP9VT_N",
+    "vocals": [
+      {
+        "id": 1332,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "outside_character",
+            "characterId": 24
+          }
+        ],
+        "assetbundleName": "vs_0775_01"
+      }
+    ]
+  },
+  {
+    "id": 784,
+    "title": "オブソミート",
+    "creators": {
+      "creatorArtistId": 207,
+      "creatorArtistName": "サツキ",
+      "lyricist": "サツキ",
+      "composer": "サツキ",
+      "arranger": "サツキ"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1790834400000,
+    "releasedAt": 1731024000000,
+    "originalVideoLink": "https://youtu.be/L2hzsXOT0Nc",
+    "vocals": [
+      {
+        "id": 1341,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "outside_character",
+            "characterId": 24
+          }
+        ],
+        "assetbundleName": "vs_0784_01"
       }
     ]
   },
