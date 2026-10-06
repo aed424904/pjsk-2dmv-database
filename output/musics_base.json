@@ -1,22 +1,22 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "generatedAt": "2026-10-05T03:58:30.365979",
+    "generatedAt": "2026-10-06T04:48:04.210703",
     "sources": [
       "sekai-master-db-diff-main/musics.json",
       "sekai-master-db-diff-main/musicTags.json",
       "sekai-master-db-diff-main/musicOriginals.json"
     ],
     "stats": {
-      "totalSongs": 727,
-      "songsWithOriginalVideoLink": 504,
+      "totalSongs": 733,
+      "songsWithOriginalVideoLink": 509,
       "unitBreakdown": {
         "Leo/need": 92,
         "MORE MORE JUMP!": 92,
-        "Vivid BAD SQUAD": 91,
-        "Wonderlands x Showtime": 91,
-        "25-ji, Nightcord de.": 90,
-        "Virtual Singer": 472
+        "Vivid BAD SQUAD": 92,
+        "Wonderlands x Showtime": 92,
+        "25-ji, Nightcord de.": 91,
+        "Virtual Singer": 475
       }
     }
   },
@@ -17573,6 +17573,31 @@
       "originalVideoLink": null
     },
     {
+      "id": 731,
+      "seq": 1570001,
+      "title": "アルティメットセンパイ",
+      "pronunciation": "あるてぃめっとせんぱい",
+      "lyricist": "ピノキオピー",
+      "composer": "ピノキオピー",
+      "arranger": "ピノキオピー",
+      "categories": [],
+      "publishedAt": "2026-10-08 15:00:00",
+      "releasedAt": "2019-10-16 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "theme_park"
+      ],
+      "unitTags": [
+        "theme_park"
+      ],
+      "units": [
+        "Wonderlands x Showtime"
+      ],
+      "originalVideoLink": "https://www.youtube.com/watch?v=MnJq5kSn-GY"
+    },
+    {
       "id": 732,
       "seq": 1162801,
       "title": "天藍のアイスヘヴン",
@@ -18288,6 +18313,31 @@
       "originalVideoLink": null
     },
     {
+      "id": 763,
+      "seq": 1670201,
+      "title": "ハイドレンジア",
+      "pronunciation": "はいどれんじあ",
+      "lyricist": "LonePi",
+      "composer": "LonePi",
+      "arranger": "LonePi",
+      "categories": [],
+      "publishedAt": "2026-10-10 15:00:00",
+      "releasedAt": "2021-03-08 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "school_refusal"
+      ],
+      "unitTags": [
+        "school_refusal"
+      ],
+      "units": [
+        "25-ji, Nightcord de."
+      ],
+      "originalVideoLink": "https://youtu.be/65pJPhP1wzw?si=chRKiXBp-7T_-pfF"
+    },
+    {
       "id": 764,
       "seq": 1367801,
       "title": "オツキミリサイタル",
@@ -18376,6 +18426,56 @@
       "originalVideoLink": "https://www.youtube.com/watch?v=SDt2OOdWR-Y"
     },
     {
+      "id": 767,
+      "seq": 1469801,
+      "title": "デーモンロード",
+      "pronunciation": "でーもんろーど",
+      "lyricist": "Kanaria",
+      "composer": "Kanaria",
+      "arranger": "Kanaria",
+      "categories": [],
+      "publishedAt": "2026-10-06 15:00:00",
+      "releasedAt": "2023-07-07 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "street"
+      ],
+      "unitTags": [
+        "street"
+      ],
+      "units": [
+        "Vivid BAD SQUAD"
+      ],
+      "originalVideoLink": "https://www.youtube.com/watch?v=L5t_TkogtDM"
+    },
+    {
+      "id": 773,
+      "seq": 1170101,
+      "title": "ダーリン",
+      "pronunciation": "だーりん",
+      "lyricist": "MARETU",
+      "composer": "MARETU",
+      "arranger": "MARETU",
+      "categories": [],
+      "publishedAt": "2026-10-09 15:00:00",
+      "releasedAt": "2017-09-29 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://www.youtube.com/watch?v=YFg48Ai1SSo"
+    },
+    {
       "id": 774,
       "seq": 1169501,
       "title": "ラビットホール",
@@ -18424,6 +18524,31 @@
         "Virtual Singer"
       ],
       "originalVideoLink": "https://youtu.be/YcO-MxPf_Vg?si=ygzQq_7b0fP9VT_N"
+    },
+    {
+      "id": 776,
+      "seq": 1169901,
+      "title": "推定ラブソング",
+      "pronunciation": "すいていらぶそんぐ",
+      "lyricist": "あ子",
+      "composer": "あ子",
+      "arranger": "あ子",
+      "categories": [],
+      "publishedAt": "2026-10-07 15:00:00",
+      "releasedAt": "2025-02-13 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://youtu.be/Q4hxAaOap6k"
     },
     {
       "id": 784,
@@ -18785,6 +18910,31 @@
       ],
       "units": [
         "Wonderlands x Showtime"
+      ],
+      "originalVideoLink": null
+    },
+    {
+      "id": 813,
+      "seq": 2170301,
+      "title": "at",
+      "pronunciation": "あっと",
+      "lyricist": "黒魔",
+      "composer": "黒魔",
+      "arranger": "黒魔",
+      "categories": [],
+      "publishedAt": "2026-10-11 15:00:00",
+      "releasedAt": "2026-10-11 00:00:00",
+      "isNewlyWrittenMusic": true,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
       ],
       "originalVideoLink": null
     },
