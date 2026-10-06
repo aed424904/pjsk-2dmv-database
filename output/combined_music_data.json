@@ -43520,6 +43520,68 @@
     ]
   },
   {
+    "id": 731,
+    "title": "アルティメットセンパイ",
+    "creators": {
+      "creatorArtistId": 25,
+      "creatorArtistName": "ピノキオピー",
+      "lyricist": "ピノキオピー",
+      "composer": "ピノキオピー",
+      "arranger": "ピノキオピー"
+    },
+    "tags": [
+      "all",
+      "theme_park"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1791439200000,
+    "releasedAt": 1571184000000,
+    "originalVideoLink": "https://www.youtube.com/watch?v=MnJq5kSn-GY",
+    "vocals": [
+      {
+        "id": 1288,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0731_01"
+      },
+      {
+        "id": 2091,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 13
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 14
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 15
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 16
+          }
+        ],
+        "assetbundleName": "se_0731_01"
+      }
+    ]
+  },
+  {
     "id": 732,
     "title": "天藍のアイスヘヴン",
     "creators": {
@@ -44829,6 +44891,68 @@
     ]
   },
   {
+    "id": 763,
+    "title": "ハイドレンジア",
+    "creators": {
+      "creatorArtistId": 309,
+      "creatorArtistName": "LonePi",
+      "lyricist": "LonePi",
+      "composer": "LonePi",
+      "arranger": "LonePi"
+    },
+    "tags": [
+      "all",
+      "school_refusal"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1791612000000,
+    "releasedAt": 1615161600000,
+    "originalVideoLink": "https://youtu.be/65pJPhP1wzw?si=chRKiXBp-7T_-pfF",
+    "vocals": [
+      {
+        "id": 1320,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "outside_character",
+            "characterId": 6
+          }
+        ],
+        "assetbundleName": "vs_0763_01"
+      },
+      {
+        "id": 2092,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 24
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 17
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 18
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 19
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 20
+          }
+        ],
+        "assetbundleName": "se_0763_01"
+      }
+    ]
+  },
+  {
     "id": 764,
     "title": "オツキミリサイタル",
     "creators": {
@@ -45024,6 +45148,102 @@
     ]
   },
   {
+    "id": 767,
+    "title": "デーモンロード",
+    "creators": {
+      "creatorArtistId": 77,
+      "creatorArtistName": "Kanaria",
+      "lyricist": "Kanaria",
+      "composer": "Kanaria",
+      "arranger": "Kanaria"
+    },
+    "tags": [
+      "all",
+      "street"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1791266400000,
+    "releasedAt": 1688688000000,
+    "originalVideoLink": "https://www.youtube.com/watch?v=L5t_TkogtDM",
+    "vocals": [
+      {
+        "id": 1324,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0767_01"
+      },
+      {
+        "id": 2090,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 23
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 9
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 10
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 11
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 12
+          }
+        ],
+        "assetbundleName": "se_0767_01"
+      }
+    ]
+  },
+  {
+    "id": 773,
+    "title": "ダーリン",
+    "creators": {
+      "creatorArtistId": 183,
+      "creatorArtistName": "MARETU",
+      "lyricist": "MARETU",
+      "composer": "MARETU",
+      "arranger": "MARETU"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1791525600000,
+    "releasedAt": 1506643200000,
+    "originalVideoLink": "https://www.youtube.com/watch?v=YFg48Ai1SSo",
+    "vocals": [
+      {
+        "id": 1330,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0773_01"
+      }
+    ]
+  },
+  {
     "id": 774,
     "title": "ラビットホール",
     "creators": {
@@ -45088,6 +45308,40 @@
           }
         ],
         "assetbundleName": "vs_0775_01"
+      }
+    ]
+  },
+  {
+    "id": 776,
+    "title": "推定ラブソング",
+    "creators": {
+      "creatorArtistId": 344,
+      "creatorArtistName": "あ子",
+      "lyricist": "あ子",
+      "composer": "あ子",
+      "arranger": "あ子"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1791352800000,
+    "releasedAt": 1739404800000,
+    "originalVideoLink": "https://youtu.be/Q4hxAaOap6k",
+    "vocals": [
+      {
+        "id": 1333,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 26
+          }
+        ],
+        "assetbundleName": "vs_0776_01"
       }
     ]
   },
@@ -45729,6 +45983,40 @@
           }
         ],
         "assetbundleName": "se_0811_01"
+      }
+    ]
+  },
+  {
+    "id": 813,
+    "title": "at",
+    "creators": {
+      "creatorArtistId": 95,
+      "creatorArtistName": "黒魔",
+      "lyricist": "黒魔",
+      "composer": "黒魔",
+      "arranger": "黒魔"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [],
+    "songType": "original",
+    "publishedAt": 1791698400000,
+    "releasedAt": 1791676800000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1857,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          }
+        ],
+        "assetbundleName": "vs_0813_01"
       }
     ]
   },
