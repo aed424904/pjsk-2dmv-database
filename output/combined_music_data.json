@@ -34048,6 +34048,18 @@
           }
         ],
         "assetbundleName": "se_0547_01"
+      },
+      {
+        "id": 2093,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 3
+          }
+        ],
+        "assetbundleName": "an_0547_01"
       }
     ]
   },
@@ -45509,6 +45521,42 @@
           }
         ],
         "assetbundleName": "se_0789_01"
+      },
+      {
+        "id": 2094,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 1
+          }
+        ],
+        "assetbundleName": "an_0789_01"
+      },
+      {
+        "id": 2095,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 4
+          }
+        ],
+        "assetbundleName": "an_0789_02"
+      },
+      {
+        "id": 2096,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          }
+        ],
+        "assetbundleName": "an_0789_03"
       }
     ]
   },
@@ -45611,6 +45659,68 @@
           }
         ],
         "assetbundleName": "vs_0792_01"
+      }
+    ]
+  },
+  {
+    "id": 793,
+    "title": "バカ通信",
+    "creators": {
+      "creatorArtistId": 351,
+      "creatorArtistName": "isonosuke",
+      "lyricist": "isonosuke",
+      "composer": "isonosuke",
+      "arranger": "isonosuke"
+    },
+    "tags": [
+      "all",
+      "theme_park"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1792389600000,
+    "releasedAt": 1683849600000,
+    "originalVideoLink": "https://www.youtube.com/watch?v=pRjWRV1Bhfs&t",
+    "vocals": [
+      {
+        "id": 1350,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "outside_character",
+            "characterId": 45
+          }
+        ],
+        "assetbundleName": "vs_0793_01"
+      },
+      {
+        "id": 2098,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 25
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 13
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 14
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 15
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 16
+          }
+        ],
+        "assetbundleName": "se_0793_01"
       }
     ]
   },
@@ -45987,6 +46097,68 @@
     ]
   },
   {
+    "id": 812,
+    "title": "星、ときどき光",
+    "creators": {
+      "creatorArtistId": 290,
+      "creatorArtistName": "あばらや",
+      "lyricist": "あばらや",
+      "composer": "あばらや",
+      "arranger": "あばらや"
+    },
+    "tags": [
+      "all",
+      "light_music_club"
+    ],
+    "categories": [],
+    "songType": "original",
+    "publishedAt": 1791784800000,
+    "releasedAt": 1791763200000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1856,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "outside_character",
+            "characterId": 3
+          }
+        ],
+        "assetbundleName": "vs_0812_01"
+      },
+      {
+        "id": 2097,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 3
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 25
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 1
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 2
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 4
+          }
+        ],
+        "assetbundleName": "se_0812_01"
+      }
+    ]
+  },
+  {
     "id": 813,
     "title": "at",
     "creators": {
@@ -46051,6 +46223,40 @@
           }
         ],
         "assetbundleName": "vs_0814_01"
+      }
+    ]
+  },
+  {
+    "id": 824,
+    "title": "Palette",
+    "creators": {
+      "creatorArtistId": 350,
+      "creatorArtistName": "ゆよゆっぺ・meola",
+      "lyricist": "ゆよゆっぺ・meola",
+      "composer": "ゆよゆっぺ・meola",
+      "arranger": "ゆよゆっぺ"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1792130400000,
+    "releasedAt": 1240444800000,
+    "originalVideoLink": "https://www.nicovideo.jp/watch/sm6828492",
+    "vocals": [
+      {
+        "id": 1868,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 24
+          }
+        ],
+        "assetbundleName": "vs_0824_01"
       }
     ]
   }
