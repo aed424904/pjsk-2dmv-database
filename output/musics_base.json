@@ -1,22 +1,22 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "generatedAt": "2026-10-11T03:54:28.652237",
+    "generatedAt": "2026-10-12T04:15:27.146816",
     "sources": [
       "sekai-master-db-diff-main/musics.json",
       "sekai-master-db-diff-main/musicTags.json",
       "sekai-master-db-diff-main/musicOriginals.json"
     ],
     "stats": {
-      "totalSongs": 733,
-      "songsWithOriginalVideoLink": 509,
+      "totalSongs": 736,
+      "songsWithOriginalVideoLink": 511,
       "unitBreakdown": {
-        "Leo/need": 92,
+        "Leo/need": 93,
         "MORE MORE JUMP!": 92,
         "Vivid BAD SQUAD": 92,
-        "Wonderlands x Showtime": 92,
+        "Wonderlands x Showtime": 93,
         "25-ji, Nightcord de.": 91,
-        "Virtual Singer": 475
+        "Virtual Singer": 476
       }
     }
   },
@@ -18714,6 +18714,31 @@
       "originalVideoLink": "https://www.nicovideo.jp/watch/nm14629738"
     },
     {
+      "id": 793,
+      "seq": 1570601,
+      "title": "バカ通信",
+      "pronunciation": "ばかつうしん",
+      "lyricist": "isonosuke",
+      "composer": "isonosuke",
+      "arranger": "isonosuke",
+      "categories": [],
+      "publishedAt": "2026-10-19 15:00:00",
+      "releasedAt": "2023-05-12 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "theme_park"
+      ],
+      "unitTags": [
+        "theme_park"
+      ],
+      "units": [
+        "Wonderlands x Showtime"
+      ],
+      "originalVideoLink": "https://www.youtube.com/watch?v=pRjWRV1Bhfs&t"
+    },
+    {
       "id": 794,
       "seq": 1167501,
       "title": "デロスサントス",
@@ -18914,6 +18939,31 @@
       "originalVideoLink": null
     },
     {
+      "id": 812,
+      "seq": 2270401,
+      "title": "星、ときどき光",
+      "pronunciation": "ほし、ときどきひかり",
+      "lyricist": "あばらや",
+      "composer": "あばらや",
+      "arranger": "あばらや",
+      "categories": [],
+      "publishedAt": "2026-10-12 15:00:00",
+      "releasedAt": "2026-10-12 00:00:00",
+      "isNewlyWrittenMusic": true,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "light_music_club"
+      ],
+      "unitTags": [
+        "light_music_club"
+      ],
+      "units": [
+        "Leo/need"
+      ],
+      "originalVideoLink": null
+    },
+    {
       "id": 813,
       "seq": 2170301,
       "title": "at",
@@ -18962,6 +19012,31 @@
         "Virtual Singer"
       ],
       "originalVideoLink": "https://youtu.be/XEvoptb8x8U?si=RA2UewZcDBbw6RVs"
+    },
+    {
+      "id": 824,
+      "seq": 1170501,
+      "title": "Palette",
+      "pronunciation": "ぱれっと",
+      "lyricist": "ゆよゆっぺ・meola",
+      "composer": "ゆよゆっぺ・meola",
+      "arranger": "ゆよゆっぺ",
+      "categories": [],
+      "publishedAt": "2026-10-16 15:00:00",
+      "releasedAt": "2009-04-23 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://www.nicovideo.jp/watch/sm6828492"
     }
   ]
 }
