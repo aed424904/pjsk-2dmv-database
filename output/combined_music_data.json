@@ -35980,6 +35980,30 @@
           }
         ],
         "assetbundleName": "se_0580_01"
+      },
+      {
+        "id": 2099,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 9
+          }
+        ],
+        "assetbundleName": "an_0580_01"
+      },
+      {
+        "id": 2100,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 10
+          }
+        ],
+        "assetbundleName": "an_0580_02"
       }
     ]
   },
@@ -41359,6 +41383,30 @@
           }
         ],
         "assetbundleName": "se_0683_01"
+      },
+      {
+        "id": 2101,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 7
+          }
+        ],
+        "assetbundleName": "an_0683_01"
+      },
+      {
+        "id": 2102,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 26
+          }
+        ],
+        "assetbundleName": "an_0683_02"
       }
     ]
   },
