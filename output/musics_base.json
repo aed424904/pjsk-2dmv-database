@@ -1,22 +1,22 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "generatedAt": "2026-10-25T03:08:19.986715",
+    "generatedAt": "2026-10-26T03:08:03.093996",
     "sources": [
       "sekai-master-db-diff-main/musics.json",
       "sekai-master-db-diff-main/musicTags.json",
       "sekai-master-db-diff-main/musicOriginals.json"
     ],
     "stats": {
-      "totalSongs": 736,
-      "songsWithOriginalVideoLink": 511,
+      "totalSongs": 737,
+      "songsWithOriginalVideoLink": 512,
       "unitBreakdown": {
         "Leo/need": 93,
         "MORE MORE JUMP!": 92,
         "Vivid BAD SQUAD": 92,
         "Wonderlands x Showtime": 93,
         "25-ji, Nightcord de.": 91,
-        "Virtual Singer": 476
+        "Virtual Singer": 477
       }
     }
   },
@@ -19037,6 +19037,31 @@
         "Virtual Singer"
       ],
       "originalVideoLink": "https://www.nicovideo.jp/watch/sm6828492"
+    },
+    {
+      "id": 825,
+      "seq": 1170701,
+      "title": "ディスコティックブルー",
+      "pronunciation": "でぃすこてぃっくぶるー",
+      "lyricist": "Rulmry.",
+      "composer": "Rulmry.",
+      "arranger": "Rulmry.",
+      "categories": [],
+      "publishedAt": "2026-10-26 15:00:00",
+      "releasedAt": "2026-07-28 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://youtu.be/xJzAjJXPkag?si=6e9miaz8O3eWBrhA"
     }
   ]
 }

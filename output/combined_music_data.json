@@ -770,6 +770,26 @@
           }
         ],
         "assetbundleName": "an_0015_02"
+      },
+      {
+        "id": 2106,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブ(DAY1)ver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 5
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 9
+          }
+        ],
+        "assetbundleName": "cl_0015_01"
       }
     ]
   },
@@ -7036,6 +7056,22 @@
           }
         ],
         "assetbundleName": "vs_0128_01"
+      },
+      {
+        "id": 2110,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブ(DAY2)ver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 5
+          }
+        ],
+        "assetbundleName": "cl_0128_01"
       }
     ]
   },
@@ -8678,6 +8714,22 @@
           }
         ],
         "assetbundleName": "an_0145_04"
+      },
+      {
+        "id": 2104,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブ(DAY1)ver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 14
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 20
+          }
+        ],
+        "assetbundleName": "cl_0145_01"
       }
     ]
   },
@@ -9977,6 +10029,22 @@
           }
         ],
         "assetbundleName": "vs_0165_01"
+      },
+      {
+        "id": 2103,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブ(DAY1)ver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 13
+          }
+        ],
+        "assetbundleName": "cl_0165_01"
       }
     ]
   },
@@ -21404,6 +21472,50 @@
           }
         ],
         "assetbundleName": "vs_0336_01"
+      },
+      {
+        "id": 2109,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブ(DAY1/DAY2)ver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 2
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 5
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 7
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 9
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 13
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 14
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 20
+          }
+        ],
+        "assetbundleName": "cl_0336_01"
       }
     ]
   },
@@ -22917,6 +23029,34 @@
           }
         ],
         "assetbundleName": "se_0360_01"
+      },
+      {
+        "id": 2108,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブ(DAY1)ver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 2
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 9
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 13
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 14
+          }
+        ],
+        "assetbundleName": "cl_0360_01"
       }
     ]
   },
@@ -26047,6 +26187,26 @@
           }
         ],
         "assetbundleName": "af_0410_01"
+      },
+      {
+        "id": 2112,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブ(DAY2)ver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 9
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 14
+          }
+        ],
+        "assetbundleName": "cl_0410_01"
       }
     ]
   },
@@ -30940,6 +31100,34 @@
           }
         ],
         "assetbundleName": "an_0493_01"
+      },
+      {
+        "id": 2115,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブ(DAY2)ver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 2
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 13
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 14
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 20
+          }
+        ],
+        "assetbundleName": "cl_0493_01"
       }
     ]
   },
@@ -31006,6 +31194,30 @@
           }
         ],
         "assetbundleName": "se_0494_01"
+      },
+      {
+        "id": 2114,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブ(DAY2)ver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 5
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 7
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 9
+          }
+        ],
+        "assetbundleName": "cl_0494_01"
       }
     ]
   },
@@ -32668,6 +32880,30 @@
           }
         ],
         "assetbundleName": "an_0521_01"
+      },
+      {
+        "id": 2107,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブ(DAY1)ver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 5
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 7
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 20
+          }
+        ],
+        "assetbundleName": "cl_0521_01"
       }
     ]
   },
@@ -34876,6 +35112,22 @@
           }
         ],
         "assetbundleName": "se_0559_01"
+      },
+      {
+        "id": 2111,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブ(DAY2)ver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 2
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 13
+          }
+        ],
+        "assetbundleName": "cl_0559_01"
       }
     ]
   },
@@ -42405,6 +42657,22 @@
           }
         ],
         "assetbundleName": "se_0705_01"
+      },
+      {
+        "id": 2105,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブ(DAY1)ver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 2
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 7
+          }
+        ],
+        "assetbundleName": "cl_0705_01"
       }
     ]
   },
@@ -43181,6 +43449,22 @@
           }
         ],
         "assetbundleName": "se_0723_01"
+      },
+      {
+        "id": 2113,
+        "musicVocalType": "streaming_live",
+        "caption": "コネクトライブ(DAY2)ver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 7
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 20
+          }
+        ],
+        "assetbundleName": "cl_0723_01"
       }
     ]
   },
@@ -46305,6 +46589,40 @@
           }
         ],
         "assetbundleName": "vs_0824_01"
+      }
+    ]
+  },
+  {
+    "id": 825,
+    "title": "ディスコティックブルー",
+    "creators": {
+      "creatorArtistId": 203,
+      "creatorArtistName": "Rulmry.",
+      "lyricist": "Rulmry.",
+      "composer": "Rulmry.",
+      "arranger": "Rulmry."
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1792994400000,
+    "releasedAt": 1785196800000,
+    "originalVideoLink": "https://youtu.be/xJzAjJXPkag?si=6e9miaz8O3eWBrhA",
+    "vocals": [
+      {
+        "id": 1869,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0825_01"
       }
     ]
   }
