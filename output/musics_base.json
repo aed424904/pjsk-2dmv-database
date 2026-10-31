@@ -1,22 +1,22 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "generatedAt": "2026-10-30T04:18:42.762015",
+    "generatedAt": "2026-10-31T03:58:53.539715",
     "sources": [
       "sekai-master-db-diff-main/musics.json",
       "sekai-master-db-diff-main/musicTags.json",
       "sekai-master-db-diff-main/musicOriginals.json"
     ],
     "stats": {
-      "totalSongs": 737,
-      "songsWithOriginalVideoLink": 512,
+      "totalSongs": 739,
+      "songsWithOriginalVideoLink": 514,
       "unitBreakdown": {
         "Leo/need": 93,
         "MORE MORE JUMP!": 92,
-        "Vivid BAD SQUAD": 92,
+        "Vivid BAD SQUAD": 93,
         "Wonderlands x Showtime": 93,
         "25-ji, Nightcord de.": 91,
-        "Virtual Singer": 477
+        "Virtual Singer": 478
       }
     }
   },
@@ -18551,6 +18551,31 @@
       "originalVideoLink": "https://youtu.be/Q4hxAaOap6k"
     },
     {
+      "id": 783,
+      "seq": 2170801,
+      "title": "ULTIM@TE☆BE∀M!!",
+      "pronunciation": "あるてぃめっとびーむ",
+      "lyricist": "xi",
+      "composer": "xi",
+      "arranger": "xi",
+      "categories": [],
+      "publishedAt": "2026-10-31 15:00:00",
+      "releasedAt": "2026-10-03 00:00:00",
+      "isNewlyWrittenMusic": true,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://www.youtube.com/watch?v=VNK8leVFy-g"
+    },
+    {
       "id": 784,
       "seq": 1169301,
       "title": "オブソミート",
@@ -19062,6 +19087,31 @@
         "Virtual Singer"
       ],
       "originalVideoLink": "https://youtu.be/xJzAjJXPkag?si=6e9miaz8O3eWBrhA"
+    },
+    {
+      "id": 828,
+      "seq": 1470901,
+      "title": "プレデター",
+      "pronunciation": "ぷれでたー",
+      "lyricist": "遼遼",
+      "composer": "遼遼",
+      "arranger": "遼遼",
+      "categories": [],
+      "publishedAt": "2026-11-02 15:00:00",
+      "releasedAt": "2019-03-31 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "street"
+      ],
+      "unitTags": [
+        "street"
+      ],
+      "units": [
+        "Vivid BAD SQUAD"
+      ],
+      "originalVideoLink": "https://www.youtube.com/watch?v=AZWrgab8VyE"
     }
   ]
 }
