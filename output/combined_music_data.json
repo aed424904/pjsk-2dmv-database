@@ -13423,6 +13423,18 @@
           }
         ],
         "assetbundleName": "an_0210_03"
+      },
+      {
+        "id": 2116,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 11
+          }
+        ],
+        "assetbundleName": "an_0210_04"
       }
     ]
   },
@@ -42324,6 +42336,18 @@
           }
         ],
         "assetbundleName": "se_0698_01"
+      },
+      {
+        "id": 2117,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 18
+          }
+        ],
+        "assetbundleName": "an_0698_01"
       }
     ]
   },
@@ -45690,6 +45714,40 @@
     ]
   },
   {
+    "id": 783,
+    "title": "ULTIM@TE☆BE∀M!!",
+    "creators": {
+      "creatorArtistId": 324,
+      "creatorArtistName": "xi",
+      "lyricist": "xi",
+      "composer": "xi",
+      "arranger": "xi"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [],
+    "songType": "original",
+    "publishedAt": 1793426400000,
+    "releasedAt": 1790985600000,
+    "originalVideoLink": "https://www.youtube.com/watch?v=VNK8leVFy-g",
+    "vocals": [
+      {
+        "id": 1340,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0783_01"
+      }
+    ]
+  },
+  {
     "id": 784,
     "title": "オブソミート",
     "creators": {
@@ -46623,6 +46681,60 @@
           }
         ],
         "assetbundleName": "vs_0825_01"
+      }
+    ]
+  },
+  {
+    "id": 828,
+    "title": "プレデター",
+    "creators": {
+      "creatorArtistId": 140,
+      "creatorArtistName": "遼遼",
+      "lyricist": "遼遼",
+      "composer": "遼遼",
+      "arranger": "遼遼"
+    },
+    "tags": [
+      "all",
+      "street"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1793599200000,
+    "releasedAt": 1553990400000,
+    "originalVideoLink": "https://www.youtube.com/watch?v=AZWrgab8VyE",
+    "vocals": [
+      {
+        "id": 1872,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "outside_character",
+            "characterId": 3
+          }
+        ],
+        "assetbundleName": "vs_0828_01"
+      },
+      {
+        "id": 2118,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 26
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 11
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 12
+          }
+        ],
+        "assetbundleName": "se_0828_01"
       }
     ]
   }
