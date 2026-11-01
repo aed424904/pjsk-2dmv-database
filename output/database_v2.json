@@ -1,10 +1,10 @@
 {
   "metadata": {
     "version": "2.2.0",
-    "generatedAt": "2026-10-31T03:58:54.055231",
+    "generatedAt": "2026-11-01T04:17:32.552901",
     "sources": [
-      "YouTube Snapshot (官方 2DMV Playlist (playlist_official_2dmv_20261031_035849.json))",
-      "YouTube Snapshot (书下曲本家 MV Playlist (playlist_commissioned_original_mv_20261031_035850.json))",
+      "YouTube Snapshot (官方 2DMV Playlist (playlist_official_2dmv_20261101_041728.json))",
+      "YouTube Snapshot (书下曲本家 MV Playlist (playlist_commissioned_original_mv_20261101_041730.json))",
       "Sekai Viewer musics.json",
       "Sekai Viewer musicTag.json",
       "output/musics_base.json",
@@ -31,6 +31,132 @@
     }
   },
   "songs": [
+    {
+      "id": "song_6周年アニバーサリーソング『エメラルド』",
+      "sekaiMusicId": null,
+      "title": "6周年アニバーサリーソング『エメラルド』",
+      "titleJp": "6周年アニバーサリーソング『エメラルド』",
+      "titleRomaji": null,
+      "titleEn": null,
+      "aliases": [],
+      "creators": {},
+      "classification": {
+        "units": [],
+        "virtualSingers": [],
+        "category": "cover",
+        "mvType": null,
+        "tags": [
+          "官方MV"
+        ]
+      },
+      "dates": {
+        "sekaiReleaseDate": null,
+        "youtubeUploadDate": null,
+        "originalReleaseDate": null
+      },
+      "gameData": {},
+      "videos": [
+        {
+          "type": "official_2dmv",
+          "variant": "unit_version",
+          "version": {
+            "base": "sekai",
+            "special": [],
+            "label": "SEKAI ver",
+            "source": "manual_override"
+          },
+          "videoId": "-jH80xvHX-E",
+          "url": "https://www.youtube.com/watch?v=-jH80xvHX-E",
+          "title": "6周年アニバーサリーソング『エメラルド』",
+          "description": "",
+          "channelTitle": "プロジェクトセカイ カラフルステージ! feat. 初音ミク",
+          "channelId": "UCdMGYXL38w6htx6Yf9YJa-w",
+          "uploadDate": "",
+          "thumbnails": {
+            "default": "",
+            "medium": "",
+            "high": ""
+          },
+          "playlistPosition": 0,
+          "viewCount": 439000,
+          "likeCount": 0,
+          "sourceKey": "official_2dmv",
+          "sourceName": "官方 2DMV Playlist",
+          "sourceKind": "playlist",
+          "sourceUrl": "https://www.youtube.com/playlist?list=PLiFNg5fXiX32G3fNBC7U02t19zVkHAmdD",
+          "staff": {
+            "illustrators": [],
+            "pvCreators": [],
+            "otherRoles": {
+              "illustrationAnimation": [],
+              "lyricDesign": [],
+              "animation": [],
+              "design": [],
+              "cg3d": [],
+              "direction": [],
+              "storyboard": [],
+              "compositing": [],
+              "editing": [],
+              "production": [],
+              "productionSupport": [],
+              "lyricist": [],
+              "composer": [],
+              "arranger": [],
+              "vocalist": [],
+              "musician": [],
+              "mixing": [],
+              "mastering": [],
+              "vocalEdit": [],
+              "musicProduction": [],
+              "unknown": []
+            },
+            "contributors": [],
+            "unparsedLines": [],
+            "unknownRoleLines": []
+          }
+        }
+      ],
+      "staffSummary": {
+        "illustrators": [],
+        "pvCreators": [],
+        "otherRoles": {
+          "illustrationAnimation": [],
+          "lyricDesign": [],
+          "animation": [],
+          "design": [],
+          "cg3d": [],
+          "direction": [],
+          "storyboard": [],
+          "compositing": [],
+          "editing": [],
+          "production": [],
+          "productionSupport": [],
+          "lyricist": [],
+          "composer": [],
+          "arranger": [],
+          "vocalist": [],
+          "musician": [],
+          "mixing": [],
+          "mastering": [],
+          "vocalEdit": [],
+          "musicProduction": [],
+          "unknown": []
+        },
+        "allContributors": []
+      },
+      "performerSummary": {
+        "performers": []
+      },
+      "videoVersionSummary": {
+        "bases": [
+          "sekai"
+        ],
+        "special": [],
+        "labels": [
+          "SEKAI ver"
+        ]
+      }
+    },
     {
       "id": "song_星、ときどき光",
       "sekaiMusicId": 812,
@@ -95,8 +221,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 0,
-          "viewCount": 606000,
+          "playlistPosition": 1,
+          "viewCount": 626000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -155,7 +281,7 @@
             "high": ""
           },
           "playlistPosition": 0,
-          "viewCount": 285000,
+          "viewCount": 292000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -312,8 +438,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 1,
-          "viewCount": 935000,
+          "playlistPosition": 2,
+          "viewCount": 946000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -457,8 +583,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 2,
-          "viewCount": 467000,
+          "playlistPosition": 3,
+          "viewCount": 471000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -602,7 +728,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 3,
+          "playlistPosition": 4,
           "viewCount": 1200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -662,7 +788,7 @@
             "high": ""
           },
           "playlistPosition": 4,
-          "viewCount": 467000,
+          "viewCount": 470000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -825,8 +951,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 4,
-          "viewCount": 763000,
+          "playlistPosition": 5,
+          "viewCount": 766000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -884,7 +1010,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 198,
+          "playlistPosition": 199,
           "viewCount": 5500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -1029,8 +1155,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 5,
-          "viewCount": 510000,
+          "playlistPosition": 6,
+          "viewCount": 513000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -1088,8 +1214,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 43,
-          "viewCount": 872000,
+          "playlistPosition": 44,
+          "viewCount": 873000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -1235,8 +1361,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 6,
-          "viewCount": 1300000,
+          "playlistPosition": 7,
+          "viewCount": 1400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -1294,7 +1420,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 114,
+          "playlistPosition": 115,
           "viewCount": 3300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -1439,8 +1565,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 7,
-          "viewCount": 813000,
+          "playlistPosition": 8,
+          "viewCount": 815000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -1583,7 +1709,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 8,
+          "playlistPosition": 9,
           "viewCount": 2400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -1725,7 +1851,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 9,
+          "playlistPosition": 10,
           "viewCount": 2000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -1872,8 +1998,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 10,
-          "viewCount": 1100000,
+          "playlistPosition": 11,
+          "viewCount": 1200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -2099,7 +2225,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 11,
+          "playlistPosition": 12,
           "viewCount": 1200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -2328,7 +2454,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 12,
+          "playlistPosition": 13,
           "viewCount": 2100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -2388,7 +2514,7 @@
             "high": ""
           },
           "playlistPosition": 5,
-          "viewCount": 359000,
+          "viewCount": 360000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -2545,8 +2671,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 13,
-          "viewCount": 230000,
+          "playlistPosition": 14,
+          "viewCount": 232000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -2690,8 +2816,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 14,
-          "viewCount": 316000,
+          "playlistPosition": 15,
+          "viewCount": 317000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -2750,7 +2876,7 @@
             "high": ""
           },
           "playlistPosition": 6,
-          "viewCount": 257000,
+          "viewCount": 258000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -2909,8 +3035,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 15,
-          "viewCount": 516000,
+          "playlistPosition": 16,
+          "viewCount": 519000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -3126,7 +3252,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 16,
+          "playlistPosition": 17,
           "viewCount": 1000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -3279,7 +3405,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 17,
+          "playlistPosition": 18,
           "viewCount": 1700000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -3339,7 +3465,7 @@
             "high": ""
           },
           "playlistPosition": 8,
-          "viewCount": 603000,
+          "viewCount": 605000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -3498,8 +3624,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 18,
-          "viewCount": 339000,
+          "playlistPosition": 19,
+          "viewCount": 340000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -3645,8 +3771,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 19,
-          "viewCount": 631000,
+          "playlistPosition": 20,
+          "viewCount": 634000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -3705,7 +3831,7 @@
             "high": ""
           },
           "playlistPosition": 10,
-          "viewCount": 80000,
+          "viewCount": 81000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -3862,8 +3988,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 20,
-          "viewCount": 810000,
+          "playlistPosition": 21,
+          "viewCount": 813000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -4013,8 +4139,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 21,
-          "viewCount": 729000,
+          "playlistPosition": 22,
+          "viewCount": 732000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -4236,7 +4362,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 22,
+          "playlistPosition": 23,
           "viewCount": 1300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -4296,7 +4422,7 @@
             "high": ""
           },
           "playlistPosition": 12,
-          "viewCount": 181000,
+          "viewCount": 182000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -4463,7 +4589,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 23,
+          "playlistPosition": 24,
           "viewCount": 1500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -4694,7 +4820,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 24,
+          "playlistPosition": 25,
           "viewCount": 1200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -4754,7 +4880,7 @@
             "high": ""
           },
           "playlistPosition": 16,
-          "viewCount": 234000,
+          "viewCount": 235000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -4911,7 +5037,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 25,
+          "playlistPosition": 26,
           "viewCount": 1200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -5058,8 +5184,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 26,
-          "viewCount": 523000,
+          "playlistPosition": 27,
+          "viewCount": 524000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -5118,7 +5244,7 @@
             "high": ""
           },
           "playlistPosition": 13,
-          "viewCount": 161000,
+          "viewCount": 162000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -5287,7 +5413,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 27,
+          "playlistPosition": 28,
           "viewCount": 1400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -5502,7 +5628,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 28,
+          "playlistPosition": 29,
           "viewCount": 3100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -5723,8 +5849,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 29,
-          "viewCount": 2100000,
+          "playlistPosition": 30,
+          "viewCount": 2200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -5868,7 +5994,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 30,
+          "playlistPosition": 31,
           "viewCount": 5100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -6013,7 +6139,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 31,
+          "playlistPosition": 32,
           "viewCount": 1000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -6160,8 +6286,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 32,
-          "viewCount": 706000,
+          "playlistPosition": 33,
+          "viewCount": 707000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -6220,7 +6346,7 @@
             "high": ""
           },
           "playlistPosition": 19,
-          "viewCount": 102000,
+          "viewCount": 103000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -6377,7 +6503,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 33,
+          "playlistPosition": 34,
           "viewCount": 4500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -6522,7 +6648,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 34,
+          "playlistPosition": 35,
           "viewCount": 1300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -6667,8 +6793,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 35,
-          "viewCount": 540000,
+          "playlistPosition": 36,
+          "viewCount": 541000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -6812,7 +6938,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 36,
+          "playlistPosition": 37,
           "viewCount": 1000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -7031,8 +7157,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 37,
-          "viewCount": 839000,
+          "playlistPosition": 38,
+          "viewCount": 841000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -7250,7 +7376,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 38,
+          "playlistPosition": 39,
           "viewCount": 2600000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -7395,8 +7521,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 39,
-          "viewCount": 365000,
+          "playlistPosition": 40,
+          "viewCount": 366000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -7612,8 +7738,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 40,
-          "viewCount": 553000,
+          "playlistPosition": 41,
+          "viewCount": 554000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -7763,7 +7889,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 41,
+          "playlistPosition": 42,
           "viewCount": 7300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -7984,8 +8110,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 42,
-          "viewCount": 433000,
+          "playlistPosition": 43,
+          "viewCount": 434000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -8131,7 +8257,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 44,
+          "playlistPosition": 45,
           "viewCount": 1300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -8348,8 +8474,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 45,
-          "viewCount": 761000,
+          "playlistPosition": 46,
+          "viewCount": 762000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -8565,7 +8691,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 46,
+          "playlistPosition": 47,
           "viewCount": 1800000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -8786,7 +8912,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 47,
+          "playlistPosition": 48,
           "viewCount": 1100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -9003,7 +9129,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 48,
+          "playlistPosition": 49,
           "viewCount": 1600000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -9150,7 +9276,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 49,
+          "playlistPosition": 50,
           "viewCount": 2200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -9369,7 +9495,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 50,
+          "playlistPosition": 51,
           "viewCount": 1300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -9514,7 +9640,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 51,
+          "playlistPosition": 52,
           "viewCount": 2400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -9733,7 +9859,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 52,
+          "playlistPosition": 53,
           "viewCount": 1100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -9793,7 +9919,7 @@
             "high": ""
           },
           "playlistPosition": 32,
-          "viewCount": 126000,
+          "viewCount": 127000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -9950,7 +10076,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 53,
+          "playlistPosition": 54,
           "viewCount": 1400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -10105,7 +10231,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 54,
+          "playlistPosition": 55,
           "viewCount": 2000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -10165,7 +10291,7 @@
             "high": ""
           },
           "playlistPosition": 34,
-          "viewCount": 932000,
+          "viewCount": 934000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -10332,8 +10458,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 55,
-          "viewCount": 1400000,
+          "playlistPosition": 56,
+          "viewCount": 1500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -10481,8 +10607,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 56,
-          "viewCount": 751000,
+          "playlistPosition": 57,
+          "viewCount": 752000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -10683,8 +10809,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 57,
-          "viewCount": 877000,
+          "playlistPosition": 58,
+          "viewCount": 879000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -10812,7 +10938,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 58,
+          "playlistPosition": 59,
           "viewCount": 1100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -10956,7 +11082,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 59,
+          "playlistPosition": 60,
           "viewCount": 3500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -11086,7 +11212,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 60,
+          "playlistPosition": 61,
           "viewCount": 2700000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -11232,7 +11358,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 61,
+          "playlistPosition": 62,
           "viewCount": 2700000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -11453,7 +11579,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 62,
+          "playlistPosition": 63,
           "viewCount": 2300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -11598,7 +11724,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 63,
+          "playlistPosition": 64,
           "viewCount": 804000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -11745,7 +11871,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 64,
+          "playlistPosition": 65,
           "viewCount": 1700000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -11805,7 +11931,7 @@
             "high": ""
           },
           "playlistPosition": 29,
-          "viewCount": 582000,
+          "viewCount": 583000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -11966,7 +12092,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 65,
+          "playlistPosition": 66,
           "viewCount": 2300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -12183,7 +12309,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 66,
+          "playlistPosition": 67,
           "viewCount": 3200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -12243,7 +12369,7 @@
             "high": ""
           },
           "playlistPosition": 38,
-          "viewCount": 675000,
+          "viewCount": 676000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -12402,8 +12528,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 67,
-          "viewCount": 830000,
+          "playlistPosition": 68,
+          "viewCount": 831000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -12619,7 +12745,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 68,
+          "playlistPosition": 69,
           "viewCount": 1700000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -12764,7 +12890,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 69,
+          "playlistPosition": 70,
           "viewCount": 4400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -12983,7 +13109,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 70,
+          "playlistPosition": 71,
           "viewCount": 2400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -13043,7 +13169,7 @@
             "high": ""
           },
           "playlistPosition": 42,
-          "viewCount": 551000,
+          "viewCount": 552000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -13200,7 +13326,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 71,
+          "playlistPosition": 72,
           "viewCount": 9800000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -13419,7 +13545,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 72,
+          "playlistPosition": 73,
           "viewCount": 2500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -13574,7 +13700,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 73,
+          "playlistPosition": 74,
           "viewCount": 2100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -13721,7 +13847,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 74,
+          "playlistPosition": 75,
           "viewCount": 3500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -13938,7 +14064,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 75,
+          "playlistPosition": 76,
           "viewCount": 2200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -14083,7 +14209,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 76,
+          "playlistPosition": 77,
           "viewCount": 1400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -14300,7 +14426,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 77,
+          "playlistPosition": 78,
           "viewCount": 20000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -14523,7 +14649,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 78,
+          "playlistPosition": 79,
           "viewCount": 497000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -14740,8 +14866,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 79,
-          "viewCount": 2600000,
+          "playlistPosition": 80,
+          "viewCount": 2700000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -14884,7 +15010,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 80,
+          "playlistPosition": 81,
           "viewCount": 3900000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -15031,7 +15157,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 81,
+          "playlistPosition": 82,
           "viewCount": 11000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -15252,7 +15378,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 82,
+          "playlistPosition": 83,
           "viewCount": 2800000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -15311,7 +15437,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 165,
+          "playlistPosition": 166,
           "viewCount": 523000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -15370,7 +15496,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 272,
+          "playlistPosition": 273,
           "viewCount": 13000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -15514,7 +15640,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 83,
+          "playlistPosition": 84,
           "viewCount": 1200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -15573,7 +15699,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 84,
+          "playlistPosition": 85,
           "viewCount": 6200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -15728,7 +15854,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 85,
+          "playlistPosition": 86,
           "viewCount": 2700000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -15879,7 +16005,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 86,
+          "playlistPosition": 87,
           "viewCount": 378000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -15938,7 +16064,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 87,
+          "playlistPosition": 88,
           "viewCount": 3900000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -16089,7 +16215,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 88,
+          "playlistPosition": 89,
           "viewCount": 602000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -16148,7 +16274,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 89,
+          "playlistPosition": 90,
           "viewCount": 3200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -16299,7 +16425,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 90,
+          "playlistPosition": 91,
           "viewCount": 591000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -16358,7 +16484,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 91,
+          "playlistPosition": 92,
           "viewCount": 5300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -16513,7 +16639,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 92,
+          "playlistPosition": 93,
           "viewCount": 3500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -16573,7 +16699,7 @@
             "high": ""
           },
           "playlistPosition": 52,
-          "viewCount": 846000,
+          "viewCount": 847000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -16738,7 +16864,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 93,
+          "playlistPosition": 94,
           "viewCount": 714000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -16797,7 +16923,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 94,
+          "playlistPosition": 95,
           "viewCount": 6700000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -16948,7 +17074,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 95,
+          "playlistPosition": 96,
           "viewCount": 1100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -17007,7 +17133,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 96,
+          "playlistPosition": 97,
           "viewCount": 13000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -17152,7 +17278,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 97,
+          "playlistPosition": 98,
           "viewCount": 4000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -17369,7 +17495,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 98,
+          "playlistPosition": 99,
           "viewCount": 3100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -17428,7 +17554,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 101,
+          "playlistPosition": 102,
           "viewCount": 1200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -17651,7 +17777,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 99,
+          "playlistPosition": 100,
           "viewCount": 5800000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -17870,7 +17996,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 100,
+          "playlistPosition": 101,
           "viewCount": 4200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -18015,7 +18141,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 102,
+          "playlistPosition": 103,
           "viewCount": 1300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -18162,7 +18288,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 103,
+          "playlistPosition": 104,
           "viewCount": 8900000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -18222,7 +18348,7 @@
             "high": ""
           },
           "playlistPosition": 25,
-          "viewCount": 564000,
+          "viewCount": 566000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -18379,7 +18505,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 104,
+          "playlistPosition": 105,
           "viewCount": 8700000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -18596,7 +18722,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 105,
+          "playlistPosition": 106,
           "viewCount": 1100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -18745,7 +18871,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 106,
+          "playlistPosition": 107,
           "viewCount": 2100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -18964,7 +19090,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 107,
+          "playlistPosition": 108,
           "viewCount": 1300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -19183,7 +19309,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 108,
+          "playlistPosition": 109,
           "viewCount": 4200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -19400,7 +19526,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 109,
+          "playlistPosition": 110,
           "viewCount": 19000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -19547,7 +19673,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 110,
+          "playlistPosition": 111,
           "viewCount": 1500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -19774,7 +19900,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 111,
+          "playlistPosition": 112,
           "viewCount": 5800000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -19834,7 +19960,7 @@
             "high": ""
           },
           "playlistPosition": 61,
-          "viewCount": 780000,
+          "viewCount": 781000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -19993,7 +20119,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 112,
+          "playlistPosition": 113,
           "viewCount": 1600000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -20212,7 +20338,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 113,
+          "playlistPosition": 114,
           "viewCount": 2300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -20436,7 +20562,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 115,
+          "playlistPosition": 116,
           "viewCount": 1000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -20583,7 +20709,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 116,
+          "playlistPosition": 117,
           "viewCount": 2900000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -20732,7 +20858,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 117,
+          "playlistPosition": 118,
           "viewCount": 8200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -20951,7 +21077,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 118,
+          "playlistPosition": 119,
           "viewCount": 7000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -21174,7 +21300,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 119,
+          "playlistPosition": 120,
           "viewCount": 285000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -21233,7 +21359,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 257,
+          "playlistPosition": 258,
           "viewCount": 1600000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -21380,7 +21506,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 120,
+          "playlistPosition": 121,
           "viewCount": 5400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -21601,7 +21727,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 121,
+          "playlistPosition": 122,
           "viewCount": 12000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -21820,7 +21946,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 122,
+          "playlistPosition": 123,
           "viewCount": 7100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -21965,7 +22091,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 123,
+          "playlistPosition": 124,
           "viewCount": 2400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -22112,7 +22238,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 124,
+          "playlistPosition": 125,
           "viewCount": 5100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -22333,7 +22459,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 125,
+          "playlistPosition": 126,
           "viewCount": 4400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -22393,7 +22519,7 @@
             "high": ""
           },
           "playlistPosition": 58,
-          "viewCount": 948000,
+          "viewCount": 949000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -22552,7 +22678,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 126,
+          "playlistPosition": 127,
           "viewCount": 1100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -22703,7 +22829,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 127,
+          "playlistPosition": 128,
           "viewCount": 381000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -22848,7 +22974,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 128,
+          "playlistPosition": 129,
           "viewCount": 5800000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -22908,7 +23034,7 @@
             "high": ""
           },
           "playlistPosition": 68,
-          "viewCount": 795000,
+          "viewCount": 796000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -23075,7 +23201,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 129,
+          "playlistPosition": 130,
           "viewCount": 11000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -23220,7 +23346,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 130,
+          "playlistPosition": 131,
           "viewCount": 15000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -23367,7 +23493,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 131,
+          "playlistPosition": 132,
           "viewCount": 2800000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -23427,7 +23553,7 @@
             "high": ""
           },
           "playlistPosition": 71,
-          "viewCount": 718000,
+          "viewCount": 719000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -23584,7 +23710,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 132,
+          "playlistPosition": 133,
           "viewCount": 7400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -23803,7 +23929,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 133,
+          "playlistPosition": 134,
           "viewCount": 1500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -23950,7 +24076,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 134,
+          "playlistPosition": 135,
           "viewCount": 3300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -24169,7 +24295,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 135,
+          "playlistPosition": 136,
           "viewCount": 4600000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -24318,7 +24444,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 136,
+          "playlistPosition": 137,
           "viewCount": 5400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -24535,7 +24661,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 137,
+          "playlistPosition": 138,
           "viewCount": 1100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -24752,7 +24878,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 138,
+          "playlistPosition": 139,
           "viewCount": 3500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -24971,7 +25097,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 139,
+          "playlistPosition": 140,
           "viewCount": 4200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -25031,7 +25157,7 @@
             "high": ""
           },
           "playlistPosition": 81,
-          "viewCount": 533000,
+          "viewCount": 534000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -25188,7 +25314,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 140,
+          "playlistPosition": 141,
           "viewCount": 2500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -25333,7 +25459,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 141,
+          "playlistPosition": 142,
           "viewCount": 3100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -25550,7 +25676,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 142,
+          "playlistPosition": 143,
           "viewCount": 10000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -25699,7 +25825,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 143,
+          "playlistPosition": 144,
           "viewCount": 9400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -25916,7 +26042,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 144,
+          "playlistPosition": 145,
           "viewCount": 1900000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -26063,7 +26189,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 145,
+          "playlistPosition": 146,
           "viewCount": 3300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -26218,7 +26344,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 146,
+          "playlistPosition": 147,
           "viewCount": 7300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -26447,7 +26573,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 147,
+          "playlistPosition": 148,
           "viewCount": 950000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -26598,8 +26724,8 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 148,
-          "viewCount": 497000,
+          "playlistPosition": 149,
+          "viewCount": 498000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
           "sourceName": "官方 2DMV Playlist",
@@ -26745,7 +26871,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 149,
+          "playlistPosition": 150,
           "viewCount": 1800000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -26894,7 +27020,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 150,
+          "playlistPosition": 151,
           "viewCount": 11000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -27117,7 +27243,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 151,
+          "playlistPosition": 152,
           "viewCount": 4200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -27336,7 +27462,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 152,
+          "playlistPosition": 153,
           "viewCount": 10000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -27483,7 +27609,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 153,
+          "playlistPosition": 154,
           "viewCount": 2200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -27628,7 +27754,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 154,
+          "playlistPosition": 155,
           "viewCount": 7400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -27775,7 +27901,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 155,
+          "playlistPosition": 156,
           "viewCount": 5000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -27998,7 +28124,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 156,
+          "playlistPosition": 157,
           "viewCount": 1100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -28217,7 +28343,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 157,
+          "playlistPosition": 158,
           "viewCount": 1600000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -28362,7 +28488,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 158,
+          "playlistPosition": 159,
           "viewCount": 9700000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -28581,7 +28707,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 159,
+          "playlistPosition": 160,
           "viewCount": 4300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -28728,7 +28854,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 160,
+          "playlistPosition": 161,
           "viewCount": 1000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -28953,7 +29079,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 161,
+          "playlistPosition": 162,
           "viewCount": 17000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -29171,7 +29297,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 162,
+          "playlistPosition": 163,
           "viewCount": 3300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -29315,7 +29441,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 163,
+          "playlistPosition": 164,
           "viewCount": 4300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -29462,7 +29588,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 164,
+          "playlistPosition": 165,
           "viewCount": 4000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -29609,7 +29735,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 166,
+          "playlistPosition": 167,
           "viewCount": 3300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -29754,7 +29880,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 167,
+          "playlistPosition": 168,
           "viewCount": 5200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -29901,7 +30027,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 168,
+          "playlistPosition": 169,
           "viewCount": 1300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -30048,7 +30174,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 169,
+          "playlistPosition": 170,
           "viewCount": 1300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -30264,7 +30390,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 170,
+          "playlistPosition": 171,
           "viewCount": 5800000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -30411,7 +30537,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 171,
+          "playlistPosition": 172,
           "viewCount": 2900000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -30558,7 +30684,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 172,
+          "playlistPosition": 173,
           "viewCount": 887000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -30705,7 +30831,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 173,
+          "playlistPosition": 174,
           "viewCount": 3100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -30924,7 +31050,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 174,
+          "playlistPosition": 175,
           "viewCount": 4000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -31069,7 +31195,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 175,
+          "playlistPosition": 176,
           "viewCount": 3400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -31288,7 +31414,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 176,
+          "playlistPosition": 177,
           "viewCount": 11000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -31435,7 +31561,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 177,
+          "playlistPosition": 178,
           "viewCount": 3500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -31582,7 +31708,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 178,
+          "playlistPosition": 179,
           "viewCount": 1600000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -31735,7 +31861,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 179,
+          "playlistPosition": 180,
           "viewCount": 668000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -31794,7 +31920,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 267,
+          "playlistPosition": 268,
           "viewCount": 3700000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -31939,7 +32065,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 180,
+          "playlistPosition": 181,
           "viewCount": 18000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -32158,7 +32284,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 181,
+          "playlistPosition": 182,
           "viewCount": 1400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -32377,7 +32503,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 182,
+          "playlistPosition": 183,
           "viewCount": 4000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -32519,7 +32645,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 183,
+          "playlistPosition": 184,
           "viewCount": 6500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -32579,7 +32705,7 @@
             "high": ""
           },
           "playlistPosition": 109,
-          "viewCount": 759000,
+          "viewCount": 760000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -32736,7 +32862,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 184,
+          "playlistPosition": 185,
           "viewCount": 13000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -32967,7 +33093,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 185,
+          "playlistPosition": 186,
           "viewCount": 12000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -33186,7 +33312,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 186,
+          "playlistPosition": 187,
           "viewCount": 7800000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -33341,7 +33467,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 187,
+          "playlistPosition": 188,
           "viewCount": 603000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -33400,7 +33526,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 261,
+          "playlistPosition": 262,
           "viewCount": 3000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -33547,7 +33673,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 188,
+          "playlistPosition": 189,
           "viewCount": 5700000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -33765,7 +33891,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 189,
+          "playlistPosition": 190,
           "viewCount": 4700000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -33912,7 +34038,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 190,
+          "playlistPosition": 191,
           "viewCount": 3000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -34069,7 +34195,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 191,
+          "playlistPosition": 192,
           "viewCount": 1100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -34290,7 +34416,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 192,
+          "playlistPosition": 193,
           "viewCount": 10000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -34437,7 +34563,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 193,
+          "playlistPosition": 194,
           "viewCount": 8400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -34584,7 +34710,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 194,
+          "playlistPosition": 195,
           "viewCount": 2500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -34805,7 +34931,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 195,
+          "playlistPosition": 196,
           "viewCount": 3900000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -34952,7 +35078,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 196,
+          "playlistPosition": 197,
           "viewCount": 16000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -35173,7 +35299,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 197,
+          "playlistPosition": 198,
           "viewCount": 2700000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -35324,7 +35450,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 199,
+          "playlistPosition": 200,
           "viewCount": 2700000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -35383,7 +35509,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 213,
+          "playlistPosition": 214,
           "viewCount": 953000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -35534,7 +35660,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 200,
+          "playlistPosition": 201,
           "viewCount": 5600000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -35683,7 +35809,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 201,
+          "playlistPosition": 202,
           "viewCount": 12000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -35904,7 +36030,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 202,
+          "playlistPosition": 203,
           "viewCount": 7300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -36119,7 +36245,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 203,
+          "playlistPosition": 204,
           "viewCount": 10000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -36342,7 +36468,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 204,
+          "playlistPosition": 205,
           "viewCount": 9300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -36565,7 +36691,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 205,
+          "playlistPosition": 206,
           "viewCount": 5700000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -36792,7 +36918,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 206,
+          "playlistPosition": 207,
           "viewCount": 15000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -37016,7 +37142,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 207,
+          "playlistPosition": 208,
           "viewCount": 11000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -37233,7 +37359,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 208,
+          "playlistPosition": 209,
           "viewCount": 9700000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -37452,7 +37578,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 209,
+          "playlistPosition": 210,
           "viewCount": 3900000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -37599,7 +37725,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 210,
+          "playlistPosition": 211,
           "viewCount": 1200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -37746,7 +37872,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 211,
+          "playlistPosition": 212,
           "viewCount": 5100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -37895,7 +38021,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 212,
+          "playlistPosition": 213,
           "viewCount": 6100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -38114,7 +38240,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 214,
+          "playlistPosition": 215,
           "viewCount": 14000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -38333,7 +38459,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 215,
+          "playlistPosition": 216,
           "viewCount": 10000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -38480,7 +38606,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 216,
+          "playlistPosition": 217,
           "viewCount": 5300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -38629,7 +38755,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 217,
+          "playlistPosition": 218,
           "viewCount": 2400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -38778,7 +38904,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 218,
+          "playlistPosition": 219,
           "viewCount": 57000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -38997,7 +39123,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 219,
+          "playlistPosition": 220,
           "viewCount": 3200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -39142,7 +39268,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 220,
+          "playlistPosition": 221,
           "viewCount": 7800000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -39359,7 +39485,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 221,
+          "playlistPosition": 222,
           "viewCount": 12000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -39506,7 +39632,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 222,
+          "playlistPosition": 223,
           "viewCount": 4400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -39653,7 +39779,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 223,
+          "playlistPosition": 224,
           "viewCount": 4800000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -39802,7 +39928,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 224,
+          "playlistPosition": 225,
           "viewCount": 12000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -40023,7 +40149,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 225,
+          "playlistPosition": 226,
           "viewCount": 4300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -40170,7 +40296,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 226,
+          "playlistPosition": 227,
           "viewCount": 3400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -40391,7 +40517,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 227,
+          "playlistPosition": 228,
           "viewCount": 1300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -40450,7 +40576,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 271,
+          "playlistPosition": 272,
           "viewCount": 1500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -40663,7 +40789,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 228,
+          "playlistPosition": 229,
           "viewCount": 11000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -40810,7 +40936,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 229,
+          "playlistPosition": 230,
           "viewCount": 3900000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -40961,7 +41087,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 230,
+          "playlistPosition": 231,
           "viewCount": 4900000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -41182,7 +41308,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 231,
+          "playlistPosition": 232,
           "viewCount": 3900000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -41326,7 +41452,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 232,
+          "playlistPosition": 233,
           "viewCount": 14000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -41473,7 +41599,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 233,
+          "playlistPosition": 234,
           "viewCount": 2200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -41618,7 +41744,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 234,
+          "playlistPosition": 235,
           "viewCount": 5200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -41765,7 +41891,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 235,
+          "playlistPosition": 236,
           "viewCount": 14000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -41907,7 +42033,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 236,
+          "playlistPosition": 237,
           "viewCount": 7800000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -42052,7 +42178,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 237,
+          "playlistPosition": 238,
           "viewCount": 2900000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -42199,7 +42325,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 238,
+          "playlistPosition": 239,
           "viewCount": 4100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -42344,7 +42470,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 239,
+          "playlistPosition": 240,
           "viewCount": 24000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -42493,7 +42619,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 240,
+          "playlistPosition": 241,
           "viewCount": 4600000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -42711,7 +42837,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 241,
+          "playlistPosition": 242,
           "viewCount": 8300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -42860,7 +42986,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 242,
+          "playlistPosition": 243,
           "viewCount": 6100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -43081,7 +43207,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 243,
+          "playlistPosition": 244,
           "viewCount": 5200000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -43228,7 +43354,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 244,
+          "playlistPosition": 245,
           "viewCount": 32000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -43447,7 +43573,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 245,
+          "playlistPosition": 246,
           "viewCount": 2800000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -43594,7 +43720,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 246,
+          "playlistPosition": 247,
           "viewCount": 6100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -43743,7 +43869,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 247,
+          "playlistPosition": 248,
           "viewCount": 4000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -43960,7 +44086,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 248,
+          "playlistPosition": 249,
           "viewCount": 1800000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -44109,7 +44235,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 249,
+          "playlistPosition": 250,
           "viewCount": 15000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -44328,7 +44454,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 250,
+          "playlistPosition": 251,
           "viewCount": 2100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -44477,7 +44603,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 251,
+          "playlistPosition": 252,
           "viewCount": 26000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -44700,7 +44826,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 252,
+          "playlistPosition": 253,
           "viewCount": 17000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -44847,7 +44973,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 253,
+          "playlistPosition": 254,
           "viewCount": 3500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -44994,7 +45120,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 254,
+          "playlistPosition": 255,
           "viewCount": 8400000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -45143,7 +45269,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 255,
+          "playlistPosition": 256,
           "viewCount": 17000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -45364,7 +45490,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 256,
+          "playlistPosition": 257,
           "viewCount": 4800000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -45511,7 +45637,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 258,
+          "playlistPosition": 259,
           "viewCount": 10000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -45656,7 +45782,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 259,
+          "playlistPosition": 260,
           "viewCount": 10000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -45715,7 +45841,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 273,
+          "playlistPosition": 274,
           "viewCount": 3900000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -45934,7 +46060,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 260,
+          "playlistPosition": 261,
           "viewCount": 6300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -46085,7 +46211,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 262,
+          "playlistPosition": 263,
           "viewCount": 2100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -46303,7 +46429,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 263,
+          "playlistPosition": 264,
           "viewCount": 4800000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -46450,7 +46576,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 264,
+          "playlistPosition": 265,
           "viewCount": 9100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -46597,7 +46723,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 265,
+          "playlistPosition": 266,
           "viewCount": 4000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -46818,7 +46944,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 266,
+          "playlistPosition": 267,
           "viewCount": 5600000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -47037,7 +47163,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 268,
+          "playlistPosition": 269,
           "viewCount": 5500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -47188,7 +47314,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 269,
+          "playlistPosition": 270,
           "viewCount": 15000000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -47411,7 +47537,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 270,
+          "playlistPosition": 271,
           "viewCount": 5600000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -47628,7 +47754,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 274,
+          "playlistPosition": 275,
           "viewCount": 9300000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -47775,7 +47901,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 275,
+          "playlistPosition": 276,
           "viewCount": 5500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -47920,7 +48046,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 276,
+          "playlistPosition": 277,
           "viewCount": 6600000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -48139,7 +48265,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 277,
+          "playlistPosition": 278,
           "viewCount": 2600000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -48286,7 +48412,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 278,
+          "playlistPosition": 279,
           "viewCount": 1500000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -48437,7 +48563,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 279,
+          "playlistPosition": 280,
           "viewCount": 8100000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -48496,7 +48622,7 @@
             "medium": "",
             "high": ""
           },
-          "playlistPosition": 280,
+          "playlistPosition": 281,
           "viewCount": 5700000,
           "likeCount": 0,
           "sourceKey": "official_2dmv",
@@ -48578,132 +48704,6 @@
       }
     },
     {
-      "id": "song_6周年アニバーサリーソング『エメラルド』",
-      "sekaiMusicId": null,
-      "title": "6周年アニバーサリーソング『エメラルド』",
-      "titleJp": "6周年アニバーサリーソング『エメラルド』",
-      "titleRomaji": null,
-      "titleEn": null,
-      "aliases": [],
-      "creators": {},
-      "classification": {
-        "units": [],
-        "virtualSingers": [],
-        "category": "cover",
-        "mvType": null,
-        "tags": [
-          "官方MV"
-        ]
-      },
-      "dates": {
-        "sekaiReleaseDate": null,
-        "youtubeUploadDate": null,
-        "originalReleaseDate": null
-      },
-      "gameData": {},
-      "videos": [
-        {
-          "type": "official_2dmv",
-          "variant": "unit_version",
-          "version": {
-            "base": "sekai",
-            "special": [],
-            "label": "SEKAI ver",
-            "source": "manual_override"
-          },
-          "videoId": "-jH80xvHX-E",
-          "url": "https://www.youtube.com/watch?v=-jH80xvHX-E",
-          "title": "6周年アニバーサリーソング『エメラルド』",
-          "description": "",
-          "channelTitle": "プロジェクトセカイ カラフルステージ! feat. 初音ミク",
-          "channelId": "UCdMGYXL38w6htx6Yf9YJa-w",
-          "uploadDate": "",
-          "thumbnails": {
-            "default": "",
-            "medium": "",
-            "high": ""
-          },
-          "playlistPosition": 281,
-          "viewCount": 0,
-          "likeCount": 0,
-          "sourceKey": "official_2dmv",
-          "sourceName": "官方 2DMV Playlist",
-          "sourceKind": "playlist",
-          "sourceUrl": "https://www.youtube.com/playlist?list=PLiFNg5fXiX32G3fNBC7U02t19zVkHAmdD",
-          "staff": {
-            "illustrators": [],
-            "pvCreators": [],
-            "otherRoles": {
-              "illustrationAnimation": [],
-              "lyricDesign": [],
-              "animation": [],
-              "design": [],
-              "cg3d": [],
-              "direction": [],
-              "storyboard": [],
-              "compositing": [],
-              "editing": [],
-              "production": [],
-              "productionSupport": [],
-              "lyricist": [],
-              "composer": [],
-              "arranger": [],
-              "vocalist": [],
-              "musician": [],
-              "mixing": [],
-              "mastering": [],
-              "vocalEdit": [],
-              "musicProduction": [],
-              "unknown": []
-            },
-            "contributors": [],
-            "unparsedLines": [],
-            "unknownRoleLines": []
-          }
-        }
-      ],
-      "staffSummary": {
-        "illustrators": [],
-        "pvCreators": [],
-        "otherRoles": {
-          "illustrationAnimation": [],
-          "lyricDesign": [],
-          "animation": [],
-          "design": [],
-          "cg3d": [],
-          "direction": [],
-          "storyboard": [],
-          "compositing": [],
-          "editing": [],
-          "production": [],
-          "productionSupport": [],
-          "lyricist": [],
-          "composer": [],
-          "arranger": [],
-          "vocalist": [],
-          "musician": [],
-          "mixing": [],
-          "mastering": [],
-          "vocalEdit": [],
-          "musicProduction": [],
-          "unknown": []
-        },
-        "allContributors": []
-      },
-      "performerSummary": {
-        "performers": []
-      },
-      "videoVersionSummary": {
-        "bases": [
-          "sekai"
-        ],
-        "special": [],
-        "labels": [
-          "SEKAI ver"
-        ]
-      }
-    },
-    {
       "id": "song_Emerald",
       "sekaiMusicId": null,
       "title": "Emerald",
@@ -48753,7 +48753,7 @@
             "high": ""
           },
           "playlistPosition": 1,
-          "viewCount": 611000,
+          "viewCount": 619000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -48908,7 +48908,7 @@
             "high": ""
           },
           "playlistPosition": 2,
-          "viewCount": 490000,
+          "viewCount": 502000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -49049,7 +49049,7 @@
             "high": ""
           },
           "playlistPosition": 3,
-          "viewCount": 414000,
+          "viewCount": 416000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -49491,7 +49491,7 @@
             "high": ""
           },
           "playlistPosition": 27,
-          "viewCount": 1400000,
+          "viewCount": 1500000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -50815,7 +50815,7 @@
             "high": ""
           },
           "playlistPosition": 66,
-          "viewCount": 793000,
+          "viewCount": 794000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
@@ -54494,7 +54494,7 @@
             "high": ""
           },
           "playlistPosition": 122,
-          "viewCount": 825000,
+          "viewCount": 826000,
           "likeCount": 0,
           "sourceKey": "commissioned_original_mv",
           "sourceName": "书下曲本家 MV Playlist",
