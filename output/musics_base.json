@@ -1,22 +1,22 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "generatedAt": "2026-11-05T05:01:12.754779",
+    "generatedAt": "2026-11-06T05:00:49.919941",
     "sources": [
       "sekai-master-db-diff-main/musics.json",
       "sekai-master-db-diff-main/musicTags.json",
       "sekai-master-db-diff-main/musicOriginals.json"
     ],
     "stats": {
-      "totalSongs": 739,
-      "songsWithOriginalVideoLink": 514,
+      "totalSongs": 741,
+      "songsWithOriginalVideoLink": 515,
       "unitBreakdown": {
         "Leo/need": 93,
         "MORE MORE JUMP!": 92,
         "Vivid BAD SQUAD": 93,
         "Wonderlands x Showtime": 93,
-        "25-ji, Nightcord de.": 91,
-        "Virtual Singer": 478
+        "25-ji, Nightcord de.": 92,
+        "Virtual Singer": 479
       }
     }
   },
@@ -18313,6 +18313,31 @@
       "originalVideoLink": null
     },
     {
+      "id": 761,
+      "seq": 2671101,
+      "title": "星を探して♭♭",
+      "pronunciation": "ほしをさがして",
+      "lyricist": "原口沙輔",
+      "composer": "原口沙輔",
+      "arranger": "原口沙輔",
+      "categories": [],
+      "publishedAt": "2026-11-08 22:05:00",
+      "releasedAt": "2026-11-08 00:00:00",
+      "isNewlyWrittenMusic": true,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "school_refusal"
+      ],
+      "unitTags": [
+        "school_refusal"
+      ],
+      "units": [
+        "25-ji, Nightcord de."
+      ],
+      "originalVideoLink": null
+    },
+    {
       "id": 763,
       "seq": 1670201,
       "title": "ハイドレンジア",
@@ -18549,6 +18574,31 @@
         "Virtual Singer"
       ],
       "originalVideoLink": "https://youtu.be/Q4hxAaOap6k"
+    },
+    {
+      "id": 782,
+      "seq": 1171001,
+      "title": "プシ",
+      "pronunciation": "ぷし",
+      "lyricist": "r-906",
+      "composer": "r-906",
+      "arranger": "r-906",
+      "categories": [],
+      "publishedAt": "2026-11-06 15:00:00",
+      "releasedAt": "2022-12-22 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://youtu.be/efXqozK4A40"
     },
     {
       "id": 783,

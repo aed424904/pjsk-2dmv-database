@@ -45259,6 +45259,68 @@
     ]
   },
   {
+    "id": 761,
+    "title": "星を探して♭♭",
+    "creators": {
+      "creatorArtistId": 230,
+      "creatorArtistName": "原口沙輔",
+      "lyricist": "原口沙輔",
+      "composer": "原口沙輔",
+      "arranger": "原口沙輔"
+    },
+    "tags": [
+      "all",
+      "school_refusal"
+    ],
+    "categories": [],
+    "songType": "original",
+    "publishedAt": 1794143100000,
+    "releasedAt": 1794096000000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1318,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0761_01"
+      },
+      {
+        "id": 2119,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 17
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 24
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 18
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 19
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 20
+          }
+        ],
+        "assetbundleName": "se_0761_01"
+      }
+    ]
+  },
+  {
     "id": 763,
     "title": "ハイドレンジア",
     "creators": {
@@ -45710,6 +45772,40 @@
           }
         ],
         "assetbundleName": "vs_0776_01"
+      }
+    ]
+  },
+  {
+    "id": 782,
+    "title": "プシ",
+    "creators": {
+      "creatorArtistId": 205,
+      "creatorArtistName": "r-906",
+      "lyricist": "r-906",
+      "composer": "r-906",
+      "arranger": "r-906"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1793944800000,
+    "releasedAt": 1671667200000,
+    "originalVideoLink": "https://youtu.be/efXqozK4A40",
+    "vocals": [
+      {
+        "id": 1339,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0782_01"
       }
     ]
   },
