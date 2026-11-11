@@ -20574,6 +20574,18 @@
           }
         ],
         "assetbundleName": "af_0320_01"
+      },
+      {
+        "id": 2120,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "an_0320_03"
       }
     ]
   },
@@ -31518,6 +31530,18 @@
           }
         ],
         "assetbundleName": "an_0498_02"
+      },
+      {
+        "id": 2121,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 8
+          }
+        ],
+        "assetbundleName": "an_0498_03"
       }
     ]
   },
@@ -46501,6 +46525,68 @@
     ]
   },
   {
+    "id": 810,
+    "title": "ノーモアフィクション",
+    "creators": {
+      "creatorArtistId": 288,
+      "creatorArtistName": "晴いちばん",
+      "lyricist": "晴いちばん",
+      "composer": "晴いちばん",
+      "arranger": "晴いちばん"
+    },
+    "tags": [
+      "all",
+      "idol"
+    ],
+    "categories": [],
+    "songType": "original",
+    "publishedAt": 1794376800000,
+    "releasedAt": 1794355200000,
+    "originalVideoLink": null,
+    "vocals": [
+      {
+        "id": 1854,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0810_01"
+      },
+      {
+        "id": 2122,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 8
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 5
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 6
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 7
+          }
+        ],
+        "assetbundleName": "se_0810_01"
+      }
+    ]
+  },
+  {
     "id": 811,
     "title": "ヘレディティ",
     "creators": {
@@ -46777,6 +46863,40 @@
           }
         ],
         "assetbundleName": "vs_0825_01"
+      }
+    ]
+  },
+  {
+    "id": 826,
+    "title": "スロウライト",
+    "creators": {
+      "creatorArtistId": 352,
+      "creatorArtistName": "パンタレイ",
+      "lyricist": "パンタレイ",
+      "composer": "パンタレイ",
+      "arranger": "パンタレイ"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1794808800000,
+    "releasedAt": 1785369600000,
+    "originalVideoLink": "https://youtu.be/S2U_yNp8udk?si=_OyM7v6eH1DgAlh7",
+    "vocals": [
+      {
+        "id": 1870,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0826_01"
       }
     ]
   },

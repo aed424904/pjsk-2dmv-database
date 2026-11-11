@@ -1,22 +1,22 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "generatedAt": "2026-11-10T05:53:44.103523",
+    "generatedAt": "2026-11-11T04:39:05.882374",
     "sources": [
       "sekai-master-db-diff-main/musics.json",
       "sekai-master-db-diff-main/musicTags.json",
       "sekai-master-db-diff-main/musicOriginals.json"
     ],
     "stats": {
-      "totalSongs": 741,
-      "songsWithOriginalVideoLink": 515,
+      "totalSongs": 743,
+      "songsWithOriginalVideoLink": 516,
       "unitBreakdown": {
         "Leo/need": 93,
-        "MORE MORE JUMP!": 92,
+        "MORE MORE JUMP!": 93,
         "Vivid BAD SQUAD": 93,
         "Wonderlands x Showtime": 93,
         "25-ji, Nightcord de.": 92,
-        "Virtual Singer": 479
+        "Virtual Singer": 480
       }
     }
   },
@@ -18989,6 +18989,31 @@
       "originalVideoLink": "https://youtu.be/j5UzDdUmI7s?si=sMKfYCyLicI5HntZ"
     },
     {
+      "id": 810,
+      "seq": 2371201,
+      "title": "ノーモアフィクション",
+      "pronunciation": "のーもあふぃくしょん",
+      "lyricist": "晴いちばん",
+      "composer": "晴いちばん",
+      "arranger": "晴いちばん",
+      "categories": [],
+      "publishedAt": "2026-11-11 15:00:00",
+      "releasedAt": "2026-11-11 00:00:00",
+      "isNewlyWrittenMusic": true,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "idol"
+      ],
+      "unitTags": [
+        "idol"
+      ],
+      "units": [
+        "MORE MORE JUMP!"
+      ],
+      "originalVideoLink": null
+    },
+    {
       "id": 811,
       "seq": 2568801,
       "title": "ヘレディティ",
@@ -19137,6 +19162,31 @@
         "Virtual Singer"
       ],
       "originalVideoLink": "https://youtu.be/xJzAjJXPkag?si=6e9miaz8O3eWBrhA"
+    },
+    {
+      "id": 826,
+      "seq": 1171301,
+      "title": "スロウライト",
+      "pronunciation": "すろうらいと",
+      "lyricist": "パンタレイ",
+      "composer": "パンタレイ",
+      "arranger": "パンタレイ",
+      "categories": [],
+      "publishedAt": "2026-11-16 15:00:00",
+      "releasedAt": "2026-07-30 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://youtu.be/S2U_yNp8udk?si=_OyM7v6eH1DgAlh7"
     },
     {
       "id": 828,
