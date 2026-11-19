@@ -1,22 +1,22 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "generatedAt": "2026-11-18T05:51:57.431108",
+    "generatedAt": "2026-11-19T05:51:44.535930",
     "sources": [
       "sekai-master-db-diff-main/musics.json",
       "sekai-master-db-diff-main/musicTags.json",
       "sekai-master-db-diff-main/musicOriginals.json"
     ],
     "stats": {
-      "totalSongs": 743,
-      "songsWithOriginalVideoLink": 516,
+      "totalSongs": 745,
+      "songsWithOriginalVideoLink": 518,
       "unitBreakdown": {
         "Leo/need": 93,
         "MORE MORE JUMP!": 93,
         "Vivid BAD SQUAD": 93,
         "Wonderlands x Showtime": 93,
         "25-ji, Nightcord de.": 92,
-        "Virtual Singer": 480
+        "Virtual Singer": 482
       }
     }
   },
@@ -18576,6 +18576,31 @@
       "originalVideoLink": "https://youtu.be/Q4hxAaOap6k"
     },
     {
+      "id": 777,
+      "seq": 2171401,
+      "title": "レグルス（REMIX）",
+      "pronunciation": "れぐるす りみっくす",
+      "lyricist": "ゆうゆ",
+      "composer": "ゆうゆ",
+      "arranger": "かねこちはる",
+      "categories": [],
+      "publishedAt": "2026-11-20 15:00:00",
+      "releasedAt": "2026-10-03 00:00:00",
+      "isNewlyWrittenMusic": true,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://www.youtube.com/watch?v=NgDAc8F4yEA"
+    },
+    {
       "id": 782,
       "seq": 1171001,
       "title": "プシ",
@@ -18862,6 +18887,31 @@
         "Virtual Singer"
       ],
       "originalVideoLink": "https://youtu.be/vbP45z87zf0?si=fyR0G_-xD_4vYF_z"
+    },
+    {
+      "id": 796,
+      "seq": 1171501,
+      "title": "ジグソーパズル",
+      "pronunciation": "じぐそーぱずる",
+      "lyricist": "まふまふ",
+      "composer": "まふまふ",
+      "arranger": "まふまふ",
+      "categories": [],
+      "publishedAt": "2026-11-23 15:00:00",
+      "releasedAt": "2018-11-23 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "vocaloid"
+      ],
+      "unitTags": [
+        "vocaloid"
+      ],
+      "units": [
+        "Virtual Singer"
+      ],
+      "originalVideoLink": "https://www.youtube.com/watch?v=ta9zslmSRqg"
     },
     {
       "id": 802,

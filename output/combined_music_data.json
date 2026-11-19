@@ -18764,6 +18764,30 @@
           }
         ],
         "assetbundleName": "an_0289_03"
+      },
+      {
+        "id": 2123,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 3
+          }
+        ],
+        "assetbundleName": "an_0289_04"
+      },
+      {
+        "id": 2124,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 25
+          }
+        ],
+        "assetbundleName": "an_0289_05"
       }
     ]
   },
@@ -31604,6 +31628,30 @@
           }
         ],
         "assetbundleName": "se_0499_01"
+      },
+      {
+        "id": 2125,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 13
+          }
+        ],
+        "assetbundleName": "an_0499_01"
+      },
+      {
+        "id": 2126,
+        "musicVocalType": "another_vocal",
+        "caption": "アナザーボーカルver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 15
+          }
+        ],
+        "assetbundleName": "an_0499_02"
       }
     ]
   },
@@ -45800,6 +45848,40 @@
     ]
   },
   {
+    "id": 777,
+    "title": "レグルス（REMIX）",
+    "creators": {
+      "creatorArtistId": 345,
+      "creatorArtistName": "ゆうゆ REMIX by かねこちはる",
+      "lyricist": "ゆうゆ",
+      "composer": "ゆうゆ",
+      "arranger": "かねこちはる"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [],
+    "songType": "original",
+    "publishedAt": 1795154400000,
+    "releasedAt": 1790985600000,
+    "originalVideoLink": "https://www.youtube.com/watch?v=NgDAc8F4yEA",
+    "vocals": [
+      {
+        "id": 1334,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 22
+          }
+        ],
+        "assetbundleName": "vs_0777_01"
+      }
+    ]
+  },
+  {
     "id": 782,
     "title": "プシ",
     "creators": {
@@ -46299,6 +46381,40 @@
           }
         ],
         "assetbundleName": "vs_0795_01"
+      }
+    ]
+  },
+  {
+    "id": 796,
+    "title": "ジグソーパズル",
+    "creators": {
+      "creatorArtistId": 27,
+      "creatorArtistName": "まふまふ",
+      "lyricist": "まふまふ",
+      "composer": "まふまふ",
+      "arranger": "まふまふ"
+    },
+    "tags": [
+      "all",
+      "vocaloid"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1795413600000,
+    "releasedAt": 1542931200000,
+    "originalVideoLink": "https://www.youtube.com/watch?v=ta9zslmSRqg",
+    "vocals": [
+      {
+        "id": 1353,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 23
+          }
+        ],
+        "assetbundleName": "vs_0796_01"
       }
     ]
   },
