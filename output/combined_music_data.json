@@ -47069,5 +47069,67 @@
         "assetbundleName": "se_0828_01"
       }
     ]
+  },
+  {
+    "id": 830,
+    "title": "再会",
+    "creators": {
+      "creatorArtistId": 34,
+      "creatorArtistName": "はるまきごはん",
+      "lyricist": "はるまきごはん",
+      "composer": "はるまきごはん",
+      "arranger": "はるまきごはん"
+    },
+    "tags": [
+      "all",
+      "light_music_club"
+    ],
+    "categories": [],
+    "songType": "cover",
+    "publishedAt": 1795759200000,
+    "releasedAt": 1561766400000,
+    "originalVideoLink": "https://www.nicovideo.jp/watch/sm35330510?rf=nvpc&rp=watch&ra=share&rd=x",
+    "vocals": [
+      {
+        "id": 1874,
+        "musicVocalType": "original_song",
+        "caption": "バーチャル・シンガーver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 21
+          }
+        ],
+        "assetbundleName": "vs_0830_01"
+      },
+      {
+        "id": 2127,
+        "musicVocalType": "sekai",
+        "caption": "セカイver.",
+        "characters": [
+          {
+            "characterType": "game_character",
+            "characterId": 24
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 1
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 2
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 3
+          },
+          {
+            "characterType": "game_character",
+            "characterId": 4
+          }
+        ],
+        "assetbundleName": "se_0830_01"
+      }
+    ]
   }
 ]
