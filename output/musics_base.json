@@ -1,17 +1,17 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "generatedAt": "2026-11-26T06:47:22.342187",
+    "generatedAt": "2026-11-27T06:39:32.140782",
     "sources": [
       "sekai-master-db-diff-main/musics.json",
       "sekai-master-db-diff-main/musicTags.json",
       "sekai-master-db-diff-main/musicOriginals.json"
     ],
     "stats": {
-      "totalSongs": 745,
-      "songsWithOriginalVideoLink": 518,
+      "totalSongs": 746,
+      "songsWithOriginalVideoLink": 519,
       "unitBreakdown": {
-        "Leo/need": 93,
+        "Leo/need": 94,
         "MORE MORE JUMP!": 93,
         "Vivid BAD SQUAD": 93,
         "Wonderlands x Showtime": 93,
@@ -19262,6 +19262,31 @@
         "Vivid BAD SQUAD"
       ],
       "originalVideoLink": "https://www.youtube.com/watch?v=AZWrgab8VyE"
+    },
+    {
+      "id": 830,
+      "seq": 1271601,
+      "title": "再会",
+      "pronunciation": "さいかい",
+      "lyricist": "はるまきごはん",
+      "composer": "はるまきごはん",
+      "arranger": "はるまきごはん",
+      "categories": [],
+      "publishedAt": "2026-11-27 15:00:00",
+      "releasedAt": "2019-06-29 00:00:00",
+      "isNewlyWrittenMusic": false,
+      "isFullLength": false,
+      "tags": [
+        "all",
+        "light_music_club"
+      ],
+      "unitTags": [
+        "light_music_club"
+      ],
+      "units": [
+        "Leo/need"
+      ],
+      "originalVideoLink": "https://www.nicovideo.jp/watch/sm35330510?rf=nvpc&rp=watch&ra=share&rd=x"
     }
   ]
 }
